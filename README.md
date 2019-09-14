@@ -12,3 +12,4 @@ The Explore feature of the backend server is vital to understanding the database
 The following sections outlines the different types of visualizations and the code and algorithms used to generate them.
 
 ### 2D Family Network Graphs
+(Subfolder: FamilyGraphs)
