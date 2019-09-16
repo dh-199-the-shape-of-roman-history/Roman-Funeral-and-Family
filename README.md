@@ -11,7 +11,7 @@ The Explore feature of the backend server is vital to understanding the database
 ## The Visualizations and Their Production
 The following sections outlines the different types of visualizations and the code and algorithms used to generate them.
 
-NOTEs: All Python files were made in Python 3.6 and are untested with later versions.
+NOTEs: All Python files were made in Python 3.6 and are untested with later versions.  The D3 version used is 5, and D3-tip version 0.7.1 is used for tooltips. Unity must be run in version 2018.2.13f. Unity uses Photon Unity Netwoeking version 1.91 for multiplayer behavior.
 
 TODO: Merge the python code from all visualizations to standardize it. Produce new algorithms for guessing links between people where they are not present in the database.  Consider statistical approaches and machine learning approaches to this final problem. Try to estimate the number of funerals not represented in the database based off of population estimates and senatorial lists.
 
@@ -51,7 +51,7 @@ TODO: Decouple Unity from Drupal. Set up online and offline modes. Update AllFun
 ### Family Trees
 (Subfolder: Family Trees)
 
-This set of visualizations shows each person in the database within their family tree, using D3.js.  As with the Unity, there are 3 levels of certainty - each Unity funeral in each model is associated with a tree.
+This set of visualizations shows each person in the database within their family tree, using D3.js.  As with the Unity, there are 3 levels of certainty - each Unity funeral in each model is associated with a tree.  Mousing over a node gives information, and clicking opens the DPRR page for that person.  Each node is represented by an icon that shows the person's political position and how they would appear in the funeral procession.
 
 Pipeline:
 * Generate the CSV files from the DPRR backend.
