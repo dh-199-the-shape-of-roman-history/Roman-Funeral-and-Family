@@ -1,0 +1,116 @@
+PREFIX : <http://romanrepublic.ac.uk/rdf/ontology#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX vocab: <http://romanrepublic.ac.uk/rdf/ontology#>
+PREFIX map: <http://romanrepublic.ac.uk/rdf/entity/#>
+PREFIX db: <http://romanrepublic.ac.uk/rdf/entity/>
+
+select ?id ?fatherID
+where {
+  ?aperson a vocab:Person;
+    vocab:isSex <http://romanrepublic.ac.uk/rdf/entity/Sex/Male>;
+    vocab:hasID ?id.
+  ?relAssert a vocab:RelationshipAssertion;
+    vocab:isAboutPerson ?aperson;
+    vocab:hasRelationship <http://romanrepublic.ac.uk/rdf/entity/Relationship/5>;
+    vocab:hasRelatedPerson ?relat.
+  ?relat a vocab:Person;
+    vocab:hasID ?fatherID.
+}
+order by ?id
+
+PREFIX : <http://romanrepublic.ac.uk/rdf/ontology#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX vocab: <http://romanrepublic.ac.uk/rdf/ontology#>
+PREFIX map: <http://romanrepublic.ac.uk/rdf/entity/#>
+PREFIX db: <http://romanrepublic.ac.uk/rdf/entity/>
+
+select ?id ?grandfatherID
+where {
+  ?aperson a vocab:Person;
+    vocab:isSex <http://romanrepublic.ac.uk/rdf/entity/Sex/Male>;
+    vocab:hasID ?id.
+  ?relAssert a vocab:RelationshipAssertion;
+    vocab:isAboutPerson ?aperson;
+    vocab:hasRelationship <http://romanrepublic.ac.uk/rdf/entity/Relationship/19>;
+    vocab:hasRelatedPerson ?relat.
+  ?relat a vocab:Person;
+    vocab:hasID ?grandfatherID.
+}
+order by ?id
+
+
+PREFIX : <http://romanrepublic.ac.uk/rdf/ontology#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX vocab: <http://romanrepublic.ac.uk/rdf/ontology#>
+PREFIX map: <http://romanrepublic.ac.uk/rdf/entity/#>
+PREFIX db: <http://romanrepublic.ac.uk/rdf/entity/>
+
+select ?id ?name
+where {
+  ?aperson a vocab:Person;
+    vocab:isSex <http://romanrepublic.ac.uk/rdf/entity/Sex/Male>;
+    vocab:hasID ?id;
+    vocab:hasName ?name.
+  ?postAssert a vocab:PostAssertion;
+    vocab:hasOffice <http://romanrepublic.ac.uk/rdf/entity/Office/260>;
+    vocab:isAboutPerson ?aperson.
+}
+order by ?id
+
+
+PREFIX : <http://romanrepublic.ac.uk/rdf/ontology#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX vocab: <http://romanrepublic.ac.uk/rdf/ontology#>
+PREFIX map: <http://romanrepublic.ac.uk/rdf/entity/#>
+PREFIX db: <http://romanrepublic.ac.uk/rdf/entity/>
+
+select ?id ?name ?highestOffice ?death
+where {
+  ?aperson a vocab:Person;
+    vocab:isSex <http://romanrepublic.ac.uk/rdf/entity/Sex/Male>;
+    vocab:hasID ?id;
+    vocab:hasName ?name;
+    vocab:hasEraTo ?death;
+    vocab:hasHighestOffice ?highestOffice.
+}
+order by ?id
+
+
+PREFIX : <http://romanrepublic.ac.uk/rdf/ontology#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX vocab: <http://romanrepublic.ac.uk/rdf/ontology#>
+PREFIX map: <http://romanrepublic.ac.uk/rdf/entity/#>
+PREFIX db: <http://romanrepublic.ac.uk/rdf/entity/>
+
+select ?id ?name ?nomen ?cognomen
+where {
+  ?aperson a vocab:Person;
+    vocab:isSex <http://romanrepublic.ac.uk/rdf/entity/Sex/Male>;
+    vocab:hasID ?id;
+    vocab:hasName ?name;
+    vocab:hasNomen ?nomen;
+    vocab:hasCognomen ?cognomen.
+}
+order by ?id
+
+
