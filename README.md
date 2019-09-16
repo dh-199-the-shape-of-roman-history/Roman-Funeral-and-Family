@@ -57,8 +57,8 @@ Pipeline:
 * Generate the CSV files from the DPRR backend.
 * Remove the top 2 rows of each.
 * Run d3TreeGenerator.py to produce a tree for each person for either level of certainty.
-** This uses TreeVertical.html (including D3.js) as a template.
-** Each person appears in exactly 1 graph
+* This uses TreeVertical.html (including D3.js) as a template.
+* Each person appears in exactly 1 graph
 
 TODO: Improve images and spacing.
 
@@ -72,7 +72,7 @@ Pipeline:
 * Generate PersonQuery and RelationshipQuery from the DPRR backend.
 * Remove the top 2 rows of each.
 * Run graphGenerator.py, which reads these files. graphGenerator uses graphTemplate.html (involving D3.js) as a building block to produce graphs
-** Each person appears in exactly 1 graph
+* Each person appears in exactly 1 graph
 
 TODO: Increase readability for large graphs, consider using custom icons for famous people, add tentative connections where other visualizations add them, allow multiple graphs in the same window/file.
 
@@ -85,6 +85,6 @@ Pipeline:
 * Generate PersonQuery and RelationshipQuery from the DPRR backend.
 * Remove the top 2 rows of each.
 * Run 3d_generator.py, which reads these files. 3d_generator uses 3D_Template.html as a building block to produce graphs
-** Each person appears in exactly 1 graph
+* Each person appears in exactly 1 graph
 
 TODO: As above, plus modifty the package for easier navigation and different actions on click.  Update UI to better describe what to do.
