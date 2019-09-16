@@ -1,0 +1,118 @@
+
+<!-- saved from url=(0064)https://vasturiano.github.io/3d-force-graph/example/large-graph/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <style> body { margin: 0; } </style>
+
+  <script src="https://unpkg.com/3d-force-graph"></script>   <style type="text/css">.graph-info-msg {
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: lavender;
+  opacity: 0.7;
+  font-size: 22px;
+  position: absolute;
+  font-family: Sans-serif;
+}
+
+.grabbable {
+  cursor: move;
+  cursor: grab;
+  cursor: -moz-grab;
+  cursor: -webkit-grab;
+}
+
+.grabbable:active {
+  cursor: grabbing;
+  cursor: -moz-grabbing;
+  cursor: -webkit-grabbing;
+}</style><style type="text/css">.scene-nav-info {
+  bottom: 5px;
+  width: 100%;
+  text-align: center;
+  color: slategrey;
+  opacity: 0.7;
+  font-size: 10px;
+}
+
+.scene-tooltip {
+  color: lavender;
+  font-size: 15px;
+}
+
+.scene-nav-info, .scene-tooltip {
+  position: absolute;
+  font-family: sans-serif;
+  pointer-events: none;
+}</style>
+  <!--<script src="../../dist/3d-force-graph.js"></script>-->
+<style type="text/css">.c1-ui-state-hover {background-color:yellow !important; padding:5px !important }</style></head>
+
+<body>
+
+  <div id="3d-graph" style=""><div style="position: relative;"><div><div style="position: relative; width: 1536px; height: 722px;"><div class="scene-nav-info">Left-click: rotate, Mouse-wheel/middle-click: zoom, Right-click: pan</div><div class="scene-tooltip" style="top: 615px; left: 316px; transform: translate(-20.5729%, 21px);"></div><canvas width="1920" height="902" style="width: 1536px; height: 722px;" class=""></canvas></div></div><div class="graph-info-msg"></div></div></div>
+
+  <script>
+    const elem = document.getElementById('3d-graph');
+
+    const gData = {
+nodes: [ 
+ { id: 1, group: 0, name: "IUNI0001 L. Iunius (46a Supb. 5.356ff.) M. f. Brutus", birth: -540, death: -509}],
+links: [ 
+]};
+
+
+let highlightLinks = [];
+let highlightNode = null;
+
+    function getNeighbors(node) {
+      var neighbors = [];
+      gData.links.forEach(link => { if (link.target.id === node.id || link.source.id === node.id) {
+        neighbors.push(link);
+      }});
+      console.log("Neighbors: " + neighbors);
+      return neighbors;
+    }
+function isNeighborLink(node, link) {
+  // console.log(node + " " + link)
+  return link.target.id === node.id || link.source.id === node.id
+}
+
+function getLinkColor(node, link) {
+  return isNeighborLink(node, link) ? 'red' : '#E5E5E5'
+}
+function getTextColor(node, neighbors) {
+  return Array.isArray(neighbors) && neighbors.indexOf(node.id) > -1 ? 'green' : 'black'
+}
+
+    function selectNode(selectedNode) {
+      highlightLinks = getNeighbors(selectedNode);
+      highlightNode = selectedNode;
+      console.log("  " + highlightLinks);
+    }
+
+    function hoverWrapper(node) {
+      elem.style.cursor = node ? 'pointer' : null;
+      if (node != null && highlightNode != node) {
+        selectNode(node);
+        Graph.nodeRelSize(4);
+      }
+    }
+
+    const Graph = ForceGraph3D()(elem)
+      .graphData(gData)
+      .nodeAutoColorBy('group')
+      .nodeLabel(node => `<span style='color:red'>${node.name.substring(0,8)}<br>${node.name.substring(9,node.name.length)}</span><br><strong>Group:</strong> <span style='color:red'>${node.group}</span><br><strong>Born:</strong> <span style='color:red'>${node.birth}</span> <strong>Died:</strong> <span style='color:red'>${node.death}</span>`)
+      .linkWidth(link => highlightLinks.indexOf(link) === -1 ? 1 : 4)
+      .onNodeHover(node => hoverWrapper(node))
+      .onNodeClick(node => window.open(`http://romanrepublic.ac.uk/person/${node.id}/`, '_blank'))
+      .onNodeRightClick(node => {
+          // Aim at node from outside it
+          const distance = 40;
+          const distRatio = 1 + distance/Math.hypot(node.x, node.y, node.z);
+          Graph.cameraPosition(
+            { x: node.x * distRatio, y: node.y * distRatio, z: node.z * distRatio }, // new position
+            node, // lookAt ({ x, y, z })
+            3000  // ms transition duration
+          ); });
+  </script>
+</body></html>
