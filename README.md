@@ -11,7 +11,9 @@ The Explore feature of the backend server is vital to understanding the database
 ## The Visualizations and Their Production
 The following sections outlines the different types of visualizations and the code and algorithms used to generate them.
 
-TODO: Merge the python code from all visualizations to standardize it.
+NOTEs: All Python files were made in Python 3.6 and are untested with later versions.
+
+TODO: Merge the python code from all visualizations to standardize it. Produce new algorithms for guessing links between people where they are not present in the database.  Consider statistical approaches and machine learning approaches to this final problem. Try to estimate the number of funerals not represented in the database based off of population estimates and senatorial lists.
 
 ### SketchUp Visualizations
 (Subfolder: SketchUp)
@@ -29,6 +31,38 @@ Pipeline:
 
 TODO: Add hyperaggressive model, update data to match the later visualizations. Include women in the visualizations.
 
+### Unity Visualizations
+(Subfolder: Unity)
+
+This set of visualizations improves upon the SketchUp ones above by adding a third, "hyperaggressive" model and allowing interaction with the visualizations in the RomeLab 3D world.  Instead of Ruby and SketchUp, this uses C# and Unity.  The base of the code was produced by a team at Ball State, though it has been heavily modified.  These visualizations link to family trees, described below.
+
+NOTES: The SketchUp file used for the Unity mesh is too large for GitHub. The Unity project relies on being embedded in a specific Drupal server at hvwc.ucla.edu and cannot run otherwise. Online (multiplayer) modes rely on the Photon Unity Network.
+
+Pipeline:
+* Generate the CSV files from the DPRR backend.
+* Remove the top 2 rows of each.
+* Run UnityInputGenerator.py to produce the input file for either level of certainty.
+* Run the Unity code to generate models.
+* Save the models as prefabs to be used later.
+* Upload the Unity code to the Drupal site.
+
+TODO: Decouple Unity from Drupal. Set up online and offline modes. Update AllFunerals to use the newest data.
+
+### Family Trees
+(Subfolder: Family Trees)
+
+This set of visualizations shows each person in the database within their family tree, using D3.js.  As with the Unity, there are 3 levels of certainty - each Unity funeral in each model is associated with a tree.
+
+Pipeline:
+* Generate the CSV files from the DPRR backend.
+* Remove the top 2 rows of each.
+* Run d3TreeGenerator.py to produce a tree for each person for either level of certainty.
+** This uses TreeVertical.html (including D3.js) as a template.
+** Each person appears in exactly 1 graph
+
+TODO: Improve images and spacing.
+
+
 ### 2D Family Network Graphs
 (Subfolder: Family Graphs)
 
@@ -38,7 +72,7 @@ Pipeline:
 * Generate PersonQuery and RelationshipQuery from the DPRR backend.
 * Remove the top 2 rows of each.
 * Run graphGenerator.py, which reads these files. graphGenerator uses graphTemplate.html (involving D3.js) as a building block to produce graphs
-* Each person appears in exactly 1 graph
+** Each person appears in exactly 1 graph
 
 TODO: Increase readability for large graphs, consider using custom icons for famous people, add tentative connections where other visualizations add them, allow multiple graphs in the same window/file.
 
@@ -51,6 +85,6 @@ Pipeline:
 * Generate PersonQuery and RelationshipQuery from the DPRR backend.
 * Remove the top 2 rows of each.
 * Run 3d_generator.py, which reads these files. 3d_generator uses 3D_Template.html as a building block to produce graphs
-* Each person appears in exactly 1 graph
+** Each person appears in exactly 1 graph
 
 TODO: As above, plus modifty the package for easier navigation and different actions on click.  Update UI to better describe what to do.
