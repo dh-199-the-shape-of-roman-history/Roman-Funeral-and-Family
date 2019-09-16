@@ -1,0 +1,9 @@
+To install either of these projects, perform the following steps.
+1) Create a new project in Unity 2018.2.13f
+2) Replace the new project's asset folder with the asset folder here.
+3) Add the appropriate files to RomeLabMesh from a local source.
+4) Open the project.
+5) In the inspector, click on "Tag" and add the following custom tags: LocalPlayer, PlacardManager, ChatInput
+6) Set the project to build to WebGL with a memory size of 64.
+
+The project should now build correctly.

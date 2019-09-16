@@ -1,0 +1,228 @@
+{
+	"id": 117,
+	"title": "Another Environment",
+	"description": "This is another Unity environment\r\n",
+	"starting_location": {
+		"latitude": 41.89238,
+		"longitude": 12.48548,
+		"orientation": 0,
+		"elevation": 0
+	},
+	"tours": [{
+		"id": 4,
+		"title": "Buildings",
+		"description": "<p>Lorem lean startup ipsum product market fit customer development acquihire technical cofounder. User engagement A/B testing shrink a market venture capital pitch deck. Social bookmarking group buying crowded market pivot onboarding freemium prototype ping pong. Early stage disruptive ecosystem community outreach dynamic location based strategic investor.</p>\n",
+		"unity_binary": "http://unity-project.localhost/sites/default/files/unity/Builds_1.unity3d",
+		"placards": [{
+			"id": 3,
+			"title": "The Roman Arena in the 2nd Century BCE",
+			"description": "<p>Communis opinio holds that gladiatorial games at Rome in the 3rd and 2nd centuries BCE were performed in temporary structures, constructed of wood, set up within the Roman Forum, the civic, religious, and juridical center of the Eternal city. The Roman arena of the 2nd century BCE as proposed by Welch (2007) 51 fig. 22.</p>\n",
+			"image_url": "/sites/default/files/placard2.png",
+			"location": {
+				"latitude": 41.892743,
+				"longitude": 12.484498,
+				"orientation": 0,
+				"elevation": 25
+			},
+			"layer": "3The_Roman_Arena_in_the_2nd_Century_BCE"
+		}, {
+			"id": 117,
+			"title": "RomeLab: An Introduction",
+			"description": "<p>This digital version of the city of Rome, ca. 160 BCE functions as a laboratory, and was constructed and designed as such.  Built to interrogate spatial relationships, and not to be presented as a stand-alone museum artifact or as a magical window that enables the reader to step backward through digital time, this Forum is a three-dimensional map or, to borrow terminology from Willard McCarty, a \"tinker toy model\"</p>\n",
+			"image_url": "/sites/default/files/office.jpg",
+			"location": {
+				"latitude": 41.892231,
+				"longitude": 12.482776,
+				"orientation": 0,
+				"elevation": 25
+			},
+			"layer": "1RomeLab_An_Introduction"
+		}, {
+			"id": 118,
+			"title": "Typology and Representation",
+			"description": "<p>Buildings are typological constructs that approximate what might have been. Grown procedurally from a GIS core, versions of the city are rapidly generated to address specific research questions. For the purposes of this investigation, one centered on sightlines and viewsheds, texture, color, atmospheric effects and the like have been removed.  Instead, this laboratory contains an abstraction, one where, for the most part, every line matters.</p>\n",
+			"image_url": "/sites/default/files/placard3.png",
+			"location": {
+				"latitude": 41.892594,
+				"longitude": 12.484105,
+				"orientation": 0,
+				"elevation": 30
+			},
+			"layer": "2Typology_and_Representation"
+		}, {
+			"id": 119,
+			"title": "TestDave",
+			"description": "<p>This is a test placard for the drupal Unity system.</p>\n",
+			"image_url": "",
+			"location": {
+				"latitude": 41.89238,
+				"longitude": 12.48548,
+				"orientation": 200,
+				"elevation": 20
+			},
+			"layer": "Default"
+		}]
+	}, {
+		"id": 8,
+		"title": "Test tour 3",
+		"description": "<p>qweqsad aw asd adwq das</p>\n",
+		"unity_binary": "http://unity-project.localhost/sites/default/files/unity/Builds_6.unity3d",
+		"placards": [{
+			"id": 3,
+			"title": "The Roman Arena in the 2nd Century BCE",
+			"description": "<p>Communis opinio holds that gladiatorial games at Rome in the 3rd and 2nd centuries BCE were performed in temporary structures, constructed of wood, set up within the Roman Forum, the civic, religious, and juridical center of the Eternal city. The Roman arena of the 2nd century BCE as proposed by Welch (2007) 51 fig. 22.</p>\n",
+			"image_url": "/sites/default/files/placard2.png",
+			"location": {
+				"latitude": 41.892743,
+				"longitude": 12.484498,
+				"orientation": 0,
+				"elevation": 35
+			},
+			"layer": "3The_Roman_Arena_in_the_2nd_Century_BCE"
+		}, {
+			"id": 1,
+			"title": "RomeLab: An Introduction",
+			"description": "<p>This digital version of the city of Rome, ca. 160 BCE functions as a laboratory, and was constructed and designed as such.  Built to interrogate spatial relationships, and not to be presented as a stand-alone museum artifact or as a magical window that enables the reader to step backward through digital time, this Forum is a three-dimensional map or, to borrow terminology from Willard McCarty, a \"tinker toy model\"</p>\n",
+			"image_url": "/sites/default/files/office.jpg",
+			"location": {
+				"latitude": 41.892231,
+				"longitude": 12.482776,
+				"orientation": 0,
+				"elevation": 150
+			},
+			"layer": "1RomeLab_An_Introduction"
+		}]
+	}, {
+		"id": 37,
+		"title": "Moving Stage Tour",
+		"description": "<p>Building options for the Moving Stage project</p>\n",
+		"unity_binary": "http://unity-project.localhost/sites/default/files/unity/Builds_7.unity3d",
+		"placards": [{
+			"id": 29,
+			"title": "Aedicula and Portico, Curia ver 1",
+			"description": "<p>Enables the Aedicula, the Portico, and version 1 of the Curia</p>\n",
+			"image_url": "",
+			"location": {
+				"latitude": 41.892743,
+				"longitude": 12.484498,
+				"orientation": 0,
+				"elevation": 100
+			},
+			"layer": "1AediculaPorticoCuria1"
+		}, {
+			"id": 30,
+			"title": "Aedicula without Portico, Curia ver 1",
+			"description": "<p>Enables the Aedicula and version 1 of the Curia but not the Portico</p>\n",
+			"image_url": "",
+			"location": {
+				"latitude": 41.892743,
+				"longitude": 12.484498,
+				"orientation": 0,
+				"elevation": 100
+			},
+			"layer": "2AediculaNoPorticoCuria1"
+		}, {
+			"id": 31,
+			"title": "Temple of Concord and Portico, Curia ver 1",
+			"description": "<p>Enables the Temple of Concord, the Portico, and version 1 of the Curia</p>\n",
+			"image_url": "",
+			"location": {
+				"latitude": 41.892743,
+				"longitude": 12.484498,
+				"orientation": 0,
+				"elevation": 100
+			},
+			"layer": "3ConcordiaPorticoCuria1"
+		}, {
+			"id": 32,
+			"title": "Temple of Concord without Portico, Curia ver 1",
+			"description": "<p>Enables the Temple of Concord and version 1 of the Curia but not the Portico</p>\n",
+			"image_url": "",
+			"location": {
+				"latitude": 41.892743,
+				"longitude": 12.484498,
+				"orientation": 0,
+				"elevation": 100
+			},
+			"layer": "4ConcordiaNoPorticoCuria1"
+		}, {
+			"id": 33,
+			"title": "Aedicula and Portico, Curia ver 2",
+			"description": "<p>Enables the Aedicula, the Portico, and version 2 of the Curia</p>\n",
+			"image_url": "",
+			"location": {
+				"latitude": 41.892743,
+				"longitude": 12.484498,
+				"orientation": 0,
+				"elevation": 100
+			},
+			"layer": "5AediculaPorticoCuria2"
+		}, {
+			"id": 34,
+			"title": "Aedicula without Portico, Curia ver 2",
+			"description": "<p>Enables the Aedicula and version 2 of the Curia but not the Portico</p>\n",
+			"image_url": "",
+			"location": {
+				"latitude": 41.892743,
+				"longitude": 12.484498,
+				"orientation": 0,
+				"elevation": 100
+			},
+			"layer": "6AediculaNoPorticoCuria2"
+		}, {
+			"id": 35,
+			"title": "Temple of Concord and Portico, Curia ver 2",
+			"description": "<p>Enables the Temple of Concord, the Portico, and version 2 of the Curia</p>\n",
+			"image_url": "",
+			"location": {
+				"latitude": 41.892743,
+				"longitude": 12.484498,
+				"orientation": 0,
+				"elevation": 100
+			},
+			"layer": "7ConcordiaPorticoCuria2"
+		}, {
+			"id": 36,
+			"title": "Temple of Concord without Portico, Curia ver 2",
+			"description": "<p>Enables the Temple of Concord and version 2 of the Curia but not the Portico</p>\n",
+			"image_url": "",
+			"location": {
+				"latitude": 41.892743,
+				"longitude": 12.484498,
+				"orientation": 0,
+				"elevation": 100
+			},
+			"layer": "8ConcordiaNoPorticoCuria2"
+		}]
+	}, {
+		"id": 41,
+		"title": "Performance on the Ephemeral Stage",
+		"description": "<p>A demo of the Performance on the Ephemeral Stage tour</p>\n",
+		"unity_binary": "http://unity-project.localhost/sites/default/files/unity/Builds_8.unity3d",
+		"placards": [{
+			"id": 39,
+			"title": "RomeLab: An Introduction",
+			"description": "<p>This digital version of the city of Rome, ca. 160 BCE functions as a laboratory, and was constructed and designed as such.  Built to interrogate spatial relationships, and not to be presented as a stand-alone museum artifact or as a magical window that enables the reader to step backward through digital time, this Forum is a three-dimensional map or, to borrow terminology from Willard McCarty, a \"tinker toy model\"</p>\n",
+			"image_url": "",
+			"location": {
+				"latitude": 41.892231,
+				"longitude": 12.482776,
+				"orientation": 0,
+				"elevation": 100
+			},
+			"layer": "1Romelab_An_Introduction"
+		}, {
+			"id": 40,
+			"title": "The Roman Arena in the 2nd Century BCE",
+			"description": "<p>Communis opinio holds that gladiatorial games at Rome in the 3rd and 2nd centuries BCE were performed in temporary structures, constructed of wood, set up within the Roman Forum, the civic, religious, and juridical center of the Eternal city. (The Roman arena of the 2nd century BCE as proposed by Welch (2007) 51 fig. 22.)</p>\n",
+			"image_url": "",
+			"location": {
+				"latitude": 41.892743,
+				"longitude": 12.484498,
+				"orientation": 0,
+				"elevation": 100
+			},
+			"layer": "3The_Roman_Arena_in_the_2nd_Century_BCE"
+		}]
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	"id": 4,
+	"title": "Buildings",
+	"description": "<p>Lorem lean startup ipsum product market fit customer development acquihire technical cofounder. User engagement A/B testing shrink a market venture capital pitch deck. Social bookmarking group buying crowded market pivot onboarding freemium prototype ping pong. Early stage disruptive ecosystem community outreach dynamic location based strategic investor.</p>\n",
+	"unity_binary": "http://unity-project.localhost/sites/default/files/unity/Builds_1.unity3d",
+	"placards": [{
+		"id": 3,
+		"title": "The Roman Arena in the 2nd Century BCE",
+		"description": "<p>Communis opinio holds that gladiatorial games at Rome in the 3rd and 2nd centuries BCE were performed in temporary structures, constructed of wood, set up within the Roman Forum, the civic, religious, and juridical center of the Eternal city. The Roman arena of the 2nd century BCE as proposed by Welch (2007) 51 fig. 22.</p>\n",
+		"image_url": "/sites/default/files/placard2.png",
+		"location": {
+			"latitude": 41.892743,
+			"longitude": 12.484498,
+			"orientation": 0,
+			"elevation": 35
+		},
+		"layer": "3The_Roman_Arena_in_the_2nd_Century_BCE"
+	}]
+}
