@@ -11,5 +11,20 @@ The Explore feature of the backend server is vital to understanding the database
 ## The Visualizations and Their Production
 The following sections outlines the different types of visualizations and the code and algorithms used to generate them.
 
+TODO: Merge the python code from all visualizations to standardize it.
+
 ### 2D Family Network Graphs
-(Subfolder: FamilyGraphs)
+(Subfolder: Family Graphs)
+
+This set of visualizations connects people in the database based on parent-child, husband-wife, and adoption relationships.  Each node has a pop-up on mouse-over for more info, is clickable to open the corresponding DPRR page, and is color-coded to show who is in the same gens (Roman family).
+
+Pipeline:
+* Generate PersonQuery and RelationshipQuery from the DPRR backend.
+* Remove the top 2 rows of each.
+* Run graphGenerator.py, which reads these files. graphGenerator uses graphTemplate.html (involving D3.js) as a building block to produce graphs
+* Each person appears in exactly 1 graph
+
+TODO: Increase readability for large graphs, consider using custom icons for famous people, add tentative connections where other visualizations add them.
+
+### 3D Visualizations
+(Subfolder: 3D Visualizations)
