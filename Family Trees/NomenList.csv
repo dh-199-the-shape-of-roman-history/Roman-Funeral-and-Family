@@ -1,0 +1,2482 @@
+1,IUNI0001 L. Iunius (46a Supb. 5.356ff.) M. f. Brutus,Iunius,Brutus
+2,TARQ0002 L. Tarquinius (8) Egeri f. Collatinus,Tarquinius,Collatinus
+3,VALE0003 P. Valerius (302) Volus. f. - n. Poplicola,Valerius,Poplicola
+4,LUCR0004 Sp. Lucretius (30) T. ? f. - n. Tricipitinus,Lucretius,Tricipitinus
+5,HORA0005 M. Horatius (15) M. f. - n. Pulvillus,Horatius,Pulvillus
+6,MINU0006 M. Minucius (17 cf. 32) (Augurinus),Minucius,(Augurinus)
+7,VETU0007 P. (or C.) Veturius (16) Geminus Cicurinus,Veturius,Geminus
+10,LUCR0010 T. Lucretius (31) T. f.  Tricipitinus,Lucretius,Tricipitinus
+11,HERM0011 T. Herminius (2) Aquilinus,Herminius,Aquilinus
+12,LARC0012 Sp. Larcius (4) Rufus or Flavus,Larcius,Rufus or Flavus 
+13,VALE0013 M. Valerius (74) Volus. f. (Volusus),Valerius,(Volusus)
+15,POST0015 P. Postumius (64) Q. f. - n. Tubertus,Postumius,Tubertus
+17,LARC0017 T. Larcius (2) Flavus or Rufus,Larcius,Flavus or Rufus
+18,MENE0018  Menenius (12) C. f. - n. Lanatus,Menenius,Lanatus
+19,VERG0019 Opet. Verginius (17) Opit. f.  Tricostus,Verginius,Tricostus
+20,CASS0020 Sp. Cassius (91) Vecellinus,Cassius,Vecellinus
+21,COMI0021 Post. Cominius (16) Auruncus,Cominius,Auruncus
+23,SULP0023 Ser. Sulpicius (35) P. f. - n. Camerinus Cornutus,Sulpicius,Camerinus
+24,TULL0024 M'. Tullius (41) Longus,Tullius,Longus
+25,AEBU0025 T. Aebutius (15) T. f. - n. Helva,Aebutius,Helva
+27,POST0027 A. Postumius (*3) P. f. Albus Regillensis,Postumius,Albus
+28,SEMP0028 A. Sempronius (20) Atratinus,Sempronius,Atratinus
+29,CLOE0029 Q. Cloelius (10) Siculus,Cloelius,Siculus
+30,MINU0030 M. Minucius (32) Augurinus,Minucius,Augurinus
+31,VERG0031 T. Verginius (21) A. f.  Tricostus Caeliomontanus,Verginius,Tricostus
+32,CLAU0032 Ap. Claudius (321) M. f. Sabinus Inregillensis,Claudius,Sabinus
+33,SERV0033 P. Servilius (76) P. f. - n. Priscus Structus,Servilius,Priscus
+35,VERG0035 A. Verginius (11) A. f.  Tricostus Caeliomontanus,Verginius,Tricostus
+36,VETU0036 T. Veturius (17) Geminus Cicurinus,Veturius,Geminus
+37,VALE0037 M'. Valerius (243) Volus. f. Maximus,Valerius,Maximus
+38,SERV0038 Q. Servilius (27) Priscus Structus,Servilius,Priscus
+39,ALBI0039 L. Albinius (4) C. f. Paterculus,Albinius,Paterculus
+40,IUNI0040 L. Iunius (47) Brutus,Iunius,Brutus
+43,SICI0043 L. Sicinius (4) L. f. Vellutus (Bellutus),Sicinius,Vellutus
+44,VISC0044 C. Viscellius (or Visellius) (Icilius 5) Ruga,Viscellius (or Visellius),Ruga
+48,GEGA0048 T. Geganius (7) Macerinus,Geganius,Macerinus
+49,MINU0049 P. Minucius (33) Augurinus,Minucius,Augurinus
+51,VALE0051 P. Valerius (301) P. f. Volus. n. Poplicola,Valerius,Poplicola
+53,IUNI0053 T. Iunius (55) Brutus,Iunius,Brutus
+55,SULP0055 Q. Sulpicius (33) Camerinus Cornutus,Sulpicius,Camerinus
+56,IULI0056 C. Iulius (293) C. f. - n. Iullus,Iulius,Iullus
+57,PINA0057 P. Pinarius (13) Mamertinus Rufus,Pinarius,Mamertinus
+58,NAUT0058 Sp. Nautius (8) Sp. ? f. - n. Rutilus,Nautius,Rutilus
+59,FURI0059 Sex. Furius (26) (Medullinus) (Fusus),Furius,(Medullinus)
+61,SICI0061 T. Sicinius (13 cf. Siccius 2) (Sabinus),Sicinius,(Sabinus)
+62,AQUI0062 C. Aquillius (8) (Tuscus),Aquillius,(Tuscus)
+63,VERG0063 Proc. Verginius (19) Opet.? f. Opet. n. Tricostus Rutilus,Verginius,Tricostus
+65,MUCI0065 P. Mucius (7) Scaevola,Mucius,Scaevola
+67,VALE0067 M. (Valerius) (cf. 65) Laevinus,(Valerius),Laevinus
+69,TULL0069 M'. Tullius (53 cf. 41) Tolerinus,Tullius,Tolerinus
+76,CORN0076 Ser. Cornelius (253) Maluginensis Tricostus,Cornelius,Maluginensis
+77,FABI0077 Q. Fabius (164 cf. 159) K. f.  Vibulanus,Fabius,Vibulanus
+78,FABI0078 K. Fabius (159) K. f. Vibulanus,Fabius,Vibulanus
+79,VALE0079 L. Valerius (380) M. f. Volus. n. Potitus,Valerius,Potitus
+80,AEMI0080 L. Aemilius (96) Mam. f. - n. Mamercus,Aemilius,Mamercus
+82,FABI0082 M. Fabius (160 cf. 159) K. f. - n. Vibulanus,Fabius,Vibulanus
+85,IULI0085 C. Iulius (294) C. f. L. n. Iullus,Iulius,Iullus
+86,FURI0086 Sp. Furius (70) Fusus,Furius,Fusus
+88,MANL0088 Cn. Manlius (19) P. f. - n. Cincinnatus,Manlius,Cincinnatus
+91,VERG0091 T. Verginius (22) Opet. f. Opet. n. Tricostus Rutilus,Verginius,Tricostus
+92,SERV0092 C. Servilius (87) Structus Ahala,Servilius,Structus
+96,MENE0096 T. Menenius (17) Agrippae f. C. n. Lanatus,Menenius,Lanatus
+97,VERG0097 A. Verginius (12) (Opet. ? f. Opet. n.) Tricostus Rutilus,Verginius,Tricostus
+98,SERV0098 Sp. Servilius (85) (P. ? f. - n.) Structus,Servilius,Structus
+101,NAUT0101 C. Nautius (5) Sp. f. Sp. n. Rutilus,Nautius,Rutilus
+104,FURI0104 L. Furius (64) Medullinus,Furius,Medullinus
+105,MANL0105 A. Manlius (89) (Cn. f. P. n.) Vulso,Manlius,Vulso
+106,IULI0106 Vop. Iulius (301) C. f. L. n. Iullus,Iulius,Iullus
+107,VERG0107 Opet. Verginius (18) Opet. f.  Esquilinus,Verginius,Esquilinus
+109,PINA0109 L. Pinarius (12) Mamercinus Rufus,Pinarius,Mamercinus
+110,FURI0110 P. Furius (69) Medullinus Fusus,Furius,Medullinus
+113,CLAU0113 Ap. Claudius (123) Ap. f. M. n. Crassinus Inregillensis Sabinus,Claudius,Crassinus
+114,QUIN0114 T. Quinctius (24) (L. f. L. n.) Capitolinus Barbatus,Quinctius,Capitolinus
+116,AEMI0116 Ti. Aemilius (99) L. f. Mam. n. Mamercus,Aemilius,Mamercus
+121,NUMI0121 T. Numicius (4) Priscus,Numicius,Priscus
+122,VERG0122 A. Verginius (13) (Tricostus) Caeliomontanus,Verginius,(Tricostus)
+123,SERV0123 Q. Servilius (77) Structus Priscus,Servilius,Structus
+124,FABI0124 Q. Fabius (165) M. f. K. n. Vibulanus,Fabius,Vibulanus
+125,POST0125 Sp. Postumius (52b) A. f. P. n. Albus Regillensis,Postumius,Albus
+126,POST0126 A. Postumius (52a) A. f. P. n. Albus Regillensis,Postumius,Albus
+127,FURI0127 Sp. Furius (71) Medullinus Fusus,Furius,Medullinus
+129,SERV0129 P. Servilius (73) Sp. f. P. n. Priscus,Servilius,Priscus
+130,AEBU0130 L. Aebutius (11) T. f. T. n. Helva,Aebutius,Helva
+132,VALE0132 M'. Valerius (67 cf. 243) (Maximus),Valerius,(Maximus)
+133,LUCR0133 L. Lucretius (28) T. f. T. n. Tricipitinus,Lucretius,Tricipitinus
+134,VETU0134 T. Veturius (18) T. f. - n. Geminus Cicurinus,Veturius,Geminus
+135,TERE0135 C. Terentilius (RE 5A. 591f.) Harsa,Terentilius,Harsa
+137,VOLU0137 P. Volumnius (10) M. f. M. n. Amintinus Gallus,Volumnius,Amintinus
+138,SULP0138 Ser. (or P.) Sulpicius (36) - f. Ser. n. Camerinus Cornutus,Sulpicius,Camerinus
+140,VOLS0140 M. Volscius (2) Fictor,Volscius,Fictor
+141,CLAU0141 C. Claudius (322) Ap. f. M. n. Crassus Inregillensis Sabinus,Claudius,Crassus
+142,QUIN0142 L. Quinctius (27) L. f. L. n. Cincinnatus,Quinctius,Cincinnatus
+143,CORN0143 L. Cornelius (256) Ser. f. P. n. Maluginensis Uritinus,Cornelius,Maluginensis
+145,SERV0145 Q. Servilius (28 cf. 77) (Structus) (Priscus),Servilius,(Structus)
+146,FURI0146 -. (Furius?) (3.1968) Carve(tus),(Furius?),Carve(tus)
+147,MINU0147 L. Minucius (40) P. f. M. n. Esquilinus Augurinus,Minucius,Esquilinus
+148,TARQ0148 L. Tarquitius (6 cf. Tarquinius 10) L. f. Flaccus,Tarquitius,Flaccus
+149,VALE0149 M. Valerius (246) M'. f. Volus. n. Maximus (Lactuca),Valerius,Maximus
+151,MINU0151 Q. Minucius (41) P. f. M. n. Esquilinus,Minucius,Esquilinus
+152,FABI0152 M. Fabius (161) Vibulanus,Fabius,Vibulanus
+153,VERG0153 Sp. Verginius (20) A. f. A. n. Tricostus Caeliomontanus,Verginius,Tricostus
+156,ROMI0156 T. Romilius (4) T. f. T. n. Rocus Vaticanus,Romilius,Rocus
+157,VETU0157 C. Veturius (10) P. f. - n. Cicurinus,Veturius,Cicurinus
+158,TARP0158 Sp. Tarpeius (4) M. f. M. n. Montanus Capitolinus,Tarpeius,Montanus
+159,ATER0159 A. Aternius (RE 2.1923) Varus Fontinalis,Aternius,Varus
+160,CALV0160 C. Calvius (2) Cicero,Calvius,Cicero
+161,SICC0161 L. Siccius (3) Dentatus 'Achilles Romanus',Siccius,Dentatus
+164,CURI0164 P. Curiatius (6) Fistus Trigeminus,Curiatius,Fistus
+165,HORA0165 C. (or M.) Horatius (13) M. f. M. n. Pulvillus,Horatius,Pulvillus
+166,MENE0166 T. Menenius (18) Agripp. f. Agripp. n. Lanatus,Menenius,Lanatus
+168,GENU0168 T. Genucius (12) L. f. L. n. Augurinus,Genucius,Augurinus
+169,VETU0169 Sp. Veturius (15) Crassus Cicurinus,Veturius,Crassus
+170,VETU0170 L. Veturius (cf. 15) Crassus Cicurinus,Veturius,Crassus
+172,SEST0172 P. Sestius (9) Q. f. V. n. Capito(linus) (Vaticanus),Sestius,Capito(linus)
+173,CORN0173 M. Cornelius (246) - f. Ser. n. Maluginensis,Cornelius,Maluginensis
+174,SERG0174 M. Sergius (24) Esquilinus,Sergius,Esquilinus
+175,POET0175 Q. Poetelius (4) Libo Visolus,Poetelius,Libo
+176,ANTO0176 T. Antonius (78) Merenda,Antonius,Merenda
+177,DUIL0177 K. Duillius (4) (Longus),Duillius,(Longus)
+178,OPPI0178 Sp. Oppius (27) Cornicen,Oppius,Cornicen
+180,VALE0180 L. Valerius (304) P. f. P. n. Potitus Potitus,Valerius,Potitus
+181,HORA0181 M. Horatius (8) M. f. L. (or P.) n. (Tu)rrinus Barbatus,Horatius,(Tu)rrinus
+193,FURI0193 Q. Furius (24 cf. 76) (Pacilus) (Fusus),Furius,(Pacilus)
+194,PAPI0194 M. Papirius (21 cf. 47) (Crassus),Papirius,(Crassus)
+195,HERM0195 Lars (or Sp.) Herminius (1) Coritinesanus,Herminius,Coritinesanus
+196,VERG0196 T. Verginius (23) Tricostus Caeliomontanus,Verginius,Tricostus
+197,ATER0197 A. Aternius (1) (Varus) (Fontinalis),Aternius,(Varus)
+198,TREB0198 L. Trebonius (9) Asper,Trebonius,Asper
+199,GEGA0199 M. Geganius (4) M. f.  Macerinus,Geganius,Macerinus
+200,IULI0200 C. Iulius (13) (Iullus),Iulius,(Iullus)
+201,FURI0201  Furius (59) Fusus,Furius,Fusus
+203,AEMI0203 Mam. Aemilius (16 97) M. f. Mamercinus,Aemilius,Mamercinus
+205,GENU0205 M. Genucius (11) Augurinus,Genucius,Augurinus
+206,CURT0206 C.? Curtius (15) Philo (or Chilo),Curtius,Philo (or Chilo)
+209,SEMP0209 A. Sempronius (21) (A. f. - n.) Atratinus,Sempronius,Atratinus
+210,ATIL0210 L. Atilius (41) Luscus,Atilius,Luscus
+211,CLOE0211 T. Cloelius (12) Siculus,Cloelius,Siculus
+212,PAPI0212 L. Papirius (65) Mugillanus,Papirius,Mugillanus
+213,SEMP0213 L. Sempronius (25) A. f. - n. Atratinus,Sempronius,Atratinus
+214,FABI0214 M. Fabius (162) (Q. f. M. n.) Vibulanus,Fabius,Vibulanus
+215,AEBU0215 Post. Aebutius (14) Helva Cornicen,Aebutius,Helva
+218,AEBU0218 M. Aebutius (12) Helva,Aebutius,Helva
+219,FURI0219 C. Furius (76) Pacilus Fusus,Furius,Pacilus
+220,PAPI0220 M. (or M'.) Papirius (47) Crassus,Papirius,Crassus
+222,GEGA0222 Proc. Geganius (6) Macerinus,Geganius,Macerinus
+223,MENE0223 L. Menenius (16 cf. 10 and 18) T. f. Agripp. n. Lanatus,Menenius,Lanatus
+226,SERV0226 C. Servilius (32) Ahala,Servilius,Ahala
+231,QUIN0231 L. Quinctius (28) L. f. L. n. Cincinnatus,Quinctius,Cincinnatus
+234,CLOE0234 -. Cloelius (6) Tullus,Cloelius,Tullus
+237,SERG0237 L. Sergius (25) C. f. C. n. Ser. Fidenas,Sergius,Fidenas
+238,VALE0238 M. Valerius (206) M. f. M'. n. Lactuca (or Lactucinus) Maximus,Valerius,Lactuca
+239,CORN0239 A. Cornelius (112) M. f. L. n. Cossus,Cornelius,Cossus
+240,PAPI0240 L. Papirius (10 43) Crassus,Papirius,Crassus
+241,CORN0241 M. Cornelius (247) (M. f. L. n.) Maluginensis,Cornelius,Maluginensis
+243,VERG0243 L. Verginius (14) Tricostus,Verginius,Tricostus
+244,SERV0244 Q. Servilius (75) P. f. Sp. n. Ser. Priscus Fidenas,Servilius,Priscus
+245,MANL0245 M. Manlius (50) Capitolinus (Vulso),Manlius,Capitolinus
+246,SULP0246 Q. Sulpicius (37) Ser. ? f. - n. Camerinus Praetextatus,Sulpicius,Camerinus
+247,CORN0247 Ser. Cornelius (121) Cossus,Cornelius,Cossus
+249,POST0249 A. Postumius (63) Tubertus,Postumius,Tubertus
+251,PINA0251 L. Pinarius (11) Mamercinus,Pinarius,Mamercinus
+252,FURI0252 L. Furius (65) Sp. f. - n. Medullinus,Furius,Medullinus
+254,QUIN0254 T. Quinctius (34) L. f. L. n. Pennus Cincinnatus,Quinctius,Pennus
+255,IULI0255 Cn. (or C.) Iulius (360) Mento,Iulius,Mento
+258,POST0258 Sp. Postumius (52) Sp.? f. A.? n. Albus (Regillensis),Postumius,Albus
+260,PAPI0260 C. Papirius (see 10 43) Crassus,Papirius,Crassus
+261,IULI0261 L. (or C.) Iulius (296 cf. 14) Vop. f. C. n. Iullus,Iulius,Iullus
+264,LUCR0264 Hostus Lucretius (27) Tricipitinus,Lucretius,Tricipitinus
+266,SERV0266 C. Servilius (37) Structus Ahala,Servilius,Structus
+267,PAPI0267 L. Papirius (cf. 65) (L. f. - n.) Mugillanus,Papirius,Mugillanus
+268,POST0268 M. Postumius (17) (A. f. A. n.) (Albinus) (Regillensis),Postumius,(Albinus)
+269,SEMP0269 A. Sempronius (22 cf. 2) L. f. A. n. Atratinus,Sempronius,Atratinus
+270,HORA0270 L. Horatius (7) M. f. M. n. Barbatus,Horatius,Barbatus
+271,CLAU0271 Ap. Claudius (121) Ap. f. Ap. n. Crassus,Claudius,Crassus
+272,NAUT0272 Sp. Nautius (9) Sp. f. - n. Rutilus,Nautius,Rutilus
+273,IULI0273 Sex. Iulius (300) Iullus,Iulius,Iullus
+274,SEMP0274 C. Sempronius (24) Atratinus,Sempronius,Atratinus
+275,FABI0275 Q. Fabius (46 166) Q. f. M. n. Vibulanus,Fabius,Vibulanus
+278,MANL0278 L. Manlius (49) Capitolinus,Manlius,Capitolinus
+279,ANTO0279 Q. Antonius (77) (T. f. - n.) Merenda,Antonius,Merenda
+285,QUIN0285 T. Quinctius (25) T. f. L. n. Capitolinus Barbatus,Quinctius,Capitolinus
+286,MANL0286 M. Manlius (96) Vulso,Manlius,Vulso
+292,MENE0292  Menenius (4 13 14) T. f. Agripp. n. Lanatus,Menenius,Lanatus
+293,LUCR0293 P. Lucretius (29) Hosti f. - n. Tricipitinus,Lucretius,Tricipitinus
+294,NAUT0294 Sp. Nautius (10) Sp. f. Sp. n. Rutilus,Nautius,Rutilus
+295,PAPI0295 M. Papirius (68) L. f. - n. Mugillanus,Papirius,Mugillanus
+296,RUTI0296 Sp. Rutilius (14) Crassus,Rutilius,Crassus
+297,VETU0297 Sp. Veturius (14) Sp. f. Sp. n. Crassus Cicurinus,Veturius,Crassus
+300,CORN0300 P. Cornelius (118) A. f. P. n. Cossus,Cornelius,Cossus
+301,VALE0301 C. Valerius (309) L. f. Volus. n. Potitus Volusus,Valerius,Potitus
+303,QUIN0303 Q. Quinctius (30) L. f. L. n. Cincinnatus,Quinctius,Cincinnatus
+305,CORN0305 Cn. Cornelius (116) A. f. M. n. Cossus,Cornelius,Cossus
+306,VALE0306 L. Valerius (307) L. f. P. n. Potitus,Valerius,Potitus
+307,POST0307 P. Postumius (60 cf. 1 51) A. f. A. n. Albinus Regillensis,Postumius,Albinus
+310,CORN0310 A. (or M.) Cornelius (113 cf. 112 114) Cossus,Cornelius,Cossus
+311,FABI0311 Q. Fabius (166 cf. 46) Vibulanus,Fabius,Vibulanus
+312,FURI0312 C. Furius (74) Pacilus,Furius,Pacilus
+314,PAPI0314 M. Papirius (30 68) L. f.  Mugillanus (or Atratinus),Papirius,Mugillanus (or Atratinus)
+316,AEMI0316 M'. Aemilius (98) Mam. f. M. n. Mamercinus,Aemilius,Mamercinus
+322,FABI0322 K. Fabius (42 cf. 39 48) M. f. Q. n. Ambustus,Fabius,Ambustus
+325,IULI0325 C. Iulius (295) Sp. f. Vopisci n. Iullus,Iulius,Iullus
+326,CORN0326 P. Cornelius (119) A. f. M. n. Cossus,Cornelius,Cossus
+327,SERV0327 C. Servilius (33) P. f. Q. n. Ahala,Servilius,Ahala
+328,CORN0328 P. Cornelius (307) M. f. L. n. Rutilus Cossus,Cornelius,Rutilus
+329,FABI0329 N. (or Cn.) Fabius (163) Q. f. M. n. Vibulanus,Fabius,Vibulanus
+330,CORN0330 Cn. Cornelius (117) P. f. A. n. Cossus,Cornelius,Cossus
+332,MANL0332 A. Manlius (100) A. f. Cn. n. Vulso Capitolinus,Manlius,Vulso
+333,SERG0333 M'. Sergius (27) L. f. L. n. Fidenas,Sergius,Fidenas
+334,CORN0334 P. Cornelius (250 cf. 39) (M. f. M. n.) Maluginensis,Cornelius,Maluginensis
+335,CLAU0335 Ap. Claudius (122) P. f. Ap. n. Crassus Inregillensis,Claudius,Crassus
+336,QUIN0336 M. Quinctilius (9) L. f. L. n. Varus,Quinctilius,Varus
+337,IULI0337 L. Iulius (297) Sp. ? f. Vopisci ? n. Iullus,Iulius,Iullus
+338,FURI0338 M. Furius (60) Fusus,Furius,Fusus
+340,FURI0340 M. Furius (44) L. f. Sp. n. Camillus,Furius,Camillus
+341,POST0341 M. Postumius (16) A. f. A. n. Albinus Regillensis,Postumius,Albinus
+342,SERV0342 Q. Servilius (56) Q. f. P. n. Fidenas,Servilius,Fidenas
+343,VERG0343 L. Verginius (15) L. f. Opet. n. Tricostus Esquilinus,Verginius,Tricostus
+344,SULP0344 Q. Sulpicius (34) Ser. f. Ser. n. Camerinus Cornutus,Sulpicius,Camerinus
+347,IULI0347 L. Iulius (298) L. f. Vopisci n. Iullus,Iulius,Iullus
+354,LICI0354 P. Licinius (43) P. f. P. n. Calvus Esquilinus,Licinius,Calvus
+355,MANL0355 P. Manlius (97) M. f. Cn. n. Vulso,Manlius,Vulso
+356,TITI0356 L. Titinius (25) L. f. M'. n. Pansa Saccus,Titinius,Pansa
+357,MAEL0357 P. Maelius (4) Sp. f. C. n. Capitolinus,Maelius,Capitolinus
+358,FURI0358 Sp. Furius (68) L. f. Sp. n. Medullinus,Furius,Medullinus
+359,PUBL0359 L. Publilius (13) L. f. Voler. n. Philo Vulscus,Publilius,Philo
+360,GENU0360 Cn. Genucius (10) M. f. M. n. Augurinus,Genucius,Augurinus
+361,ATIL0361 L. Atilius (46) L. f. L. n. Priscus,Atilius,Priscus
+362,POMP0362 M. Pomponius (7) L. f. L. n. Rufus,Pomponius,Rufus
+363,DUIL0363 C. Duillius (8) K. f. K. n. Longus,Duillius,Longus
+364,VETU0364 M. Veturius (13) Ti. f. Sp. n. Crassus Cicurinus,Veturius,Crassus
+365,PUBL0365 Voler. Publilius (12) P. f. Voler. n. Philo,Publilius,Philo
+366,VALE0366 M. Valerius (207) M. f. M. n. Lactucinus Maximus,Valerius,Lactucinus
+367,CLAU0367 -. Claudius (not in RE) Ugo,Claudius,Ugo
+368,MARI0368 -. Marius (not in RE) Appius,Marius,Appius
+371,SERG0371 L. Sergius (26) M'. f. L. n. Fidenas,Sergius,Fidenas
+372,POST0372 A. Postumius (57) Albinus Regillensis,Postumius,Albinus
+373,CORN0373 P. Cornelius (252) P. f. M. n. Maluginensis,Cornelius,Maluginensis
+374,MANL0374 Q. Manlius (99) A. f. Cn. n. Vulso (Capitolinus),Manlius,Vulso
+375,CORN0375 P. Cornelius (120) P. f. A. n. Cossus,Cornelius,Cossus
+376,CORN0376 P. Cornelius (328) Scipio,Cornelius,Scipio
+380,AEMI0380 C. Aemilius (not in RE) Ti. f. Ti. n. Mamercinus,Aemilius,Mamercinus
+381,VALE0381 L. Valerius (298) L. f. L. n. Poplicola,Valerius,Poplicola
+382,POST0382 Sp. Postumius (61) Albinus Regillensis,Postumius,Albinus
+384,CATL0384 -. Catlus (not in RE) Verus,Catlus,Verus
+387,LUCR0387 L. Lucretius (20) Tricipitinus Flavus,Lucretius,Tricipitinus
+388,SULP0388 Ser. Sulpicius (31 cf. 94) Q. f. Ser. n. Camerinus Rufus,Sulpicius,Camerinus
+389,PAPI0389 L. Papirius (51) Cursor,Papirius,Cursor
+390,CORN0390 M. Cornelius (248) P. f. M. n. Maluginensis,Cornelius,Maluginensis
+391,MANL0391 M. Manlius (51) T. f. A. n. Arn. Sab. Tro. Ste. Capitolinus,Manlius,Capitolinus
+393,FURI0393  Furius (7) Sex. f. - n. Fusus,Furius,Fusus
+396,FABI0396 Q. Fabius (48) M. f. Q. n. Ambustus,Fabius,Ambustus
+400,FABI0400 N. Fabius (45) M. f. Q. n. Ambustus,Fabius,Ambustus
+401,SULP0401 Q. Sulpicius (76) Longus,Sulpicius,Longus
+402,FOLI0402 M. Folius (1 2) M. f. (Flaccinator),Folius,(Flaccinator)
+403,FABI0403 C. (or K.) Fabius (68) Dorsuo,Fabius,Dorsuo
+406,MANL0406 A. Manlius (9) T. f. A. n. Capitolinus,Manlius,Capitolinus
+407,AEMI0407 L. Aemilius (93) Mam. f. M. n. Mamercinus,Aemilius,Mamercinus
+408,POST0408 L. Postumius (58) Albinus Regillensis,Postumius,Albinus
+409,PAPI0409 L. Papirius (66) Mugillanus,Papirius,Mugillanus
+411,SERV0411 C. Servilius (34 cf. 22) Ahala,Servilius,Ahala
+414,FURI0414 L. Furius (41) M. f. L. n. Camillus,Furius,Camillus
+415,QUIN0415 T. Quinctius (32) (T. f. L. n.) Cincinnatus Capitolinus,Quinctius,Cincinnatus
+416,IULI0416 L. Iulius (299) Iullus,Iulius,Iullus
+417,AQUI0417 L. Aquillius (15) Corvus,Aquillius,Corvus
+418,SULP0418 Ser. Sulpicius (94 cf. 31) Rufus,Sulpicius,Rufus
+419,SERG0419 Cn. Sergius (28) Fidenas Coxo,Sergius,Fidenas
+420,MENE0420 Licinus Menenius (15) T. f. T. n. Lanatus,Menenius,Lanatus
+426,CORN0426 Ser. Cornelius (254) P. f. M. n. Maluginensis,Cornelius,Maluginensis
+427,QUIN0427 L. Quinctius (29) (- f. - n.) Cincinnatus,Quinctius,Cincinnatus
+428,HORA0428 L. Horatius (14) Pulvillus,Horatius,Pulvillus
+429,VALE0429 P. Valerius (308) L. f. L. n. Potitus Poplicola,Valerius,Potitus
+432,CORN0432 A. Cornelius (114 cf. 112 113) Cossus,Cornelius,Cossus
+433,PAPI0433 C. Papirius (42) Crassus,Papirius,Crassus
+438,PAPI0438 Sp. Papirius (49) Crassus,Papirius,Crassus
+440,SERV0440 Q. Servilius (57) Q. f. Q. n. Fidenas,Servilius,Fidenas
+441,SULP0441 C. Sulpicius (7 cf. 29) (Camerinus),Sulpicius,(Camerinus)
+442,FABI0442 -. Fabius (not in RE) Albus,Fabius,Albus
+443,FURI0443 L. Furius (66) Sp. f. L. n. Medullinus,Furius,Medullinus
+444,FABI0444 M. Fabius (43) K. f. M. n. Ambustus,Fabius,Ambustus
+445,SULP0445 C. Sulpicius (83) M. f. Q. n. Peticus,Sulpicius,Peticus
+446,PAPI0446 Ti. Papirius (50) Crassus,Papirius,Crassus
+448,SEMP0448 A. Sempronius (23) Atratinus,Sempronius,Atratinus
+449,SULP0449 C. Sulpicius (29 cf. 7) Camerinus,Sulpicius,Camerinus
+450,MANL0450 P. Manlius (52) A. f. A. n. Capitolinus,Manlius,Capitolinus
+453,ALBI0453 M. Albinius (3) -,Albinius,-
+454,ANTI0454 L. Antistius (11) -,Antistius,-
+456,EREN0456 C. Erenucius (col. 419) -,Erenucius,-
+458,CLOE0458 P. Cloelius (8) Siculus,Cloelius,Siculus
+459,HORA0459 M. Horatius (5) - f. - n. - - -,Horatius,-
+460,GEGA0460 L. Geganius (2) (Macerinus),Geganius,(Macerinus)
+461,SERV0461 Sp. Servilius (74) Priscus,Servilius,Priscus
+462,CLOE0462 Q. Cloelius (11) Siculus,Cloelius,Siculus
+464,VETU0464 C. Veturius (11) (L. f. Sp. n.) (Crassus) (Cicurinus),Veturius,(Crassus)
+465,SULP0465 Ser. Sulpicius (88) Praetextatus Praetextatus,Sulpicius,Praetextatus
+466,QUIN0466 C. Quinctius (26) Cincinnatus,Quinctius,Cincinnatus
+468,LICI0468 C. Licinius (161) C. f. P. n. Stolo,Licinius,Stolo
+469,SEXT0469 L. Sextius (36) Sex. f. N. n. Sextinus Lateranus,Sextius,Sextinus
+471,VALE0471 C. Valerius (50) Potitus,Valerius,Potitus
+473,CORN0473 A. Cornelius (115) Cossus,Cornelius,Cossus
+474,CORN0474 M. Cornelius (249 cf. 248) P. f. M. n. Maluginensis,Cornelius,Maluginensis
+475,QUIN0475 Q. Quinctius (31) (Cincinnatus),Quinctius,(Cincinnatus)
+476,QUIN0476 T. Quinctius (33) Cincinnatus Capitolinus,Quinctius,Cincinnatus
+477,SERV0477 Sp. Servilius (86) C. f. C. n. Structus,Servilius,Structus
+478,PAPI0478 L. Papirius (44) Sp. f. C. n. Crassus,Papirius,Crassus
+479,VETU0479 L. Veturius (12) L. f. Sp. n. Crassus Cicurinus,Veturius,Crassus
+481,LICI0481 C. Licinius (42) C. f. P. n. Calvus,Licinius,Calvus
+482,GEGA0482 M. Geganius (5) Macerinus,Geganius,Macerinus
+483,QUIN0483 T. Quinctius (35) Pennus Capitolinus Crispinus,Quinctius,Pennus
+484,AEMI0484 L. Aemilius (95 cf. 94) L. f. Mam. n. Mamercinus (or Mamercus),Aemilius,Mamercinus
+485,POST0485 -. Postumius (59) Regillensis Albinus,Postumius,Regillensis
+486,FURI0486 Sp. Furius (48) M. f. L. n. Camillus,Furius,Camillus
+487,QUIN0487 Cn. Quinctius (22) T. f. T. n. Capitolinus,Quinctius,Capitolinus
+489,GENU0489 L. Genucius (14) M. f. Cn. n. Aventinensis,Genucius,Aventinensis
+490,SERV0490 Q. Servilius (35) Q. f. Q. n. Ahala,Servilius,Ahala
+491,POPI0491 M. Popillius (20) M. f. C. n. Laenas,Popillius,Laenas
+492,GENU0492 Cn. Genucius (13) M. f. M. n. Aventinensis,Genucius,Aventinensis
+493,MANL0493 L. Manlius (54) A. f. A. n. Capitolinus Imperiosus,Manlius,Capitolinus
+494,PINA0494 L. Pinarius (18) Natta,Pinarius,Natta
+495,CORN0495 -. (Cornelius or Mucius) (not in RE) Sca.u.la (Scapula or Scaevola),(Cornelius or Mucius),Sca.u.la (Scapula or Scaevola)
+497,MANL0497 T. Manlius (57) L. f. A. n. Imperiosus Torquatus,Manlius,Imperiosus
+498,FABI0498 M. Fabius (44) N. f. M. n. Ambustus,Fabius,Ambustus
+499,POET0499 C. Poetelius (7) C. f. Q. n. Libo Visolus,Poetelius,Libo
+500,MANL0500 Cn. Manlius (53) L. f. A. n. Capitolinus Imperiosus,Manlius,Capitolinus
+501,FABI0501 C. Fabius (40) N. f. M. n. Ambustus,Fabius,Ambustus
+502,PLAU0502 C. Plautius (27) P. f. P. n. Proculus,Plautius,Proculus
+503,VALE0503 M. Valerius (299) L. f. L. n. Poplicola,Valerius,Poplicola
+505,MARC0505 C. Marcius (97) L. f. C. n. Rutilus,Marcius,Rutilus
+510,CORN0510 A. Cornelius (122) P. f. A. n. Cossus Arvina,Cornelius,Cossus
+511,VALE0511 P. Valerius (300) P. f. L. n. Poplicola,Valerius,Poplicola
+512,IULI0512 C. Iulius (17) (Iullus),Iulius,(Iullus)
+513,CORN0513 L. Cornelius (322) P. f. Scipio,Cornelius,Scipio
+515,DECI0515 P. Decius (15) Q. f. Mus,Decius,Mus
+517,PUBL0517 Q. Publilius (11) (Q. f. Q. n. Pob. Philo),Publilius,Philo)
+519,CORN0519 P. Cornelius (329) P. f.  Scipio,Cornelius,Scipio
+522,VALE0522 M. Valerius (137) M. f. M. n. Maximus Corvus,Valerius,Maximus
+523,PLAU0523 C. Plautius (31) Venox or Venno,Plautius,Venox or Venno
+524,FABI0524 M. Fabius (69 cf. 24) Dorsuo,Fabius,Dorsuo
+525,SULP0525 Ser. Sulpicius (38) Camerinus Rufus,Sulpicius,Camerinus
+526,FURI0526 L. Furius (42) Sp. f. M. n. Camillus,Furius,Camillus
+528,FABI0528 Q. Fabius (47) Ambustus,Fabius,Ambustus
+529,AEMI0529 L. Aemilius (101) L. f. L. n. Mamercinus Privernas,Aemilius,Mamercinus
+533,PAPI0533 L. Papirius (45) L. f. L. n. Crassus,Papirius,Crassus
+534,PAPI0534 L. Papirius (52) Sp. f. L. n. Cursor,Papirius,Cursor
+536,MANL0536 T. Manlius (cf. 57 or 81) (Torquatus),Manlius,(Torquatus)
+538,AEMI0538 Ti. (or T.) Aemilius (100) Mamercinus,Aemilius,Mamercinus
+539,IUNI0539 D. Iunius (60) Brutus Scaeva,Iunius,Brutus
+541,SULP0541 C. Sulpicius (75) Ser. f. Q. n. Longus,Sulpicius,Longus
+542,AELI0542 P. Aelius (100) Paetus,Aelius,Paetus
+543,CLAU0543 C. Claudius (183) (Ap. f. P. n. Crassus) Inregillensis,Claudius,Crassus)
+544,CLAU0544 C. Claudius (180) Hortator,Claudius,Hortator
+547,ATIL0547 M. Atilius (49) Regulus Calenus,Atilius,Regulus
+548,POST0548 Sp. Postumius (*17) Albinus (Caudinus),Postumius,Albinus
+549,VETU0549 T. Veturius (8) Calvinus,Veturius,Calvinus
+550,CORN0550 P. Cornelius (301) Rufinus,Cornelius,Rufinus
+552,DOMI0552 Cn. Domitius (42) Cn. f.  Calvinus,Domitius,Calvinus
+553,PAPI0553 M. Papirius (48 cf. 22) Crassus,Papirius,Crassus
+555,CORN0555 P. Cornelius (79) Calussa,Cornelius,Calussa
+556,VALE0556 C. Valerius (306) L. f. L. n. Potitus,Valerius,Potitus
+557,CLAU0557 M. Claudius (218) C. f. C. n. Marcellus,Claudius,Marcellus
+559,FABI0559 Q. Fabius (114) M. f. N. n. Maximus Rullianus,Fabius,Maximus
+560,PLAU0560 L. Plautius (33) L. f. L. n. Venox or Venno,Plautius,Venox or Venno
+561,PLAU0561 C. Plautius (18) P. f. P. n. Decianus,Plautius,Decianus
+562,PLAU0562 P. Plautius (28) Proculus,Plautius,Proculus
+563,CORN0563 P. Cornelius (316 cf. 315) P. f. Scapula,Cornelius,Scapula
+565,CORN0565 L. Cornelius (186) Lentulus,Cornelius,Lentulus
+570,VALE0570 M. Valerius (244) M. f. M. n. Maximus Corvinus,Valerius,Maximus
+571,AULI0571 Q. Aulius (2) Q. f. Q. n. Cerretanus,Aulius,Cerretanus
+572,FULV0572 L. Fulvius (46) L. f. L. n. Pap. Curvus,Fulvius,Curvus
+576,AEMI0576 M. Aemilius (110) Papus,Aemilius,Papus
+577,VALE0577 L. Valerius (171) Flaccus,Valerius,Flaccus
+579,FOLI0579 M. Folius (3) C. f. M. n. Flaccinator,Folius,Flaccinator
+584,PLAU0584 L. Plautius (34) L. f. L. n. Venox or Venno or Venno,Plautius,Venox or Venno
+585,PAPI0585 L. Papirius (46) L. f. M. n. Crassus,Papirius,Crassus
+587,IUNI0587 C. Iunius (62) C. f. C. n. Bubulcus Brutus,Iunius,Bubulcus
+588,AEMI0588 Q. Aemilius (34) Q. f. L. n. Barbula,Aemilius,Barbula
+589,NAUT0589 Sp. Nautius (11) Sp. f. Sp. n. Rutilus,Nautius,Rutilus
+590,POPI0590 M. Popillius (21) M. f. M. n. Laenas,Popillius,Laenas
+591,CLAU0591 Ap. Claudius (91) C. f. Ap. n. Caecus,Claudius,Caecus
+592,FABI0592 C. Fabius (41) M. f. N. n. Ambustus,Fabius,Ambustus
+593,POET0593 M. Poetelius (6) M. f. M. n. Libo,Poetelius,Libo
+595,FULV0595 P. Fulvius (78) Longus,Fulvius,Longus
+596,DECI0596 P. Decius (16) P. f. Q. n. Mus,Decius,Mus
+597,PLAU0597 C. Plautius (32) C. f. C. n. Venox,Plautius,Venox
+599,LAET0599 C. (or M.) Laetorius (11) Mergus,Laetorius,Mergus
+601,MARC0601 C. Marcius (98) C. f. L. n. Rutilus Censorinus,Marcius,Rutilus
+603,SEMP0603 P. Sempronius (85) P. f. C. n. Sophus,Sempronius,Sophus
+604,FABI0604 K. Fabius (19) M. f. N. n. (Maximus),Fabius,(Maximus)
+608,VOLU0608 L. Volumnius (13) C. f. C. n. Flamma Violens,Volumnius,Flamma
+609,POST0609 L. Postumius (55) L. f. Sp. n. Megellus,Postumius,Megellus
+610,MARC0610 Q. Marcius (106) Q. f. Q. n. Tremulus,Marcius,Tremulus
+611,CORN0611 P. Cornelius (66) A. f. P. n. Arvina,Cornelius,Arvina
+612,CORN0612 P. Cornelius (344 cf. 316) Scipio Barbatus,Cornelius,Scipio
+614,MINU0614 Ti. Minucius (34) Augurinus,Minucius,Augurinus
+615,FULV0615 M. Fulvius (47) L. f. L. n. Curvus Paetinus,Fulvius,Curvus
+617,SULP0617 P. Sulpicius (97) Ser. f. P. n. Saverrio,Sulpicius,Saverrio
+619,ANIC0619 Q. Anicius (5) Praenestinus,Anicius,Praenestinus
+621,CORN0621 Cn. Cornelius (71 cf. 316 343) (Scipio) Barbatus Barbatus,Cornelius,Barbatus
+622,CORN0622 Ser. Cornelius (206) Cn. f. Cn. n. Lentulus,Cornelius,Lentulus
+623,GENU0623 L. Genucius (15) Aventinensis,Genucius,Aventinensis
+624,LIVI0624 M. Livius (11) - f. C. n. Denter,Livius,Denter
+625,AEMI0625 M. Aemilius (116) L. f. L. n. Paullus,Aemilius,Paullus
+628,CORN0628 L. Cornelius (343) Cn. f. Scipio Barbatus,Cornelius,Scipio
+629,FULV0629 Cn. Fulvius (88) Cn. f. Cn. n. Maximus Centumalus,Fulvius,Maximus
+630,APPU0630 Q. Appuleius (24) Pansa,Appuleius,Pansa
+632,OGUL0632 Q. Ogulnius (5) L. f. A. n. Gallus,Ogulnius,Gallus
+633,GENU0633 C. Genucius (3) (Augurinus),Genucius,(Augurinus)
+634,MINU0634 M. Minucius (42) Faesus,Minucius,Faesus
+636,FULV0636 M. Fulvius (96) Cn. f. Cn. n. Paetinus,Fulvius,Paetinus
+637,MANL0637 T. Manlius (81) T. f. T. n. Torquatus,Manlius,Torquatus
+638,DOMI0638 Cn. Domitius (45) Cn. f. Cn. n. Calvinus Maximus,Domitius,Calvinus
+639,CARV0639 Sp. Carvilius (8) Q. f. - n. Maximus,Carvilius,Maximus
+640,PAPI0640 L. Papirius (53) L. f. Sp. n. Cursor,Papirius,Cursor
+641,CURI0641 M'. Curius (9) M'. f. M'. n. Cor. Dentatus,Curius,Dentatus
+642,FABI0642 Q. Fabius (112) Q. f. M. n. Maximus Gurges,Fabius,Maximus
+644,AELI0644 L. Aelius (99) Paetus,Aelius,Paetus
+645,FULV0645 C. Fulvius (45) Curvus,Fulvius,Curvus
+646,MANL0646 L. Manlius (77) Torquatus,Manlius,Torquatus
+647,ATIL0647 M. Atilius (50) M. f. M. n. Regulus,Atilius,Regulus
+648,OPIM0648 L. Opimius (12) Pansa,Opimius,Pansa
+649,CARV0649 Sp. Carvilius (9) C. f. C. n. Maximus,Carvilius,Maximus
+652,IUNI0652 D. Iunius (61) D. f. Brutus Scaeva,Iunius,Brutus
+655,PAPI0655 Sp. Papirius (26) (Cursor),Papirius,(Cursor)
+657,IUNI0657 C. Iunius (56) C. f. C. n. Bubulcus Brutus,Iunius,Bubulcus
+658,CORN0658 P. Cornelius (302) Cn. f. P. n. Rufinus,Cornelius,Rufinus
+659,PAPI0659 L. Papirius (61) Maso,Papirius,Maso
+660,CAED0660 Q. Caedicius (10) Q. f. - n. Noctua,Caedicius,Noctua
+661,CORN0661 P. Cornelius (56) A. f. P. n. Arvina,Cornelius,Arvina
+662,CLAU0662 M. Claudius (219) (M. f. C. n.) Marcellus,Claudius,Marcellus
+663,NAUT0663 C. Nautius (6) Rutilus,Nautius,Rutilus
+665,VALE0665 M. Valerius (cf. 244) Maximus (Potitus),Valerius,Maximus
+666,AELI0666 C. Aelius (97) Paetus,Aelius,Paetus
+668,CLAU0668 C. Claudius (98) M. f. C. n. Canina,Claudius,Canina
+669,AEMI0669 M. Aemilius (65) Lepidus,Aemilius,Lepidus
+671,AEMI0671 M. Aemilius (32) Q. f. L. n. Barbula,Aemilius,Barbula
+672,SERV0672 C. Servilius (88) Tucca,Servilius,Tucca
+673,CAEC0673 L. Caecilius (92) Metellus Denter,Caecilius,Metellus
+674,CORN0674 P. Cornelius (139) Dolabella,Cornelius,Dolabella
+675,FABR0675 C. Fabricius (9) C. f. C. n. Luscinus,Fabricius,Luscinus
+676,AEMI0676 Q. Aemilius (112) Cn. f. L. n. Papus,Aemilius,Papus
+677,VIBE0677 Decius Vibellius (1) Campanus,Vibellius,Campanus
+679,VALE0679 L. Valerius (59) (Flaccus),Valerius,(Flaccus)
+680,AEMI0680 L. Aemilius (31) Q. f. Q. n. Barbula,Aemilius,Barbula
+681,MARC0681 Q. Marcius (78) Q. f. Q. n. Philippus,Marcius,Philippus
+682,VALE0682 P. Valerius (213) Laevinus,Valerius,Laevinus
+684,SULP0684 P. Sulpicius (98) P. f. Ser. n. Saverrio,Sulpicius,Saverrio
+685,DECI0685 P. Decius (17) P. f. P. n. Mus,Decius,Mus
+687,GENU0687 C. Genucius (17) L. f. L. n. Clepsina,Genucius,Clepsina
+688,CORN0688 L. Cornelius (210) Ti. f. Ser. n. Lentulus Caudinus,Cornelius,Lentulus
+689,CORN0689 Ser. Cornelius (267) P. f. Ser. n. Merenda,Cornelius,Merenda
+690,POST0690 L. Postumius (39) L. f. Albinus,Postumius,Albinus
+691,FABI0691 C. Fabius (70) M. f. M. n. Licinus,Fabius,Licinus
+692,FABI0692 N. Fabius (124) C. f. M. n. Pictor,Fabius,Pictor
+695,PAPI0695 L. Papirius (72) L. f. M. n. Praetextatus,Papirius,Praetextatus
+696,QUIN0696 K. Quinctius (36) L. f. Cn. n. Claudus,Quinctius,Claudus
+697,GENU0697 L. Genucius (18) L. f. L. n. Clepsina,Genucius,Clepsina
+698,CORN0698 Cn. Cornelius (73) P. f. Cn. n. Blasio,Cornelius,Blasio
+699,FULV0699 M. Fulvius (55) Q. f. M. n. Flaccus,Fulvius,Flaccus
+700,FABI0700 C. Fabius (123) C. f. M. n. Pictor,Fabius,Pictor
+701,SEMP0701 P. Sempronius (86) P. f. P. n. Sophus,Sempronius,Sophus
+702,CLAU0702 Ap. Claudius (317) Ap. f. C. n. Russus,Claudius,Russus
+703,ATIL0703 M. Atilius (51) M. f. L. n. Pup. Regulus,Atilius,Regulus
+704,IULI0704 L. Iulius (318) L. f. L. n. Libo,Iulius,Libo
+707,IUNI0707 D. Iunius (124) D. f. D. n. Pera,Iunius,Pera
+709,FABI0709 Q. Fabius (cf. 112) Q. f. Q. n. Maximus Gurges,Fabius,Maximus
+710,MAMI0710 L. Mamilius (14) (Q. f. M. n.) Vitulus,Mamilius,Vitulus
+712,FABI0712 Q. Fabius (116) Q. f. Q. n. Fal. Pup. Maximus Ovicula Verrucosus Cunctator,Fabius,Maximus
+713,CLAU0713 Ap. Claudius (102) C. f. Ap. n. Caudex,Claudius,Caudex
+716,VALE0716 M'. Valerius (247) M. f. M. n. Maximus Messalla,Valerius,Maximus
+718,POST0718 L. Postumius (56) L. f. L. n. Megellus,Postumius,Megellus
+719,MAMI0719 Q. Mamilius (15) Q. f. M. n. Vitulus,Mamilius,Vitulus
+720,VALE0720 L. Valerius (172) M. f. L. n. Flaccus,Valerius,Flaccus
+721,OTAC0721 T. Otacilius (11) C. f. M'. n. Crassus,Otacilius,Crassus
+722,CORN0722 L. Cornelius (323) L. f. Cn. n. Scipio,Cornelius,Scipio
+723,CORN0723 Cn. Cornelius (341) L. f. Cn. n. Scipio Asina,Cornelius,Scipio
+726,AQUI0726 C. Aquillius (20) M. f. C. n. Florus,Aquillius,Florus
+727,ATIL0727 A. Atilius (36) A. f. C. n. Caiatinus,Atilius,Caiatinus
+728,SULP0728 C. Sulpicius (81) Q. f. Q. n. Paterculus,Sulpicius,Paterculus
+730,CALP0730 M. Calpurnius (42) Flamma,Calpurnius,Flamma
+732,ATIL0732 C. Atilius (47) M. f. M. n. Regulus,Atilius,Regulus
+733,LAET0733 M. Laetorius (12) M. f. M. n. Plancianus,Laetorius,Plancianus
+734,MANL0734 L. Manlius (101) A. f. P. n. Vulso Longus,Manlius,Vulso
+737,CALP0737 -. Calpurnius (31) Crassus,Calpurnius,Crassus
+738,FULV0738 Ser. Fulvius (97) M. f. M. n. Paetinus Nobilior,Fulvius,Paetinus
+739,AEMI0739 M. Aemilius (117) M. f. L. n. Paullus,Aemilius,Paullus
+740,MAMI0740 Q. Mamilius (12) Q. f. Turrinus,Mamilius,Turrinus
+742,SERV0742 Cn. Servilius (43) Cn. f. Cn. n. Caepio,Servilius,Caepio
+743,SEMP0743 C. Sempronius (28) Ti. f. Ti. n. Blaesus,Sempronius,Blaesus
+744,CLAU0744 P. Claudius (304) Ap. f. C. n. Pulcher,Claudius,Pulcher
+745,FURI0745 C. Furius (75) C. f. C. n. Pacilus,Furius,Pacilus
+746,AURE0746 C. Aurelius (94) L. f. C. n. Cotta,Aurelius,Cotta
+747,SERV0747 P. Servilius (62) Q. f. Cn. n. Geminus,Servilius,Geminus
+748,AURE0748 P. Aurelius (187) Pecuniola,Aurelius,Pecuniola
+751,CAEC0751 L. Caecilius (72) L. f. C. n. Metellus,Caecilius,Metellus
+752,CORN0752 P. Cornelius (382) P. f. Sulla,Cornelius,Sulla
+753,IUNI0753 L. Iunius (133) C. f. L. n. Pullus,Iunius,Pullus
+754,CLAU0754 M. Claudius (166) C. f. Glicia,Claudius,Glicia
+755,FUND0755 C. Fundanius (5) C. f. Q. n. Fundulus,Fundanius,Fundulus
+757,FABI0757 N. Fabius (55) M. f. M. n. Buteo,Fabius,Buteo
+758,MANL0758 A. Manlius (87) T. f. T. n. Torquatus Atticus,Manlius,Torquatus
+759,OTAC0759 M'. Otacilius (10) C. f. M'. n. Crassus,Otacilius,Crassus
+760,FABI0760 M. Fabius (94) C. f. M. n. Licinus,Fabius,Licinus
+761,SEMP0761 Ti. Sempronius (50) Ti. f. C. n. Gracchus,Sempronius,Gracchus
+762,FABI0762 M. Fabius (53) M. f. M. n. Buteo,Fabius,Buteo
+763,ATIL0763 C. Atilius (33) A. f. A. n. Bulbus,Atilius,Bulbus
+764,SULP0764 C. Sulpicius (65) C. f. Ser. n. Galus,Sulpicius,Galus
+765,LUTA0765 C. Lutatius (4) C. f. C. n. Catulus,Lutatius,Catulus
+766,POST0766 A. Postumius (30) A. f. L. n. Albinus,Postumius,Albinus
+767,VALE0767 Q. Valerius (157) Q. f. P. n. Falto,Valerius,Falto
+768,LUTA0768 Q. Lutatius (13) C. f. C. n. Cerco,Lutatius,Cerco
+770,PUBL0770 L. Publicius (16a) Malleolus,Publicius,Malleolus
+771,PUBL0771 M. Publicius (22) L. f. L. n. Malleolus,Publicius,Malleolus
+776,CLAU0776 C. Claudius (104) Ap. f. C. n. Centho,Claudius,Centho
+777,SEMP0777 M. Sempronius (93) C. f. M. n. Tuditanus,Sempronius,Tuditanus
+778,MAMI0778 C. Mamilius (11) Q. f. Q. n. Turrinus,Mamilius,Turrinus
+779,VALE0779 P. Valerius (155) Q. f. P. n. Falto,Valerius,Falto
+780,CORN0780 L. Cornelius (211) L. f. Ti. n. Lentulus Caudinus,Cornelius,Lentulus
+781,FULV0781 Q. Fulvius (59) M. f. Q. n. Flaccus,Fulvius,Flaccus
+782,CORN0782 P. Cornelius (213) L. f. Ti. n. Lentulus Caudinus,Cornelius,Lentulus
+783,LICI0783 C. Licinius (174) P. f. P. n. Varus,Licinius,Varus
+784,CLAU0784 M. Claudius (115) Clineas,Claudius,Clineas
+785,AEMI0785 M'. Aemilius (103) M'. f. (Lepidus) Numida,Aemilius,(Lepidus)
+786,LIVI0786 M. Livius (32) M. f. M. n. Salinator,Livius,Salinator
+787,MANL0787 T. Manlius (82) T. f. T. n. Torquatus,Manlius,Torquatus
+788,POST0788 L. Postumius (40) A. f. A. n. Albinus,Postumius,Albinus
+789,CARV0789 Sp. Carvilius (10) Sp. f. C. n. Maximus (Ruga),Carvilius,Maximus
+791,POMP0791 M'. Pomponius (17) M'. f. M'. n. Matho,Pomponius,Matho
+792,AEMI0792 M. Aemilius (66) M. f. M. n. Lepidus,Aemilius,Lepidus
+796,AEMI0796 M. Aemilius (33) L. f. Q. n. Barbula,Aemilius,Barbula
+797,IUNI0797 M. Iunius (126) D. f. D. n. Pera,Iunius,Pera
+798,OCTA0798 Cn. Octavius (cf. 79) Sca. Rufus,Octavius,Rufus
+803,FULV0803 Cn. Fulvius (42) Cn. f. Cn. n. Centumalus,Fulvius,Centumalus
+805,VALE0805 P. Valerius (181) L. f. M. n. Flaccus,Valerius,Flaccus
+806,ATIL0806 M. Atilius (52) M. f. M. n. Regulus,Atilius,Regulus
+807,VALE0807 M. Valerius (211) P. f. P. n. Laevinus,Valerius,Laevinus
+808,VALE0808 M. Valerius (251) M'. f. M. n. (Maximus) Messalla,Valerius,(Maximus)
+809,APUS0809 L. Apustius (4) L. f. C. n. Fullo,Apustius,Fullo
+810,CLAU0810 M. Claudius (220) M. f. M. n. Marcellus,Claudius,Marcellus
+811,SCAN0811 C. Scantinius (3) Capitolinus,Scantinius,Capitolinus
+812,AEMI0812 L. Aemilius (108) Q. f. Cn. n. Papus,Aemilius,Papus
+813,ATIL0813 C. Atilius (48) M. f. M. n. Regulus,Atilius,Regulus
+814,FURI0814 P. Furius (80) Sp. f. M. n. Philus,Furius,Philus
+815,CORN0815 M. Cornelius (92) M. f. M. n. Cethegus,Cornelius,Cethegus
+817,CORN0817 Cn. Cornelius (345) L. f. L. n. Scipio Calvus,Cornelius,Scipio
+818,TERE0818 C. Terentius (83) C. f. M. n. Varro,Terentius,Varro
+819,CORN0819 P. Cornelius (342) (Cn. f. L. n.) Scipio Asina,Cornelius,Scipio
+820,MINU0820 M. Minucius (52) C. f. C. n. Rufus,Minucius,Rufus
+822,MUCI0822 Q. Mucius (19) P. f. Scaevola,Mucius,Scaevola
+823,LUTA0823 C. Lutatius (5) C. f. C. n. Catulus,Lutatius,Catulus
+824,VETU0824 L. Veturius (19) L. f. Post. n. Philo,Veturius,Philo
+826,AEMI0826 L. Aemilius (118) M. f. M. n. Paullus,Aemilius,Paullus
+827,LIVI0827 M. Livius (33) M. f. M. n. Pol. Salinator,Livius,Salinator
+828,FURI0828 L. Furius (36) Bibaculus,Furius,Bibaculus
+830,BAEB0830 Q. Baebius (45) Cn. f. Tamphilus,Baebius,Tamphilus
+831,FURI0831 -. Furius (cf. 36) Bibaculus,Furius,Bibaculus
+832,CORN0832 P. Cornelius (330) L. f. L. n. Scipio,Cornelius,Scipio
+833,SEMP0833 Ti. Sempronius (66) C. f. C. n. Longus,Sempronius,Longus
+835,ATIL0835 C. Atilius (62) Serranus,Atilius,Serranus
+836,MANL0836 L. Manlius (92) (Vulso),Manlius,(Vulso)
+840,LICI0840 C. Licinius (12 cf. 174) (Varus),Licinius,(Varus)
+845,SERV0845 C. Servilius (59) (Geminus),Servilius,(Geminus)
+849,PAPI0849 C. Papirius (58 cf. 23) Maso,Papirius,Maso
+851,CORN0851 Cn. Cornelius (not in RE) Scipio,Cornelius,Scipio
+852,SERV0852 Cn. Servilius (61) P. f. Q. n. Geminus,Servilius,Geminus
+853,POMP0853 M. Pomponius (18) M'. f. M'. n. Matho,Pomponius,Matho
+854,AEMI0854 M. Aemilius (128) Regillus,Aemilius,Regillus
+855,CORN0855 A. Cornelius (257) Mammula,Cornelius,Mammula
+856,OTAC0856 T. Otacilius (12) Crassus,Otacilius,Crassus
+857,POMP0857 -. Pomponius (20) (Matho),Pomponius,(Matho)
+858,CLAU0858 Ap. Claudius (293) P. f. Ap. n. Pulcher,Claudius,Pulcher
+860,SEMP0860 Ti. Sempronius (32) Blaesus,Sempronius,Blaesus
+865,QUIN0865 K. Quinctius (41) Flamininus,Quinctius,Flamininus
+866,SEMP0866 Ti. Sempronius (51) Ti. f. Ti. n. Gracchus,Sempronius,Gracchus
+870,AURE0870 M. Aurelius (103) Cotta,Aurelius,Cotta
+871,CLAU0871 M. Claudius (221) Marcellus,Claudius,Marcellus
+872,BAEB0872 Q. Baebius (26) Herennius,Baebius,Herennius
+874,SCRI0874 L. Scribonius (16) Libo,Scribonius,Libo
+876,FURI0876 L. Furius (35) Bibaculus,Furius,Bibaculus
+877,CORN0877 Cn. Cornelius (176) L. f. L. n. Lentulus,Cornelius,Lentulus
+878,CORN0878 P. Cornelius (336) P. f. L. n. Scipio Africanus Maior,Cornelius,Scipio
+879,FABI0879 Q. Fabius (103) Q. f. Q. n. Maximus,Fabius,Maximus
+881,PUBL0881 L. Publicius (16) Bibulus,Publicius,Bibulus
+882,SEMP0882 P. Sempronius (96) C. f. C. n. Tuditanus,Sempronius,Tuditanus
+883,FABI0883 Q. Fabius (126) Pictor,Fabius,Pictor
+885,IUNI0885 M. Iunius (169) D. f. D. n. Silanus,Iunius,Silanus
+889,AELI0889 Q. Aelius (103) P. f. Paetus,Aelius,Paetus
+891,CAEC0891 Q. Caecilius (81) L. f. L. n. Metellus,Caecilius,Metellus
+897,ANTI0897 L. Antistius (not in RE) Pol. Reginus,Antistius,Reginus
+899,MAEC0899 T. Maecilius (3) Croto,Maecilius,Croto
+901,VALE0901 L. Valerius (99) Vot. Antias,Valerius,Antias
+902,VALE0902 P. Valerius (182) Flaccus,Valerius,Flaccus
+903,CORN0903 P. Cornelius (200) Lentulus,Cornelius,Lentulus
+904,FULV0904 Cn. Fulvius (43) Cn. f. Cn. n. Centumalus,Fulvius,Centumalus
+905,CAEC0905 L. Caecilius (73) Metellus,Caecilius,Metellus
+907,PORC0907 M. Porcius (9) M. f. Pap. Cato 'Censorius',Porcius,Cato
+908,CLAU0908 C. Claudius (246) Ti. f. Ti. n. Arn. Nero,Claudius,Nero
+909,LIVI0909 M. Livius (24) (Macatus),Livius,(Macatus)
+910,NAEV0910 Q. Naevius (14) Crista,Naevius,Crista
+912,ATIL0912 M. Atilius (53) Regulus,Atilius,Regulus
+913,FUND0913 M. Fundanius (6) Fundulus,Fundanius,Fundulus
+914,VILL0914 L. Villius (9) Tappulus,Villius,Tappulus
+916,QUIN0916 T. Quinctius (38) L. f. L. n. Crispinus,Quinctius,Crispinus
+918,POMP0918 T. Pomponius (27) Veientanus,Pomponius,Veientanus
+919,SERV0919 Cn. Servilius (44) Cn. f. Cn. n. Caepio,Servilius,Caepio
+921,PAPI0921 C. Papirius (58) L. f. Maso,Papirius,Maso
+923,CORN0923 P. Cornelius (383) Sulla,Cornelius,Sulla
+924,FULV0924 Cn. Fulvius (54) Flaccus,Fulvius,Flaccus
+925,IUNI0925 M. Iunius (167) Silanus,Iunius,Silanus
+926,LICI0926 P. Licinius (69) P. f. P. n. Crassus Dives,Licinius,Crassus
+929,SERV0929 C. Servilius (51) Casca,Servilius,Casca
+930,VALE0930 L. Valerius (173) P. f. L. n. Flaccus,Valerius,Flaccus
+931,SERV0931 C. Servilius (60) C. f. P. n. Geminus,Servilius,Geminus
+936,SULP0936 P. Sulpicius (64) Ser. f. P. n. Galba Maximus,Sulpicius,Galba
+938,CORN0938 L. Cornelius (187) Lentulus,Cornelius,Lentulus
+939,SULP0939 C. Sulpicius (8) (Galus),Sulpicius,(Galus)
+942,SEMP0942 C. Sempronius (29) Blaesus,Sempronius,Blaesus
+943,MARC0943 L. Marcius (101) Septimius,Marcius,Septimius
+945,FULV0945 C. Fulvius (52) Flaccus,Fulvius,Flaccus
+948,PORC0948 L. Porcius (22) Pap. Licinus,Porcius,Licinus
+949,VETU0949 L. Veturius (20) L. f. L. n. Philo,Veturius,Philo
+952,LIVI0952 C. Livius (29) M. f. M. n. Salinator,Livius,Salinator
+953,SERV0953 M. Servilius (78) C. f. P. n. Pulex Geminus,Servilius,Pulex
+957,CINC0957 L. Cincius (5) Alimentus,Cincius,Alimentus
+958,MANL0958 L. Manlius (46) Acidinus,Manlius,Acidinus
+959,MANL0959 P. Manlius (98) Vulso,Manlius,Vulso
+960,LICI0960 P. Licinius (175) Varus,Licinius,Varus
+966,CALP0966 C. Calpurnius (61) Piso,Calpurnius,Piso
+967,FURI0967 L. Furius (86) Sp. f. Sp. n. Purpurio,Furius,Purpurio
+971,POPI0971 P. Popillius (25) (Laenas),Popillius,(Laenas)
+976,SEMP0976 Ti. Sempronius (67) Ti. f. C. n. Longus,Sempronius,Longus
+977,QUIN0977 L. Quinctius (43) T. f. L. n. Flamininus,Quinctius,Flamininus
+980,CORN0980 Cn. Cornelius (131) Dolabella,Cornelius,Dolabella
+981,AEMI0981 M. Aemilius (111) Papus,Aemilius,Papus
+982,MAMI0982 C. Mamilius (5) Atellus,Mamilius,Atellus
+984,HOST0984 C. Hostilius (25) Tubulus,Hostilius,Tubulus
+985,CORN0985 L. Cornelius (212) Lentulus Caudinus,Cornelius,Lentulus
+986,CORN0986 P. Cornelius (214) Lentulus Caudinus,Cornelius,Lentulus
+987,SULP0987 Ser. Sulpicius (56) Ser. f. P. n. Galba,Sulpicius,Galba
+988,PUBL0988 C. Publicius (14 or 15) Bibulus,Publicius,Bibulus
+990,DECI0990 C. Decimius (8) Flavus,Decimius,Flavus
+991,SEMP0991 M. Sempronius (94) Tuditanus,Sempronius,Tuditanus
+993,VALE0993 C. Valerius (166) P. f. L. n. Flaccus,Valerius,Flaccus
+994,CLAU0994 Q. Claudius (151 cf. 29) (Flamen),Claudius,(Flamen)
+995,IULI0995 Sex. Iulius (147) Caesar,Iulius,Caesar
+996,CAEC0996 M. Caecilius (76) Metellus,Caecilius,Metellus
+997,CLAU0997 M. Claudius (222) M. f. M. n. Marcellus,Claudius,Marcellus
+999,QUIN0999 T. Quinctius (45) T. f. L. n. Flamininus,Quinctius,Flamininus
+1002,LICI1002 L. Licinius (143) Pollio,Licinius,Pollio
+1006,AELI1006 P. Aelius (101) Q. f. P. n. Paetus,Aelius,Paetus
+1007,HOST1007 A. Hostilius (10) (Cato),Hostilius,(Cato)
+1008,HOST1008 C. Hostilius (11) Cato,Hostilius,Cato
+1009,CORN1009 Ser. Cornelius (207) Lentulus,Cornelius,Lentulus
+1010,POMP1010 M. Pomponius (19) Matho,Pomponius,Matho
+1011,MAMI1011 Q. Mamilius (13) Turrinus,Mamilius,Turrinus
+1014,CLAU1014 Ti. Claudius (61) Asellus,Claudius,Asellus
+1016,CORN1016 L. Cornelius (337) P. f. L. n. Scipio Asiaticus,Cornelius,Scipio
+1019,CLAU1019 Ti. Claudius (62 cf. 61) Asellus,Claudius,Asellus
+1021,TREM1021 Cn. Tremellius (4) Flaccus,Tremellius,Flaccus
+1022,VALE1022 M. Valerius (153) Falto,Valerius,Falto
+1023,CORN1023 L. Cornelius (188) L. f. L. n. Lentulus,Cornelius,Lentulus
+1024,AEMI1024 L. Aemilius (109) Papus,Aemilius,Papus
+1025,IUNI1025 M. Iunius (121) Pennus,Iunius,Pennus
+1031,VETU1031 Ti. Veturius (22) L. f. L. n. Philo,Veturius,Philo
+1032,CLAU1032 Ti. Claudius (249) P. f. Ti. n. Nero,Claudius,Nero
+1033,MARC1033 M. Marcius (86) Ralla,Marcius,Ralla
+1034,VILL1034 P. Villius (10) Ti. f. Ti. n. Tappulus,Villius,Tappulus
+1035,BAEB1035 Cn. Baebius (41) Q. f. Cn. n. Tamphilus,Baebius,Tamphilus
+1036,CINC1036 M. Cincius (6) Alimentus,Cincius,Alimentus
+1041,QUIN1041 P. Quinctilius (12) P. f. Varus,Quinctilius,Varus
+1042,FABI1042 M. Fabius (54) Buteo,Fabius,Buteo
+1043,SEXT1043 M. Sextius (35) Qui. Ser. Sabinus,Sextius,Sabinus
+1051,FULV1051 Q. Fulvius (69) Gillo,Fulvius,Gillo
+1052,BAEB1052 L. Baebius (14 25) Dives,Baebius,Dives
+1053,FABI1053 Q. Fabius (104) Q. f. Q. n. Maximus,Fabius,Maximus
+1054,AURE1054 C. Aurelius (95) C. f. C. n. Cotta,Aurelius,Cotta
+1055,FULV1055 Q. Fulvius (25 cf. 69) (Gillo),Fulvius,(Gillo)
+1056,LICI1056 L. Licinius (101) Lucullus,Licinius,Lucullus
+1057,AELI1057 P. Aelius (152) Tubero,Aelius,Tubero
+1060,SULP1060 C. Sulpicius (49) Galba,Sulpicius,Galba
+1062,MINU1062 Q. Minucius (22 55) C. f. C. n. Rufus,Minucius,Rufus
+1063,ACIL1063 M'. Acilius (35) C. f. L. n. Glabrio,Acilius,Glabrio
+1064,MINU1064 Q. Minucius (65) Q. f. L. n. Thermus,Minucius,Thermus
+1065,CORN1065 C. Cornelius (88) L. f. M. n. Cethegus,Cornelius,Cethegus
+1067,AEMI1067 M. Aemilius (68) M. f. M. n. Lepidus,Aemilius,Lepidus
+1071,HOST1071 L. Hostilius (12) Cato,Hostilius,Cato
+1072,FULV1072 M. Fulvius (56) Flaccus,Fulvius,Flaccus
+1073,SERG1073 C. Sergius (36) Plautus,Sergius,Plautus
+1074,AELI1074 Sex. Aelius (105) Q. f. P. n. Paetus Catus,Aelius,Paetus
+1075,TERE1075 L. Terentius (58) Massiliota,Terentius,Massiliota
+1077,CORN1077 P. Cornelius (350) Cn. f. L. n. Scipio Nasica,Cornelius,Scipio
+1079,CLAU1079 C. Claudius (105) Centho,Claudius,Centho
+1081,FURI1081 M. Furius (56) Crassipes,Furius,Crassipes
+1084,PORC1084 P. Porcius (19) Pap. Laeca,Porcius,Laeca
+1085,CORN1085 Cn. Cornelius (74) Blasio,Cornelius,Blasio
+1088,APUS1088 L. Apustius (2  5) (Fullo),Apustius,(Fullo)
+1090,CORN1090 Cn. Cornelius (346) Cn. f. L. n. Scipio Hispallus,Cornelius,Scipio
+1091,CORN1091 L. Cornelius (270) L. f. Merula,Cornelius,Merula
+1092,SEMP1092 C. Sempronius (90) Tuditanus,Sempronius,Tuditanus
+1095,CLAU1095 Ap. Claudius (245) Nero,Claudius,Nero
+1097,FABI1097 Q. Fabius (31 57) (Buteo),Fabius,(Buteo)
+1100,MANL1100 L. Manlius (93) Vulso,Manlius,Vulso
+1101,MINU1101 M. Minucius (53) Rufus,Minucius,Rufus
+1102,SERG1102 M. Sergius (40) Silus,Sergius,Silus
+1103,MANL1103 Cn. Manlius (91) Cn. f. L. n. Vulso,Manlius,Vulso
+1105,OPPI1105 L. Oppius (32) Salinator,Oppius,Salinator
+1106,IUVE1106 T. Iuventius (9) (Thalna),Iuventius,(Thalna)
+1109,FULV1109 M. Fulvius (91) M. f. Ser. n. Nobilior,Fulvius,Nobilior
+1110,DOMI1110 Cn. Domitius (18) L. f. L. n. Ahenobarbus,Domitius,Ahenobarbus
+1111,SCRI1111 C. Scribonius (8) Curio,Scribonius,Curio
+1113,ATIN1113 C. Atinius (8) Hor. Labeo,Atinius,Labeo
+1114,LICI1114 C. Licinius (99) Lucullus,Licinius,Lucullus
+1115,MARC1115 Q. Marcius (87) Ralla,Marcius,Ralla
+1117,FABI1117 Q. Fabius (91) Q. f. Q. n. Labeo,Fabius,Labeo
+1118,CLAU1118 Ap. Claudius (294) Ap. f. P. n. Pulcher,Claudius,Pulcher
+1123,IUNI1123 M. Iunius (168) Silanus,Iunius,Silanus
+1124,SEMP1124 T. (or Ti.) Sempronius (60) Gracchus,Sempronius,Gracchus
+1125,CLAU1125 C. Claudius (300) Ap. f. P. n. Pulcher,Claudius,Pulcher
+1127,FABR1127 C. Fabricius (10) Luscinus,Fabricius,Luscinus
+1128,MANL1128 P. Manlius (31 cf. Manilius 2) (Vulso),Manlius,(Vulso)
+1129,PUBL1129 C. Publicius (15) Bibulus,Publicius,Bibulus
+1131,IUNI1131 M. Iunius (48) M. f. L. n. Brutus,Iunius,Brutus
+1132,IUNI1132 P. Iunius (54) Brutus,Iunius,Brutus
+1133,VALE1133 L. Valerius (350) C. f. Tappo,Valerius,Tappo
+1134,AEMI1134 L. Aemilius (114) L. f. M. n. Paullus Macedonicus,Aemilius,Paullus
+1135,TERE1135 Q. Terentius (43) Culleo,Terentius,Culleo
+1137,CORN1137 Cn. Cornelius (265) Merenda,Cornelius,Merenda
+1139,IUVE1139 T. Iuventius (32) Thalna,Iuventius,Thalna
+1140,ATIL1140 A. Atilius (60) C. f. C. n. Serranus,Atilius,Serranus
+1141,SCRI1141 L. Scribonius (17) Libo,Scribonius,Libo
+1143,POST1143 L. Postumius (65) Tympanus,Postumius,Tympanus
+1149,IUNI1149 D. Iunius (45) Brutus,Iunius,Brutus
+1151,MANL1151 A. Manlius (90) Cn. f. L. n. Vulso,Manlius,Vulso
+1152,AELI1152 Q. Aelius (153) Tubero,Aelius,Tubero
+1154,PORC1154 L. Porcius (23) L. f. M. n. Pap. Licinus,Porcius,Licinus
+1157,SEMP1157 M. Sempronius (95) M. f. C. n. Tuditanus,Sempronius,Tuditanus
+1163,BAEB1163 M. Baebius (44 cf. 1 16) Q. f. Cn. n. Tamphilus,Baebius,Tamphilus
+1164,FULV1164 M. Fulvius (44) Centumalus,Fulvius,Centumalus
+1165,SALO1165 Q. Salonius (not in RE) Sarra,Salonius,Sarra
+1168,TITI1168 M. Titinius (20 cf. 12 13) Curvus,Titinius,Curvus
+1169,CORN1169 A. Cornelius (258) Mammula,Cornelius,Mammula
+1170,POST1170 Sp. Postumius (44) L. f. A. n. Albinus,Postumius,Albinus
+1171,SEMP1171 P. Sempronius (31) Blaesus,Sempronius,Blaesus
+1172,POST1172 A. Postumius (46) A. f. A. n. Albinus (Luscus),Postumius,Albinus
+1173,SULP1173 C. Sulpicius (66) C. f. C. n. Galus,Sulpicius,Galus
+1175,AEMI1175 L. Aemilius (127) Regillus,Aemilius,Regillus
+1176,ATIN1176 C. Atinius (9) Hor. Labeo,Atinius,Labeo
+1179,FURI1179 C. Furius (31) Aculeo,Furius,Aculeo
+1180,AEMI1180 M. Aemilius (69) Lepidus,Aemilius,Lepidus
+1182,SEMP1182 Ti. Sempronius (53) P. f. Ti. n. Gracchus,Sempronius,Gracchus
+1183,TERE1183 A. Terentius (80) Varro,Terentius,Varro
+1184,CLAU1184 M. Claudius (204) Lepidus,Claudius,Lepidus
+1185,AEMI1185 M. Aemilius (129) (Regillus),Aemilius,(Regillus)
+1186,AEMI1186 L. Aemilius (138) Scaurus,Aemilius,Scaurus
+1187,ATIL1187 M. Atilius (68) Serranus,Atilius,Serranus
+1188,FABI1188 Q. Fabius (127) Q. f. Pictor,Fabius,Pictor
+1190,PLAU1190 L. Plautius (19) Hypsaeus,Plautius,Hypsaeus
+1191,CLAU1191 P. Claudius (305) Ap. f. P. n. Pulcher,Claudius,Pulcher
+1192,SULP1192 Ser. Sulpicius (57) Galba,Sulpicius,Galba
+1194,FULV1194 Q. Fulvius (60) Cn. f. M. n. Flaccus,Fulvius,Flaccus
+1195,SEMP1195 P. Sempronius (49) Gracchus,Sempronius,Gracchus
+1196,SEMP1196 C. Sempronius (81) Rutilus,Sempronius,Rutilus
+1197,CORN1197 Cn. Cornelius (268) Merula,Cornelius,Merula
+1198,AURE1198 M. Aurelius (104) Cotta,Aurelius,Cotta
+1200,VALE1200 C. Valerius (208) M. f. P. n. Laevinus,Valerius,Laevinus
+1201,VALE1201 M. Valerius (252) M. f. M'. n. Messalla,Valerius,Messalla
+1204,MANL1204 L. Manlius (47) Acidinus Fulvianus,Manlius,Acidinus
+1205,MARC1205 Q. Marcius (79) L. f. Q. n. Philippus,Marcius,Philippus
+1207,VALE1207 C. Valerius (349) Tappo,Valerius,Tappo
+1208,FABI1208 Q. Fabius (32 58) (Buteo),Fabius,(Buteo)
+1209,FABI1209 Q. Fabius (105) Maximus,Fabius,Maximus
+1212,CORN1212 P. Cornelius (95) L. f. P. n. Cethegus,Cornelius,Cethegus
+1213,FURI1213 M. Furius (63) Luscus,Furius,Luscus
+1214,SEMP1214 C. Sempronius (30) Blaesus,Sempronius,Blaesus
+1219,PETI1219 Q. Petillius (11 cf. 4) C. f. Q. n. Spurinus,Petillius,Spurinus
+1221,AURE1221 C. Aurelius (213) Scaurus,Aurelius,Scaurus
+1222,CALP1222 C. Calpurnius (62) C. f. C. n. Piso,Calpurnius,Piso
+1223,CORN1223 P. Cornelius (384) Sulla,Cornelius,Sulla
+1224,LICI1224 M. Licinius (1? 108) Lucullus,Licinius,Lucullus
+1226,QUIN1226 L. Quinctius (37) Crispinus,Quinctius,Crispinus
+1227,AFRA1227 C. Afranius (15) Stellio,Afranius,Stellio
+1228,ATIL1228 C. Atilius (63 cf. 60) Serranus,Atilius,Serranus
+1229,CLAU1229 M. Claudius (223 224) M. f. M. n. Marcellus,Claudius,Marcellus
+1231,POST1231 L. Postumius (62) Tempsanus,Postumius,Tempsanus
+1232,VALE1232 M. Valerius (210) Laevinus,Valerius,Laevinus
+1235,CLAU1235 Ti. Claudius (250) Nero,Claudius,Nero
+1236,IUVE1236 L. Iuventius (29) Thalna,Iuventius,Thalna
+1237,QUIN1237 T. Quinctilius (18) Varus,Quinctilius,Varus
+1238,CORN1238 P. Cornelius (96) Cethegus,Cornelius,Cethegus
+1239,DECI1239 C. Decimius (9) Flavus,Decimius,Flavus
+1240,NAEV1240 Q. Naevius (4 16) Matho,Naevius,Matho
+1241,SEMP1241 P. Sempronius (65) Longus,Sempronius,Longus
+1242,FULV1242 Q. Fulvius (61) Q. f. M. n. Flaccus,Fulvius,Flaccus
+1245,MINU1245 C. Minucius (30) Augurinus,Minucius,Augurinus
+1247,FULV1247 M. Fulvius (57) Flaccus,Fulvius,Flaccus
+1248,FULV1248 Q. Fulvius (95) M. f. M. n. Nobilior,Fulvius,Nobilior
+1249,CORN1249 P. Cornelius (375) Sisenna,Cornelius,Sisenna
+1250,IULI1250 L. Iulius (27) (Caesar),Iulius,(Caesar)
+1251,POST1251 Sp. Postumius (49) A. f. A. n. Albinus (Paullulus),Postumius,Albinus
+1253,AEBU1253 T. Aebutius (10) Parrus,Aebutius,Parrus
+1254,CAEC1254 L. Caecilius (49) Denter,Caecilius,Denter
+1255,OGUL1255 M. Ogulnius (4) Gallus,Ogulnius,Gallus
+1256,TERE1256 C. Terentius (51) Istra,Terentius,Istra
+1259,MINU1259 L. Minucius (15 63) Thermus,Minucius,Thermus
+1260,AURE1260 L. Aurelius (97) Cotta,Aurelius,Cotta
+1263,FABI1263 Q. Fabius (58) Buteo,Fabius,Buteo
+1264,PINA1264 M. Pinarius (4 21?) Rusca (or Posca),Pinarius,Rusca (or Posca)
+1265,IULI1265 Sex. Iulius (148 149) Sex. f. L. n. Caesar,Iulius,Caesar
+1270,ACIL1270 M'. Acilius (36) M'. f. C. n. Glabrio,Acilius,Glabrio
+1271,PORC1271 L. Porcius (24) L. f. Pap. Licinus,Porcius,Licinus
+1272,LUCR1272 C. Lucretius (23) Gallus,Lucretius,Gallus
+1274,CORN1274 P. Cornelius (260) Mammula,Cornelius,Mammula
+1275,HOST1275 A. Hostilius (16) L. f. A. n. Mancinus,Hostilius,Mancinus
+1277,MINU1277 Ti. Minucius (43) Molliculus,Minucius,Molliculus
+1278,POST1278 L. Postumius (41) A. f. A. n. Albinus,Postumius,Albinus
+1279,VILL1279 L. Villius (5) Annalis,Villius,Annalis
+1281,FULV1281 M. Fulvius (57 92) (Nobilior),Fulvius,(Nobilior)
+1282,CORN1282 L. Cornelius (137) Dolabella,Cornelius,Dolabella
+1283,POPI1283 M. Popillius (24) P. f. P. n. Laenas,Popillius,Laenas
+1284,POPI1284 P. Popillius (26) Laenas,Popillius,Laenas
+1285,CORN1285 P. Cornelius (331) P. f. P. n. Scipio,Cornelius,Scipio
+1286,FULV1286 Q. Fulvius (29 cf. 95) M. f. Nobilior,Fulvius,Nobilior
+1287,CLOE1287 P. Cloelius (9) Siculus,Cloelius,Siculus
+1288,MUCI1288 P. Mucius (16) Q. f. P. n. Scaevola,Mucius,Scaevola
+1289,MUCI1289 Q. Mucius (20) Q. f. P. n. Scaevola,Mucius,Scaevola
+1290,CLAU1290 Ap. Claudius (103) Centho,Claudius,Centho
+1291,SERV1291 Cn. Servilius (45) Cn. f. Cn. n. Caepio,Servilius,Caepio
+1295,CLAU1295 Ti. Claudius (251) Nero,Claudius,Nero
+1296,CLUV1296 C. Cluvius (14) Saxula,Cluvius,Saxula
+1297,FONT1297 T. Fonteius (26) Capito,Fonteius,Capito
+1301,AELI1301 C. Aelius (6 cf. Caelius 1) (or Caelius),Aelius,(or
+1304,CASS1304 C. Cassius (55) C. f. C. n. Longinus,Cassius,Longinus
+1305,LICI1305 M. Licinius (166) Strabo,Licinius,Strabo
+1309,CORN1309 Cn. Cornelius (320 325) Scipio,Cornelius,Scipio
+1311,QUIN1311 C. Quinctius (40) Flamininus,Quinctius,Flamininus
+1312,AELI1312 Q. Aelius (104) P. f. Q. n. Paetus,Aelius,Paetus
+1314,LICI1314 A. Licinius (129) Nerva,Licinius,Nerva
+1315,PAPI1315 C. Papirius (76) Turdus,Papirius,Turdus
+1318,CLAU1318 M. Claudius (225) M. f. M. n. Marcellus,Claudius,Marcellus
+1319,AQUI1319 L. Aquillius (24) Gallus,Aquillius,Gallus
+1320,CORN1320 M. Cornelius (348 cf. 35) Scipio Maluginensis,Cornelius,Scipio
+1321,LICI1321 P. Licinius (60) C. f. P. n. Crassus,Licinius,Crassus
+1322,PAPI1322 L. Papirius (62) Maso,Papirius,Maso
+1323,FURI1323 L. Furius (77) Philus,Furius,Philus
+1324,AELI1324 P. Aelius (84) P. f. P. n. Ligus,Aelius,Ligus
+1325,BAEB1325 Q. Baebius (40) Sulca,Baebius,Sulca
+1326,CORN1326 Ser. Cornelius (2 388) Sulla,Cornelius,Sulla
+1327,LUTA1327 Cn. Lutatius (11) Cerco,Lutatius,Cerco
+1328,POPI1328 C. Popillius (18) P. f. P. n. Laenas,Popillius,Laenas
+1329,ATIL1329 M. Atilius (21 68) (Serranus),Atilius,(Serranus)
+1331,CORN1331 L. Cornelius (325) Scipio,Cornelius,Scipio
+1332,FURI1332 P. Furius (82) Philus,Furius,Philus
+1334,CANU1334 L. Canuleius (6 12) (Dives),Canuleius,(Dives)
+1336,SULP1336 C. Sulpicius (50) C. f. Galba,Sulpicius,Galba
+1337,VETU1337 Ti. Veturius (23) Gracchus Sempronianus,Veturius,Gracchus
+1338,SEMP1338 C. Sempronius (63) Ti. f. Ti. n. Longus,Sempronius,Longus
+1341,FABI1341 N. Fabius (56) Buteo,Fabius,Buteo
+1342,SERV1342 C. Servilius (9) (Geminus),Servilius,(Geminus)
+1343,CORN1343 M. Cornelius (259) Mammula,Cornelius,Mammula
+1344,CAEC1344 M. Caecilius (50) Denter,Caecilius,Denter
+1346,APPU1346 L. Appuleius (28) Saturninus,Appuleius,Saturninus
+1353,IUNI1353 M. Iunius (122) M. f. M. n. Pennus,Iunius,Pennus
+1354,LICI1354 C. Licinius (51) C. f. P. n. Crassus,Licinius,Crassus
+1358,MARC1358 Q. Marcius (100) Scilla,Marcius,Scilla
+1359,MARC1359 M. Marcius (102) Sermo,Marcius,Sermo
+1362,CORN1362 P. Cornelius (202) L. f. L. n. Lentulus,Cornelius,Lentulus
+1363,CORN1363 Ser. Cornelius (208a) Lentulus,Cornelius,Lentulus
+1366,DOMI1366 Cn. Domitius (19) Cn. f. L. n. Ahenobarbus,Domitius,Ahenobarbus
+1367,CANI1367 C. Caninius (8) Rebilus,Caninius,Rebilus
+1369,FULV1369 M. Fulvius (93) M. f. M. n. Nobilior,Fulvius,Nobilior
+1370,MANL1370 -. Manlius (43 26?) L. f. Acidinus,Manlius,Acidinus
+1374,LICI1374 A. Licinius (131) Nerva,Licinius,Nerva
+1377,CORN1377 M. Cornelius (93) C. f. C. n. Cethegus,Cornelius,Cethegus
+1378,FULV1378 M. Fulvius (92) (Nobilior),Fulvius,(Nobilior)
+1379,MARC1379 P. Marcius (89) Rex,Marcius,Rex
+1380,MINU1380 T. Minucius (58) Rufus,Minucius,Rufus
+1384,MANL1384 T. Manlius (83) A. f. T. n. Torquatus,Manlius,Torquatus
+1387,IUVE1387 M'. Iuventius (30) T. f. T. n. Pap. Thalna,Iuventius,Thalna
+1390,CORN1390 P. Cornelius (76) P. f. Blasio,Cornelius,Blasio
+1392,CANI1392 M. Caninius (12) Rebilus,Caninius,Rebilus
+1393,COEL1393 L. Coelius (1) Antipater,Coelius,Antipater
+1394,FONT1394 P. Fonteius (24) Capito,Fonteius,Capito
+1395,MARC1395 C. Marcius (61) C. f. Q. n. Figulus,Marcius,Figulus
+1396,CORN1396 P. Cornelius (353) P. f. Cn. n. Scipio Nasica Corculum,Cornelius,Scipio
+1398,VOCO1398 Q. Voconius (4) Hor. Saxa,Voconius,Saxa
+1399,NUMI1399 T. Numisius (10) Ste. Tarquiniensis,Numisius,Tarquiniensis
+1403,MARC1403 Q. Marcius (80) Q. f. L. n. Philippus,Marcius,Philippus
+1404,ANNI1404 T. Annius (63 64) T. f. Luscus,Annius,Luscus
+1405,DECI1405 P. Decius (20) Subolo,Decius,Subolo
+1406,POST1406 L. Postumius (42) Sp. f. L. n. Albinus,Postumius,Albinus
+1407,AEBU1407 M. Aebutius (13) Helva,Aebutius,Helva
+1408,ANIC1408 L. Anicius (15) L. f. L. n. Gallus,Anicius,Gallus
+1409,BAEB1409 Cn. Baebius (42 cf. 43) Tamphilus,Baebius,Tamphilus
+1410,FONT1410 P. Fonteius (17) Balbus,Fonteius,Balbus
+1411,PAPI1411 C. Papirius (32) Carbo,Papirius,Carbo
+1413,MANL1413 L. Manlius (26 cf. 43) (Acidinus),Manlius,(Acidinus)
+1415,CORN1415 L. Cornelius (324) Scipio,Cornelius,Scipio
+1417,SULP1417 Ser. Sulpicius (58) Ser. f. P. n. Galba,Sulpicius,Galba
+1418,HOST1418 C. Hostilius (3) (Tubulus),Hostilius,(Tubulus)
+1420,POST1420 A. Postumius (31) A. f. A. n. Albinus,Postumius,Albinus
+1422,FABI1422 Q. Fabius (109) Q. f. Q. n. Maximus Aemilianus,Fabius,Maximus
+1423,CORN1423 L. Cornelius (190 191?) Lentulus,Cornelius,Lentulus
+1424,CAEC1424 Q. Caecilius (94) Q. f. L. n. Metellus Macedonicus,Caecilius,Metellus
+1425,LICI1425 C. Licinius (133) Nerva,Licinius,Nerva
+1429,AELI1429 Q. Aelius (154) Tro. Tubero,Aelius,Tubero
+1433,PORC1433 M. Porcius (14) M. f. M. n. Cato Licinianus,Porcius,Cato
+1434,SERG1434 M. Sergius (41) Silus,Sergius,Silus
+1436,SEMP1436 T. Sempronius (72) Musca,Sempronius,Musca
+1437,NAEV1437 L. Naevius (11) Balbus,Naevius,Balbus
+1438,APPU1438 C. Appuleius (not in RE) Saturninus,Appuleius,Saturninus
+1439,CASS1439 Q. Cassius (69) L. f. Q. n. Longinus,Cassius,Longinus
+1440,CLAU1440 Ti. Claudius (252) Nero,Claudius,Nero
+1442,MANL1442 A. Manlius (73) A. f. T. n. Torquatus,Manlius,Torquatus
+1446,TERE1446 P. Terentius (75) Tuscivicanus,Terentius,Tuscivicanus
+1448,IUNI1448 L. Iunius (19) (Brutus),Iunius,(Brutus)
+1449,QUIN1449 T. Quinctius (46) T. f. T. n. Flamininus,Quinctius,Flamininus
+1452,CLAU1452 Ap. Claudius (295) Cn. f. Ap. n. Pulcher,Claudius,Pulcher
+1454,IULI1454 L. Iulius (28 cf. 127) (Caesar),Iulius,(Caesar)
+1455,QUIN1455 P. Quinctilius (13) Varus,Quinctilius,Varus
+1456,RUTI1456 P. Rutilius (12) Calvus,Rutilius,Calvus
+1457,CORN1457 Cn. Cornelius (132) Cn. f. Cn. n. Dolabella,Cornelius,Dolabella
+1460,VALE1460 M. Valerius (253) M. f. M. n. Messalla,Valerius,Messalla
+1461,FANN1461 C. Fannius (20) C. f. C. n. Strabo,Fannius,Strabo
+1465,CORN1465 L. Cornelius (224) Cn. f. L. n. Lentulus Lupus,Cornelius,Lentulus
+1466,VALE1466 L. Valerius (174) L. f. P. n. Flaccus,Valerius,Flaccus
+1468,AURE1468 L. Aurelius (179) L. f. L. n. Orestes,Aurelius,Orestes
+1469,CORN1469 Cn. Cornelius (269) Merula,Cornelius,Merula
+1470,SERV1470 -. Servilius (64) Glaucia,Servilius,Glaucia
+1471,AEMI1471 M. Aemilius (70) M'. f. M'. n. Lepidus,Aemilius,Lepidus
+1472,CORN1472 L. Cornelius (271) Merula,Cornelius,Merula
+1474,CORN1474 Cn. Cornelius (175 177) Cn. f. L. n. Lentulus,Cornelius,Lentulus
+1475,MARC1475 L. Marcius (46) C. f. C. n. Censorinus,Marcius,Censorinus
+1481,CLAU1481 C. Claudius (106) Centho,Claudius,Centho
+1483,CALP1483 L. Calpurnius (87) C. f. C. n. Piso Caesoninus,Calpurnius,Piso
+1484,LICI1484 L. Licinius (102) Lucullus,Licinius,Lucullus
+1485,AURE1485 L. Aurelius (98) L.? f. C. n. Cotta,Aurelius,Cotta
+1486,TERE1486 -. Terentius (77) Varro,Terentius,Varro
+1492,VALE1492 L. Valerius (175) L. f. L. n. Flaccus,Valerius,Flaccus
+1494,ACIL1494 M'. Acilius (25) L. f. K. n. Balbus,Acilius,Balbus
+1495,MUMM1495 L. Mummius (7a 16.1195ff.) L. f. L. n. Achaicus,Mummius,Achaicus
+1499,ATIL1499 M. Atilius (22) (Serranus),Atilius,(Serranus)
+1500,LICI1500 P. Licinius (72) P. f. P. n. Crassus Dives Mucianus,Licinius,Crassus
+1502,POST1502 Sp. Postumius (47) Sp. f. Sp. n. Albinus Magnus,Postumius,Albinus
+1503,HOST1503 A. Hostilius (17) Mancinus,Hostilius,Mancinus
+1504,CORN1504 P. Cornelius (335) P. f. P. n. Scipio Africanus Aemilianus,Cornelius,Scipio
+1506,CORN1506 Cn. Cornelius (347) Cn. f. Cn. n. Scipio Hispanus,Cornelius,Scipio
+1507,IUVE1507 P. Iuventius (31) Thalna,Iuventius,Thalna
+1508,HOST1508 L. Hostilius (20) L. f. L. n. Mancinus,Hostilius,Mancinus
+1510,CALP1510 L. Calpurnius (96) L. f. C. n. Piso Frugi,Calpurnius,Piso
+1511,SCRI1511 L. Scribonius (18) Libo,Scribonius,Libo
+1513,CORN1513 P. Cornelius (354) P. f. P. n. Scipio Nasica Serapio,Cornelius,Scipio
+1515,MANL1515 L. Manlius (94) Vulso,Manlius,Vulso
+1519,LIVI1519 C. Livius (14) M. f. M. n. Drusus,Livius,Drusus
+1520,LICI1520 L. Licinius (120) Murena,Licinius,Murena
+1521,SEMP1521 C. Sempronius (91) Tuditanus,Sempronius,Tuditanus
+1524,LAEL1524 C. Laelius (3) C. f. C. n. Men. Sapiens,Laelius,Sapiens
+1525,SEMP1525 Ti. Sempronius (54) Ti. f. P. n. Gracchus,Sempronius,Gracchus
+1529,CLAU1529 -. Claudius (376) Unimanus,Claudius,Unimanus
+1531,PLAU1531 C. Plautius (9) (Hypsaeus),Plautius,(Hypsaeus)
+1533,IUNI1533 M. Iunius (49) M. f. M. n. Brutus,Iunius,Brutus
+1534,IUNI1534 M. Iunius (22) (Silanus),Iunius,(Silanus)
+1537,TERE1537 A. Terentius (81) Varro,Terentius,Varro
+1538,PAPI1538 C. Papirius (12) (Carbo),Papirius,(Carbo)
+1543,IUNI1543 D. Iunius (160) Silanus,Iunius,Silanus
+1544,CAEC1544 L. Caecilius (83) Q. f. L. n. Metellus Calvus,Caecilius,Metellus
+1545,FABI1545 Q. Fabius (115) Q. f. Q. n. Maximus Servilianus,Fabius,Maximus
+1547,LICI1547 C. Licinius (52) Crassus,Licinius,Crassus
+1548,SEMP1548 C. Sempronius (92) C. f. C. n. Tuditanus,Sempronius,Tuditanus
+1550,MARC1550 Q. Marcius (90) Rex,Marcius,Rex
+1552,SERV1552 Cn. Servilius (46) Cn. f. Cn. n. Caepio,Servilius,Caepio
+1553,AEMI1553 M. Aemilius (83) M. f. M. n. Lepidus Porcina,Aemilius,Lepidus
+1554,LICI1554 -. Licinius (130) Nerva,Licinius,Nerva
+1556,SERV1556 Q. Servilius (48) Cn. f. Cn. n. Caepio,Servilius,Caepio
+1558,TREM1558 L. Tremellius (6) Cn. f. Cam. Scrofa,Tremellius,Scrofa
+1559,OCCI1559 Q. Occius (1) Achilles,Occius,Achilles
+1561,CALP1561 Cn. Calpurnius (73) Piso,Calpurnius,Piso
+1562,HOST1562 L. Hostilius (26) Tubulus,Hostilius,Tubulus
+1563,POPI1563 M. Popillius (22) M. f. P. n. Laenas,Popillius,Laenas
+1565,IUNI1565 D. Iunius (57) M. f. M. n. Brutus Callaicus,Iunius,Brutus
+1566,IUNI1566 D. Iunius (161) Silanus Manlianus,Iunius,Silanus
+1567,MUCI1567 P. Mucius (17) P. f. Q. n. Scaevola,Mucius,Scaevola
+1568,CORN1568 L. Cornelius (192) P. f. L. n. Lentulus,Cornelius,Lentulus
+1569,HOST1569 C. Hostilius (18) A. f. L. n. Mancinus,Hostilius,Mancinus
+1570,CLAU1570 Ti. Claudius (63) Asellus,Claudius,Asellus
+1572,ATIL1572 Sex. Atilius (69) M. f. Serranus,Atilius,Serranus
+1573,FURI1573 L. Furius (78) Philus,Furius,Philus
+1574,PLAU1574 L. Plautius (20) Hypsaeus,Plautius,Hypsaeus
+1575,CALP1575 Q. Calpurnius (86) C. f. C. n. Piso,Calpurnius,Piso
+1576,FULV1576 Ser. Fulvius (64) Q. f. Flaccus,Fulvius,Flaccus
+1579,CLAU1579 M. Claudius (26) (Marcellus),Claudius,(Marcellus)
+1581,FULV1581 C. Fulvius (53) Q. f. Cn. n. Flaccus,Fulvius,Flaccus
+1582,ANTI1582 M. Antius (7) Briso,Antius,Briso
+1583,CASS1583 L. Cassius (72) Longinus Ravilla,Cassius,Longinus
+1590,POPI1590 P. Popillius (28 cf. 7 22) C. f. P. n. Laenas,Popillius,Laenas
+1594,FABI1594 Q. Fabius (110) Q. Aemiliani f. Q. n. Maximus Allobrogicus,Fabius,Maximus
+1596,RUTI1596 P. Rutilius (34) P. f.  Rufus,Rutilius,Rufus
+1597,SEMP1597 -. Sempronius (16) Asellio,Sempronius,Asellio
+1598,SEMP1598 C. Sempronius (47) Ti. f. P. n. Gracchus,Sempronius,Gracchus
+1599,CLAU1599 Ap. Claudius (11) Pulcher,Claudius,Pulcher
+1601,POPI1601 C. Popillius (17) C. f. Laenas,Popillius,Laenas
+1603,LUCR1603 -. Lucretius (34) Vespillo,Lucretius,Vespillo
+1613,MUCI1613 Q. Mucius (21) Q. f. Q. n. Scaevola 'Augur',Mucius,Scaevola
+1615,FABI1615 Q. Fabius (111) Q. Serviliani f. Q. n. Maximus Eburnus,Fabius,Maximus
+1616,ANNI1616 T. Annius (78) T. f. T. n. Rufus,Annius,Rufus
+1618,ATIN1618 C. Atinius (10) C. f. Hor. Labeo Macerio,Atinius,Labeo
+1620,CORN1620 L. Cornelius (105) L. f. Cinna,Cornelius,Cinna
+1621,MARC1621 C. Marcius (62) Figulus,Marcius,Figulus
+1622,AELI1622 Q. Aelius (155) Tro. Tubero,Aelius,Tubero
+1623,PAPI1623 C. Papirius (33) C. f. Carbo,Papirius,Carbo
+1624,FULV1624 M. Fulvius (58) M. f. Flaccus,Fulvius,Flaccus
+1626,AEMI1626 M. Aemilius (71) Lepidus,Aemilius,Lepidus
+1627,AURE1627 L. Aurelius (180) L. f. L. n. Orestes,Aurelius,Orestes
+1628,LATI1628 Ti. (Latinius) (6) Ti. f. Hor. Pandusa,(Latinius),Pandusa
+1629,SERV1629 Q. Servilius (49) Cn. f. Cn. n. Caepio,Servilius,Caepio
+1630,DOMI1630 Cn. Domitius (20 Supb. 3.349) Cn. f. Cn. n. Ahenobarbus,Domitius,Ahenobarbus
+1631,CORN1631 P. Cornelius (202a Supb. 3.359f.) P. f. Lentulus,Cornelius,Lentulus
+1632,PLAU1632 M. Plautius (21) Hypsaeus,Plautius,Hypsaeus
+1633,CASS1633 C. Cassius (56) Longinus,Cassius,Longinus
+1634,SEXT1634 C. Sextius (20) C. f. C. n. Calvinus,Sextius,Calvinus
+1635,CAEC1635 Q. Caecilius (82) Q. f. Q. n. Metellus Balearicus,Caecilius,Metellus
+1636,QUIN1636 T. Quinctius (47) T. f. T.? n. Flamininus,Quinctius,Flamininus
+1637,LICI1637 M. Licinius (57) Crassus 'Agelastus',Licinius,Crassus
+1638,IUNI1638 M. Iunius (123) M. f. M. n. Pennus,Iunius,Pennus
+1642,IULI1642 Sex. Iulius (150) Caesar,Iulius,Caesar
+1645,AEMI1645 M. Aemilius (140) M. f. L. n. Cam. Scaurus,Aemilius,Scaurus
+1648,AURE1648 L. Aurelius (99) Cotta,Aurelius,Cotta
+1649,CAEC1649 L. Caecilius (91) L. f. Q. n. Metellus Delmaticus,Caecilius,Metellus
+1650,ACIL1650 M'. Acilius (37) Glabrio,Acilius,Glabrio
+1651,LIVI1651 M. Livius (17) C. f. M. n. Drusus,Livius,Drusus
+1652,MARC1652 Cn. Marcius (45) Censorinus,Marcius,Censorinus
+1655,MARC1655 Q. Marcius (91) Q. f. Q. n. Rex,Marcius,Rex
+1656,PORC1656 M. Porcius (10) M. f. M. n. Pap. Cato,Porcius,Cato
+1657,SCRI1657 C. Scribonius (9) Curio,Scribonius,Curio
+1662,SULP1662 C. Sulpicius (51) Ser. f. Ser. n. Galba,Sulpicius,Galba
+1663,CALP1663 L. Calpurnius (23) Bestia,Calpurnius,Bestia
+1665,CAEC1665 L. Caecilius (93) Q. f. Q. n. Metellus Diadematus,Caecilius,Metellus
+1666,DECI1666 P. Decius (9) (P.? f.) Subolo,Decius,Subolo
+1669,ATIL1669 L. Atilius (44 cf. Nomentanus 1) Cor. Nomentanus,Atilius,Nomentanus
+1674,LICI1674 C. Licinius (88) P. f. Geta,Licinius,Geta
+1677,CAEC1677 M. Caecilius (77) Q. f. Q. n. Metellus,Caecilius,Metellus
+1678,CORN1678 Cn. Cornelius (373) Sisenna,Cornelius,Sisenna
+1679,LICI1679 L. Licinius (55) L. f. C. n. Crassus,Licinius,Crassus
+1680,ACIL1680 M'. Acilius (26) M'.? f. L. n. Balbus,Acilius,Balbus
+1682,PORC1682 C. Porcius (5) M. f. M. n. Pap. Cato,Porcius,Cato
+1683,AURE1683 M. Aurelius (215) Scaurus,Aurelius,Scaurus
+1686,MINU1686 M. Minucius (54) Q. f. Rufus,Minucius,Rufus
+1687,MINU1687 Q. Minucius (56) Rufus,Minucius,Rufus
+1689,PAPI1689 Cn. Papirius (37) C. f. Carbo,Papirius,Carbo
+1692,MUCI1692 Q. Mucius (22) P. f. P. n. Scaevola 'Pontifex',Mucius,Scaevola
+1693,CAEC1693 Q. Caecilius (97) L. f. Q. n. Metellus Numidicus,Caecilius,Metellus
+1695,CORN1695 P. Cornelius (355) P. f. P. n. Scipio Nasica Serapio,Cornelius,Scipio
+1696,PAPI1696 M. Papirius (39) Carbo,Papirius,Carbo
+1697,ANON1697 C. - (not in RE) Aarcellus (or Marcellus),-,Aarcellus (or Marcellus)
+1701,CAEC1701 C. Caecilius (84) Q. f. Q. n. Metellus Caprarius,Caecilius,Metellus
+1703,POST1703 Sp. Postumius (45) Albinus,Postumius,Albinus
+1712,CALP1712 L. Calpurnius (88) L. f. C. n. Piso Caesoninus,Calpurnius,Piso
+1713,CALP1713 L. Calpurnius (97) Piso Frugi,Calpurnius,Piso
+1715,CASS1715 L. Cassius (62) L. f. Longinus,Cassius,Longinus
+1718,SULP1718 Ser. Sulpicius (59) Ser. f. Ser. n. Galba,Sulpicius,Galba
+1720,LICI1720 C. Licinius (134) Nerva,Licinius,Nerva
+1725,LICI1725 P. Licinius (111) Lucullus,Licinius,Lucullus
+1726,FABI1726 Q. Fabius (cf. 92) Labeo,Fabius,Labeo
+1728,POST1728 A. Postumius (33 cf. 32 34) Albinus,Postumius,Albinus
+1730,ATIL1730 C. Atilius (64) Cam. Serranus,Atilius,Serranus
+1731,LUTA1731 Q. Lutatius (7) Q. f. Catulus,Lutatius,Catulus
+1732,CORN1732 Cn. Cornelius (321) Scipio,Cornelius,Scipio
+1733,MAMI1733 C. Mamilius (7) Limetanus,Mamilius,Limetanus
+1734,SERV1734 C. Servilius (65) Glaucia,Servilius,Glaucia
+1735,TURP1735 T. Turpilius (10) Silanus,Turpilius,Silanus
+1739,MALL1739 Cn. Mallius (13) Cn. f. Maximus,Mallius,Maximus
+1740,ANNI1740 C. Annius (9) T. f. T. n. (Luscus),Annius,(Luscus)
+1743,FLAV1743 C. Flavius (87) C. f. Fimbria,Flavius,Fimbria
+1744,COEL1744 C. Coelius (12) C. f. C. n. Caldus,Coelius,Caldus
+1745,MANL1745 T. Manlius (61 cf. 16) Mancinus,Manlius,Mancinus
+1746,CORN1746 L. Cornelius (392) L. f. P. n. Sulla Felix ('Epaphroditus'),Cornelius,Sulla
+1748,POPI1748 C. Popillius (19) Laenas,Popillius,Laenas
+1749,AURE1749 L. Aurelius (181) L. f. L. n. Orestes,Aurelius,Orestes
+1753,CLAU1753 C. Claudius (302) Ap. f. C. n. Pulcher,Claudius,Pulcher
+1754,OCTA1754 Cn. Octavius (21 82) Q. f. Ruso,Octavius,Ruso
+1755,SERV1755 Cn. Servilius (47) Caepio,Servilius,Caepio
+1756,LIVI1756 M. Livius (18) M. f. C. n. Drusus,Livius,Drusus
+1759,LICI1759 L. Licinius (103) Lucullus,Licinius,Lucullus
+1760,LICI1760 P. Licinius (135 136) Nerva,Licinius,Nerva
+1762,CASS1762 L. Cassius (63) Longinus,Cassius,Longinus
+1763,DOMI1763 Cn. Domitius (21) Cn. f. Cn. n. Ahenobarbus,Domitius,Ahenobarbus
+1764,MARC1764 L. Marcius (75) Q. f. Q. n. Philippus,Marcius,Philippus
+1766,APPU1766 L. Appuleius (29) Saturninus,Appuleius,Saturninus
+1767,POMP1767 Cn. Pompeius (45) Sex. f. Cn. n. Strabo 'Menogenes',Pompeius,Strabo
+1771,ANON1771 -. - (cf. Servilius 65) Glaucia,-,Glaucia
+1774,AURE1774 L. Aurelius (100) Cotta,Aurelius,Cotta
+1775,BAEB1775 M.? Baebius (17?) (Tamphilus),Baebius,(Tamphilus)
+1777,NORB1777 C. Norbanus (5) (Balbus),Norbanus,(Balbus)
+1779,SERV1779 C. Servilius (12 cf. 11) (Vatia),Servilius,(Vatia)
+1780,LICI1780 P. Licinius (61) M. f. P. n. Crassus (Dives),Licinius,Crassus
+1782,VETU1782 L. (Veturius) or (Publilius) (Veturius 21) Philo,(Veturius) or (Publilius),Philo
+1783,AEMI1783 M. Aemilius (137) Scaurus,Aemilius,Scaurus
+1784,CLAU1784 M. Claudius (226) Marcellus,Claudius,Marcellus
+1785,LUCI1785 C. (Lucilius) (not in RE) Hirrus,(Lucilius),Hirrus
+1787,CAEC1787 Q. Caecilius (95) Q. f. Q. n. Metellus Nepos,Caecilius,Metellus
+1788,LICI1788 L. Licinius (121) Murena,Licinius,Murena
+1791,CORN1791 L. Cornelius (138) P. f. L. n. Dolabella,Cornelius,Dolabella
+1792,CORN1792 Cn. Cornelius (178) Cn. f. Cn. n. Lentulus,Cornelius,Lentulus
+1794,CORN1794 L. Cornelius (193 cf. 195 Supb. 3.259) Ser. f. Lentulus,Cornelius,Lentulus
+1795,CALP1795 L. Calpurnius (89) Piso (Caesoninus),Calpurnius,Piso
+1796,SERV1796 Q. Servilius (50) Caepio,Servilius,Caepio
+1797,CALP1797 Q. Calpurnius (17a Supb. 3.229f.) Q. f. Piso,Calpurnius,Piso
+1798,IULI1798 C. Iulius (135) L. f. Caesar Strabo Vopiscus,Iulius,Caesar
+1799,IULI1799 C. Iulius (130) C. f. L. n. Caesar,Iulius,Caesar
+1800,POST1800 L. Postumius (43) L. f. Sp. n. Albinus,Postumius,Albinus
+1801,CASS1801 C. Cassius (57) L. f. Longinus,Cassius,Longinus
+1802,VALE1802 L. Valerius (178) C.? f. L. n. Flaccus,Valerius,Flaccus
+1805,POMP1805 Q. Pompeius (39) Q. f. A.? n. Rufus,Pompeius,Rufus
+1806,PORC1806 M. Porcius (12) Pap. Cato,Porcius,Cato
+1807,CLAU1807 Ap. Claudius (296) Ap. f. C. n. Pulcher,Claudius,Pulcher
+1811,APPU1811 C. Appuleius (21) Decianus,Appuleius,Decianus
+1814,SERV1814 P. Servilius (93) C. f. M. n. Vatia Isauricus,Servilius,Vatia
+1815,VALE1815 L. Valerius (176 177) L. f. L. n. Flaccus,Valerius,Flaccus
+1816,DOMI1816 L. Domitius (26) Cn. f. Cn. n. Ahenobarbus,Domitius,Ahenobarbus
+1820,SEMP1820 L. Sempronius (18) Asellio,Sempronius,Asellio
+1821,VALE1821 C. Valerius (168) C. f. L. n. Flaccus,Valerius,Flaccus
+1822,GELL1822 L. Gellius (17) L. f. L. n. Tro. Poplicola,Gellius,Poplicola
+1824,SEMP1824 C. Sempronius (64) Longus,Sempronius,Longus
+1825,IULI1825 L. Iulius (142) L. f. Sex. n. Caesar,Iulius,Caesar
+1828,IULI1828 Sex. Iulius (151) C. f. L.? n. Caesar,Iulius,Caesar
+1829,SENT1829 C. Sentius (3) C. f. Ter. (Saturninus),Sentius,(Saturninus)
+1831,PORC1831 M. Porcius (11) Pap. Cato,Porcius,Cato
+1832,ANON1832 -. - (not in RE) Aesillas,-,Aesillas
+1833,MANL1833 L. Manlius (78) Torquatus,Manlius,Torquatus
+1834,SERG1834 M. Sergius (42) Silus,Sergius,Silus
+1835,PAPI1835 C. Papirius (40) C. f. Carbo Arvina,Papirius,Carbo
+1836,CORN1836 P. Cornelius (351) P. f. P. n. Scipio Nasica,Cornelius,Scipio
+1837,RUTI1837 P. Rutilius (26) L. f. L. n. Lupus,Rutilius,Lupus
+1839,BRAI1839 Q. Braitius (Bruttius 10 Supb. 3.218) Sura,Braitius,Sura
+1841,PORC1841 L. Porcius (7) M. f. M. n. Pap. Cato,Porcius,Cato
+1842,SEXT1842 C. Sextius (21) Calvinus,Sextius,Calvinus
+1843,PAPI1843 Cn. Papirius (38) Cn. f. C. n. Carbo,Papirius,Carbo
+1850,SULP1850 Ser. Sulpicius (60) C. f. Ani. Galba,Sulpicius,Galba
+1851,CLAU1851 M. Claudius (227) M. f. Arn. Marcellus,Claudius,Marcellus
+1861,DECI1861 C. Decidius (not in RE) C. f. Rufus,Decidius,Rufus
+1863,EGNA1863 C. Egnatius (not in RE) C. f. Rufus,Egnatius,Rufus
+1865,AEMI1865 Mam. Aemilius (80) Mam. f. Lepidus Livianus,Aemilius,Lepidus
+1866,AURE1866 C. Aurelius (96) M. f. Cotta,Aurelius,Cotta
+1869,CAEC1869 M. Caecilius (44) Cornutus,Caecilius,Cornutus
+1871,CORN1871 L. Cornelius (106) L. f. L. n. Cinna,Cornelius,Cinna
+1872,CORN1872 L. Cornelius (272) Merula,Cornelius,Merula
+1875,CAEC1875 Q. Caecilius (85) L.? f. Metellus Celer,Caecilius,Metellus
+1876,SCRI1876 C. Scribonius (10) C. f. Curio 'Burbuleius',Scribonius,Curio
+1877,VARI1877 Q. Varius (7) Severus Hybrida Sucronensis,Varius,Severus
+1878,LUTA1878 Q. Lutatius (14) Cerco,Lutatius,Cerco
+1882,CORN1882 L. Cornelius (338) L. f. L. n. Scipio Asiaticus (Asiagenus),Cornelius,Scipio
+1883,CORN1883 P. Cornelius (203) Lentulus,Cornelius,Lentulus
+1886,SULP1886 P. Sulpicius (92) (Rufus),Sulpicius,(Rufus)
+1887,VALE1887 M.? Valerius (249) Messalla,Valerius,Messalla
+1888,VALE1888 M'.? Valerius (248) Messalla,Valerius,Messalla
+1889,CAEC1889 Q. Caecilius (98) Q. f. L. n. Metellus Pius,Caecilius,Metellus
+1894,SEMP1894 A. Sempronius (17) Asellio,Sempronius,Asellio
+1895,SEXT1895 P. Sextilius (12) Fal. Rufus,Sextilius,Rufus
+1896,CALP1896 L. Calpurnius (98) Piso Frugi,Calpurnius,Piso
+1900,PLAU1900 M. Plautius (29) Silvanus,Plautius,Silvanus
+1901,MINU1901 Q. Minucius (66) M. f. Ter. Thermus,Minucius,Thermus
+1902,HORT1902 Q. Hortensius (13) L. f. Hortalus,Hortensius,Hortalus
+1903,LICI1903 L. Licinius (104) L. f. L. n. Lucullus Ponticus,Licinius,Lucullus
+1908,ANNI1908 T. Annius (not in RE) T. f. Ouf. Luscus or Rufus,Annius,Luscus or Rufus
+1909,AURE1909 M. Aurelius (216) M. f. Vol. Scaurus,Aurelius,Scaurus
+1911,POMP1911 T. Pompeius  (not in RE) T. f. Cor. (Longinus),Pompeius ,(Longinus)
+1917,MANL1917 -. Manlius (59) Vel. Maltinus,Manlius,Maltinus
+1922,ANON1922 -. - (RE 13.1552 s. v. Lucanius) Lucanus,-,Lucanus
+1929,IUNI1929 M. Iunius (51) Brutus,Iunius,Brutus
+1930,LICI1930 L. Licinius (122) L. f. Murena,Licinius,Murena
+1934,MINU1934 L. Minucius (37) L. f. Vel. Basilus,Minucius,Basilus
+1936,MINU1936 -.? Minucius (49) Rufus,Minucius,Rufus
+1940,MARI1940 M. Marius (42) Cor. Gratidianus,Marius,Gratidianus
+1946,FLAV1946 C. Flavius (88) Fimbria,Flavius,Fimbria
+1947,MARC1947 C. Marcius (43) Censorinus,Marcius,Censorinus
+1949,LUTA1949 Q. Lutatius (8) Q. f. Q. n. Catulus,Lutatius,Catulus
+1952,MUNA1952 L.? Munatius (28) C. f. (Plancus),Munatius,(Plancus)
+1956,COEL1956 P. Coelius (Caelius 16) Caldus,Coelius,Caldus
+1957,IULI1957 C. Iulius (131) C. f. C. n. Fab. Caesar,Iulius,Caesar
+1959,POPI1959 P. Popillius (27) Laenas,Popillius,Laenas
+1963,TERE1963 M. Terentius (84 Supb. 6.1172ff) Qui. Varro Reatinus,Terentius,Varro
+1964,FABI1964 C. Fabius (82) C. f. Q. n. Mae. Hadrianus,Fabius,Hadrianus
+1966,IUNI1966 M. Iunius (170) Silanus,Iunius,Silanus
+1969,ANTO1969 C. Antonius (19) M. f. M. n. Hybrida,Antonius,Hybrida
+1973,IUNI1973 M. Iunius (52) Brutus,Iunius,Brutus
+1974,PUPI1974 M. Pupius (10) M. f. Piso Frugi Calpurnianus,Pupius,Piso
+1976,POMP1976 Cn. Pompeius (31) Cn. f. Sex. n. Clu. Magnus,Pompeius,Magnus
+1979,CORN1979 Cn. Cornelius (134) P. f. L. n. Pal. Dolabella,Cornelius,Dolabella
+1980,IUNI1980 L. Iunius (58) L. f. Gal. Brutus Damasippus,Iunius,Brutus
+1981,LICI1981 M. Licinius (68) P. f. M. n. Crassus,Licinius,Crassus
+1982,TERE1982 M. Terentius (Licinius 109) M. f. Varro Lucullus,Terentius,Varro
+1984,ANTO1984 Q. Antonius (41) Balbus,Antonius,Balbus
+1986,PERP1986 M. Perperna (6) Veiento,Perperna,Veiento
+1987,FURI1987 P. Furius (57 cf. 53) Crassipes,Furius,Crassipes
+1989,VALE1989 Q. Valerius (345) Rom. Soranus,Valerius,Soranus
+1990,CORN1990 L. Cornelius (194 195) Lentulus,Cornelius,Lentulus
+1991,DOMI1991 Cn. Domitius (22) Ahenobarbus,Domitius,Ahenobarbus
+1992,VALE1992 L. Valerius (179) L. f. C.? n. Flaccus,Valerius,Flaccus
+1993,AEMI1993 M. Aemilius (72) Q. f. M. n. Pal. Lepidus,Aemilius,Lepidus
+1995,COEL1995 C. Coelius (6) Antipater,Coelius,Antipater
+1996,FLAV1996 -. Flavius (86) Fimbria,Flavius,Fimbria
+1998,SERG1998 L. Sergius (23) Tro. Catilina,Sergius,Catilina
+2001,TERE2001 A. Terentius (82) A. f. Varro,Terentius,Varro
+2002,OCTA2002 -. (Octavius) (43) Balbus,(Octavius),Balbus
+2003,LUCR2003 Q. Lucretius (25) Afella (or Ofella),Lucretius,Afella (or Ofella)
+2005,TULL2005 M. Tullius (34) M. f. A. n. Decula,Tullius,Decula
+2006,CLAU2006 C. Claudius (247) P. f. Nero,Claudius,Nero
+2007,CORN2007 Cn. Cornelius (135) (Cn. f. Cn. n.?) Dolabella,Cornelius,Dolabella
+2009,MINU2009 M. Minucius (64) Thermus,Minucius,Thermus
+2010,NONI2010 Sex. Nonius (53) Ani. Suffenas,Nonius,Suffenas
+2011,PAPI2011 C. Papirius (34) (Cn. f.) Carbo,Papirius,Carbo
+2012,CORN2012 P. Cornelius (240) P. f. P. n. Lentulus Sura,Cornelius,Lentulus
+2013,FABI2013 L. Fabius (84) L. f. Hispaniensis,Fabius,Hispaniensis
+2018,LIVI2018 L. Livius (31 Iulius 453) Salinator,Livius,Salinator
+2021,CLAU2021 C. Claudius (214) Marcellus,Claudius,Marcellus
+2022,DOMI2022 M. Domitius (44) Calvinus,Domitius,Calvinus
+2023,IUNI2023 D. Iunius (46) D. f. M. n. Brutus,Iunius,Brutus
+2025,PUBL2025 C. Publicius (9) Q. f. Malleolus,Publicius,Malleolus
+2026,AURE2026 M. Aurelius (107) M. f. Cotta,Aurelius,Cotta
+2027,VISE2027 C. Visellius (3) C. f. Qui. Varro,Visellius,Varro
+2028,CORN2028 P. Cornelius (386) Sulla,Cornelius,Sulla
+2032,AUFI2032 Cn. Aufidius (32) Cn. f. Orestes,Aufidius,Orestes
+2034,THOR2034 L. Thorius (4) Mae. Balbus,Thorius,Balbus
+2035,CORN2035 L. Cornelius (374) Sisenna,Cornelius,Sisenna
+2037,TERE2037 -. Terentius (cf. 82) Varro,Terentius,Varro
+2038,AEMI2038 M'. Aemilius (62) M'. f. Lepidus,Aemilius,Lepidus
+2040,CAEC2040 Q. Caecilius (86) Q. f. Q. or L.? n. Metellus Celer,Caecilius,Metellus
+2044,IULI2044 L. Iulius (143) L. f. L. n. Caesar,Iulius,Caesar
+2045,AELI2045 C. Aelius (98) Paetus = C. Staienus (3A.2133),Aelius,Paetus
+2048,CORN2048 -. Cornelius (318) Scipio,Cornelius,Scipio
+2050,CASS2050 C. Cassius (58) L. f. Longinus,Cassius,Longinus
+2051,IUNI2051 M. Iunius (84) Iuncus,Iunius,Iuncus
+2057,OCTA2057 C. Octavius (55) Graecinus,Octavius,Graecinus
+2058,TARQ2058 C. Tarquitius (8) L. f. Fal. Priscus,Tarquitius,Priscus
+2062,CLAU2062 C. Claudius (303) Ap. f. Ap. n. Pulcher,Claudius,Pulcher
+2064,CORN2064 Cn. Cornelius (216) Cn. f. Cn. n. Lentulus Clodianus,Cornelius,Lentulus
+2067,LICI2067 C. Licinius (154) C. f. Ste. Sacerdos,Licinius,Sacerdos
+2070,AUTR2070 P. Autronius (7) L. f. Paetus,Autronius,Paetus
+2071,CORN2071 P. Cornelius (231) Lentulus Marcellinus,Cornelius,Lentulus
+2072,TULL2072 M. Tullius (29) M. f. M. n. Cor. Cicero,Tullius,Cicero
+2075,POMP2075 Q. Pompeius (25) A. f. Bithynicus,Pompeius,Bithynicus
+2076,TITU2076 L. Titurius (2) L. f. Ser. Sabinus,Titurius,Sabinus
+2077,ANTO2077 M. Antonius (29) M. f. Creticus,Antonius,Creticus
+2078,CAEC2078 Q. Caecilius (87) C. f. Q. n. Metellus Creticus,Caecilius,Metellus
+2082,CORN2082 Cn. Cornelius (228 24) P. f. Lentulus Marcellinus,Cornelius,Lentulus
+2085,LICI2085 L. Licinius (123) L. f. L. n. Mae. Murena,Licinius,Murena
+2087,PLAE2087 L. Plaetorius (14) L. f. Cestianus,Plaetorius,Cestianus
+2088,SULP2088 Ser. Sulpicius (95) Q. f. Lem. Rufus,Sulpicius,Rufus
+2092,ANNI2092 C. Annius (35) Bellienus,Annius,Bellienus
+2096,RUTI2096 P. Rutilius (30) Nudus,Rutilius,Nudus
+2097,SALL2097 C. Salluvius (1) C. f. Naso,Salluvius,Naso
+2099,CLAU2099 C. Claudius (cf. 165) C. f. Arn. Glaber,Claudius,Glaber
+2103,LICI2103 C. Licinius (112) L. f. Macer,Licinius,Macer
+2107,VALE2107 M. Valerius (266) M. f. M'. n. Messalla Niger 'Menogenes',Valerius,Messalla
+2111,ANON2111 -. - (not in RE) Barba,-,Barba
+2117,VALE2117 C. Valerius (363 366) Aem. Triarius,Valerius,Triarius
+2119,ACIL2119 M'. Acilius (38) M'. f. M'. n. Glabrio,Acilius,Glabrio
+2120,IUNI2120 D. Iunius (163) M. f. Silanus,Iunius,Silanus
+2127,ANNA2127 C. Annaeus (3) C. f. Clu. (Brocchus),Annaeus,(Brocchus)
+2131,MINU2131 Q. Minucius (67) Q. f. Ter. Thermus,Minucius,Thermus
+2132,PUBL2132 M. Publicius (23) M. f. Hor. Scaeva,Publicius,Scaeva
+2137,CAEC2137 Q. Caecilius (101) Niger,Caecilius,Niger
+2140,CLAU2140 Ap. Claudius (297) Ap. f. Ap. n. Pulcher,Claudius,Pulcher
+2141,FABI2141 M. Fabius (83) Mae. Hadrianus,Fabius,Hadrianus
+2150,CAEC2150 L. Caecilius (74) C. f. Q. n. Metellus,Caecilius,Metellus
+2151,MARC2151 Q. Marcius (92) Q. f. Q. n. Rex,Marcius,Rex
+2152,CURT2152 Q. Curtius (12 cf. 25) (Postumus),Curtius,(Postumus)
+2156,CURT2156 -.? Curtius (24) Postumus,Curtius,Postumus
+2157,TREM2157 Cn. Tremellius (5) L. or Cn. f. L. n. Scrofa,Tremellius,Scrofa
+2160,MARC2160 Q. Marcius (95 cf. 31) Rufus,Marcius,Rufus
+2162,ANTI2162 C.? Antistius (46) Vetus,Antistius,Vetus
+2163,AURE2163 L. Aurelius (102) M. f. Cotta,Aurelius,Cotta
+2164,CALP2164 C. Calpurnius (63) -. f. Cn. or Q.? n. Piso,Calpurnius,Piso
+2165,MANL2165 A. Manlius (70) Torquatus,Manlius,Torquatus
+2168,CALP2168 L. Calpurnius (90) L. f. L. n. Men. Piso Caesoninus,Calpurnius,Piso
+2169,PLAE2169 M. Plaetorius (16) M. f. Cestianus,Plaetorius,Cestianus
+2173,MARC2173 L.? Marcius (47?) Censorinus,Marcius,Censorinus
+2175,CAEC2175 M. Caecilius (78) Metellus,Caecilius,Metellus
+2176,CORN2176 P. Cornelius (140) Dolabella,Cornelius,Dolabella
+2177,LOLL2177 M. Lollius (21 cf. 8) Palicanus,Lollius,Palicanus
+2178,VOLC2178 L. Volcacius (8) Tullus,Volcacius,Tullus
+2179,SULP2179 P. Sulpicius (55 cf. 48) Galba,Sulpicius,Galba
+2182,SULP2182 P. Sulpicius (15) Q. f. Rufus,Sulpicius,Rufus
+2191,MUCI2191 P. Mucius (18) Q. f. P. n. Scaevola Cordus,Mucius,Scaevola
+2192,QUIN2192 Sex. Quinctilius (16) (Varus),Quinctilius,(Varus)
+2196,CORN2196 L. Cornelius (234) Lentulus Niger,Cornelius,Lentulus
+2198,MANL2198 L. Manlius (80) L. f. L. n. Torquatus,Manlius,Torquatus
+2203,SERV2203 -. Servilius (not in RE) Vatia,Servilius,Vatia
+2205,MANL2205 L. Manlius (79) L. f. Torquatus,Manlius,Torquatus
+2208,ANTI2208 C. Antius (4) (Restio),Antius,(Restio)
+2211,HOST2211 L. Hostilius (13) (Dasianus),Hostilius,(Dasianus)
+2216,TULL2216 Q. Tullius (31) M. f. M. n. Cor. Cicero,Tullius,Cicero
+2219,CLOD2219 P. Clodius (48) Ap. f. Pal. Pulcher,Clodius,Pulcher
+2226,MARC2226 C. Marcius (63) C. f. C. n. Figulus,Marcius,Figulus
+2227,MINU2227 -. Minucius (60) Thermus,Minucius,Thermus
+2231,VOCO2231 Q. Voconius (3) Naso,Voconius,Naso
+2235,PAPI2235 C. Papirius (35) Carbo,Papirius,Carbo
+2236,ROSC2236 L. Roscius (22) Otho,Roscius,Otho
+2237,SERV2237 P. Servilius (66) Globulus,Servilius,Globulus
+2241,PORC2241 M. Porcius (16) M. f. M. n. Pap. Cato (Uticensis),Porcius,Cato
+2244,LUCI2244 L.? (Lucilius or Lucius) (not in RE) Bassus,(Lucilius or Lucius),Bassus
+2247,CAEC2247 Q. Caecilius (96) Q. f. Q. n. Metellus Nepos 'Pamphilus',Caecilius,Metellus
+2248,CLAU2248 Ti. Claudius (253) Ti. f. Ap. n. Nero,Claudius,Nero
+2250,MANL2250 A.? Manlius (76) A. f. Torquatus,Manlius,Torquatus
+2253,POMP2253 Cn. Pompeius (32) Cn. f. Cn. n. Magnus,Pompeius,Magnus
+2254,POMP2254 Sex. Pompeius (33) Cn. f. Cn. n. Magnus Pius,Pompeius,Magnus
+2256,AQUI2256 C. Aquillius (23) Gallus,Aquillius,Gallus
+2257,CASS2257 L. Cassius (13 64) Longinus,Cassius,Longinus
+2259,SULP2259 -. (Sulpicius) (48) Galba,(Sulpicius),Galba
+2260,MANI2260 C. Manilius (10 cf. 23) (Crispus),Manilius,(Crispus)
+2262,AEMI2262 M. Aemilius (141) M. f. M. n. Scaurus,Aemilius,Scaurus
+2263,CAEC2263 L. Caecilius (110) L. f. Rufus,Caecilius,Rufus
+2264,DOMI2264 L. Domitius (27) Cn. f. Cn. n. Fab. Ahenobarbus,Domitius,Ahenobarbus
+2265,PLAU2265 P. Plautius (23) Hypsaeus,Plautius,Hypsaeus
+2267,VERG2267 C. Vergilius (3 2) C. f. Balbus,Vergilius,Balbus
+2268,MARC2268 -. Marcius (69) Libo,Marcius,Libo
+2270,ATTI2270 C. Attius (not in RE) Celsus,Attius,Celsus
+2272,CALP2272 M. Calpurnius (28) C. f. Bibulus,Calpurnius,Bibulus
+2274,CALP2274 Cn. Calpurnius (69) Piso,Calpurnius,Piso
+2275,MANL2275 -. Manlius (62) Priscus,Manlius,Priscus
+2282,MUCI2282 Q. Mucius (12) Orestinus,Mucius,Orestinus
+2287,POMP2287 Q. Pompeius (42) Q. f. Arn. Rufus,Pompeius,Rufus
+2290,CORN2290 P. Cornelius (238) P. f. L. n. Lentulus Spinther,Cornelius,Lentulus
+2291,AMPI2291 T. Ampius (1) T. f. Hor. Balbus,Ampius,Balbus
+2292,LABI2292 T. Labienus (6) Vel. 'Rabienus',Labienus,'Rabienus'
+2293,SERV2293 P. Servilius (80) M. f. Rullus,Servilius,Rullus
+2294,ATIL2294 Sex. Atilius (70) Serranus Gavianus,Atilius,Serranus
+2295,FADI2295 T. Fadius (9) Lem. Pol. Gallus,Fadius,Gallus
+2300,CORN2300 Faustus Cornelius (377) L. f. L. n. Sulla,Cornelius,Sulla
+2301,LICI2301 C. Licinius (119) L. f. L. n. Murena,Licinius,Murena
+2303,MARC2303 L. Marcius (76) L. f. Q. n. Philippus,Marcius,Philippus
+2305,CALP2305 L. Calpurnius (24) Bestia,Calpurnius,Bestia
+2308,IUVE2308 M. Iuventius (16) (M. f.) Pap. Laterensis,Iuventius,Laterensis
+2310,NOVI2310 L.? Novius (12 cf. 7) Niger,Novius,Niger
+2313,DOMI2313 Cn. Domitius (43) M. f. M. n. Men. Calvinus,Domitius,Calvinus
+2314,MANL2314 -. Manlius (58) Lentinus,Manlius,Lentinus
+2316,SULP2316 Ser. Sulpicius (61) Ser. n. Galba,Sulpicius,Galba
+2318,APPU2318 L. Appuleius (30) L. f. Ter. Saturninus,Appuleius,Saturninus
+2319,AUFI2319 M. Aufidius (25 cf. 27) Lurco,Aufidius,Lurco
+2320,CAEC2320 C. Caecilius (43) Cornutus,Caecilius,Cornutus
+2321,FUFI2321 Q. Fufius (10) Q. f. C. n. Pob. Calenus,Fufius,Calenus
+2325,AELI2325 L. Aelius (150) Tro. Tubero,Aelius,Tubero
+2328,LICI2328 M. Licinius (56) M. f. P. n. Crassus,Licinius,Crassus
+2329,ATIU2329 M. Atius (Attius 11) Hor. Balbus,Atius,Balbus
+2330,CORN2330 L. (Cornelius?) (Culleolus 1) Culleolus,(Cornelius?),Culleolus
+2331,LICI2331 P. Licinius (71) Crassus Dives,Licinius,Crassus
+2334,NUME2334 Q. Numerius (5) Q. f. Vel. Rufus,Numerius,Rufus
+2338,CORN2338 Cn. Cornelius (217) Lentulus Clodianus,Cornelius,Lentulus
+2341,AEMI2341 M. Aemilius (73) M. f. Q. n. Lepidus,Aemilius,Lepidus
+2344,VETT2344 T. Vettius (9a 11 14) Ser. Sabinus,Vettius,Sabinus
+2346,ALFI2346 C. Alfius (7) Ter. Flavus,Alfius,Flavus
+2347,CAEC2347 Q. Caecilius (99) Q. f. Q. n. Fab. Metellus Pius Scipio = P. Cornelius (352) Scipio Nasica,Caecilius,Metellus
+2349,NIGI2349 P. Nigidius (3) Figulus,Nigidius,Figulus
+2350,AEMI2350 L. Aemilius (81) M. f. Q. n. (Lepidus) Paullus,Aemilius,(Lepidus)
+2356,CORN2356 L. Cornelius (218) P. f. L. n. Pal. Lentulus Crus,Cornelius,Lentulus
+2357,FABI2357 C. Fabius (17) Hadrianus,Fabius,Hadrianus
+2358,VILL2358 L. Villius (7) Pom. Annalis,Villius,Annalis
+2359,CONS2359 C. Considius (11) Longus,Considius,Longus
+2360,SILI2360 P. Silius (8) (Nerva),Silius,(Nerva)
+2361,AELI2361 -. Aelius (83) Ligus,Aelius,Ligus
+2363,NINN2363 L. Ninnius (3) Quadratus,Ninnius,Quadratus
+2364,NOVI2364 L. Novius (7 cf. 12) (Niger),Novius,(Niger)
+2365,TERE2365 Q. Terentius (44) Culleo,Terentius,Culleo
+2366,CALP2366 C. Calpurnius (93) L. f. Piso Frugi,Calpurnius,Piso
+2368,VALE2368 C. Valerius (316) Procillus,Valerius,Procillus
+2369,AURU2369 L. Aurunculeius (6) Cotta,Aurunculeius,Cotta
+2371,TITU2371 Q. Titurius (3) Ser. Sabinus,Titurius,Sabinus
+2372,LICI2372 P. Licinius (63) M. f. (P.? n.) Crassus,Licinius,Crassus
+2373,PINA2373 L. Pinarius (19) Natta,Pinarius,Natta
+2374,IULI2374 Sex. Iulius (152 153) Caesar,Iulius,Caesar
+2376,QUIN2376 Sex. Quinctilius (4) Varus,Quinctilius,Varus
+2377,SEPT2377 C. Septimius (7) Qui. T. f.,Septimius,T. f.
+2379,FABI2379 Q. Fabius (108) Q. f. Q. n. Maximus (Sanga?),Fabius,Maximus
+2381,ANNI2381 T. Annius (67) Mae. Milo = T. Papius Milo,Annius,Milo
+2389,MARC2389 Q. Marcius (52) Crispus,Marcius,Crispus
+2391,ANON2391 -. - (not in RE? cf. 16a) Servianus,-,Servianus
+2394,CORN2394 P. Cornelius (239) P. f. Lentulus Spinther,Cornelius,Lentulus
+2396,CLAU2396 C. Claudius (216) C. f. M. n. Marcellus,Claudius,Marcellus
+2397,CLAU2397 C. Claudius (217) M. f. M. n. Marcellus,Claudius,Marcellus
+2398,CLAU2398 M. Claudius (229) M. f. M. n. Marcellus,Claudius,Marcellus
+2401,CANI2401 L. Caninius (3) Pol. Gallus,Caninius,Gallus
+2403,NONI2403 M. Nonius (52) Ani. Sufenas,Nonius,Sufenas
+2404,PORC2404 C. Porcius (6) Pap. Cato,Porcius,Cato
+2405,PROC2405 L. Procilius (1 2) Mae. F(ilius),Procilius,F(ilius)
+2407,RUTI2407 P. Rutilius (27) Lupus,Rutilius,Lupus
+2408,COEL2408 M. Coelius (27) Vinicianus,Coelius,Vinicianus
+2409,VALE2409 Q. Valerius (280) Q. f. Rom. Orca,Valerius,Orca
+2413,TREB2413 M. Trebius (2) Gallus,Trebius,Gallus
+2416,CORN2416 L. Cornelius (196) Lentulus,Cornelius,Lentulus
+2417,CAEL2417 M. Caelius (35) Vel. Rufus,Caelius,Rufus
+2418,HERE2418 L. Herennius (18) Balbus,Herennius,Balbus
+2419,ANON2419 -. - (not in RE cf. 7.2.1952) Gutta,-,Gutta
+2420,NONI2420 -. Nonius (50) Struma,Nonius,Struma
+2421,AQUI2421 P. Aquillius (25) Gallus,Aquillius,Gallus
+2422,ATEI2422 C. Ateius (7) C. f. Capito,Ateius,Capito
+2424,ROSC2424 L. Roscius (15) Mae. Fabatus,Roscius,Fabatus
+2429,SALL2429 C. Sallustius (10) Qui. Crispus,Sallustius,Crispus
+2430,SULP2430 P. Sulpicius (93) P. f. Rufus,Sulpicius,Rufus
+2433,SERV2433 P. Servilius (67) P. f. C. n. Isauricus,Servilius,Isauricus
+2434,AURE2434 M. Aurelius (109) Cotta,Aurelius,Cotta
+2435,CONS2435 M. Considius (13) Nonianus,Considius,Nonianus
+2438,LAEL2438 D. Laelius (6) Balbus,Laelius,Balbus
+2440,MUCI2440 Q. Mucius (23) Q. f. Q. n. Scaevola,Mucius,Scaevola
+2443,SCRI2443 C. Scribonius (11) C. f. C. n. Curio,Scribonius,Curio
+2444,SEST2444 L. Sestius (10) Pansa,Sestius,Pansa
+2445,CURT2445 M. Curtius (26) Postumus,Curtius,Postumus
+2446,LABE2446 Q. Laberius (6) Durus,Laberius,Durus
+2450,MUNA2450 L. Munatius (30) L. f. L. n. Cam. Plancus,Munatius,Plancus
+2455,ATTI2455 P. Attius (32) Varus,Attius,Varus
+2456,LICI2456 P. Licinius (65 75) Crassus Iunianus Damasippus = P.? Iunius Brutus Damasippus,Licinius,Crassus Iunianus Damasippus
+2457,LUCI2457 C. Lucilius (25) C. f. Pup. Hirrus,Lucilius,Hirrus
+2458,CASS2458 C. Cassius (59) Longinus,Cassius,Longinus
+2459,IUNI2459 M. Iunius (53) M. f. Brutus = Q. Servilius Caepio Brutus,Iunius,Brutus
+2461,ANTI2461 C. Antistius (39) C. f. Pol. Reginus,Antistius,Reginus
+2462,FABI2462 Q. Fabius (154) Vergilianus,Fabius,Vergilianus
+2463,IUNI2463 M. Iunius (171) Silanus,Iunius,Silanus
+2464,MARC2464 -. (Marcius) (42 cf. 43) Censorinus,(Marcius),Censorinus
+2466,MINU2466 L. Minucius (38) Vel. Basilus = M. Satrius (1),Minucius,Basilus
+2474,VOLC2474 C. Volcacius (7) Tullus,Volcacius,Tullus
+2476,MANI2476 -. Manilius (24) Fal. Cumanus,Manilius,Cumanus
+2477,MUNA2477 T. Munatius (32) Cam. Plancus Bursa,Munatius,Plancus
+2478,POMP2478 Q. Pompeius (41) Rufus,Pompeius,Rufus
+2479,ATEI2479 L. Ateius (9) L. f. Ani. Capito,Ateius,Capito
+2480,CAEC2480 L. Caecilius (75) L. f. Metellus,Caecilius,Metellus
+2481,CASS2481 Q. Cassius (70) Longinus,Cassius,Longinus
+2486,CANI2486 C. Caninius (9) C. f. C. n. Ter. Rebilus,Caninius,Rebilus
+2487,SEMP2487 M. Sempronius (82) Rutilius,Sempronius,Rutilius
+2488,VALE2488 C. Valerius (169) L. f. Flaccus,Valerius,Flaccus
+2489,IUNI2489 D. Iunius (55a Supb. 5.369) D. f. D. n. Brutus Albinus,Iunius,Brutus
+2491,VOLU2491 C. Volusenus (3) Quadratus,Volusenus,Quadratus
+2495,VIBI2495 C. Vibius (16) C. f. C. n. Tro. Pansa Caetronianus,Vibius,Pansa
+2498,FURF2498 T. Furfanius (1) Postumus,Furfanius,Postumus
+2499,FURI2499 -. Furius (54) Crassipes,Furius,Crassipes
+2500,MESC2500 L. Mescinius (2) Rufus,Mescinius,Rufus
+2501,FUFI2501 Q. Fufidius (7 cf. 5) Q. f. Cor. (step),Fufidius,(step)
+2510,ATIU2510 Q. Atius (Attius 33 Varus 5) Col. Qui. Varus,Atius,Varus
+2512,PACO2512 Q. (Paconius?) (Lepta 1) Lepta,(Paconius?),Lepta
+2515,CORN2515 P. Cornelius (141) P. f. Dolabella = P. Cornelius Lentulus,Cornelius,Dolabella
+2518,SCRI2518 L. Scribonius (20) L. f. Libo,Scribonius,Libo
+2519,TITI2519 C. Titius (37) L. f. Rufus,Titius,Rufus
+2520,LIVI2520 M. Livius (19) Drusus (Claudianus),Livius,Drusus
+2523,ANTO2523 L. Antonius (23) M. f. M. n. Pietas,Antonius,Pietas
+2524,COEL2524 C. Coelius (14) Caldus,Coelius,Caldus
+2528,FABR2528 -. (Fabricius or Perperna?) (Fabricius 14) Veiento,(Fabricius or Perperna?),Veiento
+2534,MARC2534 L. Marcius (77) L. f. L. n. Philippus,Marcius,Philippus
+2536,VALE2536 M. Valerius (268) M. f. Lem. Messalla Rufus,Valerius,Messalla
+2538,AURE2538 -. Aurelius (not in RE) Cotta,Aurelius,Cotta
+2540,MARC2540 -. Marcius (94) Rufus,Marcius,Rufus
+2542,QUIN2542 Sex. Quinctilius (17) Varus,Quinctilius,Varus
+2543,CALP2543 Cn. Calpurnius (95) Cn. f. Cn. n. Piso Frugi,Calpurnius,Piso
+2544,TERE2544 -. (Terentius) (78) Varro,(Terentius),Varro
+2547,SERV2547 C. Servilius (39) C. f. Ter. Brocchus,Servilius,Brocchus
+2549,VULT2549 C. Vulteius (Vulteius) Capito,Vulteius,Capito
+2550,CORN2550 L. Cornelius (70) P. f. Balbus ('Balbillus'),Cornelius,Balbus
+2553,ASIN2553 C. Asinius (25) Cn. f. Arn. Pollio,Asinius,Pollio
+2554,HORT2554 Q. Hortensius (8) Q. f. L. n. Hortalus,Hortensius,Hortalus
+2555,ATTI2555 C. Attius (4) Paelignus,Attius,Paelignus
+2557,FLAM2557 -. Flaminius (8) Flamma,Flaminius,Flamma
+2559,IULI2559 L. Iulius (144) L. f. L. n. Caesar,Iulius,Caesar
+2560,LUCR2560 Q. Lucretius (36) Vespillo,Lucretius,Vespillo
+2563,TULL2563 M. Tullius (30) M. f. M. n. Cor. Cicero,Tullius,Cicero
+2564,VALE2564 C. Valerius (365) Aem. Triarius,Valerius,Triarius
+2566,VIBU2566 L. Vibullius (1) Rufus,Vibullius,Rufus
+2567,MARC2567 Q. Marcius (83) L. f. Pap. Philippus,Marcius,Philippus
+2568,RABI2568 C. Rabirius (Curtius) (6) C. f. Postumus,Rabirius (Curtius),Postumus
+2570,CLAU2570 M. Claudius (232 cf. 233) M. f. Marcellus Aeserninus,Claudius,Marcellus
+2571,CLAU2571 Ti. Claudius (254) Ti. f. Ap. n. Nero,Claudius,Nero
+2572,CORN2572 P. Cornelius (232) Lentulus Marcellinus,Cornelius,Lentulus
+2575,CASS2575 L. Cassius (65) Longinus,Cassius,Longinus
+2576,TITI2576 L.? Titius (13) L. f. Hispanus,Titius,Hispanus
+2580,POST2580 A.? Postumius (8) Albinus,Postumius,Albinus
+2581,TERE2581 A. Terentius (91) Varro Murena,Terentius,Varro
+2583,ACIL2583 M. Acilius (15) Caninus,Acilius,Caninus
+2584,CALV2584 C. Calvisius (13) C. f. Clu. Sabinus,Calvisius,Sabinus
+2588,STAI2588 L. Staius (2) Vol. Murcus,Staius,Murcus
+2589,TILL2589 Q. Tillius (4) Cimber,Tillius,Cimber
+2595,POMP2595 Cn. Pompeius (Theophanes 1) Theophanes,Pompeius,Theophanes
+2597,IULI2597 C. Iulius (132) C. f. C. n. Fab. Caesar Octavianus = C. Octavius C. f. Sca. Thurinus (or Caepias),Iulius,Caesar
+2598,NONI2598 L. Nonius (14) L. f. T?. n. Vel. Asprenas,Nonius,Asprenas
+2600,IULI2600 Cn. Iulius (not in RE) L. f. (Caesar),Iulius,(Caesar)
+2601,POMP2601 -. Pomponius (not in RE) M. f. Victor,Pomponius,Victor
+2602,SEXT2602 C. Sextilius (23) Rufus,Sextilius,Rufus
+2609,VOLC2609 L. Volcacius (9 18) L. f. Tullus,Volcacius,Tullus
+2610,GRAN2610 -. Granius (9) Fal. Petro,Granius,Petro
+2611,TERE2611 M. Terentius (89) Varro Gibba,Terentius,Varro
+2613,MINA2613 M. Minatius (3) Pom. Sabinus,Minatius,Sabinus
+2617,TITI2617 -. Titius (cf. 13) L. f. Hispanus,Titius,Hispanus
+2620,HOST2620 C. Hostilius (22) Saserna,Hostilius,Saserna
+2621,HOST2621 P. Hostilius (24) Saserna,Hostilius,Saserna
+2625,ANON2625 Q. - (Aquila 8) Aquila,-,Aquila
+2626,CISP2626 -. Cispius (6) Laevus,Cispius,Laevus
+2629,LIVI2629 L. Livineius (3) L. f. Regulus,Livineius,Regulus
+2630,MINU2630 C. Minucius (47) Reginus,Minucius,Reginus
+2632,TULL2632 Q. Tullius (32) Q. f. M. n. Cicero,Tullius,Cicero
+2633,POMP2633 A. Pompeius (26) Bithynicus,Pompeius,Bithynicus
+2634,TILL2634 L. Tillius (5) Cimber,Tillius,Cimber
+2635,AELI2635 L. Aelius (75) Aem. Lamia,Aelius,Lamia
+2637,PONT2637 L. Pontius (17) Pap. Aquila,Pontius,Aquila
+2638,VENT2638 P. Ventidius (5) P. f. Fab. Bassus,Ventidius,Bassus
+2640,ANTI2640 C. Antistius (47) C. f. Vetus,Antistius,Vetus
+2652,CLOD2652 -. Clodius (not in RE) Arquitius,Clodius,Arquitius
+2653,MUNA2653 L. Munatius (19) Flaccus,Munatius,Flaccus
+2654,VIBI2654 L. Vibius (14) Paciacus (or Pacciaecus),Vibius,Paciacus (or Pacciaecus)
+2659,ANNI2659 T. Annius (37) Cimber,Annius,Cimber
+2661,PUPI2661 M. Pupius (11 12) M. f. M. n. Piso Frugi,Pupius,Piso
+2663,CORN2663 L. Cornelius (107) Cinna,Cornelius,Cinna
+2664,CORN2664 L. Cornelius (197 cf. 219) Lentulus,Cornelius,Lentulus
+2667,ANON2667 P. - (RE 16.1792 (1) no. 4) Naso,-,Naso
+2671,TREB2671 L. Trebellius (4 cf. 5) (Fides),Trebellius,(Fides)
+2675,VARI2675 L. Varius (6) Cotyla,Varius,Cotyla
+2676,CAES2676 L. Caesetius (4) Flavus,Caesetius,Flavus
+2679,DECI2679 L. Decidius (4) Saxa,Decidius,Saxa
+2680,EPID2680 C. Epidius (3) Marullus,Epidius,Marullus
+2681,HELV2681 C. Helvius (11 cf. 12) Fab. Cinna,Helvius,Cinna
+2684,HOST2684 L. Hostilius (23) Saserna,Hostilius,Saserna
+2685,NONI2685 -. Nonius (13) Asprenas,Nonius,Asprenas
+2686,SERV2686 -. (Servilius) (52 cf. 53) Casca,(Servilius),Casca
+2687,FLAM2687 L. Flaminius (7) Chilo,Flaminius,Chilo
+2689,CORN2689 -. Cornelius (104) Cinna,Cornelius,Cinna
+2697,OCTA2697 M. Octavius (71) Ser. Marsus,Octavius,Marsus
+2699,DOMI2699 Cn. Domitius (23) L. f. Cn. n. Ahenobarbus,Domitius,Ahenobarbus
+2701,CAES2701 -. Caesennius (6) Lento,Caesennius,Lento
+2703,NUMI2703 -. (Numisius) (Nucula 1) Nucula,(Numisius),Nucula
+2705,ANON2705 -. - (not in RE) Cafo,-,Cafo
+2708,AQUI2708 M'. Aquillius (16) Crassus,Aquillius,Crassus
+2709,CAEC2709 M. Caecilius (45) Cornutus,Caecilius,Cornutus
+2711,MARC2711 L. Marcius (48) L. f. C. n. Censorinus,Marcius,Censorinus
+2712,MINU2712 -. Minucius (9 cf. 50) Rufus,Minucius,Rufus
+2713,NORB2713 C. Norbanus (9a) C. f. Flaccus,Norbanus,Flaccus
+2714,RUPI2714 P. Rupilius (10) Rex,Rupilius,Rex
+2720,SERV2720 P. Servilius (53) Casca Longus,Servilius,Casca
+2723,CASS2723 C. Cassius (80) Pol. Parmensis,Cassius,Parmensis
+2725,MANL2725 A. Manlius (72) Torquatus,Manlius,Torquatus
+2726,AEMI2726 P. (or Paullus) Aemilius (not in RE) P. f. Lepidus,Aemilius,Lepidus
+2729,SEST2729 L. Sestius (3) P. f. L. n. Quirinalis Alb-,Sestius,Quirinalis
+2730,CATI2730 C. Catius (13) Qui. Vestinus,Catius,Vestinus
+2731,HORA2731 Q. Horatius (10) Flaccus,Horatius,Flaccus
+2732,POPI2732 C. Popillius (16) Laenas,Popillius,Laenas
+2736,ANON2736 -. - (not in RE) Nerva,-,Nerva
+2737,VOLU2737 -. Volumnius (12) Flaccus,Volumnius,Flaccus
+2739,CALP2739 L. Calpurnius (27) Bibulus,Calpurnius,Bibulus
+2740,CALP2740 L. Calpurnius (73a Supb. 3.230) Piso,Calpurnius,Piso
+2741,CANI2741 P. Canidius (2) P. f.  Crassus,Canidius,Crassus
+2742,CASS2742 L. Cassius (15) L. f. Longinus,Cassius,Longinus
+2744,FLAV2744 C. Flavius (11) Hemicillus,Flavius,Hemicillus
+2747,IUNI2747 M. Iunius (172) M. f. D. n. Silanus,Iunius,Silanus
+2749,LOLL2749 M. Lollius (11) Paullinus,Lollius,Paullinus
+2751,PEDA2751 -. (Pedanius) (2) (P. f. P. n.) Aem. Costa,(Pedanius),Costa
+2754,PORC2754 M. Porcius (13) Pap. Cato,Porcius,Cato
+2758,VALE2758 M. Valerius (261) M. f. M. n. Messalla Corvinus,Valerius,Messalla
+2762,MARC2762 L. Marcius (64) Figulus,Marcius,Figulus
+2763,SEXT2763 L. Sextilius (24) Rufus,Sextilius,Rufus
+2765,VOLU2765 P. Volumnius (7) Eutrapelus,Volumnius,Eutrapelus
+2766,ALFE2766 P. Alfenus (8) P. f.  Ani. Varus,Alfenus,Varus
+2767,COCC2767 C. Cocceius (3 Supb. 7.90) Balbus,Cocceius,Balbus
+2768,VILL2768 -. Villius (4) L. f. Annalis,Villius,Annalis
+2769,CLOD2769 L.? Clodius (18) Bithynicus,Clodius,Bithynicus
+2770,HOST2770 -. Hostilius (7) Tullus,Hostilius,Tullus
+2773,PLAE2773 L. Plaetorius (15) Cestianus,Plaetorius,Cestianus
+2775,LAEL2775 D. Laelius (14 cf. 6) D. f. Balbus,Laelius,Balbus
+2777,LABI2777 Q. Labienus (5) T. f. Parthicus,Labienus,Parthicus
+2778,ANTI2778 Pacuvius Antistius (35) Labeo,Antistius,Labeo
+2781,CORN2781 L.? Cornelius (219 cf. 217) Lentulus Cruscellio,Cornelius,Lentulus
+2782,FANN2782 -. Fannius (1) (Caepio?),Fannius,(Caepio?)
+2783,MANL2783 T. Manlius (64) T. f. Ser. Torquatus Sergia(nus),Manlius,Torquatus
+2786,PAQU2786 Q. Paquius (2) Rufus,Paquius,Rufus
+2788,SALV2788 Q. Salvidienus (4) Rufus Salvius,Salvidienus,Rufus
+2794,ANON2794 -. - (not in RE) Helix,-,Helix
+2795,PINA2795 L. Pinarius (24) Scarpus,Pinarius,Scarpus
+2796,ANON2796 L. - (Quinctilius 8) Varus,-,Varus
+2800,BARB2800 M. Barbatius (1) Pollio,Barbatius,Pollio
+2801,DECI2801 -. Decidius (3) Saxa,Decidius,Saxa
+2802,GELL2802 L. Gellius (18) L. f. L. n. Poplicola,Gellius,Poplicola
+2806,COCC2806 M. Cocceius (13) Pap. Nerva,Cocceius,Nerva
+2807,FUFI2807 C. Fuficius (5) Fal. Fango,Fuficius,Fango
+2808,VIPS2808 M. Vipsanius (2) L. f. Agrippa,Vipsanius,Agrippa
+2815,TISI2815 -. Tisienus (or Titisienus) (1) Gallus,Tisienus (or Titisienus),Gallus
+2816,CORN2816 C. Cornelius (164) Cn. f. Gallus,Cornelius,Gallus
+2817,CURT2817 Q. Curtius (32) Salassus,Curtius,Salassus
+2819,CORN2819 L. Cornelius (69) L. f. Clu. Balbus,Cornelius,Balbus
+2821,CANI2821 L. Caninius (4) L. f. Pol. Gallus,Caninius,Gallus
+2822,STAT2822 T. Statilius (34) T. f. Taurus,Statilius,Taurus
+2823,SEMP2823 L. Sempronius (26) L. f. L. n. Fal. Atratinus,Sempronius,Atratinus
+2829,IULI2829 C. Iulius (Helenus 8) Helenus,Iulius,Helenus
+2831,POMP2831 Cn.? Pompeius (Menecrates 15) Cn. lib. Menecrates,Pompeius,Menecrates
+2832,POMP2832 Cn.? Pompeius (Menodorus 1) Cn. lib. Menodorus,Pompeius,Menodorus
+2835,SERV2835 P. Servilius (81 cf. 80) Rullus,Servilius,Rullus
+2841,POMP2841 -. Pompaedius (or Poppaedius)  (1) - f. Q. n. Ser. Silo,Pompaedius (or Poppaedius) ,Silo
+2843,IULI2843 C. Iulius (not in RE) Demetrius,Iulius,Demetrius
+2848,VIBI2848 -. Vibius (12) Maximus,Vibius,Maximus
+2849,ATIU2849 M. Atius (not in RE) Balbus,Atius,Balbus
+2853,POMP2853 Cn.? Pompeius (Apollophanes 10) Apollophanes,Pompeius,Apollophanes
+2854,POMP2854 -. Pompeius (Demochares 7) Demochares Papias,Pompeius,Demochares
+2860,LICI2860 M. Licinius (58) M. f. M. n. Crassus,Licinius,Crassus
+2861,FONT2861 C. Fonteius (20) C. f. Capito,Fonteius,Capito
+2863,COCC2863 L. Cocceius (12) Nerva,Cocceius,Nerva
+2867,CLAU2867 Ap. Claudius (298) C. f. Ap. n. Pulcher,Claudius,Pulcher
+2869,OPPI2869 M. Oppius (24) Capito,Oppius,Capito
+2870,FLAV2870 -. Flavius (94) Gallus,Flavius,Gallus
+2874,OPPI2874 -. Oppius (34) Statianus,Oppius,Statianus
+2875,PLIN2875 L. Plinius (4) L. f. Rufus,Plinius,Rufus
+2881,MARI2881 T. Marius (30) C. f. Ste. Siculus,Marius,Siculus
+2882,MIND2882 M. Mindius (5) M. f. Marcellus,Mindius,Marcellus
+2888,FUFI2888 -. Fufius (13) Geminus,Fufius,Geminus
+2889,ANON2889 -. - (Hiero 19) Hiero,-,Hiero
+2890,LOLL2890 L. Lollius (20) Palicanus,Lollius,Palicanus
+2895,AEMI2895 L. Aemilius (82) L. f. M. n. Tro. Lepidus Paullus,Aemilius,Lepidus
+2898,ASIN2898 Cn.? Asinius (2) Cn. f. Arn. Marrucinus,Asinius,Marrucinus
+2905,AUTR2905 L. Autronius (6) P. f. L. n. Paetus,Autronius,Paetus
+2906,FLAV2906 L. Flavius (18) -,Flavius,-
+2907,ACIL2907 M. Acilius (16) M'. f.  Glabrio,Acilius,Glabrio
+2911,HERE2911 M. Herennius (13) M'. f. T. n. Fab. Picens,Herennius,Picens
+2912,CORN2912 L. Cornelius (32 cf. 104) (Cinna),Cornelius,(Cinna)
+2913,VALE2913 M. Valerius (255) M. f. Messalla,Valerius,Messalla
+2914,VALE2914 Potitus Valerius (267) (M. f. M. n.?) Messalla,Valerius,Messalla
+2915,NONI2915 M.? Nonius (25-26 cf. 27) Balbus,Nonius,Balbus
+2923,PLAU2923 C. Plautius (36) Rufus,Plautius,Rufus
+2924,TARI2924 L. Tarius (3) Rufus,Tarius,Rufus
+2929,IUNI2929 L. Iunius (165) M. f. D. n. Silanus,Iunius,Silanus
+2930,TERE2930 A. Terentius (92) A. f. Varro Murena,Terentius,Varro
+2931,AEMI2931 Q. Aemilius (79) M'. f. Lepidus,Aemilius,Lepidus
+2933,LICI2933 C. Licinius (44) Calvus Stilo,Licinius,Calvus
+2934,MUCI2934 C. Mucius (14) Scaevola,Mucius,Scaevola
+2941,APPU2941 C. Appuleius (31) M. f. Tappo,Appuleius,Tappo
+2942,AELI2942 C. Aelius (149) Tubero,Aelius,Tubero
+2943,AELI2943 C. (or L.) Aelius (103 cf. 148 149) Tubero,Aelius,Tubero
+2946,CORD2946 M'. Cordius (2) M'. f. Pap. Rufus,Cordius,Rufus
+2947,CEST2947 C. Cestius (7) L. f. Pob. Epulo,Cestius,Epulo
+2949,CAEC2949 -. Caecilius (70) Metellus,Caecilius,Metellus
+2951,CALP2951 L. (Calpurnius) (98? Supb. 3.231) Piso Caesoninus,(Calpurnius),Piso
+2952,CLAU2952 P. Claudius (306 Clodius 49) P. f. Ap. n. Pulcher,Claudius,Pulcher
+2956,GENU2956 -. Genucius (16) Cipus,Genucius,Cipus
+2957,DOMI2957 -. Domitius (40) Calvinus,Domitius,Calvinus
+2958,FURI2958 L. Furius (55) L. f. Ouf. Crassipes,Furius,Crassipes
+2959,FABI2959 Q. Fabius (92) Labeo,Fabius,Labeo
+2960,FABI2960 -. Fabius (144) Senator,Fabius,Senator
+2961,CORN2961 -. Cornelius (163) Gallus,Cornelius,Gallus
+2963,IULI2963 L. Iulius (362) Mocilla,Iulius,Mocilla
+2965,LIVI2965 L. Livius (25) Ocella or Pella,Livius,Ocella or Pella
+2967,MANL2967 A. (Manlius) (cf. 74) Torquatus,(Manlius),Torquatus
+2970,PLAU2970 M. Plautius (22) Hypsaeus,Plautius,Hypsaeus
+2971,SULP2971 C. Sulpicius (52) Galba,Sulpicius,Galba
+2972,SEMP2972 C. Sempronius (79) Rufus,Sempronius,Rufus
+2973,SERV2973 C. Servilius (91) M. f. M. n. Vatia,Servilius,Vatia
+2978,UTTI2978 -. Uttiedius (Tedius 1 RE 5A.1.106-7) L. f. Afer,Uttiedius,Afer
+2985,BARR2985 P. Barronius (1) Barba,Barronius,Barba
+2992,POMP2992 -. Pompeius (?) Rufus,Pompeius,Rufus
+2994,ANON2994 L. -s (not in RE) L. f. Flaccus,#NAME?,Flaccus
+2997,COEL2997 Q. Coelius (20) Pap. Latiniensis,Coelius,Latiniensis
+3029,PORC3029 -. Porcius (cf. 16) (Laeca),Porcius,(Laeca)
+3034,SENT3034 Cn. Sentius (not in RE) C. f. Saturninus,Sentius,Saturninus
+3035,ACIL3035 M. Acilius (28) M. f. Caninus,Acilius,Caninus
+3040,APPU3040 L. Ap(puleius) (not in RE) Dec(ianus),Ap(puleius),Dec(ianus)
+3044,ATIN3044 T. Atinius (11) T. f. Fab. Turannus (or Tyrannus),Atinius,Turannus (or Tyrannus)
+3045,CAEC3045 C. Caecilius (71) Metellus,Caecilius,Metellus
+3047,AQUI3047 L. Aquillius (cf. 10) M'. f. M'. n. Florus,Aquillius,Florus
+3049,HEDI3049 C. Hedius (3) C. f. Cla. Thorus,Hedius,Thorus
+3050,LIVI3050 L. Livius (26) L. f. Ocella,Livius,Ocella
+3051,HERE3051 M. Herennius (41) M. f. Mae. Rufus,Herennius,Rufus
+3052,SEMP3052 Ti. Sempronius (56) Gracchus,Sempronius,Gracchus
+3055,PAVU3055 P. Tubitanus (Pavus) Pavus,Tubitanus,Pavus
+3061,VOCO3061 Q. Voconius (5) Vitulus,Voconius,Vitulus
+3062,TULL3062 -. Tullius (49 cf. 9) Ste. Rufus,Tullius,Rufus
+3063,VIBI3063 T. Vibius (19) Temudinus,Vibius,Temudinus
+3066,CLAU3066 M. (Claudius) (cf. 229) Mar(cellus),(Claudius),Mar(cellus)
+3068,PUBL3068 Q. (Publicius) (13?) Mall(eolus),(Publicius),Mall(eolus)
+3080,SCRI3080 L. Scribonius (19) Libo,Scribonius,Libo
+3087,ALLI3087 C. Allius (?) Bala,Allius,Bala
+3093,P-3093 A. P- (?) N-,P-,N-
+3094,ARRU3094 C. Arruntanus (1) Balbus,Arruntanus,Balbus
+3096,FURI3096 -. (Furius) (53) Crassipes,(Furius),Crassipes
+3097,CLOD3097 C. Clodius (62) C. f. Arn. Vestalis,Clodius,Vestalis
+3098,CORN3098 Ser. Cornelius (208b) Ser. f. Lentulus,Cornelius,Lentulus
+3103,SCRI3103 L. (Scribonius) (20?) L.f. Libo,(Scribonius),Libo
+3104,SEMP3104 M. (Sempronius) (not in RE) (Rutilus),(Sempronius),(Rutilus)
+3113,VALE3113 L. Valerius (310) Praeconinus,Valerius,Praeconinus
+3115,MARC3115 -. (Marcius) (not in RE) Rex,(Marcius),Rex
+3116,ANON3116 -. -cius (not in RE) Balbus,#NAME?,Balbus
+3120,LUCI3120 C. Lucilius (6) C. f. (Hirrus?),Lucilius,(Hirrus?)
+3127,COEL3127 C. Coelius (13) C. f. C. n. Caldus,Coelius,Caldus
+3129,COEL3129 L. Coelius (15) C. f. C. n. Caldus,Coelius,Caldus
+3133,CORN3133 P. Cornelius (cf. 331) P. f. P. n. Scipio,Cornelius,Scipio
+3140,ANNI3140 Q. Annius (18) Chilo,Annius,Chilo
+3150,CAEC3150 -. Caecilius (Bucilianus 1) Bucilianus,Caecilius,Bucilianus
+3153,ATIL3153 M. Atilius (34) Bulbus,Atilius,Bulbus
+3154,APPU3154 Cn. (Appuleius) (27) L. f. Saturninus,(Appuleius),Saturninus
+3161,CAUL3161 L. Caulius (not in RE) Mergus,Caulius,Mergus
+3164,CORN3164 P. Cornelius (385) Ser. f. Sulla,Cornelius,Sulla
+3165,CORN3165 C. Cornelius (89) Cethegus,Cornelius,Cethegus
+3166,CORN3166 -. Cornelius (84) Cethegus,Cornelius,Cethegus
+3168,CORN3168 C. Cornelius (17) M. f. Ste. (Cethegus?),Cornelius,(Cethegus?)
+3173,DOMI3173 L. Domitius (not in RE) Cn. f. (Cn. n.) (Ahenobarbus),Domitius,(Ahenobarbus)
+3176,EGNA3176 C. Egnatius (27) Cn. f. Cn. n. Maximus,Egnatius,Maximus
+3177,CORN3177 Ser. Cornelius (389) Ser. f. Sulla,Cornelius,Sulla
+3178,FABI3178 Q. Fabius (143) Sanga,Fabius,Sanga
+3179,EGNA3179 Cn. Egnatius (8) Cn. f. (Maximus?),Egnatius,(Maximus?)
+3184,ANON3184 C. - (20) Gallus,-,Gallus
+3193,FIDI3193 C. Fidiculanius (1) Col. Falcula,Fidiculanius,Falcula
+3196,ANON3196 Ti. - (1) Gutta,-,Gutta
+3200,LUTA3200 Cn. Lutatius (1 12) Cn. f. Ani. Arn. Cerco,Lutatius,Cerco
+3201,IULI3201 L. Iulius (141) Sex. f. (Sex. n.) Fal. Caesar,Iulius,Caesar
+3203,LICI3203 -. Licinius (39) Bucco,Licinius,Bucco
+3205,IUVE3205 M. Iuventius (18) Pedo,Iuventius,Pedo
+3207,LUCI3207 M. (or M'.) Lucilius (11) M. f. Pom. (Rufus?),Lucilius,(Rufus?)
+3211,LUSC3211 C. Luscius (2) Ocrea,Luscius,Ocrea
+3217,MANL3217 T. Manlius (85) T. f. Torquatus,Manlius,Torquatus
+3218,OCTA3218 M. Octavius (69) Pol. Ligus,Octavius,Ligus
+3226,POPI3226 P. Popillius (29) P. f. Ter. Laenas,Popillius,Laenas
+3230,OPPI3230 Cn. Oppius (28) Cn. f. Vel. Cornicinus,Oppius,Cornicinus
+3231,PLAU3231 C. Plautius (25) Numida,Plautius,Numida
+3232,PLAE3232 -. Plaetorius (19) Rustianus (or Cestianus),Plaetorius,Rustianus (or Cestianus)
+3238,POPI3238 Q. Popillius (30) P. f. Rom. Laenas,Popillius,Laenas
+3239,PORC3239 P. Porcius (cf. 4 and 19) P. f. (Laeca),Porcius,(Laeca)
+3243,QUIN3243 M. Quintius (51) M. f. Pob. Pol. Plancinus,Quintius,Plancinus
+3244,PORC3244 M. Porcius (18) Pap. Laeca,Porcius,Laeca
+3246,POPI3246 -. Popillius (15) Laenas,Popillius,Laenas
+3254,SEPT3254 P. Septimius (51) Scaevola,Septimius,Scaevola
+3256,RUTI3256 L. Rutilius (16) Flaccus,Rutilius,Flaccus
+3258,SENT3258 C. Sentius (4 cf. 9) C. f. Sab. Saturninus Vetulo,Sentius,Saturninus
+3262,SILI3262 P. Silicius (1) Corona,Silicius,Corona
+3263,TUTI3263 -. Tuticanus (cf. 3) Gallus,Tuticanus,Gallus
+3267,STAT3267 -. Statius (1) Vol. 'the Samnite',Statius,'the Samnite'
+3268,VELL3268 -. Velleius (4) Capito,Velleius,Capito
+3276,ANON3276 M. - (not in RE) Pob. Pallacinus,-,Pallacinus
+3279,VOLC3279 C. Volcacius (5) Gurges,Volcacius,Gurges
+3284,VIBI3284 T.? Vibius (17) Pansa,Vibius,Pansa
+3285,VERG3285 Proc. Verginius (18a) Tricostus,Verginius,Tricostus
+3291,QUIN3291 T. (Quinctius) (not in RE) Q. f. Crispinus,(Quinctius),Crispinus
+3292,AELI3292 L. Aelius (not in RE) (C. or T. f.) Arn. Capito,Aelius,Capito
+3294,CANI3294 -.? Canini (1A.2 1913 1919 Caninius 14) Sallustius,Canini,Sallustius
+3295,PORC3295 -. Porcius (20) Laeca,Porcius,Laeca
+3297,ACIL3297 M'. Acilius (1) M'. f. Vol. (Balbus),Acilius,(Balbus)
+3300,AEFI3300 M. Aeficius (1.475) Calvinus,Aeficius,Calvinus
+3302,AELI3302 -. (Aelius) (90) Marullinus,(Aelius),Marullinus
+3304,AELI3304 Q. Aelius (156) L. f. Tro. Tubero,Aelius,Tubero
+3307,ANON3307 -. - (not in RE) L. f. Ouf. Balbus,-,Balbus
+3308,BARB3308 -. Barbarius (not in RE cf. Barbatius 1) Philippus,Barbarius,Philippus
+3312,AUFI3312 M. Aufi(dius) (not in RE) Scaeva,Aufi(dius),Scaeva
+3317,ALFI3317 P. Alf(ius) or Alf(enus) (?) Primus,Alf(ius) or Alf(enus),Primus
+3325,ANNI3325 P. Annius (31) Asellus,Annius,Asellus
+3328,AQUI3328 -. Aquillius (19) Florus,Aquillius,Florus
+3329,AQUI3329 -. Aquillius (cf. 19) (Florus?),Aquillius,(Florus?)
+3330,ARTI3330 -. Articuleius (cf. 2) Paetus,Articuleius,Paetus
+3331,AEMI3331 Q. Aemilius (78) Lepidus,Aemilius,Lepidus
+3334,AURE3334 L. Aurelius (not in RE) Cotta or Orestes,Aurelius,Cotta or Orestes
+3335,CAEC3335 Q. Caecilius (12.1829) Q. f. Atticus,Caecilius,Atticus
+3338,CAEL3338 C. Caelius (not in RE) C. f. Rufus,Caelius,Rufus
+3339,CAES3339 P. Caesetius (5) Rufus,Caesetius,Rufus
+3343,CALP3343 P. Calpurnius (49) Lanarius,Calpurnius,Lanarius
+3349,LIVI3349 M. Livius (12) Drusus,Livius,Drusus 
+3351,BAEB3351 C. (Baebius) (not in RE) Herennius,(Baebius),Herennius
+3352,CORN3352 P. Cornelius (266) Merenda,Cornelius,Merenda
+3355,QUIN3355 K. Quinctius (Claudius 151) Claudus Flamininus,Quinctius,Claudus
+3356,ACIL3356 L. Acilius (Atilius 16 = Acilius 7) K. f. (Sapiens),Acilius,(Sapiens)
+3363,CORN3363 -. Cornelius (172) Lentulus,Cornelius,Lentulus
+3366,LIVI3366 -. Livius or Oppius (Livius 30) Salinator,Livius or Oppius,Salinator
+3369,PORC3369 M. Porcius (15) Cato (Salonianus),Porcius,Cato
+3372,TREM3372 L. (or Cn.) Tremellius (not in RE) L. f. Cn. n. Scrofa,Tremellius,Scrofa
+3382,MARC3382 Q. Marcius (81) Philippus,Marcius,Philippus
+3383,CORN3383 Cn. Cornelius (133) Dolabella,Cornelius,Dolabella 
+3384,SENT3384 L. Sentius (6) C. f. Ter. (Saturninus),Sentius,(Saturninus)
+3388,CORN3388 P. Cornelius (97) Cethegus,Cornelius,Cethegus
+3391,POST3391 A. Postumius (35) Sp. f. Albinus,Postumius,Albinus
+3397,CORN3397 Cn. (Cornelius) (not in RE) Scipio,(Cornelius),Scipio
+3401,TREM3401 Cn. Tremellius (cf. 5) Cam. Scrofa,Tremellius,Scrofa
+3402,CURT3402 M. Curtius (23 cf. 8) Peducaeanus,Curtius,Peducaeanus
+3403,LIVI3403 L. Livineius (2) Regulus,Livineius,Regulus
+3412,CORN3412 -. (Cornelius) (not in RE) Sulla,(Cornelius),Sulla
+3416,QUIN3416 L. Quinctius (52) L. f. Rufus,Quinctius,Rufus
+3418,FURI3418 -. Furius (cf. 62 Fulvius 108) Leptinus,Furius,Leptinus
+3421,CAEC3421 -. Caecilius (cf. 70) Metellus,Caecilius,Metellus
+3423,ANON3423 -.? - (not in RE) Cap(-),-,Cap(-)
+3424,CASS3424 -. Cassius (29a Supb. 1.277) Barba,Cassius,Barba
+3425,CASS3425 -. Cassius (not in RE) Sabaco,Cassius,Sabaco
+3426,ANON3426 -. - (not in RE) Cillo (or Chilo?),-,Cillo (or Chilo?)
+3427,CLAU3427 C.? Claudius (or Clodius) (165) Glaber,Claudius (or Clodius),Glaber
+3428,CLAU3428 P. Claudius (not in RE) Nero,Claudius,Nero
+3429,CLAU3429 Ti. Claudius (cf. 250 251 252) Ti. f. Clu. Nero or Asellus,Claudius,Nero or Asellus
+3430,CLAU3430 Ap. Claudius (299 cf. 15) Pulcher,Claudius,Pulcher
+3431,CLUS3431 P. Clusius (not in RE) P. f.  Vot. Gallus,Clusius,Gallus
+3437,ANON3437 -. -minius (not in RE) T. f. Longinus,#NAME?,Longinus
+3443,CURT3443 P. Curtius (10) (Salassus),Curtius,(Salassus)
+3445,CURT3445 C. Curtius (cf. 24) Postumus,Curtius,Postumus
+3446,DOMI3446 -. Domitius (34) Apulus,Domitius,Apulus
+3447,EGNA3447 Cn. Egnatius (2) Cn. f. Cn. n. Maximus,Egnatius,Maximus
+3448,EGNA3448 -. Egnatius (not in RE) Vale(rianus),Egnatius,Vale(rianus)
+3458,PAQU3458 P. Paquius (3) P. f. Scaeva,Paquius,Scaeva
+3462,ANON3462 -. - (Mamurra) Mamurra,-,Mamurra
+3469,MANL3469 -. (Manlius) (cf. 44) Acidinus,(Manlius),Acidinus
+3470,FLAV3470 P. (Flavius?) (180) Silva,(Flavius?),Silva
+3474,LICI3474 A. Licinius (132) Nerva,Licinius,Nerva
+3476,MANL3476 A. Manlius (63) Q. f. Ser. Ser[gianus],Manlius,Ser[gianus]
+3478,POST3478 A. Postumius (36) A. f. S. n. Albinus,Postumius,Albinus
+3483,ACIL3483 -. Acilius or Naevius (not in RE) Balbus,Acilius or Naevius,Balbus
+3484,COSS3484 C. Cossutius (4) Maridianus,Cossutius,Maridianus
+3485,TERE3485 C. (Terentius) (76) Varro,(Terentius),Varro
+3486,ABUR3486 C. Aburius (cf. 1) Geminus,Aburius,Geminus
+3488,ALLI3488 C. Allius (2) Bala,Allius,Bala
+3490,ANTI3490 C. Antius (13) C. f. Restio,Antius,Restio
+3491,MINU3491 C. Minucius (31) Augurinus,Minucius,Augurinus
+3495,CONS3495 C. Considius (12) Nonianus,Considius,Nonianus
+3496,CONS3496 C. Considius (14) Paetus,Considius,Paetus
+3497,CURI3497 C. Curiatius (10 cf. 3) Trigeminus,Curiatius,Trigeminus
+3498,CURI3498 C. Curiatius (11 cf. 3) Trigeminus,Curiatius,Trigeminus
+3499,FABI3499 C. Fabius (15 cf. 82) C. f. Hadrianus,Fabius,Hadrianus
+3501,HOSI3501 C. Hosidius (4) C. f. Arn. Geta,Hosidius,Geta
+3504,PUBL3504 C. Publicius (18) Malleolus,Publicius,Malleolus
+3505,PUBL3505 C. Publicius (19) C. f. Malleolus,Publicius,Malleolus
+3506,MAMI3506 C. Mamilius (8) Q. f. M. n. Pap. Limetanus,Mamilius,Limetanus
+3507,MARI3507 C. Marius (33) Capito,Marius,Capito
+3509,NAEV3509 C. Naevius (10) Balbus,Naevius,Balbus
+3512,NUMO3512 C. Numonius (1) Vaala,Numonius,Vaala
+3518,SERV3518 C. Servilius (13 91) Vatia,Servilius,Vatia
+3520,SULP3520 C. Sulpicius (9) C. f. Galba,Sulpicius,Galba
+3521,IUVE3521 C. (Iuventius) (28) Thalna,(Iuventius),Thalna
+3522,TERE3522 C. Terentius (56) Lucanus,Terentius,Lucanus
+3524,VALE3524 C. Valerius (167) C. f. Flaccus,Valerius,Flaccus
+3525,VIBI3525 C. Vibius (20) Varus,Vibius,Varus
+3526,VIBI3526 C. Vibius (15) C. f. Pansa,Vibius,Pansa
+3527,CORN3527 -. Cornelius (cf. 97) Cethegus,Cornelius,Cethegus
+3528,CORN3528 L.? (Cornelius) (103) Cinna,(Cornelius),Cinna
+3529,CORN3529 Cn. Cornelius (75) Cn. f. Blasio,Cornelius,Blasio
+3531,CORN3531 Cn. Cornelius (cf. 373) L. f. Sisenna,Cornelius,Sisenna
+3532,DOMI3532 Cn. Domitius (cf. 20 Supb.3.349) (Calvinus? Ahenobarbus?),Domitius,(Calvinus? Ahenobarbus?)
+3534,LUCR3534 Cn. Lucretius (32) Trio,Lucretius,Trio
+3538,IUNI3538 D. Iunius (162) L. f. Silanus,Iunius,Silanus
+3543,AEMI3543 L. Aemilius (37) Buca,Aemilius,Buca
+3544,PL[A3544 L. Pl[autius] (cf. 19) H[ypsaeus],Pl[autius],H[ypsaeus]
+3545,ANTE3545 L. Antestius (Antistius 33) Gragulus,Antestius,Gragulus
+3547,AXIU3547 L. Axius (7) L. f. Naso,Axius,Naso
+3550,CASS3550 L. Cassius (32) Caecianus,Cassius,Caecianus
+3551,CASS3551 L. Cassius (64) Q. f. Longinus,Cassius,Longinus
+3552,MARC3552 L. Marcius (47) Censorinus,Marcius,Censorinus
+3554,COSS3554 L. Cossutius (6) C. f. Sabula,Cossutius,Sabula
+3557,FARS3557 L. Farsuleius (1) Mensor,Farsuleius,Mensor
+3558,FURI3558 L. Furius (39) Cn. f. Brocchus,Furius,Brocchus
+3559,HOST3559 L. Hostilius (cf. 26) Tubulus,Hostilius,Tubulus
+3562,IULI3562 L. Iulius (126) Bursio,Iulius,Bursio
+3563,LUCR3563 L. Lucretius (33) Trio,Lucretius,Trio
+3568,MUSS3568 L. Mussidius (3) T. f. Longus,Mussidius,Longus
+3570,PAPI3570 L. Papius (10) Mae. Celsus,Papius,Celsus
+3571,MARC3571 L. Marcius (cf. 75) Philippus,Marcius,Philippus
+3572,POMP3572 L. Pomponius (4 22) Molo,Pomponius,Molo
+3574,PORC3574 L. Porcius (25) Pap. Licinus,Porcius,Licinus
+3576,RUBR3576 L. Rubrius (17) Dossenus,Rubrius,Dossenus
+3580,SEMP3580 L. Sempronius (74) Pitio,Sempronius,Pitio
+3581,SERV3581 L. Servius (6) Pap. Rufus,Servius,Rufus
+3584,VALE3584 L. Valerius (94) Acisculus,Valerius,Acisculus
+3586,VOLU3586 L. Volumnius (3 14) L. f. Strabo,Volumnius,Strabo
+3587,IUVE3587 M.? Iuventius (not in RE) Laterensis,Iuventius,Laterensis
+3589,ABUR3589 M. Aburius (cf. 2) M. f. Geminus,Aburius,Geminus
+3592,ARRI3592 M. Arrius (34) Secundus,Arrius,Secundus
+3593,ATIL3593 M. Atilius (67 cf. 22) Saranus,Atilius,Saranus
+3594,AUFI3594 M. Aufidius (35) (M.? f.) Rusticus,Aufidius,Rusticus
+3595,AURE3595 M. Aurelius (105) Cotta,Aurelius,Cotta
+3596,AURE3596 M. Aurelius (cf. 215 216) Scaurus,Aurelius,Scaurus
+3597,BAEB3597 M. Baebius (not in RE) Q. f. Tamphilus,Baebius,Tamphilus
+3599,PORC3599 M. Porcius (not in RE) Cato,Porcius,Cato
+3603,FURI3603 M. Furius (79) L. f. Philus,Furius,Philus
+3604,LUCI3604 M. Lucilius (31) Rufus,Lucilius,Rufus
+3607,PORC3607 M. Porcius (17) Pap. Laeca,Porcius,Laeca
+3614,CAEC3614 -. (Caecilius) (not in RE) Metellus,(Caecilius),Metellus
+3615,VALE3615 M. Valerius (254) Messalla,Valerius,Messalla
+3617,AEMI3617 M'. Aemilius (cf. 62) (M.? f.) Lepidus,Aemilius,Lepidus
+3618,AQUI3618 M'. Aquillius (9) M'. f. M'. n. Crassus,Aquillius,Crassus
+3622,FABI3622 N. Fabius (125) Pictor,Fabius,Pictor
+3623,PINA3623 -. Pinarius (14) Natta,Pinarius,Natta
+3628,AELI3628 P. (Aelius) (102) Paetus,(Aelius),Paetus
+3629,CORN3629 P. Cornelius (cf. 384) Sulla,Cornelius,Sulla
+3630,ACCO3630 P. Accoleius (1) Hor. Lariscolus,Accoleius,Lariscolus
+3636,FONT3636 P. Fonteius (25) P. f. Capito,Fonteius,Capito
+3638,PORC3638 P. Porcius (21) Laeca,Porcius,Laeca
+3640,MAEN3640 P. Maenius (18) Ant[ias],Maenius,Ant[ias]
+3642,VETT3642 P. Vettius (15 Sabinus 30) Qui. Ser. Sabinus,Vettius,Sabinus
+3644,SEPU3644 P. Sepullius (1) Macer,Sepullius,Macer
+3645,SERV3645 P. Servilius (79) M. f. Rullus,Servilius,Rullus
+3646,AELI3646 -. (Aelius) (not in RE) Pae[tus],(Aelius),Pae[tus]
+3648,PETI3648 -. Petillius (7) Capitolinus,Petillius,Capitolinus
+3650,FURI3650 -. (Furius) (not in RE) Purpurio,(Furius),Purpurio
+3651,FURI3651 -. (Furius) (not in RE) Purpurio,(Furius),Purpurio
+3653,CREP3653 Q. Crepereius (8) M. f. Rocus,Crepereius,Rocus
+3656,MARC3656 Q. Marcius (70) Libo,Marcius,Libo
+3659,MARC3659 Q. (Marcius) (82) Philippus,(Marcius),Philippus
+3660,POMP3660 Q. Pomponius (23) Musa,Pomponius,Musa
+3661,POMP3661 Q. Pomponius (26) Rufus,Pomponius,Rufus
+3663,TITI3663 Q. Titius (33) (Mutto),Titius,(Mutto)
+3665,LUTA3665 Q. L(utatius) (13.2068) C(erco) or C(atulus),L(utatius),C(erco) or C(atulus)
+3667,ANON3667 -. - (not in RE) Safra,-,Safra
+3668,ATIL3668 -. (Atilius) (57) Saranus,(Atilius),Saranus
+3669,CLUV3669 -. Cluvius (cf. 14) Saxula,Cluvius,Saxula
+3670,PINA3670 L. Pinarius (27) Scarpus,Pinarius,Scarpus
+3673,ANON3673 -. - (Todus) Todus,-,Todus
+3678,IUVE3678 -. (Iuventius) (25) Thalna,(Iuventius),Thalna
+3679,BAEB3679 -. (Baebius) (cf. 41) Tamphilus,(Baebius),Tamphilus
+3681,MINU3681 Ti. Minucius (35) C. f. Augurinus,Minucius,Augurinus
+3683,PAPI3683 -. (Papirius) (75) Turdus,(Papirius),Turdus
+3694,FULV3694 Q. Fulvius (30) Q. f. M. n. (Nobilior?),Fulvius,(Nobilior?)
+3695,FULV3695 -. Fulvius (103) Postumus,Fulvius,Postumus
+3696,FULV3696 -. Fulvius (108) Sepinus,Fulvius,Sepinus
+3697,FURI3697 -. Furius (62) Leptinus,Furius,Leptinus
+3703,HELV3703 -. Helvius (10) Blasio,Helvius,Blasio
+3704,MINU3704 M. (Minucius) (39) Vel. Basilus,(Minucius),Basilus
+3705,MINU3705 L. Minucius (not in RE) Thermus,Minucius,Thermus
+3742,IULI3742 -. Iulius (457) Saturninus,Iulius,Saturninus
+3744,IUVE3744 M'. Iuventius (not in RE) L. f. Laterensis,Iuventius,Laterensis
+3752,NONI3752 -. Nonius (?) Struma,Nonius,Struma
+3753,NUNN3753 C. Nunnuleius (14.1474) Q. f. Nudus,Nunnuleius,Nudus
+3756,CALP3756 M. Calpurnius (cf. Pupius 10) M. f. Piso Frugi,Calpurnius,Piso
+3758,OCTA3758 C. Octavius (44) Balbus,Octavius,Balbus
+3759,OCTA3759 L. Octavius (45 46) Balbus,Octavius,Balbus
+3760,OCTA3760 L. (Octavius) (69) Ligus,(Octavius),Ligus
+3765,ANON3765 -. - (cf. Ateius 9) Cap-,-,Cap-
+3767,PACC3767 C. Paccius (12) C. f. Balbus,Paccius,Balbus
+3768,PACU3768 Sex. Pacuius (Pacuvius?) (cf. 76) Taurus,Pacuius (Pacuvius?),Taurus
+3769,PAPI3769 C. Papirius (36) C. f. P. n. Clu. Carbo,Papirius,Carbo
+3770,PAPI3770 C. (Papirius) (59) Masso,(Papirius),Masso
+3771,PAPI3771 C. Papirius (60) C. f. Vel. Maso,Papirius,Maso
+3775,PLAU3775 L. Plautius (Plotius) (10 cf. Munatius 26) Plancus,Plautius (Plotius),Plancus
+3777,POMP3777 T. Pompeius (29) T. f. Cor. Longinus,Pompeius,Longinus
+3778,CLUV3778 C. Cluvius (cf. 14) (C.? f.) Saxula,Cluvius,Saxula
+3780,CORN3780 P. Cornelius (230) Marcelli f. Lentulus Marcellinus,Cornelius,Lentulus
+3781,CORN3781 P. Cornelius (233) P. f. L.? n. Lentulus Marcellinus,Cornelius,Lentulus
+3782,CORN3782 P. Cornelius (not in RE) P. f. Scapula,Cornelius,Scapula
+3783,CORN3783 P.? Cornelius (357) P.? f.  Scipio Pomponianus Salvitto,Cornelius,Scipio
+3785,CORN3785 P. Cornelius (387) P. f.  Sulla,Cornelius,Sulla
+3787,POMP3787 Cn. Pomp- (cf. 112) Vel. Col. Rufus,Pomp-,Rufus
+3790,POPI3790 M. Popillius (23 cf. 7) M. f. Laenas,Popillius,Laenas
+3792,POST3792 C. Postumius (12) AT or TA,Postumius,AT or TA
+3794,POST3794 A.? (Postumius) (35 35?) Albinus,(Postumius),Albinus
+3795,LICI3795 -. Licinius (80) Lenticulus (or Denticula),Licinius,Lenticulus (or Denticula)
+3796,LICI3796 -. Licinius (149) Regulus,Licinius,Regulus
+3797,LICI3797 C.? Licinius (not in RE) Sacerdos,Licinius,Sacerdos
+3798,POST3798 M. Postumius (50) A. f. A. n. Albinus Regillensis,Postumius,Albinus
+3803,LICI3803 L. Licinius (not in RE) Stolo,Licinius,Stolo
+3804,LICI3804 T.? (Li)cinius (not in RE) T. f. Fab. Turannus,(Li)cinius,Turannus
+3805,ANON3805 -. - (4) Licinus,-,Licinus
+3809,LUSI3809 N. Lusius (not in RE) N. f. Cor. Nomentanus,Lusius,Nomentanus
+3810,LUCI3810 -. Lucilius (cf. 4) Hirrus,Lucilius,Hirrus
+3811,LUCI3811 Q. Lucilius (20) Balbus,Lucilius,Balbus
+3812,LUCI3812 L. (Lucilius) (not in RE) L. f. Ouf. Balbus,(Lucilius),Balbus
+3814,LUCI3814 -. Lucilius (cf. 18) (Balbus?),Lucilius,(Balbus?)
+3822,PUPI3822 A. Pupius (not in RE?) Rufus,Pupius,Rufus
+3823,QUIN3823 P. Quinctilius (2 10a) Varus,Quinctilius,Varus
+3825,QUIN3825 T. Q(uinctius) (48) (Flamininus),Q(uinctius),(Flamininus)
+3826,QUIN3826 T. Quin(c)tius (54) Scapula,Quin(c)tius,Scapula
+3831,RUBR3831 -. Rubrius (23) Ruga,Rubrius,Ruga
+3837,LICI3837 -.? Licinius (not in RE?) Sacer(dos),Licinius,Sacer(dos)
+3838,SAEN3838 L. Saenius (2) L. f. (Balbinus),Saenius,(Balbinus)
+3843,VERG3843 L. Verginius (cf. 15) Tricostus Esquilinus,Verginius,Tricostus
+3847,VARI3847 T. Varius (7c 8A.2393) T. f. Qui. Ser. Sabinus,Varius,Sabinus
+3849,VALE3849 L. Valerius (212) Laevinus,Valerius,Laevinus
+3851,TANU3851 -. Tanusius (2) Geminus,Tanusius,Geminus
+3853,TERE3853 -. Terentius (86) M. f. Pap. Varro,Terentius,Varro
+3854,THOR3854 -. Thorius (5) Flaccus,Thorius,Flaccus
+3865,FULV3865 Q. Fulvius (62) Flaccus,Fulvius,Flaccus
+3866,POMP3866 Q. Pompeius (40) Rufus,Pompeius,Rufus
+3868,LICI3868 -. Licinius (50) Crassus Dives,Licinius,Crassus
+3869,CORN3869 L. Cornelius (327) Scipio Asiagenus Aemilianus,Cornelius,Scipio
+3875,SERV3875 -. Servilius (G) Caepio,Servilius,Caepio
+3888,MUNA3888 C. Munatius (26) Plancus,Munatius,Plancus
+3899,LUCR3899 Q. Lucretius (35) Vespillo,Lucretius,Vespillo
+3904,ANTO3904 M. Antonius (32) Antyllus,Antonius,Antyllus
+3905,FUFI3905 Q. Fufius (11) Calenus,Fufius,Calenus
+3911,CLAU3911 M. Claudius (230) Marcellus,Claudius,Marcellus
+3913,AEMI3913 M. Aemilius (104) Lepidus,Aemilius,Lepidus
+3916,FABI3916 Q. Fabius (52) Buteo,Fabius,Buteo
+3917,SERV3917 Q. Servilius (40-42) Caepio,Servilius,Caepio
+3918,LICI3918 M. Licinius (109) Lucullus,Licinius,Lucullus
+3921,CLAU3921 C. Claudius (C) Pulcher,Claudius,Pulcher
+3922,CLOD3922 P. Clodius (49) Pulcher,Clodius,Pulcher
+3923,SEMP3923 -. Sempronius (89) Tuditanus,Sempronius,Tuditanus
+3930,VALE3930 P. Valerius (367) Aem. Triarius,Valerius,Triarius
+3935,AEMI3935 M. Aemilius (142) Scaurus,Aemilius,Scaurus
+3936,FONT3936 P. Fonteius (13) Capito,Fonteius,Capito
+3938,CORN3938 P. Cornelius (205) Lentulus,Cornelius,Lentulus
+3950,CLAU3950 Ti. Claudius (Iulius 154) Nero,Claudius,Nero
+3951,LICI3951 C. Licinius (113) Macer Calvus,Licinius,Macer
+3955,LICI3955 P. Licinius (E) Crassus,Licinius,Crassus
+3959,SERV3959 Q. Servilius (63) Geminus,Servilius,Geminus
+3965,POMP3965 T. Pomponius (102) Atticus,Pomponius,Atticus
+3970,ATIL3970 Sex. Atilius (71) Serranus,Atilius,Serranus
+3974,CANI3974 -. Caninius (15) Satrius,Caninius,Satrius
+3977,PAPI3977 L. Papirius (69) Paetus,Papirius,Paetus
+3982,PONT3982 -. Pontius (22) Titinianus,Pontius,Titinianus
+3983,GAVI3983 T. Gavius (9) Caepio,Gavius,Caepio
+3985,POMP3985 Cn. Pompeius (47) Theophanes,Pompeius,Theophanes
+3987,CORN3987 -. Cornelius (B) Dolabella,Cornelius,Dolabella
+3989,CORN3989 -. Cornelius (172a) Lentulus,Cornelius,Lentulus
+3990,AURE3990 M. Aurelius (106) Cotta,Aurelius,Cotta
+3998,AELI3998 -. Aelius (Gamala 3) Gamala,Aelius,Gamala
+4000,LICI4000 P. Licinius (62) Crassus Dives,Licinius,Crassus
+4001,AEMI4001 -. Aemilius (84) Regillus,Aemilius,Regillus
+4006,TULL4006 L. Tullius (46) Montanus,Tullius,Montanus
+4013,ROSC4013 -. Roscius (A) Otho,Roscius,Otho
+4016,MUNA4016 L. Munatius (29) Plancus,Munatius,Plancus
+4021,LIVI4021 C. Livius (15) Drusus,Livius,Drusus
+4025,CLAU4025 M. Claudius (231) Marcellus Aeserninus,Claudius,Marcellus
+4026,TULL4026 M. Tullius (27) Cor. Cicero,Tullius,Cicero
+4028,LICI4028 L.? Licinius (76) Crassus Scipio,Licinius,Crassus
+4036,VISE4036 C. Visellius (1) Aculeo,Visellius,Aculeo
+4037,SULP4037 Q. Sulpicius (69) Galus,Sulpicius,Galus
+4041,SEMP4041 L. Sempronius (27) Atratinus,Sempronius,Atratinus
+4044,CAEL4044 M. Caelius (34) Vel. Rufus,Caelius,Rufus
+4046,IUNI4046 M. Iunius (50) Brutus,Iunius,Brutus
+4048,LICI4048 L. Licinius (54) Crassus,Licinius,Crassus
+4060,FADI4060 Q. Fadius (8) Gallus,Fadius,Gallus
+4061,FADI4061 M. Fadius (6) Gallus,Fadius,Gallus
+4071,PILI4071 Q. Pilius (2) Celer,Pilius,Celer
+4073,VALG4073 C. Valgius (6) Hippianus,Valgius,Hippianus
+4079,FADI4079 Q. Fadius (7) Gallus,Fadius,Gallus
+4080,LICI4080 M. Licinius (110) Lucullus,Licinius,Lucullus
+4081,TULL4081 L. Tullius (26) Cor. Cicero,Tullius,Cicero
+4082,TULL4082 L. Tullius (25) Cor. Cicero,Tullius,Cicero
+4084,APPU4084 -. Appuleius (22) Decianus,Appuleius,Decianus
+4087,SEXT4087 -. Sextilius (18) Andro,Sextilius,Andro
+4093,TULL4093 M. Tullius (28) Cor. Cicero,Tullius,Cicero
+4094,MARI4094 M. Marius (A) Gratidianus,Marius,Gratidianus
+4101,IULI4101 C. Iulius (129) Caesar,Iulius,Caesar
+4103,TERE4103 M. Terentius (90) Varro Lucullus,Terentius,Varro
+4109,FULV4109 M. Fulvius (40) Bambalio,Fulvius,Bambalio
+4111,NUMI4111 Q. Numitorius (5) Pullus,Numitorius,Pullus
+4112,FUFI4112 Q. Fufius (9) Calenus,Fufius,Calenus
+4113,ANON4113 -. - (RE 13.2 2550) Lysidikos,-,Lysidikos
+4119,IUVE4119 -. Iuventius (A) Laterensis,Iuventius,Laterensis
+4124,QUIN4124 P. Quinctius (53) Scapula,Quinctius,Scapula
+4128,ROSC4128 Q. Roscius (16) Mae. Gallus,Roscius,Gallus
+4134,PUBL4134 -. Publicius (17) Malleolus,Publicius,Malleolus
+4136,AELI4136 L. Aelius (74) Lamia,Aelius,Lamia
+4137,ATIL4137 -. Atilius (A) Serranus,Atilius,Serranus
+4141,LICI4141 P. Licinius (67) Crassus Dives,Licinius,Crassus
+4142,FABI4142 Q. Fabius (107) Maximus,Fabius,Maximus
+4155,PUBL4155 -. Publicius (C) Malleolus,Publicius,Malleolus
+4157,VETT4157 -. Vettius (10) Chilo,Vettius,Chilo
+4162,ANTI4162 M. Antistius (34) Labeo,Antistius,Labeo
+4163,PACU4163 -. Pacuvius (9) Labeo,Pacuvius,Labeo
+4167,CILN4167 C. Cilnius (6) Maecenas,Cilnius,Maecenas
+4169,SEMP4169 Ti.? Sempronius (55) Gracchus,Sempronius,Gracchus
+4171,LICI4171 -. Licinius (6) Crassus,Licinius,Crassus
+4176,SCRI4176 -. Scribonius (7) Curio,Scribonius,Curio
+4181,CORN4181 Cn. Cornelius (108) Cinna Magnus,Cornelius,Cinna
+4185,CORN4185 -. Cornelius (D) Lentulus,Cornelius,Lentulus
+4186,IULI4186 Cn. Iulius (A) Caesar,Iulius,Caesar
+4187,ANTO4187 -. Antonius (Helios 2) Helios,Antonius,Helios
+4193,SALV4193 -. Salvidienus (3) Rufus,Salvidienus,Rufus
+4194,CLAU4194 -. Claudius (139) Drusus,Claudius,Drusus
+4195,DOMI4195 L. Domitius (28) Ahenobarbus,Domitius,Ahenobarbus
+4196,CORN4196 -. Cornelius (371) Sisenna,Cornelius,Sisenna
+4198,AURE4198 M. Aurelius (108) Cotta Cotta,Aurelius,Cotta
+4203,PUBL4203 L. Publicius (20) Malleolus,Publicius,Malleolus
+4208,CLOD4208 M. Clodius (6.67) Aesopus,Clodius,Aesopus
+4209,CLOD4209 -. Clodius (16) Aesopus,Clodius,Aesopus
+4211,IUNI4211 M. Iunius (125) Pera,Iunius,Pera
+4212,IUNI4212 D. Iunius (59) Brutus Pera,Iunius,Brutus
+4213,CLAU4213 -. Claudius (60) Asellus,Claudius,Asellus
+4217,SEMP4217 Ti. Sempronius (52) Gracchus,Sempronius,Gracchus
+4218,FURI4218 P. Furius (81) Philus,Furius,Philus
+4221,PACU4221 -. Pacuvius (4) Calavius,Pacuvius,Calavius
+4222,AEMI4222 L. Aemilius (60) Lepidus,Aemilius,Lepidus
+4223,AEMI4223 Q. Aemilius (77) Lepidus,Aemilius,Lepidus
+4224,POST4224 M. Postumius (18) Pyrgensis,Postumius,Pyrgensis
+4225,QUIN4225 M. Quinctilius (10) Varus,Quinctilius,Varus
+4234,FABI4234 -. Fabius (51) Buteo,Fabius,Buteo
+4237,ASIN4237 -. Asinius (37) Saloninus,Asinius,Saloninus
+4238,ASIN4238 C. Asinius (15) Gallus,Asinius,Gallus
+4240,SULP4240 Ser. Sulpicius (82) Paterculus,Sulpicius,Paterculus
+4261,PORC4261 L.? Porcius (8) Cato,Porcius,Cato
+4263,ATIL4263 -. Atilius (58) Serranus,Atilius,Serranus
+4265,SERG4265 M.? Sergius (1) (Catilina?),Sergius,(Catilina?)
+4268,SEMP4268 -. Sempronius (40) Gracchus,Sempronius,Gracchus
+4270,LICI4270 P. Licinius (70) Crassus Dives,Licinius,Crassus
+4276,POMP4276 A. Pompeius (1) Auletes,Pompeius,Auletes
+4281,CORN4281 L. Cornelius (379) Sulla,Cornelius,Sulla
+4283,VALE4283 M. Valerius (B) Messalla,Valerius,Messalla
+4294,LIVI4294 M. Livius (20) Drusus Libo,Livius,Drusus
+4297,IULI4297 L. Iulius (145) Caesar,Iulius,Caesar
+4298,OCTA4298 C. Octavius (79) Rufus,Octavius,Rufus
+4310,AUFI4310 -. Aufidius (24) Lurco,Aufidius,Lurco
+4311,CLAU4311 -. Claudius (290) Pulcher,Claudius,Pulcher
+4314,STAT4314 -. Statilius (cf. 36) Corvinus,Statilius,Corvinus
+4315,VALE4315 M. Valerius (260) Messalla Barbatus Appianus,Valerius,Messalla
+4317,SULP4317 C. Sulpicius (53) Galba,Sulpicius,Galba
+4321,CLAU4321 Ti. Claudius (248) Nero,Claudius,Nero
+4322,HORT4322 M. Hortensius (12) Hortalus,Hortensius,Hortalus
+4324,AEMI4324 Mam. Aemilius (139) Scaurus,Aemilius,Scaurus
+4328,FABI4328 -. Fabius (102) Maximus,Fabius,Maximus
+4329,SALL4329 C. Sallustius (11) Crispus,Sallustius,Crispus
+4330,QUIN4330 P. Quinctilius (20) Varus,Quinctilius,Varus
+4332,QUIN4332 -. Quinctilius (28) Varus,Quinctilius,Varus
+4333,CORN4333 P.? Cornelius (130) Dolabella,Cornelius,Dolabella
+4335,CORN4335 P. Cornelius (143) Lentulus,Cornelius,Lentulus
+4336,CALP4336 L. Calpurnius (99) Piso Frugi,Calpurnius,Piso
+4339,HORT4339 -. Hortensius (10) Corbio,Hortensius,Corbio
+4346,OCTA4346 -. Octavius (B) C. f. Balbus,Octavius,Balbus
+4348,NONI4348 Sex.? Nonius (B) Sufenas,Nonius,Sufenas
+4350,ATIL4350 A. Atilius (35) Calatinus,Atilius,Calatinus
+4355,VALE4355 M. Valerius (264) Messalla Messallinus,Valerius,Messalla
+4356,AURE4356 M. Aurelius (110 111) Cotta Maximus or Messallinus,Aurelius,Cotta
+4358,NONI4358 Sex. Nonius (46) Quinctilianus,Nonius,Quinctilianus
+4361,ANTI4361 C. Antistius (48) Vetus,Antistius,Vetus
+4363,SENT4363 C. Sentius (9) Saturninus,Sentius,Saturninus
+4368,SAUF4368 -. Saufeius (Trebianus) Trebianus,Saufeius,Trebianus
+4371,ACUT4371 -. Acutius (3) Rufus,Acutius,Rufus
+4373,AEFI4373 -. Aeficius (Aeficius) Calvinus,Aeficius,Calvinus
+4374,AELI4374 C. Aelius (58) Gallus,Aelius,Gallus
+4380,ATTI4380 T. Attius (Suppl. 1 1a ) Cam. Pisaurensis,Attius,Pisaurensis
+4382,AUFI4382 P. Aufidius (34) Qui. Pontianus,Aufidius,Pontianus
+4387,CAEC4387 Q. Caecilius (36) Bassus,Caecilius,Bassus
+4400,CLUE4400 A. Cluentius (4) Clu. Habitus,Cluentius,Habitus
+4403,CONS4403 Q. Considius (10) Gallus,Considius,Gallus
+4413,EGNA4413 L. Egnatius (35) Rufus,Egnatius,Rufus
+4415,FABI4415 Q. Fabius (100) Maximus,Fabius,Maximus
+4418,FLAV4418 C. Flavius (158) Pusio,Flavius,Pusio
+4421,FUFI4421 C. Fufius (12) Cita,Fufius,Cita
+4422,FULV4422 M. Fulvius (95?) Nobilior,Fulvius,Nobilior
+4425,FURI4425 M. Furius (58) Flaccus,Furius,Flaccus
+4427,GABI4427 P. Gabinius (15) Capito,Gabinius,Capito
+4428,GABI4428 A. Gabinius (not in RE) Capito,Gabinius,Capito
+4429,GELL4429 Q.? Gellius (1) Tro. (Poplicola) Canus,Gellius,(Poplicola)
+4430,HELV4430 P. Helvidius (7) Clu. Rufus,Helvidius,Rufus
+4431,HERE4431 -. Herennius (27) Gallus,Herennius,Gallus
+4432,IULI4432 L. Iulius (158) Qui. Calidus,Iulius,Calidus
+4433,IUNI4433 -. Iunius (129) Pisciculus,Iunius,Pisciculus
+4435,LAEN4435 M. Laenius (3) Mae. Strabo,Laenius,Strabo
+4436,LAEN4436 M. Laenius (2) Flaccus,Laenius,Flaccus
+4440,MAGI4440 M. Magius (19) Surus,Magius,Surus
+4443,MINU4443 C. Minucius (47?) Reginus,Minucius,Reginus
+4444,MINU4444 Q. Minucius (26) (Rufus),Minucius,(Rufus)
+4450,POMP4450 Q. Pompeius (34) Niger,Pompeius,Niger
+4451,PONT4451 -. Pontius (19) Aufidianus,Pontius,Aufidianus
+4456,SEIU4456 Q. Seius (12) Postumus,Seius,Postumus
+4461,SULP4461 Ser. Sulpicius (96) Lem. Rufus,Sulpicius,Rufus
+4462,TERE4462 P. Terentius (49) Hispo,Terentius,Hispo
+4463,TITI4463 L. Titius (42) Strabo,Titius,Strabo
+4469,VIBI4469 C. Vibius (9) Capax,Vibius,Capax
+4473,OTAC4473 Cn. Otacilius (14) Naso,Otacilius,Naso
+4477,TUTI4477 -. Tuticanus (3) Gallus,Tuticanus,Gallus
+4478,SALV4478 M. Salvius (16) Otho,Salvius,Otho
+4493,AGRI4493 L. Agrius (2) Publeianus (Bassus),Agrius,Publeianus
+4495,ANTI4495 M. Antistius (17) Vot. Pyrgensis,Antistius,Pyrgensis
+4496,LUTA4496 M. Lutatius (21) Pinthia,Lutatius,Pinthia
+4497,MAEC4497 M'. Maecius (not in RE) Sab. Varus,Maecius,Varus
+4501,CARV4501 -. Carvilius (12) Pollio,Carvilius,Pollio
+4510,OVID4510 C. Ovidius (not in RE) Ser. Naso,Ovidius,Naso
+4513,PONT4513 -. Pontius (20) Lupus,Pontius,Lupus
+4520,VETU4520 L. Veturius (not in RE) Barrus (or Varrus),Veturius,Barrus (or Varrus)
+4526,ORBI4526 L. Orbilius (Orbilius) Pupillus,Orbilius,Pupillus
+4528,SEXT4528 Q. Sextius (10) (Niger),Sextius,(Niger)
+4530,AELI4530 L. Aelius (144) Mae. Stilo Praeconinus,Aelius,Stilo
+4532,AXIU4532 L. Axius (3) Qui. (Naso),Axius,(Naso)
+4534,CAUS4534 C. Causinius (Causinius) Clu. Schola,Causinius,Schola
+4537,TREB4537 C. Trebatius (7) Testa,Trebatius,Testa
+4538,VALE4538 C. Valerius (123) Catullus,Valerius,Catullus
+4543,PORC4543 M. Porcius (2) Pap. Cato,Porcius,Cato
+4545,ALBI4545 -. Albius (10) Clu. Oppianicus,Albius,Oppianicus
+4546,AURI4546 A. Aurius (2) Clu. Melinus,Aurius,Melinus
+4548,CLUE4548 A. Cluentius (3) Clu. Habitus,Cluentius,Habitus
+4553,SACR4553 M. - (Sacrativir) Sacrativir,-,Sacrativir
+4554,STAT4554 L. Statilius (6) (Taurus),Statilius,(Taurus)
+4565,TURP4565 -. Turpio (2) (Sutorius),Turpio,(Sutorius)
+4566,ACCI4566 C. Accius (4) Ser. Paelignus,Accius,Paelignus
+4570,ATIL4570 C. Atilius (not in RE) Tro. Glabrio,Atilius,Glabrio
+4577,PAPI4577 L. Papirius (71) Potamo,Papirius,Potamo
+4578,PLAN4578 M. Planius (Planius) Heres,Planius,Heres
+4579,POMP4579 -. Pompeius (9) Trogus,Pompeius,Trogus
+4589,VIBI4589 -. Vibius (Sicca Vibius 18?) (Sicca),Vibius,(Sicca)
+4593,PERP4593 T. Perperna (7) T. f. Quadra,Perperna,Quadra
+4597,VETT4597 -. Vettius (not in RE) Salassus,Vettius,Salassus
+4601,SEPT4601 T. Septimius (50) Sabinus,Septimius,Sabinus
+4604,SERG4604 L. Sergius (Plautus 3) L. f. Fal. Plautus,Sergius,Plautus
+4605,ANON4605 C. - (cf. 52 cf. 53) Casca,-,Casca
+4606,SERV4606 -. Servius (3) Cordus,Servius,Cordus
+4610,SULP4610 -. Sulpicius (not in RE) Rufus,Sulpicius,Rufus
+4611,POET4611 C. Poetelius (8) Libo Visolus,Poetelius,Libo
+4613,MARC4613 C. (or Cn.) Marcius (50) Coriolanus,Marcius,Coriolanus
+4620,ATIL4620 Sex. Atilius (not in RE) Sex. f. Aem. Serranus,Atilius,Serranus
+4634,AEMI4634 -. Aemilius (not in RE) Potensis,Aemilius,Potensis
+4635,AEMI4635 M. Aemilius (67) M. f. M. n. Lepidus,Aemilius,Lepidus
+4644,CLOE4644 P. Cloelius (not in RE) Siculus,Cloelius,Siculus
+4646,COEL4646 P. Coelius (not in RE) P. f. Etruscus,Coelius,Etruscus
+4647,COEL4647 C. Coelius (12 13) C. f. C. n. Caldus,Coelius,Caldus
+4649,CORN4649 P. Cornelius (22) P. f. P. n. Scipio,Cornelius,Scipio
+4650,FABI4650 Ser. Fabius (128) Q. f. Q. n. Pictor,Fabius,Pictor
+4657,HERE4657 M. Herennius (46) Siculus,Herennius,Siculus
+4659,LICI4659 C. Licinius (153) Ste. Sacerdos,Licinius,Sacerdos
+4662,PAPI4662 C. Papirius (not in RE) L. f. Maso,Papirius,Maso
+4665,PAPI4665 C. Papirius (57) C. f. L. n. Maso,Papirius,Maso
+4677,VINU4677 L. Vinulleius (1) L. f. Pom. Lucullus,Vinulleius,Lucullus
+4684,CORN4684 Cn. Cornelius (180) L. f. Lentulus (Marcellinus),Cornelius,Lentulus
+4685,ANON4685 -. - (not in RE) [C]n. f. Rufus,-,Rufus
+4686,AQUI4686 -. Aquillius (not in RE) Florus,Aquillius,Florus
+4689,OTAC4689 L. Otacilius (not in RE) P. f. Rufus,Otacilius,Rufus
+4695,ANON4695 -. - (1) Arrianus,-,Arrianus
+4696,ANON4696 -. - (not in RE) Arrianus,-,Arrianus
+4701,VETU4701 -. Vetulinus (not in RE) Vetulinus,Vetulinus,Vetulinus
+4702,VETU4702 -. Vetulinus (not in RE) Vetulinus,Vetulinus,Vetulinus
+4706,AEMI4706 Q. Aemilius (A) Lepidus,Aemilius,Lepidus
+4707,AEMI4707 M'. Aemilius (C) Lepidus,Aemilius,Lepidus
+4709,AEMI4709 M'. Aemilius (E) Lepidus,Aemilius,Lepidus
+4711,AUFI4711 L. Aufidius (181) Orestes,Aufidius,Orestes
+4712,AEMI4712 M'. Aemilius (62a) Lepidus,Aemilius,Lepidus
+4713,AEMI4713 M'. Aemilius (F) Lepidus,Aemilius,Lepidus
+4716,ACIL4716 M'. Acilius (39) Glabrio,Acilius,Glabrio
+4721,PTOL4721 -. Ptolemaios (38) Philadelphos,Ptolemaios,Philadelphos
+4723,CLAU4723 M. Claudius (234) Marcellus Aeserninus,Claudius,Marcellus
+4726,AEMI4726 L. Aemilius (115) Paullus,Aemilius,Paullus
+4727,AEMI4727 M. Aemilius (75) Lepidus,Aemilius,Lepidus
+4734,AEMI4734 M'. Aemilius (63) Lepidus,Aemilius,Lepidus
+4736,AEMI4736 L. Aemilius (36) Buca,Aemilius,Buca
+4737,PYTH4737 -. Pythodoros (13) 'of Tralles',Pythodoros,'of Tralles'
+4739,CASS4739 -. Cassius (60) Longinus,Cassius,Longinus
+4741,DOMI4741 Cn. Domitius (25) Ahenobarbus,Domitius,Ahenobarbus
+4743,AURE4743 -. Aurelius (C) Cotta,Aurelius,Cotta
+4746,SULP4746 P. Sulpicius (90) Quirinus,Sulpicius,Quirinus
+4755,LIVI4755 M. Livius (A) Aemilianus,Livius,Aemilianus
+4757,CORN4757 -. Cornelius (339) Scipio Asiagenus Comatus,Cornelius,Scipio
+4763,CORN4763 -. Cornelius (227) Marcellinus,Cornelius,Marcellinus
+4768,CORN4768 P. Cornelius (cf. 238) Lentulus,Cornelius,Lentulus
+4769,CORN4769 Cn. Cornelius (181) Lentulus,Cornelius,Lentulus
+4770,CALP4770 Cn. Calpurnius (70) Piso,Calpurnius,Piso
+4771,CALP4771 L. Calpurnius (74) Piso,Calpurnius,Piso
+4772,CORN4772 P. Cornelius (cf. 70) (Balbus),Cornelius,(Balbus)
+4777,CORN4777 L. Cornelius (cf. 69) Balbus,Cornelius,Balbus
+4778,CANI4778 L. Caninius (5) Gallus,Caninius,Gallus
+4779,CORN4779 Ser. Cornelius (cf. 385 389) Sulla,Cornelius,Sulla
+4784,SERG4784 L. Sergius (39) Silus,Sergius,Silus
+4787,MARC4787 Q. Marcius (A) Philippus,Marcius,Philippus
+4789,IULI4789 -. Iulius (138) Caesar,Iulius,Caesar
+4793,CALP4793 L. Calpurnius (75) Piso,Calpurnius,Piso
+4794,LICI4794 M. Licinius (73) Crassus Frugi,Licinius,Crassus
+4802,CLAU4802 M. Claudius (B) Marcellus,Claudius,Marcellus
+4803,CORN4803 Ti. Cornelius (cf. 210) Lentulus,Cornelius,Lentulus
+4804,CORN4804 P. Cornelius (cf. 253) Maluginensis,Cornelius,Maluginensis
+4805,CLAU4805 Ti. Claudius (cf. 246) Nero,Claudius,Nero
+4808,DUIL4808 C. Duillius (8) Longus,Duillius,Longus
+4809,FABI4809 Q. Fabius (A) Labeo,Fabius,Labeo
+4811,FABI4811 -. Fabius (101) Maximus,Fabius,Maximus
+4813,FUFI4813 L. Fufius (8) Calenus,Fufius,Calenus
+4816,FABI4816 C. Fabius (122) Pictor,Fabius,Pictor
+4817,HOST4817 L. Hostilius (19) Mancinus,Hostilius,Mancinus
+4818,IUNI4818 D. Iunius (B) Silanus,Iunius,Silanus
+4819,IUNI4819 L. Iunius (C) Silanus,Iunius,Silanus
+4821,IUNI4821 -. Iunius (72) Damasippus,Iunius,Damasippus
+4828,IULI4828 C. Iulius (134) Caesar,Iulius,Caesar
+4831,IULI4831 L. Iulius (140) Caesar,Iulius,Caesar
+4834,SEMP4834 T. Sempronius (83) Rutilus,Sempronius,Rutilus
+4840,VALE4840 M. Valerius (259) Messalla Barbatus,Valerius,Messalla
+4841,SALL4841 C. Sallustius (A) Passienus Crispinus,Sallustius,Passienus
+4847,AEMI4847 M. Aemilius (30) Avianianus,Aemilius,Avianianus
+4857,NONI4857 L. Nonius (16) Asprenas,Nonius,Asprenas
+4859,CORN4859 Cn. Cornelius (171) Lentulus,Cornelius,Lentulus
+4860,CORN4860 P. Cornelius (235) Lentulus Scipio,Cornelius,Lentulus
+4861,CORN4861 Ser. Cornelius (226) Lentulus Maluginensis,Cornelius,Lentulus
+4863,CORN4863 P. Cornelius (332) Scipio,Cornelius,Scipio
+4864,CORN4864 P. Cornelius (333) Scipio,Cornelius,Scipio
+4866,CORN4866 L. Cornelius (cf. 339) Scipio,Cornelius,Scipio
+4872,POST4872 A. Postumius (A) Albinus,Postumius,Albinus
+4873,VALE4873 P. Valerius (214) Laevinus,Valerius,Laevinus
+4875,LICI4875 M. Licinius (55a) Crassus,Licinius,Crassus
+4877,LICI4877 C. Licinius (D) Crassus,Licinius,Crassus
+4878,MANL4878 T. Manlius (B) Torquatus,Manlius,Torquatus
+4879,MARC4879 T. Marcius (65) Figulus,Marcius,Figulus
+4881,RUTI4881 C. Rutilius (33) Rufus,Rutilius,Rufus
+4885,MANL4885 A. Manlius (74) Torquatus,Manlius,Torquatus
+4886,VALE4886 C. Valerius (D) Flaccus,Valerius,Flaccus
+4887,MARC4887 C. Marcius (not in RE) Censorinus,Marcius,Censorinus
+4889,LICI4889 P. Licinius (A) Crassus Dives,Licinius,Crassus
+4890,SEMP4890 -. Sempronius (38) Gracchus,Sempronius,Gracchus
+4893,MARC4893 Q. Marcius (A) Rex,Marcius,Rex
+4895,MARC4895 C. Marcius (D) Figulus,Marcius,Figulus
+4904,VALE4904 L. Valerius (180) Flaccus,Valerius,Flaccus
+4905,SENT4905 Cn. Sentius (A) Saturninus,Sentius,Saturninus
+4908,VALE4908 M. Valerius (C) Messalla,Valerius,Messalla
+4910,LICI4910 P. Licinius (124) Murena,Licinius,Murena
+4912,MARC4912 -. Marcius (41 42) Censorinus,Marcius,Censorinus
+4917,PAPI4917 Cn. Papirius (A) Carbo,Papirius,Carbo
+4921,MARC4921 -. Marcius (88) Rex,Marcius,Rex
+4927,MANL4927 T. Manlius (A) Torquatus,Manlius,Torquatus
+4929,VILL4929 L. Villius (6) Annalis,Villius,Annalis
+4932,SERV4932 P. Servilius (26) Vatia Isauricus,Servilius,Vatia
+4936,SULP4936 Ser. Sulpicius (not in RE) Camerinus Cornutus,Sulpicius,Camerinus
+4937,POMP4937 Q. Pompeius (13) Stephanephor,Pompeius,Stephanephor
+4941,LICI4941 M. Licinius (59) Crassus Frugi,Licinius,Crassus
+4942,MARC4942 C. Marcius (44) Censorinus,Marcius,Censorinus
+4943,MANL4943 T. Manlius (86) Torquatus,Manlius,Torquatus
+4954,MANL4954 T. Manlius (A) Capitolinus,Manlius,Capitolinus
+4957,VERG4957 L. Verginius (16) Tricostus,Verginius,Tricostus
+4960,OCTA4960 P. Octavius (46) Balbus,Octavius,Balbus
+4961,QUIN4961 T. Quinctius (44) Flamininus,Quinctius,Flamininus
+4969,TERE4969 M. Terentius (A) Varro,Terentius,Varro
+4971,SERV4971 P. Servilius (pr. 25) Vatia,Servilius,Vatia
+4972,STAT4972 T. Statilius (36) Taurus,Statilius,Taurus
+4973,STAT4973 -. Statilius (17) Corvinus,Statilius,Corvinus
+4974,STAT4974 T. Statilius (37) Taurus,Statilius,Taurus
+4984,POMP4984 -. Pompeius (148) Trogus,Pompeius,Trogus
+4985,MANL4985 T. Manlius (not in RE) Torquatus,Manlius,Torquatus
+4989,PAPI4989 Sp. Papirius (not in RE) Cursor,Papirius,Cursor
+4992,LIVI4992 M. Livius (13) Drusus,Livius,Drusus
+4993,PAPI4993 C. Papirius (B) Maso,Papirius,Maso
+4995,SULP4995 Ser. Sulpicius (not in RE) Galba,Sulpicius,Galba
+4997,VALE4997 Q. Valerius (156) Falto,Valerius,Falto
+5002,PAPI5002 L. Papirius (C) Maso,Papirius,Maso
+5003,LICI5003 P. Licinius (C) Crassus,Licinius,Crassus
+5004,PORC5004 M. Porcius (26) Licinus,Porcius,Licinus
+5007,SEMP5007 -. Sempronius (39) Gracchus,Sempronius,Gracchus
+5008,VALE5008 M'. Valerius (A) Messalla,Valerius,Messalla
+5010,IULI5010 Drusus Iulius (136) Caesar,Iulius,Caesar
+5011,LIVI5011 L. Livius (27) Ocella,Livius,Ocella
+5041,ANON5041 -. - (not in RE) Hegeas,-,Hegeas
+5044,CARV5044 M. Carvilius (2) Spoletinus,Carvilius,Spoletinus
+5046,LICI5046 -. Licinius (13.372) Lucullus,Licinius,Lucullus
+5048,ANON5048 -. - (Dumnorix 1) Dumnorix,-,Dumnorix
+5049,ANON5049 -. - (4.1678) Cotus,-,Cotus
+5050,ANON5050 -. - (not in RE) Vertiscus,-,Vertiscus
+5051,ANON5051 -. - (Sabinus 3) Sabinus,-,Sabinus
+5054,CLAU5054 C. Claudius (330) C. f. C. n. Sardus,Claudius,Sardus
+5055,IULI5055 C. Iulius (376) Papius,Iulius,Papius
+5058,SATA5058 T. Satanus (not in RE) T. f. Sabinus,Satanus,Sabinus
+5059,MUNA5059 -. Munatius (37) Rufus,Munatius,Rufus
+5063,CEST5063 M. Cestius (1?) P. f. Primus,Cestius,Primus
+5068,ANON5068 -. - (12.1596) Tro. Maximus,-,Maximus
+5069,ACLU5069 C. Aclutius (12.138) L. f. Ter. Gallus,Aclutius,Gallus
+5071,SERG5071 L. Sergius (12.1821) L. f. Lepidus,Sergius,Lepidus
+5074,VIBI5074 C. Vibius (*11) T. f. Clu. Pansa,Vibius,Pansa
+5090,AMPI5090 T. Ampius (2) T. f. Menander,Ampius,Menander
+5091,SERV5091 P. Servilius (not in RE) P. f. Strabo,Servilius,Strabo
+5092,PACC5092 L. Paccius (not in RE) L. f. Col. Capito,Paccius,Capito
+5093,FURI5093 A. Furius (not in RE) A. f. Tertius,Furius,Tertius
+5094,AMPI5094 -. Ampius (not in RE) Menas,Ampius,Menas
+5100,PAPI5100 C. Papius (12) Mutilus,Papius,Mutilus
+5104,ANON5104 -. - (cf. 1) Gutta,-,Gutta
+5108,AEMI5108 -. Aemilius (not in RE) (Lepidus or Scaurus),Aemilius,(Lepidus or Scaurus)
+5116,CANI5116 -. Caninius (6) Rebilus,Caninius,Rebilus
+5124,POMP5124 -. Pompeius (50) Varus,Pompeius,Varus
+5126,SEXT5126 -. Sextius (33) Naso,Sextius,Naso
+5127,TERE5127 M. Terentius (Licinius 110) Varro Lucullus,Terentius,Varro
+5131,CORN5131 -. Cornelius (281) Phagites,Cornelius,Phagites
+5132,ANON5132 -. - (2) Largus,-,Largus
+5142,SITT5142 -. Sittius (1) Calenus,Sittius,Calenus
+5146,DECI5146 Cn. Decidius (1) 'the Samnite',Decidius,'the Samnite'
+5148,URBI5148 C. Urbinius (1 Urbinus 3) Panapio,Urbinius,Panapio
+5150,AURI5150 L. Aurius (4) (Melinus),Aurius,(Melinus)
+5158,ATEI5158 L. Ateius (4) Capito,Ateius,Capito
+5160,ALEX5160 -. Alexander (28) Helios,Alexander,Helios
+5162,MANL5162 -. (Manlius) (44) Acidinus,(Manlius),Acidinus
+5163,DECI5163 -. (Decimius) (not in RE) Flavus,(Decimius),Flavus
+5166,CALP5166 L. (Calpurnius) (25) Bestia,(Calpurnius),Bestia
+5167,CISP5167 L. Cispius (3 cf. 6) (Laevus),Cispius,(Laevus)
+5169,CORN5169 A. Cornelius (31 cf. 112) Cossus,Cornelius,Cossus
+5170,PAPI5170 P. Papirius (58 23 64) Maso,Papirius,Maso
+5172,CORN5172 Cn. Cornelius (cf. 343) Scipio,Cornelius,Scipio
+5174,ANON5174 -. - (not in RE) Athamas,-,Athamas
+5175,ANON5175 -. - (not in RE) Autobulus,-,Autobulus
+5176,ABUT5176 -. Abuttius (Laco 1 ) Laco,Abuttius,Laco
+5182,AEMI5182 -. Aemilius (26) Alba,Aemilius,Alba
+5184,ALBI5184 -. Albius (8) Stat. f. Clu. Oppianicus,Albius,Oppianicus
+5185,ALBI5185 C. Albius (9) Clu. Oppianicus,Albius,Oppianicus
+5187,ANCH5187 C. Ancharius (6) Rufus,Ancharius,Rufus
+5206,CAEC5206 -. Caecilius (25) Statius,Caecilius,Statius
+5215,CATI5215 Q. Catius (not in RE) Aemilianus,Catius,Aemilianus
+5217,CLAU5217 C. Claudius (215) Marcellus,Claudius,Marcellus
+5220,CLOD5220 Sex. Clodius (43) Phormio,Clodius,Phormio
+5240,FANN5240 C. Fannius (17) Chaerea,Fannius,Chaerea
+5248,FULV5248 P. Fulvius (89) Neratus,Fulvius,Neratus
+5253,GAVI5253 -. Gavius (not in RE) Olelus (),Gavius,Olelus ()
+5261,IUNI5261 M. Iunius (68) Congus,Iunius,Congus
+5266,LICI5266 A. Licinius (35) Archias,Licinius,Archias
+5269,LUCI5269 L. Lucillius (19) Balbus,Lucillius,Balbus
+5270,LUTA5270 Q. Lutatius (16) Diodorus,Lutatius,Diodorus
+5285,MUCI5285 C. Mucius (10) Cordus Scaevola,Mucius,Cordus Scaevola
+5286,MUNA5286 Cn. Munatius (27) Plancus,Munatius,Plancus
+5289,NAEV5289 P. Naevius (25) Turpio,Naevius,Turpio
+5290,NUMI5290 -. Numisius (11) Tiro,Numisius,Tiro
+5294,PEDU5294 Sex. Peducaeus (Stloga) Stloga,Peducaeus,Stloga
+5298,PLOT5298 L. Plotius (16) Gallus,Plotius,Gallus
+5299,POMP5299 Cn. Pompeius (23) Basiliscus,Pompeius,Basiliscus
+5300,POMP5300 Sex. Pompeius (27) Chlorus,Pompeius,Chlorus
+5301,POMP5301 Cn. Pompeius (46) Theodorus,Pompeius,Theodorus
+5309,QUIN5309 C. Quinctius (56) Valgus,Quinctius,Valgus
+5312,ROSC5312 T. Roscius (12) Capito,Roscius,Capito
+5313,ROSC5313 T. Roscius (18) Magnus,Roscius,Magnus
+5321,SEIU5321 -. Seius (10) Pob. Mustela,Seius,Mustela
+5329,SERT5329 T. Sertius (2) Gallus,Sertius,Gallus
+5332,SERV5332 -. Servilius (2) Iacus,Servilius,Iacus
+5337,TERE5337 P. Terentius (36) Afer,Terentius,Afer
+5351,VENN5351 -. Vennonius (5) Vindex,Vennonius,Vindex
+5354,VETT5354 P. Vettius (16) Scato,Vettius,Scato
+5356,VETT5356 -. Vettius (17) Scato,Vettius,Scato
+5357,VIBE5357 -. Vibellius (2) Taurea,Vibellius,Taurea
+5359,VITR5359 M. Vitruvius (1) Vaccus,Vitruvius,Vaccus
+5364,ANON5364 -. - (not in RE) Calva,-,Calva
+5365,ANON5365 -. - (not in RE) Crispus,-,Crispus
+5366,ANON5366 -. - (Graeceius) Graeceius,-,Graeceius
+5367,ANON5367 -. - (Helonius) Helonius,-,Helonius
+5368,ANON5368 -. - (Lucusta) Lucusta,-,Lucusta
+5369,ANON5369 -. - (Macro) Macro,-,Macro
+5370,ANON5370 -. - (Spongia 2) Spongia,-,Spongia
+5371,ANON5371 -. - (cf. 5) Sura,-,Sura
+5372,ANON5372 M. - (2) Taurus,-,Taurus
+5373,ANON5373 -. - (Vacerra) Vacerra,-,Vacerra
+5374,ANON5374 -. - (Veiento 1) Veiento,-,Veiento
+5375,ANON5375 -. - (Victor 4) Victor,-,Victor
+5382,ALBI5382 -. Albius (not in RE) Sabinus,Albius,Sabinus
+5387,ANNI5387 -. Annius (82) Saturninus,Annius,Saturninus
+5402,AVIA5402 C. Avianius (6) Flaccus,Avianius,Flaccus
+5403,AVIA5403 C. Avianius (8) Philoxenus,Avianius,Philoxenus
+5415,CAEC5415 -. Caecilius (69) Metellus,Caecilius,Metellus
+5430,CLAU5430 Ap. Claudius (299) Ap. f. Ap. n. Pal. Pulcher,Claudius,Pulcher
+5431,CLOD5431 -. Clodius (Hermogenes 8) Hermogenes,Clodius,Hermogenes
+5432,CLOD5432 -. Clodius (42a (suppl. I)) Philhetaerus,Clodius,Philhetaerus
+5440,CORN5440 P. Cornelius (46) Megas,Cornelius,Megas
+5441,CORN5441 Q. Cornelius (264) Maximus,Cornelius,Maximus
+5442,CORN5442 -. Cornelius (275) Nepos,Cornelius,Nepos
+5446,CUST5446 L. Custidius (suppl. I) Cuspidius,Custidius,Cuspidius
+5450,EGNA5450 C. Egnatius (26) Maximus,Egnatius,Maximus
+5451,EGNA5451 -. Egnatius (37) Sidicinus,Egnatius,Sidicinus
+5453,FABI5453 -. Fabius (96) Luscus,Fabius,Luscus
+5461,FULV5461 Q. Fulvius (63) Flaccus,Fulvius,Flaccus
+5463,FURI5463 C. Furius (40) Camillus,Furius,Camillus
+5464,GALL5464 M. Gallius (not in RE) M. f.  Axianus,Gallius,Axianus
+5466,GENU5466 L. Genucilius (Genucilius) Curvus,Genucilius,Curvus
+5475,IUVE5475 -. Iuventius (26) Thalna,Iuventius,Thalna
+5476,IUVE5476 -. Iuventius (cf. 27) Thalna,Iuventius,Thalna
+5484,LICI5484 A. Licinius (36) Aristoteles,Licinius,Aristoteles
+5492,LUCI5492 -. Lucilius (21) Bassus,Lucilius,Bassus
+5493,LUCR5493 T. Lucretius (17) Carus,Lucretius,Carus
+5494,MACC5494 T. Maccius (Maccius) Plautus,Maccius,Plautus
+5495,MAEC5495 Sp. Maecius (24) Tarpa,Maecius,Tarpa
+5496,MAEN5496 C. Maenius (20) Gemellus,Maenius,Gemellus
+5497,MAGI5497 P. Magius (15) Cilo,Magius,Cilo
+5502,MANL5502 L. Manlius (65) Sosis,Manlius,Sosis
+5514,OCTA5514 L. Octavius (74) Naso,Octavius,Naso
+5521,PACO5521 -. Paconius (cf. Lepta 1) Q. f. Lepta,Paconius,Lepta
+5523,PAPI5523 M.? Papirius (cf. 63) M. f.  Maso,Papirius,Maso
+5534,POMP5534 -. Pompeius (cf. 30) Macula,Pompeius,Macula
+5535,POMP5535 M. Pompilius (4) Andronicus,Pompilius,Andronicus
+5536,POMP5536 C. Pompilius (17) Andronicus,Pompilius,Andronicus
+5546,PUBL5546 -. Publilius (28) Syrus,Publilius,Syrus
+5553,SEGU5553 -. Segulius (2) Labeo,Segulius,Labeo
+5554,SEIU5554 -. Seius (Mustela 2) Mustela,Seius,Mustela
+5562,SERV5562 L. Servilius (72) Postumus,Servilius,Postumus
+5563,SERV5563 P. Servilius (83) P. f.  Strabo,Servilius,Strabo
+5564,SERV5564 -. Servius (5) Pola,Servius,Pola
+5565,SEXT5565 L. Sextilius (cf. 23) Rufus,Sextilius,Rufus
+5580,TETT5580 -. Tettius (8) Damio,Tettius,Damio
+5581,TIGE5581 M. Tigellius (M. Tigellius Hermogenes) Hermogenes,Tigellius,Hermogenes
+5584,TITU5584 M. Titurnius (Titurnius) Rufus,Titurnius,Rufus
+5586,TUCC5586 M. Tuccius (9) L. f.  Tro. Galeo,Tuccius,Galeo
+5590,TULL5590 -. Tullius (43) Marcianus,Tullius,Marcianus
+5598,VALE5598 -. Valerius (cf. 62) Catullus,Valerius,Catullus
+5600,VALE5600 P. Valerius (183) Flaccus,Valerius,Flaccus
+5608,VIBI5608 T. Vibius (7) Pansa,Vibius,Pansa
+5610,VILL5610 Sex. Villius (8) Annalis,Villius,Annalis
+5614,ANON5614 -. - (Trabea 2) Trabea,-,Trabea
+5618,ALLI5618 M. Alliennius (Alliennius) Paelignus,Alliennius,Paelignus
+5620,BLOS5620 C. Blossius (1) Cumanus,Blossius,Cumanus
+5624,CLAU5624 Ti. Claudius (107) Centumalus,Claudius,Centumalus
+5625,CLAU5625 Q. Claudius (308) Quadrigarius,Claudius,Quadrigarius
+5626,COEL5626 L. Coelius (7) L. f.  Antipater,Coelius,Antipater
+5628,CORN5628 -. Cornelius (123) Culleolus,Cornelius,Culleolus
+5629,ANON5629 -. - (not in RE) Cossus,-,Cossus
+5630,FURI5630 A. Furius (34) Antias,Furius,Antias
+5631,HELV5631 -. Helvius (15) Mancia,Helvius,Mancia
+5633,HORA5633 P. Horatius (9) Hor. Cocles,Horatius,Cocles
+5637,LIVI5637 -. Livius (10a (suppl. V)) Andronicus,Livius,Andronicus
+5640,OCTA5640 L. Octavius (28) Reatinus,Octavius,Reatinus
+5642,PAPI5642 L. Papirius (19) Fregellanus,Papirius,Fregellanus
+5645,PINA5645 -. Pinarius (15) Natta,Pinarius,Natta
+5646,POMP5646 -. Pompeius (not in RE) Phrygio,Pompeius,Phrygio
+5649,PORC5649 -. Porcius (48) Licinius,Porcius,Licinius
+5650,PORC5650 L. Porcius (cf. Cornelius 359 Nasica 1) Nasica,Porcius,Nasica
+5652,POST5652 -. Postumius (53) Chius,Postumius,Chius
+5657,RUBR5657 Q. Rubrius (24) Varro,Rubrius,Varro
+5660,RUST5660 C. Rusticelius (2) Bononiensis,Rusticelius,Bononiensis
+5665,SEMP5665 A. Sempronius (71) Musca,Sempronius,Musca
+5666,SEMP5666 M. Sempronius (71) Musca,Sempronius,Musca
+5667,SERG5667 C. Sergius (33) Orata,Sergius,Orata
+5669,SEXT5669 P. Sextilius (25) Rufus,Sextilius,Rufus
+5671,TARR5671 L. Tarrutius (2) Firmanus,Tarrutius,Firmanus
+5672,TERE5672 -. Terentius (93) Vespa,Terentius,Vespa
+5673,TETR5673 -. Tetrilius (Tetrilius) Rogus,Tetrilius,Rogus
+5676,ANON5676 -. - (not in RE) Vargula,-,Vargula
+5679,VETT5679 Q. Vettius (not in RE) Vettianus,Vettius,Vettianus
+5681,GELL5681 Q. Gellius (15) Canus,Gellius,Canus
+5682,IUVE5682 -. Iuventius (cf. 27) Talna,Iuventius,Talna
+5684,ANON5684 -. - (not in RE) Cossus,-,Cossus

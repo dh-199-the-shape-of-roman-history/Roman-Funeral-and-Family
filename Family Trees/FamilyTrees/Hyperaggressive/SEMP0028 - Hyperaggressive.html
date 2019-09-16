@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<style>
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+</style>
+
+<body>
+
+<!-- load the d3.js library -->	
+<meta charset="utf-8">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+<script>
+
+var treeData =
+{
+ "name": "SEMP0028 A. Sempronius (20) Atratinus",
+ "id": "28",
+ "bestPos": "consul",
+ "birthDate": "-550",
+ "deathDate": "-425",
+ "closestAncestor": "none",
+ "icon": "Praetexta.png",
+ "children": [
+  {
+   "name": "SEMP0209 A. Sempronius (21) (A. f. - n.) Atratinus",
+   "id": "209",
+   "bestPos": "",
+   "birthDate": "-475",
+   "deathDate": "-375",
+   "closestAncestor": "28 (Aggressive)",
+   "icon": "NoPosition.png",
+   "children": [
+    {
+     "name": "SEMP0269 A. Sempronius (22 cf. 2) L. f. A. n. Atratinus",
+     "id": "269",
+     "bestPos": "consul",
+     "birthDate": "-475",
+     "deathDate": "-350",
+     "closestAncestor": "209 (Conservative)",
+     "icon": "Praetexta.png",
+     "children": [
+     ]
+    },
+    {
+     "name": "SEMP0448 A. Sempronius (23) Atratinus",
+     "id": "448",
+     "bestPos": "",
+     "birthDate": "-425",
+     "deathDate": "-325",
+     "closestAncestor": "209 (Aggressive)",
+     "icon": "NoPosition.png",
+     "children": [
+      {
+       "name": "SEMP0603 P. Sempronius (85) P. f. C. n. Sophus",
+       "id": "603",
+       "bestPos": "triumphator",
+       "birthDate": "-334",
+       "deathDate": "-225",
+       "closestAncestor": "448 (Hyperaggressive)",
+       "icon": "Picta.png",
+       "children": [
+        {
+         "name": "SEMP0701 P. Sempronius (86) P. f. P. n. Sophus",
+         "id": "701",
+         "bestPos": "triumphator",
+         "birthDate": "-300",
+         "deathDate": "-200",
+         "closestAncestor": "603 (Aggressive)",
+         "icon": "Picta.png",
+         "children": [
+          {
+           "name": "SEMP4834 T. Sempronius (83) Rutilus",
+           "id": "4834",
+           "bestPos": "",
+           "birthDate": "-275",
+           "deathDate": "-175",
+           "closestAncestor": "701 (Hyperaggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "SEMP1196 C. Sempronius (81) Rutilus",
+             "id": "1196",
+             "bestPos": "",
+             "birthDate": "-225",
+             "deathDate": "-125",
+             "closestAncestor": "4834 (Aggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+             ]
+            }           ]
+          },
+          {
+           "name": "SEMP0761 Ti. Sempronius (50) Ti. f. C. n. Gracchus",
+           "id": "761",
+           "bestPos": "consul",
+           "birthDate": "-273",
+           "deathDate": "-175",
+           "closestAncestor": "701 (Hyperaggressive)",
+           "icon": "Praetexta.png",
+           "children": [
+            {
+             "name": "SEMP0866 Ti. Sempronius (51) Ti. f. Ti. n. Gracchus",
+             "id": "866",
+             "bestPos": "consul",
+             "birthDate": "-250",
+             "deathDate": "-212",
+             "closestAncestor": "761 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+              {
+               "name": "SEMP1195 P. Sempronius (49) Gracchus",
+               "id": "1195",
+               "bestPos": "",
+               "birthDate": "-225",
+               "deathDate": "-125",
+               "closestAncestor": "866 (Aggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "SEMP4217 Ti. Sempronius (52) Gracchus",
+               "id": "4217",
+               "bestPos": "",
+               "birthDate": "-220",
+               "deathDate": "-125",
+               "closestAncestor": "866 (Conservative)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "VETU1337 Ti. Veturius (23) Gracchus Sempronianus",
+               "id": "1337",
+               "bestPos": "",
+               "birthDate": "-200",
+               "deathDate": "-100",
+               "closestAncestor": "866 (Conservative)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "SEMP1182 Ti. Sempronius (53) P. f. Ti. n. Gracchus",
+               "id": "1182",
+               "bestPos": "triumphator",
+               "birthDate": "-220",
+               "deathDate": "-100",
+               "closestAncestor": "866 (Conservative)",
+               "icon": "Picta.png",
+               "children": [
+                {
+                 "name": "SEMP1525 Ti. Sempronius (54) Ti. f. P. n. Gracchus",
+                 "id": "1525",
+                 "bestPos": "",
+                 "birthDate": "-162",
+                 "deathDate": "-133",
+                 "closestAncestor": "1182 (Conservative)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                  {
+                   "name": "SEMP4169 Ti.? Sempronius (55) Gracchus",
+                   "id": "4169",
+                   "bestPos": "",
+                   "birthDate": "-150",
+                   "deathDate": "-50",
+                   "closestAncestor": "1525 (Conservative)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  },
+                  {
+                   "name": "SEMP4890 -. Sempronius (38) Gracchus",
+                   "id": "4890",
+                   "bestPos": "",
+                   "birthDate": "-150",
+                   "deathDate": "-50",
+                   "closestAncestor": "1525 (Conservative)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  },
+                  {
+                   "name": "SEMP5007 -. Sempronius (39) Gracchus",
+                   "id": "5007",
+                   "bestPos": "",
+                   "birthDate": "-150",
+                   "deathDate": "-50",
+                   "closestAncestor": "1525 (Conservative)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  }                 ]
+                },
+                {
+                 "name": "SEMP1598 C. Sempronius (47) Ti. f. P. n. Gracchus",
+                 "id": "1598",
+                 "bestPos": "",
+                 "birthDate": "-154",
+                 "deathDate": "-121",
+                 "closestAncestor": "1182 (Conservative)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                  {
+                   "name": "SEMP4268 -. Sempronius (40) Gracchus",
+                   "id": "4268",
+                   "bestPos": "",
+                   "birthDate": "-125",
+                   "deathDate": "-25",
+                   "closestAncestor": "1598 (Conservative)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                    {
+                     "name": "SEMP3052 Ti. Sempronius (56) Gracchus",
+                     "id": "3052",
+                     "bestPos": "",
+                     "birthDate": "-75",
+                     "deathDate": "25",
+                     "closestAncestor": "4268 (Aggressive)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                     ]
+                    }                   ]
+                  }                 ]
+                }               ]
+              }             ]
+            },
+            {
+             "name": "SEMP0833 Ti. Sempronius (66) C. f. C. n. Longus",
+             "id": "833",
+             "bestPos": "consul",
+             "birthDate": "-250",
+             "deathDate": "-210",
+             "closestAncestor": "761 (Hyperaggressive)",
+             "icon": "Praetexta.png",
+             "children": [
+              {
+               "name": "SEMP1146 P. Sempronius (11)",
+               "id": "1146",
+               "bestPos": "",
+               "birthDate": "-225",
+               "deathDate": "-194",
+               "closestAncestor": "833 (Hyperaggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+                {
+                 "name": "SEMP3251 C. Sempronius (not in RE) L. f.",
+                 "id": "3251",
+                 "bestPos": "",
+                 "birthDate": "-200",
+                 "deathDate": "-100",
+                 "closestAncestor": "1146 (Aggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                },
+                {
+                 "name": "SEMP1436 T. Sempronius (72) Musca",
+                 "id": "1436",
+                 "bestPos": "",
+                 "birthDate": "-200",
+                 "deathDate": "-100",
+                 "closestAncestor": "1146 (Hyperaggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                  {
+                   "name": "SEMP1597 -. Sempronius (16) Asellio",
+                   "id": "1597",
+                   "bestPos": "",
+                   "birthDate": "-175",
+                   "deathDate": "-75",
+                   "closestAncestor": "1436 (Hyperaggressive)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                    {
+                     "name": "SEMP1894 A. Sempronius (17) Asellio",
+                     "id": "1894",
+                     "bestPos": "praetor",
+                     "birthDate": "-125",
+                     "deathDate": "-89",
+                     "closestAncestor": "1597 (Aggressive)",
+                     "icon": "Praetexta.png",
+                     "children": [
+                     ]
+                    },
+                    {
+                     "name": "SEMP1820 L. Sempronius (18) Asellio",
+                     "id": "1820",
+                     "bestPos": "praetor",
+                     "birthDate": "-125",
+                     "deathDate": "-25",
+                     "closestAncestor": "1597 (Aggressive)",
+                     "icon": "Praetexta.png",
+                     "children": [
+                      {
+                       "name": "SEMP2972 C. Sempronius (79) Rufus",
+                       "id": "2972",
+                       "bestPos": "praetor",
+                       "birthDate": "-100",
+                       "deathDate": "-25",
+                       "closestAncestor": "1820 (Hyperaggressive)",
+                       "icon": "Praetexta.png",
+                       "children": [
+                       ]
+                      },
+                      {
+                       "name": "SEMP2487 M. Sempronius (82) Rutilius",
+                       "id": "2487",
+                       "bestPos": "",
+                       "birthDate": "-100",
+                       "deathDate": "0",
+                       "closestAncestor": "1820 (Hyperaggressive)",
+                       "icon": "NoPosition.png",
+                       "children": [
+                       ]
+                      }                     ]
+                    }                   ]
+                  }                 ]
+                },
+                {
+                 "name": "SEMP1445 Ti. Sempronius (12)",
+                 "id": "1445",
+                 "bestPos": "",
+                 "birthDate": "-200",
+                 "deathDate": "-100",
+                 "closestAncestor": "1146 (Aggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                  {
+                   "name": "SEMP3818 C. Sempronius (6) C. f. Fal.",
+                   "id": "3818",
+                   "bestPos": "",
+                   "birthDate": "-175",
+                   "deathDate": "-75",
+                   "closestAncestor": "1445 (Aggressive)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  },
+                  {
+                   "name": "SEMP3257 C. Sempronius (5) C. or Cn.? f. Fal.",
+                   "id": "3257",
+                   "bestPos": "praetor",
+                   "birthDate": "-175",
+                   "deathDate": "-75",
+                   "closestAncestor": "1445 (Aggressive)",
+                   "icon": "Praetexta.png",
+                   "children": [
+                   ]
+                  },
+                  {
+                   "name": "SEMP3259 A. Sempronius (3) A. f. Fab. Fal.",
+                   "id": "3259",
+                   "bestPos": "",
+                   "birthDate": "-175",
+                   "deathDate": "-75",
+                   "closestAncestor": "1445 (Aggressive)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  }                 ]
+                },
+                {
+                 "name": "SEMP3580 L. Sempronius (74) Pitio",
+                 "id": "3580",
+                 "bestPos": "",
+                 "birthDate": "-200",
+                 "deathDate": "-75",
+                 "closestAncestor": "1146 (Hyperaggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                }               ]
+              },
+              {
+               "name": "SEMP1241 P. Sempronius (65) Longus",
+               "id": "1241",
+               "bestPos": "praetor",
+               "birthDate": "-225",
+               "deathDate": "-183",
+               "closestAncestor": "833 (Aggressive)",
+               "icon": "Praetexta.png",
+               "children": [
+                {
+                 "name": "SEMP1338 C. Sempronius (63) Ti. f. Ti. n. Longus",
+                 "id": "1338",
+                 "bestPos": "",
+                 "birthDate": "-201",
+                 "deathDate": "-100",
+                 "closestAncestor": "1241 (Aggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                  {
+                   "name": "SEMP1824 C. Sempronius (64) Longus",
+                   "id": "1824",
+                   "bestPos": "praetor",
+                   "birthDate": "-150",
+                   "deathDate": "-25",
+                   "closestAncestor": "1338 (Aggressive)",
+                   "icon": "Praetexta.png",
+                   "children": [
+                   ]
+                  }                 ]
+                }               ]
+              },
+              {
+               "name": "SEMP0976 Ti. Sempronius (67) Ti. f. C. n. Longus",
+               "id": "976",
+               "bestPos": "consul",
+               "birthDate": "-230",
+               "deathDate": "-174",
+               "closestAncestor": "833 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+               ]
+              }             ]
+            },
+            {
+             "name": "SEMP1124 T. (or Ti.) Sempronius (60) Gracchus",
+             "id": "1124",
+             "bestPos": "",
+             "birthDate": "-250",
+             "deathDate": "-196",
+             "closestAncestor": "761 (Aggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+             ]
+            }           ]
+          },
+          {
+           "name": "SEMP0777 M. Sempronius (93) C. f. M. n. Tuditanus",
+           "id": "777",
+           "bestPos": "consul",
+           "birthDate": "-275",
+           "deathDate": "-175",
+           "closestAncestor": "701 (Hyperaggressive)",
+           "icon": "Praetexta.png",
+           "children": [
+            {
+             "name": "SEMP1092 C. Sempronius (90) Tuditanus",
+             "id": "1092",
+             "bestPos": "praetor",
+             "birthDate": "-250",
+             "deathDate": "-196",
+             "closestAncestor": "777 (Aggressive)",
+             "icon": "Praetexta.png",
+             "children": [
+              {
+               "name": "SEMP1521 C. Sempronius (91) Tuditanus",
+               "id": "1521",
+               "bestPos": "praetor",
+               "birthDate": "-200",
+               "deathDate": "-75",
+               "closestAncestor": "1092 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+                {
+                 "name": "SEMP1548 C. Sempronius (92) C. f. C. n. Tuditanus",
+                 "id": "1548",
+                 "bestPos": "triumphator",
+                 "birthDate": "-172",
+                 "deathDate": "-75",
+                 "closestAncestor": "1521 (Conservative)",
+                 "icon": "Picta.png",
+                 "children": [
+                  {
+                   "name": "SEMP3923 -. Sempronius (89) Tuditanus",
+                   "id": "3923",
+                   "bestPos": "",
+                   "birthDate": "-150",
+                   "deathDate": "-50",
+                   "closestAncestor": "1548 (Conservative)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  }                 ]
+                }               ]
+              }             ]
+            },
+            {
+             "name": "SEMP0991 M. Sempronius (94) Tuditanus",
+             "id": "991",
+             "bestPos": "",
+             "birthDate": "-250",
+             "deathDate": "-150",
+             "closestAncestor": "777 (Aggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+              {
+               "name": "SEMP1157 M. Sempronius (95) M. f. C. n. Tuditanus",
+               "id": "1157",
+               "bestPos": "consul",
+               "birthDate": "-225",
+               "deathDate": "-174",
+               "closestAncestor": "991 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+               ]
+              }             ]
+            },
+            {
+             "name": "SEMP0882 P. Sempronius (96) C. f. C. n. Tuditanus",
+             "id": "882",
+             "bestPos": "consul",
+             "birthDate": "-243",
+             "deathDate": "-125",
+             "closestAncestor": "777 (Aggressive)",
+             "icon": "Praetexta.png",
+             "children": [
+             ]
+            }           ]
+          }         ]
+        },
+        {
+         "name": "SEMP0743 C. Sempronius (28) Ti. f. Ti. n. Blaesus",
+         "id": "743",
+         "bestPos": "triumphator",
+         "birthDate": "-300",
+         "deathDate": "-175",
+         "closestAncestor": "603 (Hyperaggressive)",
+         "icon": "Picta.png",
+         "children": [
+          {
+           "name": "SEMP0860 Ti. Sempronius (32) Blaesus",
+           "id": "860",
+           "bestPos": "",
+           "birthDate": "-250",
+           "deathDate": "-217",
+           "closestAncestor": "743 (Aggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "SEMP1171 P. Sempronius (31) Blaesus",
+             "id": "1171",
+             "bestPos": "",
+             "birthDate": "-225",
+             "deathDate": "-125",
+             "closestAncestor": "860 (Aggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+             ]
+            }           ]
+          },
+          {
+           "name": "SEMP0942 C. Sempronius (29) Blaesus",
+           "id": "942",
+           "bestPos": "",
+           "birthDate": "-250",
+           "deathDate": "-150",
+           "closestAncestor": "743 (Aggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "SEMP1214 C. Sempronius (30) Blaesus",
+             "id": "1214",
+             "bestPos": "praetor",
+             "birthDate": "-217",
+             "deathDate": "-100",
+             "closestAncestor": "942 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+             ]
+            }           ]
+          }         ]
+        }       ]
+      },
+      {
+       "name": "SEMP4041 L. Sempronius (27) Atratinus",
+       "id": "4041",
+       "bestPos": "",
+       "birthDate": "-125",
+       "deathDate": "-25",
+       "closestAncestor": "448 (Aggressive)",
+       "icon": "NoPosition.png",
+       "children": [
+       ]
+      }     ]
+    }   ]
+  },
+  {
+   "name": "SEMP0213 L. Sempronius (25) A. f. - n. Atratinus",
+   "id": "213",
+   "bestPos": "consul",
+   "birthDate": "-475",
+   "deathDate": "-375",
+   "closestAncestor": "28 (Aggressive)",
+   "icon": "Praetexta.png",
+   "children": [
+    {
+     "name": "SEMP0274 C. Sempronius (24) Atratinus",
+     "id": "274",
+     "bestPos": "consul",
+     "birthDate": "-475",
+     "deathDate": "-350",
+     "closestAncestor": "213 (Conservative)",
+     "icon": "Praetexta.png",
+     "children": [
+     ]
+    }   ]
+  } ]
+};
+// Set the dimensions and margins of the diagram
+var margin = {top: 120, right: 90, bottom: 30, left: 90},
+    width = 1500 - margin.left - margin.right,
+    height = 
+ 1440;
+// append the svg object to the body of the page
+// appends a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.right + margin.left)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate("
+          + margin.left + "," + margin.top + ")");
+
+var i = 0,
+    duration = 750,
+    root;
+
+var tip = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([-10, 0])
+  .html(function(d) {
+    return "<span style='color:red'>" + d.data.name + "</span><br><strong>Born:</strong> <span style='color:red'>" + d.data.birthDate + "</span> <strong>Died:</strong> <span style='color:red'>" + d.data.deathDate + "</span><br><strong>Highest Position:</strong> <span style='color:red'>" + d.data.bestPos + "</span><br><strong>Closest Ancestor:</strong> <span style='color:red'>" + d.data.closestAncestor + "</span>";
+  })
+
+svg.call(tip);
+
+// declares a tree layout and assigns the size
+var treemap = d3.tree().size([width, height]);
+
+// Assigns parent, children, height, depth
+root = d3.hierarchy(treeData, function(d) { return d.children; });
+
+update(root);
+
+function update(source) {
+
+  // Assigns the x and y position for the nodes
+  var treeData = treemap(root);
+
+  // Compute the new tree layout.
+  var nodes = treeData.descendants(),
+      links = treeData.descendants().slice(1);
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d){ d.y = d.depth * 100});
+
+  // ****************** Nodes section ***************************
+
+  // Update the nodes...
+  var node = svg.selectAll('g.node')
+      .data(nodes, function(d) {return d.id || (d.id = ++i); })
+
+  // Enter any new modes at the parent's previous position.
+  var nodeEnter = node.enter().append('g')
+      
+   .append("image")
+      .attr('class', 'node') 
+      .attr('x', -12)
+      .attr('y', -18)
+      .attr('height', 40)
+      .attr('width', 24)
+      .attr("xlink:href", function(d) {
+           return d.data.icon;
+        })
+ 
+   
+   .on('mouseover', tip.show)
+      .on('mouseout', tip.hide)
+      .on('click', function(d) {
+        window.open(
+       'http://romanrepublic.ac.uk/person/' + d.data.id + '/',
+       '_blank'
+       );});
+
+  // UPDATE
+  var nodeUpdate = nodeEnter.merge(node);
+
+  // Transition to the proper position for the node
+  nodeUpdate.transition()
+    .duration(duration)
+    .attr("transform", function(d) { 
+        return "translate(" + d.x + "," + d.y + ")";
+     });
+
+  // ****************** links section ***************************
+
+  // Update the links...
+  var link = svg.selectAll('path.link')
+      .data(links, function(d) { return d.id; });
+
+  // Enter any new links at the parent's previous position.
+  var linkEnter = link.enter().insert('path', "g")
+      .attr("class", "link")
+      //.attr('d', function(d){
+      //  var o = {x: source.x0, y: source.y0}
+      //  return diagonal(o, o)
+      //});
+
+  // UPDATE
+  var linkUpdate = linkEnter.merge(link);
+
+  // Transition back to the parent element position
+  linkUpdate.transition()
+      .duration(duration)
+      .attr('d', function(d){ return diagonal(d, d.parent) });
+
+  // Remove any exiting links
+  var linkExit = link.exit().transition()
+      .duration(duration)
+      .attr('d', function(d) {
+        var o = {x: source.x, y: source.y}
+        return diagonal(o, o)
+      })
+      .remove();
+
+  // Store the old positions for transition.
+  nodes.forEach(function(d){
+    d.x0 = d.x;
+    d.y0 = d.y;
+  });
+
+  // Creates a curved (diagonal) path from parent to the child nodes
+  function diagonal(s, d) {
+
+    path = `M ${s.x} ${s.y}
+            C ${(s.x + d.x) / 2} ${s.y},
+              ${(s.x + d.x) / 2} ${d.y},
+              ${d.x} ${d.y}`
+
+    return path
+  }
+
+  // Toggle children on click.
+  //function click(d) {
+  //  if (d.children) {
+  //      d._children = d.children;
+  //      d.children = null;
+  //    } else {
+  //      d.children = d._children;
+  //      d._children = null;
+  //    }
+  //  update(d);
+  //}
+}
+
+svg.append("text")
+        .attr("x", (1200 / 2) - 150)             
+        .attr("y", -70)
+        .attr("text-anchor", "middle")  
+        .style("font-size", "16px") 
+        .text("Descendants of SEMP0028 A. Sempronius (20) Atratinus - Hyperaggressive Model");
+</script>
+</body>

@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<style>
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+</style>
+
+<body>
+
+<!-- load the d3.js library -->	
+<meta charset="utf-8">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+<script>
+
+var treeData =
+{
+ "name": "ANON4685 -. - (not in RE) [C]n. f. Rufus",
+ "id": "4685",
+ "bestPos": "praetor",
+ "birthDate": "-550",
+ "deathDate": "25",
+ "closestAncestor": "none",
+ "icon": "Praetexta.png",
+ "children": [
+  {
+   "name": "ANON5041 -. - (not in RE) Hegeas",
+   "id": "5041",
+   "bestPos": "",
+   "birthDate": "-250",
+   "deathDate": "-150",
+   "closestAncestor": "4685 (Hyperaggressive)",
+   "icon": "NoPosition.png",
+   "children": [
+    {
+     "name": "ANON1147 Q. - (?)",
+     "id": "1147",
+     "bestPos": "",
+     "birthDate": "-225",
+     "deathDate": "-125",
+     "closestAncestor": "5041 (Hyperaggressive)",
+     "icon": "NoPosition.png",
+     "children": [
+      {
+       "name": "ANON3667 -. - (not in RE) Safra",
+       "id": "3667",
+       "bestPos": "",
+       "birthDate": "-200",
+       "deathDate": "-100",
+       "closestAncestor": "1147 (Hyperaggressive)",
+       "icon": "NoPosition.png",
+       "children": [
+       ]
+      },
+      {
+       "name": "ANON1498 Q. - (not in RE)",
+       "id": "1498",
+       "bestPos": "",
+       "birthDate": "-200",
+       "deathDate": "-100",
+       "closestAncestor": "1147 (Aggressive)",
+       "icon": "NoPosition.png",
+       "children": [
+        {
+         "name": "ANON3457 M. - (not in RE)",
+         "id": "3457",
+         "bestPos": "",
+         "birthDate": "-175",
+         "deathDate": "-50",
+         "closestAncestor": "1498 (Aggressive)",
+         "icon": "NoPosition.png",
+         "children": [
+          {
+           "name": "ANON1697 C. - (not in RE) Aarcellus (or Marcellus)",
+           "id": "1697",
+           "bestPos": "",
+           "birthDate": "-150",
+           "deathDate": "-50",
+           "closestAncestor": "3457 (Hyperaggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "ANON1832 -. - (not in RE) Aesillas",
+             "id": "1832",
+             "bestPos": "",
+             "birthDate": "-125",
+             "deathDate": "-25",
+             "closestAncestor": "1697 (Hyperaggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+              {
+               "name": "ANON2667 P. - (RE 16.1792 (1) no. 4) Naso",
+               "id": "2667",
+               "bestPos": "praetor",
+               "birthDate": "-100",
+               "deathDate": "-41",
+               "closestAncestor": "1832 (Hyperaggressive)",
+               "icon": "Praetexta.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "ANON2391 -. - (not in RE? cf. 16a) Servianus",
+               "id": "2391",
+               "bestPos": "",
+               "birthDate": "-100",
+               "deathDate": "0",
+               "closestAncestor": "1832 (Hyperaggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+                {
+                 "name": "ANON3426 -. - (not in RE) Cillo (or Chilo?)",
+                 "id": "3426",
+                 "bestPos": "",
+                 "birthDate": "-75",
+                 "deathDate": "-43",
+                 "closestAncestor": "2391 (Hyperaggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                },
+                {
+                 "name": "ANON2705 -. - (not in RE) Cafo",
+                 "id": "2705",
+                 "bestPos": "",
+                 "birthDate": "-75",
+                 "deathDate": "25",
+                 "closestAncestor": "2391 (Hyperaggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                },
+                {
+                 "name": "ANON4605 C. - (cf. 52 cf. 53) Casca",
+                 "id": "4605",
+                 "bestPos": "",
+                 "birthDate": "-75",
+                 "deathDate": "25",
+                 "closestAncestor": "2391 (Hyperaggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                },
+                {
+                 "name": "ANON2736 -. - (not in RE) Nerva",
+                 "id": "2736",
+                 "bestPos": "",
+                 "birthDate": "-75",
+                 "deathDate": "25",
+                 "closestAncestor": "2391 (Hyperaggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                },
+                {
+                 "name": "ANON3765 -. - (cf. Ateius 9) Cap-",
+                 "id": "3765",
+                 "bestPos": "",
+                 "birthDate": "-75",
+                 "deathDate": "25",
+                 "closestAncestor": "2391 (Hyperaggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                },
+                {
+                 "name": "ANON2794 -. - (not in RE) Helix",
+                 "id": "2794",
+                 "bestPos": "",
+                 "birthDate": "-75",
+                 "deathDate": "25",
+                 "closestAncestor": "2391 (Hyperaggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                },
+                {
+                 "name": "ANON2796 L. - (Quinctilius 8) Varus",
+                 "id": "2796",
+                 "bestPos": "",
+                 "birthDate": "-75",
+                 "deathDate": "25",
+                 "closestAncestor": "2391 (Hyperaggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                },
+                {
+                 "name": "ANON3276 M. - (not in RE) Pob. Pallacinus",
+                 "id": "3276",
+                 "bestPos": "",
+                 "birthDate": "-75",
+                 "deathDate": "25",
+                 "closestAncestor": "2391 (Hyperaggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                },
+                {
+                 "name": "ANON3307 -. - (not in RE) L. f. Ouf. Balbus",
+                 "id": "3307",
+                 "bestPos": "praetor",
+                 "birthDate": "-75",
+                 "deathDate": "25",
+                 "closestAncestor": "2391 (Hyperaggressive)",
+                 "icon": "Praetexta.png",
+                 "children": [
+                 ]
+                },
+                {
+                 "name": "ANON2889 -. - (Hiero 19) Hiero",
+                 "id": "2889",
+                 "bestPos": "",
+                 "birthDate": "-75",
+                 "deathDate": "25",
+                 "closestAncestor": "2391 (Hyperaggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                },
+                {
+                 "name": "ANON5051 -. - (Sabinus 3) Sabinus",
+                 "id": "5051",
+                 "bestPos": "",
+                 "birthDate": "-75",
+                 "deathDate": "25",
+                 "closestAncestor": "2391 (Hyperaggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                },
+                {
+                 "name": "ANON5068 -. - (12.1596) Tro. Maximus",
+                 "id": "5068",
+                 "bestPos": "",
+                 "birthDate": "-75",
+                 "deathDate": "25",
+                 "closestAncestor": "2391 (Hyperaggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                },
+                {
+                 "name": "ANON3423 -.? - (not in RE) Cap(-)",
+                 "id": "3423",
+                 "bestPos": "",
+                 "birthDate": "-75",
+                 "deathDate": "25",
+                 "closestAncestor": "2391 (Hyperaggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                }               ]
+              },
+              {
+               "name": "ANON5048 -. - (Dumnorix 1) Dumnorix",
+               "id": "5048",
+               "bestPos": "",
+               "birthDate": "-100",
+               "deathDate": "0",
+               "closestAncestor": "1832 (Hyperaggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "ANON5049 -. - (4.1678) Cotus",
+               "id": "5049",
+               "bestPos": "",
+               "birthDate": "-100",
+               "deathDate": "0",
+               "closestAncestor": "1832 (Hyperaggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "ANON5050 -. - (not in RE) Vertiscus",
+               "id": "5050",
+               "bestPos": "",
+               "birthDate": "-100",
+               "deathDate": "0",
+               "closestAncestor": "1832 (Hyperaggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "ANON3462 -. - (Mamurra) Mamurra",
+               "id": "3462",
+               "bestPos": "",
+               "birthDate": "-100",
+               "deathDate": "25",
+               "closestAncestor": "1832 (Hyperaggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "ANON2625 Q. - (Aquila 8) Aquila",
+               "id": "2625",
+               "bestPos": "",
+               "birthDate": "-100",
+               "deathDate": "25",
+               "closestAncestor": "1832 (Hyperaggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "SACR4553 M. - (Sacrativir) Sacrativir",
+               "id": "4553",
+               "bestPos": "",
+               "birthDate": "-100",
+               "deathDate": "25",
+               "closestAncestor": "1832 (Hyperaggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "ANON3805 -. - (4) Licinus",
+               "id": "3805",
+               "bestPos": "",
+               "birthDate": "-100",
+               "deathDate": "25",
+               "closestAncestor": "1832 (Hyperaggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              }             ]
+            },
+            {
+             "name": "ANON1922 -. - (RE 13.1552 s. v. Lucanius) Lucanus",
+             "id": "1922",
+             "bestPos": "",
+             "birthDate": "-125",
+             "deathDate": "-25",
+             "closestAncestor": "1697 (Hyperaggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+             ]
+            },
+            {
+             "name": "ANON4113 -. - (RE 13.2 2550) Lysidikos",
+             "id": "4113",
+             "bestPos": "",
+             "birthDate": "-125",
+             "deathDate": "-25",
+             "closestAncestor": "1697 (Hyperaggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+              {
+               "name": "ANNI2659 T. Annius (37) Cimber",
+               "id": "2659",
+               "bestPos": "praetor",
+               "birthDate": "-75",
+               "deathDate": "25",
+               "closestAncestor": "4113 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+               ]
+              }             ]
+            },
+            {
+             "name": "ANON5104 -. - (cf. 1) Gutta",
+             "id": "5104",
+             "bestPos": "",
+             "birthDate": "-125",
+             "deathDate": "-25",
+             "closestAncestor": "1697 (Hyperaggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+             ]
+            },
+            {
+             "name": "ANON3184 C. - (20) Gallus",
+             "id": "3184",
+             "bestPos": "",
+             "birthDate": "-125",
+             "deathDate": "0",
+             "closestAncestor": "1697 (Hyperaggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+             ]
+            },
+            {
+             "name": "ANON3196 Ti. - (1) Gutta",
+             "id": "3196",
+             "bestPos": "",
+             "birthDate": "-125",
+             "deathDate": "0",
+             "closestAncestor": "1697 (Hyperaggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+              {
+               "name": "ANON2419 -. - (not in RE cf. 7.2.1952) Gutta",
+               "id": "2419",
+               "bestPos": "praetor",
+               "birthDate": "-100",
+               "deathDate": "-50",
+               "closestAncestor": "3196 (Aggressive)",
+               "icon": "Praetexta.png",
+               "children": [
+               ]
+              }             ]
+            },
+            {
+             "name": "ANON2111 -. - (not in RE) Barba",
+             "id": "2111",
+             "bestPos": "",
+             "birthDate": "-125",
+             "deathDate": "0",
+             "closestAncestor": "1697 (Hyperaggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+             ]
+            }           ]
+          },
+          {
+           "name": "ANON3370 Ser. - (not in RE) Ser. f.",
+           "id": "3370",
+           "bestPos": "praetor",
+           "birthDate": "-150",
+           "deathDate": "-50",
+           "closestAncestor": "3457 (Aggressive)",
+           "icon": "Praetexta.png",
+           "children": [
+           ]
+          },
+          {
+           "name": "ANON3375 -. - (not in RE) P. f.",
+           "id": "3375",
+           "bestPos": "praetor",
+           "birthDate": "-150",
+           "deathDate": "-50",
+           "closestAncestor": "3457 (Aggressive)",
+           "icon": "Praetexta.png",
+           "children": [
+           ]
+          },
+          {
+           "name": "ANON1771 -. - (cf. Servilius 65) Glaucia",
+           "id": "1771",
+           "bestPos": "praetor",
+           "birthDate": "-150",
+           "deathDate": "-50",
+           "closestAncestor": "3457 (Hyperaggressive)",
+           "icon": "Praetexta.png",
+           "children": [
+           ]
+          },
+          {
+           "name": "ANON5629 -. - (not in RE) Cossus",
+           "id": "5629",
+           "bestPos": "",
+           "birthDate": "-150",
+           "deathDate": "-50",
+           "closestAncestor": "3457 (Hyperaggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+           ]
+          },
+          {
+           "name": "ANON5684 -. - (not in RE) Cossus",
+           "id": "5684",
+           "bestPos": "",
+           "birthDate": "-150",
+           "deathDate": "-50",
+           "closestAncestor": "3457 (Hyperaggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+           ]
+          },
+          {
+           "name": "ANON3054 M. - (not in RE)",
+           "id": "3054",
+           "bestPos": "",
+           "birthDate": "-150",
+           "deathDate": "50",
+           "closestAncestor": "3457 (Aggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "ANON1864 C. - (?)",
+             "id": "1864",
+             "bestPos": "",
+             "birthDate": "-125",
+             "deathDate": "-25",
+             "closestAncestor": "3054 (Aggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+              {
+               "name": "ANON4515 L. - (Ticida) Ticida",
+               "id": "4515",
+               "bestPos": "",
+               "birthDate": "-100",
+               "deathDate": "25",
+               "closestAncestor": "1864 (Aggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              }             ]
+            },
+            {
+             "name": "ANON2090 Mam. - (not in RE)",
+             "id": "2090",
+             "bestPos": "",
+             "birthDate": "-125",
+             "deathDate": "0",
+             "closestAncestor": "3054 (Aggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+             ]
+            },
+            {
+             "name": "ANON3283 Mam. - (not in RE)",
+             "id": "3283",
+             "bestPos": "",
+             "birthDate": "-125",
+             "deathDate": "0",
+             "closestAncestor": "3054 (Aggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+             ]
+            }           ]
+          }         ]
+        }       ]
+      }     ]
+    },
+    {
+     "name": "ANON3673 -. - (Todus) Todus",
+     "id": "3673",
+     "bestPos": "",
+     "birthDate": "-225",
+     "deathDate": "-125",
+     "closestAncestor": "5041 (Hyperaggressive)",
+     "icon": "NoPosition.png",
+     "children": [
+     ]
+    },
+    {
+     "name": "ANON1258 M. - (?)",
+     "id": "1258",
+     "bestPos": "",
+     "birthDate": "-225",
+     "deathDate": "-125",
+     "closestAncestor": "5041 (Hyperaggressive)",
+     "icon": "NoPosition.png",
+     "children": [
+     ]
+    }   ]
+  } ]
+};
+// Set the dimensions and margins of the diagram
+var margin = {top: 120, right: 90, bottom: 30, left: 90},
+    width = 1500 - margin.left - margin.right,
+    height = 
+ 1080;
+// append the svg object to the body of the page
+// appends a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.right + margin.left)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate("
+          + margin.left + "," + margin.top + ")");
+
+var i = 0,
+    duration = 750,
+    root;
+
+var tip = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([-10, 0])
+  .html(function(d) {
+    return "<span style='color:red'>" + d.data.name + "</span><br><strong>Born:</strong> <span style='color:red'>" + d.data.birthDate + "</span> <strong>Died:</strong> <span style='color:red'>" + d.data.deathDate + "</span><br><strong>Highest Position:</strong> <span style='color:red'>" + d.data.bestPos + "</span><br><strong>Closest Ancestor:</strong> <span style='color:red'>" + d.data.closestAncestor + "</span>";
+  })
+
+svg.call(tip);
+
+// declares a tree layout and assigns the size
+var treemap = d3.tree().size([width, height]);
+
+// Assigns parent, children, height, depth
+root = d3.hierarchy(treeData, function(d) { return d.children; });
+
+update(root);
+
+function update(source) {
+
+  // Assigns the x and y position for the nodes
+  var treeData = treemap(root);
+
+  // Compute the new tree layout.
+  var nodes = treeData.descendants(),
+      links = treeData.descendants().slice(1);
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d){ d.y = d.depth * 100});
+
+  // ****************** Nodes section ***************************
+
+  // Update the nodes...
+  var node = svg.selectAll('g.node')
+      .data(nodes, function(d) {return d.id || (d.id = ++i); })
+
+  // Enter any new modes at the parent's previous position.
+  var nodeEnter = node.enter().append('g')
+      
+   .append("image")
+      .attr('class', 'node') 
+      .attr('x', -12)
+      .attr('y', -18)
+      .attr('height', 40)
+      .attr('width', 24)
+      .attr("xlink:href", function(d) {
+           return d.data.icon;
+        })
+ 
+   
+   .on('mouseover', tip.show)
+      .on('mouseout', tip.hide)
+      .on('click', function(d) {
+        window.open(
+       'http://romanrepublic.ac.uk/person/' + d.data.id + '/',
+       '_blank'
+       );});
+
+  // UPDATE
+  var nodeUpdate = nodeEnter.merge(node);
+
+  // Transition to the proper position for the node
+  nodeUpdate.transition()
+    .duration(duration)
+    .attr("transform", function(d) { 
+        return "translate(" + d.x + "," + d.y + ")";
+     });
+
+  // ****************** links section ***************************
+
+  // Update the links...
+  var link = svg.selectAll('path.link')
+      .data(links, function(d) { return d.id; });
+
+  // Enter any new links at the parent's previous position.
+  var linkEnter = link.enter().insert('path', "g")
+      .attr("class", "link")
+      //.attr('d', function(d){
+      //  var o = {x: source.x0, y: source.y0}
+      //  return diagonal(o, o)
+      //});
+
+  // UPDATE
+  var linkUpdate = linkEnter.merge(link);
+
+  // Transition back to the parent element position
+  linkUpdate.transition()
+      .duration(duration)
+      .attr('d', function(d){ return diagonal(d, d.parent) });
+
+  // Remove any exiting links
+  var linkExit = link.exit().transition()
+      .duration(duration)
+      .attr('d', function(d) {
+        var o = {x: source.x, y: source.y}
+        return diagonal(o, o)
+      })
+      .remove();
+
+  // Store the old positions for transition.
+  nodes.forEach(function(d){
+    d.x0 = d.x;
+    d.y0 = d.y;
+  });
+
+  // Creates a curved (diagonal) path from parent to the child nodes
+  function diagonal(s, d) {
+
+    path = `M ${s.x} ${s.y}
+            C ${(s.x + d.x) / 2} ${s.y},
+              ${(s.x + d.x) / 2} ${d.y},
+              ${d.x} ${d.y}`
+
+    return path
+  }
+
+  // Toggle children on click.
+  //function click(d) {
+  //  if (d.children) {
+  //      d._children = d.children;
+  //      d.children = null;
+  //    } else {
+  //      d.children = d._children;
+  //      d._children = null;
+  //    }
+  //  update(d);
+  //}
+}
+
+svg.append("text")
+        .attr("x", (1200 / 2) - 150)             
+        .attr("y", -70)
+        .attr("text-anchor", "middle")  
+        .style("font-size", "16px") 
+        .text("Descendants of ANON4685 -. - (not in RE) [C]n. f. Rufus - Hyperaggressive Model");
+</script>
+</body>

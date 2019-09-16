@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<style>
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+</style>
+
+<body>
+
+<!-- load the d3.js library -->	
+<meta charset="utf-8">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+<script>
+
+var treeData =
+{
+ "name": "SULP0617 P. Sulpicius (97) Ser. f. P. n. Saverrio",
+ "id": "617",
+ "bestPos": "triumphator",
+ "birthDate": "-350",
+ "deathDate": "-225",
+ "closestAncestor": "none",
+ "icon": "Picta.png",
+ "children": [
+  {
+   "name": "SULP0684 P. Sulpicius (98) P. f. Ser. n. Saverrio",
+   "id": "684",
+   "bestPos": "consul",
+   "birthDate": "-325",
+   "deathDate": "-225",
+   "closestAncestor": "617 (Conservative)",
+   "icon": "Praetexta.png",
+   "children": [
+    {
+     "name": "SULP4995 Ser. Sulpicius (not in RE) Galba",
+     "id": "4995",
+     "bestPos": "",
+     "birthDate": "-300",
+     "deathDate": "-200",
+     "closestAncestor": "684 (Conservative)",
+     "icon": "NoPosition.png",
+     "children": [
+      {
+       "name": "SULP0987 Ser. Sulpicius (56) Ser. f. P. n. Galba",
+       "id": "987",
+       "bestPos": "",
+       "birthDate": "-250",
+       "deathDate": "-199",
+       "closestAncestor": "4995 (Conservative)",
+       "icon": "NoPosition.png",
+       "children": [
+       ]
+      },
+      {
+       "name": "SULP0936 P. Sulpicius (64) Ser. f. P. n. Galba Maximus",
+       "id": "936",
+       "bestPos": "consul",
+       "birthDate": "-250",
+       "deathDate": "-125",
+       "closestAncestor": "4995 (Conservative)",
+       "icon": "Praetexta.png",
+       "children": [
+        {
+         "name": "SULP1060 C. Sulpicius (49) Galba",
+         "id": "1060",
+         "bestPos": "",
+         "birthDate": "-230",
+         "deathDate": "-199",
+         "closestAncestor": "936 (Conservative)",
+         "icon": "NoPosition.png",
+         "children": [
+          {
+           "name": "SULP1336 C. Sulpicius (50) C. f. Galba",
+           "id": "1336",
+           "bestPos": "praetor",
+           "birthDate": "-210",
+           "deathDate": "-100",
+           "closestAncestor": "1060 (Conservative)",
+           "icon": "Praetexta.png",
+           "children": [
+           ]
+          }         ]
+        },
+        {
+         "name": "SULP1192 Ser. Sulpicius (57) Galba",
+         "id": "1192",
+         "bestPos": "praetor",
+         "birthDate": "-225",
+         "deathDate": "-125",
+         "closestAncestor": "936 (Conservative)",
+         "icon": "Praetexta.png",
+         "children": [
+          {
+           "name": "SULP1417 Ser. Sulpicius (58) Ser. f. P. n. Galba",
+           "id": "1417",
+           "bestPos": "consul",
+           "birthDate": "-191",
+           "deathDate": "-130",
+           "closestAncestor": "1192 (Conservative)",
+           "icon": "Praetexta.png",
+           "children": [
+            {
+             "name": "SULP1718 Ser. Sulpicius (59) Ser. f. Ser. n. Galba",
+             "id": "1718",
+             "bestPos": "consul",
+             "birthDate": "-151",
+             "deathDate": "-50",
+             "closestAncestor": "1417 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+              {
+               "name": "SULP2316 Ser. Sulpicius (61) Ser. n. Galba",
+               "id": "2316",
+               "bestPos": "praetor",
+               "birthDate": "-89",
+               "deathDate": "-43",
+               "closestAncestor": "1718 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+                {
+                 "name": "SULP2971 C. Sulpicius (52) Galba",
+                 "id": "2971",
+                 "bestPos": "praetor",
+                 "birthDate": "-100",
+                 "deathDate": "25",
+                 "closestAncestor": "2316 (Conservative)",
+                 "icon": "Praetexta.png",
+                 "children": [
+                  {
+                   "name": "SULP4317 C. Sulpicius (53) Galba",
+                   "id": "4317",
+                   "bestPos": "",
+                   "birthDate": "-75",
+                   "deathDate": "25",
+                   "closestAncestor": "2971 (Conservative)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                    {
+                     "name": "SULP4975 C. Sulpicius (54)",
+                     "id": "4975",
+                     "bestPos": "",
+                     "birthDate": "-75",
+                     "deathDate": "25",
+                     "closestAncestor": "4317 (Conservative)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                     ]
+                    },
+                    {
+                     "name": "LIVI5011 L. Livius (27) Ocella",
+                     "id": "5011",
+                     "bestPos": "",
+                     "birthDate": "-75",
+                     "deathDate": "25",
+                     "closestAncestor": "4317 (Conservative)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                     ]
+                    }                   ]
+                  }                 ]
+                }               ]
+              }             ]
+            },
+            {
+             "name": "SULP1662 C. Sulpicius (51) Ser. f. Ser. n. Galba",
+             "id": "1662",
+             "bestPos": "praetor",
+             "birthDate": "-149",
+             "deathDate": "-50",
+             "closestAncestor": "1417 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+              {
+               "name": "SULP3520 C. Sulpicius (9) C. f. Galba",
+               "id": "3520",
+               "bestPos": "",
+               "birthDate": "-150",
+               "deathDate": "-50",
+               "closestAncestor": "1662 (Conservative)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "SULP1850 Ser. Sulpicius (60) C. f. Ani. Galba",
+               "id": "1850",
+               "bestPos": "praetor",
+               "birthDate": "-125",
+               "deathDate": "-25",
+               "closestAncestor": "1662 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+               ]
+              }             ]
+            }           ]
+          }         ]
+        }       ]
+      }     ]
+    }   ]
+  } ]
+};
+// Set the dimensions and margins of the diagram
+var margin = {top: 120, right: 90, bottom: 30, left: 90},
+    width = 1500 - margin.left - margin.right,
+    height = 
+ 1320;
+// append the svg object to the body of the page
+// appends a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.right + margin.left)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate("
+          + margin.left + "," + margin.top + ")");
+
+var i = 0,
+    duration = 750,
+    root;
+
+var tip = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([-10, 0])
+  .html(function(d) {
+    return "<span style='color:red'>" + d.data.name + "</span><br><strong>Born:</strong> <span style='color:red'>" + d.data.birthDate + "</span> <strong>Died:</strong> <span style='color:red'>" + d.data.deathDate + "</span><br><strong>Highest Position:</strong> <span style='color:red'>" + d.data.bestPos + "</span><br><strong>Closest Ancestor:</strong> <span style='color:red'>" + d.data.closestAncestor + "</span>";
+  })
+
+svg.call(tip);
+
+// declares a tree layout and assigns the size
+var treemap = d3.tree().size([width, height]);
+
+// Assigns parent, children, height, depth
+root = d3.hierarchy(treeData, function(d) { return d.children; });
+
+update(root);
+
+function update(source) {
+
+  // Assigns the x and y position for the nodes
+  var treeData = treemap(root);
+
+  // Compute the new tree layout.
+  var nodes = treeData.descendants(),
+      links = treeData.descendants().slice(1);
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d){ d.y = d.depth * 100});
+
+  // ****************** Nodes section ***************************
+
+  // Update the nodes...
+  var node = svg.selectAll('g.node')
+      .data(nodes, function(d) {return d.id || (d.id = ++i); })
+
+  // Enter any new modes at the parent's previous position.
+  var nodeEnter = node.enter().append('g')
+      
+   .append("image")
+      .attr('class', 'node') 
+      .attr('x', -12)
+      .attr('y', -18)
+      .attr('height', 40)
+      .attr('width', 24)
+      .attr("xlink:href", function(d) {
+           return d.data.icon;
+        })
+ 
+   
+   .on('mouseover', tip.show)
+      .on('mouseout', tip.hide)
+      .on('click', function(d) {
+        window.open(
+       'http://romanrepublic.ac.uk/person/' + d.data.id + '/',
+       '_blank'
+       );});
+
+  // UPDATE
+  var nodeUpdate = nodeEnter.merge(node);
+
+  // Transition to the proper position for the node
+  nodeUpdate.transition()
+    .duration(duration)
+    .attr("transform", function(d) { 
+        return "translate(" + d.x + "," + d.y + ")";
+     });
+
+  // ****************** links section ***************************
+
+  // Update the links...
+  var link = svg.selectAll('path.link')
+      .data(links, function(d) { return d.id; });
+
+  // Enter any new links at the parent's previous position.
+  var linkEnter = link.enter().insert('path', "g")
+      .attr("class", "link")
+      //.attr('d', function(d){
+      //  var o = {x: source.x0, y: source.y0}
+      //  return diagonal(o, o)
+      //});
+
+  // UPDATE
+  var linkUpdate = linkEnter.merge(link);
+
+  // Transition back to the parent element position
+  linkUpdate.transition()
+      .duration(duration)
+      .attr('d', function(d){ return diagonal(d, d.parent) });
+
+  // Remove any exiting links
+  var linkExit = link.exit().transition()
+      .duration(duration)
+      .attr('d', function(d) {
+        var o = {x: source.x, y: source.y}
+        return diagonal(o, o)
+      })
+      .remove();
+
+  // Store the old positions for transition.
+  nodes.forEach(function(d){
+    d.x0 = d.x;
+    d.y0 = d.y;
+  });
+
+  // Creates a curved (diagonal) path from parent to the child nodes
+  function diagonal(s, d) {
+
+    path = `M ${s.x} ${s.y}
+            C ${(s.x + d.x) / 2} ${s.y},
+              ${(s.x + d.x) / 2} ${d.y},
+              ${d.x} ${d.y}`
+
+    return path
+  }
+
+  // Toggle children on click.
+  //function click(d) {
+  //  if (d.children) {
+  //      d._children = d.children;
+  //      d.children = null;
+  //    } else {
+  //      d.children = d._children;
+  //      d._children = null;
+  //    }
+  //  update(d);
+  //}
+}
+
+svg.append("text")
+        .attr("x", (1200 / 2) - 150)             
+        .attr("y", -70)
+        .attr("text-anchor", "middle")  
+        .style("font-size", "16px") 
+        .text("Descendants of SULP0617 P. Sulpicius (97) Ser. f. P. n. Saverrio - Conservative Model");
+</script>
+</body>

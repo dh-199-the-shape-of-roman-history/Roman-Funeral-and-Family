@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<style>
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+</style>
+
+<body>
+
+<!-- load the d3.js library -->	
+<meta charset="utf-8">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+<script>
+
+var treeData =
+{
+ "name": "VALE4883 Volus. Valerius (89)",
+ "id": "4883",
+ "bestPos": "",
+ "birthDate": "-600",
+ "deathDate": "-475",
+ "closestAncestor": "none",
+ "icon": "NoPosition.png",
+ "children": [
+  {
+   "name": "VALE0003 P. Valerius (302) Volus. f. - n. Poplicola",
+   "id": "3",
+   "bestPos": "triumphator",
+   "birthDate": "-550",
+   "deathDate": "-503",
+   "closestAncestor": "4883 (Conservative)",
+   "icon": "Picta.png",
+   "children": [
+    {
+     "name": "VALE0051 P. Valerius (301) P. f. Volus. n. Poplicola",
+     "id": "51",
+     "bestPos": "triumphator",
+     "birthDate": "-525",
+     "deathDate": "-460",
+     "closestAncestor": "3 (Conservative)",
+     "icon": "Picta.png",
+     "children": [
+      {
+       "name": "VALE0180 L. Valerius (304) P. f. P. n. Potitus Potitus",
+       "id": "180",
+       "bestPos": "triumphator",
+       "birthDate": "-480",
+       "deathDate": "-375",
+       "closestAncestor": "51 (Conservative)",
+       "icon": "Picta.png",
+       "children": [
+        {
+         "name": "VALE0306 L. Valerius (307) L. f. P. n. Potitus",
+         "id": "306",
+         "bestPos": "triumphator",
+         "birthDate": "-450",
+         "deathDate": "-325",
+         "closestAncestor": "180 (Conservative)",
+         "icon": "Picta.png",
+         "children": [
+          {
+           "name": "VALE0381 L. Valerius (298) L. f. L. n. Poplicola",
+           "id": "381",
+           "bestPos": "",
+           "birthDate": "-425",
+           "deathDate": "-325",
+           "closestAncestor": "306 (Conservative)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "VALE0503 M. Valerius (299) L. f. L. n. Poplicola",
+             "id": "503",
+             "bestPos": "consul",
+             "birthDate": "-400",
+             "deathDate": "-300",
+             "closestAncestor": "381 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+              {
+               "name": "VALE0577 L. Valerius (171) Flaccus",
+               "id": "577",
+               "bestPos": "",
+               "birthDate": "-375",
+               "deathDate": "-250",
+               "closestAncestor": "503 (Hyperaggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+                {
+                 "name": "VALE0720 L. Valerius (172) M. f. L. n. Flaccus",
+                 "id": "720",
+                 "bestPos": "consul",
+                 "birthDate": "-300",
+                 "deathDate": "-200",
+                 "closestAncestor": "577 (Aggressive)",
+                 "icon": "Praetexta.png",
+                 "children": [
+                  {
+                   "name": "VALE0805 P. Valerius (181) L. f. M. n. Flaccus",
+                   "id": "805",
+                   "bestPos": "consul",
+                   "birthDate": "-275",
+                   "deathDate": "-200",
+                   "closestAncestor": "720 (Conservative)",
+                   "icon": "Praetexta.png",
+                   "children": [
+                    {
+                     "name": "VALE0930 L. Valerius (173) P. f. L. n. Flaccus",
+                     "id": "930",
+                     "bestPos": "consul",
+                     "birthDate": "-229",
+                     "deathDate": "-180",
+                     "closestAncestor": "805 (Conservative)",
+                     "icon": "Praetexta.png",
+                     "children": [
+                      {
+                       "name": "VALE1466 L. Valerius (174) L. f. P. n. Flaccus",
+                       "id": "1466",
+                       "bestPos": "consul",
+                       "birthDate": "-199",
+                       "deathDate": "-152",
+                       "closestAncestor": "930 (Conservative)",
+                       "icon": "Praetexta.png",
+                       "children": [
+                        {
+                         "name": "VALE1802 L. Valerius (178) C.? f. L. n. Flaccus",
+                         "id": "1802",
+                         "bestPos": "consul",
+                         "birthDate": "-135",
+                         "deathDate": "-85",
+                         "closestAncestor": "1466 (Conservative)",
+                         "icon": "Praetexta.png",
+                         "children": [
+                          {
+                           "name": "VALE1992 L. Valerius (179) L. f. C.? n. Flaccus",
+                           "id": "1992",
+                           "bestPos": "praetor",
+                           "birthDate": "-99",
+                           "deathDate": "0",
+                           "closestAncestor": "1802 (Conservative)",
+                           "icon": "Praetexta.png",
+                           "children": [
+                            {
+                             "name": "VALE2488 C. Valerius (169) L. f. Flaccus",
+                             "id": "2488",
+                             "bestPos": "",
+                             "birthDate": "-100",
+                             "deathDate": "0",
+                             "closestAncestor": "1992 (Conservative)",
+                             "icon": "NoPosition.png",
+                             "children": [
+                             ]
+                            }                           ]
+                          }                         ]
+                        },
+                        {
+                         "name": "VALE1492 L. Valerius (175) L. f. L. n. Flaccus",
+                         "id": "1492",
+                         "bestPos": "consul",
+                         "birthDate": "-180",
+                         "deathDate": "-75",
+                         "closestAncestor": "1466 (Conservative)",
+                         "icon": "Praetexta.png",
+                         "children": [
+                         ]
+                        },
+                        {
+                         "name": "VALE4886 C. Valerius (D) Flaccus",
+                         "id": "4886",
+                         "bestPos": "",
+                         "birthDate": "-175",
+                         "deathDate": "-75",
+                         "closestAncestor": "1466 (Conservative)",
+                         "icon": "NoPosition.png",
+                         "children": [
+                         ]
+                        },
+                        {
+                         "name": "VALE1815 L. Valerius (176 177) L. f. L. n. Flaccus",
+                         "id": "1815",
+                         "bestPos": "consul",
+                         "birthDate": "-139",
+                         "deathDate": "-71",
+                         "closestAncestor": "1466 (Conservative)",
+                         "icon": "Praetexta.png",
+                         "children": [
+                         ]
+                        },
+                        {
+                         "name": "VALE1821 C. Valerius (168) C. f. L. n. Flaccus",
+                         "id": "1821",
+                         "bestPos": "triumphator",
+                         "birthDate": "-150",
+                         "deathDate": "-25",
+                         "closestAncestor": "1466 (Conservative)",
+                         "icon": "Picta.png",
+                         "children": [
+                          {
+                           "name": "VALE1989 Q. Valerius (345) Rom. Soranus",
+                           "id": "1989",
+                           "bestPos": "",
+                           "birthDate": "-125",
+                           "deathDate": "-80",
+                           "closestAncestor": "1821 (Hyperaggressive)",
+                           "icon": "NoPosition.png",
+                           "children": [
+                           ]
+                          },
+                          {
+                           "name": "VALE3113 L. Valerius (310) Praeconinus",
+                           "id": "3113",
+                           "bestPos": "",
+                           "birthDate": "-125",
+                           "deathDate": "-78",
+                           "closestAncestor": "1821 (Hyperaggressive)",
+                           "icon": "NoPosition.png",
+                           "children": [
+                           ]
+                          },
+                          {
+                           "name": "VALE4904 L. Valerius (180) Flaccus",
+                           "id": "4904",
+                           "bestPos": "",
+                           "birthDate": "-125",
+                           "deathDate": "-25",
+                           "closestAncestor": "1821 (Conservative)",
+                           "icon": "NoPosition.png",
+                           "children": [
+                           ]
+                          },
+                          {
+                           "name": "VALE2117 C. Valerius (363 366) Aem. Triarius",
+                           "id": "2117",
+                           "bestPos": "praetor",
+                           "birthDate": "-125",
+                           "deathDate": "0",
+                           "closestAncestor": "1821 (Hyperaggressive)",
+                           "icon": "Praetexta.png",
+                           "children": [
+                            {
+                             "name": "VALE3930 P. Valerius (367) Aem. Triarius",
+                             "id": "3930",
+                             "bestPos": "",
+                             "birthDate": "-100",
+                             "deathDate": "0",
+                             "closestAncestor": "2117 (Conservative)",
+                             "icon": "NoPosition.png",
+                             "children": [
+                             ]
+                            },
+                            {
+                             "name": "VALE2564 C. Valerius (365) Aem. Triarius",
+                             "id": "2564",
+                             "bestPos": "",
+                             "birthDate": "-100",
+                             "deathDate": "25",
+                             "closestAncestor": "2117 (Conservative)",
+                             "icon": "NoPosition.png",
+                             "children": [
+                             ]
+                            }                           ]
+                          }                         ]
+                        }                       ]
+                      }                     ]
+                    },
+                    {
+                     "name": "VALE0993 C. Valerius (166) P. f. L. n. Flaccus",
+                     "id": "993",
+                     "bestPos": "praetor",
+                     "birthDate": "-229",
+                     "deathDate": "-174",
+                     "closestAncestor": "805 (Conservative)",
+                     "icon": "Praetexta.png",
+                     "children": [
+                      {
+                       "name": "VALE3524 C. Valerius (167) C. f. Flaccus",
+                       "id": "3524",
+                       "bestPos": "",
+                       "birthDate": "-175",
+                       "deathDate": "-75",
+                       "closestAncestor": "993 (Conservative)",
+                       "icon": "NoPosition.png",
+                       "children": [
+                       ]
+                      }                     ]
+                    },
+                    {
+                     "name": "VALE0902 P. Valerius (182) Flaccus",
+                     "id": "902",
+                     "bestPos": "",
+                     "birthDate": "-250",
+                     "deathDate": "-150",
+                     "closestAncestor": "805 (Conservative)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                     ]
+                    }                   ]
+                  }                 ]
+                }               ]
+              }             ]
+            },
+            {
+             "name": "VALE0556 C. Valerius (306) L. f. L. n. Potitus",
+             "id": "556",
+             "bestPos": "consul",
+             "birthDate": "-375",
+             "deathDate": "-275",
+             "closestAncestor": "381 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+              {
+               "name": "VALE0682 P. Valerius (213) Laevinus",
+               "id": "682",
+               "bestPos": "consul",
+               "birthDate": "-325",
+               "deathDate": "-280",
+               "closestAncestor": "556 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+                {
+                 "name": "VALE4994 P. Valerius (215)",
+                 "id": "4994",
+                 "bestPos": "",
+                 "birthDate": "-300",
+                 "deathDate": "-200",
+                 "closestAncestor": "682 (Conservative)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                  {
+                   "name": "VALE0807 M. Valerius (211) P. f. P. n. Laevinus",
+                   "id": "807",
+                   "bestPos": "consul",
+                   "birthDate": "-254",
+                   "deathDate": "-200",
+                   "closestAncestor": "4994 (Conservative)",
+                   "icon": "Praetexta.png",
+                   "children": [
+                    {
+                     "name": "VALE4873 P. Valerius (214) Laevinus",
+                     "id": "4873",
+                     "bestPos": "",
+                     "birthDate": "-225",
+                     "deathDate": "-125",
+                     "closestAncestor": "807 (Conservative)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                     ]
+                    },
+                    {
+                     "name": "VALE1200 C. Valerius (208) M. f. P. n. Laevinus",
+                     "id": "1200",
+                     "bestPos": "consul",
+                     "birthDate": "-219",
+                     "deathDate": "-100",
+                     "closestAncestor": "807 (Conservative)",
+                     "icon": "Praetexta.png",
+                     "children": [
+                      {
+                       "name": "VALE3849 L. Valerius (212) Laevinus",
+                       "id": "3849",
+                       "bestPos": "",
+                       "birthDate": "-75",
+                       "deathDate": "25",
+                       "closestAncestor": "1200 (Aggressive)",
+                       "icon": "NoPosition.png",
+                       "children": [
+                       ]
+                      }                     ]
+                    },
+                    {
+                     "name": "VALE1232 M. Valerius (210) Laevinus",
+                     "id": "1232",
+                     "bestPos": "praetor",
+                     "birthDate": "-220",
+                     "deathDate": "-100",
+                     "closestAncestor": "807 (Conservative)",
+                     "icon": "Praetexta.png",
+                     "children": [
+                     ]
+                    }                   ]
+                  }                 ]
+                }               ]
+              }             ]
+            }           ]
+          },
+          {
+           "name": "VALE0429 P. Valerius (308) L. f. L. n. Potitus Poplicola",
+           "id": "429",
+           "bestPos": "",
+           "birthDate": "-425",
+           "deathDate": "-275",
+           "closestAncestor": "306 (Conservative)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "VALE0511 P. Valerius (300) P. f. L. n. Poplicola",
+             "id": "511",
+             "bestPos": "consul",
+             "birthDate": "-400",
+             "deathDate": "-275",
+             "closestAncestor": "429 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+             ]
+            }           ]
+          }         ]
+        }       ]
+      }     ]
+    },
+    {
+     "name": "VALE4988 M. Valerius (73)",
+     "id": "4988",
+     "bestPos": "",
+     "birthDate": "-525",
+     "deathDate": "-425",
+     "closestAncestor": "3 (Conservative)",
+     "icon": "NoPosition.png",
+     "children": [
+     ]
+    }   ]
+  },
+  {
+   "name": "VALE0013 M. Valerius (74) Volus. f. (Volusus)",
+   "id": "13",
+   "bestPos": "triumphator",
+   "birthDate": "-550",
+   "deathDate": "-499",
+   "closestAncestor": "4883 (Conservative)",
+   "icon": "Picta.png",
+   "children": [
+    {
+     "name": "VALE0022 M'. Valerius (65) M. f. Volus. n.",
+     "id": "22",
+     "bestPos": "",
+     "birthDate": "-550",
+     "deathDate": "-450",
+     "closestAncestor": "13 (Conservative)",
+     "icon": "NoPosition.png",
+     "children": [
+     ]
+    },
+    {
+     "name": "VOLU5032 Volus. Valerius (90)",
+     "id": "5032",
+     "bestPos": "",
+     "birthDate": "-525",
+     "deathDate": "-425",
+     "closestAncestor": "13 (Conservative)",
+     "icon": "NoPosition.png",
+     "children": [
+      {
+       "name": "VALE4952 L. Valerius (58)",
+       "id": "4952",
+       "bestPos": "",
+       "birthDate": "-500",
+       "deathDate": "-400",
+       "closestAncestor": "5032 (Conservative)",
+       "icon": "NoPosition.png",
+       "children": [
+        {
+         "name": "VALE0301 C. Valerius (309) L. f. Volus. n. Potitus Volusus",
+         "id": "301",
+         "bestPos": "triumphator",
+         "birthDate": "-450",
+         "deathDate": "-325",
+         "closestAncestor": "4952 (Conservative)",
+         "icon": "Picta.png",
+         "children": [
+          {
+           "name": "VALE0471 C. Valerius (50) Potitus",
+           "id": "471",
+           "bestPos": "",
+           "birthDate": "-425",
+           "deathDate": "-300",
+           "closestAncestor": "301 (Aggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+           ]
+          }         ]
+        }       ]
+      }     ]
+    },
+    {
+     "name": "VALE0079 L. Valerius (380) M. f. Volus. n. Potitus",
+     "id": "79",
+     "bestPos": "consul",
+     "birthDate": "-525",
+     "deathDate": "-400",
+     "closestAncestor": "13 (Conservative)",
+     "icon": "Praetexta.png",
+     "children": [
+     ]
+    }   ]
+  },
+  {
+   "name": "VALE0037 M'. Valerius (243) Volus. f. Maximus",
+   "id": "37",
+   "bestPos": "triumphator",
+   "birthDate": "-525",
+   "deathDate": "-463",
+   "closestAncestor": "4883 (Conservative)",
+   "icon": "Picta.png",
+   "children": [
+    {
+     "name": "VALE0132 M'. Valerius (67 cf. 243) (Maximus)",
+     "id": "132",
+     "bestPos": "",
+     "birthDate": "-500",
+     "deathDate": "-463",
+     "closestAncestor": "37 (Hyperaggressive)",
+     "icon": "NoPosition.png",
+     "children": [
+     ]
+    },
+    {
+     "name": "VALE0149 M. Valerius (246) M'. f. Volus. n. Maximus (Lactuca)",
+     "id": "149",
+     "bestPos": "consul",
+     "birthDate": "-500",
+     "deathDate": "-400",
+     "closestAncestor": "37 (Conservative)",
+     "icon": "Praetexta.png",
+     "children": [
+      {
+       "name": "VALE0238 M. Valerius (206) M. f. M'. n. Lactuca (or Lactucinus) Maximus",
+       "id": "238",
+       "bestPos": "triumphator",
+       "birthDate": "-475",
+       "deathDate": "-375",
+       "closestAncestor": "149 (Conservative)",
+       "icon": "Picta.png",
+       "children": [
+        {
+         "name": "VALE0366 M. Valerius (207) M. f. M. n. Lactucinus Maximus",
+         "id": "366",
+         "bestPos": "",
+         "birthDate": "-450",
+         "deathDate": "-325",
+         "closestAncestor": "238 (Conservative)",
+         "icon": "NoPosition.png",
+         "children": [
+          {
+           "name": "VALE4959 M. Valerius (71)",
+           "id": "4959",
+           "bestPos": "",
+           "birthDate": "-425",
+           "deathDate": "-325",
+           "closestAncestor": "366 (Conservative)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "VALE0537 M. Valerius (68)",
+             "id": "537",
+             "bestPos": "",
+             "birthDate": "-375",
+             "deathDate": "-275",
+             "closestAncestor": "4959 (Aggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+              {
+               "name": "VALE0750 -. Valerius (3)",
+               "id": "750",
+               "bestPos": "",
+               "birthDate": "-300",
+               "deathDate": "-200",
+               "closestAncestor": "537 (Aggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+                {
+                 "name": "VALE3684 -. Valerius (4)",
+                 "id": "3684",
+                 "bestPos": "",
+                 "birthDate": "-200",
+                 "deathDate": "-100",
+                 "closestAncestor": "750 (Aggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                  {
+                   "name": "VALE2061 L. Valerius (not in RE)",
+                   "id": "2061",
+                   "bestPos": "",
+                   "birthDate": "-125",
+                   "deathDate": "-25",
+                   "closestAncestor": "3684 (Aggressive)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                    {
+                     "name": "VALE2214 M. Valerius (69)",
+                     "id": "2214",
+                     "bestPos": "",
+                     "birthDate": "-100",
+                     "deathDate": "0",
+                     "closestAncestor": "2061 (Aggressive)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                     ]
+                    }                   ]
+                  },
+                  {
+                   "name": "VALE2101 P. Valerius (77)",
+                   "id": "2101",
+                   "bestPos": "praetor",
+                   "birthDate": "-125",
+                   "deathDate": "0",
+                   "closestAncestor": "3684 (Aggressive)",
+                   "icon": "Praetexta.png",
+                   "children": [
+                   ]
+                  },
+                  {
+                   "name": "VALE5047 P. Valerius (76)",
+                   "id": "5047",
+                   "bestPos": "",
+                   "birthDate": "-125",
+                   "deathDate": "0",
+                   "closestAncestor": "3684 (Aggressive)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  }                 ]
+                }               ]
+              }             ]
+            },
+            {
+             "name": "VALE0522 M. Valerius (137) M. f. M. n. Maximus Corvus",
+             "id": "522",
+             "bestPos": "triumphator",
+             "birthDate": "-371",
+             "deathDate": "-225",
+             "closestAncestor": "4959 (Conservative)",
+             "icon": "Picta.png",
+             "children": [
+              {
+               "name": "VALE0679 L. Valerius (59) (Flaccus)",
+               "id": "679",
+               "bestPos": "",
+               "birthDate": "-325",
+               "deathDate": "-282",
+               "closestAncestor": "522 (Hyperaggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "VALE0570 M. Valerius (244) M. f. M. n. Maximus Corvinus",
+               "id": "570",
+               "bestPos": "triumphator",
+               "birthDate": "-375",
+               "deathDate": "-271",
+               "closestAncestor": "522 (Conservative)",
+               "icon": "Picta.png",
+               "children": [
+                {
+                 "name": "VALE0716 M'. Valerius (247) M. f. M. n. Maximus Messalla",
+                 "id": "716",
+                 "bestPos": "triumphator",
+                 "birthDate": "-300",
+                 "deathDate": "-175",
+                 "closestAncestor": "570 (Conservative)",
+                 "icon": "Picta.png",
+                 "children": [
+                  {
+                   "name": "VALE0808 M. Valerius (251) M'. f. M. n. (Maximus) Messalla",
+                   "id": "808",
+                   "bestPos": "consul",
+                   "birthDate": "-275",
+                   "deathDate": "-150",
+                   "closestAncestor": "716 (Conservative)",
+                   "icon": "Praetexta.png",
+                   "children": [
+                    {
+                     "name": "VALE1201 M. Valerius (252) M. f. M'. n. Messalla",
+                     "id": "1201",
+                     "bestPos": "consul",
+                     "birthDate": "-224",
+                     "deathDate": "-100",
+                     "closestAncestor": "808 (Conservative)",
+                     "icon": "Praetexta.png",
+                     "children": [
+                      {
+                       "name": "VALE1460 M. Valerius (253) M. f. M. n. Messalla",
+                       "id": "1460",
+                       "bestPos": "consul",
+                       "birthDate": "-204",
+                       "deathDate": "-100",
+                       "closestAncestor": "1201 (Conservative)",
+                       "icon": "Praetexta.png",
+                       "children": [
+                        {
+                         "name": "VALE1888 M'.? Valerius (248) Messalla",
+                         "id": "1888",
+                         "bestPos": "praetor",
+                         "birthDate": "-175",
+                         "deathDate": "-50",
+                         "closestAncestor": "1460 (Conservative)",
+                         "icon": "Praetexta.png",
+                         "children": [
+                          {
+                           "name": "VALE4283 M. Valerius (B) Messalla",
+                           "id": "4283",
+                           "bestPos": "",
+                           "birthDate": "-150",
+                           "deathDate": "-50",
+                           "closestAncestor": "1888 (Conservative)",
+                           "icon": "NoPosition.png",
+                           "children": [
+                            {
+                             "name": "VALE2536 M. Valerius (268) M. f. Lem. Messalla Rufus",
+                             "id": "2536",
+                             "bestPos": "consul",
+                             "birthDate": "-119",
+                             "deathDate": "-26",
+                             "closestAncestor": "4283 (Conservative)",
+                             "icon": "Praetexta.png",
+                             "children": [
+                              {
+                               "name": "VALE4538 C. Valerius (123) Catullus",
+                               "id": "4538",
+                               "bestPos": "",
+                               "birthDate": "-84",
+                               "deathDate": "-54",
+                               "closestAncestor": "2536 (Hyperaggressive)",
+                               "icon": "NoPosition.png",
+                               "children": [
+                               ]
+                              },
+                              {
+                               "name": "VALE3615 M. Valerius (254) Messalla",
+                               "id": "3615",
+                               "bestPos": "",
+                               "birthDate": "-100",
+                               "deathDate": "0",
+                               "closestAncestor": "2536 (Conservative)",
+                               "icon": "NoPosition.png",
+                               "children": [
+                               ]
+                              }                             ]
+                            },
+                            {
+                             "name": "VALE1887 M.? Valerius (249) Messalla",
+                             "id": "1887",
+                             "bestPos": "praetor",
+                             "birthDate": "-125",
+                             "deathDate": "-25",
+                             "closestAncestor": "4283 (Aggressive)",
+                             "icon": "Praetexta.png",
+                             "children": [
+                              {
+                               "name": "VALE2368 C. Valerius (316) Procillus",
+                               "id": "2368",
+                               "bestPos": "",
+                               "birthDate": "-100",
+                               "deathDate": "0",
+                               "closestAncestor": "1887 (Hyperaggressive)",
+                               "icon": "NoPosition.png",
+                               "children": [
+                               ]
+                              },
+                              {
+                               "name": "VALE3584 L. Valerius (94) Acisculus",
+                               "id": "3584",
+                               "bestPos": "",
+                               "birthDate": "-100",
+                               "deathDate": "25",
+                               "closestAncestor": "1887 (Hyperaggressive)",
+                               "icon": "NoPosition.png",
+                               "children": [
+                               ]
+                              },
+                              {
+                               "name": "VALE2409 Q. Valerius (280) Q. f. Rom. Orca",
+                               "id": "2409",
+                               "bestPos": "praetor",
+                               "birthDate": "-100",
+                               "deathDate": "25",
+                               "closestAncestor": "1887 (Hyperaggressive)",
+                               "icon": "Praetexta.png",
+                               "children": [
+                               ]
+                              }                             ]
+                            }                           ]
+                          },
+                          {
+                           "name": "VALE4908 M. Valerius (C) Messalla",
+                           "id": "4908",
+                           "bestPos": "",
+                           "birthDate": "-150",
+                           "deathDate": "-50",
+                           "closestAncestor": "1888 (Conservative)",
+                           "icon": "NoPosition.png",
+                           "children": [
+                            {
+                             "name": "VALE2107 M. Valerius (266) M. f. M'. n. Messalla Niger 'Menogenes'",
+                             "id": "2107",
+                             "bestPos": "consul",
+                             "birthDate": "-104",
+                             "deathDate": "0",
+                             "closestAncestor": "4908 (Conservative)",
+                             "icon": "Praetexta.png",
+                             "children": [
+                              {
+                               "name": "VALE2913 M. Valerius (255) M. f. Messalla",
+                               "id": "2913",
+                               "bestPos": "consul",
+                               "birthDate": "-80",
+                               "deathDate": "-20",
+                               "closestAncestor": "2107 (Aggressive)",
+                               "icon": "Praetexta.png",
+                               "children": [
+                               ]
+                              },
+                              {
+                               "name": "VALE2914 Potitus Valerius (267) (M. f. M. n.?) Messalla",
+                               "id": "2914",
+                               "bestPos": "consul",
+                               "birthDate": "-70",
+                               "deathDate": "0",
+                               "closestAncestor": "2107 (Conservative)",
+                               "icon": "Praetexta.png",
+                               "children": [
+                               ]
+                              },
+                              {
+                               "name": "VALE2758 M. Valerius (261) M. f. M. n. Messalla Corvinus",
+                               "id": "2758",
+                               "bestPos": "consul",
+                               "birthDate": "-64",
+                               "deathDate": "13",
+                               "closestAncestor": "2107 (Conservative)",
+                               "icon": "Praetexta.png",
+                               "children": [
+                                {
+                                 "name": "VALE4355 M. Valerius (264) Messalla Messallinus",
+                                 "id": "4355",
+                                 "bestPos": "",
+                                 "birthDate": "-36",
+                                 "deathDate": "21",
+                                 "closestAncestor": "2758 (Conservative)",
+                                 "icon": "NoPosition.png",
+                                 "children": [
+                                 ]
+                                },
+                                {
+                                 "name": "AURE4356 M. Aurelius (110 111) Cotta Maximus or Messallinus",
+                                 "id": "4356",
+                                 "bestPos": "",
+                                 "birthDate": "-50",
+                                 "deathDate": "50",
+                                 "closestAncestor": "2758 (Conservative)",
+                                 "icon": "NoPosition.png",
+                                 "children": [
+                                 ]
+                                }                               ]
+                              }                             ]
+                            }                           ]
+                          },
+                          {
+                           "name": "VALE5008 M'. Valerius (A) Messalla",
+                           "id": "5008",
+                           "bestPos": "",
+                           "birthDate": "-150",
+                           "deathDate": "-50",
+                           "closestAncestor": "1888 (Conservative)",
+                           "icon": "NoPosition.png",
+                           "children": [
+                           ]
+                          }                         ]
+                        }                       ]
+                      }                     ]
+                    }                   ]
+                  }                 ]
+                }               ]
+              },
+              {
+               "name": "VALE4997 Q. Valerius (156) Falto",
+               "id": "4997",
+               "bestPos": "",
+               "birthDate": "-325",
+               "deathDate": "-225",
+               "closestAncestor": "522 (Hyperaggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+                {
+                 "name": "VALE0767 Q. Valerius (157) Q. f. P. n. Falto",
+                 "id": "767",
+                 "bestPos": "triumphator",
+                 "birthDate": "-275",
+                 "deathDate": "-175",
+                 "closestAncestor": "4997 (Conservative)",
+                 "icon": "Picta.png",
+                 "children": [
+                  {
+                   "name": "VALE1022 M. Valerius (153) Falto",
+                   "id": "1022",
+                   "bestPos": "praetor",
+                   "birthDate": "-231",
+                   "deathDate": "-150",
+                   "closestAncestor": "767 (Conservative)",
+                   "icon": "Praetexta.png",
+                   "children": [
+                   ]
+                  },
+                  {
+                   "name": "VALE0901 L. Valerius (99) Vot. Antias",
+                   "id": "901",
+                   "bestPos": "",
+                   "birthDate": "-250",
+                   "deathDate": "-150",
+                   "closestAncestor": "767 (Hyperaggressive)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  },
+                  {
+                   "name": "VALE1133 L. Valerius (350) C. f. Tappo",
+                   "id": "1133",
+                   "bestPos": "praetor",
+                   "birthDate": "-250",
+                   "deathDate": "-125",
+                   "closestAncestor": "767 (Hyperaggressive)",
+                   "icon": "Praetexta.png",
+                   "children": [
+                    {
+                     "name": "VALE1207 C. Valerius (349) Tappo",
+                     "id": "1207",
+                     "bestPos": "",
+                     "birthDate": "-225",
+                     "deathDate": "-125",
+                     "closestAncestor": "1133 (Aggressive)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                     ]
+                    }                   ]
+                  }                 ]
+                },
+                {
+                 "name": "VALE0779 P. Valerius (155) Q. f. P. n. Falto",
+                 "id": "779",
+                 "bestPos": "consul",
+                 "birthDate": "-275",
+                 "deathDate": "-175",
+                 "closestAncestor": "4997 (Conservative)",
+                 "icon": "Praetexta.png",
+                 "children": [
+                 ]
+                }               ]
+              },
+              {
+               "name": "VALE0665 M. Valerius (cf. 244) Maximus (Potitus)",
+               "id": "665",
+               "bestPos": "consul",
+               "birthDate": "-325",
+               "deathDate": "-225",
+               "closestAncestor": "522 (Aggressive)",
+               "icon": "Praetexta.png",
+               "children": [
+               ]
+              }             ]
+            }           ]
+          }         ]
+        }       ]
+      }     ]
+    }   ]
+  } ]
+};
+// Set the dimensions and margins of the diagram
+var margin = {top: 120, right: 90, bottom: 30, left: 90},
+    width = 1500 - margin.left - margin.right,
+    height = 
+ 2040;
+// append the svg object to the body of the page
+// appends a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.right + margin.left)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate("
+          + margin.left + "," + margin.top + ")");
+
+var i = 0,
+    duration = 750,
+    root;
+
+var tip = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([-10, 0])
+  .html(function(d) {
+    return "<span style='color:red'>" + d.data.name + "</span><br><strong>Born:</strong> <span style='color:red'>" + d.data.birthDate + "</span> <strong>Died:</strong> <span style='color:red'>" + d.data.deathDate + "</span><br><strong>Highest Position:</strong> <span style='color:red'>" + d.data.bestPos + "</span><br><strong>Closest Ancestor:</strong> <span style='color:red'>" + d.data.closestAncestor + "</span>";
+  })
+
+svg.call(tip);
+
+// declares a tree layout and assigns the size
+var treemap = d3.tree().size([width, height]);
+
+// Assigns parent, children, height, depth
+root = d3.hierarchy(treeData, function(d) { return d.children; });
+
+update(root);
+
+function update(source) {
+
+  // Assigns the x and y position for the nodes
+  var treeData = treemap(root);
+
+  // Compute the new tree layout.
+  var nodes = treeData.descendants(),
+      links = treeData.descendants().slice(1);
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d){ d.y = d.depth * 100});
+
+  // ****************** Nodes section ***************************
+
+  // Update the nodes...
+  var node = svg.selectAll('g.node')
+      .data(nodes, function(d) {return d.id || (d.id = ++i); })
+
+  // Enter any new modes at the parent's previous position.
+  var nodeEnter = node.enter().append('g')
+      
+   .append("image")
+      .attr('class', 'node') 
+      .attr('x', -12)
+      .attr('y', -18)
+      .attr('height', 40)
+      .attr('width', 24)
+      .attr("xlink:href", function(d) {
+           return d.data.icon;
+        })
+ 
+   
+   .on('mouseover', tip.show)
+      .on('mouseout', tip.hide)
+      .on('click', function(d) {
+        window.open(
+       'http://romanrepublic.ac.uk/person/' + d.data.id + '/',
+       '_blank'
+       );});
+
+  // UPDATE
+  var nodeUpdate = nodeEnter.merge(node);
+
+  // Transition to the proper position for the node
+  nodeUpdate.transition()
+    .duration(duration)
+    .attr("transform", function(d) { 
+        return "translate(" + d.x + "," + d.y + ")";
+     });
+
+  // ****************** links section ***************************
+
+  // Update the links...
+  var link = svg.selectAll('path.link')
+      .data(links, function(d) { return d.id; });
+
+  // Enter any new links at the parent's previous position.
+  var linkEnter = link.enter().insert('path', "g")
+      .attr("class", "link")
+      //.attr('d', function(d){
+      //  var o = {x: source.x0, y: source.y0}
+      //  return diagonal(o, o)
+      //});
+
+  // UPDATE
+  var linkUpdate = linkEnter.merge(link);
+
+  // Transition back to the parent element position
+  linkUpdate.transition()
+      .duration(duration)
+      .attr('d', function(d){ return diagonal(d, d.parent) });
+
+  // Remove any exiting links
+  var linkExit = link.exit().transition()
+      .duration(duration)
+      .attr('d', function(d) {
+        var o = {x: source.x, y: source.y}
+        return diagonal(o, o)
+      })
+      .remove();
+
+  // Store the old positions for transition.
+  nodes.forEach(function(d){
+    d.x0 = d.x;
+    d.y0 = d.y;
+  });
+
+  // Creates a curved (diagonal) path from parent to the child nodes
+  function diagonal(s, d) {
+
+    path = `M ${s.x} ${s.y}
+            C ${(s.x + d.x) / 2} ${s.y},
+              ${(s.x + d.x) / 2} ${d.y},
+              ${d.x} ${d.y}`
+
+    return path
+  }
+
+  // Toggle children on click.
+  //function click(d) {
+  //  if (d.children) {
+  //      d._children = d.children;
+  //      d.children = null;
+  //    } else {
+  //      d.children = d._children;
+  //      d._children = null;
+  //    }
+  //  update(d);
+  //}
+}
+
+svg.append("text")
+        .attr("x", (1200 / 2) - 150)             
+        .attr("y", -70)
+        .attr("text-anchor", "middle")  
+        .style("font-size", "16px") 
+        .text("Descendants of VALE4883 Volus. Valerius (89) - Hyperaggressive Model");
+</script>
+</body>

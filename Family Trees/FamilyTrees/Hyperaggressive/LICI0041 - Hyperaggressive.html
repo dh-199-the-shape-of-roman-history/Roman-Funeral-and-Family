@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<style>
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+</style>
+
+<body>
+
+<!-- load the d3.js library -->	
+<meta charset="utf-8">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+<script>
+
+var treeData =
+{
+ "name": "LICI0041 C. Licinius (11)",
+ "id": "41",
+ "bestPos": "",
+ "birthDate": "-525",
+ "deathDate": "-425",
+ "closestAncestor": "none",
+ "icon": "NoPosition.png",
+ "children": [
+  {
+   "name": "LICI0354 P. Licinius (43) P. f. P. n. Calvus Esquilinus",
+   "id": "354",
+   "bestPos": "",
+   "birthDate": "-450",
+   "deathDate": "-325",
+   "closestAncestor": "41 (Hyperaggressive)",
+   "icon": "NoPosition.png",
+   "children": [
+    {
+     "name": "LICI0468 C. Licinius (161) C. f. P. n. Stolo",
+     "id": "468",
+     "bestPos": "consul",
+     "birthDate": "-400",
+     "deathDate": "-300",
+     "closestAncestor": "354 (Hyperaggressive)",
+     "icon": "Praetexta.png",
+     "children": [
+      {
+       "name": "LICI3803 L. Licinius (not in RE) Stolo",
+       "id": "3803",
+       "bestPos": "",
+       "birthDate": "-75",
+       "deathDate": "25",
+       "closestAncestor": "468 (Aggressive)",
+       "icon": "NoPosition.png",
+       "children": [
+       ]
+      }     ]
+    },
+    {
+     "name": "LICI0481 C. Licinius (42) C. f. P. n. Calvus",
+     "id": "481",
+     "bestPos": "consul",
+     "birthDate": "-400",
+     "deathDate": "-300",
+     "closestAncestor": "354 (Aggressive)",
+     "icon": "Praetexta.png",
+     "children": [
+      {
+       "name": "LICI2933 C. Licinius (44) Calvus Stilo",
+       "id": "2933",
+       "bestPos": "",
+       "birthDate": "-50",
+       "deathDate": "0",
+       "closestAncestor": "481 (Aggressive)",
+       "icon": "NoPosition.png",
+       "children": [
+       ]
+      }     ]
+    }   ]
+  },
+  {
+   "name": "LICI4998 P. Licinius (B)",
+   "id": "4998",
+   "bestPos": "",
+   "birthDate": "-325",
+   "deathDate": "-225",
+   "closestAncestor": "41 (Aggressive)",
+   "icon": "NoPosition.png",
+   "children": [
+    {
+     "name": "LICI3749 M. Licinius (20)",
+     "id": "3749",
+     "bestPos": "",
+     "birthDate": "-250",
+     "deathDate": "-209",
+     "closestAncestor": "4998 (Aggressive)",
+     "icon": "NoPosition.png",
+     "children": [
+     ]
+    },
+    {
+     "name": "LICI0783 C. Licinius (174) P. f. P. n. Varus",
+     "id": "783",
+     "bestPos": "consul",
+     "birthDate": "-275",
+     "deathDate": "-175",
+     "closestAncestor": "4998 (Conservative)",
+     "icon": "Praetexta.png",
+     "children": [
+      {
+       "name": "LICI0960 P. Licinius (175) Varus",
+       "id": "960",
+       "bestPos": "praetor",
+       "birthDate": "-250",
+       "deathDate": "-150",
+       "closestAncestor": "783 (Conservative)",
+       "icon": "Praetexta.png",
+       "children": [
+       ]
+      },
+      {
+       "name": "LICI1002 L. Licinius (143) Pollio",
+       "id": "1002",
+       "bestPos": "",
+       "birthDate": "-250",
+       "deathDate": "-150",
+       "closestAncestor": "783 (Hyperaggressive)",
+       "icon": "NoPosition.png",
+       "children": [
+       ]
+      },
+      {
+       "name": "LICI1056 L. Licinius (101) Lucullus",
+       "id": "1056",
+       "bestPos": "",
+       "birthDate": "-250",
+       "deathDate": "-150",
+       "closestAncestor": "783 (Hyperaggressive)",
+       "icon": "NoPosition.png",
+       "children": [
+        {
+         "name": "LICI1224 M. Licinius (1? 108) Lucullus",
+         "id": "1224",
+         "bestPos": "praetor",
+         "birthDate": "-225",
+         "deathDate": "-125",
+         "closestAncestor": "1056 (Aggressive)",
+         "icon": "Praetexta.png",
+         "children": [
+          {
+           "name": "LICI4659 C. Licinius (153) Ste. Sacerdos",
+           "id": "4659",
+           "bestPos": "",
+           "birthDate": "-200",
+           "deathDate": "-125",
+           "closestAncestor": "1224 (Hyperaggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "LICI2067 C. Licinius (154) C. f. Ste. Sacerdos",
+             "id": "2067",
+             "bestPos": "praetor",
+             "birthDate": "-125",
+             "deathDate": "0",
+             "closestAncestor": "4659 (Aggressive)",
+             "icon": "Praetexta.png",
+             "children": [
+              {
+               "name": "LICI3797 C.? Licinius (not in RE) Sacerdos",
+               "id": "3797",
+               "bestPos": "",
+               "birthDate": "-100",
+               "deathDate": "0",
+               "closestAncestor": "2067 (Aggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              }             ]
+            }           ]
+          },
+          {
+           "name": "LICI1514 M. Licinius (22)",
+           "id": "1514",
+           "bestPos": "praetor",
+           "birthDate": "-200",
+           "deathDate": "-75",
+           "closestAncestor": "1224 (Conservative)",
+           "icon": "Praetexta.png",
+           "children": [
+            {
+             "name": "LICI3206 C. Licinius (14) C. f. Ter.",
+             "id": "3206",
+             "bestPos": "",
+             "birthDate": "-175",
+             "deathDate": "-75",
+             "closestAncestor": "1514 (Aggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+             ]
+            },
+            {
+             "name": "LICI1578 -.? Licinius (2)",
+             "id": "1578",
+             "bestPos": "",
+             "birthDate": "-175",
+             "deathDate": "-75",
+             "closestAncestor": "1514 (Aggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+              {
+               "name": "LICI3006 -. Licinius (3)",
+               "id": "3006",
+               "bestPos": "",
+               "birthDate": "-100",
+               "deathDate": "0",
+               "closestAncestor": "1578 (Aggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "LICI2706 -. Licinius (10)",
+               "id": "2706",
+               "bestPos": "",
+               "birthDate": "-100",
+               "deathDate": "25",
+               "closestAncestor": "1578 (Aggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+                {
+                 "name": "LICI2727 P. Licinius (not in RE)",
+                 "id": "2727",
+                 "bestPos": "",
+                 "birthDate": "-75",
+                 "deathDate": "25",
+                 "closestAncestor": "2706 (Aggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                },
+                {
+                 "name": "LICI3750 T. Licinius (not in RE) T. f.",
+                 "id": "3750",
+                 "bestPos": "",
+                 "birthDate": "-75",
+                 "deathDate": "25",
+                 "closestAncestor": "2706 (Aggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                }               ]
+              }             ]
+            }           ]
+          },
+          {
+           "name": "LICI1520 L. Licinius (120) Murena",
+           "id": "1520",
+           "bestPos": "praetor",
+           "birthDate": "-200",
+           "deathDate": "-75",
+           "closestAncestor": "1224 (Hyperaggressive)",
+           "icon": "Praetexta.png",
+           "children": [
+            {
+             "name": "LICI1788 L. Licinius (121) Murena",
+             "id": "1788",
+             "bestPos": "praetor",
+             "birthDate": "-150",
+             "deathDate": "-50",
+             "closestAncestor": "1520 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+              {
+               "name": "LICI4910 P. Licinius (124) Murena",
+               "id": "4910",
+               "bestPos": "",
+               "birthDate": "-125",
+               "deathDate": "-25",
+               "closestAncestor": "1788 (Conservative)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "LICI1930 L. Licinius (122) L. f. Murena",
+               "id": "1930",
+               "bestPos": "triumphator",
+               "birthDate": "-125",
+               "deathDate": "0",
+               "closestAncestor": "1788 (Conservative)",
+               "icon": "Picta.png",
+               "children": [
+                {
+                 "name": "LICI3795 -. Licinius (80) Lenticulus (or Denticula)",
+                 "id": "3795",
+                 "bestPos": "",
+                 "birthDate": "-100",
+                 "deathDate": "-25",
+                 "closestAncestor": "1930 (Hyperaggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                },
+                {
+                 "name": "LICI2085 L. Licinius (123) L. f. L. n. Mae. Murena",
+                 "id": "2085",
+                 "bestPos": "consul",
+                 "birthDate": "-125",
+                 "deathDate": "0",
+                 "closestAncestor": "1930 (Conservative)",
+                 "icon": "Praetexta.png",
+                 "children": [
+                  {
+                   "name": "TERE2581 A. Terentius (91) Varro Murena",
+                   "id": "2581",
+                   "bestPos": "",
+                   "birthDate": "-100",
+                   "deathDate": "25",
+                   "closestAncestor": "2085 (Conservative)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                    {
+                     "name": "TERE5127 M. Terentius (Licinius 110) Varro Lucullus",
+                     "id": "5127",
+                     "bestPos": "",
+                     "birthDate": "-75",
+                     "deathDate": "-42",
+                     "closestAncestor": "2581 (Aggressive)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                     ]
+                    },
+                    {
+                     "name": "TERE3853 -. Terentius (86) M. f. Pap. Varro",
+                     "id": "3853",
+                     "bestPos": "",
+                     "birthDate": "-75",
+                     "deathDate": "25",
+                     "closestAncestor": "2581 (Aggressive)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                     ]
+                    },
+                    {
+                     "name": "TERE2930 A. Terentius (92) A. f. Varro Murena",
+                     "id": "2930",
+                     "bestPos": "",
+                     "birthDate": "-75",
+                     "deathDate": "25",
+                     "closestAncestor": "2581 (Conservative)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                     ]
+                    }                   ]
+                  }                 ]
+                },
+                {
+                 "name": "LICI2301 C. Licinius (119) L. f. L. n. Murena",
+                 "id": "2301",
+                 "bestPos": "",
+                 "birthDate": "-100",
+                 "deathDate": "0",
+                 "closestAncestor": "1930 (Conservative)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                  {
+                   "name": "LICI3796 -. Licinius (149) Regulus",
+                   "id": "3796",
+                   "bestPos": "",
+                   "birthDate": "-75",
+                   "deathDate": "25",
+                   "closestAncestor": "2301 (Hyperaggressive)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  },
+                  {
+                   "name": "LICI3837 -.? Licinius (not in RE?) Sacer(dos)",
+                   "id": "3837",
+                   "bestPos": "",
+                   "birthDate": "-75",
+                   "deathDate": "25",
+                   "closestAncestor": "2301 (Hyperaggressive)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  }                 ]
+                }               ]
+              }             ]
+            }           ]
+          }         ]
+        }       ]
+      },
+      {
+       "name": "LICI0840 C. Licinius (12 cf. 174) (Varus)",
+       "id": "840",
+       "bestPos": "",
+       "birthDate": "-250",
+       "deathDate": "-150",
+       "closestAncestor": "783 (Hyperaggressive)",
+       "icon": "NoPosition.png",
+       "children": [
+        {
+         "name": "LICI1305 M. Licinius (166) Strabo",
+         "id": "1305",
+         "bestPos": "",
+         "birthDate": "-225",
+         "deathDate": "-178",
+         "closestAncestor": "840 (Hyperaggressive)",
+         "icon": "NoPosition.png",
+         "children": [
+         ]
+        },
+        {
+         "name": "LICI1314 A. Licinius (129) Nerva",
+         "id": "1314",
+         "bestPos": "",
+         "birthDate": "-225",
+         "deathDate": "-125",
+         "closestAncestor": "840 (Hyperaggressive)",
+         "icon": "NoPosition.png",
+         "children": [
+          {
+           "name": "LICI1554 -. Licinius (130) Nerva",
+           "id": "1554",
+           "bestPos": "triumphator",
+           "birthDate": "-175",
+           "deathDate": "-75",
+           "closestAncestor": "1314 (Aggressive)",
+           "icon": "Picta.png",
+           "children": [
+            {
+             "name": "LICI1720 C. Licinius (134) Nerva",
+             "id": "1720",
+             "bestPos": "",
+             "birthDate": "-149",
+             "deathDate": "-50",
+             "closestAncestor": "1554 (Aggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+              {
+               "name": "LICI3203 -. Licinius (39) Bucco",
+               "id": "3203",
+               "bestPos": "",
+               "birthDate": "-125",
+               "deathDate": "-25",
+               "closestAncestor": "1720 (Hyperaggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "LICI3474 A. Licinius (132) Nerva",
+               "id": "3474",
+               "bestPos": "",
+               "birthDate": "-100",
+               "deathDate": "25",
+               "closestAncestor": "1720 (Aggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              }             ]
+            },
+            {
+             "name": "LICI1760 P. Licinius (135 136) Nerva",
+             "id": "1760",
+             "bestPos": "praetor",
+             "birthDate": "-150",
+             "deathDate": "-50",
+             "closestAncestor": "1554 (Aggressive)",
+             "icon": "Praetexta.png",
+             "children": [
+             ]
+            }           ]
+          }         ]
+        },
+        {
+         "name": "LICI1374 A. Licinius (131) Nerva",
+         "id": "1374",
+         "bestPos": "praetor",
+         "birthDate": "-225",
+         "deathDate": "-100",
+         "closestAncestor": "840 (Hyperaggressive)",
+         "icon": "Praetexta.png",
+         "children": [
+         ]
+        },
+        {
+         "name": "LICI1425 C. Licinius (133) Nerva",
+         "id": "1425",
+         "bestPos": "praetor",
+         "birthDate": "-225",
+         "deathDate": "-100",
+         "closestAncestor": "840 (Hyperaggressive)",
+         "icon": "Praetexta.png",
+         "children": [
+         ]
+        }       ]
+      },
+      {
+       "name": "LICI1114 C. Licinius (99) Lucullus",
+       "id": "1114",
+       "bestPos": "",
+       "birthDate": "-229",
+       "deathDate": "-125",
+       "closestAncestor": "783 (Hyperaggressive)",
+       "icon": "NoPosition.png",
+       "children": [
+        {
+         "name": "LICI1484 L. Licinius (102) Lucullus",
+         "id": "1484",
+         "bestPos": "triumphator",
+         "birthDate": "-200",
+         "deathDate": "-100",
+         "closestAncestor": "1114 (Conservative)",
+         "icon": "Picta.png",
+         "children": [
+          {
+           "name": "LICI1759 L. Licinius (103) Lucullus",
+           "id": "1759",
+           "bestPos": "praetor",
+           "birthDate": "-150",
+           "deathDate": "-100",
+           "closestAncestor": "1484 (Conservative)",
+           "icon": "Praetexta.png",
+           "children": [
+            {
+             "name": "LICI3918 M. Licinius (109) Lucullus",
+             "id": "3918",
+             "bestPos": "",
+             "birthDate": "-150",
+             "deathDate": "-56",
+             "closestAncestor": "1759 (Conservative)",
+             "icon": "NoPosition.png",
+             "children": [
+             ]
+            },
+            {
+             "name": "LICI1903 L. Licinius (104) L. f. L. n. Lucullus Ponticus",
+             "id": "1903",
+             "bestPos": "triumphator",
+             "birthDate": "-117",
+             "deathDate": "-56",
+             "closestAncestor": "1759 (Conservative)",
+             "icon": "Picta.png",
+             "children": [
+              {
+               "name": "LICI4080 M. Licinius (110) Lucullus",
+               "id": "4080",
+               "bestPos": "",
+               "birthDate": "-64",
+               "deathDate": "-42",
+               "closestAncestor": "1903 (Conservative)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              }             ]
+            },
+            {
+             "name": "TERE1982 M. Terentius (Licinius 109) M. f. Varro Lucullus",
+             "id": "1982",
+             "bestPos": "triumphator",
+             "birthDate": "-116",
+             "deathDate": "0",
+             "closestAncestor": "1759 (Conservative)",
+             "icon": "Picta.png",
+             "children": [
+             ]
+            }           ]
+          },
+          {
+           "name": "LICI1725 P. Licinius (111) Lucullus",
+           "id": "1725",
+           "bestPos": "",
+           "birthDate": "-150",
+           "deathDate": "-50",
+           "closestAncestor": "1484 (Aggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+           ]
+          },
+          {
+           "name": "LICI1674 C. Licinius (88) P. f. Geta",
+           "id": "1674",
+           "bestPos": "consul",
+           "birthDate": "-175",
+           "deathDate": "-50",
+           "closestAncestor": "1484 (Hyperaggressive)",
+           "icon": "Praetexta.png",
+           "children": [
+           ]
+          },
+          {
+           "name": "LICI5046 -. Licinius (13.372) Lucullus",
+           "id": "5046",
+           "bestPos": "",
+           "birthDate": "-150",
+           "deathDate": "-50",
+           "closestAncestor": "1484 (Aggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+           ]
+          }         ]
+        }       ]
+      }     ]
+    },
+    {
+     "name": "LICI4877 C. Licinius (D) Crassus",
+     "id": "4877",
+     "bestPos": "",
+     "birthDate": "-275",
+     "deathDate": "-175",
+     "closestAncestor": "4998 (Hyperaggressive)",
+     "icon": "NoPosition.png",
+     "children": [
+      {
+       "name": "LICI4875 M. Licinius (55a) Crassus",
+       "id": "4875",
+       "bestPos": "",
+       "birthDate": "-250",
+       "deathDate": "-150",
+       "closestAncestor": "4877 (Conservative)",
+       "icon": "NoPosition.png",
+       "children": [
+       ]
+      },
+      {
+       "name": "LICI1354 C. Licinius (51) C. f. P. n. Crassus",
+       "id": "1354",
+       "bestPos": "consul",
+       "birthDate": "-225",
+       "deathDate": "-100",
+       "closestAncestor": "4877 (Conservative)",
+       "icon": "Praetexta.png",
+       "children": [
+        {
+         "name": "LICI4048 L. Licinius (54) Crassus",
+         "id": "4048",
+         "bestPos": "",
+         "birthDate": "-200",
+         "deathDate": "-100",
+         "closestAncestor": "1354 (Conservative)",
+         "icon": "NoPosition.png",
+         "children": [
+          {
+           "name": "LICI1679 L. Licinius (55) L. f. C. n. Crassus",
+           "id": "1679",
+           "bestPos": "consul",
+           "birthDate": "-140",
+           "deathDate": "-91",
+           "closestAncestor": "4048 (Conservative)",
+           "icon": "Praetexta.png",
+           "children": [
+            {
+             "name": "LICI2103 C. Licinius (112) L. f. Macer",
+             "id": "2103",
+             "bestPos": "praetor",
+             "birthDate": "-108",
+             "deathDate": "-66",
+             "closestAncestor": "1679 (Hyperaggressive)",
+             "icon": "Praetexta.png",
+             "children": [
+              {
+               "name": "LICI3951 C. Licinius (113) Macer Calvus",
+               "id": "3951",
+               "bestPos": "",
+               "birthDate": "-82",
+               "deathDate": "-53",
+               "closestAncestor": "2103 (Conservative)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              }             ]
+            }           ]
+          }         ]
+        },
+        {
+         "name": "LICI1547 C. Licinius (52) Crassus",
+         "id": "1547",
+         "bestPos": "",
+         "birthDate": "-200",
+         "deathDate": "-75",
+         "closestAncestor": "1354 (Conservative)",
+         "icon": "NoPosition.png",
+         "children": [
+          {
+           "name": "LICI4171 -. Licinius (6) Crassus",
+           "id": "4171",
+           "bestPos": "",
+           "birthDate": "-200",
+           "deathDate": "-114",
+           "closestAncestor": "1547 (Conservative)",
+           "icon": "NoPosition.png",
+           "children": [
+           ]
+          }         ]
+        }       ]
+      },
+      {
+       "name": "LICI1321 P. Licinius (60) C. f. P. n. Crassus",
+       "id": "1321",
+       "bestPos": "consul",
+       "birthDate": "-225",
+       "deathDate": "-100",
+       "closestAncestor": "4877 (Conservative)",
+       "icon": "Praetexta.png",
+       "children": [
+        {
+         "name": "LICI4876 -. Licinius (178)",
+         "id": "4876",
+         "bestPos": "",
+         "birthDate": "-200",
+         "deathDate": "-100",
+         "closestAncestor": "1321 (Conservative)",
+         "icon": "NoPosition.png",
+         "children": [
+         ]
+        },
+        {
+         "name": "LICI1780 P. Licinius (61) M. f. P. n. Crassus (Dives)",
+         "id": "1780",
+         "bestPos": "triumphator",
+         "birthDate": "-150",
+         "deathDate": "-87",
+         "closestAncestor": "1321 (Conservative)",
+         "icon": "Picta.png",
+         "children": [
+          {
+           "name": "LICI4000 P. Licinius (62) Crassus Dives",
+           "id": "4000",
+           "bestPos": "",
+           "birthDate": "-175",
+           "deathDate": "-87",
+           "closestAncestor": "1780 (Conservative)",
+           "icon": "NoPosition.png",
+           "children": [
+           ]
+          },
+          {
+           "name": "LICI3868 -. Licinius (50) Crassus Dives",
+           "id": "3868",
+           "bestPos": "",
+           "birthDate": "-175",
+           "deathDate": "-87",
+           "closestAncestor": "1780 (Conservative)",
+           "icon": "NoPosition.png",
+           "children": [
+           ]
+          },
+          {
+           "name": "LICI1981 M. Licinius (68) P. f. M. n. Crassus",
+           "id": "1981",
+           "bestPos": "triumphator",
+           "birthDate": "-115",
+           "deathDate": "-53",
+           "closestAncestor": "1780 (Conservative)",
+           "icon": "Picta.png",
+           "children": [
+            {
+             "name": "LICI2372 P. Licinius (63) M. f. (P.? n.) Crassus",
+             "id": "2372",
+             "bestPos": "",
+             "birthDate": "-82",
+             "deathDate": "-53",
+             "closestAncestor": "1981 (Conservative)",
+             "icon": "NoPosition.png",
+             "children": [
+             ]
+            },
+            {
+             "name": "LICI2328 M. Licinius (56) M. f. P. n. Crassus",
+             "id": "2328",
+             "bestPos": "",
+             "birthDate": "-90",
+             "deathDate": "25",
+             "closestAncestor": "1981 (Conservative)",
+             "icon": "NoPosition.png",
+             "children": [
+              {
+               "name": "LICI2860 M. Licinius (58) M. f. M. n. Crassus",
+               "id": "2860",
+               "bestPos": "",
+               "birthDate": "-75",
+               "deathDate": "-25",
+               "closestAncestor": "2328 (Conservative)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              }             ]
+            }           ]
+          }         ]
+        },
+        {
+         "name": "LICI1637 M. Licinius (57) Crassus 'Agelastus'",
+         "id": "1637",
+         "bestPos": "praetor",
+         "birthDate": "-175",
+         "deathDate": "-75",
+         "closestAncestor": "1321 (Conservative)",
+         "icon": "Praetexta.png",
+         "children": [
+          {
+           "name": "LICI3955 P. Licinius (E) Crassus",
+           "id": "3955",
+           "bestPos": "",
+           "birthDate": "-150",
+           "deathDate": "-50",
+           "closestAncestor": "1637 (Aggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+           ]
+          }         ]
+        }       ]
+      }     ]
+    },
+    {
+     "name": "LICI5003 P. Licinius (C) Crassus",
+     "id": "5003",
+     "bestPos": "",
+     "birthDate": "-275",
+     "deathDate": "-175",
+     "closestAncestor": "4998 (Hyperaggressive)",
+     "icon": "NoPosition.png",
+     "children": [
+      {
+       "name": "LICI0926 P. Licinius (69) P. f. P. n. Crassus Dives",
+       "id": "926",
+       "bestPos": "consul",
+       "birthDate": "-235",
+       "deathDate": "-183",
+       "closestAncestor": "5003 (Conservative)",
+       "icon": "Praetexta.png",
+       "children": [
+        {
+         "name": "LICI1500 P. Licinius (72) P. f. P. n. Crassus Dives Mucianus",
+         "id": "1500",
+         "bestPos": "consul",
+         "birthDate": "-169",
+         "deathDate": "-130",
+         "closestAncestor": "926 (Conservative)",
+         "icon": "Praetexta.png",
+         "children": [
+          {
+           "name": "LICI4270 P. Licinius (70) Crassus Dives",
+           "id": "4270",
+           "bestPos": "",
+           "birthDate": "-150",
+           "deathDate": "-50",
+           "closestAncestor": "1500 (Conservative)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "LICI4141 P. Licinius (67) Crassus Dives",
+             "id": "4141",
+             "bestPos": "",
+             "birthDate": "-150",
+             "deathDate": "-50",
+             "closestAncestor": "4270 (Conservative)",
+             "icon": "NoPosition.png",
+             "children": [
+              {
+               "name": "LICI2331 P. Licinius (71) Crassus Dives",
+               "id": "2331",
+               "bestPos": "praetor",
+               "birthDate": "-100",
+               "deathDate": "0",
+               "closestAncestor": "4141 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+               ]
+              }             ]
+            }           ]
+          }         ]
+        },
+        {
+         "name": "LICI4889 P. Licinius (A) Crassus Dives",
+         "id": "4889",
+         "bestPos": "",
+         "birthDate": "-225",
+         "deathDate": "-125",
+         "closestAncestor": "926 (Conservative)",
+         "icon": "NoPosition.png",
+         "children": [
+         ]
+        }       ]
+      }     ]
+    },
+    {
+     "name": "LICI1037 -. Licinius (4)",
+     "id": "1037",
+     "bestPos": "",
+     "birthDate": "-250",
+     "deathDate": "-150",
+     "closestAncestor": "4998 (Aggressive)",
+     "icon": "NoPosition.png",
+     "children": [
+      {
+       "name": "LICI3102 P. Licinius (27)",
+       "id": "3102",
+       "bestPos": "",
+       "birthDate": "-225",
+       "deathDate": "25",
+       "closestAncestor": "1037 (Aggressive)",
+       "icon": "NoPosition.png",
+       "children": [
+       ]
+      }     ]
+    }   ]
+  } ]
+};
+// Set the dimensions and margins of the diagram
+var margin = {top: 120, right: 90, bottom: 30, left: 90},
+    width = 1500 - margin.left - margin.right,
+    height = 
+ 1320;
+// append the svg object to the body of the page
+// appends a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.right + margin.left)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate("
+          + margin.left + "," + margin.top + ")");
+
+var i = 0,
+    duration = 750,
+    root;
+
+var tip = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([-10, 0])
+  .html(function(d) {
+    return "<span style='color:red'>" + d.data.name + "</span><br><strong>Born:</strong> <span style='color:red'>" + d.data.birthDate + "</span> <strong>Died:</strong> <span style='color:red'>" + d.data.deathDate + "</span><br><strong>Highest Position:</strong> <span style='color:red'>" + d.data.bestPos + "</span><br><strong>Closest Ancestor:</strong> <span style='color:red'>" + d.data.closestAncestor + "</span>";
+  })
+
+svg.call(tip);
+
+// declares a tree layout and assigns the size
+var treemap = d3.tree().size([width, height]);
+
+// Assigns parent, children, height, depth
+root = d3.hierarchy(treeData, function(d) { return d.children; });
+
+update(root);
+
+function update(source) {
+
+  // Assigns the x and y position for the nodes
+  var treeData = treemap(root);
+
+  // Compute the new tree layout.
+  var nodes = treeData.descendants(),
+      links = treeData.descendants().slice(1);
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d){ d.y = d.depth * 100});
+
+  // ****************** Nodes section ***************************
+
+  // Update the nodes...
+  var node = svg.selectAll('g.node')
+      .data(nodes, function(d) {return d.id || (d.id = ++i); })
+
+  // Enter any new modes at the parent's previous position.
+  var nodeEnter = node.enter().append('g')
+      
+   .append("image")
+      .attr('class', 'node') 
+      .attr('x', -12)
+      .attr('y', -18)
+      .attr('height', 40)
+      .attr('width', 24)
+      .attr("xlink:href", function(d) {
+           return d.data.icon;
+        })
+ 
+   
+   .on('mouseover', tip.show)
+      .on('mouseout', tip.hide)
+      .on('click', function(d) {
+        window.open(
+       'http://romanrepublic.ac.uk/person/' + d.data.id + '/',
+       '_blank'
+       );});
+
+  // UPDATE
+  var nodeUpdate = nodeEnter.merge(node);
+
+  // Transition to the proper position for the node
+  nodeUpdate.transition()
+    .duration(duration)
+    .attr("transform", function(d) { 
+        return "translate(" + d.x + "," + d.y + ")";
+     });
+
+  // ****************** links section ***************************
+
+  // Update the links...
+  var link = svg.selectAll('path.link')
+      .data(links, function(d) { return d.id; });
+
+  // Enter any new links at the parent's previous position.
+  var linkEnter = link.enter().insert('path', "g")
+      .attr("class", "link")
+      //.attr('d', function(d){
+      //  var o = {x: source.x0, y: source.y0}
+      //  return diagonal(o, o)
+      //});
+
+  // UPDATE
+  var linkUpdate = linkEnter.merge(link);
+
+  // Transition back to the parent element position
+  linkUpdate.transition()
+      .duration(duration)
+      .attr('d', function(d){ return diagonal(d, d.parent) });
+
+  // Remove any exiting links
+  var linkExit = link.exit().transition()
+      .duration(duration)
+      .attr('d', function(d) {
+        var o = {x: source.x, y: source.y}
+        return diagonal(o, o)
+      })
+      .remove();
+
+  // Store the old positions for transition.
+  nodes.forEach(function(d){
+    d.x0 = d.x;
+    d.y0 = d.y;
+  });
+
+  // Creates a curved (diagonal) path from parent to the child nodes
+  function diagonal(s, d) {
+
+    path = `M ${s.x} ${s.y}
+            C ${(s.x + d.x) / 2} ${s.y},
+              ${(s.x + d.x) / 2} ${d.y},
+              ${d.x} ${d.y}`
+
+    return path
+  }
+
+  // Toggle children on click.
+  //function click(d) {
+  //  if (d.children) {
+  //      d._children = d.children;
+  //      d.children = null;
+  //    } else {
+  //      d.children = d._children;
+  //      d._children = null;
+  //    }
+  //  update(d);
+  //}
+}
+
+svg.append("text")
+        .attr("x", (1200 / 2) - 150)             
+        .attr("y", -70)
+        .attr("text-anchor", "middle")  
+        .style("font-size", "16px") 
+        .text("Descendants of LICI0041 C. Licinius (11) - Hyperaggressive Model");
+</script>
+</body>

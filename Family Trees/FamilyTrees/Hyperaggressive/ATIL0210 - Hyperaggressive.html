@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<style>
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+</style>
+
+<body>
+
+<!-- load the d3.js library -->	
+<meta charset="utf-8">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+<script>
+
+var treeData =
+{
+ "name": "ATIL0210 L. Atilius (41) Luscus",
+ "id": "210",
+ "bestPos": "",
+ "birthDate": "-475",
+ "deathDate": "-375",
+ "closestAncestor": "none",
+ "icon": "NoPosition.png",
+ "children": [
+  {
+   "name": "ATIL0361 L. Atilius (46) L. f. L. n. Priscus",
+   "id": "361",
+   "bestPos": "",
+   "birthDate": "-450",
+   "deathDate": "-325",
+   "closestAncestor": "210 (Hyperaggressive)",
+   "icon": "NoPosition.png",
+   "children": [
+    {
+     "name": "ATIL0547 M. Atilius (49) Regulus Calenus",
+     "id": "547",
+     "bestPos": "consul",
+     "birthDate": "-375",
+     "deathDate": "-275",
+     "closestAncestor": "361 (Hyperaggressive)",
+     "icon": "Praetexta.png",
+     "children": [
+      {
+       "name": "ATIL4350 A. Atilius (35) Calatinus",
+       "id": "4350",
+       "bestPos": "",
+       "birthDate": "-350",
+       "deathDate": "-250",
+       "closestAncestor": "547 (Hyperaggressive)",
+       "icon": "NoPosition.png",
+       "children": [
+        {
+         "name": "ATIL0727 A. Atilius (36) A. f. C. n. Caiatinus",
+         "id": "727",
+         "bestPos": "triumphator",
+         "birthDate": "-295",
+         "deathDate": "-175",
+         "closestAncestor": "4350 (Conservative)",
+         "icon": "Picta.png",
+         "children": [
+         ]
+        }       ]
+      },
+      {
+       "name": "ATIL0600 L. Atilius (12)",
+       "id": "600",
+       "bestPos": "",
+       "birthDate": "-350",
+       "deathDate": "-250",
+       "closestAncestor": "547 (Hyperaggressive)",
+       "icon": "NoPosition.png",
+       "children": [
+        {
+         "name": "ATIL0875 L. Atilius (13)",
+         "id": "875",
+         "bestPos": "",
+         "birthDate": "-250",
+         "deathDate": "-216",
+         "closestAncestor": "600 (Aggressive)",
+         "icon": "NoPosition.png",
+         "children": [
+          {
+           "name": "ATIL0964 L. Atilius (15 cf. 13 14 16)",
+           "id": "964",
+           "bestPos": "",
+           "birthDate": "-225",
+           "deathDate": "-216",
+           "closestAncestor": "875 (Aggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "ATIL1431 L. Atilius (not in RE)",
+             "id": "1431",
+             "bestPos": "",
+             "birthDate": "-200",
+             "deathDate": "-100",
+             "closestAncestor": "964 (Aggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+              {
+               "name": "ATIL2944 P. Atilius (not in RE) L. f.",
+               "id": "2944",
+               "bestPos": "praetor",
+               "birthDate": "-175",
+               "deathDate": "-50",
+               "closestAncestor": "1431 (Aggressive)",
+               "icon": "Praetexta.png",
+               "children": [
+                {
+                 "name": "ATIL5197 A. Atilius (10)",
+                 "id": "5197",
+                 "bestPos": "",
+                 "birthDate": "-125",
+                 "deathDate": "-25",
+                 "closestAncestor": "2944 (Aggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                  {
+                   "name": "ATIL5198 L. Atilius (cf. 10) A. f.",
+                   "id": "5198",
+                   "bestPos": "",
+                   "birthDate": "-100",
+                   "deathDate": "-1",
+                   "closestAncestor": "5197 (Conservative)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  },
+                  {
+                   "name": "ATIL4485 -. Atilius (4)",
+                   "id": "4485",
+                   "bestPos": "",
+                   "birthDate": "-100",
+                   "deathDate": "0",
+                   "closestAncestor": "5197 (Aggressive)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  },
+                  {
+                   "name": "ATIL2246 P. Atilius (23)",
+                   "id": "2246",
+                   "bestPos": "",
+                   "birthDate": "-100",
+                   "deathDate": "0",
+                   "closestAncestor": "5197 (Aggressive)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                    {
+                     "name": "ATIL4570 C. Atilius (not in RE) Tro. Glabrio",
+                     "id": "4570",
+                     "bestPos": "",
+                     "birthDate": "-75",
+                     "deathDate": "25",
+                     "closestAncestor": "2246 (Hyperaggressive)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                     ]
+                    },
+                    {
+                     "name": "ATIL5115 -. Atilius (5)",
+                     "id": "5115",
+                     "bestPos": "",
+                     "birthDate": "-75",
+                     "deathDate": "25",
+                     "closestAncestor": "2246 (Aggressive)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                     ]
+                    }                   ]
+                  }                 ]
+                }               ]
+              },
+              {
+               "name": "ATIL1669 L. Atilius (44 cf. Nomentanus 1) Cor. Nomentanus",
+               "id": "1669",
+               "bestPos": "",
+               "birthDate": "-175",
+               "deathDate": "-50",
+               "closestAncestor": "1431 (Hyperaggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              }             ]
+            },
+            {
+             "name": "ATIL3593 M. Atilius (67 cf. 22) Saranus",
+             "id": "3593",
+             "bestPos": "",
+             "birthDate": "-200",
+             "deathDate": "-75",
+             "closestAncestor": "964 (Hyperaggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+             ]
+            }           ]
+          }         ]
+        },
+        {
+         "name": "ATIL0887 M. Atilius (20)",
+         "id": "887",
+         "bestPos": "",
+         "birthDate": "-250",
+         "deathDate": "-150",
+         "closestAncestor": "600 (Aggressive)",
+         "icon": "NoPosition.png",
+         "children": [
+         ]
+        },
+        {
+         "name": "ATIL0900 L. Atilius (14)",
+         "id": "900",
+         "bestPos": "",
+         "birthDate": "-250",
+         "deathDate": "-150",
+         "closestAncestor": "600 (Aggressive)",
+         "icon": "NoPosition.png",
+         "children": [
+         ]
+        },
+        {
+         "name": "ATIL1099 L. Atilius (16)",
+         "id": "1099",
+         "bestPos": "praetor",
+         "birthDate": "-250",
+         "deathDate": "-125",
+         "closestAncestor": "600 (Aggressive)",
+         "icon": "Praetexta.png",
+         "children": [
+         ]
+        }       ]
+      },
+      {
+       "name": "ATIL0647 M. Atilius (50) M. f. M. n. Regulus",
+       "id": "647",
+       "bestPos": "triumphator",
+       "birthDate": "-325",
+       "deathDate": "-225",
+       "closestAncestor": "547 (Conservative)",
+       "icon": "Picta.png",
+       "children": [
+        {
+         "name": "ATIL0703 M. Atilius (51) M. f. L. n. Pup. Regulus",
+         "id": "703",
+         "bestPos": "triumphator",
+         "birthDate": "-300",
+         "deathDate": "-250",
+         "closestAncestor": "647 (Aggressive)",
+         "icon": "Picta.png",
+         "children": [
+          {
+           "name": "ATIL0813 C. Atilius (48) M. f. M. n. Regulus",
+           "id": "813",
+           "bestPos": "consul",
+           "birthDate": "-263",
+           "deathDate": "-225",
+           "closestAncestor": "703 (Aggressive)",
+           "icon": "Praetexta.png",
+           "children": [
+            {
+             "name": "ATIL0888 C. Atilius (11)",
+             "id": "888",
+             "bestPos": "praetor",
+             "birthDate": "-250",
+             "deathDate": "-150",
+             "closestAncestor": "813 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+             ]
+            },
+            {
+             "name": "ATIL0912 M. Atilius (53) Regulus",
+             "id": "912",
+             "bestPos": "praetor",
+             "birthDate": "-243",
+             "deathDate": "-150",
+             "closestAncestor": "813 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+             ]
+            }           ]
+          },
+          {
+           "name": "ATIL0806 M. Atilius (52) M. f. M. n. Regulus",
+           "id": "806",
+           "bestPos": "consul",
+           "birthDate": "-263",
+           "deathDate": "-216",
+           "closestAncestor": "703 (Conservative)",
+           "icon": "Praetexta.png",
+           "children": [
+           ]
+          },
+          {
+           "name": "ATIL0763 C. Atilius (33) A. f. A. n. Bulbus",
+           "id": "763",
+           "bestPos": "consul",
+           "birthDate": "-275",
+           "deathDate": "-175",
+           "closestAncestor": "703 (Hyperaggressive)",
+           "icon": "Praetexta.png",
+           "children": [
+            {
+             "name": "ATIL0835 C. Atilius (62) Serranus",
+             "id": "835",
+             "bestPos": "praetor",
+             "birthDate": "-250",
+             "deathDate": "-150",
+             "closestAncestor": "763 (Hyperaggressive)",
+             "icon": "Praetexta.png",
+             "children": [
+              {
+               "name": "ATIL1228 C. Atilius (63 cf. 60) Serranus",
+               "id": "1228",
+               "bestPos": "praetor",
+               "birthDate": "-225",
+               "deathDate": "-125",
+               "closestAncestor": "835 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "ATIL1329 M. Atilius (21 68) (Serranus)",
+               "id": "1329",
+               "bestPos": "praetor",
+               "birthDate": "-225",
+               "deathDate": "-100",
+               "closestAncestor": "835 (Hyperaggressive)",
+               "icon": "Praetexta.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "ATIL1140 A. Atilius (60) C. f. C. n. Serranus",
+               "id": "1140",
+               "bestPos": "consul",
+               "birthDate": "-225",
+               "deathDate": "-100",
+               "closestAncestor": "835 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "ATIL1187 M. Atilius (68) Serranus",
+               "id": "1187",
+               "bestPos": "praetor",
+               "birthDate": "-215",
+               "deathDate": "-100",
+               "closestAncestor": "835 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+                {
+                 "name": "ATIL1499 M. Atilius (22) (Serranus)",
+                 "id": "1499",
+                 "bestPos": "praetor",
+                 "birthDate": "-200",
+                 "deathDate": "-75",
+                 "closestAncestor": "1187 (Conservative)",
+                 "icon": "Praetexta.png",
+                 "children": [
+                 ]
+                },
+                {
+                 "name": "ATIL1572 Sex. Atilius (69) M. f. Serranus",
+                 "id": "1572",
+                 "bestPos": "consul",
+                 "birthDate": "-200",
+                 "deathDate": "-75",
+                 "closestAncestor": "1187 (Conservative)",
+                 "icon": "Praetexta.png",
+                 "children": [
+                  {
+                   "name": "ATIL4263 -. Atilius (58) Serranus",
+                   "id": "4263",
+                   "bestPos": "",
+                   "birthDate": "-175",
+                   "deathDate": "-75",
+                   "closestAncestor": "1572 (Aggressive)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  },
+                  {
+                   "name": "ATIL1730 C. Atilius (64) Cam. Serranus",
+                   "id": "1730",
+                   "bestPos": "consul",
+                   "birthDate": "-150",
+                   "deathDate": "-50",
+                   "closestAncestor": "1572 (Conservative)",
+                   "icon": "Praetexta.png",
+                   "children": [
+                    {
+                     "name": "ATIL4137 -. Atilius (A) Serranus",
+                     "id": "4137",
+                     "bestPos": "",
+                     "birthDate": "-125",
+                     "deathDate": "-25",
+                     "closestAncestor": "1730 (Conservative)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                      {
+                       "name": "ATIL4620 Sex. Atilius (not in RE) Sex. f. Aem. Serranus",
+                       "id": "4620",
+                       "bestPos": "",
+                       "birthDate": "-100",
+                       "deathDate": "25",
+                       "closestAncestor": "4137 (Aggressive)",
+                       "icon": "NoPosition.png",
+                       "children": [
+                       ]
+                      }                     ]
+                    }                   ]
+                  }                 ]
+                }               ]
+              }             ]
+            },
+            {
+             "name": "ATIL3153 M. Atilius (34) Bulbus",
+             "id": "3153",
+             "bestPos": "",
+             "birthDate": "-125",
+             "deathDate": "0",
+             "closestAncestor": "763 (Aggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+             ]
+            }           ]
+          }         ]
+        },
+        {
+         "name": "ATIL0732 C. Atilius (47) M. f. M. n. Regulus",
+         "id": "732",
+         "bestPos": "triumphator",
+         "birthDate": "-300",
+         "deathDate": "-200",
+         "closestAncestor": "647 (Aggressive)",
+         "icon": "Picta.png",
+         "children": [
+         ]
+        }       ]
+      }     ]
+    }   ]
+  } ]
+};
+// Set the dimensions and margins of the diagram
+var margin = {top: 120, right: 90, bottom: 30, left: 90},
+    width = 1500 - margin.left - margin.right,
+    height = 
+ 1440;
+// append the svg object to the body of the page
+// appends a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.right + margin.left)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate("
+          + margin.left + "," + margin.top + ")");
+
+var i = 0,
+    duration = 750,
+    root;
+
+var tip = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([-10, 0])
+  .html(function(d) {
+    return "<span style='color:red'>" + d.data.name + "</span><br><strong>Born:</strong> <span style='color:red'>" + d.data.birthDate + "</span> <strong>Died:</strong> <span style='color:red'>" + d.data.deathDate + "</span><br><strong>Highest Position:</strong> <span style='color:red'>" + d.data.bestPos + "</span><br><strong>Closest Ancestor:</strong> <span style='color:red'>" + d.data.closestAncestor + "</span>";
+  })
+
+svg.call(tip);
+
+// declares a tree layout and assigns the size
+var treemap = d3.tree().size([width, height]);
+
+// Assigns parent, children, height, depth
+root = d3.hierarchy(treeData, function(d) { return d.children; });
+
+update(root);
+
+function update(source) {
+
+  // Assigns the x and y position for the nodes
+  var treeData = treemap(root);
+
+  // Compute the new tree layout.
+  var nodes = treeData.descendants(),
+      links = treeData.descendants().slice(1);
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d){ d.y = d.depth * 100});
+
+  // ****************** Nodes section ***************************
+
+  // Update the nodes...
+  var node = svg.selectAll('g.node')
+      .data(nodes, function(d) {return d.id || (d.id = ++i); })
+
+  // Enter any new modes at the parent's previous position.
+  var nodeEnter = node.enter().append('g')
+      
+   .append("image")
+      .attr('class', 'node') 
+      .attr('x', -12)
+      .attr('y', -18)
+      .attr('height', 40)
+      .attr('width', 24)
+      .attr("xlink:href", function(d) {
+           return d.data.icon;
+        })
+ 
+   
+   .on('mouseover', tip.show)
+      .on('mouseout', tip.hide)
+      .on('click', function(d) {
+        window.open(
+       'http://romanrepublic.ac.uk/person/' + d.data.id + '/',
+       '_blank'
+       );});
+
+  // UPDATE
+  var nodeUpdate = nodeEnter.merge(node);
+
+  // Transition to the proper position for the node
+  nodeUpdate.transition()
+    .duration(duration)
+    .attr("transform", function(d) { 
+        return "translate(" + d.x + "," + d.y + ")";
+     });
+
+  // ****************** links section ***************************
+
+  // Update the links...
+  var link = svg.selectAll('path.link')
+      .data(links, function(d) { return d.id; });
+
+  // Enter any new links at the parent's previous position.
+  var linkEnter = link.enter().insert('path', "g")
+      .attr("class", "link")
+      //.attr('d', function(d){
+      //  var o = {x: source.x0, y: source.y0}
+      //  return diagonal(o, o)
+      //});
+
+  // UPDATE
+  var linkUpdate = linkEnter.merge(link);
+
+  // Transition back to the parent element position
+  linkUpdate.transition()
+      .duration(duration)
+      .attr('d', function(d){ return diagonal(d, d.parent) });
+
+  // Remove any exiting links
+  var linkExit = link.exit().transition()
+      .duration(duration)
+      .attr('d', function(d) {
+        var o = {x: source.x, y: source.y}
+        return diagonal(o, o)
+      })
+      .remove();
+
+  // Store the old positions for transition.
+  nodes.forEach(function(d){
+    d.x0 = d.x;
+    d.y0 = d.y;
+  });
+
+  // Creates a curved (diagonal) path from parent to the child nodes
+  function diagonal(s, d) {
+
+    path = `M ${s.x} ${s.y}
+            C ${(s.x + d.x) / 2} ${s.y},
+              ${(s.x + d.x) / 2} ${d.y},
+              ${d.x} ${d.y}`
+
+    return path
+  }
+
+  // Toggle children on click.
+  //function click(d) {
+  //  if (d.children) {
+  //      d._children = d.children;
+  //      d.children = null;
+  //    } else {
+  //      d.children = d._children;
+  //      d._children = null;
+  //    }
+  //  update(d);
+  //}
+}
+
+svg.append("text")
+        .attr("x", (1200 / 2) - 150)             
+        .attr("y", -70)
+        .attr("text-anchor", "middle")  
+        .style("font-size", "16px") 
+        .text("Descendants of ATIL0210 L. Atilius (41) Luscus - Hyperaggressive Model");
+</script>
+</body>

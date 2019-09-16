@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<style>
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+</style>
+
+<body>
+
+<!-- load the d3.js library -->	
+<meta charset="utf-8">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+<script>
+
+var treeData =
+{
+ "name": "PAPI0008 C. Papirius (10)",
+ "id": "8",
+ "bestPos": "",
+ "birthDate": "-550",
+ "deathDate": "-450",
+ "closestAncestor": "none",
+ "icon": "NoPosition.png",
+ "children": [
+  {
+   "name": "PAPI0220 M. (or M'.) Papirius (47) Crassus",
+   "id": "220",
+   "bestPos": "consul",
+   "birthDate": "-500",
+   "deathDate": "-375",
+   "closestAncestor": "8 (Hyperaggressive)",
+   "icon": "Praetexta.png",
+   "children": [
+    {
+     "name": "PAPI0240 L. Papirius (10 43) Crassus",
+     "id": "240",
+     "bestPos": "consul",
+     "birthDate": "-475",
+     "deathDate": "-375",
+     "closestAncestor": "220 (Aggressive)",
+     "icon": "Praetexta.png",
+     "children": [
+      {
+       "name": "PAPI0433 C. Papirius (42) Crassus",
+       "id": "433",
+       "bestPos": "",
+       "birthDate": "-425",
+       "deathDate": "-325",
+       "closestAncestor": "240 (Aggressive)",
+       "icon": "NoPosition.png",
+       "children": [
+        {
+         "name": "PAPI0478 L. Papirius (44) Sp. f. C. n. Crassus",
+         "id": "478",
+         "bestPos": "",
+         "birthDate": "-400",
+         "deathDate": "-300",
+         "closestAncestor": "433 (Aggressive)",
+         "icon": "NoPosition.png",
+         "children": [
+          {
+           "name": "PAPI0533 L. Papirius (45) L. f. L. n. Crassus",
+           "id": "533",
+           "bestPos": "consul",
+           "birthDate": "-370",
+           "deathDate": "-275",
+           "closestAncestor": "478 (Aggressive)",
+           "icon": "Praetexta.png",
+           "children": [
+           ]
+          },
+          {
+           "name": "PAPI0553 M. Papirius (48 cf. 22) Crassus",
+           "id": "553",
+           "bestPos": "",
+           "birthDate": "-375",
+           "deathDate": "-275",
+           "closestAncestor": "478 (Aggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+           ]
+          },
+          {
+           "name": "PAPI0585 L. Papirius (46) L. f. M. n. Crassus",
+           "id": "585",
+           "bestPos": "praetor",
+           "birthDate": "-375",
+           "deathDate": "-250",
+           "closestAncestor": "478 (Aggressive)",
+           "icon": "Praetexta.png",
+           "children": [
+           ]
+          }         ]
+        }       ]
+      },
+      {
+       "name": "PAPI0438 Sp. Papirius (49) Crassus",
+       "id": "438",
+       "bestPos": "",
+       "birthDate": "-425",
+       "deathDate": "-325",
+       "closestAncestor": "240 (Aggressive)",
+       "icon": "NoPosition.png",
+       "children": [
+       ]
+      },
+      {
+       "name": "PAPI0446 Ti. Papirius (50) Crassus",
+       "id": "446",
+       "bestPos": "",
+       "birthDate": "-425",
+       "deathDate": "-325",
+       "closestAncestor": "240 (Aggressive)",
+       "icon": "NoPosition.png",
+       "children": [
+       ]
+      }     ]
+    },
+    {
+     "name": "PAPI0260 C. Papirius (see 10 43) Crassus",
+     "id": "260",
+     "bestPos": "consul",
+     "birthDate": "-475",
+     "deathDate": "-375",
+     "closestAncestor": "220 (Aggressive)",
+     "icon": "Praetexta.png",
+     "children": [
+     ]
+    }   ]
+  },
+  {
+   "name": "PAPI0262 L. Papirius (13 cf. 65)",
+   "id": "262",
+   "bestPos": "censor",
+   "birthDate": "-475",
+   "deathDate": "-375",
+   "closestAncestor": "8 (Aggressive)",
+   "icon": "Purpurea.png",
+   "children": [
+    {
+     "name": "PAPI0516 M. Papirius (22 cf. 48)",
+     "id": "516",
+     "bestPos": "",
+     "birthDate": "-400",
+     "deathDate": "-300",
+     "closestAncestor": "262 (Aggressive)",
+     "icon": "NoPosition.png",
+     "children": [
+      {
+       "name": "PAPI3016 L. Papirius (18)",
+       "id": "3016",
+       "bestPos": "",
+       "birthDate": "-275",
+       "deathDate": "-50",
+       "closestAncestor": "516 (Aggressive)",
+       "icon": "NoPosition.png",
+       "children": [
+        {
+         "name": "PAPI3017 Q. Papirius (24)",
+         "id": "3017",
+         "bestPos": "",
+         "birthDate": "-225",
+         "deathDate": "-100",
+         "closestAncestor": "3016 (Aggressive)",
+         "icon": "NoPosition.png",
+         "children": [
+          {
+           "name": "PAPI3235 -. Papirius (7) Qui.",
+           "id": "3235",
+           "bestPos": "",
+           "birthDate": "-175",
+           "deathDate": "-75",
+           "closestAncestor": "3017 (Aggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "PAPI4590 M. Papirius (not in RE)",
+             "id": "4590",
+             "bestPos": "",
+             "birthDate": "-100",
+             "deathDate": "0",
+             "closestAncestor": "3235 (Aggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+             ]
+            },
+            {
+             "name": "PAPI3019 -. Papirius (not in RE)",
+             "id": "3019",
+             "bestPos": "",
+             "birthDate": "-100",
+             "deathDate": "25",
+             "closestAncestor": "3235 (Aggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+             ]
+            }           ]
+          }         ]
+        }       ]
+      }     ]
+    }   ]
+  },
+  {
+   "name": "PAPI0194 M. Papirius (21 cf. 47) (Crassus)",
+   "id": "194",
+   "bestPos": "",
+   "birthDate": "-500",
+   "deathDate": "-375",
+   "closestAncestor": "8 (Hyperaggressive)",
+   "icon": "NoPosition.png",
+   "children": [
+    {
+     "name": "PAPI0267 L. Papirius (cf. 65) (L. f. - n.) Mugillanus",
+     "id": "267",
+     "bestPos": "consul",
+     "birthDate": "-475",
+     "deathDate": "-350",
+     "closestAncestor": "194 (Hyperaggressive)",
+     "icon": "Praetexta.png",
+     "children": [
+     ]
+    },
+    {
+     "name": "PAPI0212 L. Papirius (65) Mugillanus",
+     "id": "212",
+     "bestPos": "consul",
+     "birthDate": "-475",
+     "deathDate": "-350",
+     "closestAncestor": "194 (Hyperaggressive)",
+     "icon": "Praetexta.png",
+     "children": [
+      {
+       "name": "PAPI0314 M. Papirius (30 68) L. f.  Mugillanus (or Atratinus)",
+       "id": "314",
+       "bestPos": "consul",
+       "birthDate": "-450",
+       "deathDate": "-350",
+       "closestAncestor": "212 (Hyperaggressive)",
+       "icon": "Praetexta.png",
+       "children": [
+       ]
+      },
+      {
+       "name": "PAPI0295 M. Papirius (68) L. f. - n. Mugillanus",
+       "id": "295",
+       "bestPos": "",
+       "birthDate": "-450",
+       "deathDate": "-350",
+       "closestAncestor": "212 (Aggressive)",
+       "icon": "NoPosition.png",
+       "children": [
+        {
+         "name": "PAPI0389 L. Papirius (51) Cursor",
+         "id": "389",
+         "bestPos": "",
+         "birthDate": "-425",
+         "deathDate": "-325",
+         "closestAncestor": "295 (Hyperaggressive)",
+         "icon": "NoPosition.png",
+         "children": [
+          {
+           "name": "PAPI4989 Sp. Papirius (not in RE) Cursor",
+           "id": "4989",
+           "bestPos": "",
+           "birthDate": "-400",
+           "deathDate": "-300",
+           "closestAncestor": "389 (Aggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "PAPI0534 L. Papirius (52) Sp. f. L. n. Cursor",
+             "id": "534",
+             "bestPos": "triumphator",
+             "birthDate": "-364",
+             "deathDate": "-250",
+             "closestAncestor": "4989 (Conservative)",
+             "icon": "Picta.png",
+             "children": [
+              {
+               "name": "PAPI0695 L. Papirius (72) L. f. M. n. Praetextatus",
+               "id": "695",
+               "bestPos": "censor",
+               "birthDate": "-325",
+               "deathDate": "-272",
+               "closestAncestor": "534 (Hyperaggressive)",
+               "icon": "Purpurea.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "PAPI0655 Sp. Papirius (26) (Cursor)",
+               "id": "655",
+               "bestPos": "",
+               "birthDate": "-325",
+               "deathDate": "-225",
+               "closestAncestor": "534 (Hyperaggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "PAPI0659 L. Papirius (61) Maso",
+               "id": "659",
+               "bestPos": "",
+               "birthDate": "-325",
+               "deathDate": "-225",
+               "closestAncestor": "534 (Hyperaggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+                {
+                 "name": "PAPI4993 C. Papirius (B) Maso",
+                 "id": "4993",
+                 "bestPos": "",
+                 "birthDate": "-300",
+                 "deathDate": "-200",
+                 "closestAncestor": "659 (Conservative)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                  {
+                   "name": "PAPI4665 C. Papirius (57) C. f. L. n. Maso",
+                   "id": "4665",
+                   "bestPos": "triumphator",
+                   "birthDate": "-275",
+                   "deathDate": "-213",
+                   "closestAncestor": "4993 (Conservative)",
+                   "icon": "Picta.png",
+                   "children": [
+                    {
+                     "name": "PAPI0849 C. Papirius (58 cf. 23) Maso",
+                     "id": "849",
+                     "bestPos": "",
+                     "birthDate": "-250",
+                     "deathDate": "-150",
+                     "closestAncestor": "4665 (Aggressive)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                      {
+                       "name": "PAPI1315 C. Papirius (76) Turdus",
+                       "id": "1315",
+                       "bestPos": "",
+                       "birthDate": "-225",
+                       "deathDate": "-125",
+                       "closestAncestor": "849 (Hyperaggressive)",
+                       "icon": "NoPosition.png",
+                       "children": [
+                        {
+                         "name": "PAPI1411 C. Papirius (32) Carbo",
+                         "id": "1411",
+                         "bestPos": "praetor",
+                         "birthDate": "-200",
+                         "deathDate": "-100",
+                         "closestAncestor": "1315 (Hyperaggressive)",
+                         "icon": "Praetexta.png",
+                         "children": [
+                          {
+                           "name": "PAPI1623 C. Papirius (33) C. f. Carbo",
+                           "id": "1623",
+                           "bestPos": "consul",
+                           "birthDate": "-163",
+                           "deathDate": "-119",
+                           "closestAncestor": "1411 (Conservative)",
+                           "icon": "Praetexta.png",
+                           "children": [
+                            {
+                             "name": "PAPI1835 C. Papirius (40) C. f. Carbo Arvina",
+                             "id": "1835",
+                             "bestPos": "praetor",
+                             "birthDate": "-124",
+                             "deathDate": "-82",
+                             "closestAncestor": "1623 (Conservative)",
+                             "icon": "Praetexta.png",
+                             "children": [
+                              {
+                               "name": "PAPI2235 C. Papirius (35) Carbo",
+                               "id": "2235",
+                               "bestPos": "praetor",
+                               "birthDate": "-100",
+                               "deathDate": "0",
+                               "closestAncestor": "1835 (Conservative)",
+                               "icon": "Praetexta.png",
+                               "children": [
+                                {
+                                 "name": "PAPI3769 C. Papirius (36) C. f. P. n. Clu. Carbo",
+                                 "id": "3769",
+                                 "bestPos": "",
+                                 "birthDate": "-75",
+                                 "deathDate": "25",
+                                 "closestAncestor": "2235 (Conservative)",
+                                 "icon": "NoPosition.png",
+                                 "children": [
+                                 ]
+                                }                               ]
+                              }                             ]
+                            }                           ]
+                          },
+                          {
+                           "name": "PAPI1689 Cn. Papirius (37) C. f. Carbo",
+                           "id": "1689",
+                           "bestPos": "consul",
+                           "birthDate": "-175",
+                           "deathDate": "-50",
+                           "closestAncestor": "1411 (Conservative)",
+                           "icon": "Praetexta.png",
+                           "children": [
+                            {
+                             "name": "PAPI1843 Cn. Papirius (38) Cn. f. C. n. Carbo",
+                             "id": "1843",
+                             "bestPos": "consul",
+                             "birthDate": "-129",
+                             "deathDate": "-82",
+                             "closestAncestor": "1689 (Conservative)",
+                             "icon": "Praetexta.png",
+                             "children": [
+                             ]
+                            },
+                            {
+                             "name": "PAPI2011 C. Papirius (34) (Cn. f.) Carbo",
+                             "id": "2011",
+                             "bestPos": "praetor",
+                             "birthDate": "-125",
+                             "deathDate": "-80",
+                             "closestAncestor": "1689 (Conservative)",
+                             "icon": "Praetexta.png",
+                             "children": [
+                             ]
+                            },
+                            {
+                             "name": "PAPI3977 L. Papirius (69) Paetus",
+                             "id": "3977",
+                             "bestPos": "",
+                             "birthDate": "-150",
+                             "deathDate": "25",
+                             "closestAncestor": "1689 (Hyperaggressive)",
+                             "icon": "NoPosition.png",
+                             "children": [
+                              {
+                               "name": "PAPI4577 L. Papirius (71) Potamo",
+                               "id": "4577",
+                               "bestPos": "",
+                               "birthDate": "-125",
+                               "deathDate": "0",
+                               "closestAncestor": "3977 (Hyperaggressive)",
+                               "icon": "NoPosition.png",
+                               "children": [
+                               ]
+                              }                             ]
+                            }                           ]
+                          },
+                          {
+                           "name": "PAPI1696 M. Papirius (39) Carbo",
+                           "id": "1696",
+                           "bestPos": "praetor",
+                           "birthDate": "-175",
+                           "deathDate": "-50",
+                           "closestAncestor": "1411 (Conservative)",
+                           "icon": "Praetexta.png",
+                           "children": [
+                            {
+                             "name": "PAPI4917 Cn. Papirius (A) Carbo",
+                             "id": "4917",
+                             "bestPos": "",
+                             "birthDate": "-150",
+                             "deathDate": "-50",
+                             "closestAncestor": "1696 (Conservative)",
+                             "icon": "NoPosition.png",
+                             "children": [
+                             ]
+                            }                           ]
+                          }                         ]
+                        },
+                        {
+                         "name": "PAPI1538 C. Papirius (12) (Carbo)",
+                         "id": "1538",
+                         "bestPos": "",
+                         "birthDate": "-200",
+                         "deathDate": "-75",
+                         "closestAncestor": "1315 (Hyperaggressive)",
+                         "icon": "NoPosition.png",
+                         "children": [
+                         ]
+                        }                       ]
+                      }                     ]
+                    },
+                    {
+                     "name": "PAPI5170 P. Papirius (58 23 64) Maso",
+                     "id": "5170",
+                     "bestPos": "",
+                     "birthDate": "-250",
+                     "deathDate": "-150",
+                     "closestAncestor": "4665 (Aggressive)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                     ]
+                    }                   ]
+                  }                 ]
+                },
+                {
+                 "name": "PAPI5002 L. Papirius (C) Maso",
+                 "id": "5002",
+                 "bestPos": "",
+                 "birthDate": "-300",
+                 "deathDate": "-200",
+                 "closestAncestor": "659 (Conservative)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                  {
+                   "name": "PAPI0921 C. Papirius (58) L. f. Maso",
+                   "id": "921",
+                   "bestPos": "praetor",
+                   "birthDate": "-250",
+                   "deathDate": "-213",
+                   "closestAncestor": "5002 (Conservative)",
+                   "icon": "Praetexta.png",
+                   "children": [
+                    {
+                     "name": "PAPI1322 L. Papirius (62) Maso",
+                     "id": "1322",
+                     "bestPos": "praetor",
+                     "birthDate": "-225",
+                     "deathDate": "-125",
+                     "closestAncestor": "921 (Conservative)",
+                     "icon": "Praetexta.png",
+                     "children": [
+                      {
+                       "name": "PAPI3770 C. (Papirius) (59) Masso",
+                       "id": "3770",
+                       "bestPos": "",
+                       "birthDate": "-175",
+                       "deathDate": "-50",
+                       "closestAncestor": "1322 (Conservative)",
+                       "icon": "NoPosition.png",
+                       "children": [
+                       ]
+                      },
+                      {
+                       "name": "PAPI3771 C. Papirius (60) C. f. Vel. Maso",
+                       "id": "3771",
+                       "bestPos": "",
+                       "birthDate": "-75",
+                       "deathDate": "25",
+                       "closestAncestor": "1322 (Aggressive)",
+                       "icon": "NoPosition.png",
+                       "children": [
+                       ]
+                      }                     ]
+                    }                   ]
+                  }                 ]
+                },
+                {
+                 "name": "PAPI4662 C. Papirius (not in RE) L. f. Maso",
+                 "id": "4662",
+                 "bestPos": "",
+                 "birthDate": "-300",
+                 "deathDate": "250",
+                 "closestAncestor": "659 (Aggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                }               ]
+              },
+              {
+               "name": "PAPI0640 L. Papirius (53) L. f. Sp. n. Cursor",
+               "id": "640",
+               "bestPos": "triumphator",
+               "birthDate": "-324",
+               "deathDate": "-200",
+               "closestAncestor": "534 (Conservative)",
+               "icon": "Picta.png",
+               "children": [
+               ]
+              }             ]
+            }           ]
+          }         ]
+        },
+        {
+         "name": "PAPI0409 L. Papirius (66) Mugillanus",
+         "id": "409",
+         "bestPos": "",
+         "birthDate": "-425",
+         "deathDate": "-325",
+         "closestAncestor": "295 (Aggressive)",
+         "icon": "NoPosition.png",
+         "children": [
+         ]
+        }       ]
+      }     ]
+    }   ]
+  } ]
+};
+// Set the dimensions and margins of the diagram
+var margin = {top: 120, right: 90, bottom: 30, left: 90},
+    width = 1500 - margin.left - margin.right,
+    height = 
+ 2040;
+// append the svg object to the body of the page
+// appends a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.right + margin.left)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate("
+          + margin.left + "," + margin.top + ")");
+
+var i = 0,
+    duration = 750,
+    root;
+
+var tip = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([-10, 0])
+  .html(function(d) {
+    return "<span style='color:red'>" + d.data.name + "</span><br><strong>Born:</strong> <span style='color:red'>" + d.data.birthDate + "</span> <strong>Died:</strong> <span style='color:red'>" + d.data.deathDate + "</span><br><strong>Highest Position:</strong> <span style='color:red'>" + d.data.bestPos + "</span><br><strong>Closest Ancestor:</strong> <span style='color:red'>" + d.data.closestAncestor + "</span>";
+  })
+
+svg.call(tip);
+
+// declares a tree layout and assigns the size
+var treemap = d3.tree().size([width, height]);
+
+// Assigns parent, children, height, depth
+root = d3.hierarchy(treeData, function(d) { return d.children; });
+
+update(root);
+
+function update(source) {
+
+  // Assigns the x and y position for the nodes
+  var treeData = treemap(root);
+
+  // Compute the new tree layout.
+  var nodes = treeData.descendants(),
+      links = treeData.descendants().slice(1);
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d){ d.y = d.depth * 100});
+
+  // ****************** Nodes section ***************************
+
+  // Update the nodes...
+  var node = svg.selectAll('g.node')
+      .data(nodes, function(d) {return d.id || (d.id = ++i); })
+
+  // Enter any new modes at the parent's previous position.
+  var nodeEnter = node.enter().append('g')
+      
+   .append("image")
+      .attr('class', 'node') 
+      .attr('x', -12)
+      .attr('y', -18)
+      .attr('height', 40)
+      .attr('width', 24)
+      .attr("xlink:href", function(d) {
+           return d.data.icon;
+        })
+ 
+   
+   .on('mouseover', tip.show)
+      .on('mouseout', tip.hide)
+      .on('click', function(d) {
+        window.open(
+       'http://romanrepublic.ac.uk/person/' + d.data.id + '/',
+       '_blank'
+       );});
+
+  // UPDATE
+  var nodeUpdate = nodeEnter.merge(node);
+
+  // Transition to the proper position for the node
+  nodeUpdate.transition()
+    .duration(duration)
+    .attr("transform", function(d) { 
+        return "translate(" + d.x + "," + d.y + ")";
+     });
+
+  // ****************** links section ***************************
+
+  // Update the links...
+  var link = svg.selectAll('path.link')
+      .data(links, function(d) { return d.id; });
+
+  // Enter any new links at the parent's previous position.
+  var linkEnter = link.enter().insert('path', "g")
+      .attr("class", "link")
+      //.attr('d', function(d){
+      //  var o = {x: source.x0, y: source.y0}
+      //  return diagonal(o, o)
+      //});
+
+  // UPDATE
+  var linkUpdate = linkEnter.merge(link);
+
+  // Transition back to the parent element position
+  linkUpdate.transition()
+      .duration(duration)
+      .attr('d', function(d){ return diagonal(d, d.parent) });
+
+  // Remove any exiting links
+  var linkExit = link.exit().transition()
+      .duration(duration)
+      .attr('d', function(d) {
+        var o = {x: source.x, y: source.y}
+        return diagonal(o, o)
+      })
+      .remove();
+
+  // Store the old positions for transition.
+  nodes.forEach(function(d){
+    d.x0 = d.x;
+    d.y0 = d.y;
+  });
+
+  // Creates a curved (diagonal) path from parent to the child nodes
+  function diagonal(s, d) {
+
+    path = `M ${s.x} ${s.y}
+            C ${(s.x + d.x) / 2} ${s.y},
+              ${(s.x + d.x) / 2} ${d.y},
+              ${d.x} ${d.y}`
+
+    return path
+  }
+
+  // Toggle children on click.
+  //function click(d) {
+  //  if (d.children) {
+  //      d._children = d.children;
+  //      d.children = null;
+  //    } else {
+  //      d.children = d._children;
+  //      d._children = null;
+  //    }
+  //  update(d);
+  //}
+}
+
+svg.append("text")
+        .attr("x", (1200 / 2) - 150)             
+        .attr("y", -70)
+        .attr("text-anchor", "middle")  
+        .style("font-size", "16px") 
+        .text("Descendants of PAPI0008 C. Papirius (10) - Hyperaggressive Model");
+</script>
+</body>

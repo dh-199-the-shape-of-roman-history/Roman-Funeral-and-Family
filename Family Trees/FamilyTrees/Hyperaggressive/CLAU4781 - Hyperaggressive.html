@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<style>
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+</style>
+
+<body>
+
+<!-- load the d3.js library -->	
+<meta charset="utf-8">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+<script>
+
+var treeData =
+{
+ "name": "CLAU4781 M. Claudius (24)",
+ "id": "4781",
+ "bestPos": "",
+ "birthDate": "-600",
+ "deathDate": "-500",
+ "closestAncestor": "none",
+ "icon": "NoPosition.png",
+ "children": [
+  {
+   "name": "CLAU0032 Ap. Claudius (321) M. f. Sabinus Inregillensis",
+   "id": "32",
+   "bestPos": "consul",
+   "birthDate": "-550",
+   "deathDate": "-425",
+   "closestAncestor": "4781 (Conservative)",
+   "icon": "Praetexta.png",
+   "children": [
+    {
+     "name": "CLAU0141 C. Claudius (322) Ap. f. M. n. Crassus Inregillensis Sabinus",
+     "id": "141",
+     "bestPos": "consul",
+     "birthDate": "-500",
+     "deathDate": "-460",
+     "closestAncestor": "32 (Conservative)",
+     "icon": "Praetexta.png",
+     "children": [
+      {
+       "name": "CLAU0271 Ap. Claudius (121) Ap. f. Ap. n. Crassus",
+       "id": "271",
+       "bestPos": "",
+       "birthDate": "-475",
+       "deathDate": "-350",
+       "closestAncestor": "141 (Aggressive)",
+       "icon": "NoPosition.png",
+       "children": [
+        {
+         "name": "CLAU0367 -. Claudius (not in RE) Ugo",
+         "id": "367",
+         "bestPos": "",
+         "birthDate": "-450",
+         "deathDate": "-325",
+         "closestAncestor": "271 (Hyperaggressive)",
+         "icon": "NoPosition.png",
+         "children": [
+         ]
+        }       ]
+      }     ]
+    },
+    {
+     "name": "CLAU0113 Ap. Claudius (123) Ap. f. M. n. Crassinus Inregillensis Sabinus",
+     "id": "113",
+     "bestPos": "consul",
+     "birthDate": "-525",
+     "deathDate": "-449",
+     "closestAncestor": "32 (Conservative)",
+     "icon": "Praetexta.png",
+     "children": [
+      {
+       "name": "CLAU4782 P. Claudius (cf. 122)",
+       "id": "4782",
+       "bestPos": "",
+       "birthDate": "-500",
+       "deathDate": "-400",
+       "closestAncestor": "113 (Hyperaggressive)",
+       "icon": "NoPosition.png",
+       "children": [
+        {
+         "name": "CLAU0335 Ap. Claudius (122) P. f. Ap. n. Crassus Inregillensis",
+         "id": "335",
+         "bestPos": "triumphator",
+         "birthDate": "-450",
+         "deathDate": "-349",
+         "closestAncestor": "4782 (Conservative)",
+         "icon": "Picta.png",
+         "children": [
+          {
+           "name": "CLAU0543 C. Claudius (183) (Ap. f. P. n. Crassus) Inregillensis",
+           "id": "543",
+           "bestPos": "",
+           "birthDate": "-375",
+           "deathDate": "-275",
+           "closestAncestor": "335 (Conservative)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "CLAU0591 Ap. Claudius (91) C. f. Ap. n. Caecus",
+             "id": "591",
+             "bestPos": "consul",
+             "birthDate": "-341",
+             "deathDate": "-225",
+             "closestAncestor": "543 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+              {
+               "name": "CLAU0702 Ap. Claudius (317) Ap. f. C. n. Russus",
+               "id": "702",
+               "bestPos": "triumphator",
+               "birthDate": "-300",
+               "deathDate": "-268",
+               "closestAncestor": "591 (Conservative)",
+               "icon": "Picta.png",
+               "children": [
+                {
+                 "name": "CLAU0784 M. Claudius (115) Clineas",
+                 "id": "784",
+                 "bestPos": "",
+                 "birthDate": "-275",
+                 "deathDate": "-236",
+                 "closestAncestor": "702 (Hyperaggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                }               ]
+              },
+              {
+               "name": "CLAU0744 P. Claudius (304) Ap. f. C. n. Pulcher",
+               "id": "744",
+               "bestPos": "consul",
+               "birthDate": "-283",
+               "deathDate": "-246",
+               "closestAncestor": "591 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+                {
+                 "name": "CLAU0858 Ap. Claudius (293) P. f. Ap. n. Pulcher",
+                 "id": "858",
+                 "bestPos": "consul",
+                 "birthDate": "-247",
+                 "deathDate": "-211",
+                 "closestAncestor": "744 (Conservative)",
+                 "icon": "Praetexta.png",
+                 "children": [
+                  {
+                   "name": "CLAU1125 C. Claudius (300) Ap. f. P. n. Pulcher",
+                   "id": "1125",
+                   "bestPos": "triumphator",
+                   "birthDate": "-220",
+                   "deathDate": "-167",
+                   "closestAncestor": "858 (Conservative)",
+                   "icon": "Picta.png",
+                   "children": [
+                    {
+                     "name": "CLAU1452 Ap. Claudius (295) Cn. f. Ap. n. Pulcher",
+                     "id": "1452",
+                     "bestPos": "triumphator",
+                     "birthDate": "-179",
+                     "deathDate": "-130",
+                     "closestAncestor": "1125 (Conservative)",
+                     "icon": "Picta.png",
+                     "children": [
+                      {
+                       "name": "CLAU1753 C. Claudius (302) Ap. f. C. n. Pulcher",
+                       "id": "1753",
+                       "bestPos": "consul",
+                       "birthDate": "-141",
+                       "deathDate": "-91",
+                       "closestAncestor": "1452 (Conservative)",
+                       "icon": "Praetexta.png",
+                       "children": [
+                        {
+                         "name": "CLAU4311 -. Claudius (290) Pulcher",
+                         "id": "4311",
+                         "bestPos": "",
+                         "birthDate": "-125",
+                         "deathDate": "-42",
+                         "closestAncestor": "1753 (Conservative)",
+                         "icon": "NoPosition.png",
+                         "children": [
+                          {
+                           "name": "CLAU2952 P. Claudius (306 Clodius 49) P. f. Ap. n. Pulcher",
+                           "id": "2952",
+                           "bestPos": "praetor",
+                           "birthDate": "-100",
+                           "deathDate": "25",
+                           "closestAncestor": "4311 (Aggressive)",
+                           "icon": "Praetexta.png",
+                           "children": [
+                           ]
+                          }                         ]
+                        },
+                        {
+                         "name": "CLAU4760 Ap. Claudius (13)",
+                         "id": "4760",
+                         "bestPos": "",
+                         "birthDate": "-125",
+                         "deathDate": "-25",
+                         "closestAncestor": "1753 (Conservative)",
+                         "icon": "NoPosition.png",
+                         "children": [
+                         ]
+                        }                       ]
+                      },
+                      {
+                       "name": "CLAU1807 Ap. Claudius (296) Ap. f. C. n. Pulcher",
+                       "id": "1807",
+                       "bestPos": "consul",
+                       "birthDate": "-150",
+                       "deathDate": "-76",
+                       "closestAncestor": "1452 (Conservative)",
+                       "icon": "Praetexta.png",
+                       "children": [
+                        {
+                         "name": "CLOD2219 P. Clodius (48) Ap. f. Pal. Pulcher",
+                         "id": "2219",
+                         "bestPos": "",
+                         "birthDate": "-91",
+                         "deathDate": "-52",
+                         "closestAncestor": "1807 (Conservative)",
+                         "icon": "NoPosition.png",
+                         "children": [
+                          {
+                           "name": "CLOD3922 P. Clodius (49) Pulcher",
+                           "id": "3922",
+                           "bestPos": "",
+                           "birthDate": "-75",
+                           "deathDate": "25",
+                           "closestAncestor": "2219 (Conservative)",
+                           "icon": "NoPosition.png",
+                           "children": [
+                           ]
+                          }                         ]
+                        },
+                        {
+                         "name": "CLAU2140 Ap. Claudius (297) Ap. f. Ap. n. Pulcher",
+                         "id": "2140",
+                         "bestPos": "consul",
+                         "birthDate": "-97",
+                         "deathDate": "-48",
+                         "closestAncestor": "1807 (Conservative)",
+                         "icon": "Praetexta.png",
+                         "children": [
+                         ]
+                        },
+                        {
+                         "name": "CLAU2062 C. Claudius (303) Ap. f. Ap. n. Pulcher",
+                         "id": "2062",
+                         "bestPos": "praetor",
+                         "birthDate": "-100",
+                         "deathDate": "-25",
+                         "closestAncestor": "1807 (Conservative)",
+                         "icon": "Praetexta.png",
+                         "children": [
+                          {
+                           "name": "CLAU3430 Ap. Claudius (299 cf. 15) Pulcher",
+                           "id": "3430",
+                           "bestPos": "",
+                           "birthDate": "-75",
+                           "deathDate": "-25",
+                           "closestAncestor": "2062 (Conservative)",
+                           "icon": "NoPosition.png",
+                           "children": [
+                           ]
+                          },
+                          {
+                           "name": "CLAU2867 Ap. Claudius (298) C. f. Ap. n. Pulcher",
+                           "id": "2867",
+                           "bestPos": "triumphator",
+                           "birthDate": "-75",
+                           "deathDate": "0",
+                           "closestAncestor": "2062 (Conservative)",
+                           "icon": "Picta.png",
+                           "children": [
+                            {
+                             "name": "VALE4315 M. Valerius (260) Messalla Barbatus Appianus",
+                             "id": "4315",
+                             "bestPos": "",
+                             "birthDate": "-50",
+                             "deathDate": "50",
+                             "closestAncestor": "2867 (Conservative)",
+                             "icon": "NoPosition.png",
+                             "children": [
+                              {
+                               "name": "VALE4840 M. Valerius (259) Messalla Barbatus",
+                               "id": "4840",
+                               "bestPos": "",
+                               "birthDate": "-25",
+                               "deathDate": "50",
+                               "closestAncestor": "4315 (Conservative)",
+                               "icon": "NoPosition.png",
+                               "children": [
+                               ]
+                              }                             ]
+                            }                           ]
+                          },
+                          {
+                           "name": "CLAU3921 C. Claudius (C) Pulcher",
+                           "id": "3921",
+                           "bestPos": "",
+                           "birthDate": "-75",
+                           "deathDate": "25",
+                           "closestAncestor": "2062 (Conservative)",
+                           "icon": "NoPosition.png",
+                           "children": [
+                           ]
+                          },
+                          {
+                           "name": "CLAU5054 C. Claudius (330) C. f. C. n. Sardus",
+                           "id": "5054",
+                           "bestPos": "",
+                           "birthDate": "-75",
+                           "deathDate": "25",
+                           "closestAncestor": "2062 (Hyperaggressive)",
+                           "icon": "NoPosition.png",
+                           "children": [
+                           ]
+                          }                         ]
+                        }                       ]
+                      }                     ]
+                    }                   ]
+                  },
+                  {
+                   "name": "CLAU1191 P. Claudius (305) Ap. f. P. n. Pulcher",
+                   "id": "1191",
+                   "bestPos": "consul",
+                   "birthDate": "-221",
+                   "deathDate": "-125",
+                   "closestAncestor": "858 (Conservative)",
+                   "icon": "Praetexta.png",
+                   "children": [
+                   ]
+                  },
+                  {
+                   "name": "CLAU1118 Ap. Claudius (294) Ap. f. P. n. Pulcher",
+                   "id": "1118",
+                   "bestPos": "consul",
+                   "birthDate": "-222",
+                   "deathDate": "-100",
+                   "closestAncestor": "858 (Conservative)",
+                   "icon": "Praetexta.png",
+                   "children": [
+                    {
+                     "name": "CLAU1599 Ap. Claudius (11) Pulcher",
+                     "id": "1599",
+                     "bestPos": "consul",
+                     "birthDate": "-175",
+                     "deathDate": "-75",
+                     "closestAncestor": "1118 (Conservative)",
+                     "icon": "Praetexta.png",
+                     "children": [
+                      {
+                       "name": "CLAU3167 Q. Claudius (30) Ap. f. Pol.",
+                       "id": "3167",
+                       "bestPos": "",
+                       "birthDate": "-175",
+                       "deathDate": "-75",
+                       "closestAncestor": "1599 (Conservative)",
+                       "icon": "NoPosition.png",
+                       "children": [
+                        {
+                         "name": "CLAU1945 Ap. Claudius (12)",
+                         "id": "1945",
+                         "bestPos": "",
+                         "birthDate": "-125",
+                         "deathDate": "-25",
+                         "closestAncestor": "3167 (Aggressive)",
+                         "icon": "NoPosition.png",
+                         "children": [
+                          {
+                           "name": "CLAU2190 L. Claudius (21)",
+                           "id": "2190",
+                           "bestPos": "",
+                           "birthDate": "-100",
+                           "deathDate": "0",
+                           "closestAncestor": "1945 (Aggressive)",
+                           "icon": "NoPosition.png",
+                           "children": [
+                           ]
+                          }                         ]
+                        },
+                        {
+                         "name": "CLAU3162 C. Claudius (20a Supb. 3)",
+                         "id": "3162",
+                         "bestPos": "",
+                         "birthDate": "-125",
+                         "deathDate": "0",
+                         "closestAncestor": "3167 (Aggressive)",
+                         "icon": "NoPosition.png",
+                         "children": [
+                         ]
+                        },
+                        {
+                         "name": "CLAU2134 L. Claudius (23) L. f. Lem.",
+                         "id": "2134",
+                         "bestPos": "",
+                         "birthDate": "-125",
+                         "deathDate": "0",
+                         "closestAncestor": "3167 (Aggressive)",
+                         "icon": "NoPosition.png",
+                         "children": [
+                         ]
+                        }                       ]
+                      }                     ]
+                    }                   ]
+                  }                 ]
+                }               ]
+              },
+              {
+               "name": "CLAU4321 Ti. Claudius (248) Nero",
+               "id": "4321",
+               "bestPos": "",
+               "birthDate": "-325",
+               "deathDate": "-225",
+               "closestAncestor": "591 (Conservative)",
+               "icon": "NoPosition.png",
+               "children": [
+                {
+                 "name": "CLAU4805 Ti. Claudius (cf. 246) Nero",
+                 "id": "4805",
+                 "bestPos": "",
+                 "birthDate": "-300",
+                 "deathDate": "-200",
+                 "closestAncestor": "4321 (Aggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                  {
+                   "name": "CLAU0908 C. Claudius (246) Ti. f. Ti. n. Arn. Nero",
+                   "id": "908",
+                   "bestPos": "triumphator",
+                   "birthDate": "-242",
+                   "deathDate": "-125",
+                   "closestAncestor": "4805 (Conservative)",
+                   "icon": "Picta.png",
+                   "children": [
+                    {
+                     "name": "CLAU1295 Ti. Claudius (251) Nero",
+                     "id": "1295",
+                     "bestPos": "praetor",
+                     "birthDate": "-225",
+                     "deathDate": "-100",
+                     "closestAncestor": "908 (Conservative)",
+                     "icon": "Praetexta.png",
+                     "children": [
+                     ]
+                    }                   ]
+                  }                 ]
+                }               ]
+              },
+              {
+               "name": "CLAU0776 C. Claudius (104) Ap. f. C. n. Centho",
+               "id": "776",
+               "bestPos": "consul",
+               "birthDate": "-274",
+               "deathDate": "-150",
+               "closestAncestor": "591 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+                {
+                 "name": "CLAU4213 -. Claudius (60) Asellus",
+                 "id": "4213",
+                 "bestPos": "",
+                 "birthDate": "-250",
+                 "deathDate": "-154",
+                 "closestAncestor": "776 (Hyperaggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                },
+                {
+                 "name": "CLAU0994 Q. Claudius (151 cf. 29) (Flamen)",
+                 "id": "994",
+                 "bestPos": "praetor",
+                 "birthDate": "-250",
+                 "deathDate": "-150",
+                 "closestAncestor": "776 (Hyperaggressive)",
+                 "icon": "Praetexta.png",
+                 "children": [
+                 ]
+                },
+                {
+                 "name": "CLAU1014 Ti. Claudius (61) Asellus",
+                 "id": "1014",
+                 "bestPos": "",
+                 "birthDate": "-250",
+                 "deathDate": "-150",
+                 "closestAncestor": "776 (Hyperaggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                  {
+                   "name": "CLAU1570 Ti. Claudius (63) Asellus",
+                   "id": "1570",
+                   "bestPos": "",
+                   "birthDate": "-175",
+                   "deathDate": "-75",
+                   "closestAncestor": "1014 (Aggressive)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  }                 ]
+                },
+                {
+                 "name": "CLAU1019 Ti. Claudius (62 cf. 61) Asellus",
+                 "id": "1019",
+                 "bestPos": "praetor",
+                 "birthDate": "-250",
+                 "deathDate": "-150",
+                 "closestAncestor": "776 (Hyperaggressive)",
+                 "icon": "Praetexta.png",
+                 "children": [
+                 ]
+                },
+                {
+                 "name": "CLAU1079 C. Claudius (105) Centho",
+                 "id": "1079",
+                 "bestPos": "",
+                 "birthDate": "-250",
+                 "deathDate": "-150",
+                 "closestAncestor": "776 (Conservative)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                  {
+                   "name": "CLAU1481 C. Claudius (106) Centho",
+                   "id": "1481",
+                   "bestPos": "",
+                   "birthDate": "-200",
+                   "deathDate": "-155",
+                   "closestAncestor": "1079 (Conservative)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  },
+                  {
+                   "name": "CLAU1290 Ap. Claudius (103) Centho",
+                   "id": "1290",
+                   "bestPos": "triumphator",
+                   "birthDate": "-225",
+                   "deathDate": "-100",
+                   "closestAncestor": "1079 (Conservative)",
+                   "icon": "Picta.png",
+                   "children": [
+                   ]
+                  }                 ]
+                }               ]
+              }             ]
+            },
+            {
+             "name": "CLAU0713 Ap. Claudius (102) C. f. Ap. n. Caudex",
+             "id": "713",
+             "bestPos": "triumphator",
+             "birthDate": "-300",
+             "deathDate": "-200",
+             "closestAncestor": "543 (Conservative)",
+             "icon": "Picta.png",
+             "children": [
+             ]
+            }           ]
+          },
+          {
+           "name": "CLAU0544 C. Claudius (180) Hortator",
+           "id": "544",
+           "bestPos": "",
+           "birthDate": "-375",
+           "deathDate": "-275",
+           "closestAncestor": "335 (Hyperaggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+           ]
+          },
+          {
+           "name": "CLAU0557 M. Claudius (218) C. f. C. n. Marcellus",
+           "id": "557",
+           "bestPos": "consul",
+           "birthDate": "-375",
+           "deathDate": "-275",
+           "closestAncestor": "335 (Hyperaggressive)",
+           "icon": "Praetexta.png",
+           "children": [
+            {
+             "name": "CLAU0662 M. Claudius (219) (M. f. C. n.) Marcellus",
+             "id": "662",
+             "bestPos": "consul",
+             "birthDate": "-325",
+             "deathDate": "-225",
+             "closestAncestor": "557 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+              {
+               "name": "CLAU0810 M. Claudius (220) M. f. M. n. Marcellus",
+               "id": "810",
+               "bestPos": "triumphator",
+               "birthDate": "-270",
+               "deathDate": "-208",
+               "closestAncestor": "662 (Conservative)",
+               "icon": "Picta.png",
+               "children": [
+                {
+                 "name": "CLAU0997 M. Claudius (222) M. f. M. n. Marcellus",
+                 "id": "997",
+                 "bestPos": "triumphator",
+                 "birthDate": "-229",
+                 "deathDate": "-177",
+                 "closestAncestor": "810 (Conservative)",
+                 "icon": "Picta.png",
+                 "children": [
+                  {
+                   "name": "CLAU1318 M. Claudius (225) M. f. M. n. Marcellus",
+                   "id": "1318",
+                   "bestPos": "triumphator",
+                   "birthDate": "-208",
+                   "deathDate": "-148",
+                   "closestAncestor": "997 (Conservative)",
+                   "icon": "Picta.png",
+                   "children": [
+                    {
+                     "name": "CLAU1851 M. Claudius (227) M. f. Arn. Marcellus",
+                     "id": "1851",
+                     "bestPos": "praetor",
+                     "birthDate": "-125",
+                     "deathDate": "-50",
+                     "closestAncestor": "1318 (Conservative)",
+                     "icon": "Praetexta.png",
+                     "children": [
+                      {
+                       "name": "CLAU2398 M. Claudius (229) M. f. M. n. Marcellus",
+                       "id": "2398",
+                       "bestPos": "consul",
+                       "birthDate": "-95",
+                       "deathDate": "-45",
+                       "closestAncestor": "1851 (Conservative)",
+                       "icon": "Praetexta.png",
+                       "children": [
+                       ]
+                      },
+                      {
+                       "name": "CLAU2397 C. Claudius (217) M. f. M. n. Marcellus",
+                       "id": "2397",
+                       "bestPos": "consul",
+                       "birthDate": "-100",
+                       "deathDate": "-44",
+                       "closestAncestor": "1851 (Conservative)",
+                       "icon": "Praetexta.png",
+                       "children": [
+                       ]
+                      }                     ]
+                    },
+                    {
+                     "name": "CLAU2021 C. Claudius (214) Marcellus",
+                     "id": "2021",
+                     "bestPos": "praetor",
+                     "birthDate": "-119",
+                     "deathDate": "-50",
+                     "closestAncestor": "1318 (Conservative)",
+                     "icon": "Praetexta.png",
+                     "children": [
+                      {
+                       "name": "CLAU2396 C. Claudius (216) C. f. M. n. Marcellus",
+                       "id": "2396",
+                       "bestPos": "consul",
+                       "birthDate": "-100",
+                       "deathDate": "-40",
+                       "closestAncestor": "2021 (Conservative)",
+                       "icon": "Praetexta.png",
+                       "children": [
+                        {
+                         "name": "CLAU3911 M. Claudius (230) Marcellus",
+                         "id": "3911",
+                         "bestPos": "",
+                         "birthDate": "-100",
+                         "deathDate": "-23",
+                         "closestAncestor": "2396 (Conservative)",
+                         "icon": "NoPosition.png",
+                         "children": [
+                         ]
+                        }                       ]
+                      }                     ]
+                    },
+                    {
+                     "name": "CLAU1784 M. Claudius (226) Marcellus",
+                     "id": "1784",
+                     "bestPos": "praetor",
+                     "birthDate": "-150",
+                     "deathDate": "-25",
+                     "closestAncestor": "1318 (Aggressive)",
+                     "icon": "Praetexta.png",
+                     "children": [
+                      {
+                       "name": "CORN3780 P. Cornelius (230) Marcelli f. Lentulus Marcellinus",
+                       "id": "3780",
+                       "bestPos": "",
+                       "birthDate": "-128",
+                       "deathDate": "-50",
+                       "closestAncestor": "1784 (Conservative)",
+                       "icon": "NoPosition.png",
+                       "children": [
+                        {
+                         "name": "CORN2082 Cn. Cornelius (228 24) P. f. Lentulus Marcellinus",
+                         "id": "2082",
+                         "bestPos": "consul",
+                         "birthDate": "-100",
+                         "deathDate": "-45",
+                         "closestAncestor": "3780 (Conservative)",
+                         "icon": "Praetexta.png",
+                         "children": [
+                          {
+                           "name": "CORN2572 P. Cornelius (232) Lentulus Marcellinus",
+                           "id": "2572",
+                           "bestPos": "",
+                           "birthDate": "-100",
+                           "deathDate": "-48",
+                           "closestAncestor": "2082 (Conservative)",
+                           "icon": "NoPosition.png",
+                           "children": [
+                            {
+                             "name": "CORN3781 P. Cornelius (233) P. f. L.? n. Lentulus Marcellinus",
+                             "id": "3781",
+                             "bestPos": "",
+                             "birthDate": "-75",
+                             "deathDate": "25",
+                             "closestAncestor": "2572 (Conservative)",
+                             "icon": "NoPosition.png",
+                             "children": [
+                             ]
+                            }                           ]
+                          },
+                          {
+                           "name": "CORN4763 -. Cornelius (227) Marcellinus",
+                           "id": "4763",
+                           "bestPos": "",
+                           "birthDate": "-75",
+                           "deathDate": "25",
+                           "closestAncestor": "2082 (Conservative)",
+                           "icon": "NoPosition.png",
+                           "children": [
+                           ]
+                          }                         ]
+                        },
+                        {
+                         "name": "CORN2071 P. Cornelius (231) Lentulus Marcellinus",
+                         "id": "2071",
+                         "bestPos": "",
+                         "birthDate": "-125",
+                         "deathDate": "0",
+                         "closestAncestor": "3780 (Conservative)",
+                         "icon": "NoPosition.png",
+                         "children": [
+                         ]
+                        }                       ]
+                      },
+                      {
+                       "name": "CLAU2099 C. Claudius (cf. 165) C. f. Arn. Glaber",
+                       "id": "2099",
+                       "bestPos": "praetor",
+                       "birthDate": "-125",
+                       "deathDate": "-50",
+                       "closestAncestor": "1784 (Hyperaggressive)",
+                       "icon": "Praetexta.png",
+                       "children": [
+                       ]
+                      },
+                      {
+                       "name": "CLAU4025 M. Claudius (231) Marcellus Aeserninus",
+                       "id": "4025",
+                       "bestPos": "",
+                       "birthDate": "-105",
+                       "deathDate": "-25",
+                       "closestAncestor": "1784 (Conservative)",
+                       "icon": "NoPosition.png",
+                       "children": [
+                        {
+                         "name": "CLAU2570 M. Claudius (232 cf. 233) M. f. Marcellus Aeserninus",
+                         "id": "2570",
+                         "bestPos": "",
+                         "birthDate": "-100",
+                         "deathDate": "25",
+                         "closestAncestor": "4025 (Conservative)",
+                         "icon": "NoPosition.png",
+                         "children": [
+                         ]
+                        }                       ]
+                      }                     ]
+                    }                   ]
+                  }                 ]
+                },
+                {
+                 "name": "CLAU1229 M. Claudius (223 224) M. f. M. n. Marcellus",
+                 "id": "1229",
+                 "bestPos": "consul",
+                 "birthDate": "-230",
+                 "deathDate": "-169",
+                 "closestAncestor": "810 (Aggressive)",
+                 "icon": "Praetexta.png",
+                 "children": [
+                 ]
+                }               ]
+              },
+              {
+               "name": "CLAU4802 M. Claudius (B) Marcellus",
+               "id": "4802",
+               "bestPos": "",
+               "birthDate": "-300",
+               "deathDate": "-200",
+               "closestAncestor": "662 (Conservative)",
+               "icon": "NoPosition.png",
+               "children": [
+                {
+                 "name": "CLAU0871 M. Claudius (221) Marcellus",
+                 "id": "871",
+                 "bestPos": "",
+                 "birthDate": "-250",
+                 "deathDate": "-150",
+                 "closestAncestor": "4802 (Aggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                }               ]
+              },
+              {
+               "name": "CLAU0754 M. Claudius (166) C. f. Glicia",
+               "id": "754",
+               "bestPos": "",
+               "birthDate": "-300",
+               "deathDate": "-175",
+               "closestAncestor": "662 (Hyperaggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              }             ]
+            }           ]
+          }         ]
+        },
+        {
+         "name": "CLAU2948 P. Claudius (27)",
+         "id": "2948",
+         "bestPos": "praetor",
+         "birthDate": "-450",
+         "deathDate": "-150",
+         "closestAncestor": "4782 (Aggressive)",
+         "icon": "Praetexta.png",
+         "children": [
+          {
+           "name": "CLAU0605 C. Claudius (17)",
+           "id": "605",
+           "bestPos": "",
+           "birthDate": "-350",
+           "deathDate": "-250",
+           "closestAncestor": "2948 (Aggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "CLAU0668 C. Claudius (98) M. f. C. n. Canina",
+             "id": "668",
+             "bestPos": "triumphator",
+             "birthDate": "-325",
+             "deathDate": "-200",
+             "closestAncestor": "605 (Hyperaggressive)",
+             "icon": "Picta.png",
+             "children": [
+             ]
+            },
+            {
+             "name": "CLAU0714 C. Claudius (18)",
+             "id": "714",
+             "bestPos": "",
+             "birthDate": "-300",
+             "deathDate": "-200",
+             "closestAncestor": "605 (Aggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+              {
+               "name": "CLAU1119 P. Claudius (28)",
+               "id": "1119",
+               "bestPos": "",
+               "birthDate": "-250",
+               "deathDate": "-196",
+               "closestAncestor": "714 (Aggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "CLAU4642 C. Claudius (not in RE)",
+               "id": "4642",
+               "bestPos": "",
+               "birthDate": "-250",
+               "deathDate": "-150",
+               "closestAncestor": "714 (Aggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "CLAU1018 P. Claudius (not in RE)",
+               "id": "1018",
+               "bestPos": "",
+               "birthDate": "-250",
+               "deathDate": "-150",
+               "closestAncestor": "714 (Aggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "CLAU0837 Q. Claudius (29)",
+               "id": "837",
+               "bestPos": "",
+               "birthDate": "-250",
+               "deathDate": "-150",
+               "closestAncestor": "714 (Aggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+                {
+                 "name": "CLAU1184 M. Claudius (204) Lepidus",
+                 "id": "1184",
+                 "bestPos": "",
+                 "birthDate": "-225",
+                 "deathDate": "-125",
+                 "closestAncestor": "837 (Hyperaggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                  {
+                   "name": "CLAU3429 Ti. Claudius (cf. 250 251 252) Ti. f. Clu. Nero or Asellus",
+                   "id": "3429",
+                   "bestPos": "",
+                   "birthDate": "-200",
+                   "deathDate": "-100",
+                   "closestAncestor": "1184 (Hyperaggressive)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  },
+                  {
+                   "name": "CLAU1529 -. Claudius (376) Unimanus",
+                   "id": "1529",
+                   "bestPos": "praetor",
+                   "birthDate": "-200",
+                   "deathDate": "-75",
+                   "closestAncestor": "1184 (Hyperaggressive)",
+                   "icon": "Praetexta.png",
+                   "children": [
+                   ]
+                  }                 ]
+                },
+                {
+                 "name": "CLAU1330 L. Claudius (22)",
+                 "id": "1330",
+                 "bestPos": "praetor",
+                 "birthDate": "-225",
+                 "deathDate": "-100",
+                 "closestAncestor": "837 (Aggressive)",
+                 "icon": "Praetexta.png",
+                 "children": [
+                 ]
+                }               ]
+              }             ]
+            }           ]
+          }         ]
+        }       ]
+      }     ]
+    }   ]
+  } ]
+};
+// Set the dimensions and margins of the diagram
+var margin = {top: 120, right: 90, bottom: 30, left: 90},
+    width = 1500 - margin.left - margin.right,
+    height = 
+ 1920;
+// append the svg object to the body of the page
+// appends a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.right + margin.left)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate("
+          + margin.left + "," + margin.top + ")");
+
+var i = 0,
+    duration = 750,
+    root;
+
+var tip = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([-10, 0])
+  .html(function(d) {
+    return "<span style='color:red'>" + d.data.name + "</span><br><strong>Born:</strong> <span style='color:red'>" + d.data.birthDate + "</span> <strong>Died:</strong> <span style='color:red'>" + d.data.deathDate + "</span><br><strong>Highest Position:</strong> <span style='color:red'>" + d.data.bestPos + "</span><br><strong>Closest Ancestor:</strong> <span style='color:red'>" + d.data.closestAncestor + "</span>";
+  })
+
+svg.call(tip);
+
+// declares a tree layout and assigns the size
+var treemap = d3.tree().size([width, height]);
+
+// Assigns parent, children, height, depth
+root = d3.hierarchy(treeData, function(d) { return d.children; });
+
+update(root);
+
+function update(source) {
+
+  // Assigns the x and y position for the nodes
+  var treeData = treemap(root);
+
+  // Compute the new tree layout.
+  var nodes = treeData.descendants(),
+      links = treeData.descendants().slice(1);
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d){ d.y = d.depth * 100});
+
+  // ****************** Nodes section ***************************
+
+  // Update the nodes...
+  var node = svg.selectAll('g.node')
+      .data(nodes, function(d) {return d.id || (d.id = ++i); })
+
+  // Enter any new modes at the parent's previous position.
+  var nodeEnter = node.enter().append('g')
+      
+   .append("image")
+      .attr('class', 'node') 
+      .attr('x', -12)
+      .attr('y', -18)
+      .attr('height', 40)
+      .attr('width', 24)
+      .attr("xlink:href", function(d) {
+           return d.data.icon;
+        })
+ 
+   
+   .on('mouseover', tip.show)
+      .on('mouseout', tip.hide)
+      .on('click', function(d) {
+        window.open(
+       'http://romanrepublic.ac.uk/person/' + d.data.id + '/',
+       '_blank'
+       );});
+
+  // UPDATE
+  var nodeUpdate = nodeEnter.merge(node);
+
+  // Transition to the proper position for the node
+  nodeUpdate.transition()
+    .duration(duration)
+    .attr("transform", function(d) { 
+        return "translate(" + d.x + "," + d.y + ")";
+     });
+
+  // ****************** links section ***************************
+
+  // Update the links...
+  var link = svg.selectAll('path.link')
+      .data(links, function(d) { return d.id; });
+
+  // Enter any new links at the parent's previous position.
+  var linkEnter = link.enter().insert('path', "g")
+      .attr("class", "link")
+      //.attr('d', function(d){
+      //  var o = {x: source.x0, y: source.y0}
+      //  return diagonal(o, o)
+      //});
+
+  // UPDATE
+  var linkUpdate = linkEnter.merge(link);
+
+  // Transition back to the parent element position
+  linkUpdate.transition()
+      .duration(duration)
+      .attr('d', function(d){ return diagonal(d, d.parent) });
+
+  // Remove any exiting links
+  var linkExit = link.exit().transition()
+      .duration(duration)
+      .attr('d', function(d) {
+        var o = {x: source.x, y: source.y}
+        return diagonal(o, o)
+      })
+      .remove();
+
+  // Store the old positions for transition.
+  nodes.forEach(function(d){
+    d.x0 = d.x;
+    d.y0 = d.y;
+  });
+
+  // Creates a curved (diagonal) path from parent to the child nodes
+  function diagonal(s, d) {
+
+    path = `M ${s.x} ${s.y}
+            C ${(s.x + d.x) / 2} ${s.y},
+              ${(s.x + d.x) / 2} ${d.y},
+              ${d.x} ${d.y}`
+
+    return path
+  }
+
+  // Toggle children on click.
+  //function click(d) {
+  //  if (d.children) {
+  //      d._children = d.children;
+  //      d.children = null;
+  //    } else {
+  //      d.children = d._children;
+  //      d._children = null;
+  //    }
+  //  update(d);
+  //}
+}
+
+svg.append("text")
+        .attr("x", (1200 / 2) - 150)             
+        .attr("y", -70)
+        .attr("text-anchor", "middle")  
+        .style("font-size", "16px") 
+        .text("Descendants of CLAU4781 M. Claudius (24) - Hyperaggressive Model");
+</script>
+</body>

@@ -1,0 +1,2375 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<style>
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+</style>
+
+<body>
+
+<!-- load the d3.js library -->	
+<meta charset="utf-8">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+<script>
+
+var treeData =
+{
+ "name": "CORN4804 P. Cornelius (cf. 253) Maluginensis",
+ "id": "4804",
+ "bestPos": "",
+ "birthDate": "-550",
+ "deathDate": "-450",
+ "closestAncestor": "none",
+ "icon": "NoPosition.png",
+ "children": [
+  {
+   "name": "CORN0076 Ser. Cornelius (253) Maluginensis Tricostus",
+   "id": "76",
+   "bestPos": "consul",
+   "birthDate": "-500",
+   "deathDate": "-453",
+   "closestAncestor": "4804 (Conservative)",
+   "icon": "Praetexta.png",
+   "children": [
+    {
+     "name": "CORN0143 L. Cornelius (256) Ser. f. P. n. Maluginensis Uritinus",
+     "id": "143",
+     "bestPos": "triumphator",
+     "birthDate": "-500",
+     "deathDate": "-400",
+     "closestAncestor": "76 (Conservative)",
+     "icon": "Picta.png",
+     "children": [
+      {
+       "name": "CORN0173 M. Cornelius (246) - f. Ser. n. Maluginensis",
+       "id": "173",
+       "bestPos": "",
+       "birthDate": "-500",
+       "deathDate": "-375",
+       "closestAncestor": "143 (Conservative)",
+       "icon": "NoPosition.png",
+       "children": [
+        {
+         "name": "CORN0239 A. Cornelius (112) M. f. L. n. Cossus",
+         "id": "239",
+         "bestPos": "triumphator",
+         "birthDate": "-475",
+         "deathDate": "-375",
+         "closestAncestor": "173 (Conservative)",
+         "icon": "Picta.png",
+         "children": [
+          {
+           "name": "CORN0300 P. Cornelius (118) A. f. P. n. Cossus",
+           "id": "300",
+           "bestPos": "",
+           "birthDate": "-450",
+           "deathDate": "-350",
+           "closestAncestor": "239 (Aggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "CORN0432 A. Cornelius (114 cf. 112 113) Cossus",
+             "id": "432",
+             "bestPos": "triumphator",
+             "birthDate": "-425",
+             "deathDate": "-325",
+             "closestAncestor": "300 (Aggressive)",
+             "icon": "Picta.png",
+             "children": [
+              {
+               "name": "CORN0473 A. Cornelius (115) Cossus",
+               "id": "473",
+               "bestPos": "",
+               "birthDate": "-400",
+               "deathDate": "-300",
+               "closestAncestor": "432 (Aggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+                {
+                 "name": "CORN4803 Ti. Cornelius (cf. 210) Lentulus",
+                 "id": "4803",
+                 "bestPos": "",
+                 "birthDate": "-375",
+                 "deathDate": "-275",
+                 "closestAncestor": "473 (Hyperaggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                  {
+                   "name": "CORN0688 L. Cornelius (210) Ti. f. Ser. n. Lentulus Caudinus",
+                   "id": "688",
+                   "bestPos": "triumphator",
+                   "birthDate": "-325",
+                   "deathDate": "-225",
+                   "closestAncestor": "4803 (Conservative)",
+                   "icon": "Picta.png",
+                   "children": [
+                    {
+                     "name": "CORN0780 L. Cornelius (211) L. f. Ti. n. Lentulus Caudinus",
+                     "id": "780",
+                     "bestPos": "consul",
+                     "birthDate": "-279",
+                     "deathDate": "-213",
+                     "closestAncestor": "688 (Conservative)",
+                     "icon": "Praetexta.png",
+                     "children": [
+                      {
+                       "name": "CORN0903 P. Cornelius (200) Lentulus",
+                       "id": "903",
+                       "bestPos": "praetor",
+                       "birthDate": "-250",
+                       "deathDate": "-200",
+                       "closestAncestor": "780 (Conservative)",
+                       "icon": "Praetexta.png",
+                       "children": [
+                       ]
+                      },
+                      {
+                       "name": "CORN0877 Cn. Cornelius (176) L. f. L. n. Lentulus",
+                       "id": "877",
+                       "bestPos": "consul",
+                       "birthDate": "-239",
+                       "deathDate": "-184",
+                       "closestAncestor": "780 (Conservative)",
+                       "icon": "Praetexta.png",
+                       "children": [
+                        {
+                         "name": "CORN1465 L. Cornelius (224) Cn. f. L. n. Lentulus Lupus",
+                         "id": "1465",
+                         "bestPos": "consul",
+                         "birthDate": "-199",
+                         "deathDate": "-124",
+                         "closestAncestor": "877 (Conservative)",
+                         "icon": "Praetexta.png",
+                         "children": [
+                          {
+                           "name": "CORN1568 L. Cornelius (192) P. f. L. n. Lentulus",
+                           "id": "1568",
+                           "bestPos": "praetor",
+                           "birthDate": "-175",
+                           "deathDate": "-130",
+                           "closestAncestor": "1465 (Aggressive)",
+                           "icon": "Praetexta.png",
+                           "children": [
+                            {
+                             "name": "CORN4768 P. Cornelius (cf. 238) Lentulus",
+                             "id": "4768",
+                             "bestPos": "",
+                             "birthDate": "-150",
+                             "deathDate": "-50",
+                             "closestAncestor": "1568 (Aggressive)",
+                             "icon": "NoPosition.png",
+                             "children": [
+                             ]
+                            },
+                            {
+                             "name": "CORN4777 L. Cornelius (cf. 69) Balbus",
+                             "id": "4777",
+                             "bestPos": "",
+                             "birthDate": "-150",
+                             "deathDate": "-50",
+                             "closestAncestor": "1568 (Hyperaggressive)",
+                             "icon": "NoPosition.png",
+                             "children": [
+                              {
+                               "name": "CORN2819 L. Cornelius (69) L. f. Clu. Balbus",
+                               "id": "2819",
+                               "bestPos": "consul",
+                               "birthDate": "-100",
+                               "deathDate": "-25",
+                               "closestAncestor": "4777 (Conservative)",
+                               "icon": "Praetexta.png",
+                               "children": [
+                               ]
+                              }                             ]
+                            },
+                            {
+                             "name": "CORN2356 L. Cornelius (218) P. f. L. n. Pal. Lentulus Crus",
+                             "id": "2356",
+                             "bestPos": "consul",
+                             "birthDate": "-98",
+                             "deathDate": "-48",
+                             "closestAncestor": "1568 (Conservative)",
+                             "icon": "Praetexta.png",
+                             "children": [
+                              {
+                               "name": "CORN2781 L.? Cornelius (219 cf. 217) Lentulus Cruscellio",
+                               "id": "2781",
+                               "bestPos": "praetor",
+                               "birthDate": "-75",
+                               "deathDate": "25",
+                               "closestAncestor": "2356 (Conservative)",
+                               "icon": "Praetexta.png",
+                               "children": [
+                               ]
+                              },
+                              {
+                               "name": "CORN2912 L. Cornelius (32 cf. 104) (Cinna)",
+                               "id": "2912",
+                               "bestPos": "consul",
+                               "birthDate": "-75",
+                               "deathDate": "25",
+                               "closestAncestor": "2356 (Hyperaggressive)",
+                               "icon": "Praetexta.png",
+                               "children": [
+                               ]
+                              }                             ]
+                            },
+                            {
+                             "name": "CORN2290 P. Cornelius (238) P. f. L. n. Lentulus Spinther",
+                             "id": "2290",
+                             "bestPos": "triumphator",
+                             "birthDate": "-100",
+                             "deathDate": "-47",
+                             "closestAncestor": "1568 (Conservative)",
+                             "icon": "Picta.png",
+                             "children": [
+                              {
+                               "name": "CORN2394 P. Cornelius (239) P. f. Lentulus Spinther",
+                               "id": "2394",
+                               "bestPos": "",
+                               "birthDate": "-75",
+                               "deathDate": "-42",
+                               "closestAncestor": "2290 (Conservative)",
+                               "icon": "NoPosition.png",
+                               "children": [
+                               ]
+                              }                             ]
+                            }                           ]
+                          },
+                          {
+                           "name": "CORN1620 L. Cornelius (105) L. f. Cinna",
+                           "id": "1620",
+                           "bestPos": "consul",
+                           "birthDate": "-175",
+                           "deathDate": "-75",
+                           "closestAncestor": "1465 (Hyperaggressive)",
+                           "icon": "Praetexta.png",
+                           "children": [
+                            {
+                             "name": "CORN1871 L. Cornelius (106) L. f. L. n. Cinna",
+                             "id": "1871",
+                             "bestPos": "consul",
+                             "birthDate": "-125",
+                             "deathDate": "-84",
+                             "closestAncestor": "1620 (Conservative)",
+                             "icon": "Praetexta.png",
+                             "children": [
+                              {
+                               "name": "CORN2663 L. Cornelius (107) Cinna",
+                               "id": "2663",
+                               "bestPos": "praetor",
+                               "birthDate": "-125",
+                               "deathDate": "-25",
+                               "closestAncestor": "1871 (Conservative)",
+                               "icon": "Praetexta.png",
+                               "children": [
+                                {
+                                 "name": "CORN4181 Cn. Cornelius (108) Cinna Magnus",
+                                 "id": "4181",
+                                 "bestPos": "",
+                                 "birthDate": "-100",
+                                 "deathDate": "0",
+                                 "closestAncestor": "2663 (Conservative)",
+                                 "icon": "NoPosition.png",
+                                 "children": [
+                                 ]
+                                },
+                                {
+                                 "name": "CORN2689 -. Cornelius (104) Cinna",
+                                 "id": "2689",
+                                 "bestPos": "",
+                                 "birthDate": "-75",
+                                 "deathDate": "25",
+                                 "closestAncestor": "2663 (Conservative)",
+                                 "icon": "NoPosition.png",
+                                 "children": [
+                                 ]
+                                }                               ]
+                              },
+                              {
+                               "name": "CORN2961 -. Cornelius (163) Gallus",
+                               "id": "2961",
+                               "bestPos": "praetor",
+                               "birthDate": "-100",
+                               "deathDate": "50",
+                               "closestAncestor": "1871 (Hyperaggressive)",
+                               "icon": "Praetexta.png",
+                               "children": [
+                                {
+                                 "name": "CORN2816 C. Cornelius (164) Cn. f. Gallus",
+                                 "id": "2816",
+                                 "bestPos": "",
+                                 "birthDate": "-69",
+                                 "deathDate": "-26",
+                                 "closestAncestor": "2961 (Aggressive)",
+                                 "icon": "NoPosition.png",
+                                 "children": [
+                                 ]
+                                }                               ]
+                              }                             ]
+                            }                           ]
+                          }                         ]
+                        },
+                        {
+                         "name": "CORN1474 Cn. Cornelius (175 177) Cn. f. L. n. Lentulus",
+                         "id": "1474",
+                         "bestPos": "consul",
+                         "birthDate": "-200",
+                         "deathDate": "-75",
+                         "closestAncestor": "877 (Conservative)",
+                         "icon": "Praetexta.png",
+                         "children": [
+                          {
+                           "name": "CORN3363 -. Cornelius (172) Lentulus",
+                           "id": "3363",
+                           "bestPos": "praetor",
+                           "birthDate": "-175",
+                           "deathDate": "-75",
+                           "closestAncestor": "1474 (Conservative)",
+                           "icon": "Praetexta.png",
+                           "children": [
+                            {
+                             "name": "CORN1792 Cn. Cornelius (178) Cn. f. Cn. n. Lentulus",
+                             "id": "1792",
+                             "bestPos": "consul",
+                             "birthDate": "-150",
+                             "deathDate": "-25",
+                             "closestAncestor": "3363 (Conservative)",
+                             "icon": "Praetexta.png",
+                             "children": [
+                              {
+                               "name": "CORN4185 -. Cornelius (D) Lentulus",
+                               "id": "4185",
+                               "bestPos": "",
+                               "birthDate": "-125",
+                               "deathDate": "-25",
+                               "closestAncestor": "1792 (Aggressive)",
+                               "icon": "NoPosition.png",
+                               "children": [
+                               ]
+                              },
+                              {
+                               "name": "CORN1990 L. Cornelius (194 195) Lentulus",
+                               "id": "1990",
+                               "bestPos": "praetor",
+                               "birthDate": "-125",
+                               "deathDate": "-25",
+                               "closestAncestor": "1792 (Aggressive)",
+                               "icon": "Praetexta.png",
+                               "children": [
+                               ]
+                              },
+                              {
+                               "name": "CORN2176 P. Cornelius (140) Dolabella",
+                               "id": "2176",
+                               "bestPos": "praetor",
+                               "birthDate": "-100",
+                               "deathDate": "0",
+                               "closestAncestor": "1792 (Conservative)",
+                               "icon": "Praetexta.png",
+                               "children": [
+                                {
+                                 "name": "CORN2515 P. Cornelius (141) P. f. Dolabella = P. Cornelius Lentulus",
+                                 "id": "2515",
+                                 "bestPos": "consul",
+                                 "birthDate": "-69",
+                                 "deathDate": "-43",
+                                 "closestAncestor": "2176 (Conservative)",
+                                 "icon": "Praetexta.png",
+                                 "children": [
+                                  {
+                                   "name": "CORN3987 -. Cornelius (B) Dolabella",
+                                   "id": "3987",
+                                   "bestPos": "",
+                                   "birthDate": "-125",
+                                   "deathDate": "-49",
+                                   "closestAncestor": "2515 (Conservative)",
+                                   "icon": "NoPosition.png",
+                                   "children": [
+                                   ]
+                                  },
+                                  {
+                                   "name": "CORN3989 -. Cornelius (172a) Lentulus",
+                                   "id": "3989",
+                                   "bestPos": "",
+                                   "birthDate": "-125",
+                                   "deathDate": "-45",
+                                   "closestAncestor": "2515 (Conservative)",
+                                   "icon": "NoPosition.png",
+                                   "children": [
+                                   ]
+                                  },
+                                  {
+                                   "name": "CORN4333 P.? Cornelius (130) Dolabella",
+                                   "id": "4333",
+                                   "bestPos": "",
+                                   "birthDate": "-50",
+                                   "deathDate": "50",
+                                   "closestAncestor": "2515 (Conservative)",
+                                   "icon": "NoPosition.png",
+                                   "children": [
+                                    {
+                                     "name": "CORN4335 P. Cornelius (143) Lentulus",
+                                     "id": "4335",
+                                     "bestPos": "",
+                                     "birthDate": "-50",
+                                     "deathDate": "75",
+                                     "closestAncestor": "4333 (Conservative)",
+                                     "icon": "NoPosition.png",
+                                     "children": [
+                                     ]
+                                    }                                   ]
+                                  }                                 ]
+                                }                               ]
+                              },
+                              {
+                               "name": "CORN2064 Cn. Cornelius (216) Cn. f. Cn. n. Lentulus Clodianus",
+                               "id": "2064",
+                               "bestPos": "consul",
+                               "birthDate": "-115",
+                               "deathDate": "0",
+                               "closestAncestor": "1792 (Conservative)",
+                               "icon": "Praetexta.png",
+                               "children": [
+                                {
+                                 "name": "CORN2338 Cn. Cornelius (217) Lentulus Clodianus",
+                                 "id": "2338",
+                                 "bestPos": "praetor",
+                                 "birthDate": "-100",
+                                 "deathDate": "0",
+                                 "closestAncestor": "2064 (Conservative)",
+                                 "icon": "Praetexta.png",
+                                 "children": [
+                                  {
+                                   "name": "CORN4769 Cn. Cornelius (181) Lentulus",
+                                   "id": "4769",
+                                   "bestPos": "",
+                                   "birthDate": "-75",
+                                   "deathDate": "25",
+                                   "closestAncestor": "2338 (Conservative)",
+                                   "icon": "NoPosition.png",
+                                   "children": [
+                                    {
+                                     "name": "CORN4860 P. Cornelius (235) Lentulus Scipio",
+                                     "id": "4860",
+                                     "bestPos": "",
+                                     "birthDate": "-50",
+                                     "deathDate": "50",
+                                     "closestAncestor": "4769 (Conservative)",
+                                     "icon": "NoPosition.png",
+                                     "children": [
+                                     ]
+                                    },
+                                    {
+                                     "name": "CORN4861 Ser. Cornelius (226) Lentulus Maluginensis",
+                                     "id": "4861",
+                                     "bestPos": "",
+                                     "birthDate": "-50",
+                                     "deathDate": "50",
+                                     "closestAncestor": "4769 (Conservative)",
+                                     "icon": "NoPosition.png",
+                                     "children": [
+                                     ]
+                                    }                                   ]
+                                  }                                 ]
+                                }                               ]
+                              }                             ]
+                            }                           ]
+                          }                         ]
+                        }                       ]
+                      },
+                      {
+                       "name": "CORN1023 L. Cornelius (188) L. f. L. n. Lentulus",
+                       "id": "1023",
+                       "bestPos": "triumphator",
+                       "birthDate": "-225",
+                       "deathDate": "-173",
+                       "closestAncestor": "780 (Conservative)",
+                       "icon": "Picta.png",
+                       "children": [
+                        {
+                         "name": "CORN1362 P. Cornelius (202) L. f. L. n. Lentulus",
+                         "id": "1362",
+                         "bestPos": "consul",
+                         "birthDate": "-205",
+                         "deathDate": "-121",
+                         "closestAncestor": "1023 (Conservative)",
+                         "icon": "Praetexta.png",
+                         "children": [
+                          {
+                           "name": "CORN1883 P. Cornelius (203) Lentulus",
+                           "id": "1883",
+                           "bestPos": "praetor",
+                           "birthDate": "-125",
+                           "deathDate": "-87",
+                           "closestAncestor": "1362 (Conservative)",
+                           "icon": "Praetexta.png",
+                           "children": [
+                            {
+                             "name": "CORN2012 P. Cornelius (240) P. f. P. n. Lentulus Sura",
+                             "id": "2012",
+                             "bestPos": "consul",
+                             "birthDate": "-114",
+                             "deathDate": "-63",
+                             "closestAncestor": "1883 (Conservative)",
+                             "icon": "Praetexta.png",
+                             "children": [
+                             ]
+                            },
+                            {
+                             "name": "CORN2196 L. Cornelius (234) Lentulus Niger",
+                             "id": "2196",
+                             "bestPos": "praetor",
+                             "birthDate": "-100",
+                             "deathDate": "-56",
+                             "closestAncestor": "1883 (Aggressive)",
+                             "icon": "Praetexta.png",
+                             "children": [
+                              {
+                               "name": "CORN2416 L. Cornelius (196) Lentulus",
+                               "id": "2416",
+                               "bestPos": "",
+                               "birthDate": "-100",
+                               "deathDate": "0",
+                               "closestAncestor": "2196 (Conservative)",
+                               "icon": "NoPosition.png",
+                               "children": [
+                               ]
+                              },
+                              {
+                               "name": "CORN2664 L. Cornelius (197 cf. 219) Lentulus",
+                               "id": "2664",
+                               "bestPos": "consul",
+                               "birthDate": "-75",
+                               "deathDate": "25",
+                               "closestAncestor": "2196 (Conservative)",
+                               "icon": "Praetexta.png",
+                               "children": [
+                                {
+                                 "name": "CORN4684 Cn. Cornelius (180) L. f. Lentulus (Marcellinus)",
+                                 "id": "4684",
+                                 "bestPos": "",
+                                 "birthDate": "-50",
+                                 "deathDate": "50",
+                                 "closestAncestor": "2664 (Conservative)",
+                                 "icon": "NoPosition.png",
+                                 "children": [
+                                 ]
+                                }                               ]
+                              },
+                              {
+                               "name": "CORN3938 P. Cornelius (205) Lentulus",
+                               "id": "3938",
+                               "bestPos": "",
+                               "birthDate": "-75",
+                               "deathDate": "25",
+                               "closestAncestor": "2196 (Conservative)",
+                               "icon": "NoPosition.png",
+                               "children": [
+                               ]
+                              }                             ]
+                            }                           ]
+                          },
+                          {
+                           "name": "CORN1631 P. Cornelius (202a Supb. 3.359f.) P. f. Lentulus",
+                           "id": "1631",
+                           "bestPos": "praetor",
+                           "birthDate": "-175",
+                           "deathDate": "-75",
+                           "closestAncestor": "1362 (Conservative)",
+                           "icon": "Praetexta.png",
+                           "children": [
+                           ]
+                          }                         ]
+                        },
+                        {
+                         "name": "CORN1423 L. Cornelius (190 191?) Lentulus",
+                         "id": "1423",
+                         "bestPos": "",
+                         "birthDate": "-200",
+                         "deathDate": "-100",
+                         "closestAncestor": "1023 (Aggressive)",
+                         "icon": "NoPosition.png",
+                         "children": [
+                         ]
+                        }                       ]
+                      }                     ]
+                    },
+                    {
+                     "name": "CORN0782 P. Cornelius (213) L. f. Ti. n. Lentulus Caudinus",
+                     "id": "782",
+                     "bestPos": "triumphator",
+                     "birthDate": "-275",
+                     "deathDate": "-175",
+                     "closestAncestor": "688 (Conservative)",
+                     "icon": "Picta.png",
+                     "children": [
+                      {
+                       "name": "CORN0855 A. Cornelius (257) Mammula",
+                       "id": "855",
+                       "bestPos": "praetor",
+                       "birthDate": "-250",
+                       "deathDate": "-200",
+                       "closestAncestor": "782 (Hyperaggressive)",
+                       "icon": "Praetexta.png",
+                       "children": [
+                        {
+                         "name": "CORN1169 A. Cornelius (258) Mammula",
+                         "id": "1169",
+                         "bestPos": "praetor",
+                         "birthDate": "-225",
+                         "deathDate": "-125",
+                         "closestAncestor": "855 (Conservative)",
+                         "icon": "Praetexta.png",
+                         "children": [
+                         ]
+                        },
+                        {
+                         "name": "CORN1274 P. Cornelius (260) Mammula",
+                         "id": "1274",
+                         "bestPos": "praetor",
+                         "birthDate": "-225",
+                         "deathDate": "-125",
+                         "closestAncestor": "855 (Conservative)",
+                         "icon": "Praetexta.png",
+                         "children": [
+                         ]
+                        },
+                        {
+                         "name": "CORN1343 M. Cornelius (259) Mammula",
+                         "id": "1343",
+                         "bestPos": "",
+                         "birthDate": "-225",
+                         "deathDate": "-100",
+                         "closestAncestor": "855 (Aggressive)",
+                         "icon": "NoPosition.png",
+                         "children": [
+                         ]
+                        }                       ]
+                      },
+                      {
+                       "name": "CORN0815 M. Cornelius (92) M. f. M. n. Cethegus",
+                       "id": "815",
+                       "bestPos": "consul",
+                       "birthDate": "-250",
+                       "deathDate": "-196",
+                       "closestAncestor": "782 (Hyperaggressive)",
+                       "icon": "Praetexta.png",
+                       "children": [
+                        {
+                         "name": "CORN1197 Cn. Cornelius (268) Merula",
+                         "id": "1197",
+                         "bestPos": "",
+                         "birthDate": "-225",
+                         "deathDate": "-125",
+                         "closestAncestor": "815 (Hyperaggressive)",
+                         "icon": "NoPosition.png",
+                         "children": [
+                          {
+                           "name": "CORN1469 Cn. Cornelius (269) Merula",
+                           "id": "1469",
+                           "bestPos": "",
+                           "birthDate": "-200",
+                           "deathDate": "-100",
+                           "closestAncestor": "1197 (Aggressive)",
+                           "icon": "NoPosition.png",
+                           "children": [
+                            {
+                             "name": "CORN1872 L. Cornelius (272) Merula",
+                             "id": "1872",
+                             "bestPos": "consul",
+                             "birthDate": "-130",
+                             "deathDate": "-87",
+                             "closestAncestor": "1469 (Aggressive)",
+                             "icon": "Praetexta.png",
+                             "children": [
+                             ]
+                            }                           ]
+                          },
+                          {
+                           "name": "CORN1472 L. Cornelius (271) Merula",
+                           "id": "1472",
+                           "bestPos": "",
+                           "birthDate": "-200",
+                           "deathDate": "-100",
+                           "closestAncestor": "1197 (Aggressive)",
+                           "icon": "NoPosition.png",
+                           "children": [
+                           ]
+                          }                         ]
+                        },
+                        {
+                         "name": "CORN1238 P. Cornelius (96) Cethegus",
+                         "id": "1238",
+                         "bestPos": "praetor",
+                         "birthDate": "-225",
+                         "deathDate": "-125",
+                         "closestAncestor": "815 (Aggressive)",
+                         "icon": "Praetexta.png",
+                         "children": [
+                         ]
+                        },
+                        {
+                         "name": "CORN1249 P. Cornelius (375) Sisenna",
+                         "id": "1249",
+                         "bestPos": "praetor",
+                         "birthDate": "-225",
+                         "deathDate": "-125",
+                         "closestAncestor": "815 (Hyperaggressive)",
+                         "icon": "Praetexta.png",
+                         "children": [
+                          {
+                           "name": "CORN3531 Cn. Cornelius (cf. 373) L. f. Sisenna",
+                           "id": "3531",
+                           "bestPos": "",
+                           "birthDate": "-150",
+                           "deathDate": "-50",
+                           "closestAncestor": "1249 (Aggressive)",
+                           "icon": "NoPosition.png",
+                           "children": [
+                           ]
+                          },
+                          {
+                           "name": "CORN1678 Cn. Cornelius (373) Sisenna",
+                           "id": "1678",
+                           "bestPos": "praetor",
+                           "birthDate": "-150",
+                           "deathDate": "-50",
+                           "closestAncestor": "1249 (Aggressive)",
+                           "icon": "Praetexta.png",
+                           "children": [
+                            {
+                             "name": "CORN2035 L. Cornelius (374) Sisenna",
+                             "id": "2035",
+                             "bestPos": "praetor",
+                             "birthDate": "-118",
+                             "deathDate": "-67",
+                             "closestAncestor": "1678 (Aggressive)",
+                             "icon": "Praetexta.png",
+                             "children": [
+                             ]
+                            },
+                            {
+                             "name": "CORN4772 P. Cornelius (cf. 70) (Balbus)",
+                             "id": "4772",
+                             "bestPos": "",
+                             "birthDate": "-125",
+                             "deathDate": "-25",
+                             "closestAncestor": "1678 (Hyperaggressive)",
+                             "icon": "NoPosition.png",
+                             "children": [
+                              {
+                               "name": "CORN2550 L. Cornelius (70) P. f. Balbus ('Balbillus')",
+                               "id": "2550",
+                               "bestPos": "",
+                               "birthDate": "-79",
+                               "deathDate": "0",
+                               "closestAncestor": "4772 (Conservative)",
+                               "icon": "NoPosition.png",
+                               "children": [
+                               ]
+                              }                             ]
+                            },
+                            {
+                             "name": "CORN5131 -. Cornelius (281) Phagites",
+                             "id": "5131",
+                             "bestPos": "",
+                             "birthDate": "-125",
+                             "deathDate": "-25",
+                             "closestAncestor": "1678 (Hyperaggressive)",
+                             "icon": "NoPosition.png",
+                             "children": [
+                             ]
+                            }                           ]
+                          }                         ]
+                        }                       ]
+                      },
+                      {
+                       "name": "CORN0938 L. Cornelius (187) Lentulus",
+                       "id": "938",
+                       "bestPos": "praetor",
+                       "birthDate": "-250",
+                       "deathDate": "-172",
+                       "closestAncestor": "782 (Aggressive)",
+                       "icon": "Praetexta.png",
+                       "children": [
+                       ]
+                      },
+                      {
+                       "name": "CORN1009 Ser. Cornelius (207) Lentulus",
+                       "id": "1009",
+                       "bestPos": "",
+                       "birthDate": "-250",
+                       "deathDate": "-150",
+                       "closestAncestor": "782 (Aggressive)",
+                       "icon": "NoPosition.png",
+                       "children": [
+                        {
+                         "name": "CORN1363 Ser. Cornelius (208a) Lentulus",
+                         "id": "1363",
+                         "bestPos": "praetor",
+                         "birthDate": "-225",
+                         "deathDate": "-100",
+                         "closestAncestor": "1009 (Conservative)",
+                         "icon": "Praetexta.png",
+                         "children": [
+                          {
+                           "name": "CORN3098 Ser. Cornelius (208b) Ser. f. Lentulus",
+                           "id": "3098",
+                           "bestPos": "praetor",
+                           "birthDate": "-150",
+                           "deathDate": "-50",
+                           "closestAncestor": "1363 (Conservative)",
+                           "icon": "Praetexta.png",
+                           "children": [
+                            {
+                             "name": "CORN1794 L. Cornelius (193 cf. 195 Supb. 3.259) Ser. f. Lentulus",
+                             "id": "1794",
+                             "bestPos": "",
+                             "birthDate": "-150",
+                             "deathDate": "-50",
+                             "closestAncestor": "3098 (Conservative)",
+                             "icon": "NoPosition.png",
+                             "children": [
+                             ]
+                            }                           ]
+                          }                         ]
+                        }                       ]
+                      },
+                      {
+                       "name": "CORN0986 P. Cornelius (214) Lentulus Caudinus",
+                       "id": "986",
+                       "bestPos": "praetor",
+                       "birthDate": "-235",
+                       "deathDate": "-125",
+                       "closestAncestor": "782 (Conservative)",
+                       "icon": "Praetexta.png",
+                       "children": [
+                       ]
+                      },
+                      {
+                       "name": "CORN1065 C. Cornelius (88) L. f. M. n. Cethegus",
+                       "id": "1065",
+                       "bestPos": "triumphator",
+                       "birthDate": "-243",
+                       "deathDate": "-125",
+                       "closestAncestor": "782 (Hyperaggressive)",
+                       "icon": "Picta.png",
+                       "children": [
+                        {
+                         "name": "CORN1377 M. Cornelius (93) C. f. C. n. Cethegus",
+                         "id": "1377",
+                         "bestPos": "consul",
+                         "birthDate": "-203",
+                         "deathDate": "-100",
+                         "closestAncestor": "1065 (Aggressive)",
+                         "icon": "Praetexta.png",
+                         "children": [
+                          {
+                           "name": "CORN3527 -. Cornelius (cf. 97) Cethegus",
+                           "id": "3527",
+                           "bestPos": "",
+                           "birthDate": "-150",
+                           "deathDate": "-50",
+                           "closestAncestor": "1377 (Aggressive)",
+                           "icon": "NoPosition.png",
+                           "children": [
+                            {
+                             "name": "CORN3388 P. Cornelius (97) Cethegus",
+                             "id": "3388",
+                             "bestPos": "praetor",
+                             "birthDate": "-127",
+                             "deathDate": "-25",
+                             "closestAncestor": "3527 (Aggressive)",
+                             "icon": "Praetexta.png",
+                             "children": [
+                              {
+                               "name": "CORN3165 C. Cornelius (89) Cethegus",
+                               "id": "3165",
+                               "bestPos": "",
+                               "birthDate": "-100",
+                               "deathDate": "-63",
+                               "closestAncestor": "3388 (Aggressive)",
+                               "icon": "NoPosition.png",
+                               "children": [
+                               ]
+                              },
+                              {
+                               "name": "CORN3166 -. Cornelius (84) Cethegus",
+                               "id": "3166",
+                               "bestPos": "",
+                               "birthDate": "-100",
+                               "deathDate": "0",
+                               "closestAncestor": "3388 (Aggressive)",
+                               "icon": "NoPosition.png",
+                               "children": [
+                               ]
+                              }                             ]
+                            }                           ]
+                          },
+                          {
+                           "name": "CORN3168 C. Cornelius (17) M. f. Ste. (Cethegus?)",
+                           "id": "3168",
+                           "bestPos": "praetor",
+                           "birthDate": "-175",
+                           "deathDate": "-50",
+                           "closestAncestor": "1377 (Conservative)",
+                           "icon": "Praetexta.png",
+                           "children": [
+                           ]
+                          }                         ]
+                        },
+                        {
+                         "name": "CORN1212 P. Cornelius (95) L. f. P. n. Cethegus",
+                         "id": "1212",
+                         "bestPos": "triumphator",
+                         "birthDate": "-217",
+                         "deathDate": "-100",
+                         "closestAncestor": "1065 (Aggressive)",
+                         "icon": "Picta.png",
+                         "children": [
+                         ]
+                        }                       ]
+                      },
+                      {
+                       "name": "CORN0985 L. Cornelius (212) Lentulus Caudinus",
+                       "id": "985",
+                       "bestPos": "",
+                       "birthDate": "-250",
+                       "deathDate": "-100",
+                       "closestAncestor": "782 (Conservative)",
+                       "icon": "NoPosition.png",
+                       "children": [
+                       ]
+                      }                     ]
+                    },
+                    {
+                     "name": "CORN4859 Cn. Cornelius (171) Lentulus",
+                     "id": "4859",
+                     "bestPos": "",
+                     "birthDate": "-275",
+                     "deathDate": "-175",
+                     "closestAncestor": "688 (Aggressive)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                     ]
+                    }                   ]
+                  }                 ]
+                },
+                {
+                 "name": "CORN0550 P. Cornelius (301) Rufinus",
+                 "id": "550",
+                 "bestPos": "",
+                 "birthDate": "-375",
+                 "deathDate": "-275",
+                 "closestAncestor": "473 (Hyperaggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                  {
+                   "name": "CORN0658 P. Cornelius (302) Cn. f. P. n. Rufinus",
+                   "id": "658",
+                   "bestPos": "triumphator",
+                   "birthDate": "-320",
+                   "deathDate": "-275",
+                   "closestAncestor": "550 (Conservative)",
+                   "icon": "Picta.png",
+                   "children": [
+                    {
+                     "name": "CORN0752 P. Cornelius (382) P. f. Sulla",
+                     "id": "752",
+                     "bestPos": "",
+                     "birthDate": "-325",
+                     "deathDate": "-200",
+                     "closestAncestor": "658 (Conservative)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                      {
+                       "name": "CORN0923 P. Cornelius (383) Sulla",
+                       "id": "923",
+                       "bestPos": "praetor",
+                       "birthDate": "-239",
+                       "deathDate": "-150",
+                       "closestAncestor": "752 (Conservative)",
+                       "icon": "Praetexta.png",
+                       "children": [
+                        {
+                         "name": "CORN1223 P. Cornelius (384) Sulla",
+                         "id": "1223",
+                         "bestPos": "praetor",
+                         "birthDate": "-225",
+                         "deathDate": "-125",
+                         "closestAncestor": "923 (Conservative)",
+                         "icon": "Praetexta.png",
+                         "children": [
+                          {
+                           "name": "CORN3629 P. Cornelius (cf. 384) Sulla",
+                           "id": "3629",
+                           "bestPos": "",
+                           "birthDate": "-200",
+                           "deathDate": "-100",
+                           "closestAncestor": "1223 (Aggressive)",
+                           "icon": "NoPosition.png",
+                           "children": [
+                            {
+                             "name": "CORN4779 Ser. Cornelius (cf. 385 389) Sulla",
+                             "id": "4779",
+                             "bestPos": "",
+                             "birthDate": "-150",
+                             "deathDate": "-50",
+                             "closestAncestor": "3629 (Aggressive)",
+                             "icon": "NoPosition.png",
+                             "children": [
+                              {
+                               "name": "CORN3164 P. Cornelius (385) Ser. f. Sulla",
+                               "id": "3164",
+                               "bestPos": "",
+                               "birthDate": "-100",
+                               "deathDate": "0",
+                               "closestAncestor": "4779 (Conservative)",
+                               "icon": "NoPosition.png",
+                               "children": [
+                               ]
+                              },
+                              {
+                               "name": "CORN3177 Ser. Cornelius (389) Ser. f. Sulla",
+                               "id": "3177",
+                               "bestPos": "",
+                               "birthDate": "-100",
+                               "deathDate": "0",
+                               "closestAncestor": "4779 (Conservative)",
+                               "icon": "NoPosition.png",
+                               "children": [
+                               ]
+                              },
+                              {
+                               "name": "CORN2028 P. Cornelius (386) Sulla",
+                               "id": "2028",
+                               "bestPos": "consul",
+                               "birthDate": "-125",
+                               "deathDate": "25",
+                               "closestAncestor": "4779 (Aggressive)",
+                               "icon": "Praetexta.png",
+                               "children": [
+                                {
+                                 "name": "CORN3785 P. Cornelius (387) P. f.  Sulla",
+                                 "id": "3785",
+                                 "bestPos": "",
+                                 "birthDate": "-75",
+                                 "deathDate": "25",
+                                 "closestAncestor": "2028 (Conservative)",
+                                 "icon": "NoPosition.png",
+                                 "children": [
+                                 ]
+                                }                               ]
+                              }                             ]
+                            }                           ]
+                          },
+                          {
+                           "name": "CORN4281 L. Cornelius (379) Sulla",
+                           "id": "4281",
+                           "bestPos": "",
+                           "birthDate": "-200",
+                           "deathDate": "-100",
+                           "closestAncestor": "1223 (Conservative)",
+                           "icon": "NoPosition.png",
+                           "children": [
+                            {
+                             "name": "CORN1746 L. Cornelius (392) L. f. P. n. Sulla Felix ('Epaphroditus')",
+                             "id": "1746",
+                             "bestPos": "triumphator",
+                             "birthDate": "-138",
+                             "deathDate": "-78",
+                             "closestAncestor": "4281 (Conservative)",
+                             "icon": "Picta.png",
+                             "children": [
+                              {
+                               "name": "CORN2300 Faustus Cornelius (377) L. f. L. n. Sulla",
+                               "id": "2300",
+                               "bestPos": "",
+                               "birthDate": "-89",
+                               "deathDate": "-46",
+                               "closestAncestor": "1746 (Conservative)",
+                               "icon": "NoPosition.png",
+                               "children": [
+                               ]
+                              }                             ]
+                            }                           ]
+                          }                         ]
+                        },
+                        {
+                         "name": "CORN1326 Ser. Cornelius (2 388) Sulla",
+                         "id": "1326",
+                         "bestPos": "praetor",
+                         "birthDate": "-225",
+                         "deathDate": "-100",
+                         "closestAncestor": "923 (Conservative)",
+                         "icon": "Praetexta.png",
+                         "children": [
+                         ]
+                        }                       ]
+                      }                     ]
+                    }                   ]
+                  },
+                  {
+                   "name": "CORN0621 Cn. Cornelius (71 cf. 316 343) (Scipio) Barbatus Barbatus",
+                   "id": "621",
+                   "bestPos": "",
+                   "birthDate": "-350",
+                   "deathDate": "-250",
+                   "closestAncestor": "550 (Hyperaggressive)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  }                 ]
+                },
+                {
+                 "name": "CORN0565 L. Cornelius (186) Lentulus",
+                 "id": "565",
+                 "bestPos": "consul",
+                 "birthDate": "-375",
+                 "deathDate": "-250",
+                 "closestAncestor": "473 (Hyperaggressive)",
+                 "icon": "Praetexta.png",
+                 "children": [
+                 ]
+                }               ]
+              }             ]
+            },
+            {
+             "name": "CORN0330 Cn. Cornelius (117) P. f. A. n. Cossus",
+             "id": "330",
+             "bestPos": "",
+             "birthDate": "-450",
+             "deathDate": "-325",
+             "closestAncestor": "300 (Conservative)",
+             "icon": "NoPosition.png",
+             "children": [
+             ]
+            }           ]
+          },
+          {
+           "name": "CORN0305 Cn. Cornelius (116) A. f. M. n. Cossus",
+           "id": "305",
+           "bestPos": "consul",
+           "birthDate": "-450",
+           "deathDate": "-350",
+           "closestAncestor": "239 (Conservative)",
+           "icon": "Praetexta.png",
+           "children": [
+           ]
+          },
+          {
+           "name": "CORN0310 A. (or M.) Cornelius (113 cf. 112 114) Cossus",
+           "id": "310",
+           "bestPos": "consul",
+           "birthDate": "-450",
+           "deathDate": "-350",
+           "closestAncestor": "239 (Aggressive)",
+           "icon": "Praetexta.png",
+           "children": [
+           ]
+          },
+          {
+           "name": "CORN0326 P. Cornelius (119) A. f. M. n. Cossus",
+           "id": "326",
+           "bestPos": "",
+           "birthDate": "-450",
+           "deathDate": "-350",
+           "closestAncestor": "239 (Conservative)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "CORN0510 A. Cornelius (122) P. f. A. n. Cossus Arvina",
+             "id": "510",
+             "bestPos": "triumphator",
+             "birthDate": "-378",
+             "deathDate": "-250",
+             "closestAncestor": "326 (Conservative)",
+             "icon": "Picta.png",
+             "children": [
+              {
+               "name": "CORN0611 P. Cornelius (66) A. f. P. n. Arvina",
+               "id": "611",
+               "bestPos": "consul",
+               "birthDate": "-350",
+               "deathDate": "-225",
+               "closestAncestor": "510 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+                {
+                 "name": "CORN0661 P. Cornelius (56) A. f. P. n. Arvina",
+                 "id": "661",
+                 "bestPos": "consul",
+                 "birthDate": "-325",
+                 "deathDate": "-225",
+                 "closestAncestor": "611 (Aggressive)",
+                 "icon": "Praetexta.png",
+                 "children": [
+                 ]
+                }               ]
+              }             ]
+            }           ]
+          },
+          {
+           "name": "CORN0375 P. Cornelius (120) P. f. A. n. Cossus",
+           "id": "375",
+           "bestPos": "",
+           "birthDate": "-450",
+           "deathDate": "-325",
+           "closestAncestor": "239 (Aggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+           ]
+          },
+          {
+           "name": "CORN0376 P. Cornelius (328) Scipio",
+           "id": "376",
+           "bestPos": "",
+           "birthDate": "-450",
+           "deathDate": "-325",
+           "closestAncestor": "239 (Hyperaggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "CORN5172 Cn. Cornelius (cf. 343) Scipio",
+             "id": "5172",
+             "bestPos": "",
+             "birthDate": "-400",
+             "deathDate": "-300",
+             "closestAncestor": "376 (Aggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+              {
+               "name": "CORN0612 P. Cornelius (344 cf. 316) Scipio Barbatus",
+               "id": "612",
+               "bestPos": "consul",
+               "birthDate": "-375",
+               "deathDate": "-250",
+               "closestAncestor": "5172 (Aggressive)",
+               "icon": "Praetexta.png",
+               "children": [
+               ]
+              }             ]
+            },
+            {
+             "name": "CORN0513 L. Cornelius (322) P. f. Scipio",
+             "id": "513",
+             "bestPos": "consul",
+             "birthDate": "-385",
+             "deathDate": "-275",
+             "closestAncestor": "376 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+              {
+               "name": "CORN0628 L. Cornelius (343) Cn. f. Scipio Barbatus",
+               "id": "628",
+               "bestPos": "consul",
+               "birthDate": "-350",
+               "deathDate": "-225",
+               "closestAncestor": "513 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+                {
+                 "name": "CORN0723 Cn. Cornelius (341) L. f. Cn. n. Scipio Asina",
+                 "id": "723",
+                 "bestPos": "triumphator",
+                 "birthDate": "-300",
+                 "deathDate": "-260",
+                 "closestAncestor": "628 (Conservative)",
+                 "icon": "Picta.png",
+                 "children": [
+                  {
+                   "name": "CORN0819 P. Cornelius (342) (Cn. f. L. n.) Scipio Asina",
+                   "id": "819",
+                   "bestPos": "consul",
+                   "birthDate": "-275",
+                   "deathDate": "-200",
+                   "closestAncestor": "723 (Conservative)",
+                   "icon": "Praetexta.png",
+                   "children": [
+                    {
+                     "name": "CORN0851 Cn. Cornelius (not in RE) Scipio",
+                     "id": "851",
+                     "bestPos": "",
+                     "birthDate": "-250",
+                     "deathDate": "-150",
+                     "closestAncestor": "819 (Aggressive)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                      {
+                       "name": "CORN1320 M. Cornelius (348 cf. 35) Scipio Maluginensis",
+                       "id": "1320",
+                       "bestPos": "praetor",
+                       "birthDate": "-225",
+                       "deathDate": "-150",
+                       "closestAncestor": "851 (Aggressive)",
+                       "icon": "Praetexta.png",
+                       "children": [
+                       ]
+                      }                     ]
+                    }                   ]
+                  }                 ]
+                },
+                {
+                 "name": "CORN0722 L. Cornelius (323) L. f. Cn. n. Scipio",
+                 "id": "722",
+                 "bestPos": "triumphator",
+                 "birthDate": "-300",
+                 "deathDate": "-200",
+                 "closestAncestor": "628 (Conservative)",
+                 "icon": "Picta.png",
+                 "children": [
+                  {
+                   "name": "CORN0817 Cn. Cornelius (345) L. f. L. n. Scipio Calvus",
+                   "id": "817",
+                   "bestPos": "triumphator",
+                   "birthDate": "-256",
+                   "deathDate": "-211",
+                   "closestAncestor": "722 (Conservative)",
+                   "icon": "Picta.png",
+                   "children": [
+                    {
+                     "name": "CORN1090 Cn. Cornelius (346) Cn. f. L. n. Scipio Hispallus",
+                     "id": "1090",
+                     "bestPos": "consul",
+                     "birthDate": "-220",
+                     "deathDate": "-176",
+                     "closestAncestor": "817 (Conservative)",
+                     "icon": "Praetexta.png",
+                     "children": [
+                      {
+                       "name": "CORN4649 P. Cornelius (22) P. f. P. n. Scipio",
+                       "id": "4649",
+                       "bestPos": "",
+                       "birthDate": "-195",
+                       "deathDate": "-170",
+                       "closestAncestor": "1090 (Aggressive)",
+                       "icon": "NoPosition.png",
+                       "children": [
+                       ]
+                      },
+                      {
+                       "name": "CORN1506 Cn. Cornelius (347) Cn. f. Cn. n. Scipio Hispanus",
+                       "id": "1506",
+                       "bestPos": "praetor",
+                       "birthDate": "-180",
+                       "deathDate": "-75",
+                       "closestAncestor": "1090 (Conservative)",
+                       "icon": "Praetexta.png",
+                       "children": [
+                        {
+                         "name": "CORN1732 Cn. Cornelius (321) Scipio",
+                         "id": "1732",
+                         "bestPos": "praetor",
+                         "birthDate": "-150",
+                         "deathDate": "-50",
+                         "closestAncestor": "1506 (Conservative)",
+                         "icon": "Praetexta.png",
+                         "children": [
+                          {
+                           "name": "CORN2048 -. Cornelius (318) Scipio",
+                           "id": "2048",
+                           "bestPos": "",
+                           "birthDate": "-125",
+                           "deathDate": "-77",
+                           "closestAncestor": "1732 (Aggressive)",
+                           "icon": "NoPosition.png",
+                           "children": [
+                            {
+                             "name": "CORN3783 P.? Cornelius (357) P.? f.  Scipio Pomponianus Salvitto",
+                             "id": "3783",
+                             "bestPos": "consul",
+                             "birthDate": "-100",
+                             "deathDate": "25",
+                             "closestAncestor": "2048 (Aggressive)",
+                             "icon": "Praetexta.png",
+                             "children": [
+                             ]
+                            }                           ]
+                          }                         ]
+                        }                       ]
+                      }                     ]
+                    },
+                    {
+                     "name": "CORN1077 P. Cornelius (350) Cn. f. L. n. Scipio Nasica",
+                     "id": "1077",
+                     "bestPos": "triumphator",
+                     "birthDate": "-250",
+                     "deathDate": "-100",
+                     "closestAncestor": "817 (Conservative)",
+                     "icon": "Picta.png",
+                     "children": [
+                      {
+                       "name": "CORN1396 P. Cornelius (353) P. f. Cn. n. Scipio Nasica Corculum",
+                       "id": "1396",
+                       "bestPos": "triumphator",
+                       "birthDate": "-205",
+                       "deathDate": "-141",
+                       "closestAncestor": "1077 (Conservative)",
+                       "icon": "Picta.png",
+                       "children": [
+                        {
+                         "name": "CORN1513 P. Cornelius (354) P. f. P. n. Scipio Nasica Serapio",
+                         "id": "1513",
+                         "bestPos": "consul",
+                         "birthDate": "-180",
+                         "deathDate": "-132",
+                         "closestAncestor": "1396 (Conservative)",
+                         "icon": "Praetexta.png",
+                         "children": [
+                          {
+                           "name": "CORN1695 P. Cornelius (355) P. f. P. n. Scipio Nasica Serapio",
+                           "id": "1695",
+                           "bestPos": "consul",
+                           "birthDate": "-154",
+                           "deathDate": "-111",
+                           "closestAncestor": "1513 (Conservative)",
+                           "icon": "Praetexta.png",
+                           "children": [
+                            {
+                             "name": "CORN1836 P. Cornelius (351) P. f. P. n. Scipio Nasica",
+                             "id": "1836",
+                             "bestPos": "praetor",
+                             "birthDate": "-150",
+                             "deathDate": "-25",
+                             "closestAncestor": "1695 (Conservative)",
+                             "icon": "Praetexta.png",
+                             "children": [
+                              {
+                               "name": "CAEC2347 Q. Caecilius (99) Q. f. Q. n. Fab. Metellus Pius Scipio = P. Cornelius (352) Scipio Nasica",
+                               "id": "2347",
+                               "bestPos": "triumphator",
+                               "birthDate": "-95",
+                               "deathDate": "-46",
+                               "closestAncestor": "1836 (Conservative)",
+                               "icon": "Picta.png",
+                               "children": [
+                               ]
+                              },
+                              {
+                               "name": "LICI4028 L.? Licinius (76) Crassus Scipio",
+                               "id": "4028",
+                               "bestPos": "",
+                               "birthDate": "-125",
+                               "deathDate": "-25",
+                               "closestAncestor": "1836 (Conservative)",
+                               "icon": "NoPosition.png",
+                               "children": [
+                               ]
+                              }                             ]
+                            }                           ]
+                          }                         ]
+                        }                       ]
+                      }                     ]
+                    }                   ]
+                  },
+                  {
+                   "name": "CORN0832 P. Cornelius (330) L. f. L. n. Scipio",
+                   "id": "832",
+                   "bestPos": "consul",
+                   "birthDate": "-255",
+                   "deathDate": "-211",
+                   "closestAncestor": "722 (Conservative)",
+                   "icon": "Praetexta.png",
+                   "children": [
+                    {
+                     "name": "CORN0878 P. Cornelius (336) P. f. L. n. Scipio Africanus Maior",
+                     "id": "878",
+                     "bestPos": "triumphator",
+                     "birthDate": "-235",
+                     "deathDate": "-183",
+                     "closestAncestor": "832 (Conservative)",
+                     "icon": "Picta.png",
+                     "children": [
+                      {
+                       "name": "CORN1285 P. Cornelius (331) P. f. P. n. Scipio",
+                       "id": "1285",
+                       "bestPos": "",
+                       "birthDate": "-215",
+                       "deathDate": "-150",
+                       "closestAncestor": "878 (Conservative)",
+                       "icon": "NoPosition.png",
+                       "children": [
+                        {
+                         "name": "CORN3133 P. Cornelius (cf. 331) P. f. P. n. Scipio",
+                         "id": "3133",
+                         "bestPos": "",
+                         "birthDate": "-225",
+                         "deathDate": "-125",
+                         "closestAncestor": "1285 (Conservative)",
+                         "icon": "NoPosition.png",
+                         "children": [
+                         ]
+                        }                       ]
+                      },
+                      {
+                       "name": "CORN1309 Cn. Cornelius (320 325) Scipio",
+                       "id": "1309",
+                       "bestPos": "praetor",
+                       "birthDate": "-225",
+                       "deathDate": "-125",
+                       "closestAncestor": "878 (Conservative)",
+                       "icon": "Praetexta.png",
+                       "children": [
+                       ]
+                      },
+                      {
+                       "name": "CORN1331 L. Cornelius (325) Scipio",
+                       "id": "1331",
+                       "bestPos": "praetor",
+                       "birthDate": "-225",
+                       "deathDate": "-100",
+                       "closestAncestor": "878 (Conservative)",
+                       "icon": "Praetexta.png",
+                       "children": [
+                       ]
+                      }                     ]
+                    },
+                    {
+                     "name": "CORN1016 L. Cornelius (337) P. f. L. n. Scipio Asiaticus",
+                     "id": "1016",
+                     "bestPos": "triumphator",
+                     "birthDate": "-230",
+                     "deathDate": "-125",
+                     "closestAncestor": "832 (Conservative)",
+                     "icon": "Picta.png",
+                     "children": [
+                      {
+                       "name": "CORN1415 L. Cornelius (324) Scipio",
+                       "id": "1415",
+                       "bestPos": "",
+                       "birthDate": "-200",
+                       "deathDate": "-161",
+                       "closestAncestor": "1016 (Conservative)",
+                       "icon": "NoPosition.png",
+                       "children": [
+                        {
+                         "name": "CORN4757 -. Cornelius (339) Scipio Asiagenus Comatus",
+                         "id": "4757",
+                         "bestPos": "",
+                         "birthDate": "-175",
+                         "deathDate": "-75",
+                         "closestAncestor": "1415 (Conservative)",
+                         "icon": "NoPosition.png",
+                         "children": [
+                          {
+                           "name": "CORN4863 P. Cornelius (332) Scipio",
+                           "id": "4863",
+                           "bestPos": "",
+                           "birthDate": "-150",
+                           "deathDate": "-50",
+                           "closestAncestor": "4757 (Aggressive)",
+                           "icon": "NoPosition.png",
+                           "children": [
+                            {
+                             "name": "CORN4864 P. Cornelius (333) Scipio",
+                             "id": "4864",
+                             "bestPos": "",
+                             "birthDate": "-75",
+                             "deathDate": "25",
+                             "closestAncestor": "4863 (Conservative)",
+                             "icon": "NoPosition.png",
+                             "children": [
+                             ]
+                            }                           ]
+                          }                         ]
+                        },
+                        {
+                         "name": "CORN4866 L. Cornelius (cf. 339) Scipio",
+                         "id": "4866",
+                         "bestPos": "",
+                         "birthDate": "-175",
+                         "deathDate": "-75",
+                         "closestAncestor": "1415 (Conservative)",
+                         "icon": "NoPosition.png",
+                         "children": [
+                         ]
+                        },
+                        {
+                         "name": "CORN1882 L. Cornelius (338) L. f. L. n. Scipio Asiaticus (Asiagenus)",
+                         "id": "1882",
+                         "bestPos": "consul",
+                         "birthDate": "-129",
+                         "deathDate": "-25",
+                         "closestAncestor": "1415 (Conservative)",
+                         "icon": "Praetexta.png",
+                         "children": [
+                          {
+                           "name": "CORN3869 L. Cornelius (327) Scipio Asiagenus Aemilianus",
+                           "id": "3869",
+                           "bestPos": "",
+                           "birthDate": "-125",
+                           "deathDate": "-77",
+                           "closestAncestor": "1882 (Conservative)",
+                           "icon": "NoPosition.png",
+                           "children": [
+                           ]
+                          }                         ]
+                        }                       ]
+                      }                     ]
+                    },
+                    {
+                     "name": "CORN1091 L. Cornelius (270) L. f. Merula",
+                     "id": "1091",
+                     "bestPos": "consul",
+                     "birthDate": "-228",
+                     "deathDate": "-125",
+                     "closestAncestor": "832 (Hyperaggressive)",
+                     "icon": "Praetexta.png",
+                     "children": [
+                     ]
+                    }                   ]
+                  }                 ]
+                }               ]
+              }             ]
+            },
+            {
+             "name": "CORN0519 P. Cornelius (329) P. f.  Scipio",
+             "id": "519",
+             "bestPos": "",
+             "birthDate": "-391",
+             "deathDate": "-275",
+             "closestAncestor": "376 (Conservative)",
+             "icon": "NoPosition.png",
+             "children": [
+             ]
+            }           ]
+          }         ]
+        },
+        {
+         "name": "CORN0241 M. Cornelius (247) (M. f. L. n.) Maluginensis",
+         "id": "241",
+         "bestPos": "consul",
+         "birthDate": "-475",
+         "deathDate": "-375",
+         "closestAncestor": "173 (Conservative)",
+         "icon": "Praetexta.png",
+         "children": [
+          {
+           "name": "CORN0334 P. Cornelius (250 cf. 39) (M. f. M. n.) Maluginensis",
+           "id": "334",
+           "bestPos": "",
+           "birthDate": "-450",
+           "deathDate": "-350",
+           "closestAncestor": "241 (Conservative)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "CORN0390 M. Cornelius (248) P. f. M. n. Maluginensis",
+             "id": "390",
+             "bestPos": "censor",
+             "birthDate": "-425",
+             "deathDate": "-325",
+             "closestAncestor": "334 (Conservative)",
+             "icon": "Purpurea.png",
+             "children": [
+              {
+               "name": "CORN0474 M. Cornelius (249 cf. 248) P. f. M. n. Maluginensis",
+               "id": "474",
+               "bestPos": "",
+               "birthDate": "-400",
+               "deathDate": "-300",
+               "closestAncestor": "390 (Aggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              }             ]
+            },
+            {
+             "name": "CORN0373 P. Cornelius (252) P. f. M. n. Maluginensis",
+             "id": "373",
+             "bestPos": "consul",
+             "birthDate": "-450",
+             "deathDate": "-325",
+             "closestAncestor": "334 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+             ]
+            },
+            {
+             "name": "CORN0426 Ser. Cornelius (254) P. f. M. n. Maluginensis",
+             "id": "426",
+             "bestPos": "consul",
+             "birthDate": "-425",
+             "deathDate": "-300",
+             "closestAncestor": "334 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+             ]
+            }           ]
+          }         ]
+        },
+        {
+         "name": "CORN0328 P. Cornelius (307) M. f. L. n. Rutilus Cossus",
+         "id": "328",
+         "bestPos": "",
+         "birthDate": "-450",
+         "deathDate": "-350",
+         "closestAncestor": "173 (Conservative)",
+         "icon": "NoPosition.png",
+         "children": [
+         ]
+        }       ]
+      }     ]
+    },
+    {
+     "name": "CORN0247 Ser. Cornelius (121) Cossus",
+     "id": "247",
+     "bestPos": "",
+     "birthDate": "-475",
+     "deathDate": "-375",
+     "closestAncestor": "76 (Hyperaggressive)",
+     "icon": "NoPosition.png",
+     "children": [
+     ]
+    },
+    {
+     "name": "CORN5169 A. Cornelius (31 cf. 112) Cossus",
+     "id": "5169",
+     "bestPos": "",
+     "birthDate": "-475",
+     "deathDate": "-375",
+     "closestAncestor": "76 (Hyperaggressive)",
+     "icon": "NoPosition.png",
+     "children": [
+     ]
+    }   ]
+  },
+  {
+   "name": "CORN0144 A. Cornelius (12)",
+   "id": "144",
+   "bestPos": "",
+   "birthDate": "-500",
+   "deathDate": "-400",
+   "closestAncestor": "4804 (Hyperaggressive)",
+   "icon": "NoPosition.png",
+   "children": [
+    {
+     "name": "CORN0405 P. Cornelius (40)",
+     "id": "405",
+     "bestPos": "",
+     "birthDate": "-425",
+     "deathDate": "-325",
+     "closestAncestor": "144 (Aggressive)",
+     "icon": "NoPosition.png",
+     "children": [
+     ]
+    },
+    {
+     "name": "CORN0422 L. Cornelius (27)",
+     "id": "422",
+     "bestPos": "",
+     "birthDate": "-425",
+     "deathDate": "-325",
+     "closestAncestor": "144 (Aggressive)",
+     "icon": "NoPosition.png",
+     "children": [
+     ]
+    },
+    {
+     "name": "CORN0430 P. Cornelius (40 cf. 54)",
+     "id": "430",
+     "bestPos": "",
+     "birthDate": "-425",
+     "deathDate": "-325",
+     "closestAncestor": "144 (Aggressive)",
+     "icon": "NoPosition.png",
+     "children": [
+     ]
+    },
+    {
+     "name": "CORN0383 P. Cornelius (39)",
+     "id": "383",
+     "bestPos": "",
+     "birthDate": "-425",
+     "deathDate": "-325",
+     "closestAncestor": "144 (Aggressive)",
+     "icon": "NoPosition.png",
+     "children": [
+      {
+       "name": "CORN3782 P. Cornelius (not in RE) P. f. Scapula",
+       "id": "3782",
+       "bestPos": "",
+       "birthDate": "-400",
+       "deathDate": "-301",
+       "closestAncestor": "383 (Hyperaggressive)",
+       "icon": "NoPosition.png",
+       "children": [
+        {
+         "name": "CORN0563 P. Cornelius (316 cf. 315) P. f. Scapula",
+         "id": "563",
+         "bestPos": "consul",
+         "birthDate": "-375",
+         "deathDate": "-301",
+         "closestAncestor": "3782 (Aggressive)",
+         "icon": "Praetexta.png",
+         "children": [
+         ]
+        }       ]
+      },
+      {
+       "name": "CORN5171 Cn. Cornelius (cf. 206) Cn. f.",
+       "id": "5171",
+       "bestPos": "",
+       "birthDate": "-400",
+       "deathDate": "-300",
+       "closestAncestor": "383 (Aggressive)",
+       "icon": "NoPosition.png",
+       "children": [
+        {
+         "name": "CORN0606 P. Cornelius (41 cf. 66 and 316)",
+         "id": "606",
+         "bestPos": "",
+         "birthDate": "-350",
+         "deathDate": "-250",
+         "closestAncestor": "5171 (Aggressive)",
+         "icon": "NoPosition.png",
+         "children": [
+          {
+           "name": "CORN0674 P. Cornelius (139) Dolabella",
+           "id": "674",
+           "bestPos": "triumphator",
+           "birthDate": "-325",
+           "deathDate": "-282",
+           "closestAncestor": "606 (Hyperaggressive)",
+           "icon": "Picta.png",
+           "children": [
+            {
+             "name": "CORN0980 Cn. Cornelius (131) Dolabella",
+             "id": "980",
+             "bestPos": "",
+             "birthDate": "-250",
+             "deathDate": "-180",
+             "closestAncestor": "674 (Aggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+              {
+               "name": "CORN1282 L. Cornelius (137) Dolabella",
+               "id": "1282",
+               "bestPos": "",
+               "birthDate": "-225",
+               "deathDate": "-125",
+               "closestAncestor": "980 (Aggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+                {
+                 "name": "CORN1457 Cn. Cornelius (132) Cn. f. Cn. n. Dolabella",
+                 "id": "1457",
+                 "bestPos": "consul",
+                 "birthDate": "-200",
+                 "deathDate": "-100",
+                 "closestAncestor": "1282 (Aggressive)",
+                 "icon": "Praetexta.png",
+                 "children": [
+                  {
+                   "name": "CORN3383 Cn. Cornelius (133) Dolabella",
+                   "id": "3383",
+                   "bestPos": "praetor",
+                   "birthDate": "-150",
+                   "deathDate": "-100",
+                   "closestAncestor": "1457 (ndson)",
+                   "icon": "Praetexta.png",
+                   "children": [
+                    {
+                     "name": "CORN1791 L. Cornelius (138) P. f. L. n. Dolabella",
+                     "id": "1791",
+                     "bestPos": "triumphator",
+                     "birthDate": "-150",
+                     "deathDate": "-25",
+                     "closestAncestor": "3383 (Conservative)",
+                     "icon": "Picta.png",
+                     "children": [
+                      {
+                       "name": "CORN2007 Cn. Cornelius (135) (Cn. f. Cn. n.?) Dolabella",
+                       "id": "2007",
+                       "bestPos": "praetor",
+                       "birthDate": "-125",
+                       "deathDate": "-75",
+                       "closestAncestor": "1791 (Aggressive)",
+                       "icon": "Praetexta.png",
+                       "children": [
+                       ]
+                      }                     ]
+                    },
+                    {
+                     "name": "CORN1979 Cn. Cornelius (134) P. f. L. n. Pal. Dolabella",
+                     "id": "1979",
+                     "bestPos": "triumphator",
+                     "birthDate": "-125",
+                     "deathDate": "-25",
+                     "closestAncestor": "3383 (Conservative)",
+                     "icon": "Picta.png",
+                     "children": [
+                     ]
+                    }                   ]
+                  }                 ]
+                }               ]
+              }             ]
+            }           ]
+          },
+          {
+           "name": "CORN0555 P. Cornelius (79) Calussa",
+           "id": "555",
+           "bestPos": "",
+           "birthDate": "-325",
+           "deathDate": "-254",
+           "closestAncestor": "606 (Hyperaggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "CORN0698 Cn. Cornelius (73) P. f. Cn. n. Blasio",
+             "id": "698",
+             "bestPos": "triumphator",
+             "birthDate": "-300",
+             "deathDate": "-175",
+             "closestAncestor": "555 (Hyperaggressive)",
+             "icon": "Picta.png",
+             "children": [
+              {
+               "name": "CORN1085 Cn. Cornelius (74) Blasio",
+               "id": "1085",
+               "bestPos": "triumphator",
+               "birthDate": "-250",
+               "deathDate": "-125",
+               "closestAncestor": "698 (ndson)",
+               "icon": "Picta.png",
+               "children": [
+                {
+                 "name": "CORN1390 P. Cornelius (76) P. f. Blasio",
+                 "id": "1390",
+                 "bestPos": "praetor",
+                 "birthDate": "-225",
+                 "deathDate": "-75",
+                 "closestAncestor": "1085 (Conservative)",
+                 "icon": "Praetexta.png",
+                 "children": [
+                  {
+                   "name": "CORN3529 Cn. Cornelius (75) Cn. f. Blasio",
+                   "id": "3529",
+                   "bestPos": "",
+                   "birthDate": "-150",
+                   "deathDate": "-50",
+                   "closestAncestor": "1390 (Aggressive)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  }                 ]
+                }               ]
+              }             ]
+            }           ]
+          },
+          {
+           "name": "CORN0678 -. Cornelius (not in RE)",
+           "id": "678",
+           "bestPos": "",
+           "birthDate": "-325",
+           "deathDate": "-225",
+           "closestAncestor": "606 (Aggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "CORN0790 P. Cornelius (42)",
+             "id": "790",
+             "bestPos": "praetor",
+             "birthDate": "-275",
+             "deathDate": "-234",
+             "closestAncestor": "678 (Aggressive)",
+             "icon": "Praetexta.png",
+             "children": [
+              {
+               "name": "CORN3779 L. Cornelius (30) M. f. Rom.",
+               "id": "3779",
+               "bestPos": "",
+               "birthDate": "-175",
+               "deathDate": "-75",
+               "closestAncestor": "790 (Aggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+                {
+                 "name": "CORN3287 -. Cornelius (not in RE)",
+                 "id": "3287",
+                 "bestPos": "",
+                 "birthDate": "-150",
+                 "deathDate": "-25",
+                 "closestAncestor": "3779 (Aggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                  {
+                   "name": "CORN4703 -. Cornelius (5)",
+                   "id": "4703",
+                   "bestPos": "",
+                   "birthDate": "-125",
+                   "deathDate": "-44",
+                   "closestAncestor": "3287 (Aggressive)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  },
+                  {
+                   "name": "CORN4406 -. Cornelius (3)",
+                   "id": "4406",
+                   "bestPos": "",
+                   "birthDate": "-125",
+                   "deathDate": "-25",
+                   "closestAncestor": "3287 (Aggressive)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                    {
+                     "name": "CORN4405 C. Cornelius (19)",
+                     "id": "4405",
+                     "bestPos": "",
+                     "birthDate": "-100",
+                     "deathDate": "0",
+                     "closestAncestor": "4406 (Conservative)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                      {
+                       "name": "CORN4798 C. Cornelius (7)",
+                       "id": "4798",
+                       "bestPos": "",
+                       "birthDate": "-75",
+                       "deathDate": "25",
+                       "closestAncestor": "4405 (Conservative)",
+                       "icon": "NoPosition.png",
+                       "children": [
+                       ]
+                      }                     ]
+                    }                   ]
+                  },
+                  {
+                   "name": "CORN3439 L. Cornelius (not in RE) L. f. Vot.",
+                   "id": "3439",
+                   "bestPos": "",
+                   "birthDate": "-125",
+                   "deathDate": "-25",
+                   "closestAncestor": "3287 (Aggressive)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  },
+                  {
+                   "name": "CORN2393 Q. Cornelius (51)",
+                   "id": "2393",
+                   "bestPos": "",
+                   "birthDate": "-125",
+                   "deathDate": "0",
+                   "closestAncestor": "3287 (Aggressive)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                    {
+                     "name": "CORN2494 P. Cornelius (44)",
+                     "id": "2494",
+                     "bestPos": "",
+                     "birthDate": "-100",
+                     "deathDate": "0",
+                     "closestAncestor": "2393 (Aggressive)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                     ]
+                    },
+                    {
+                     "name": "CORN2233 C. Cornelius (18)",
+                     "id": "2233",
+                     "bestPos": "",
+                     "birthDate": "-100",
+                     "deathDate": "0",
+                     "closestAncestor": "2393 (Aggressive)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                      {
+                       "name": "CORN4704 Q. Cornelius (52)",
+                       "id": "4704",
+                       "bestPos": "",
+                       "birthDate": "-75",
+                       "deathDate": "25",
+                       "closestAncestor": "2233 (Aggressive)",
+                       "icon": "NoPosition.png",
+                       "children": [
+                       ]
+                      }                     ]
+                    },
+                    {
+                     "name": "CORN2627 P. Cornelius (45)",
+                     "id": "2627",
+                     "bestPos": "",
+                     "birthDate": "-100",
+                     "deathDate": "25",
+                     "closestAncestor": "2393 (Aggressive)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                     ]
+                    },
+                    {
+                     "name": "CORN3074 P. Cornelius (not in RE cf. 357)",
+                     "id": "3074",
+                     "bestPos": "",
+                     "birthDate": "-100",
+                     "deathDate": "25",
+                     "closestAncestor": "2393 (Aggressive)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                     ]
+                    }                   ]
+                  },
+                  {
+                   "name": "CORN3438 C. Cornelius (not in RE) C. f.",
+                   "id": "3438",
+                   "bestPos": "",
+                   "birthDate": "-125",
+                   "deathDate": "0",
+                   "closestAncestor": "3287 (Aggressive)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  }                 ]
+                }               ]
+              }             ]
+            }           ]
+          },
+          {
+           "name": "CORN0689 Ser. Cornelius (267) P. f. Ser. n. Merenda",
+           "id": "689",
+           "bestPos": "consul",
+           "birthDate": "-325",
+           "deathDate": "-200",
+           "closestAncestor": "606 (Hyperaggressive)",
+           "icon": "Praetexta.png",
+           "children": [
+            {
+             "name": "CORN3352 P. Cornelius (266) Merenda",
+             "id": "3352",
+             "bestPos": "praetor",
+             "birthDate": "-250",
+             "deathDate": "-150",
+             "closestAncestor": "689 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+              {
+               "name": "CORN1137 Cn. Cornelius (265) Merenda",
+               "id": "1137",
+               "bestPos": "praetor",
+               "birthDate": "-225",
+               "deathDate": "-175",
+               "closestAncestor": "3352 (Aggressive)",
+               "icon": "Praetexta.png",
+               "children": [
+               ]
+              }             ]
+            }           ]
+          }         ]
+        },
+        {
+         "name": "CORN0622 Ser. Cornelius (206) Cn. f. Cn. n. Lentulus",
+         "id": "622",
+         "bestPos": "consul",
+         "birthDate": "-350",
+         "deathDate": "-250",
+         "closestAncestor": "5171 (Conservative)",
+         "icon": "Praetexta.png",
+         "children": [
+         ]
+        }       ]
+      }     ]
+    }   ]
+  } ]
+};
+// Set the dimensions and margins of the diagram
+var margin = {top: 120, right: 90, bottom: 30, left: 90},
+    width = 1500 - margin.left - margin.right,
+    height = 
+ 2280;
+// append the svg object to the body of the page
+// appends a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.right + margin.left)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate("
+          + margin.left + "," + margin.top + ")");
+
+var i = 0,
+    duration = 750,
+    root;
+
+var tip = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([-10, 0])
+  .html(function(d) {
+    return "<span style='color:red'>" + d.data.name + "</span><br><strong>Born:</strong> <span style='color:red'>" + d.data.birthDate + "</span> <strong>Died:</strong> <span style='color:red'>" + d.data.deathDate + "</span><br><strong>Highest Position:</strong> <span style='color:red'>" + d.data.bestPos + "</span><br><strong>Closest Ancestor:</strong> <span style='color:red'>" + d.data.closestAncestor + "</span>";
+  })
+
+svg.call(tip);
+
+// declares a tree layout and assigns the size
+var treemap = d3.tree().size([width, height]);
+
+// Assigns parent, children, height, depth
+root = d3.hierarchy(treeData, function(d) { return d.children; });
+
+update(root);
+
+function update(source) {
+
+  // Assigns the x and y position for the nodes
+  var treeData = treemap(root);
+
+  // Compute the new tree layout.
+  var nodes = treeData.descendants(),
+      links = treeData.descendants().slice(1);
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d){ d.y = d.depth * 100});
+
+  // ****************** Nodes section ***************************
+
+  // Update the nodes...
+  var node = svg.selectAll('g.node')
+      .data(nodes, function(d) {return d.id || (d.id = ++i); })
+
+  // Enter any new modes at the parent's previous position.
+  var nodeEnter = node.enter().append('g')
+      
+   .append("image")
+      .attr('class', 'node') 
+      .attr('x', -12)
+      .attr('y', -18)
+      .attr('height', 40)
+      .attr('width', 24)
+      .attr("xlink:href", function(d) {
+           return d.data.icon;
+        })
+ 
+   
+   .on('mouseover', tip.show)
+      .on('mouseout', tip.hide)
+      .on('click', function(d) {
+        window.open(
+       'http://romanrepublic.ac.uk/person/' + d.data.id + '/',
+       '_blank'
+       );});
+
+  // UPDATE
+  var nodeUpdate = nodeEnter.merge(node);
+
+  // Transition to the proper position for the node
+  nodeUpdate.transition()
+    .duration(duration)
+    .attr("transform", function(d) { 
+        return "translate(" + d.x + "," + d.y + ")";
+     });
+
+  // ****************** links section ***************************
+
+  // Update the links...
+  var link = svg.selectAll('path.link')
+      .data(links, function(d) { return d.id; });
+
+  // Enter any new links at the parent's previous position.
+  var linkEnter = link.enter().insert('path', "g")
+      .attr("class", "link")
+      //.attr('d', function(d){
+      //  var o = {x: source.x0, y: source.y0}
+      //  return diagonal(o, o)
+      //});
+
+  // UPDATE
+  var linkUpdate = linkEnter.merge(link);
+
+  // Transition back to the parent element position
+  linkUpdate.transition()
+      .duration(duration)
+      .attr('d', function(d){ return diagonal(d, d.parent) });
+
+  // Remove any exiting links
+  var linkExit = link.exit().transition()
+      .duration(duration)
+      .attr('d', function(d) {
+        var o = {x: source.x, y: source.y}
+        return diagonal(o, o)
+      })
+      .remove();
+
+  // Store the old positions for transition.
+  nodes.forEach(function(d){
+    d.x0 = d.x;
+    d.y0 = d.y;
+  });
+
+  // Creates a curved (diagonal) path from parent to the child nodes
+  function diagonal(s, d) {
+
+    path = `M ${s.x} ${s.y}
+            C ${(s.x + d.x) / 2} ${s.y},
+              ${(s.x + d.x) / 2} ${d.y},
+              ${d.x} ${d.y}`
+
+    return path
+  }
+
+  // Toggle children on click.
+  //function click(d) {
+  //  if (d.children) {
+  //      d._children = d.children;
+  //      d.children = null;
+  //    } else {
+  //      d.children = d._children;
+  //      d._children = null;
+  //    }
+  //  update(d);
+  //}
+}
+
+svg.append("text")
+        .attr("x", (1200 / 2) - 150)             
+        .attr("y", -70)
+        .attr("text-anchor", "middle")  
+        .style("font-size", "16px") 
+        .text("Descendants of CORN4804 P. Cornelius (cf. 253) Maluginensis - Hyperaggressive Model");
+</script>
+</body>

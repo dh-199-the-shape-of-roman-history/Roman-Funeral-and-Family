@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<style>
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+</style>
+
+<body>
+
+<!-- load the d3.js library -->	
+<meta charset="utf-8">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+<script>
+
+var treeData =
+{
+ "name": "VALE0577 L. Valerius (171) Flaccus",
+ "id": "577",
+ "bestPos": "",
+ "birthDate": "-375",
+ "deathDate": "-250",
+ "closestAncestor": "none",
+ "icon": "NoPosition.png",
+ "children": [
+  {
+   "name": "VALE0720 L. Valerius (172) M. f. L. n. Flaccus",
+   "id": "720",
+   "bestPos": "consul",
+   "birthDate": "-300",
+   "deathDate": "-200",
+   "closestAncestor": "577 (Aggressive)",
+   "icon": "Praetexta.png",
+   "children": [
+    {
+     "name": "VALE0805 P. Valerius (181) L. f. M. n. Flaccus",
+     "id": "805",
+     "bestPos": "consul",
+     "birthDate": "-275",
+     "deathDate": "-200",
+     "closestAncestor": "720 (Conservative)",
+     "icon": "Praetexta.png",
+     "children": [
+      {
+       "name": "VALE0930 L. Valerius (173) P. f. L. n. Flaccus",
+       "id": "930",
+       "bestPos": "consul",
+       "birthDate": "-229",
+       "deathDate": "-180",
+       "closestAncestor": "805 (Conservative)",
+       "icon": "Praetexta.png",
+       "children": [
+        {
+         "name": "VALE1466 L. Valerius (174) L. f. P. n. Flaccus",
+         "id": "1466",
+         "bestPos": "consul",
+         "birthDate": "-199",
+         "deathDate": "-152",
+         "closestAncestor": "930 (Conservative)",
+         "icon": "Praetexta.png",
+         "children": [
+          {
+           "name": "VALE1802 L. Valerius (178) C.? f. L. n. Flaccus",
+           "id": "1802",
+           "bestPos": "consul",
+           "birthDate": "-135",
+           "deathDate": "-85",
+           "closestAncestor": "1466 (Conservative)",
+           "icon": "Praetexta.png",
+           "children": [
+            {
+             "name": "VALE1992 L. Valerius (179) L. f. C.? n. Flaccus",
+             "id": "1992",
+             "bestPos": "praetor",
+             "birthDate": "-99",
+             "deathDate": "0",
+             "closestAncestor": "1802 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+              {
+               "name": "VALE2488 C. Valerius (169) L. f. Flaccus",
+               "id": "2488",
+               "bestPos": "",
+               "birthDate": "-100",
+               "deathDate": "0",
+               "closestAncestor": "1992 (Conservative)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              }             ]
+            }           ]
+          },
+          {
+           "name": "VALE1492 L. Valerius (175) L. f. L. n. Flaccus",
+           "id": "1492",
+           "bestPos": "consul",
+           "birthDate": "-180",
+           "deathDate": "-75",
+           "closestAncestor": "1466 (Conservative)",
+           "icon": "Praetexta.png",
+           "children": [
+           ]
+          },
+          {
+           "name": "VALE4886 C. Valerius (D) Flaccus",
+           "id": "4886",
+           "bestPos": "",
+           "birthDate": "-175",
+           "deathDate": "-75",
+           "closestAncestor": "1466 (Conservative)",
+           "icon": "NoPosition.png",
+           "children": [
+           ]
+          },
+          {
+           "name": "VALE1815 L. Valerius (176 177) L. f. L. n. Flaccus",
+           "id": "1815",
+           "bestPos": "consul",
+           "birthDate": "-139",
+           "deathDate": "-71",
+           "closestAncestor": "1466 (Conservative)",
+           "icon": "Praetexta.png",
+           "children": [
+           ]
+          },
+          {
+           "name": "VALE1821 C. Valerius (168) C. f. L. n. Flaccus",
+           "id": "1821",
+           "bestPos": "triumphator",
+           "birthDate": "-150",
+           "deathDate": "-25",
+           "closestAncestor": "1466 (Conservative)",
+           "icon": "Picta.png",
+           "children": [
+            {
+             "name": "VALE4904 L. Valerius (180) Flaccus",
+             "id": "4904",
+             "bestPos": "",
+             "birthDate": "-125",
+             "deathDate": "-25",
+             "closestAncestor": "1821 (Conservative)",
+             "icon": "NoPosition.png",
+             "children": [
+             ]
+            }           ]
+          }         ]
+        }       ]
+      },
+      {
+       "name": "VALE0993 C. Valerius (166) P. f. L. n. Flaccus",
+       "id": "993",
+       "bestPos": "praetor",
+       "birthDate": "-229",
+       "deathDate": "-174",
+       "closestAncestor": "805 (Conservative)",
+       "icon": "Praetexta.png",
+       "children": [
+        {
+         "name": "VALE3524 C. Valerius (167) C. f. Flaccus",
+         "id": "3524",
+         "bestPos": "",
+         "birthDate": "-175",
+         "deathDate": "-75",
+         "closestAncestor": "993 (Conservative)",
+         "icon": "NoPosition.png",
+         "children": [
+         ]
+        }       ]
+      },
+      {
+       "name": "VALE0902 P. Valerius (182) Flaccus",
+       "id": "902",
+       "bestPos": "",
+       "birthDate": "-250",
+       "deathDate": "-150",
+       "closestAncestor": "805 (Conservative)",
+       "icon": "NoPosition.png",
+       "children": [
+       ]
+      }     ]
+    }   ]
+  } ]
+};
+// Set the dimensions and margins of the diagram
+var margin = {top: 120, right: 90, bottom: 30, left: 90},
+    width = 1500 - margin.left - margin.right,
+    height = 
+ 880;
+// append the svg object to the body of the page
+// appends a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.right + margin.left)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate("
+          + margin.left + "," + margin.top + ")");
+
+var i = 0,
+    duration = 750,
+    root;
+
+var tip = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([-10, 0])
+  .html(function(d) {
+    return "<span style='color:red'>" + d.data.name + "</span><br><strong>Born:</strong> <span style='color:red'>" + d.data.birthDate + "</span> <strong>Died:</strong> <span style='color:red'>" + d.data.deathDate + "</span><br><strong>Highest Position:</strong> <span style='color:red'>" + d.data.bestPos + "</span><br><strong>Closest Ancestor:</strong> <span style='color:red'>" + d.data.closestAncestor + "</span>";
+  })
+
+svg.call(tip);
+
+// declares a tree layout and assigns the size
+var treemap = d3.tree().size([width, height]);
+
+// Assigns parent, children, height, depth
+root = d3.hierarchy(treeData, function(d) { return d.children; });
+
+update(root);
+
+function update(source) {
+
+  // Assigns the x and y position for the nodes
+  var treeData = treemap(root);
+
+  // Compute the new tree layout.
+  var nodes = treeData.descendants(),
+      links = treeData.descendants().slice(1);
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d){ d.y = d.depth * 100});
+
+  // ****************** Nodes section ***************************
+
+  // Update the nodes...
+  var node = svg.selectAll('g.node')
+      .data(nodes, function(d) {return d.id || (d.id = ++i); })
+
+  // Enter any new modes at the parent's previous position.
+  var nodeEnter = node.enter().append('g')
+      
+   .append("image")
+      .attr('class', 'node') 
+      .attr('x', -12)
+      .attr('y', -18)
+      .attr('height', 40)
+      .attr('width', 24)
+      .attr("xlink:href", function(d) {
+           return d.data.icon;
+        })
+ 
+   
+   .on('mouseover', tip.show)
+      .on('mouseout', tip.hide)
+      .on('click', function(d) {
+        window.open(
+       'http://romanrepublic.ac.uk/person/' + d.data.id + '/',
+       '_blank'
+       );});
+
+  // UPDATE
+  var nodeUpdate = nodeEnter.merge(node);
+
+  // Transition to the proper position for the node
+  nodeUpdate.transition()
+    .duration(duration)
+    .attr("transform", function(d) { 
+        return "translate(" + d.x + "," + d.y + ")";
+     });
+
+  // ****************** links section ***************************
+
+  // Update the links...
+  var link = svg.selectAll('path.link')
+      .data(links, function(d) { return d.id; });
+
+  // Enter any new links at the parent's previous position.
+  var linkEnter = link.enter().insert('path', "g")
+      .attr("class", "link")
+      //.attr('d', function(d){
+      //  var o = {x: source.x0, y: source.y0}
+      //  return diagonal(o, o)
+      //});
+
+  // UPDATE
+  var linkUpdate = linkEnter.merge(link);
+
+  // Transition back to the parent element position
+  linkUpdate.transition()
+      .duration(duration)
+      .attr('d', function(d){ return diagonal(d, d.parent) });
+
+  // Remove any exiting links
+  var linkExit = link.exit().transition()
+      .duration(duration)
+      .attr('d', function(d) {
+        var o = {x: source.x, y: source.y}
+        return diagonal(o, o)
+      })
+      .remove();
+
+  // Store the old positions for transition.
+  nodes.forEach(function(d){
+    d.x0 = d.x;
+    d.y0 = d.y;
+  });
+
+  // Creates a curved (diagonal) path from parent to the child nodes
+  function diagonal(s, d) {
+
+    path = `M ${s.x} ${s.y}
+            C ${(s.x + d.x) / 2} ${s.y},
+              ${(s.x + d.x) / 2} ${d.y},
+              ${d.x} ${d.y}`
+
+    return path
+  }
+
+  // Toggle children on click.
+  //function click(d) {
+  //  if (d.children) {
+  //      d._children = d.children;
+  //      d.children = null;
+  //    } else {
+  //      d.children = d._children;
+  //      d._children = null;
+  //    }
+  //  update(d);
+  //}
+}
+
+svg.append("text")
+        .attr("x", (1200 / 2) - 150)             
+        .attr("y", -70)
+        .attr("text-anchor", "middle")  
+        .style("font-size", "16px") 
+        .text("Descendants of VALE0577 L. Valerius (171) Flaccus - Aggressive Model");
+</script>
+</body>

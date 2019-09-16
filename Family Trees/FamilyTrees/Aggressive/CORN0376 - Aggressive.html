@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<style>
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+</style>
+
+<body>
+
+<!-- load the d3.js library -->	
+<meta charset="utf-8">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+<script>
+
+var treeData =
+{
+ "name": "CORN0376 P. Cornelius (328) Scipio",
+ "id": "376",
+ "bestPos": "",
+ "birthDate": "-450",
+ "deathDate": "-325",
+ "closestAncestor": "none",
+ "icon": "NoPosition.png",
+ "children": [
+  {
+   "name": "CORN5172 Cn. Cornelius (cf. 343) Scipio",
+   "id": "5172",
+   "bestPos": "",
+   "birthDate": "-400",
+   "deathDate": "-300",
+   "closestAncestor": "376 (Aggressive)",
+   "icon": "NoPosition.png",
+   "children": [
+    {
+     "name": "CORN0612 P. Cornelius (344 cf. 316) Scipio Barbatus",
+     "id": "612",
+     "bestPos": "consul",
+     "birthDate": "-375",
+     "deathDate": "-250",
+     "closestAncestor": "5172 (Aggressive)",
+     "icon": "Praetexta.png",
+     "children": [
+     ]
+    }   ]
+  },
+  {
+   "name": "CORN0513 L. Cornelius (322) P. f. Scipio",
+   "id": "513",
+   "bestPos": "consul",
+   "birthDate": "-385",
+   "deathDate": "-275",
+   "closestAncestor": "376 (Conservative)",
+   "icon": "Praetexta.png",
+   "children": [
+    {
+     "name": "CORN0628 L. Cornelius (343) Cn. f. Scipio Barbatus",
+     "id": "628",
+     "bestPos": "consul",
+     "birthDate": "-350",
+     "deathDate": "-225",
+     "closestAncestor": "513 (Conservative)",
+     "icon": "Praetexta.png",
+     "children": [
+      {
+       "name": "CORN0723 Cn. Cornelius (341) L. f. Cn. n. Scipio Asina",
+       "id": "723",
+       "bestPos": "triumphator",
+       "birthDate": "-300",
+       "deathDate": "-260",
+       "closestAncestor": "628 (Conservative)",
+       "icon": "Picta.png",
+       "children": [
+        {
+         "name": "CORN0819 P. Cornelius (342) (Cn. f. L. n.) Scipio Asina",
+         "id": "819",
+         "bestPos": "consul",
+         "birthDate": "-275",
+         "deathDate": "-200",
+         "closestAncestor": "723 (Conservative)",
+         "icon": "Praetexta.png",
+         "children": [
+          {
+           "name": "CORN0851 Cn. Cornelius (not in RE) Scipio",
+           "id": "851",
+           "bestPos": "",
+           "birthDate": "-250",
+           "deathDate": "-150",
+           "closestAncestor": "819 (Aggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "CORN1320 M. Cornelius (348 cf. 35) Scipio Maluginensis",
+             "id": "1320",
+             "bestPos": "praetor",
+             "birthDate": "-225",
+             "deathDate": "-150",
+             "closestAncestor": "851 (Aggressive)",
+             "icon": "Praetexta.png",
+             "children": [
+             ]
+            }           ]
+          }         ]
+        }       ]
+      },
+      {
+       "name": "CORN0722 L. Cornelius (323) L. f. Cn. n. Scipio",
+       "id": "722",
+       "bestPos": "triumphator",
+       "birthDate": "-300",
+       "deathDate": "-200",
+       "closestAncestor": "628 (Conservative)",
+       "icon": "Picta.png",
+       "children": [
+        {
+         "name": "CORN0817 Cn. Cornelius (345) L. f. L. n. Scipio Calvus",
+         "id": "817",
+         "bestPos": "triumphator",
+         "birthDate": "-256",
+         "deathDate": "-211",
+         "closestAncestor": "722 (Conservative)",
+         "icon": "Picta.png",
+         "children": [
+          {
+           "name": "CORN1090 Cn. Cornelius (346) Cn. f. L. n. Scipio Hispallus",
+           "id": "1090",
+           "bestPos": "consul",
+           "birthDate": "-220",
+           "deathDate": "-176",
+           "closestAncestor": "817 (Conservative)",
+           "icon": "Praetexta.png",
+           "children": [
+            {
+             "name": "CORN4649 P. Cornelius (22) P. f. P. n. Scipio",
+             "id": "4649",
+             "bestPos": "",
+             "birthDate": "-195",
+             "deathDate": "-170",
+             "closestAncestor": "1090 (Aggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+             ]
+            },
+            {
+             "name": "CORN1506 Cn. Cornelius (347) Cn. f. Cn. n. Scipio Hispanus",
+             "id": "1506",
+             "bestPos": "praetor",
+             "birthDate": "-180",
+             "deathDate": "-75",
+             "closestAncestor": "1090 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+              {
+               "name": "CORN1732 Cn. Cornelius (321) Scipio",
+               "id": "1732",
+               "bestPos": "praetor",
+               "birthDate": "-150",
+               "deathDate": "-50",
+               "closestAncestor": "1506 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+                {
+                 "name": "CORN2048 -. Cornelius (318) Scipio",
+                 "id": "2048",
+                 "bestPos": "",
+                 "birthDate": "-125",
+                 "deathDate": "-77",
+                 "closestAncestor": "1732 (Aggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                  {
+                   "name": "CORN3783 P.? Cornelius (357) P.? f.  Scipio Pomponianus Salvitto",
+                   "id": "3783",
+                   "bestPos": "consul",
+                   "birthDate": "-100",
+                   "deathDate": "25",
+                   "closestAncestor": "2048 (Aggressive)",
+                   "icon": "Praetexta.png",
+                   "children": [
+                   ]
+                  }                 ]
+                }               ]
+              }             ]
+            }           ]
+          },
+          {
+           "name": "CORN1077 P. Cornelius (350) Cn. f. L. n. Scipio Nasica",
+           "id": "1077",
+           "bestPos": "triumphator",
+           "birthDate": "-250",
+           "deathDate": "-100",
+           "closestAncestor": "817 (Conservative)",
+           "icon": "Picta.png",
+           "children": [
+            {
+             "name": "CORN1396 P. Cornelius (353) P. f. Cn. n. Scipio Nasica Corculum",
+             "id": "1396",
+             "bestPos": "triumphator",
+             "birthDate": "-205",
+             "deathDate": "-141",
+             "closestAncestor": "1077 (Conservative)",
+             "icon": "Picta.png",
+             "children": [
+              {
+               "name": "CORN1513 P. Cornelius (354) P. f. P. n. Scipio Nasica Serapio",
+               "id": "1513",
+               "bestPos": "consul",
+               "birthDate": "-180",
+               "deathDate": "-132",
+               "closestAncestor": "1396 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+                {
+                 "name": "CORN1695 P. Cornelius (355) P. f. P. n. Scipio Nasica Serapio",
+                 "id": "1695",
+                 "bestPos": "consul",
+                 "birthDate": "-154",
+                 "deathDate": "-111",
+                 "closestAncestor": "1513 (Conservative)",
+                 "icon": "Praetexta.png",
+                 "children": [
+                  {
+                   "name": "CORN1836 P. Cornelius (351) P. f. P. n. Scipio Nasica",
+                   "id": "1836",
+                   "bestPos": "praetor",
+                   "birthDate": "-150",
+                   "deathDate": "-25",
+                   "closestAncestor": "1695 (Conservative)",
+                   "icon": "Praetexta.png",
+                   "children": [
+                    {
+                     "name": "CAEC2347 Q. Caecilius (99) Q. f. Q. n. Fab. Metellus Pius Scipio = P. Cornelius (352) Scipio Nasica",
+                     "id": "2347",
+                     "bestPos": "triumphator",
+                     "birthDate": "-95",
+                     "deathDate": "-46",
+                     "closestAncestor": "1836 (Conservative)",
+                     "icon": "Picta.png",
+                     "children": [
+                     ]
+                    },
+                    {
+                     "name": "LICI4028 L.? Licinius (76) Crassus Scipio",
+                     "id": "4028",
+                     "bestPos": "",
+                     "birthDate": "-125",
+                     "deathDate": "-25",
+                     "closestAncestor": "1836 (Conservative)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                     ]
+                    }                   ]
+                  }                 ]
+                }               ]
+              }             ]
+            }           ]
+          }         ]
+        },
+        {
+         "name": "CORN0832 P. Cornelius (330) L. f. L. n. Scipio",
+         "id": "832",
+         "bestPos": "consul",
+         "birthDate": "-255",
+         "deathDate": "-211",
+         "closestAncestor": "722 (Conservative)",
+         "icon": "Praetexta.png",
+         "children": [
+          {
+           "name": "CORN0878 P. Cornelius (336) P. f. L. n. Scipio Africanus Maior",
+           "id": "878",
+           "bestPos": "triumphator",
+           "birthDate": "-235",
+           "deathDate": "-183",
+           "closestAncestor": "832 (Conservative)",
+           "icon": "Picta.png",
+           "children": [
+            {
+             "name": "CORN1285 P. Cornelius (331) P. f. P. n. Scipio",
+             "id": "1285",
+             "bestPos": "",
+             "birthDate": "-215",
+             "deathDate": "-150",
+             "closestAncestor": "878 (Conservative)",
+             "icon": "NoPosition.png",
+             "children": [
+              {
+               "name": "CORN3133 P. Cornelius (cf. 331) P. f. P. n. Scipio",
+               "id": "3133",
+               "bestPos": "",
+               "birthDate": "-225",
+               "deathDate": "-125",
+               "closestAncestor": "1285 (Conservative)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              }             ]
+            },
+            {
+             "name": "CORN1309 Cn. Cornelius (320 325) Scipio",
+             "id": "1309",
+             "bestPos": "praetor",
+             "birthDate": "-225",
+             "deathDate": "-125",
+             "closestAncestor": "878 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+             ]
+            },
+            {
+             "name": "CORN1331 L. Cornelius (325) Scipio",
+             "id": "1331",
+             "bestPos": "praetor",
+             "birthDate": "-225",
+             "deathDate": "-100",
+             "closestAncestor": "878 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+             ]
+            }           ]
+          },
+          {
+           "name": "CORN1016 L. Cornelius (337) P. f. L. n. Scipio Asiaticus",
+           "id": "1016",
+           "bestPos": "triumphator",
+           "birthDate": "-230",
+           "deathDate": "-125",
+           "closestAncestor": "832 (Conservative)",
+           "icon": "Picta.png",
+           "children": [
+            {
+             "name": "CORN1415 L. Cornelius (324) Scipio",
+             "id": "1415",
+             "bestPos": "",
+             "birthDate": "-200",
+             "deathDate": "-161",
+             "closestAncestor": "1016 (Conservative)",
+             "icon": "NoPosition.png",
+             "children": [
+              {
+               "name": "CORN4757 -. Cornelius (339) Scipio Asiagenus Comatus",
+               "id": "4757",
+               "bestPos": "",
+               "birthDate": "-175",
+               "deathDate": "-75",
+               "closestAncestor": "1415 (Conservative)",
+               "icon": "NoPosition.png",
+               "children": [
+                {
+                 "name": "CORN4863 P. Cornelius (332) Scipio",
+                 "id": "4863",
+                 "bestPos": "",
+                 "birthDate": "-150",
+                 "deathDate": "-50",
+                 "closestAncestor": "4757 (Aggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                  {
+                   "name": "CORN4864 P. Cornelius (333) Scipio",
+                   "id": "4864",
+                   "bestPos": "",
+                   "birthDate": "-75",
+                   "deathDate": "25",
+                   "closestAncestor": "4863 (Conservative)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  }                 ]
+                }               ]
+              },
+              {
+               "name": "CORN4866 L. Cornelius (cf. 339) Scipio",
+               "id": "4866",
+               "bestPos": "",
+               "birthDate": "-175",
+               "deathDate": "-75",
+               "closestAncestor": "1415 (Conservative)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "CORN1882 L. Cornelius (338) L. f. L. n. Scipio Asiaticus (Asiagenus)",
+               "id": "1882",
+               "bestPos": "consul",
+               "birthDate": "-129",
+               "deathDate": "-25",
+               "closestAncestor": "1415 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+                {
+                 "name": "CORN3869 L. Cornelius (327) Scipio Asiagenus Aemilianus",
+                 "id": "3869",
+                 "bestPos": "",
+                 "birthDate": "-125",
+                 "deathDate": "-77",
+                 "closestAncestor": "1882 (Conservative)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                }               ]
+              }             ]
+            }           ]
+          }         ]
+        }       ]
+      }     ]
+    }   ]
+  },
+  {
+   "name": "CORN0519 P. Cornelius (329) P. f.  Scipio",
+   "id": "519",
+   "bestPos": "",
+   "birthDate": "-391",
+   "deathDate": "-275",
+   "closestAncestor": "376 (Conservative)",
+   "icon": "NoPosition.png",
+   "children": [
+   ]
+  } ]
+};
+// Set the dimensions and margins of the diagram
+var margin = {top: 120, right: 90, bottom: 30, left: 90},
+    width = 1500 - margin.left - margin.right,
+    height = 
+ 1210;
+// append the svg object to the body of the page
+// appends a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.right + margin.left)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate("
+          + margin.left + "," + margin.top + ")");
+
+var i = 0,
+    duration = 750,
+    root;
+
+var tip = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([-10, 0])
+  .html(function(d) {
+    return "<span style='color:red'>" + d.data.name + "</span><br><strong>Born:</strong> <span style='color:red'>" + d.data.birthDate + "</span> <strong>Died:</strong> <span style='color:red'>" + d.data.deathDate + "</span><br><strong>Highest Position:</strong> <span style='color:red'>" + d.data.bestPos + "</span><br><strong>Closest Ancestor:</strong> <span style='color:red'>" + d.data.closestAncestor + "</span>";
+  })
+
+svg.call(tip);
+
+// declares a tree layout and assigns the size
+var treemap = d3.tree().size([width, height]);
+
+// Assigns parent, children, height, depth
+root = d3.hierarchy(treeData, function(d) { return d.children; });
+
+update(root);
+
+function update(source) {
+
+  // Assigns the x and y position for the nodes
+  var treeData = treemap(root);
+
+  // Compute the new tree layout.
+  var nodes = treeData.descendants(),
+      links = treeData.descendants().slice(1);
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d){ d.y = d.depth * 100});
+
+  // ****************** Nodes section ***************************
+
+  // Update the nodes...
+  var node = svg.selectAll('g.node')
+      .data(nodes, function(d) {return d.id || (d.id = ++i); })
+
+  // Enter any new modes at the parent's previous position.
+  var nodeEnter = node.enter().append('g')
+      
+   .append("image")
+      .attr('class', 'node') 
+      .attr('x', -12)
+      .attr('y', -18)
+      .attr('height', 40)
+      .attr('width', 24)
+      .attr("xlink:href", function(d) {
+           return d.data.icon;
+        })
+ 
+   
+   .on('mouseover', tip.show)
+      .on('mouseout', tip.hide)
+      .on('click', function(d) {
+        window.open(
+       'http://romanrepublic.ac.uk/person/' + d.data.id + '/',
+       '_blank'
+       );});
+
+  // UPDATE
+  var nodeUpdate = nodeEnter.merge(node);
+
+  // Transition to the proper position for the node
+  nodeUpdate.transition()
+    .duration(duration)
+    .attr("transform", function(d) { 
+        return "translate(" + d.x + "," + d.y + ")";
+     });
+
+  // ****************** links section ***************************
+
+  // Update the links...
+  var link = svg.selectAll('path.link')
+      .data(links, function(d) { return d.id; });
+
+  // Enter any new links at the parent's previous position.
+  var linkEnter = link.enter().insert('path', "g")
+      .attr("class", "link")
+      //.attr('d', function(d){
+      //  var o = {x: source.x0, y: source.y0}
+      //  return diagonal(o, o)
+      //});
+
+  // UPDATE
+  var linkUpdate = linkEnter.merge(link);
+
+  // Transition back to the parent element position
+  linkUpdate.transition()
+      .duration(duration)
+      .attr('d', function(d){ return diagonal(d, d.parent) });
+
+  // Remove any exiting links
+  var linkExit = link.exit().transition()
+      .duration(duration)
+      .attr('d', function(d) {
+        var o = {x: source.x, y: source.y}
+        return diagonal(o, o)
+      })
+      .remove();
+
+  // Store the old positions for transition.
+  nodes.forEach(function(d){
+    d.x0 = d.x;
+    d.y0 = d.y;
+  });
+
+  // Creates a curved (diagonal) path from parent to the child nodes
+  function diagonal(s, d) {
+
+    path = `M ${s.x} ${s.y}
+            C ${(s.x + d.x) / 2} ${s.y},
+              ${(s.x + d.x) / 2} ${d.y},
+              ${d.x} ${d.y}`
+
+    return path
+  }
+
+  // Toggle children on click.
+  //function click(d) {
+  //  if (d.children) {
+  //      d._children = d.children;
+  //      d.children = null;
+  //    } else {
+  //      d.children = d._children;
+  //      d._children = null;
+  //    }
+  //  update(d);
+  //}
+}
+
+svg.append("text")
+        .attr("x", (1200 / 2) - 150)             
+        .attr("y", -70)
+        .attr("text-anchor", "middle")  
+        .style("font-size", "16px") 
+        .text("Descendants of CORN0376 P. Cornelius (328) Scipio - Aggressive Model");
+</script>
+</body>

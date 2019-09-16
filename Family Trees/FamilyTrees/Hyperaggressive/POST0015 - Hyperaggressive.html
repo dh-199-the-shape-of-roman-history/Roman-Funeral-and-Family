@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<style>
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+</style>
+
+<body>
+
+<!-- load the d3.js library -->	
+<meta charset="utf-8">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+<script>
+
+var treeData =
+{
+ "name": "POST0015 P. Postumius (64) Q. f. - n. Tubertus",
+ "id": "15",
+ "bestPos": "triumphator",
+ "birthDate": "-550",
+ "deathDate": "-425",
+ "closestAncestor": "none",
+ "icon": "Picta.png",
+ "children": [
+  {
+   "name": "POST0249 A. Postumius (63) Tubertus",
+   "id": "249",
+   "bestPos": "triumphator",
+   "birthDate": "-475",
+   "deathDate": "-375",
+   "closestAncestor": "15 (Aggressive)",
+   "icon": "Picta.png",
+   "children": [
+    {
+     "name": "POST0307 P. Postumius (60 cf. 1 51) A. f. A. n. Albinus Regillensis",
+     "id": "307",
+     "bestPos": "",
+     "birthDate": "-450",
+     "deathDate": "-414",
+     "closestAncestor": "249 (Hyperaggressive)",
+     "icon": "NoPosition.png",
+     "children": [
+      {
+       "name": "POST0382 Sp. Postumius (61) Albinus Regillensis",
+       "id": "382",
+       "bestPos": "censor",
+       "birthDate": "-425",
+       "deathDate": "-380",
+       "closestAncestor": "307 (Aggressive)",
+       "icon": "Purpurea.png",
+       "children": [
+        {
+         "name": "POST0485 -. Postumius (59) Regillensis Albinus",
+         "id": "485",
+         "bestPos": "censor",
+         "birthDate": "-400",
+         "deathDate": "-365",
+         "closestAncestor": "382 (Hyperaggressive)",
+         "icon": "Purpurea.png",
+         "children": [
+         ]
+        },
+        {
+         "name": "POST0548 Sp. Postumius (*17) Albinus (Caudinus)",
+         "id": "548",
+         "bestPos": "consul",
+         "birthDate": "-375",
+         "deathDate": "-300",
+         "closestAncestor": "382 (Aggressive)",
+         "icon": "Praetexta.png",
+         "children": [
+          {
+           "name": "POST0690 L. Postumius (39) L. f. Albinus",
+           "id": "690",
+           "bestPos": "",
+           "birthDate": "-325",
+           "deathDate": "-250",
+           "closestAncestor": "548 (Aggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "POST0766 A. Postumius (30) A. f. L. n. Albinus",
+             "id": "766",
+             "bestPos": "consul",
+             "birthDate": "-275",
+             "deathDate": "-215",
+             "closestAncestor": "690 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+              {
+               "name": "POST0788 L. Postumius (40) A. f. A. n. Albinus",
+               "id": "788",
+               "bestPos": "consul",
+               "birthDate": "-275",
+               "deathDate": "-216",
+               "closestAncestor": "766 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+                {
+                 "name": "POST1143 L. Postumius (65) Tympanus",
+                 "id": "1143",
+                 "bestPos": "",
+                 "birthDate": "-225",
+                 "deathDate": "-194",
+                 "closestAncestor": "788 (Conservative)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                },
+                {
+                 "name": "POST1170 Sp. Postumius (44) L. f. A. n. Albinus",
+                 "id": "1170",
+                 "bestPos": "consul",
+                 "birthDate": "-219",
+                 "deathDate": "-180",
+                 "closestAncestor": "788 (Conservative)",
+                 "icon": "Praetexta.png",
+                 "children": [
+                  {
+                   "name": "POST1406 L. Postumius (42) Sp. f. L. n. Albinus",
+                   "id": "1406",
+                   "bestPos": "consul",
+                   "birthDate": "-199",
+                   "deathDate": "-154",
+                   "closestAncestor": "1170 (Conservative)",
+                   "icon": "Praetexta.png",
+                   "children": [
+                    {
+                     "name": "POST1800 L. Postumius (43) L. f. Sp. n. Albinus",
+                     "id": "1800",
+                     "bestPos": "",
+                     "birthDate": "-149",
+                     "deathDate": "-50",
+                     "closestAncestor": "1406 (Conservative)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                     ]
+                    }                   ]
+                  }                 ]
+                }               ]
+              },
+              {
+               "name": "POST4224 M. Postumius (18) Pyrgensis",
+               "id": "4224",
+               "bestPos": "",
+               "birthDate": "-250",
+               "deathDate": "-150",
+               "closestAncestor": "766 (Hyperaggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+                {
+                 "name": "POST1231 L. Postumius (62) Tempsanus",
+                 "id": "1231",
+                 "bestPos": "praetor",
+                 "birthDate": "-225",
+                 "deathDate": "-125",
+                 "closestAncestor": "4224 (Hyperaggressive)",
+                 "icon": "Praetexta.png",
+                 "children": [
+                 ]
+                }               ]
+              },
+              {
+               "name": "POST4872 A. Postumius (A) Albinus",
+               "id": "4872",
+               "bestPos": "",
+               "birthDate": "-250",
+               "deathDate": "-150",
+               "closestAncestor": "766 (Conservative)",
+               "icon": "NoPosition.png",
+               "children": [
+                {
+                 "name": "POST1172 A. Postumius (46) A. f. A. n. Albinus (Luscus)",
+                 "id": "1172",
+                 "bestPos": "consul",
+                 "birthDate": "-219",
+                 "deathDate": "-100",
+                 "closestAncestor": "4872 (Conservative)",
+                 "icon": "Praetexta.png",
+                 "children": [
+                  {
+                   "name": "POST1420 A. Postumius (31) A. f. A. n. Albinus",
+                   "id": "1420",
+                   "bestPos": "consul",
+                   "birthDate": "-195",
+                   "deathDate": "-75",
+                   "closestAncestor": "1172 (Conservative)",
+                   "icon": "Praetexta.png",
+                   "children": [
+                    {
+                     "name": "POST1728 A. Postumius (33 cf. 32 34) Albinus",
+                     "id": "1728",
+                     "bestPos": "consul",
+                     "birthDate": "-142",
+                     "deathDate": "-89",
+                     "closestAncestor": "1420 (Conservative)",
+                     "icon": "Praetexta.png",
+                     "children": [
+                     ]
+                    },
+                    {
+                     "name": "POST1703 Sp. Postumius (45) Albinus",
+                     "id": "1703",
+                     "bestPos": "consul",
+                     "birthDate": "-150",
+                     "deathDate": "-50",
+                     "closestAncestor": "1420 (Conservative)",
+                     "icon": "Praetexta.png",
+                     "children": [
+                      {
+                       "name": "POST3391 A. Postumius (35) Sp. f. Albinus",
+                       "id": "3391",
+                       "bestPos": "praetor",
+                       "birthDate": "-150",
+                       "deathDate": "-25",
+                       "closestAncestor": "1703 (Conservative)",
+                       "icon": "Praetexta.png",
+                       "children": [
+                        {
+                         "name": "POST3478 A. Postumius (36) A. f. S. n. Albinus",
+                         "id": "3478",
+                         "bestPos": "",
+                         "birthDate": "-125",
+                         "deathDate": "-25",
+                         "closestAncestor": "3391 (Conservative)",
+                         "icon": "NoPosition.png",
+                         "children": [
+                          {
+                           "name": "POST2580 A.? Postumius (8) Albinus",
+                           "id": "2580",
+                           "bestPos": "",
+                           "birthDate": "-100",
+                           "deathDate": "25",
+                           "closestAncestor": "3478 (Aggressive)",
+                           "icon": "NoPosition.png",
+                           "children": [
+                           ]
+                          }                         ]
+                        }                       ]
+                      }                     ]
+                    }                   ]
+                  }                 ]
+                }               ]
+              },
+              {
+               "name": "POST1278 L. Postumius (41) A. f. A. n. Albinus",
+               "id": "1278",
+               "bestPos": "triumphator",
+               "birthDate": "-216",
+               "deathDate": "-100",
+               "closestAncestor": "766 (Conservative)",
+               "icon": "Picta.png",
+               "children": [
+                {
+                 "name": "POST1502 Sp. Postumius (47) Sp. f. Sp. n. Albinus Magnus",
+                 "id": "1502",
+                 "bestPos": "consul",
+                 "birthDate": "-191",
+                 "deathDate": "-75",
+                 "closestAncestor": "1278 (Aggressive)",
+                 "icon": "Praetexta.png",
+                 "children": [
+                  {
+                   "name": "POST5037 Sp. Postumius (23)",
+                   "id": "5037",
+                   "bestPos": "",
+                   "birthDate": "-175",
+                   "deathDate": "-75",
+                   "closestAncestor": "1502 (Conservative)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  }                 ]
+                }               ]
+              },
+              {
+               "name": "POST1251 Sp. Postumius (49) A. f. A. n. Albinus (Paullulus)",
+               "id": "1251",
+               "bestPos": "consul",
+               "birthDate": "-217",
+               "deathDate": "-100",
+               "closestAncestor": "766 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+               ]
+              }             ]
+            }           ]
+          },
+          {
+           "name": "POST0609 L. Postumius (55) L. f. Sp. n. Megellus",
+           "id": "609",
+           "bestPos": "triumphator",
+           "birthDate": "-350",
+           "deathDate": "-225",
+           "closestAncestor": "548 (Hyperaggressive)",
+           "icon": "Picta.png",
+           "children": [
+            {
+             "name": "POST0718 L. Postumius (56) L. f. L. n. Megellus",
+             "id": "718",
+             "bestPos": "consul",
+             "birthDate": "-300",
+             "deathDate": "-253",
+             "closestAncestor": "609 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+             ]
+            }           ]
+          }         ]
+        }       ]
+      },
+      {
+       "name": "POST0408 L. Postumius (58) Albinus Regillensis",
+       "id": "408",
+       "bestPos": "",
+       "birthDate": "-425",
+       "deathDate": "-325",
+       "closestAncestor": "307 (Aggressive)",
+       "icon": "NoPosition.png",
+       "children": [
+       ]
+      }     ]
+    },
+    {
+     "name": "POST0341 M. Postumius (16) A. f. A. n. Albinus Regillensis",
+     "id": "341",
+     "bestPos": "censor",
+     "birthDate": "-450",
+     "deathDate": "-350",
+     "closestAncestor": "249 (Hyperaggressive)",
+     "icon": "Purpurea.png",
+     "children": [
+     ]
+    },
+    {
+     "name": "POST3793 Ti. Postumius (25)",
+     "id": "3793",
+     "bestPos": "",
+     "birthDate": "-450",
+     "deathDate": "-350",
+     "closestAncestor": "249 (Hyperaggressive)",
+     "icon": "NoPosition.png",
+     "children": [
+      {
+       "name": "POST0564 A. Postumius (9)",
+       "id": "564",
+       "bestPos": "consul",
+       "birthDate": "-375",
+       "deathDate": "-275",
+       "closestAncestor": "3793 (Aggressive)",
+       "icon": "Praetexta.png",
+       "children": [
+        {
+         "name": "POST1416 C. Postumius (10)",
+         "id": "1416",
+         "bestPos": "",
+         "birthDate": "-200",
+         "deathDate": "-100",
+         "closestAncestor": "564 (Aggressive)",
+         "icon": "NoPosition.png",
+         "children": [
+          {
+           "name": "POST1671 -. Postumius (3)",
+           "id": "1671",
+           "bestPos": "",
+           "birthDate": "-175",
+           "deathDate": "-50",
+           "closestAncestor": "1416 (Aggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "POST4668 C. Postumius (11)",
+             "id": "4668",
+             "bestPos": "",
+             "birthDate": "-150",
+             "deathDate": "-25",
+             "closestAncestor": "1671 (Aggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+             ]
+            },
+            {
+             "name": "POST2993 -. Postumius (?) A. f.",
+             "id": "2993",
+             "bestPos": "",
+             "birthDate": "-150",
+             "deathDate": "50",
+             "closestAncestor": "1671 (Aggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+              {
+               "name": "POST1874 L. Postumius (13)",
+               "id": "1874",
+               "bestPos": "praetor",
+               "birthDate": "-125",
+               "deathDate": "-90",
+               "closestAncestor": "2993 (Aggressive)",
+               "icon": "Praetexta.png",
+               "children": [
+                {
+                 "name": "POST3792 C. Postumius (12) AT or TA",
+                 "id": "3792",
+                 "bestPos": "",
+                 "birthDate": "-102",
+                 "deathDate": "0",
+                 "closestAncestor": "1874 (Hyperaggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                },
+                {
+                 "name": "POST2436 L. Postumius (15)",
+                 "id": "2436",
+                 "bestPos": "praetor",
+                 "birthDate": "-100",
+                 "deathDate": "25",
+                 "closestAncestor": "1874 (Aggressive)",
+                 "icon": "Praetexta.png",
+                 "children": [
+                  {
+                   "name": "POST3245 Q. Postumius (21)",
+                   "id": "3245",
+                   "bestPos": "",
+                   "birthDate": "-75",
+                   "deathDate": "-31",
+                   "closestAncestor": "2436 (Aggressive)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  }                 ]
+                }               ]
+              },
+              {
+               "name": "POST2105 M. Postumius (19)",
+               "id": "2105",
+               "bestPos": "",
+               "birthDate": "-125",
+               "deathDate": "0",
+               "closestAncestor": "2993 (Aggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              }             ]
+            }           ]
+          }         ]
+        }       ]
+      }     ]
+    },
+    {
+     "name": "POST3798 M. Postumius (50) A. f. A. n. Albinus Regillensis",
+     "id": "3798",
+     "bestPos": "",
+     "birthDate": "-450",
+     "deathDate": "-350",
+     "closestAncestor": "249 (Hyperaggressive)",
+     "icon": "NoPosition.png",
+     "children": [
+     ]
+    },
+    {
+     "name": "POST0372 A. Postumius (57) Albinus Regillensis",
+     "id": "372",
+     "bestPos": "",
+     "birthDate": "-450",
+     "deathDate": "-325",
+     "closestAncestor": "249 (Hyperaggressive)",
+     "icon": "NoPosition.png",
+     "children": [
+     ]
+    }   ]
+  } ]
+};
+// Set the dimensions and margins of the diagram
+var margin = {top: 120, right: 90, bottom: 30, left: 90},
+    width = 1500 - margin.left - margin.right,
+    height = 
+ 1680;
+// append the svg object to the body of the page
+// appends a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.right + margin.left)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate("
+          + margin.left + "," + margin.top + ")");
+
+var i = 0,
+    duration = 750,
+    root;
+
+var tip = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([-10, 0])
+  .html(function(d) {
+    return "<span style='color:red'>" + d.data.name + "</span><br><strong>Born:</strong> <span style='color:red'>" + d.data.birthDate + "</span> <strong>Died:</strong> <span style='color:red'>" + d.data.deathDate + "</span><br><strong>Highest Position:</strong> <span style='color:red'>" + d.data.bestPos + "</span><br><strong>Closest Ancestor:</strong> <span style='color:red'>" + d.data.closestAncestor + "</span>";
+  })
+
+svg.call(tip);
+
+// declares a tree layout and assigns the size
+var treemap = d3.tree().size([width, height]);
+
+// Assigns parent, children, height, depth
+root = d3.hierarchy(treeData, function(d) { return d.children; });
+
+update(root);
+
+function update(source) {
+
+  // Assigns the x and y position for the nodes
+  var treeData = treemap(root);
+
+  // Compute the new tree layout.
+  var nodes = treeData.descendants(),
+      links = treeData.descendants().slice(1);
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d){ d.y = d.depth * 100});
+
+  // ****************** Nodes section ***************************
+
+  // Update the nodes...
+  var node = svg.selectAll('g.node')
+      .data(nodes, function(d) {return d.id || (d.id = ++i); })
+
+  // Enter any new modes at the parent's previous position.
+  var nodeEnter = node.enter().append('g')
+      
+   .append("image")
+      .attr('class', 'node') 
+      .attr('x', -12)
+      .attr('y', -18)
+      .attr('height', 40)
+      .attr('width', 24)
+      .attr("xlink:href", function(d) {
+           return d.data.icon;
+        })
+ 
+   
+   .on('mouseover', tip.show)
+      .on('mouseout', tip.hide)
+      .on('click', function(d) {
+        window.open(
+       'http://romanrepublic.ac.uk/person/' + d.data.id + '/',
+       '_blank'
+       );});
+
+  // UPDATE
+  var nodeUpdate = nodeEnter.merge(node);
+
+  // Transition to the proper position for the node
+  nodeUpdate.transition()
+    .duration(duration)
+    .attr("transform", function(d) { 
+        return "translate(" + d.x + "," + d.y + ")";
+     });
+
+  // ****************** links section ***************************
+
+  // Update the links...
+  var link = svg.selectAll('path.link')
+      .data(links, function(d) { return d.id; });
+
+  // Enter any new links at the parent's previous position.
+  var linkEnter = link.enter().insert('path', "g")
+      .attr("class", "link")
+      //.attr('d', function(d){
+      //  var o = {x: source.x0, y: source.y0}
+      //  return diagonal(o, o)
+      //});
+
+  // UPDATE
+  var linkUpdate = linkEnter.merge(link);
+
+  // Transition back to the parent element position
+  linkUpdate.transition()
+      .duration(duration)
+      .attr('d', function(d){ return diagonal(d, d.parent) });
+
+  // Remove any exiting links
+  var linkExit = link.exit().transition()
+      .duration(duration)
+      .attr('d', function(d) {
+        var o = {x: source.x, y: source.y}
+        return diagonal(o, o)
+      })
+      .remove();
+
+  // Store the old positions for transition.
+  nodes.forEach(function(d){
+    d.x0 = d.x;
+    d.y0 = d.y;
+  });
+
+  // Creates a curved (diagonal) path from parent to the child nodes
+  function diagonal(s, d) {
+
+    path = `M ${s.x} ${s.y}
+            C ${(s.x + d.x) / 2} ${s.y},
+              ${(s.x + d.x) / 2} ${d.y},
+              ${d.x} ${d.y}`
+
+    return path
+  }
+
+  // Toggle children on click.
+  //function click(d) {
+  //  if (d.children) {
+  //      d._children = d.children;
+  //      d.children = null;
+  //    } else {
+  //      d.children = d._children;
+  //      d._children = null;
+  //    }
+  //  update(d);
+  //}
+}
+
+svg.append("text")
+        .attr("x", (1200 / 2) - 150)             
+        .attr("y", -70)
+        .attr("text-anchor", "middle")  
+        .style("font-size", "16px") 
+        .text("Descendants of POST0015 P. Postumius (64) Q. f. - n. Tubertus - Hyperaggressive Model");
+</script>
+</body>

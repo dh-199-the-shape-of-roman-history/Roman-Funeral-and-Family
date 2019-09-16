@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<style>
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+</style>
+
+<body>
+
+<!-- load the d3.js library -->	
+<meta charset="utf-8">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+<script>
+
+var treeData =
+{
+ "name": "IUNI0040 L. Iunius (47) Brutus",
+ "id": "40",
+ "bestPos": "",
+ "birthDate": "-525",
+ "deathDate": "-425",
+ "closestAncestor": "none",
+ "icon": "NoPosition.png",
+ "children": [
+  {
+   "name": "IUNI0228 Q. Iunius (29)",
+   "id": "228",
+   "bestPos": "",
+   "birthDate": "-475",
+   "deathDate": "-375",
+   "closestAncestor": "40 (Hyperaggressive)",
+   "icon": "NoPosition.png",
+   "children": [
+    {
+     "name": "IUNI0587 C. Iunius (62) C. f. C. n. Bubulcus Brutus",
+     "id": "587",
+     "bestPos": "triumphator",
+     "birthDate": "-350",
+     "deathDate": "-250",
+     "closestAncestor": "228 (Hyperaggressive)",
+     "icon": "Picta.png",
+     "children": [
+      {
+       "name": "IUNI0657 C. Iunius (56) C. f. C. n. Bubulcus Brutus",
+       "id": "657",
+       "bestPos": "triumphator",
+       "birthDate": "-325",
+       "deathDate": "-225",
+       "closestAncestor": "587 (Aggressive)",
+       "icon": "Picta.png",
+       "children": [
+       ]
+      }     ]
+    },
+    {
+     "name": "IUNI3012 -. Iunius (not in RE)",
+     "id": "3012",
+     "bestPos": "",
+     "birthDate": "-300",
+     "deathDate": "-100",
+     "closestAncestor": "228 (Aggressive)",
+     "icon": "NoPosition.png",
+     "children": [
+      {
+       "name": "IUNI0801 P. Iunius (26)",
+       "id": "801",
+       "bestPos": "",
+       "birthDate": "-275",
+       "deathDate": "-230",
+       "closestAncestor": "3012 (Aggressive)",
+       "icon": "NoPosition.png",
+       "children": [
+        {
+         "name": "IUNI0932 D. Iunius (18)",
+         "id": "932",
+         "bestPos": "",
+         "birthDate": "-250",
+         "deathDate": "-150",
+         "closestAncestor": "801 (Aggressive)",
+         "icon": "NoPosition.png",
+         "children": [
+          {
+           "name": "IUNI3502 C. Iunius (14) C. f.",
+           "id": "3502",
+           "bestPos": "",
+           "birthDate": "-200",
+           "deathDate": "-75",
+           "closestAncestor": "932 (Aggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "IUNI3114 L. Iunius (21a)",
+             "id": "3114",
+             "bestPos": "",
+             "birthDate": "-150",
+             "deathDate": "0",
+             "closestAncestor": "3502 (Aggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+              {
+               "name": "IUNI4621 L. Iunius (21) Q. f. Lem.",
+               "id": "4621",
+               "bestPos": "",
+               "birthDate": "-125",
+               "deathDate": "-25",
+               "closestAncestor": "3114 (Aggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "IUNI3008 T. Iunius (32) L. f.",
+               "id": "3008",
+               "bestPos": "",
+               "birthDate": "-125",
+               "deathDate": "-25",
+               "closestAncestor": "3114 (Aggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "IUNI2019 M. Iunius (23 cf. 25)",
+               "id": "2019",
+               "bestPos": "",
+               "birthDate": "-125",
+               "deathDate": "-25",
+               "closestAncestor": "3114 (Aggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+                {
+                 "name": "IUNI2189 P. Iunius (27 cf. 2) P. f.",
+                 "id": "2189",
+                 "bestPos": "",
+                 "birthDate": "-100",
+                 "deathDate": "0",
+                 "closestAncestor": "2019 (Aggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                },
+                {
+                 "name": "IUNI2224 M. Iunius (25 cf. 23)",
+                 "id": "2224",
+                 "bestPos": "praetor",
+                 "birthDate": "-100",
+                 "deathDate": "0",
+                 "closestAncestor": "2019 (Aggressive)",
+                 "icon": "Praetexta.png",
+                 "children": [
+                 ]
+                }               ]
+              },
+              {
+               "name": "IUNI4144 P. Iunius (28)",
+               "id": "4144",
+               "bestPos": "",
+               "birthDate": "-125",
+               "deathDate": "-25",
+               "closestAncestor": "3114 (Aggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+                {
+                 "name": "IUNI4145 -. Iunius (2) P. f.",
+                 "id": "4145",
+                 "bestPos": "",
+                 "birthDate": "-125",
+                 "deathDate": "0",
+                 "closestAncestor": "4144 (Conservative)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                }               ]
+              },
+              {
+               "name": "IUNI4146 M. Iunius (24)",
+               "id": "4146",
+               "bestPos": "",
+               "birthDate": "-125",
+               "deathDate": "-25",
+               "closestAncestor": "3114 (Aggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "IUNI3204 Q. Iunius (30) Q. f.",
+               "id": "3204",
+               "bestPos": "",
+               "birthDate": "-125",
+               "deathDate": "0",
+               "closestAncestor": "3114 (Aggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "IUNI2068 C. Iunius (15)",
+               "id": "2068",
+               "bestPos": "",
+               "birthDate": "-125",
+               "deathDate": "0",
+               "closestAncestor": "3114 (Aggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+                {
+                 "name": "IUNI4045 C. Iunius (16)",
+                 "id": "4045",
+                 "bestPos": "",
+                 "birthDate": "-100",
+                 "deathDate": "0",
+                 "closestAncestor": "2068 (Conservative)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                }               ]
+              },
+              {
+               "name": "IUNI2051 M. Iunius (84) Iuncus",
+               "id": "2051",
+               "bestPos": "praetor",
+               "birthDate": "-125",
+               "deathDate": "0",
+               "closestAncestor": "3114 (Hyperaggressive)",
+               "icon": "Praetexta.png",
+               "children": [
+               ]
+              }             ]
+            }           ]
+          }         ]
+        }       ]
+      }     ]
+    }   ]
+  },
+  {
+   "name": "IUNI0276 C. Iunius (12)",
+   "id": "276",
+   "bestPos": "",
+   "birthDate": "-475",
+   "deathDate": "-350",
+   "closestAncestor": "40 (Hyperaggressive)",
+   "icon": "NoPosition.png",
+   "children": [
+   ]
+  },
+  {
+   "name": "IUNI0539 D. Iunius (60) Brutus Scaeva",
+   "id": "539",
+   "bestPos": "consul",
+   "birthDate": "-363",
+   "deathDate": "-250",
+   "closestAncestor": "40 (Aggressive)",
+   "icon": "Praetexta.png",
+   "children": [
+   ]
+  },
+  {
+   "name": "IUNI4212 D. Iunius (59) Brutus Pera",
+   "id": "4212",
+   "bestPos": "",
+   "birthDate": "-350",
+   "deathDate": "-225",
+   "closestAncestor": "40 (Aggressive)",
+   "icon": "NoPosition.png",
+   "children": [
+    {
+     "name": "IUNI0652 D. Iunius (61) D. f. Brutus Scaeva",
+     "id": "652",
+     "bestPos": "consul",
+     "birthDate": "-325",
+     "deathDate": "-225",
+     "closestAncestor": "4212 (Aggressive)",
+     "icon": "Praetexta.png",
+     "children": [
+      {
+       "name": "IUNI0753 L. Iunius (133) C. f. L. n. Pullus",
+       "id": "753",
+       "bestPos": "consul",
+       "birthDate": "-300",
+       "deathDate": "-249",
+       "closestAncestor": "652 (Hyperaggressive)",
+       "icon": "Praetexta.png",
+       "children": [
+       ]
+      },
+      {
+       "name": "IUNI1149 D. Iunius (45) Brutus",
+       "id": "1149",
+       "bestPos": "",
+       "birthDate": "-225",
+       "deathDate": "-125",
+       "closestAncestor": "652 (Aggressive)",
+       "icon": "NoPosition.png",
+       "children": [
+        {
+         "name": "IUNI1448 L. Iunius (19) (Brutus)",
+         "id": "1448",
+         "bestPos": "",
+         "birthDate": "-200",
+         "deathDate": "-100",
+         "closestAncestor": "1149 (Hyperaggressive)",
+         "icon": "NoPosition.png",
+         "children": [
+          {
+           "name": "IUNI4433 -. Iunius (129) Pisciculus",
+           "id": "4433",
+           "bestPos": "",
+           "birthDate": "-175",
+           "deathDate": "-25",
+           "closestAncestor": "1448 (Hyperaggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+           ]
+          }         ]
+        }       ]
+      },
+      {
+       "name": "IUNI1132 P. Iunius (54) Brutus",
+       "id": "1132",
+       "bestPos": "praetor",
+       "birthDate": "-220",
+       "deathDate": "-125",
+       "closestAncestor": "652 (Aggressive)",
+       "icon": "Praetexta.png",
+       "children": [
+       ]
+      },
+      {
+       "name": "IUNI1131 M. Iunius (48) M. f. L. n. Brutus",
+       "id": "1131",
+       "bestPos": "consul",
+       "birthDate": "-221",
+       "deathDate": "-100",
+       "closestAncestor": "652 (Aggressive)",
+       "icon": "Praetexta.png",
+       "children": [
+        {
+         "name": "IUNI1533 M. Iunius (49) M. f. M. n. Brutus",
+         "id": "1533",
+         "bestPos": "praetor",
+         "birthDate": "-179",
+         "deathDate": "-125",
+         "closestAncestor": "1131 (Conservative)",
+         "icon": "Praetexta.png",
+         "children": [
+          {
+           "name": "IUNI4046 M. Iunius (50) Brutus",
+           "id": "4046",
+           "bestPos": "",
+           "birthDate": "-175",
+           "deathDate": "-25",
+           "closestAncestor": "1533 (Conservative)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "IUNI1929 M. Iunius (51) Brutus",
+             "id": "1929",
+             "bestPos": "praetor",
+             "birthDate": "-125",
+             "deathDate": "-82",
+             "closestAncestor": "4046 (Aggressive)",
+             "icon": "Praetexta.png",
+             "children": [
+             ]
+            },
+            {
+             "name": "IUNI1980 L. Iunius (58) L. f. Gal. Brutus Damasippus",
+             "id": "1980",
+             "bestPos": "praetor",
+             "birthDate": "-125",
+             "deathDate": "-80",
+             "closestAncestor": "4046 (Aggressive)",
+             "icon": "Praetexta.png",
+             "children": [
+              {
+               "name": "IUNI4821 -. Iunius (72) Damasippus",
+               "id": "4821",
+               "bestPos": "",
+               "birthDate": "-100",
+               "deathDate": "0",
+               "closestAncestor": "1980 (Conservative)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "LICI2456 P. Licinius (65 75) Crassus Iunianus Damasippus = P.? Iunius Brutus Damasippus",
+               "id": "2456",
+               "bestPos": "praetor",
+               "birthDate": "-100",
+               "deathDate": "25",
+               "closestAncestor": "1980 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+               ]
+              }             ]
+            },
+            {
+             "name": "IUNI1973 M. Iunius (52) Brutus",
+             "id": "1973",
+             "bestPos": "",
+             "birthDate": "-117",
+             "deathDate": "-77",
+             "closestAncestor": "4046 (Aggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+              {
+               "name": "IUNI2459 M. Iunius (53) M. f. Brutus = Q. Servilius Caepio Brutus",
+               "id": "2459",
+               "bestPos": "praetor",
+               "birthDate": "-85",
+               "deathDate": "-42",
+               "closestAncestor": "1973 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+               ]
+              }             ]
+            }           ]
+          }         ]
+        },
+        {
+         "name": "IUNI1565 D. Iunius (57) M. f. M. n. Brutus Callaicus",
+         "id": "1565",
+         "bestPos": "triumphator",
+         "birthDate": "-181",
+         "deathDate": "-75",
+         "closestAncestor": "1131 (Conservative)",
+         "icon": "Picta.png",
+         "children": [
+          {
+           "name": "IUNI2023 D. Iunius (46) D. f. M. n. Brutus",
+           "id": "2023",
+           "bestPos": "consul",
+           "birthDate": "-120",
+           "deathDate": "-25",
+           "closestAncestor": "1565 (Conservative)",
+           "icon": "Praetexta.png",
+           "children": [
+            {
+             "name": "IUNI2489 D. Iunius (55a Supb. 5.369) D. f. D. n. Brutus Albinus",
+             "id": "2489",
+             "bestPos": "triumphator",
+             "birthDate": "-100",
+             "deathDate": "-43",
+             "closestAncestor": "2023 (Conservative)",
+             "icon": "Picta.png",
+             "children": [
+             ]
+            }           ]
+          }         ]
+        }       ]
+      }     ]
+    },
+    {
+     "name": "IUNI0707 D. Iunius (124) D. f. D. n. Pera",
+     "id": "707",
+     "bestPos": "triumphator",
+     "birthDate": "-300",
+     "deathDate": "-200",
+     "closestAncestor": "4212 (Conservative)",
+     "icon": "Picta.png",
+     "children": [
+      {
+       "name": "IUNI0797 M. Iunius (126) D. f. D. n. Pera",
+       "id": "797",
+       "bestPos": "consul",
+       "birthDate": "-275",
+       "deathDate": "-150",
+       "closestAncestor": "707 (Conservative)",
+       "icon": "Praetexta.png",
+       "children": [
+        {
+         "name": "IUNI0925 M. Iunius (167) Silanus",
+         "id": "925",
+         "bestPos": "praetor",
+         "birthDate": "-250",
+         "deathDate": "-150",
+         "closestAncestor": "797 (Hyperaggressive)",
+         "icon": "Praetexta.png",
+         "children": [
+          {
+           "name": "IUNI1123 M. Iunius (168) Silanus",
+           "id": "1123",
+           "bestPos": "",
+           "birthDate": "-250",
+           "deathDate": "-196",
+           "closestAncestor": "925 (Conservative)",
+           "icon": "NoPosition.png",
+           "children": [
+           ]
+          },
+          {
+           "name": "IUNI4818 D. Iunius (B) Silanus",
+           "id": "4818",
+           "bestPos": "",
+           "birthDate": "-225",
+           "deathDate": "-125",
+           "closestAncestor": "925 (Conservative)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "IUNI1534 M. Iunius (22) (Silanus)",
+             "id": "1534",
+             "bestPos": "",
+             "birthDate": "-200",
+             "deathDate": "-75",
+             "closestAncestor": "4818 (Conservative)",
+             "icon": "NoPosition.png",
+             "children": [
+             ]
+            },
+            {
+             "name": "IUNI1543 D. Iunius (160) Silanus",
+             "id": "1543",
+             "bestPos": "",
+             "birthDate": "-200",
+             "deathDate": "-75",
+             "closestAncestor": "4818 (Conservative)",
+             "icon": "NoPosition.png",
+             "children": [
+             ]
+            }           ]
+          }         ]
+        },
+        {
+         "name": "IUNI1025 M. Iunius (121) Pennus",
+         "id": "1025",
+         "bestPos": "praetor",
+         "birthDate": "-232",
+         "deathDate": "-150",
+         "closestAncestor": "797 (Hyperaggressive)",
+         "icon": "Praetexta.png",
+         "children": [
+          {
+           "name": "IUNI1353 M. Iunius (122) M. f. M. n. Pennus",
+           "id": "1353",
+           "bestPos": "consul",
+           "birthDate": "-212",
+           "deathDate": "-100",
+           "closestAncestor": "1025 (Conservative)",
+           "icon": "Praetexta.png",
+           "children": [
+            {
+             "name": "IUNI1638 M. Iunius (123) M. f. M. n. Pennus",
+             "id": "1638",
+             "bestPos": "",
+             "birthDate": "-154",
+             "deathDate": "-50",
+             "closestAncestor": "1353 (Conservative)",
+             "icon": "NoPosition.png",
+             "children": [
+             ]
+            }           ]
+          }         ]
+        }       ]
+      }     ]
+    },
+    {
+     "name": "IUNI4211 M. Iunius (125) Pera",
+     "id": "4211",
+     "bestPos": "",
+     "birthDate": "-275",
+     "deathDate": "-175",
+     "closestAncestor": "4212 (Conservative)",
+     "icon": "NoPosition.png",
+     "children": [
+     ]
+    }   ]
+  } ]
+};
+// Set the dimensions and margins of the diagram
+var margin = {top: 120, right: 90, bottom: 30, left: 90},
+    width = 1500 - margin.left - margin.right,
+    height = 
+ 1080;
+// append the svg object to the body of the page
+// appends a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.right + margin.left)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate("
+          + margin.left + "," + margin.top + ")");
+
+var i = 0,
+    duration = 750,
+    root;
+
+var tip = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([-10, 0])
+  .html(function(d) {
+    return "<span style='color:red'>" + d.data.name + "</span><br><strong>Born:</strong> <span style='color:red'>" + d.data.birthDate + "</span> <strong>Died:</strong> <span style='color:red'>" + d.data.deathDate + "</span><br><strong>Highest Position:</strong> <span style='color:red'>" + d.data.bestPos + "</span><br><strong>Closest Ancestor:</strong> <span style='color:red'>" + d.data.closestAncestor + "</span>";
+  })
+
+svg.call(tip);
+
+// declares a tree layout and assigns the size
+var treemap = d3.tree().size([width, height]);
+
+// Assigns parent, children, height, depth
+root = d3.hierarchy(treeData, function(d) { return d.children; });
+
+update(root);
+
+function update(source) {
+
+  // Assigns the x and y position for the nodes
+  var treeData = treemap(root);
+
+  // Compute the new tree layout.
+  var nodes = treeData.descendants(),
+      links = treeData.descendants().slice(1);
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d){ d.y = d.depth * 100});
+
+  // ****************** Nodes section ***************************
+
+  // Update the nodes...
+  var node = svg.selectAll('g.node')
+      .data(nodes, function(d) {return d.id || (d.id = ++i); })
+
+  // Enter any new modes at the parent's previous position.
+  var nodeEnter = node.enter().append('g')
+      
+   .append("image")
+      .attr('class', 'node') 
+      .attr('x', -12)
+      .attr('y', -18)
+      .attr('height', 40)
+      .attr('width', 24)
+      .attr("xlink:href", function(d) {
+           return d.data.icon;
+        })
+ 
+   
+   .on('mouseover', tip.show)
+      .on('mouseout', tip.hide)
+      .on('click', function(d) {
+        window.open(
+       'http://romanrepublic.ac.uk/person/' + d.data.id + '/',
+       '_blank'
+       );});
+
+  // UPDATE
+  var nodeUpdate = nodeEnter.merge(node);
+
+  // Transition to the proper position for the node
+  nodeUpdate.transition()
+    .duration(duration)
+    .attr("transform", function(d) { 
+        return "translate(" + d.x + "," + d.y + ")";
+     });
+
+  // ****************** links section ***************************
+
+  // Update the links...
+  var link = svg.selectAll('path.link')
+      .data(links, function(d) { return d.id; });
+
+  // Enter any new links at the parent's previous position.
+  var linkEnter = link.enter().insert('path', "g")
+      .attr("class", "link")
+      //.attr('d', function(d){
+      //  var o = {x: source.x0, y: source.y0}
+      //  return diagonal(o, o)
+      //});
+
+  // UPDATE
+  var linkUpdate = linkEnter.merge(link);
+
+  // Transition back to the parent element position
+  linkUpdate.transition()
+      .duration(duration)
+      .attr('d', function(d){ return diagonal(d, d.parent) });
+
+  // Remove any exiting links
+  var linkExit = link.exit().transition()
+      .duration(duration)
+      .attr('d', function(d) {
+        var o = {x: source.x, y: source.y}
+        return diagonal(o, o)
+      })
+      .remove();
+
+  // Store the old positions for transition.
+  nodes.forEach(function(d){
+    d.x0 = d.x;
+    d.y0 = d.y;
+  });
+
+  // Creates a curved (diagonal) path from parent to the child nodes
+  function diagonal(s, d) {
+
+    path = `M ${s.x} ${s.y}
+            C ${(s.x + d.x) / 2} ${s.y},
+              ${(s.x + d.x) / 2} ${d.y},
+              ${d.x} ${d.y}`
+
+    return path
+  }
+
+  // Toggle children on click.
+  //function click(d) {
+  //  if (d.children) {
+  //      d._children = d.children;
+  //      d.children = null;
+  //    } else {
+  //      d.children = d._children;
+  //      d._children = null;
+  //    }
+  //  update(d);
+  //}
+}
+
+svg.append("text")
+        .attr("x", (1200 / 2) - 150)             
+        .attr("y", -70)
+        .attr("text-anchor", "middle")  
+        .style("font-size", "16px") 
+        .text("Descendants of IUNI0040 L. Iunius (47) Brutus - Hyperaggressive Model");
+</script>
+</body>

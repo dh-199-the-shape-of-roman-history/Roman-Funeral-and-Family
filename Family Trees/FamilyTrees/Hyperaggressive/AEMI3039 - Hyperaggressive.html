@@ -1,0 +1,1100 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<style>
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+</style>
+
+<body>
+
+<!-- load the d3.js library -->	
+<meta charset="utf-8">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+<script>
+
+var treeData =
+{
+ "name": "AEMI3039 -. Aemilius (not in RE)",
+ "id": "3039",
+ "bestPos": "",
+ "birthDate": "-550",
+ "deathDate": "25",
+ "closestAncestor": "none",
+ "icon": "NoPosition.png",
+ "children": [
+  {
+   "name": "AEMI0080 L. Aemilius (96) Mam. f. - n. Mamercus",
+   "id": "80",
+   "bestPos": "consul",
+   "birthDate": "-525",
+   "deathDate": "-400",
+   "closestAncestor": "3039 (Hyperaggressive)",
+   "icon": "Praetexta.png",
+   "children": [
+    {
+     "name": "AEMI0116 Ti. Aemilius (99) L. f. Mam. n. Mamercus",
+     "id": "116",
+     "bestPos": "consul",
+     "birthDate": "-525",
+     "deathDate": "-400",
+     "closestAncestor": "80 (Conservative)",
+     "icon": "Praetexta.png",
+     "children": [
+     ]
+    },
+    {
+     "name": "AEMI0203 Mam. Aemilius (16 97) M. f. Mamercinus",
+     "id": "203",
+     "bestPos": "triumphator",
+     "birthDate": "-500",
+     "deathDate": "-375",
+     "closestAncestor": "80 (Hyperaggressive)",
+     "icon": "Picta.png",
+     "children": [
+      {
+       "name": "AEMI0316 M'. Aemilius (98) Mam. f. M. n. Mamercinus",
+       "id": "316",
+       "bestPos": "triumphator",
+       "birthDate": "-450",
+       "deathDate": "-350",
+       "closestAncestor": "203 (Aggressive)",
+       "icon": "Picta.png",
+       "children": [
+        {
+         "name": "AEMI0407 L. Aemilius (93) Mam. f. M. n. Mamercinus",
+         "id": "407",
+         "bestPos": "",
+         "birthDate": "-425",
+         "deathDate": "-325",
+         "closestAncestor": "316 (Aggressive)",
+         "icon": "NoPosition.png",
+         "children": [
+         ]
+        },
+        {
+         "name": "AEMI0380 C. Aemilius (not in RE) Ti. f. Ti. n. Mamercinus",
+         "id": "380",
+         "bestPos": "",
+         "birthDate": "-425",
+         "deathDate": "-325",
+         "closestAncestor": "316 (Aggressive)",
+         "icon": "NoPosition.png",
+         "children": [
+          {
+           "name": "AEMI0538 Ti. (or T.) Aemilius (100) Mamercinus",
+           "id": "538",
+           "bestPos": "consul",
+           "birthDate": "-377",
+           "deathDate": "-275",
+           "closestAncestor": "380 (Aggressive)",
+           "icon": "Praetexta.png",
+           "children": [
+           ]
+          }         ]
+        },
+        {
+         "name": "AEMI0484 L. Aemilius (95 cf. 94) L. f. Mam. n. Mamercinus (or Mamercus)",
+         "id": "484",
+         "bestPos": "consul",
+         "birthDate": "-425",
+         "deathDate": "-300",
+         "closestAncestor": "316 (Aggressive)",
+         "icon": "Praetexta.png",
+         "children": [
+          {
+           "name": "AEMI0529 L. Aemilius (101) L. f. L. n. Mamercinus Privernas",
+           "id": "529",
+           "bestPos": "triumphator",
+           "birthDate": "-375",
+           "deathDate": "-250",
+           "closestAncestor": "484 (Conservative)",
+           "icon": "Picta.png",
+           "children": [
+            {
+             "name": "AEMI0588 Q. Aemilius (34) Q. f. L. n. Barbula",
+             "id": "588",
+             "bestPos": "triumphator",
+             "birthDate": "-350",
+             "deathDate": "-250",
+             "closestAncestor": "529 (Hyperaggressive)",
+             "icon": "Picta.png",
+             "children": [
+              {
+               "name": "AEMI0671 M. Aemilius (32) Q. f. L. n. Barbula",
+               "id": "671",
+               "bestPos": "",
+               "birthDate": "-325",
+               "deathDate": "-225",
+               "closestAncestor": "588 (Aggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "AEMI0680 L. Aemilius (31) Q. f. Q. n. Barbula",
+               "id": "680",
+               "bestPos": "triumphator",
+               "birthDate": "-325",
+               "deathDate": "-200",
+               "closestAncestor": "588 (Conservative)",
+               "icon": "Picta.png",
+               "children": [
+                {
+                 "name": "AEMI0796 M. Aemilius (33) L. f. Q. n. Barbula",
+                 "id": "796",
+                 "bestPos": "consul",
+                 "birthDate": "-275",
+                 "deathDate": "-175",
+                 "closestAncestor": "680 (Conservative)",
+                 "icon": "Praetexta.png",
+                 "children": [
+                  {
+                   "name": "AEMI0854 M. Aemilius (128) Regillus",
+                   "id": "854",
+                   "bestPos": "praetor",
+                   "birthDate": "-250",
+                   "deathDate": "-205",
+                   "closestAncestor": "796 (Hyperaggressive)",
+                   "icon": "Praetexta.png",
+                   "children": [
+                    {
+                     "name": "AEMI1185 M. Aemilius (129) (Regillus)",
+                     "id": "1185",
+                     "bestPos": "",
+                     "birthDate": "-225",
+                     "deathDate": "-190",
+                     "closestAncestor": "854 (Conservative)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                     ]
+                    },
+                    {
+                     "name": "AEMI1175 L. Aemilius (127) Regillus",
+                     "id": "1175",
+                     "bestPos": "triumphator",
+                     "birthDate": "-225",
+                     "deathDate": "-175",
+                     "closestAncestor": "854 (Conservative)",
+                     "icon": "Picta.png",
+                     "children": [
+                     ]
+                    }                   ]
+                  }                 ]
+                }               ]
+              }             ]
+            },
+            {
+             "name": "AEMI0625 M. Aemilius (116) L. f. L. n. Paullus",
+             "id": "625",
+             "bestPos": "consul",
+             "birthDate": "-350",
+             "deathDate": "-250",
+             "closestAncestor": "529 (Hyperaggressive)",
+             "icon": "Praetexta.png",
+             "children": [
+              {
+               "name": "AEMI0739 M. Aemilius (117) M. f. L. n. Paullus",
+               "id": "739",
+               "bestPos": "triumphator",
+               "birthDate": "-300",
+               "deathDate": "-200",
+               "closestAncestor": "625 (Aggressive)",
+               "icon": "Picta.png",
+               "children": [
+                {
+                 "name": "AEMI0826 L. Aemilius (118) M. f. M. n. Paullus",
+                 "id": "826",
+                 "bestPos": "triumphator",
+                 "birthDate": "-250",
+                 "deathDate": "-216",
+                 "closestAncestor": "739 (Conservative)",
+                 "icon": "Picta.png",
+                 "children": [
+                  {
+                   "name": "AEMI1134 L. Aemilius (114) L. f. M. n. Paullus Macedonicus",
+                   "id": "1134",
+                   "bestPos": "triumphator",
+                   "birthDate": "-228",
+                   "deathDate": "-160",
+                   "closestAncestor": "826 (Conservative)",
+                   "icon": "Picta.png",
+                   "children": [
+                    {
+                     "name": "FABI1422 Q. Fabius (109) Q. f. Q. n. Maximus Aemilianus",
+                     "id": "1422",
+                     "bestPos": "triumphator",
+                     "birthDate": "-189",
+                     "deathDate": "-130",
+                     "closestAncestor": "1134 (Conservative)",
+                     "icon": "Picta.png",
+                     "children": [
+                      {
+                       "name": "FABI1594 Q. Fabius (110) Q. Aemiliani f. Q. n. Maximus Allobrogicus",
+                       "id": "1594",
+                       "bestPos": "triumphator",
+                       "birthDate": "-164",
+                       "deathDate": "-100",
+                       "closestAncestor": "1422 (Conservative)",
+                       "icon": "Picta.png",
+                       "children": [
+                        {
+                         "name": "FABI4142 Q. Fabius (107) Maximus",
+                         "id": "4142",
+                         "bestPos": "",
+                         "birthDate": "-150",
+                         "deathDate": "-50",
+                         "closestAncestor": "1594 (Conservative)",
+                         "icon": "NoPosition.png",
+                         "children": [
+                          {
+                           "name": "FABI2379 Q. Fabius (108) Q. f. Q. n. Maximus (Sanga?)",
+                           "id": "2379",
+                           "bestPos": "triumphator",
+                           "birthDate": "-100",
+                           "deathDate": "-45",
+                           "closestAncestor": "4142 (Conservative)",
+                           "icon": "Picta.png",
+                           "children": [
+                            {
+                             "name": "FABI4328 -. Fabius (102) Maximus",
+                             "id": "4328",
+                             "bestPos": "",
+                             "birthDate": "-46",
+                             "deathDate": "14",
+                             "closestAncestor": "2379 (Conservative)",
+                             "icon": "NoPosition.png",
+                             "children": [
+                             ]
+                            },
+                            {
+                             "name": "FABI4811 -. Fabius (101) Maximus",
+                             "id": "4811",
+                             "bestPos": "",
+                             "birthDate": "-75",
+                             "deathDate": "25",
+                             "closestAncestor": "2379 (Conservative)",
+                             "icon": "NoPosition.png",
+                             "children": [
+                             ]
+                            }                           ]
+                          },
+                          {
+                           "name": "FABI4415 Q. Fabius (100) Maximus",
+                           "id": "4415",
+                           "bestPos": "",
+                           "birthDate": "-100",
+                           "deathDate": "25",
+                           "closestAncestor": "4142 (Aggressive)",
+                           "icon": "NoPosition.png",
+                           "children": [
+                           ]
+                          }                         ]
+                        }                       ]
+                      }                     ]
+                    },
+                    {
+                     "name": "CORN1504 P. Cornelius (335) P. f. P. n. Scipio Africanus Aemilianus",
+                     "id": "1504",
+                     "bestPos": "triumphator",
+                     "birthDate": "-185",
+                     "deathDate": "-129",
+                     "closestAncestor": "1134 (Conservative)",
+                     "icon": "Picta.png",
+                     "children": [
+                     ]
+                    }                   ]
+                  },
+                  {
+                   "name": "LIVI4755 M. Livius (A) Aemilianus",
+                   "id": "4755",
+                   "bestPos": "",
+                   "birthDate": "-225",
+                   "deathDate": "-125",
+                   "closestAncestor": "826 (Conservative)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  }                 ]
+                }               ]
+              }             ]
+            }           ]
+          }         ]
+        }       ]
+      }     ]
+    }   ]
+  },
+  {
+   "name": "AEMI0520 M. Aemilius (not in RE)",
+   "id": "520",
+   "bestPos": "consul",
+   "birthDate": "-400",
+   "deathDate": "-275",
+   "closestAncestor": "3039 (Aggressive)",
+   "icon": "Praetexta.png",
+   "children": [
+    {
+     "name": "AEMI0576 M. Aemilius (110) Papus",
+     "id": "576",
+     "bestPos": "",
+     "birthDate": "-375",
+     "deathDate": "-250",
+     "closestAncestor": "520 (Hyperaggressive)",
+     "icon": "NoPosition.png",
+     "children": [
+      {
+       "name": "AEMI0676 Q. Aemilius (112) Cn. f. L. n. Papus",
+       "id": "676",
+       "bestPos": "consul",
+       "birthDate": "-325",
+       "deathDate": "-225",
+       "closestAncestor": "576 (Aggressive)",
+       "icon": "Praetexta.png",
+       "children": [
+        {
+         "name": "AEMI0981 M. Aemilius (111) Papus",
+         "id": "981",
+         "bestPos": "",
+         "birthDate": "-250",
+         "deathDate": "-210",
+         "closestAncestor": "676 (Aggressive)",
+         "icon": "NoPosition.png",
+         "children": [
+         ]
+        },
+        {
+         "name": "AEMI0812 L. Aemilius (108) Q. f. Cn. n. Papus",
+         "id": "812",
+         "bestPos": "triumphator",
+         "birthDate": "-259",
+         "deathDate": "-150",
+         "closestAncestor": "676 (Aggressive)",
+         "icon": "Picta.png",
+         "children": [
+          {
+           "name": "AEMI1024 L. Aemilius (109) Papus",
+           "id": "1024",
+           "bestPos": "praetor",
+           "birthDate": "-225",
+           "deathDate": "-172",
+           "closestAncestor": "812 (Conservative)",
+           "icon": "Praetexta.png",
+           "children": [
+           ]
+          }         ]
+        }       ]
+      }     ]
+    },
+    {
+     "name": "AEMI4754 M. Aemilius (B)",
+     "id": "4754",
+     "bestPos": "",
+     "birthDate": "-350",
+     "deathDate": "-250",
+     "closestAncestor": "520 (Aggressive)",
+     "icon": "NoPosition.png",
+     "children": [
+      {
+       "name": "AEMI0669 M. Aemilius (65) Lepidus",
+       "id": "669",
+       "bestPos": "consul",
+       "birthDate": "-325",
+       "deathDate": "-225",
+       "closestAncestor": "4754 (Conservative)",
+       "icon": "Praetexta.png",
+       "children": [
+        {
+         "name": "AEMI0792 M. Aemilius (66) M. f. M. n. Lepidus",
+         "id": "792",
+         "bestPos": "consul",
+         "birthDate": "-277",
+         "deathDate": "-216",
+         "closestAncestor": "669 (Aggressive)",
+         "icon": "Praetexta.png",
+         "children": [
+          {
+           "name": "AEMI1067 M. Aemilius (68) M. f. M. n. Lepidus",
+           "id": "1067",
+           "bestPos": "triumphator",
+           "birthDate": "-230",
+           "deathDate": "-152",
+           "closestAncestor": "792 (Conservative)",
+           "icon": "Picta.png",
+           "children": [
+            {
+             "name": "AEMI1180 M. Aemilius (69) Lepidus",
+             "id": "1180",
+             "bestPos": "",
+             "birthDate": "-210",
+             "deathDate": "-125",
+             "closestAncestor": "1067 (Conservative)",
+             "icon": "NoPosition.png",
+             "children": [
+              {
+               "name": "AEMI1626 M. Aemilius (71) Lepidus",
+               "id": "1626",
+               "bestPos": "consul",
+               "birthDate": "-175",
+               "deathDate": "-75",
+               "closestAncestor": "1180 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+                {
+                 "name": "AEMI4634 -. Aemilius (not in RE) Potensis",
+                 "id": "4634",
+                 "bestPos": "",
+                 "birthDate": "-150",
+                 "deathDate": "-50",
+                 "closestAncestor": "1626 (Hyperaggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                },
+                {
+                 "name": "AEMI3617 M'. Aemilius (cf. 62) (M.? f.) Lepidus",
+                 "id": "3617",
+                 "bestPos": "",
+                 "birthDate": "-150",
+                 "deathDate": "-50",
+                 "closestAncestor": "1626 (Aggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                },
+                {
+                 "name": "AEMI2038 M'. Aemilius (62) M'. f. Lepidus",
+                 "id": "2038",
+                 "bestPos": "consul",
+                 "birthDate": "-125",
+                 "deathDate": "-50",
+                 "closestAncestor": "1626 (Conservative)",
+                 "icon": "Praetexta.png",
+                 "children": [
+                  {
+                   "name": "AEMI4712 M'. Aemilius (62a) Lepidus",
+                   "id": "4712",
+                   "bestPos": "",
+                   "birthDate": "-100",
+                   "deathDate": "0",
+                   "closestAncestor": "2038 (Conservative)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                    {
+                     "name": "AEMI2726 P. (or Paullus) Aemilius (not in RE) P. f. Lepidus",
+                     "id": "2726",
+                     "bestPos": "",
+                     "birthDate": "-75",
+                     "deathDate": "25",
+                     "closestAncestor": "4712 (Aggressive)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                     ]
+                    }                   ]
+                  },
+                  {
+                   "name": "AEMI2931 Q. Aemilius (79) M'. f. Lepidus",
+                   "id": "2931",
+                   "bestPos": "",
+                   "birthDate": "-75",
+                   "deathDate": "0",
+                   "closestAncestor": "2038 (Conservative)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                    {
+                     "name": "AEMI4734 M'. Aemilius (63) Lepidus",
+                     "id": "4734",
+                     "bestPos": "",
+                     "birthDate": "-50",
+                     "deathDate": "50",
+                     "closestAncestor": "2931 (Conservative)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                     ]
+                    }                   ]
+                  }                 ]
+                }               ]
+              },
+              {
+               "name": "AEMI4706 Q. Aemilius (A) Lepidus",
+               "id": "4706",
+               "bestPos": "",
+               "birthDate": "-250",
+               "deathDate": "25",
+               "closestAncestor": "1180 (Conservative)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              }             ]
+            },
+            {
+             "name": "AEMI1553 M. Aemilius (83) M. f. M. n. Lepidus Porcina",
+             "id": "1553",
+             "bestPos": "consul",
+             "birthDate": "-180",
+             "deathDate": "-100",
+             "closestAncestor": "1067 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+             ]
+            }           ]
+          },
+          {
+           "name": "AEMI4222 L. Aemilius (60) Lepidus",
+           "id": "4222",
+           "bestPos": "",
+           "birthDate": "-250",
+           "deathDate": "-150",
+           "closestAncestor": "792 (Conservative)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "AEMI3331 Q. Aemilius (78) Lepidus",
+             "id": "3331",
+             "bestPos": "",
+             "birthDate": "-225",
+             "deathDate": "50",
+             "closestAncestor": "4222 (Aggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+             ]
+            }           ]
+          },
+          {
+           "name": "AEMI4223 Q. Aemilius (77) Lepidus",
+           "id": "4223",
+           "bestPos": "",
+           "birthDate": "-250",
+           "deathDate": "-150",
+           "closestAncestor": "792 (Conservative)",
+           "icon": "NoPosition.png",
+           "children": [
+           ]
+          },
+          {
+           "name": "AEMI4635 M. Aemilius (67) M. f. M. n. Lepidus",
+           "id": "4635",
+           "bestPos": "praetor",
+           "birthDate": "-250",
+           "deathDate": "-150",
+           "closestAncestor": "792 (Conservative)",
+           "icon": "Praetexta.png",
+           "children": [
+           ]
+          }         ]
+        }       ]
+      },
+      {
+       "name": "AEMI4753 M'. Aemilius (D)",
+       "id": "4753",
+       "bestPos": "",
+       "birthDate": "-300",
+       "deathDate": "-200",
+       "closestAncestor": "4754 (Conservative)",
+       "icon": "NoPosition.png",
+       "children": [
+        {
+         "name": "AEMI0785 M'. Aemilius (103) M'. f. (Lepidus) Numida",
+         "id": "785",
+         "bestPos": "",
+         "birthDate": "-250",
+         "deathDate": "-211",
+         "closestAncestor": "4753 (Conservative)",
+         "icon": "NoPosition.png",
+         "children": [
+          {
+           "name": "AEMI1186 L. Aemilius (138) Scaurus",
+           "id": "1186",
+           "bestPos": "",
+           "birthDate": "-225",
+           "deathDate": "-125",
+           "closestAncestor": "785 (Hyperaggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "AEMI1645 M. Aemilius (140) M. f. L. n. Cam. Scaurus",
+             "id": "1645",
+             "bestPos": "triumphator",
+             "birthDate": "-162",
+             "deathDate": "-88",
+             "closestAncestor": "1186 (ndson)",
+             "icon": "Picta.png",
+             "children": [
+              {
+               "name": "AEMI1783 M. Aemilius (137) Scaurus",
+               "id": "1783",
+               "bestPos": "",
+               "birthDate": "-150",
+               "deathDate": "-102",
+               "closestAncestor": "1645 (Conservative)",
+               "icon": "NoPosition.png",
+               "children": [
+                {
+                 "name": "AEMI4736 L. Aemilius (36) Buca",
+                 "id": "4736",
+                 "bestPos": "",
+                 "birthDate": "-125",
+                 "deathDate": "-25",
+                 "closestAncestor": "1783 (Hyperaggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                  {
+                   "name": "AEMI3543 L. Aemilius (37) Buca",
+                   "id": "3543",
+                   "bestPos": "",
+                   "birthDate": "-75",
+                   "deathDate": "25",
+                   "closestAncestor": "4736 (Conservative)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  }                 ]
+                },
+                {
+                 "name": "AEMI4847 M. Aemilius (30) Avianianus",
+                 "id": "4847",
+                 "bestPos": "",
+                 "birthDate": "-125",
+                 "deathDate": "-25",
+                 "closestAncestor": "1783 (Hyperaggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                }               ]
+              },
+              {
+               "name": "AEMI2262 M. Aemilius (141) M. f. M. n. Scaurus",
+               "id": "2262",
+               "bestPos": "praetor",
+               "birthDate": "-92",
+               "deathDate": "0",
+               "closestAncestor": "1645 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+                {
+                 "name": "AEMI3935 M. Aemilius (142) Scaurus",
+                 "id": "3935",
+                 "bestPos": "",
+                 "birthDate": "-75",
+                 "deathDate": "25",
+                 "closestAncestor": "2262 (Conservative)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                  {
+                   "name": "AEMI4324 Mam. Aemilius (139) Scaurus",
+                   "id": "4324",
+                   "bestPos": "",
+                   "birthDate": "-50",
+                   "deathDate": "50",
+                   "closestAncestor": "3935 (Conservative)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  }                 ]
+                }               ]
+              }             ]
+            }           ]
+          },
+          {
+           "name": "AEMI4709 M'. Aemilius (E) Lepidus",
+           "id": "4709",
+           "bestPos": "",
+           "birthDate": "-225",
+           "deathDate": "-125",
+           "closestAncestor": "785 (Conservative)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "AEMI1471 M. Aemilius (70) M'. f. M'. n. Lepidus",
+             "id": "1471",
+             "bestPos": "consul",
+             "birthDate": "-200",
+             "deathDate": "-75",
+             "closestAncestor": "4709 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+              {
+               "name": "AEMI1993 M. Aemilius (72) Q. f. M. n. Pal. Lepidus",
+               "id": "1993",
+               "bestPos": "consul",
+               "birthDate": "-125",
+               "deathDate": "-77",
+               "closestAncestor": "1471 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+                {
+                 "name": "AEMI2341 M. Aemilius (73) M. f. Q. n. Lepidus",
+                 "id": "2341",
+                 "bestPos": "triumphator",
+                 "birthDate": "-90",
+                 "deathDate": "-13",
+                 "closestAncestor": "1993 (Conservative)",
+                 "icon": "Picta.png",
+                 "children": [
+                  {
+                   "name": "AEMI3913 M. Aemilius (104) Lepidus",
+                   "id": "3913",
+                   "bestPos": "",
+                   "birthDate": "-125",
+                   "deathDate": "-30",
+                   "closestAncestor": "2341 (Conservative)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  }                 ]
+                },
+                {
+                 "name": "AEMI4001 -. Aemilius (84) Regillus",
+                 "id": "4001",
+                 "bestPos": "",
+                 "birthDate": "-100",
+                 "deathDate": "0",
+                 "closestAncestor": "1993 (Conservative)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                },
+                {
+                 "name": "AEMI2350 L. Aemilius (81) M. f. Q. n. (Lepidus) Paullus",
+                 "id": "2350",
+                 "bestPos": "consul",
+                 "birthDate": "-99",
+                 "deathDate": "25",
+                 "closestAncestor": "1993 (Conservative)",
+                 "icon": "Praetexta.png",
+                 "children": [
+                  {
+                   "name": "AEMI5108 -. Aemilius (not in RE) (Lepidus or Scaurus)",
+                   "id": "5108",
+                   "bestPos": "",
+                   "birthDate": "-75",
+                   "deathDate": "-43",
+                   "closestAncestor": "2350 (Hyperaggressive)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  },
+                  {
+                   "name": "AEMI2895 L. Aemilius (82) L. f. M. n. Tro. Lepidus Paullus",
+                   "id": "2895",
+                   "bestPos": "consul",
+                   "birthDate": "-69",
+                   "deathDate": "-13",
+                   "closestAncestor": "2350 (Conservative)",
+                   "icon": "Praetexta.png",
+                   "children": [
+                    {
+                     "name": "AEMI4726 L. Aemilius (115) Paullus",
+                     "id": "4726",
+                     "bestPos": "",
+                     "birthDate": "-50",
+                     "deathDate": "50",
+                     "closestAncestor": "2895 (Conservative)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                     ]
+                    },
+                    {
+                     "name": "AEMI4727 M. Aemilius (75) Lepidus",
+                     "id": "4727",
+                     "bestPos": "",
+                     "birthDate": "-50",
+                     "deathDate": "50",
+                     "closestAncestor": "2895 (Conservative)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                     ]
+                    }                   ]
+                  }                 ]
+                }               ]
+              },
+              {
+               "name": "AEMI4707 M'. Aemilius (C) Lepidus",
+               "id": "4707",
+               "bestPos": "",
+               "birthDate": "-175",
+               "deathDate": "-75",
+               "closestAncestor": "1471 (Conservative)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "AEMI4713 M'. Aemilius (F) Lepidus",
+               "id": "4713",
+               "bestPos": "",
+               "birthDate": "-175",
+               "deathDate": "-75",
+               "closestAncestor": "1471 (Aggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              }             ]
+            }           ]
+          }         ]
+        },
+        {
+         "name": "AEMI2939 L. Aemilius (14) L. f.",
+         "id": "2939",
+         "bestPos": "praetor",
+         "birthDate": "-250",
+         "deathDate": "-125",
+         "closestAncestor": "4753 (Aggressive)",
+         "icon": "Praetexta.png",
+         "children": [
+          {
+           "name": "AEMI1668 -. Aemilius (not in RE)",
+           "id": "1668",
+           "bestPos": "",
+           "birthDate": "-175",
+           "deathDate": "-50",
+           "closestAncestor": "2939 (Aggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "AEMI4170 -. Aemilius (H)",
+             "id": "4170",
+             "bestPos": "",
+             "birthDate": "-140",
+             "deathDate": "-50",
+             "closestAncestor": "1668 (Aggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+             ]
+            },
+            {
+             "name": "AEMI4848 M. Aemilius (G)",
+             "id": "4848",
+             "bestPos": "",
+             "birthDate": "-125",
+             "deathDate": "-25",
+             "closestAncestor": "1668 (Aggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+              {
+               "name": "AEMI4567 L. Aemilius (not in RE) Tro.",
+               "id": "4567",
+               "bestPos": "",
+               "birthDate": "-75",
+               "deathDate": "25",
+               "closestAncestor": "4848 (Aggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              }             ]
+            }           ]
+          }         ]
+        }       ]
+      }     ]
+    },
+    {
+     "name": "AEMI2940 M.? Aemilius (18) M. f.",
+     "id": "2940",
+     "bestPos": "",
+     "birthDate": "-350",
+     "deathDate": "-150",
+     "closestAncestor": "520 (Aggressive)",
+     "icon": "NoPosition.png",
+     "children": [
+     ]
+    }   ]
+  } ]
+};
+// Set the dimensions and margins of the diagram
+var margin = {top: 120, right: 90, bottom: 30, left: 90},
+    width = 1500 - margin.left - margin.right,
+    height = 
+ 1800;
+// append the svg object to the body of the page
+// appends a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.right + margin.left)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate("
+          + margin.left + "," + margin.top + ")");
+
+var i = 0,
+    duration = 750,
+    root;
+
+var tip = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([-10, 0])
+  .html(function(d) {
+    return "<span style='color:red'>" + d.data.name + "</span><br><strong>Born:</strong> <span style='color:red'>" + d.data.birthDate + "</span> <strong>Died:</strong> <span style='color:red'>" + d.data.deathDate + "</span><br><strong>Highest Position:</strong> <span style='color:red'>" + d.data.bestPos + "</span><br><strong>Closest Ancestor:</strong> <span style='color:red'>" + d.data.closestAncestor + "</span>";
+  })
+
+svg.call(tip);
+
+// declares a tree layout and assigns the size
+var treemap = d3.tree().size([width, height]);
+
+// Assigns parent, children, height, depth
+root = d3.hierarchy(treeData, function(d) { return d.children; });
+
+update(root);
+
+function update(source) {
+
+  // Assigns the x and y position for the nodes
+  var treeData = treemap(root);
+
+  // Compute the new tree layout.
+  var nodes = treeData.descendants(),
+      links = treeData.descendants().slice(1);
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d){ d.y = d.depth * 100});
+
+  // ****************** Nodes section ***************************
+
+  // Update the nodes...
+  var node = svg.selectAll('g.node')
+      .data(nodes, function(d) {return d.id || (d.id = ++i); })
+
+  // Enter any new modes at the parent's previous position.
+  var nodeEnter = node.enter().append('g')
+      
+   .append("image")
+      .attr('class', 'node') 
+      .attr('x', -12)
+      .attr('y', -18)
+      .attr('height', 40)
+      .attr('width', 24)
+      .attr("xlink:href", function(d) {
+           return d.data.icon;
+        })
+ 
+   
+   .on('mouseover', tip.show)
+      .on('mouseout', tip.hide)
+      .on('click', function(d) {
+        window.open(
+       'http://romanrepublic.ac.uk/person/' + d.data.id + '/',
+       '_blank'
+       );});
+
+  // UPDATE
+  var nodeUpdate = nodeEnter.merge(node);
+
+  // Transition to the proper position for the node
+  nodeUpdate.transition()
+    .duration(duration)
+    .attr("transform", function(d) { 
+        return "translate(" + d.x + "," + d.y + ")";
+     });
+
+  // ****************** links section ***************************
+
+  // Update the links...
+  var link = svg.selectAll('path.link')
+      .data(links, function(d) { return d.id; });
+
+  // Enter any new links at the parent's previous position.
+  var linkEnter = link.enter().insert('path', "g")
+      .attr("class", "link")
+      //.attr('d', function(d){
+      //  var o = {x: source.x0, y: source.y0}
+      //  return diagonal(o, o)
+      //});
+
+  // UPDATE
+  var linkUpdate = linkEnter.merge(link);
+
+  // Transition back to the parent element position
+  linkUpdate.transition()
+      .duration(duration)
+      .attr('d', function(d){ return diagonal(d, d.parent) });
+
+  // Remove any exiting links
+  var linkExit = link.exit().transition()
+      .duration(duration)
+      .attr('d', function(d) {
+        var o = {x: source.x, y: source.y}
+        return diagonal(o, o)
+      })
+      .remove();
+
+  // Store the old positions for transition.
+  nodes.forEach(function(d){
+    d.x0 = d.x;
+    d.y0 = d.y;
+  });
+
+  // Creates a curved (diagonal) path from parent to the child nodes
+  function diagonal(s, d) {
+
+    path = `M ${s.x} ${s.y}
+            C ${(s.x + d.x) / 2} ${s.y},
+              ${(s.x + d.x) / 2} ${d.y},
+              ${d.x} ${d.y}`
+
+    return path
+  }
+
+  // Toggle children on click.
+  //function click(d) {
+  //  if (d.children) {
+  //      d._children = d.children;
+  //      d.children = null;
+  //    } else {
+  //      d.children = d._children;
+  //      d._children = null;
+  //    }
+  //  update(d);
+  //}
+}
+
+svg.append("text")
+        .attr("x", (1200 / 2) - 150)             
+        .attr("y", -70)
+        .attr("text-anchor", "middle")  
+        .style("font-size", "16px") 
+        .text("Descendants of AEMI3039 -. Aemilius (not in RE) - Hyperaggressive Model");
+</script>
+</body>

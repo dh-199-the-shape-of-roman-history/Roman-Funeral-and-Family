@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<style>
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+</style>
+
+<body>
+
+<!-- load the d3.js library -->	
+<meta charset="utf-8">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+<script>
+
+var treeData =
+{
+ "name": "SERV4963 Q. Servilius (D)",
+ "id": "4963",
+ "bestPos": "",
+ "birthDate": "-350",
+ "deathDate": "-225",
+ "closestAncestor": "none",
+ "icon": "NoPosition.png",
+ "children": [
+  {
+   "name": "SERV3959 Q. Servilius (63) Geminus",
+   "id": "3959",
+   "bestPos": "",
+   "birthDate": "-275",
+   "deathDate": "-175",
+   "closestAncestor": "4963 (Conservative)",
+   "icon": "NoPosition.png",
+   "children": [
+   ]
+  },
+  {
+   "name": "SERV0747 P. Servilius (62) Q. f. Cn. n. Geminus",
+   "id": "747",
+   "bestPos": "consul",
+   "birthDate": "-300",
+   "deathDate": "-175",
+   "closestAncestor": "4963 (Conservative)",
+   "icon": "Praetexta.png",
+   "children": [
+    {
+     "name": "SERV0852 Cn. Servilius (61) P. f. Q. n. Geminus",
+     "id": "852",
+     "bestPos": "consul",
+     "birthDate": "-257",
+     "deathDate": "-216",
+     "closestAncestor": "747 (Conservative)",
+     "icon": "Praetexta.png",
+     "children": [
+     ]
+    },
+    {
+     "name": "SERV0845 C. Servilius (59) (Geminus)",
+     "id": "845",
+     "bestPos": "praetor",
+     "birthDate": "-250",
+     "deathDate": "-150",
+     "closestAncestor": "747 (Conservative)",
+     "icon": "Praetexta.png",
+     "children": [
+      {
+       "name": "SERV0931 C. Servilius (60) C. f. P. n. Geminus",
+       "id": "931",
+       "bestPos": "consul",
+       "birthDate": "-240",
+       "deathDate": "-180",
+       "closestAncestor": "845 (Conservative)",
+       "icon": "Praetexta.png",
+       "children": [
+        {
+         "name": "SERV1342 C. Servilius (9) (Geminus)",
+         "id": "1342",
+         "bestPos": "",
+         "birthDate": "-225",
+         "deathDate": "-100",
+         "closestAncestor": "931 (Conservative)",
+         "icon": "NoPosition.png",
+         "children": [
+         ]
+        }       ]
+      },
+      {
+       "name": "SERV0953 M. Servilius (78) C. f. P. n. Pulex Geminus",
+       "id": "953",
+       "bestPos": "consul",
+       "birthDate": "-229",
+       "deathDate": "-100",
+       "closestAncestor": "845 (Conservative)",
+       "icon": "Praetexta.png",
+       "children": [
+        {
+         "name": "SERV1266 M. Servilius (18) M. f. C. n.",
+         "id": "1266",
+         "bestPos": "",
+         "birthDate": "-199",
+         "deathDate": "-100",
+         "closestAncestor": "953 (Conservative)",
+         "icon": "NoPosition.png",
+         "children": [
+          {
+           "name": "SERV2973 C. Servilius (91) M. f. M. n. Vatia",
+           "id": "2973",
+           "bestPos": "praetor",
+           "birthDate": "-159",
+           "deathDate": "-95",
+           "closestAncestor": "1266 (Conservative)",
+           "icon": "Praetexta.png",
+           "children": [
+            {
+             "name": "SERV3608 M. Servilius (19) C. f.",
+             "id": "3608",
+             "bestPos": "",
+             "birthDate": "-150",
+             "deathDate": "-50",
+             "closestAncestor": "2973 (Conservative)",
+             "icon": "NoPosition.png",
+             "children": [
+              {
+               "name": "SERV1849 Q. Servilius (29)",
+               "id": "1849",
+               "bestPos": "praetor",
+               "birthDate": "-125",
+               "deathDate": "-90",
+               "closestAncestor": "3608 (Aggressive)",
+               "icon": "Praetexta.png",
+               "children": [
+                {
+                 "name": "SERV2390 -. Servilius (not in RE? cf. 16a)",
+                 "id": "2390",
+                 "bestPos": "",
+                 "birthDate": "-100",
+                 "deathDate": "0",
+                 "closestAncestor": "1849 (Aggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                },
+                {
+                 "name": "SERV3255 M. Servilius (20)",
+                 "id": "3255",
+                 "bestPos": "",
+                 "birthDate": "-87",
+                 "deathDate": "0",
+                 "closestAncestor": "1849 (Aggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                },
+                {
+                 "name": "SERV2277 -. Servilius (5 cf. 67)",
+                 "id": "2277",
+                 "bestPos": "",
+                 "birthDate": "-100",
+                 "deathDate": "0",
+                 "closestAncestor": "1849 (Aggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                },
+                {
+                 "name": "SERV3059 L. Servilius (17) L. f. L. n.",
+                 "id": "3059",
+                 "bestPos": "",
+                 "birthDate": "-100",
+                 "deathDate": "25",
+                 "closestAncestor": "1849 (Aggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                }               ]
+              },
+              {
+               "name": "SERV1931 -. Servilius (3)",
+               "id": "1931",
+               "bestPos": "praetor",
+               "birthDate": "-125",
+               "deathDate": "-25",
+               "closestAncestor": "3608 (Aggressive)",
+               "icon": "Praetexta.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "SERV4584 P. Servilius (25)",
+               "id": "4584",
+               "bestPos": "",
+               "birthDate": "-125",
+               "deathDate": "0",
+               "closestAncestor": "3608 (Aggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              }             ]
+            },
+            {
+             "name": "SERV1779 C. Servilius (12 cf. 11) (Vatia)",
+             "id": "1779",
+             "bestPos": "praetor",
+             "birthDate": "-150",
+             "deathDate": "-50",
+             "closestAncestor": "2973 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+              {
+               "name": "SERV3517 C. Servilius (16) C. f.",
+               "id": "3517",
+               "bestPos": "",
+               "birthDate": "-100",
+               "deathDate": "0",
+               "closestAncestor": "1779 (Conservative)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              }             ]
+            },
+            {
+             "name": "SERV1814 P. Servilius (93) C. f. M. n. Vatia Isauricus",
+             "id": "1814",
+             "bestPos": "triumphator",
+             "birthDate": "-134",
+             "deathDate": "-44",
+             "closestAncestor": "2973 (Conservative)",
+             "icon": "Picta.png",
+             "children": [
+              {
+               "name": "SERV2203 -. Servilius (not in RE) Vatia",
+               "id": "2203",
+               "bestPos": "consul",
+               "birthDate": "-100",
+               "deathDate": "0",
+               "closestAncestor": "1814 (Aggressive)",
+               "icon": "Praetexta.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "SERV2433 P. Servilius (67) P. f. C. n. Isauricus",
+               "id": "2433",
+               "bestPos": "consul",
+               "birthDate": "-99",
+               "deathDate": "25",
+               "closestAncestor": "1814 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+                {
+                 "name": "SERV4932 P. Servilius (26) Vatia Isauricus",
+                 "id": "4932",
+                 "bestPos": "",
+                 "birthDate": "-75",
+                 "deathDate": "25",
+                 "closestAncestor": "2433 (Conservative)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                },
+                {
+                 "name": "SERV4971 P. Servilius (pr. 25) Vatia",
+                 "id": "4971",
+                 "bestPos": "",
+                 "birthDate": "-75",
+                 "deathDate": "25",
+                 "closestAncestor": "2433 (Conservative)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                }               ]
+              }             ]
+            },
+            {
+             "name": "SERV1999 M. Servilius (4 19) (C. f.)",
+             "id": "1999",
+             "bestPos": "praetor",
+             "birthDate": "-125",
+             "deathDate": "-25",
+             "closestAncestor": "2973 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+             ]
+            }           ]
+          },
+          {
+           "name": "SERV4958 M. Servilius (C)",
+           "id": "4958",
+           "bestPos": "",
+           "birthDate": "-175",
+           "deathDate": "-75",
+           "closestAncestor": "1266 (Conservative)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "SERV3519 C. Servilius (14) M. f.",
+             "id": "3519",
+             "bestPos": "",
+             "birthDate": "-175",
+             "deathDate": "-75",
+             "closestAncestor": "4958 (Conservative)",
+             "icon": "NoPosition.png",
+             "children": [
+              {
+               "name": "SERV2719 M. Servilius (21)",
+               "id": "2719",
+               "bestPos": "",
+               "birthDate": "-75",
+               "deathDate": "25",
+               "closestAncestor": "3519 (Conservative)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              }             ]
+            }           ]
+          }         ]
+        }       ]
+      }     ]
+    }   ]
+  },
+  {
+   "name": "SERV1070 P. Servilius (23)",
+   "id": "1070",
+   "bestPos": "",
+   "birthDate": "-250",
+   "deathDate": "-150",
+   "closestAncestor": "4963 (Aggressive)",
+   "icon": "NoPosition.png",
+   "children": [
+   ]
+  } ]
+};
+// Set the dimensions and margins of the diagram
+var margin = {top: 120, right: 90, bottom: 30, left: 90},
+    width = 1500 - margin.left - margin.right,
+    height = 
+ 990;
+// append the svg object to the body of the page
+// appends a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.right + margin.left)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate("
+          + margin.left + "," + margin.top + ")");
+
+var i = 0,
+    duration = 750,
+    root;
+
+var tip = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([-10, 0])
+  .html(function(d) {
+    return "<span style='color:red'>" + d.data.name + "</span><br><strong>Born:</strong> <span style='color:red'>" + d.data.birthDate + "</span> <strong>Died:</strong> <span style='color:red'>" + d.data.deathDate + "</span><br><strong>Highest Position:</strong> <span style='color:red'>" + d.data.bestPos + "</span><br><strong>Closest Ancestor:</strong> <span style='color:red'>" + d.data.closestAncestor + "</span>";
+  })
+
+svg.call(tip);
+
+// declares a tree layout and assigns the size
+var treemap = d3.tree().size([width, height]);
+
+// Assigns parent, children, height, depth
+root = d3.hierarchy(treeData, function(d) { return d.children; });
+
+update(root);
+
+function update(source) {
+
+  // Assigns the x and y position for the nodes
+  var treeData = treemap(root);
+
+  // Compute the new tree layout.
+  var nodes = treeData.descendants(),
+      links = treeData.descendants().slice(1);
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d){ d.y = d.depth * 100});
+
+  // ****************** Nodes section ***************************
+
+  // Update the nodes...
+  var node = svg.selectAll('g.node')
+      .data(nodes, function(d) {return d.id || (d.id = ++i); })
+
+  // Enter any new modes at the parent's previous position.
+  var nodeEnter = node.enter().append('g')
+      
+   .append("image")
+      .attr('class', 'node') 
+      .attr('x', -12)
+      .attr('y', -18)
+      .attr('height', 40)
+      .attr('width', 24)
+      .attr("xlink:href", function(d) {
+           return d.data.icon;
+        })
+ 
+   
+   .on('mouseover', tip.show)
+      .on('mouseout', tip.hide)
+      .on('click', function(d) {
+        window.open(
+       'http://romanrepublic.ac.uk/person/' + d.data.id + '/',
+       '_blank'
+       );});
+
+  // UPDATE
+  var nodeUpdate = nodeEnter.merge(node);
+
+  // Transition to the proper position for the node
+  nodeUpdate.transition()
+    .duration(duration)
+    .attr("transform", function(d) { 
+        return "translate(" + d.x + "," + d.y + ")";
+     });
+
+  // ****************** links section ***************************
+
+  // Update the links...
+  var link = svg.selectAll('path.link')
+      .data(links, function(d) { return d.id; });
+
+  // Enter any new links at the parent's previous position.
+  var linkEnter = link.enter().insert('path', "g")
+      .attr("class", "link")
+      //.attr('d', function(d){
+      //  var o = {x: source.x0, y: source.y0}
+      //  return diagonal(o, o)
+      //});
+
+  // UPDATE
+  var linkUpdate = linkEnter.merge(link);
+
+  // Transition back to the parent element position
+  linkUpdate.transition()
+      .duration(duration)
+      .attr('d', function(d){ return diagonal(d, d.parent) });
+
+  // Remove any exiting links
+  var linkExit = link.exit().transition()
+      .duration(duration)
+      .attr('d', function(d) {
+        var o = {x: source.x, y: source.y}
+        return diagonal(o, o)
+      })
+      .remove();
+
+  // Store the old positions for transition.
+  nodes.forEach(function(d){
+    d.x0 = d.x;
+    d.y0 = d.y;
+  });
+
+  // Creates a curved (diagonal) path from parent to the child nodes
+  function diagonal(s, d) {
+
+    path = `M ${s.x} ${s.y}
+            C ${(s.x + d.x) / 2} ${s.y},
+              ${(s.x + d.x) / 2} ${d.y},
+              ${d.x} ${d.y}`
+
+    return path
+  }
+
+  // Toggle children on click.
+  //function click(d) {
+  //  if (d.children) {
+  //      d._children = d.children;
+  //      d.children = null;
+  //    } else {
+  //      d.children = d._children;
+  //      d._children = null;
+  //    }
+  //  update(d);
+  //}
+}
+
+svg.append("text")
+        .attr("x", (1200 / 2) - 150)             
+        .attr("y", -70)
+        .attr("text-anchor", "middle")  
+        .style("font-size", "16px") 
+        .text("Descendants of SERV4963 Q. Servilius (D) - Aggressive Model");
+</script>
+</body>

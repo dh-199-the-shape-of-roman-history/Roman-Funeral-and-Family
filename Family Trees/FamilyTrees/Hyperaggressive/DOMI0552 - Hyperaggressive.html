@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<style>
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+</style>
+
+<body>
+
+<!-- load the d3.js library -->	
+<meta charset="utf-8">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+<script>
+
+var treeData =
+{
+ "name": "DOMI0552 Cn. Domitius (42) Cn. f.  Calvinus",
+ "id": "552",
+ "bestPos": "consul",
+ "birthDate": "-375",
+ "deathDate": "-275",
+ "closestAncestor": "none",
+ "icon": "Praetexta.png",
+ "children": [
+  {
+   "name": "DOMI0638 Cn. Domitius (45) Cn. f. Cn. n. Calvinus Maximus",
+   "id": "638",
+   "bestPos": "triumphator",
+   "birthDate": "-331",
+   "deathDate": "-225",
+   "closestAncestor": "552 (Conservative)",
+   "icon": "Picta.png",
+   "children": [
+    {
+     "name": "DOMI1110 Cn. Domitius (18) L. f. L. n. Ahenobarbus",
+     "id": "1110",
+     "bestPos": "consul",
+     "birthDate": "-230",
+     "deathDate": "-125",
+     "closestAncestor": "638 (Hyperaggressive)",
+     "icon": "Praetexta.png",
+     "children": [
+      {
+       "name": "DOMI1366 Cn. Domitius (19) Cn. f. L. n. Ahenobarbus",
+       "id": "1366",
+       "bestPos": "consul",
+       "birthDate": "-200",
+       "deathDate": "-125",
+       "closestAncestor": "1110 (Conservative)",
+       "icon": "Praetexta.png",
+       "children": [
+        {
+         "name": "DOMI1630 Cn. Domitius (20 Supb. 3.349) Cn. f. Cn. n. Ahenobarbus",
+         "id": "1630",
+         "bestPos": "triumphator",
+         "birthDate": "-169",
+         "deathDate": "-103",
+         "closestAncestor": "1366 (Conservative)",
+         "icon": "Picta.png",
+         "children": [
+          {
+           "name": "DOMI1763 Cn. Domitius (21) Cn. f. Cn. n. Ahenobarbus",
+           "id": "1763",
+           "bestPos": "consul",
+           "birthDate": "-139",
+           "deathDate": "-89",
+           "closestAncestor": "1630 (Conservative)",
+           "icon": "Praetexta.png",
+           "children": [
+            {
+             "name": "DOMI1991 Cn. Domitius (22) Ahenobarbus",
+             "id": "1991",
+             "bestPos": "",
+             "birthDate": "-125",
+             "deathDate": "-81",
+             "closestAncestor": "1763 (Conservative)",
+             "icon": "NoPosition.png",
+             "children": [
+             ]
+            },
+            {
+             "name": "DOMI2264 L. Domitius (27) Cn. f. Cn. n. Fab. Ahenobarbus",
+             "id": "2264",
+             "bestPos": "consul",
+             "birthDate": "-98",
+             "deathDate": "-48",
+             "closestAncestor": "1763 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+              {
+               "name": "DOMI2699 Cn. Domitius (23) L. f. Cn. n. Ahenobarbus",
+               "id": "2699",
+               "bestPos": "consul",
+               "birthDate": "-75",
+               "deathDate": "-31",
+               "closestAncestor": "2264 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+                {
+                 "name": "DOMI4195 L. Domitius (28) Ahenobarbus",
+                 "id": "4195",
+                 "bestPos": "",
+                 "birthDate": "-75",
+                 "deathDate": "25",
+                 "closestAncestor": "2699 (Conservative)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                  {
+                   "name": "DOMI4741 Cn. Domitius (25) Ahenobarbus",
+                   "id": "4741",
+                   "bestPos": "",
+                   "birthDate": "-50",
+                   "deathDate": "50",
+                   "closestAncestor": "4195 (Conservative)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  }                 ]
+                }               ]
+              },
+              {
+               "name": "ATIL3970 Sex. Atilius (71) Serranus",
+               "id": "3970",
+               "bestPos": "",
+               "birthDate": "-75",
+               "deathDate": "25",
+               "closestAncestor": "2264 (Conservative)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "DOMI3446 -. Domitius (34) Apulus",
+               "id": "3446",
+               "bestPos": "",
+               "birthDate": "-75",
+               "deathDate": "25",
+               "closestAncestor": "2264 (Hyperaggressive)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              }             ]
+            }           ]
+          },
+          {
+           "name": "DOMI1816 L. Domitius (26) Cn. f. Cn. n. Ahenobarbus",
+           "id": "1816",
+           "bestPos": "consul",
+           "birthDate": "-150",
+           "deathDate": "-82",
+           "closestAncestor": "1630 (Conservative)",
+           "icon": "Praetexta.png",
+           "children": [
+           ]
+          }         ]
+        },
+        {
+         "name": "DOMI3173 L. Domitius (not in RE) Cn. f. (Cn. n.) (Ahenobarbus)",
+         "id": "3173",
+         "bestPos": "",
+         "birthDate": "-175",
+         "deathDate": "-75",
+         "closestAncestor": "1366 (Hyperaggressive)",
+         "icon": "NoPosition.png",
+         "children": [
+          {
+           "name": "DOMI1707 M. Domitius (not in RE) P. f.",
+           "id": "1707",
+           "bestPos": "",
+           "birthDate": "-150",
+           "deathDate": "-50",
+           "closestAncestor": "3173 (Hyperaggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "DOMI5097 -. Domitius (not in RE)",
+             "id": "5097",
+             "bestPos": "",
+             "birthDate": "-125",
+             "deathDate": "-80",
+             "closestAncestor": "1707 (Aggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+             ]
+            }           ]
+          }         ]
+        },
+        {
+         "name": "DOMI3532 Cn. Domitius (cf. 20 Supb.3.349) (Calvinus? Ahenobarbus?)",
+         "id": "3532",
+         "bestPos": "",
+         "birthDate": "-175",
+         "deathDate": "-75",
+         "closestAncestor": "1366 (Hyperaggressive)",
+         "icon": "NoPosition.png",
+         "children": [
+         ]
+        }       ]
+      }     ]
+    },
+    {
+     "name": "DOMI2022 M. Domitius (44) Calvinus",
+     "id": "2022",
+     "bestPos": "praetor",
+     "birthDate": "-125",
+     "deathDate": "-80",
+     "closestAncestor": "638 (Aggressive)",
+     "icon": "Praetexta.png",
+     "children": [
+      {
+       "name": "DOMI2313 Cn. Domitius (43) M. f. M. n. Men. Calvinus",
+       "id": "2313",
+       "bestPos": "triumphator",
+       "birthDate": "-89",
+       "deathDate": "-20",
+       "closestAncestor": "2022 (Conservative)",
+       "icon": "Picta.png",
+       "children": [
+        {
+         "name": "DOMI2399 Cn. Domitius (11)",
+         "id": "2399",
+         "bestPos": "praetor",
+         "birthDate": "-100",
+         "deathDate": "25",
+         "closestAncestor": "2313 (Conservative)",
+         "icon": "Praetexta.png",
+         "children": [
+         ]
+        }       ]
+      }     ]
+    }   ]
+  },
+  {
+   "name": "DOMI2957 -. Domitius (40) Calvinus",
+   "id": "2957",
+   "bestPos": "praetor",
+   "birthDate": "-350",
+   "deathDate": "-50",
+   "closestAncestor": "552 (Aggressive)",
+   "icon": "Praetexta.png",
+   "children": [
+   ]
+  } ]
+};
+// Set the dimensions and margins of the diagram
+var margin = {top: 120, right: 90, bottom: 30, left: 90},
+    width = 1500 - margin.left - margin.right,
+    height = 
+ 1200;
+// append the svg object to the body of the page
+// appends a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.right + margin.left)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate("
+          + margin.left + "," + margin.top + ")");
+
+var i = 0,
+    duration = 750,
+    root;
+
+var tip = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([-10, 0])
+  .html(function(d) {
+    return "<span style='color:red'>" + d.data.name + "</span><br><strong>Born:</strong> <span style='color:red'>" + d.data.birthDate + "</span> <strong>Died:</strong> <span style='color:red'>" + d.data.deathDate + "</span><br><strong>Highest Position:</strong> <span style='color:red'>" + d.data.bestPos + "</span><br><strong>Closest Ancestor:</strong> <span style='color:red'>" + d.data.closestAncestor + "</span>";
+  })
+
+svg.call(tip);
+
+// declares a tree layout and assigns the size
+var treemap = d3.tree().size([width, height]);
+
+// Assigns parent, children, height, depth
+root = d3.hierarchy(treeData, function(d) { return d.children; });
+
+update(root);
+
+function update(source) {
+
+  // Assigns the x and y position for the nodes
+  var treeData = treemap(root);
+
+  // Compute the new tree layout.
+  var nodes = treeData.descendants(),
+      links = treeData.descendants().slice(1);
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d){ d.y = d.depth * 100});
+
+  // ****************** Nodes section ***************************
+
+  // Update the nodes...
+  var node = svg.selectAll('g.node')
+      .data(nodes, function(d) {return d.id || (d.id = ++i); })
+
+  // Enter any new modes at the parent's previous position.
+  var nodeEnter = node.enter().append('g')
+      
+   .append("image")
+      .attr('class', 'node') 
+      .attr('x', -12)
+      .attr('y', -18)
+      .attr('height', 40)
+      .attr('width', 24)
+      .attr("xlink:href", function(d) {
+           return d.data.icon;
+        })
+ 
+   
+   .on('mouseover', tip.show)
+      .on('mouseout', tip.hide)
+      .on('click', function(d) {
+        window.open(
+       'http://romanrepublic.ac.uk/person/' + d.data.id + '/',
+       '_blank'
+       );});
+
+  // UPDATE
+  var nodeUpdate = nodeEnter.merge(node);
+
+  // Transition to the proper position for the node
+  nodeUpdate.transition()
+    .duration(duration)
+    .attr("transform", function(d) { 
+        return "translate(" + d.x + "," + d.y + ")";
+     });
+
+  // ****************** links section ***************************
+
+  // Update the links...
+  var link = svg.selectAll('path.link')
+      .data(links, function(d) { return d.id; });
+
+  // Enter any new links at the parent's previous position.
+  var linkEnter = link.enter().insert('path', "g")
+      .attr("class", "link")
+      //.attr('d', function(d){
+      //  var o = {x: source.x0, y: source.y0}
+      //  return diagonal(o, o)
+      //});
+
+  // UPDATE
+  var linkUpdate = linkEnter.merge(link);
+
+  // Transition back to the parent element position
+  linkUpdate.transition()
+      .duration(duration)
+      .attr('d', function(d){ return diagonal(d, d.parent) });
+
+  // Remove any exiting links
+  var linkExit = link.exit().transition()
+      .duration(duration)
+      .attr('d', function(d) {
+        var o = {x: source.x, y: source.y}
+        return diagonal(o, o)
+      })
+      .remove();
+
+  // Store the old positions for transition.
+  nodes.forEach(function(d){
+    d.x0 = d.x;
+    d.y0 = d.y;
+  });
+
+  // Creates a curved (diagonal) path from parent to the child nodes
+  function diagonal(s, d) {
+
+    path = `M ${s.x} ${s.y}
+            C ${(s.x + d.x) / 2} ${s.y},
+              ${(s.x + d.x) / 2} ${d.y},
+              ${d.x} ${d.y}`
+
+    return path
+  }
+
+  // Toggle children on click.
+  //function click(d) {
+  //  if (d.children) {
+  //      d._children = d.children;
+  //      d.children = null;
+  //    } else {
+  //      d.children = d._children;
+  //      d._children = null;
+  //    }
+  //  update(d);
+  //}
+}
+
+svg.append("text")
+        .attr("x", (1200 / 2) - 150)             
+        .attr("y", -70)
+        .attr("text-anchor", "middle")  
+        .style("font-size", "16px") 
+        .text("Descendants of DOMI0552 Cn. Domitius (42) Cn. f.  Calvinus - Hyperaggressive Model");
+</script>
+</body>

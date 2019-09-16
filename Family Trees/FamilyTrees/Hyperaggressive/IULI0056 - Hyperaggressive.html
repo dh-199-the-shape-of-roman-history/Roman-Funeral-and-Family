@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<style>
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+</style>
+
+<body>
+
+<!-- load the d3.js library -->	
+<meta charset="utf-8">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+<script>
+
+var treeData =
+{
+ "name": "IULI0056 C. Iulius (293) C. f. - n. Iullus",
+ "id": "56",
+ "bestPos": "consul",
+ "birthDate": "-525",
+ "deathDate": "-425",
+ "closestAncestor": "none",
+ "icon": "Praetexta.png",
+ "children": [
+  {
+   "name": "IULI0200 C. Iulius (13) (Iullus)",
+   "id": "200",
+   "bestPos": "consul",
+   "birthDate": "-500",
+   "deathDate": "-375",
+   "closestAncestor": "56 (Hyperaggressive)",
+   "icon": "Praetexta.png",
+   "children": [
+    {
+     "name": "IULI0255 Cn. (or C.) Iulius (360) Mento",
+     "id": "255",
+     "bestPos": "consul",
+     "birthDate": "-475",
+     "deathDate": "-375",
+     "closestAncestor": "200 (Hyperaggressive)",
+     "icon": "Praetexta.png",
+     "children": [
+     ]
+    },
+    {
+     "name": "IULI0512 C. Iulius (17) (Iullus)",
+     "id": "512",
+     "bestPos": "",
+     "birthDate": "-400",
+     "deathDate": "-300",
+     "closestAncestor": "200 (Aggressive)",
+     "icon": "NoPosition.png",
+     "children": [
+      {
+       "name": "IULI4658 C. Iulius (18)",
+       "id": "4658",
+       "bestPos": "",
+       "birthDate": "-300",
+       "deathDate": "-200",
+       "closestAncestor": "512 (Hyperaggressive)",
+       "icon": "NoPosition.png",
+       "children": [
+        {
+         "name": "IULI1532 L. Iulius (29)",
+         "id": "1532",
+         "bestPos": "",
+         "birthDate": "-200",
+         "deathDate": "-75",
+         "closestAncestor": "4658 (Aggressive)",
+         "icon": "NoPosition.png",
+         "children": [
+          {
+           "name": "IULI3561 L. Iulius (30)",
+           "id": "3561",
+           "bestPos": "",
+           "birthDate": "-150",
+           "deathDate": "-50",
+           "closestAncestor": "1532 (Aggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+           ]
+          }         ]
+        }       ]
+      },
+      {
+       "name": "IULI4831 L. Iulius (140) Caesar",
+       "id": "4831",
+       "bestPos": "",
+       "birthDate": "-300",
+       "deathDate": "-200",
+       "closestAncestor": "512 (Hyperaggressive)",
+       "icon": "NoPosition.png",
+       "children": [
+        {
+         "name": "IULI0995 Sex. Iulius (147) Caesar",
+         "id": "995",
+         "bestPos": "praetor",
+         "birthDate": "-250",
+         "deathDate": "-150",
+         "closestAncestor": "4831 (Conservative)",
+         "icon": "Praetexta.png",
+         "children": [
+          {
+           "name": "IULI1250 L. Iulius (27) (Caesar)",
+           "id": "1250",
+           "bestPos": "praetor",
+           "birthDate": "-225",
+           "deathDate": "-125",
+           "closestAncestor": "995 (Hyperaggressive)",
+           "icon": "Praetexta.png",
+           "children": [
+           ]
+          },
+          {
+           "name": "IULI1454 L. Iulius (28 cf. 127) (Caesar)",
+           "id": "1454",
+           "bestPos": "praetor",
+           "birthDate": "-200",
+           "deathDate": "-100",
+           "closestAncestor": "995 (Conservative)",
+           "icon": "Praetexta.png",
+           "children": [
+            {
+             "name": "IULI4101 C. Iulius (129) Caesar",
+             "id": "4101",
+             "bestPos": "",
+             "birthDate": "-175",
+             "deathDate": "-75",
+             "closestAncestor": "1454 (Conservative)",
+             "icon": "NoPosition.png",
+             "children": [
+              {
+               "name": "IULI1828 Sex. Iulius (151) C. f. L.? n. Caesar",
+               "id": "1828",
+               "bestPos": "consul",
+               "birthDate": "-125",
+               "deathDate": "-90",
+               "closestAncestor": "4101 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+                {
+                 "name": "IULI4432 L. Iulius (158) Qui. Calidus",
+                 "id": "4432",
+                 "bestPos": "",
+                 "birthDate": "-100",
+                 "deathDate": "25",
+                 "closestAncestor": "1828 (Hyperaggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                }               ]
+              },
+              {
+               "name": "IULI1799 C. Iulius (130) C. f. L. n. Caesar",
+               "id": "1799",
+               "bestPos": "praetor",
+               "birthDate": "-150",
+               "deathDate": "-25",
+               "closestAncestor": "4101 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+                {
+                 "name": "IULI1957 C. Iulius (131) C. f. C. n. Fab. Caesar",
+                 "id": "1957",
+                 "bestPos": "triumphator",
+                 "birthDate": "-100",
+                 "deathDate": "-44",
+                 "closestAncestor": "1799 (Conservative)",
+                 "icon": "Picta.png",
+                 "children": [
+                  {
+                   "name": "IULI2963 L. Iulius (362) Mocilla",
+                   "id": "2963",
+                   "bestPos": "praetor",
+                   "birthDate": "-75",
+                   "deathDate": "-25",
+                   "closestAncestor": "1957 (Hyperaggressive)",
+                   "icon": "Praetexta.png",
+                   "children": [
+                   ]
+                  },
+                  {
+                   "name": "IULI3742 -. Iulius (457) Saturninus",
+                   "id": "3742",
+                   "bestPos": "",
+                   "birthDate": "-75",
+                   "deathDate": "25",
+                   "closestAncestor": "1957 (Hyperaggressive)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  },
+                  {
+                   "name": "IULI2829 C. Iulius (Helenus 8) Helenus",
+                   "id": "2829",
+                   "bestPos": "",
+                   "birthDate": "-75",
+                   "deathDate": "25",
+                   "closestAncestor": "1957 (Hyperaggressive)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  },
+                  {
+                   "name": "IULI2843 C. Iulius (not in RE) Demetrius",
+                   "id": "2843",
+                   "bestPos": "",
+                   "birthDate": "-75",
+                   "deathDate": "25",
+                   "closestAncestor": "1957 (Hyperaggressive)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  },
+                  {
+                   "name": "IULI5055 C. Iulius (376) Papius",
+                   "id": "5055",
+                   "bestPos": "",
+                   "birthDate": "-75",
+                   "deathDate": "25",
+                   "closestAncestor": "1957 (Hyperaggressive)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  }                 ]
+                },
+                {
+                 "name": "IULI3562 L. Iulius (126) Bursio",
+                 "id": "3562",
+                 "bestPos": "",
+                 "birthDate": "-125",
+                 "deathDate": "-25",
+                 "closestAncestor": "1799 (Hyperaggressive)",
+                 "icon": "NoPosition.png",
+                 "children": [
+                 ]
+                }               ]
+              }             ]
+            },
+            {
+             "name": "IULI2600 Cn. Iulius (not in RE) L. f. (Caesar)",
+             "id": "2600",
+             "bestPos": "",
+             "birthDate": "-100",
+             "deathDate": "25",
+             "closestAncestor": "1454 (Aggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+             ]
+            }           ]
+          },
+          {
+           "name": "IULI1265 Sex. Iulius (148 149) Sex. f. L. n. Caesar",
+           "id": "1265",
+           "bestPos": "consul",
+           "birthDate": "-201",
+           "deathDate": "-75",
+           "closestAncestor": "995 (Conservative)",
+           "icon": "Praetexta.png",
+           "children": [
+            {
+             "name": "IULI1642 Sex. Iulius (150) Caesar",
+             "id": "1642",
+             "bestPos": "praetor",
+             "birthDate": "-175",
+             "deathDate": "-50",
+             "closestAncestor": "1265 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+             ]
+            },
+            {
+             "name": "IULI3201 L. Iulius (141) Sex. f. (Sex. n.) Fal. Caesar",
+             "id": "3201",
+             "bestPos": "praetor",
+             "birthDate": "-175",
+             "deathDate": "-50",
+             "closestAncestor": "1265 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+              {
+               "name": "IULI1798 C. Iulius (135) L. f. Caesar Strabo Vopiscus",
+               "id": "1798",
+               "bestPos": "",
+               "birthDate": "-130",
+               "deathDate": "-87",
+               "closestAncestor": "3201 (Conservative)",
+               "icon": "NoPosition.png",
+               "children": [
+               ]
+              },
+              {
+               "name": "IULI1825 L. Iulius (142) L. f. Sex. n. Caesar",
+               "id": "1825",
+               "bestPos": "consul",
+               "birthDate": "-150",
+               "deathDate": "-25",
+               "closestAncestor": "3201 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+                {
+                 "name": "IULI2044 L. Iulius (143) L. f. L. n. Caesar",
+                 "id": "2044",
+                 "bestPos": "consul",
+                 "birthDate": "-110",
+                 "deathDate": "-40",
+                 "closestAncestor": "1825 (Conservative)",
+                 "icon": "Praetexta.png",
+                 "children": [
+                  {
+                   "name": "IULI2374 Sex. Iulius (152 153) Caesar",
+                   "id": "2374",
+                   "bestPos": "",
+                   "birthDate": "-83",
+                   "deathDate": "-46",
+                   "closestAncestor": "2044 (Conservative)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  },
+                  {
+                   "name": "IULI2559 L. Iulius (144) L. f. L. n. Caesar",
+                   "id": "2559",
+                   "bestPos": "",
+                   "birthDate": "-100",
+                   "deathDate": "-46",
+                   "closestAncestor": "2044 (Conservative)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  },
+                  {
+                   "name": "IULI4186 Cn. Iulius (A) Caesar",
+                   "id": "4186",
+                   "bestPos": "",
+                   "birthDate": "-100",
+                   "deathDate": "0",
+                   "closestAncestor": "2044 (Conservative)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  }                 ]
+                }               ]
+              }             ]
+            }           ]
+          }         ]
+        }       ]
+      },
+      {
+       "name": "IULI0704 L. Iulius (318) L. f. L. n. Libo",
+       "id": "704",
+       "bestPos": "triumphator",
+       "birthDate": "-300",
+       "deathDate": "-200",
+       "closestAncestor": "512 (Hyperaggressive)",
+       "icon": "Picta.png",
+       "children": [
+       ]
+      }     ]
+    }   ]
+  },
+  {
+   "name": "IULI0261 L. (or C.) Iulius (296 cf. 14) Vop. f. C. n. Iullus",
+   "id": "261",
+   "bestPos": "consul",
+   "birthDate": "-475",
+   "deathDate": "-375",
+   "closestAncestor": "56 (Aggressive)",
+   "icon": "Praetexta.png",
+   "children": [
+    {
+     "name": "IULI0325 C. Iulius (295) Sp. f. Vopisci n. Iullus",
+     "id": "325",
+     "bestPos": "censor",
+     "birthDate": "-450",
+     "deathDate": "-393",
+     "closestAncestor": "261 (Aggressive)",
+     "icon": "Purpurea.png",
+     "children": [
+      {
+       "name": "IULI0416 L. Iulius (299) Iullus",
+       "id": "416",
+       "bestPos": "",
+       "birthDate": "-425",
+       "deathDate": "-325",
+       "closestAncestor": "325 (Aggressive)",
+       "icon": "NoPosition.png",
+       "children": [
+       ]
+      }     ]
+    },
+    {
+     "name": "IULI0337 L. Iulius (297) Sp. ? f. Vopisci ? n. Iullus",
+     "id": "337",
+     "bestPos": "",
+     "birthDate": "-450",
+     "deathDate": "-350",
+     "closestAncestor": "261 (Aggressive)",
+     "icon": "NoPosition.png",
+     "children": [
+     ]
+    },
+    {
+     "name": "IULI0347 L. Iulius (298) L. f. Vopisci n. Iullus",
+     "id": "347",
+     "bestPos": "",
+     "birthDate": "-450",
+     "deathDate": "-325",
+     "closestAncestor": "261 (Aggressive)",
+     "icon": "NoPosition.png",
+     "children": [
+     ]
+    }   ]
+  },
+  {
+   "name": "IULI0273 Sex. Iulius (300) Iullus",
+   "id": "273",
+   "bestPos": "",
+   "birthDate": "-475",
+   "deathDate": "-350",
+   "closestAncestor": "56 (Aggressive)",
+   "icon": "NoPosition.png",
+   "children": [
+   ]
+  } ]
+};
+// Set the dimensions and margins of the diagram
+var margin = {top: 120, right: 90, bottom: 30, left: 90},
+    width = 1500 - margin.left - margin.right,
+    height = 
+ 1200;
+// append the svg object to the body of the page
+// appends a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.right + margin.left)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate("
+          + margin.left + "," + margin.top + ")");
+
+var i = 0,
+    duration = 750,
+    root;
+
+var tip = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([-10, 0])
+  .html(function(d) {
+    return "<span style='color:red'>" + d.data.name + "</span><br><strong>Born:</strong> <span style='color:red'>" + d.data.birthDate + "</span> <strong>Died:</strong> <span style='color:red'>" + d.data.deathDate + "</span><br><strong>Highest Position:</strong> <span style='color:red'>" + d.data.bestPos + "</span><br><strong>Closest Ancestor:</strong> <span style='color:red'>" + d.data.closestAncestor + "</span>";
+  })
+
+svg.call(tip);
+
+// declares a tree layout and assigns the size
+var treemap = d3.tree().size([width, height]);
+
+// Assigns parent, children, height, depth
+root = d3.hierarchy(treeData, function(d) { return d.children; });
+
+update(root);
+
+function update(source) {
+
+  // Assigns the x and y position for the nodes
+  var treeData = treemap(root);
+
+  // Compute the new tree layout.
+  var nodes = treeData.descendants(),
+      links = treeData.descendants().slice(1);
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d){ d.y = d.depth * 100});
+
+  // ****************** Nodes section ***************************
+
+  // Update the nodes...
+  var node = svg.selectAll('g.node')
+      .data(nodes, function(d) {return d.id || (d.id = ++i); })
+
+  // Enter any new modes at the parent's previous position.
+  var nodeEnter = node.enter().append('g')
+      
+   .append("image")
+      .attr('class', 'node') 
+      .attr('x', -12)
+      .attr('y', -18)
+      .attr('height', 40)
+      .attr('width', 24)
+      .attr("xlink:href", function(d) {
+           return d.data.icon;
+        })
+ 
+   
+   .on('mouseover', tip.show)
+      .on('mouseout', tip.hide)
+      .on('click', function(d) {
+        window.open(
+       'http://romanrepublic.ac.uk/person/' + d.data.id + '/',
+       '_blank'
+       );});
+
+  // UPDATE
+  var nodeUpdate = nodeEnter.merge(node);
+
+  // Transition to the proper position for the node
+  nodeUpdate.transition()
+    .duration(duration)
+    .attr("transform", function(d) { 
+        return "translate(" + d.x + "," + d.y + ")";
+     });
+
+  // ****************** links section ***************************
+
+  // Update the links...
+  var link = svg.selectAll('path.link')
+      .data(links, function(d) { return d.id; });
+
+  // Enter any new links at the parent's previous position.
+  var linkEnter = link.enter().insert('path', "g")
+      .attr("class", "link")
+      //.attr('d', function(d){
+      //  var o = {x: source.x0, y: source.y0}
+      //  return diagonal(o, o)
+      //});
+
+  // UPDATE
+  var linkUpdate = linkEnter.merge(link);
+
+  // Transition back to the parent element position
+  linkUpdate.transition()
+      .duration(duration)
+      .attr('d', function(d){ return diagonal(d, d.parent) });
+
+  // Remove any exiting links
+  var linkExit = link.exit().transition()
+      .duration(duration)
+      .attr('d', function(d) {
+        var o = {x: source.x, y: source.y}
+        return diagonal(o, o)
+      })
+      .remove();
+
+  // Store the old positions for transition.
+  nodes.forEach(function(d){
+    d.x0 = d.x;
+    d.y0 = d.y;
+  });
+
+  // Creates a curved (diagonal) path from parent to the child nodes
+  function diagonal(s, d) {
+
+    path = `M ${s.x} ${s.y}
+            C ${(s.x + d.x) / 2} ${s.y},
+              ${(s.x + d.x) / 2} ${d.y},
+              ${d.x} ${d.y}`
+
+    return path
+  }
+
+  // Toggle children on click.
+  //function click(d) {
+  //  if (d.children) {
+  //      d._children = d.children;
+  //      d.children = null;
+  //    } else {
+  //      d.children = d._children;
+  //      d._children = null;
+  //    }
+  //  update(d);
+  //}
+}
+
+svg.append("text")
+        .attr("x", (1200 / 2) - 150)             
+        .attr("y", -70)
+        .attr("text-anchor", "middle")  
+        .style("font-size", "16px") 
+        .text("Descendants of IULI0056 C. Iulius (293) C. f. - n. Iullus - Hyperaggressive Model");
+</script>
+</body>

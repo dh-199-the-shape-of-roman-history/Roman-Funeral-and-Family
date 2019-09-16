@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<style>
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+</style>
+
+<body>
+
+<!-- load the d3.js library -->	
+<meta charset="utf-8">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+<script>
+
+var treeData =
+{
+ "name": "CORN4803 Ti. Cornelius (cf. 210) Lentulus",
+ "id": "4803",
+ "bestPos": "",
+ "birthDate": "-375",
+ "deathDate": "-275",
+ "closestAncestor": "none",
+ "icon": "NoPosition.png",
+ "children": [
+  {
+   "name": "CORN0688 L. Cornelius (210) Ti. f. Ser. n. Lentulus Caudinus",
+   "id": "688",
+   "bestPos": "triumphator",
+   "birthDate": "-325",
+   "deathDate": "-225",
+   "closestAncestor": "4803 (Conservative)",
+   "icon": "Picta.png",
+   "children": [
+    {
+     "name": "CORN0780 L. Cornelius (211) L. f. Ti. n. Lentulus Caudinus",
+     "id": "780",
+     "bestPos": "consul",
+     "birthDate": "-279",
+     "deathDate": "-213",
+     "closestAncestor": "688 (Conservative)",
+     "icon": "Praetexta.png",
+     "children": [
+      {
+       "name": "CORN0903 P. Cornelius (200) Lentulus",
+       "id": "903",
+       "bestPos": "praetor",
+       "birthDate": "-250",
+       "deathDate": "-200",
+       "closestAncestor": "780 (Conservative)",
+       "icon": "Praetexta.png",
+       "children": [
+       ]
+      },
+      {
+       "name": "CORN0877 Cn. Cornelius (176) L. f. L. n. Lentulus",
+       "id": "877",
+       "bestPos": "consul",
+       "birthDate": "-239",
+       "deathDate": "-184",
+       "closestAncestor": "780 (Conservative)",
+       "icon": "Praetexta.png",
+       "children": [
+        {
+         "name": "CORN1465 L. Cornelius (224) Cn. f. L. n. Lentulus Lupus",
+         "id": "1465",
+         "bestPos": "consul",
+         "birthDate": "-199",
+         "deathDate": "-124",
+         "closestAncestor": "877 (Conservative)",
+         "icon": "Praetexta.png",
+         "children": [
+         ]
+        },
+        {
+         "name": "CORN1474 Cn. Cornelius (175 177) Cn. f. L. n. Lentulus",
+         "id": "1474",
+         "bestPos": "consul",
+         "birthDate": "-200",
+         "deathDate": "-75",
+         "closestAncestor": "877 (Conservative)",
+         "icon": "Praetexta.png",
+         "children": [
+          {
+           "name": "CORN3363 -. Cornelius (172) Lentulus",
+           "id": "3363",
+           "bestPos": "praetor",
+           "birthDate": "-175",
+           "deathDate": "-75",
+           "closestAncestor": "1474 (Conservative)",
+           "icon": "Praetexta.png",
+           "children": [
+            {
+             "name": "CORN1792 Cn. Cornelius (178) Cn. f. Cn. n. Lentulus",
+             "id": "1792",
+             "bestPos": "consul",
+             "birthDate": "-150",
+             "deathDate": "-25",
+             "closestAncestor": "3363 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+              {
+               "name": "CORN2176 P. Cornelius (140) Dolabella",
+               "id": "2176",
+               "bestPos": "praetor",
+               "birthDate": "-100",
+               "deathDate": "0",
+               "closestAncestor": "1792 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+                {
+                 "name": "CORN2515 P. Cornelius (141) P. f. Dolabella = P. Cornelius Lentulus",
+                 "id": "2515",
+                 "bestPos": "consul",
+                 "birthDate": "-69",
+                 "deathDate": "-43",
+                 "closestAncestor": "2176 (Conservative)",
+                 "icon": "Praetexta.png",
+                 "children": [
+                  {
+                   "name": "CORN3987 -. Cornelius (B) Dolabella",
+                   "id": "3987",
+                   "bestPos": "",
+                   "birthDate": "-125",
+                   "deathDate": "-49",
+                   "closestAncestor": "2515 (Conservative)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  },
+                  {
+                   "name": "CORN3989 -. Cornelius (172a) Lentulus",
+                   "id": "3989",
+                   "bestPos": "",
+                   "birthDate": "-125",
+                   "deathDate": "-45",
+                   "closestAncestor": "2515 (Conservative)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                   ]
+                  },
+                  {
+                   "name": "CORN4333 P.? Cornelius (130) Dolabella",
+                   "id": "4333",
+                   "bestPos": "",
+                   "birthDate": "-50",
+                   "deathDate": "50",
+                   "closestAncestor": "2515 (Conservative)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                    {
+                     "name": "CORN4335 P. Cornelius (143) Lentulus",
+                     "id": "4335",
+                     "bestPos": "",
+                     "birthDate": "-50",
+                     "deathDate": "75",
+                     "closestAncestor": "4333 (Conservative)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                     ]
+                    }                   ]
+                  }                 ]
+                }               ]
+              },
+              {
+               "name": "CORN2064 Cn. Cornelius (216) Cn. f. Cn. n. Lentulus Clodianus",
+               "id": "2064",
+               "bestPos": "consul",
+               "birthDate": "-115",
+               "deathDate": "0",
+               "closestAncestor": "1792 (Conservative)",
+               "icon": "Praetexta.png",
+               "children": [
+                {
+                 "name": "CORN2338 Cn. Cornelius (217) Lentulus Clodianus",
+                 "id": "2338",
+                 "bestPos": "praetor",
+                 "birthDate": "-100",
+                 "deathDate": "0",
+                 "closestAncestor": "2064 (Conservative)",
+                 "icon": "Praetexta.png",
+                 "children": [
+                  {
+                   "name": "CORN4769 Cn. Cornelius (181) Lentulus",
+                   "id": "4769",
+                   "bestPos": "",
+                   "birthDate": "-75",
+                   "deathDate": "25",
+                   "closestAncestor": "2338 (Conservative)",
+                   "icon": "NoPosition.png",
+                   "children": [
+                    {
+                     "name": "CORN4860 P. Cornelius (235) Lentulus Scipio",
+                     "id": "4860",
+                     "bestPos": "",
+                     "birthDate": "-50",
+                     "deathDate": "50",
+                     "closestAncestor": "4769 (Conservative)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                     ]
+                    },
+                    {
+                     "name": "CORN4861 Ser. Cornelius (226) Lentulus Maluginensis",
+                     "id": "4861",
+                     "bestPos": "",
+                     "birthDate": "-50",
+                     "deathDate": "50",
+                     "closestAncestor": "4769 (Conservative)",
+                     "icon": "NoPosition.png",
+                     "children": [
+                     ]
+                    }                   ]
+                  }                 ]
+                }               ]
+              }             ]
+            }           ]
+          }         ]
+        }       ]
+      },
+      {
+       "name": "CORN1023 L. Cornelius (188) L. f. L. n. Lentulus",
+       "id": "1023",
+       "bestPos": "triumphator",
+       "birthDate": "-225",
+       "deathDate": "-173",
+       "closestAncestor": "780 (Conservative)",
+       "icon": "Picta.png",
+       "children": [
+        {
+         "name": "CORN1362 P. Cornelius (202) L. f. L. n. Lentulus",
+         "id": "1362",
+         "bestPos": "consul",
+         "birthDate": "-205",
+         "deathDate": "-121",
+         "closestAncestor": "1023 (Conservative)",
+         "icon": "Praetexta.png",
+         "children": [
+          {
+           "name": "CORN1883 P. Cornelius (203) Lentulus",
+           "id": "1883",
+           "bestPos": "praetor",
+           "birthDate": "-125",
+           "deathDate": "-87",
+           "closestAncestor": "1362 (Conservative)",
+           "icon": "Praetexta.png",
+           "children": [
+            {
+             "name": "CORN2012 P. Cornelius (240) P. f. P. n. Lentulus Sura",
+             "id": "2012",
+             "bestPos": "consul",
+             "birthDate": "-114",
+             "deathDate": "-63",
+             "closestAncestor": "1883 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+             ]
+            }           ]
+          },
+          {
+           "name": "CORN1631 P. Cornelius (202a Supb. 3.359f.) P. f. Lentulus",
+           "id": "1631",
+           "bestPos": "praetor",
+           "birthDate": "-175",
+           "deathDate": "-75",
+           "closestAncestor": "1362 (Conservative)",
+           "icon": "Praetexta.png",
+           "children": [
+           ]
+          }         ]
+        }       ]
+      }     ]
+    },
+    {
+     "name": "CORN0782 P. Cornelius (213) L. f. Ti. n. Lentulus Caudinus",
+     "id": "782",
+     "bestPos": "triumphator",
+     "birthDate": "-275",
+     "deathDate": "-175",
+     "closestAncestor": "688 (Conservative)",
+     "icon": "Picta.png",
+     "children": [
+      {
+       "name": "CORN0986 P. Cornelius (214) Lentulus Caudinus",
+       "id": "986",
+       "bestPos": "praetor",
+       "birthDate": "-235",
+       "deathDate": "-125",
+       "closestAncestor": "782 (Conservative)",
+       "icon": "Praetexta.png",
+       "children": [
+       ]
+      },
+      {
+       "name": "CORN0985 L. Cornelius (212) Lentulus Caudinus",
+       "id": "985",
+       "bestPos": "",
+       "birthDate": "-250",
+       "deathDate": "-100",
+       "closestAncestor": "782 (Conservative)",
+       "icon": "NoPosition.png",
+       "children": [
+       ]
+      }     ]
+    }   ]
+  } ]
+};
+// Set the dimensions and margins of the diagram
+var margin = {top: 120, right: 90, bottom: 30, left: 90},
+    width = 1500 - margin.left - margin.right,
+    height = 
+ 1320;
+// append the svg object to the body of the page
+// appends a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.right + margin.left)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate("
+          + margin.left + "," + margin.top + ")");
+
+var i = 0,
+    duration = 750,
+    root;
+
+var tip = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([-10, 0])
+  .html(function(d) {
+    return "<span style='color:red'>" + d.data.name + "</span><br><strong>Born:</strong> <span style='color:red'>" + d.data.birthDate + "</span> <strong>Died:</strong> <span style='color:red'>" + d.data.deathDate + "</span><br><strong>Highest Position:</strong> <span style='color:red'>" + d.data.bestPos + "</span><br><strong>Closest Ancestor:</strong> <span style='color:red'>" + d.data.closestAncestor + "</span>";
+  })
+
+svg.call(tip);
+
+// declares a tree layout and assigns the size
+var treemap = d3.tree().size([width, height]);
+
+// Assigns parent, children, height, depth
+root = d3.hierarchy(treeData, function(d) { return d.children; });
+
+update(root);
+
+function update(source) {
+
+  // Assigns the x and y position for the nodes
+  var treeData = treemap(root);
+
+  // Compute the new tree layout.
+  var nodes = treeData.descendants(),
+      links = treeData.descendants().slice(1);
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d){ d.y = d.depth * 100});
+
+  // ****************** Nodes section ***************************
+
+  // Update the nodes...
+  var node = svg.selectAll('g.node')
+      .data(nodes, function(d) {return d.id || (d.id = ++i); })
+
+  // Enter any new modes at the parent's previous position.
+  var nodeEnter = node.enter().append('g')
+      
+   .append("image")
+      .attr('class', 'node') 
+      .attr('x', -12)
+      .attr('y', -18)
+      .attr('height', 40)
+      .attr('width', 24)
+      .attr("xlink:href", function(d) {
+           return d.data.icon;
+        })
+ 
+   
+   .on('mouseover', tip.show)
+      .on('mouseout', tip.hide)
+      .on('click', function(d) {
+        window.open(
+       'http://romanrepublic.ac.uk/person/' + d.data.id + '/',
+       '_blank'
+       );});
+
+  // UPDATE
+  var nodeUpdate = nodeEnter.merge(node);
+
+  // Transition to the proper position for the node
+  nodeUpdate.transition()
+    .duration(duration)
+    .attr("transform", function(d) { 
+        return "translate(" + d.x + "," + d.y + ")";
+     });
+
+  // ****************** links section ***************************
+
+  // Update the links...
+  var link = svg.selectAll('path.link')
+      .data(links, function(d) { return d.id; });
+
+  // Enter any new links at the parent's previous position.
+  var linkEnter = link.enter().insert('path', "g")
+      .attr("class", "link")
+      //.attr('d', function(d){
+      //  var o = {x: source.x0, y: source.y0}
+      //  return diagonal(o, o)
+      //});
+
+  // UPDATE
+  var linkUpdate = linkEnter.merge(link);
+
+  // Transition back to the parent element position
+  linkUpdate.transition()
+      .duration(duration)
+      .attr('d', function(d){ return diagonal(d, d.parent) });
+
+  // Remove any exiting links
+  var linkExit = link.exit().transition()
+      .duration(duration)
+      .attr('d', function(d) {
+        var o = {x: source.x, y: source.y}
+        return diagonal(o, o)
+      })
+      .remove();
+
+  // Store the old positions for transition.
+  nodes.forEach(function(d){
+    d.x0 = d.x;
+    d.y0 = d.y;
+  });
+
+  // Creates a curved (diagonal) path from parent to the child nodes
+  function diagonal(s, d) {
+
+    path = `M ${s.x} ${s.y}
+            C ${(s.x + d.x) / 2} ${s.y},
+              ${(s.x + d.x) / 2} ${d.y},
+              ${d.x} ${d.y}`
+
+    return path
+  }
+
+  // Toggle children on click.
+  //function click(d) {
+  //  if (d.children) {
+  //      d._children = d.children;
+  //      d.children = null;
+  //    } else {
+  //      d.children = d._children;
+  //      d._children = null;
+  //    }
+  //  update(d);
+  //}
+}
+
+svg.append("text")
+        .attr("x", (1200 / 2) - 150)             
+        .attr("y", -70)
+        .attr("text-anchor", "middle")  
+        .style("font-size", "16px") 
+        .text("Descendants of CORN4803 Ti. Cornelius (cf. 210) Lentulus - Conservative Model");
+</script>
+</body>

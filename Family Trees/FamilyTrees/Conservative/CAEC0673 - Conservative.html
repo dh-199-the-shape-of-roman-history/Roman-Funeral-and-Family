@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<style>
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+</style>
+
+<body>
+
+<!-- load the d3.js library -->	
+<meta charset="utf-8">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+<script>
+
+var treeData =
+{
+ "name": "CAEC0673 L. Caecilius (92) Metellus Denter",
+ "id": "673",
+ "bestPos": "consul",
+ "birthDate": "-341",
+ "deathDate": "-283",
+ "closestAncestor": "none",
+ "icon": "Praetexta.png",
+ "children": [
+  {
+   "name": "CAEC0751 L. Caecilius (72) L. f. C. n. Metellus",
+   "id": "751",
+   "bestPos": "triumphator",
+   "birthDate": "-300",
+   "deathDate": "-221",
+   "closestAncestor": "673 (Conservative)",
+   "icon": "Picta.png",
+   "children": [
+    {
+     "name": "CAEC0905 L. Caecilius (73) Metellus",
+     "id": "905",
+     "bestPos": "",
+     "birthDate": "-241",
+     "deathDate": "-150",
+     "closestAncestor": "751 (Conservative)",
+     "icon": "NoPosition.png",
+     "children": [
+     ]
+    },
+    {
+     "name": "CAEC0996 M. Caecilius (76) Metellus",
+     "id": "996",
+     "bestPos": "praetor",
+     "birthDate": "-238",
+     "deathDate": "-125",
+     "closestAncestor": "751 (Conservative)",
+     "icon": "Praetexta.png",
+     "children": [
+     ]
+    },
+    {
+     "name": "CAEC0891 Q. Caecilius (81) L. f. L. n. Metellus",
+     "id": "891",
+     "bestPos": "consul",
+     "birthDate": "-245",
+     "deathDate": "-125",
+     "closestAncestor": "751 (Conservative)",
+     "icon": "Praetexta.png",
+     "children": [
+      {
+       "name": "CAEC1424 Q. Caecilius (94) Q. f. L. n. Metellus Macedonicus",
+       "id": "1424",
+       "bestPos": "triumphator",
+       "birthDate": "-190",
+       "deathDate": "-115",
+       "closestAncestor": "891 (Conservative)",
+       "icon": "Picta.png",
+       "children": [
+        {
+         "name": "CAEC1701 C. Caecilius (84) Q. f. Q. n. Metellus Caprarius",
+         "id": "1701",
+         "bestPos": "triumphator",
+         "birthDate": "-157",
+         "deathDate": "-50",
+         "closestAncestor": "1424 (Conservative)",
+         "icon": "Picta.png",
+         "children": [
+          {
+           "name": "CAEC2150 L. Caecilius (74) C. f. Q. n. Metellus",
+           "id": "2150",
+           "bestPos": "consul",
+           "birthDate": "-150",
+           "deathDate": "-68",
+           "closestAncestor": "1701 (Conservative)",
+           "icon": "Praetexta.png",
+           "children": [
+            {
+             "name": "CAEC2480 L. Caecilius (75) L. f. Metellus",
+             "id": "2480",
+             "bestPos": "",
+             "birthDate": "-125",
+             "deathDate": "25",
+             "closestAncestor": "2150 (Conservative)",
+             "icon": "NoPosition.png",
+             "children": [
+             ]
+            }           ]
+          },
+          {
+           "name": "CAEC3045 C. Caecilius (71) Metellus",
+           "id": "3045",
+           "bestPos": "",
+           "birthDate": "-125",
+           "deathDate": "-25",
+           "closestAncestor": "1701 (Conservative)",
+           "icon": "NoPosition.png",
+           "children": [
+           ]
+          },
+          {
+           "name": "CAEC2078 Q. Caecilius (87) C. f. Q. n. Metellus Creticus",
+           "id": "2078",
+           "bestPos": "triumphator",
+           "birthDate": "-109",
+           "deathDate": "0",
+           "closestAncestor": "1701 (Conservative)",
+           "icon": "Picta.png",
+           "children": [
+           ]
+          },
+          {
+           "name": "CAEC2175 M. Caecilius (78) Metellus",
+           "id": "2175",
+           "bestPos": "praetor",
+           "birthDate": "-100",
+           "deathDate": "0",
+           "closestAncestor": "1701 (Conservative)",
+           "icon": "Praetexta.png",
+           "children": [
+           ]
+          }         ]
+        },
+        {
+         "name": "CAEC1665 L. Caecilius (93) Q. f. Q. n. Metellus Diadematus",
+         "id": "1665",
+         "bestPos": "consul",
+         "birthDate": "-175",
+         "deathDate": "-50",
+         "closestAncestor": "1424 (Conservative)",
+         "icon": "Praetexta.png",
+         "children": [
+          {
+           "name": "CAEC1875 Q. Caecilius (85) L.? f. Metellus Celer",
+           "id": "1875",
+           "bestPos": "",
+           "birthDate": "-125",
+           "deathDate": "-25",
+           "closestAncestor": "1665 (Conservative)",
+           "icon": "NoPosition.png",
+           "children": [
+           ]
+          }         ]
+        },
+        {
+         "name": "CAEC1677 M. Caecilius (77) Q. f. Q. n. Metellus",
+         "id": "1677",
+         "bestPos": "triumphator",
+         "birthDate": "-175",
+         "deathDate": "-50",
+         "closestAncestor": "1424 (Conservative)",
+         "icon": "Picta.png",
+         "children": [
+         ]
+        },
+        {
+         "name": "CAEC1635 Q. Caecilius (82) Q. f. Q. n. Metellus Balearicus",
+         "id": "1635",
+         "bestPos": "triumphator",
+         "birthDate": "-175",
+         "deathDate": "-50",
+         "closestAncestor": "1424 (Conservative)",
+         "icon": "Picta.png",
+         "children": [
+          {
+           "name": "CAEC1787 Q. Caecilius (95) Q. f. Q. n. Metellus Nepos",
+           "id": "1787",
+           "bestPos": "consul",
+           "birthDate": "-175",
+           "deathDate": "-25",
+           "closestAncestor": "1635 (Conservative)",
+           "icon": "Praetexta.png",
+           "children": [
+            {
+             "name": "CAEC2040 Q. Caecilius (86) Q. f. Q. or L.? n. Metellus Celer",
+             "id": "2040",
+             "bestPos": "consul",
+             "birthDate": "-99",
+             "deathDate": "-59",
+             "closestAncestor": "1787 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+             ]
+            },
+            {
+             "name": "CAEC2247 Q. Caecilius (96) Q. f. Q. n. Metellus Nepos 'Pamphilus'",
+             "id": "2247",
+             "bestPos": "consul",
+             "birthDate": "-100",
+             "deathDate": "0",
+             "closestAncestor": "1787 (Conservative)",
+             "icon": "Praetexta.png",
+             "children": [
+             ]
+            }           ]
+          }         ]
+        }       ]
+      },
+      {
+       "name": "CAEC1544 L. Caecilius (83) Q. f. L. n. Metellus Calvus",
+       "id": "1544",
+       "bestPos": "consul",
+       "birthDate": "-200",
+       "deathDate": "-75",
+       "closestAncestor": "891 (Conservative)",
+       "icon": "Praetexta.png",
+       "children": [
+        {
+         "name": "CAEC1649 L. Caecilius (91) L. f. Q. n. Metellus Delmaticus",
+         "id": "1649",
+         "bestPos": "triumphator",
+         "birthDate": "-161",
+         "deathDate": "-103",
+         "closestAncestor": "1544 (Conservative)",
+         "icon": "Picta.png",
+         "children": [
+         ]
+        },
+        {
+         "name": "CAEC1693 Q. Caecilius (97) L. f. Q. n. Metellus Numidicus",
+         "id": "1693",
+         "bestPos": "triumphator",
+         "birthDate": "-152",
+         "deathDate": "-75",
+         "closestAncestor": "1544 (Conservative)",
+         "icon": "Picta.png",
+         "children": [
+          {
+           "name": "CAEC1889 Q. Caecilius (98) Q. f. L. n. Metellus Pius",
+           "id": "1889",
+           "bestPos": "triumphator",
+           "birthDate": "-129",
+           "deathDate": "-64",
+           "closestAncestor": "1693 (Conservative)",
+           "icon": "Picta.png",
+           "children": [
+           ]
+          }         ]
+        }       ]
+      }     ]
+    }   ]
+  } ]
+};
+// Set the dimensions and margins of the diagram
+var margin = {top: 120, right: 90, bottom: 30, left: 90},
+    width = 1500 - margin.left - margin.right,
+    height = 
+ 840;
+// append the svg object to the body of the page
+// appends a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.right + margin.left)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate("
+          + margin.left + "," + margin.top + ")");
+
+var i = 0,
+    duration = 750,
+    root;
+
+var tip = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([-10, 0])
+  .html(function(d) {
+    return "<span style='color:red'>" + d.data.name + "</span><br><strong>Born:</strong> <span style='color:red'>" + d.data.birthDate + "</span> <strong>Died:</strong> <span style='color:red'>" + d.data.deathDate + "</span><br><strong>Highest Position:</strong> <span style='color:red'>" + d.data.bestPos + "</span><br><strong>Closest Ancestor:</strong> <span style='color:red'>" + d.data.closestAncestor + "</span>";
+  })
+
+svg.call(tip);
+
+// declares a tree layout and assigns the size
+var treemap = d3.tree().size([width, height]);
+
+// Assigns parent, children, height, depth
+root = d3.hierarchy(treeData, function(d) { return d.children; });
+
+update(root);
+
+function update(source) {
+
+  // Assigns the x and y position for the nodes
+  var treeData = treemap(root);
+
+  // Compute the new tree layout.
+  var nodes = treeData.descendants(),
+      links = treeData.descendants().slice(1);
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d){ d.y = d.depth * 100});
+
+  // ****************** Nodes section ***************************
+
+  // Update the nodes...
+  var node = svg.selectAll('g.node')
+      .data(nodes, function(d) {return d.id || (d.id = ++i); })
+
+  // Enter any new modes at the parent's previous position.
+  var nodeEnter = node.enter().append('g')
+      
+   .append("image")
+      .attr('class', 'node') 
+      .attr('x', -12)
+      .attr('y', -18)
+      .attr('height', 40)
+      .attr('width', 24)
+      .attr("xlink:href", function(d) {
+           return d.data.icon;
+        })
+ 
+   
+   .on('mouseover', tip.show)
+      .on('mouseout', tip.hide)
+      .on('click', function(d) {
+        window.open(
+       'http://romanrepublic.ac.uk/person/' + d.data.id + '/',
+       '_blank'
+       );});
+
+  // UPDATE
+  var nodeUpdate = nodeEnter.merge(node);
+
+  // Transition to the proper position for the node
+  nodeUpdate.transition()
+    .duration(duration)
+    .attr("transform", function(d) { 
+        return "translate(" + d.x + "," + d.y + ")";
+     });
+
+  // ****************** links section ***************************
+
+  // Update the links...
+  var link = svg.selectAll('path.link')
+      .data(links, function(d) { return d.id; });
+
+  // Enter any new links at the parent's previous position.
+  var linkEnter = link.enter().insert('path', "g")
+      .attr("class", "link")
+      //.attr('d', function(d){
+      //  var o = {x: source.x0, y: source.y0}
+      //  return diagonal(o, o)
+      //});
+
+  // UPDATE
+  var linkUpdate = linkEnter.merge(link);
+
+  // Transition back to the parent element position
+  linkUpdate.transition()
+      .duration(duration)
+      .attr('d', function(d){ return diagonal(d, d.parent) });
+
+  // Remove any exiting links
+  var linkExit = link.exit().transition()
+      .duration(duration)
+      .attr('d', function(d) {
+        var o = {x: source.x, y: source.y}
+        return diagonal(o, o)
+      })
+      .remove();
+
+  // Store the old positions for transition.
+  nodes.forEach(function(d){
+    d.x0 = d.x;
+    d.y0 = d.y;
+  });
+
+  // Creates a curved (diagonal) path from parent to the child nodes
+  function diagonal(s, d) {
+
+    path = `M ${s.x} ${s.y}
+            C ${(s.x + d.x) / 2} ${s.y},
+              ${(s.x + d.x) / 2} ${d.y},
+              ${d.x} ${d.y}`
+
+    return path
+  }
+
+  // Toggle children on click.
+  //function click(d) {
+  //  if (d.children) {
+  //      d._children = d.children;
+  //      d.children = null;
+  //    } else {
+  //      d.children = d._children;
+  //      d._children = null;
+  //    }
+  //  update(d);
+  //}
+}
+
+svg.append("text")
+        .attr("x", (1200 / 2) - 150)             
+        .attr("y", -70)
+        .attr("text-anchor", "middle")  
+        .style("font-size", "16px") 
+        .text("Descendants of CAEC0673 L. Caecilius (92) Metellus Denter - Conservative Model");
+</script>
+</body>

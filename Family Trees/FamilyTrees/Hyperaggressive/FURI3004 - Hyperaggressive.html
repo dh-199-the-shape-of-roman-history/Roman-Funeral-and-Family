@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<style>
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+</style>
+
+<body>
+
+<!-- load the d3.js library -->	
+<meta charset="utf-8">
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+<script>
+
+var treeData =
+{
+ "name": "FURI3004 -. Furius (not in RE)",
+ "id": "3004",
+ "bestPos": "",
+ "birthDate": "-525",
+ "deathDate": "25",
+ "closestAncestor": "none",
+ "icon": "NoPosition.png",
+ "children": [
+  {
+   "name": "FURI0410 M. Furius (not in RE)",
+   "id": "410",
+   "bestPos": "",
+   "birthDate": "-425",
+   "deathDate": "-325",
+   "closestAncestor": "3004 (Aggressive)",
+   "icon": "NoPosition.png",
+   "children": [
+    {
+     "name": "FURI0586 L. Furius (14)",
+     "id": "586",
+     "bestPos": "praetor",
+     "birthDate": "-350",
+     "deathDate": "-250",
+     "closestAncestor": "410 (Aggressive)",
+     "icon": "Praetexta.png",
+     "children": [
+      {
+       "name": "FURI0831 -. Furius (cf. 36) Bibaculus",
+       "id": "831",
+       "bestPos": "",
+       "birthDate": "-300",
+       "deathDate": "-221",
+       "closestAncestor": "586 (Hyperaggressive)",
+       "icon": "NoPosition.png",
+       "children": [
+        {
+         "name": "FURI0828 L. Furius (36) Bibaculus",
+         "id": "828",
+         "bestPos": "praetor",
+         "birthDate": "-250",
+         "deathDate": "-220",
+         "closestAncestor": "831 (Conservative)",
+         "icon": "Praetexta.png",
+         "children": [
+         ]
+        },
+        {
+         "name": "FURI0876 L. Furius (35) Bibaculus",
+         "id": "876",
+         "bestPos": "",
+         "birthDate": "-250",
+         "deathDate": "-216",
+         "closestAncestor": "831 (Aggressive)",
+         "icon": "NoPosition.png",
+         "children": [
+         ]
+        }       ]
+      },
+      {
+       "name": "FURI5165 M. Furius (20 cf. 56) C. f.",
+       "id": "5165",
+       "bestPos": "",
+       "birthDate": "-250",
+       "deathDate": "-150",
+       "closestAncestor": "586 (Aggressive)",
+       "icon": "NoPosition.png",
+       "children": [
+       ]
+      },
+      {
+       "name": "FURI3409 L. Furius (not in RE) L. f.",
+       "id": "3409",
+       "bestPos": "praetor",
+       "birthDate": "-250",
+       "deathDate": "-50",
+       "closestAncestor": "586 (Aggressive)",
+       "icon": "Praetexta.png",
+       "children": [
+        {
+         "name": "FURI3666 Sp.? Furius (30)",
+         "id": "3666",
+         "bestPos": "",
+         "birthDate": "-225",
+         "deathDate": "-125",
+         "closestAncestor": "3409 (Aggressive)",
+         "icon": "NoPosition.png",
+         "children": [
+         ]
+        },
+        {
+         "name": "FURI3001 C. Furius (11)",
+         "id": "3001",
+         "bestPos": "",
+         "birthDate": "-225",
+         "deathDate": "-100",
+         "closestAncestor": "3409 (Aggressive)",
+         "icon": "NoPosition.png",
+         "children": [
+         ]
+        },
+        {
+         "name": "FURI1308 C. Furius (10)",
+         "id": "1308",
+         "bestPos": "",
+         "birthDate": "-225",
+         "deathDate": "-100",
+         "closestAncestor": "3409 (Aggressive)",
+         "icon": "NoPosition.png",
+         "children": [
+          {
+           "name": "FURI1804 P. Furius (22)",
+           "id": "1804",
+           "bestPos": "",
+           "birthDate": "-150",
+           "deathDate": "-98",
+           "closestAncestor": "1308 (Aggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+            {
+             "name": "FURI4612 L. Furius (18 cf. 2)",
+             "id": "4612",
+             "bestPos": "praetor",
+             "birthDate": "-125",
+             "deathDate": "0",
+             "closestAncestor": "1804 (Aggressive)",
+             "icon": "Praetexta.png",
+             "children": [
+             ]
+            },
+            {
+             "name": "FURI2113 L.? Furius (2 cf. 18)",
+             "id": "2113",
+             "bestPos": "",
+             "birthDate": "-125",
+             "deathDate": "0",
+             "closestAncestor": "1804 (Aggressive)",
+             "icon": "NoPosition.png",
+             "children": [
+             ]
+            }           ]
+          },
+          {
+           "name": "FURI4424 N. Furius (21)",
+           "id": "4424",
+           "bestPos": "",
+           "birthDate": "-150",
+           "deathDate": "-25",
+           "closestAncestor": "1308 (Aggressive)",
+           "icon": "NoPosition.png",
+           "children": [
+           ]
+          }         ]
+        }       ]
+      }     ]
+    },
+    {
+     "name": "FURI0607 L. Furius (15)",
+     "id": "607",
+     "bestPos": "",
+     "birthDate": "-350",
+     "deathDate": "-250",
+     "closestAncestor": "410 (Aggressive)",
+     "icon": "NoPosition.png",
+     "children": [
+     ]
+    }   ]
+  },
+  {
+   "name": "FURI0457 Sp. (or L.) Furius (29)",
+   "id": "457",
+   "bestPos": "",
+   "birthDate": "-425",
+   "deathDate": "-325",
+   "closestAncestor": "3004 (Aggressive)",
+   "icon": "NoPosition.png",
+   "children": [
+   ]
+  } ]
+};
+// Set the dimensions and margins of the diagram
+var margin = {top: 120, right: 90, bottom: 30, left: 90},
+    width = 1500 - margin.left - margin.right,
+    height = 
+ 840;
+// append the svg object to the body of the page
+// appends a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("body").append("svg")
+    .attr("width", width + margin.right + margin.left)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate("
+          + margin.left + "," + margin.top + ")");
+
+var i = 0,
+    duration = 750,
+    root;
+
+var tip = d3.tip()
+  .attr('class', 'd3-tip')
+  .offset([-10, 0])
+  .html(function(d) {
+    return "<span style='color:red'>" + d.data.name + "</span><br><strong>Born:</strong> <span style='color:red'>" + d.data.birthDate + "</span> <strong>Died:</strong> <span style='color:red'>" + d.data.deathDate + "</span><br><strong>Highest Position:</strong> <span style='color:red'>" + d.data.bestPos + "</span><br><strong>Closest Ancestor:</strong> <span style='color:red'>" + d.data.closestAncestor + "</span>";
+  })
+
+svg.call(tip);
+
+// declares a tree layout and assigns the size
+var treemap = d3.tree().size([width, height]);
+
+// Assigns parent, children, height, depth
+root = d3.hierarchy(treeData, function(d) { return d.children; });
+
+update(root);
+
+function update(source) {
+
+  // Assigns the x and y position for the nodes
+  var treeData = treemap(root);
+
+  // Compute the new tree layout.
+  var nodes = treeData.descendants(),
+      links = treeData.descendants().slice(1);
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d){ d.y = d.depth * 100});
+
+  // ****************** Nodes section ***************************
+
+  // Update the nodes...
+  var node = svg.selectAll('g.node')
+      .data(nodes, function(d) {return d.id || (d.id = ++i); })
+
+  // Enter any new modes at the parent's previous position.
+  var nodeEnter = node.enter().append('g')
+      
+   .append("image")
+      .attr('class', 'node') 
+      .attr('x', -12)
+      .attr('y', -18)
+      .attr('height', 40)
+      .attr('width', 24)
+      .attr("xlink:href", function(d) {
+           return d.data.icon;
+        })
+ 
+   
+   .on('mouseover', tip.show)
+      .on('mouseout', tip.hide)
+      .on('click', function(d) {
+        window.open(
+       'http://romanrepublic.ac.uk/person/' + d.data.id + '/',
+       '_blank'
+       );});
+
+  // UPDATE
+  var nodeUpdate = nodeEnter.merge(node);
+
+  // Transition to the proper position for the node
+  nodeUpdate.transition()
+    .duration(duration)
+    .attr("transform", function(d) { 
+        return "translate(" + d.x + "," + d.y + ")";
+     });
+
+  // ****************** links section ***************************
+
+  // Update the links...
+  var link = svg.selectAll('path.link')
+      .data(links, function(d) { return d.id; });
+
+  // Enter any new links at the parent's previous position.
+  var linkEnter = link.enter().insert('path', "g")
+      .attr("class", "link")
+      //.attr('d', function(d){
+      //  var o = {x: source.x0, y: source.y0}
+      //  return diagonal(o, o)
+      //});
+
+  // UPDATE
+  var linkUpdate = linkEnter.merge(link);
+
+  // Transition back to the parent element position
+  linkUpdate.transition()
+      .duration(duration)
+      .attr('d', function(d){ return diagonal(d, d.parent) });
+
+  // Remove any exiting links
+  var linkExit = link.exit().transition()
+      .duration(duration)
+      .attr('d', function(d) {
+        var o = {x: source.x, y: source.y}
+        return diagonal(o, o)
+      })
+      .remove();
+
+  // Store the old positions for transition.
+  nodes.forEach(function(d){
+    d.x0 = d.x;
+    d.y0 = d.y;
+  });
+
+  // Creates a curved (diagonal) path from parent to the child nodes
+  function diagonal(s, d) {
+
+    path = `M ${s.x} ${s.y}
+            C ${(s.x + d.x) / 2} ${s.y},
+              ${(s.x + d.x) / 2} ${d.y},
+              ${d.x} ${d.y}`
+
+    return path
+  }
+
+  // Toggle children on click.
+  //function click(d) {
+  //  if (d.children) {
+  //      d._children = d.children;
+  //      d.children = null;
+  //    } else {
+  //      d.children = d._children;
+  //      d._children = null;
+  //    }
+  //  update(d);
+  //}
+}
+
+svg.append("text")
+        .attr("x", (1200 / 2) - 150)             
+        .attr("y", -70)
+        .attr("text-anchor", "middle")  
+        .style("font-size", "16px") 
+        .text("Descendants of FURI3004 -. Furius (not in RE) - Hyperaggressive Model");
+</script>
+</body>
