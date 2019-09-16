@@ -13,10 +13,26 @@ The following sections outlines the different types of visualizations and the co
 
 TODO: Merge the python code from all visualizations to standardize it.
 
+### SketchUp Visualizations
+(Subfolder: SketchUp)
+
+This set of visualizations uses SketchUp and Ruby to produce representations of each funeral represented in the DPRR, as well as a "bar graph", in which each funeral appears.  This allows users to see how many funerals occurred per 25 year period in addition to the details of each funeral.  These visualizations use 2 levels of certainty, one based solely on DPRR and one attempting to fill in the gaps based on family names (those with the same family names are almost certainly related).
+
+NOTE: The in situ visualizations assume a model of the forum from 160 BCE.  This SketchUp model is too large for GitHub and so not included here.  The plan is to have this available elsewhere.
+
+Pipeline:
+* Generate the CSV files from the DPRR backend.
+* Remove the top 2 rows of each.
+* Run funeral.py to produce the Ruby input file for either level of certainty.
+* Run funeral.rb as a SketchUp plugin.
+* Select one of the two visualization types, producing images.
+
+TODO: Add hyperaggressive model, update data to match the later visualizations. Include women in the visualizations.
+
 ### 2D Family Network Graphs
 (Subfolder: Family Graphs)
 
-This set of visualizations connects people in the database based on parent-child, husband-wife, and adoption relationships.  Each node has a pop-up on mouse-over for more info, is clickable to open the corresponding DPRR page, and is color-coded to show who is in the same gens (Roman family).
+This set of visualizations (build in D3.js) connects people in the database based on parent-child, husband-wife, and adoption relationships.  Each node has a pop-up on mouse-over for more info, is clickable to open the corresponding DPRR page, and is color-coded to show who is in the same gens (Roman family).
 
 Pipeline:
 * Generate PersonQuery and RelationshipQuery from the DPRR backend.
@@ -24,7 +40,17 @@ Pipeline:
 * Run graphGenerator.py, which reads these files. graphGenerator uses graphTemplate.html (involving D3.js) as a building block to produce graphs
 * Each person appears in exactly 1 graph
 
-TODO: Increase readability for large graphs, consider using custom icons for famous people, add tentative connections where other visualizations add them.
+TODO: Increase readability for large graphs, consider using custom icons for famous people, add tentative connections where other visualizations add them, allow multiple graphs in the same window/file.
 
 ### 3D Visualizations
 (Subfolder: 3D Visualizations)
+
+This set of visualizations is a 3D version of the previous 2D Family Network Graphs visualizations.  Instead of using D3.js, this makes use of vasturiano's 3D Force Graph package, built in Javascript and using WebGL.  It retains all the features of the 2D version while being easier to read and navigate.
+
+Pipeline:
+* Generate PersonQuery and RelationshipQuery from the DPRR backend.
+* Remove the top 2 rows of each.
+* Run 3d_generator.py, which reads these files. 3d_generator uses 3D_Template.html as a building block to produce graphs
+* Each person appears in exactly 1 graph
+
+TODO: As above, plus modifty the package for easier navigation and different actions on click.  Update UI to better describe what to do.
