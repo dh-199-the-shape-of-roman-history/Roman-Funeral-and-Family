@@ -217,6 +217,7 @@ def buildNodes():
 #Recusrively build up an output giving the highest positions by a person and all their paternal ancestors
 #
 #Input: conservative - a boolean, true if the output should be limited to directly attested fathers, false if it should guess if none is given
+#Input: hyperaggressive - a boolean, true if the output should aggressively guess at ancestors
 #Input: verbose - a boolean, true if the output should give details like ancestor names
 #Input: unity - a boolean, true if the output should be in a format for use in Unity
 #input: index - the id of the person to return info on
@@ -337,6 +338,7 @@ def sortDates():
 #Prints the lineage history for all people, sorted by death date
 #
 #Input: conservative - a boolean, true if the output should be limited to directly attested fathers, false if it should guess if none is given
+#Input: hyperaggressive - a boolean, true if the output should aggressively guess at ancestors
 #Input: verbose - a boolean, true if the output should give details like ancestor names
 #Input: unity - a boolean, true if the output should be in a format for use in Unity
 def traverseNodes(conservative, hyperaggressive, verbose, unity):
@@ -365,14 +367,15 @@ def traverseNodes(conservative, hyperaggressive, verbose, unity):
 #Prints the lineage history for a single person
 #
 #Input: conservative - a boolean, true if the output should be limited to directly attested fathers, false if it should guess if none is given
+#Input: hyperaggressive - a boolean, true if the output should aggressively guess at ancestors
 #Input: verbose - a boolean, true if the output should give details like ancestor names
 #Input: unity - a boolean, true if the output should be in a format for use in Unity
 #input: id - the id of the person to return info on
-def traversePerson(conservative, verbose, unity, id):
+def traversePerson(conservative, hyperaggressive, verbose, unity, id):
     person = allPeople[id];
     if person != None:
         #print (person.name);
-        parentRoles = recursiveRoles(conservative, verbose, unity, person.id);
+        parentRoles = recursiveRoles(conservative, hyperaggressive, verbose, unity, person.id);
         print (parentRoles);
 
 #Build the people objects, then run the program
@@ -408,4 +411,4 @@ traverseNodes(query1 == 'y', query5 == 'y', query2 == 'y', query3 == 'y');
 #Uncomment the following 3 lines to give output for a single male
 #print("Enter an ID to query.");
 #query4 = input();
-#traversePerson(query1 == 'y', query2 == 'y', query3 == 'y', int(query4));
+#traversePerson(query1 == 'y', query5 == 'y', query2 == 'y', query3 == 'y', int(query4));
