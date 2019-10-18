@@ -291,12 +291,14 @@ def sortDates():
                  allDeaths[indexOne] = allDeaths[indexTwo];
                  allDeaths[indexTwo] = temp;
 
+#Returns a number of spaces equal to indent, for human readability in output files
 def printIndent(indent):
     toReturn = "";
     for i in range(0, indent):
         toReturn = toReturn + " ";
     return toReturn;
 
+#Produce the JSON portion of a d3.js tree for a given person and model, working recursively around the network
 def printPerson(person, indent, model):
     toReturn = "";
     toReturn = toReturn + printIndent(indent);
@@ -476,9 +478,3 @@ parseInput();
 buildNodes();
         
 traverseNodes();
-
-
-#Uncomment the following 3 lines to give output for a single male
-#print("Enter an ID to query.");
-#query4 = input();
-#traversePerson(query1 == 'y', query2 == 'y', query3 == 'y', int(query4));
