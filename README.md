@@ -11,7 +11,7 @@ The Explore feature of the backend server is vital to understanding the database
 ## The Visualizations and Their Production
 The following sections outlines the different types of visualizations and the code and algorithms used to generate them.
 
-NOTEs: All Python files were made in Python 3.6 and are untested with later versions.  The D3 version used is 5, and D3-tip version 0.7.1 is used for tooltips. Unity must be run in version 2018.2.13f. Unity uses Photon Unity Netwoeking version 1.91 for multiplayer behavior.
+NOTEs: All Python files were made in Python 3.6 and are untested with later versions.  The D3 version used is 5, and D3-tip version 0.7.1 is used for tooltips. Unity must be run in version 2018.2.13f. Unity uses Photon Unity Networking version 1.91 for multiplayer behavior.
 
 TODO: Merge the python code from all visualizations to standardize it. Produce new algorithms for guessing links between people where they are not present in the database.  Consider statistical approaches and machine learning approaches to this final problem. Try to estimate the number of funerals not represented in the database based off of population estimates and senatorial lists.
 
@@ -75,6 +75,21 @@ Pipeline:
 * Each person appears in exactly 1 graph
 
 TODO: Increase readability for large graphs, consider using custom icons for famous people, add tentative connections where other visualizations add them, allow multiple graphs in the same window/file.
+
+
+### D3 Funeral Bar Graphs
+(Subfolder: Funerals_2022)
+
+This set of visualizations (build in D3.js) displays all known funerals, sorted by time period and by number of people involved.  Each node has a pop-up on mouse-over for more info and is clickable to open the corresponding DPRR page.
+
+Pipeline:
+* (If desired) Refresh DPRR data by going to Funerals_2022/py and running `python 00_update_server_data.py`
+* (If desired) Add manual overrides in Funerals/2022/json/override_data.json, then go to Funerals_2022/py and run `python 01_add_manual_overrides.py`
+* (If changes made above) Go to Funerals_2022/py and run `python 02_d3_data_generator.py`
+* Open Funerals_2022/funerals.html.
+
+For TODOs, see issues in this repository.
+
 
 ### 3D Visualizations
 (Subfolder: 3D Visualizations)

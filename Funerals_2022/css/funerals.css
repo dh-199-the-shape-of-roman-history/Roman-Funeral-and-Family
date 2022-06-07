@@ -1,0 +1,52 @@
+div#filters {
+    padding: 14px 0 0 0;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+div#filters .col-4 {
+    min-width: 300px;
+}
+
+div#filters .col-4 div {
+    margin-left: 12px;
+}
+
+input[type="text"], select, option {
+    min-width: 120px;
+    width: 160px;
+    padding: 1px 2px;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    padding: 12px;
+    font: 14px sans-serif;
+    background: black;
+    color: white;
+    border: 12px;
+    pointer-events: none;
+}
+
+div#allFunerals {
+    border-style: solid;
+    margin: 14px 40px;
+    display: inline-block;
+    position: relative;
+    width: 95%;
+    height: 85%;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 800px) {
+    div#allFunerals {
+        width: 90%;
+    }
+}
+
+g.notFocused *, image.notFocused {
+    opacity: 20%;
+}
