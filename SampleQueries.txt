@@ -114,3 +114,30 @@ where {
 order by ?id
 
 
+
+
+PREFIX : <http://romanrepublic.ac.uk/rdf/ontology#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX vocab: <http://romanrepublic.ac.uk/rdf/ontology#>
+PREFIX map: <http://romanrepublic.ac.uk/rdf/entity/#>
+PREFIX db: <http://romanrepublic.ac.uk/rdf/entity/>
+
+select distinct ?id ?name ?nomen ?cognomen ?highestOffice ?death ?triumphator
+where {
+  ?aperson a vocab:Person;
+    vocab:isSex <http://romanrepublic.ac.uk/rdf/entity/Sex/Male>;
+    vocab:hasID ?id;
+    vocab:hasName ?name;
+    vocab:hasNomen ?nomen;
+    vocab:hasCognomen ?cognomen;
+    vocab:hasEraTo ?death;
+    OPTIONAL { ?aperson a vocab:Person; vocab:hasHighestOffice ?highestOffice. }
+    OPTIONAL { ?postAssert a vocab:PostAssertion;
+    vocab:hasOffice ?triumphator;
+      vocab:isAboutPerson ?aperson. FILTER (?triumphator = <http://romanrepublic.ac.uk/rdf/entity/Office/260>) }
+}
+order by ?id
