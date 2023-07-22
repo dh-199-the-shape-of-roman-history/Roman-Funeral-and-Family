@@ -1,0 +1,1 @@
+data = {"start": "754", "persons": {"754": {"id": "754", "name": "DASI0844 -. Dasius (1)", "birthyear": -250, "deathyear": -150, "dprr_id": 844, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

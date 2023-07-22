@@ -1,0 +1,1 @@
+data = {"start": "2551", "persons": {"2551": {"id": "2551", "name": "PAPI3014 -. Papius (2)", "birthyear": -175, "deathyear": -75, "dprr_id": 3014, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

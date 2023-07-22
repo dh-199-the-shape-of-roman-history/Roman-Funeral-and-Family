@@ -1,0 +1,1 @@
+data = {"start": "556", "persons": {"556": {"id": "556", "name": "GENU0633 C. Genucius (3) (Augurinus)", "birthyear": -325, "deathyear": -295, "dprr_id": 633, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "637", "persons": {"637": {"id": "637", "name": "MAMI0719 Q. Mamilius (15) Q. f. M. n. Vitulus", "birthyear": -294, "deathyear": -200, "dprr_id": 719, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

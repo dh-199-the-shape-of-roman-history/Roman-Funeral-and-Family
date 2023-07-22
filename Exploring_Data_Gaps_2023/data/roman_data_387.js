@@ -1,0 +1,1 @@
+data = {"start": "387", "persons": {"387": {"id": "387", "name": "SULP0441 C. Sulpicius (7, cf. 29) (Camerinus)", "birthyear": -425, "deathyear": -325, "dprr_id": 441, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

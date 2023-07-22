@@ -1,0 +1,1 @@
+data = {"start": "511", "persons": {"511": {"id": "511", "name": "PAPI0585 L. Papirius (46) L. f. M. n. Crassus", "birthyear": -375, "deathyear": -250, "dprr_id": 585, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

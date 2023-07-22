@@ -1,0 +1,1 @@
+data = {"start": "3338", "persons": {"3338": {"id": "3338", "name": "CAEC3978  Caecilia (124c)", "birthyear": -132, "deathyear": -42, "dprr_id": 3978, "own_unions": [], "is_certain": true, "gender": "Female", "icon": "Woman.png"}}, "unions": {}, "links": []}

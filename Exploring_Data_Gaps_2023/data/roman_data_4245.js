@@ -1,0 +1,1 @@
+data = {"start": "4245", "persons": {"4245": {"id": "4245", "name": "ANIC5040 M. Anicius (4)", "birthyear": -250, "deathyear": -150, "dprr_id": 5040, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

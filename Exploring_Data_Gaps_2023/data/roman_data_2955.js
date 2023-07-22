@@ -1,0 +1,1 @@
+data = {"start": "2955", "persons": {"2955": {"id": "2955", "name": "IUNI3502 C. Iunius (14) C. f.", "birthyear": -200, "deathyear": -75, "dprr_id": 3502, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

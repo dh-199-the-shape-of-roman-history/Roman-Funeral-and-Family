@@ -1,0 +1,1 @@
+data = {"start": "1194", "persons": {"1194": {"id": "1194", "name": "CAEC1348 M. Caecilius (16)", "birthyear": -225, "deathyear": -100, "dprr_id": 1348, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

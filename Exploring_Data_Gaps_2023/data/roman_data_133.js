@@ -1,0 +1,1 @@
+data = {"start": "133", "persons": {"133": {"id": "133", "name": "MINU0151 Q. Minucius (41) P. f. M. n. Esquilinus", "birthyear": -500, "deathyear": -400, "dprr_id": 151, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

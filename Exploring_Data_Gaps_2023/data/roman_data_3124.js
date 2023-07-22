@@ -1,0 +1,1 @@
+data = {"start": "3124", "persons": {"3124": {"id": "3124", "name": "IUVE3744 M'. Iuventius (not in RE) L. f. Laterensis", "birthyear": -150, "deathyear": 25, "dprr_id": 3744, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

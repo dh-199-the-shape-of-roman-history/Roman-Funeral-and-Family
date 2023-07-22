@@ -1,0 +1,1 @@
+data = {"start": "176", "persons": {"176": {"id": "176", "name": "TREB0198 L. Trebonius (9) Asper", "birthyear": -500, "deathyear": -375, "dprr_id": 198, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "401", "persons": {"401": {"id": "401", "name": "EREN0456 C. Erenucius (col. 419) -", "birthyear": -425, "deathyear": -325, "dprr_id": 456, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

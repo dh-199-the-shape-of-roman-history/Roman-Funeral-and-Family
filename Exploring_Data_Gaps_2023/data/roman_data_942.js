@@ -1,0 +1,1 @@
+data = {"start": "942", "persons": {"942": {"id": "942", "name": "FULV1055 Q. Fulvius (25, cf. 69) (Gillo)", "birthyear": -250, "deathyear": -150, "dprr_id": 1055, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

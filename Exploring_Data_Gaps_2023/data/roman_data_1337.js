@@ -1,0 +1,1 @@
+data = {"start": "1337", "persons": {"1337": {"id": "1337", "name": "SCAN1512 M. Scantius or Scantinius (Scantius 2, cf. Scantinius 1)", "birthyear": -200, "deathyear": -75, "dprr_id": 1512, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

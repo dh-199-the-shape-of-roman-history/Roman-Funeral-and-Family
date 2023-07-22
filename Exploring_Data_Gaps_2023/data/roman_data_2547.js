@@ -1,0 +1,1 @@
+data = {"start": "2547", "persons": {"2547": {"id": "2547", "name": "GLIT3010 -. Glitius (not in RE)", "birthyear": -525, "deathyear": 25, "dprr_id": 3010, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

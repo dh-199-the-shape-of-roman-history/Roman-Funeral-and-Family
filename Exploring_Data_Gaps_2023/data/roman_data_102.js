@@ -1,0 +1,1 @@
+data = {"start": "102", "persons": {"102": {"id": "102", "name": "MECI0118 L. Mecilius (RE 15.17)", "birthyear": -525, "deathyear": -400, "dprr_id": 118, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "648", "persons": {"648": {"id": "648", "name": "CALP0730 M. Calpurnius (42) Flamma", "birthyear": -300, "deathyear": -200, "dprr_id": 730, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

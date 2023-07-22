@@ -1,0 +1,1 @@
+data = {"start": "156", "persons": {"156": {"id": "156", "name": "DUIL0177 K. Duillius (4) (Longus)", "birthyear": -500, "deathyear": -375, "dprr_id": 177, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

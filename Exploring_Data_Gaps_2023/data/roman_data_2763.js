@@ -1,0 +1,1 @@
+data = {"start": "2763", "persons": {"2763": {"id": "2763", "name": "SERR3252 M. Serrius (not in RE) M. f. Ter.", "birthyear": -175, "deathyear": -75, "dprr_id": 3252, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

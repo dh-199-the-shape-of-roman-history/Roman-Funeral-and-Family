@@ -1,0 +1,1 @@
+data = {"start": "3025", "persons": {"3025": {"id": "3025", "name": "ABUR3589 M. Aburius (cf. 2) M. f. Geminus", "birthyear": -175, "deathyear": -75, "dprr_id": 3589, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

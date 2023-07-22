@@ -1,0 +1,1 @@
+data = {"start": "123", "persons": {"123": {"id": "123", "name": "VOLS0140 M. Volscius (2) Fictor", "birthyear": -500, "deathyear": -400, "dprr_id": 140, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

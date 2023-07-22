@@ -1,0 +1,1 @@
+data = {"start": "2488", "persons": {"2488": {"id": "2488", "name": "AEMI2939 L. Aemilius (14) L. f.", "birthyear": -250, "deathyear": -125, "dprr_id": 2939, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

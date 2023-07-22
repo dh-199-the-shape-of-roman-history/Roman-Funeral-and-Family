@@ -1,0 +1,1 @@
+data = {"start": "3073", "persons": {"3073": {"id": "3073", "name": "SERV3645 P. Servilius (79) M. f. Rullus", "birthyear": -150, "deathyear": -50, "dprr_id": 3645, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

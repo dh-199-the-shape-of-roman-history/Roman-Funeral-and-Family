@@ -1,0 +1,1 @@
+data = {"start": "619", "persons": {"619": {"id": "619", "name": "CORN0698 Cn. Cornelius (73) P. f. Cn. n. Blasio", "birthyear": -300, "deathyear": -175, "dprr_id": 698, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

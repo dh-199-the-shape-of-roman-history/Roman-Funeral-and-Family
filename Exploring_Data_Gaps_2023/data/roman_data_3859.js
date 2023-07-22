@@ -1,0 +1,1 @@
+data = {"start": "3859", "persons": {"3859": {"id": "3859", "name": "CLON4560 -. Clonius (or Cluvius) (not in RE)", "birthyear": -150, "deathyear": -104, "dprr_id": 4560, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

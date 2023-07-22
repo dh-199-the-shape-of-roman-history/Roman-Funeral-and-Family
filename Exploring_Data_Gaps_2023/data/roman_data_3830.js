@@ -1,0 +1,1 @@
+data = {"start": "3830", "persons": {"3830": {"id": "3830", "name": "ORBI4526 L. Orbilius (Orbilius) Pupillus", "birthyear": -150, "deathyear": -50, "dprr_id": 4526, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

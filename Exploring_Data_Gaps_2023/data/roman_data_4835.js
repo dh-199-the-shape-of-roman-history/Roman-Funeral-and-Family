@@ -1,0 +1,1 @@
+data = {"start": "4835", "persons": {"4835": {"id": "4835", "name": "PAPI5642 L. Papirius (19) Fregellanus", "birthyear": -200, "deathyear": -101, "dprr_id": 5642, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

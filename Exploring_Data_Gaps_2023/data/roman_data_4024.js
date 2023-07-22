@@ -1,0 +1,1 @@
+data = {"start": "4024", "persons": {"4024": {"id": "4024", "name": "SASS4752  Sassia (1)", "birthyear": -150, "deathyear": -50, "dprr_id": 4752, "own_unions": [], "is_certain": true, "gender": "Female", "icon": "Woman.png"}}, "unions": {}, "links": []}

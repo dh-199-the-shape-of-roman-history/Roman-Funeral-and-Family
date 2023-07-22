@@ -1,0 +1,1 @@
+data = {"start": "107", "persons": {"107": {"id": "107", "name": "SERV0123 Q. Servilius (77) Structus Priscus", "birthyear": -500, "deathyear": -400, "dprr_id": 123, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

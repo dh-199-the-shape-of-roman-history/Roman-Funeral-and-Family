@@ -1,0 +1,1 @@
+data = {"start": "154", "persons": {"154": {"id": "154", "name": "POET0175 Q. Poetelius (4) Libo Visolus", "birthyear": -500, "deathyear": -375, "dprr_id": 175, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "1406", "persons": {"1406": {"id": "1406", "name": "MINU1592 Q. Minucius (25)", "birthyear": -175, "deathyear": -75, "dprr_id": 1592, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

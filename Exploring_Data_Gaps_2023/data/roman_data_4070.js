@@ -1,0 +1,1 @@
+data = {"start": "4070", "persons": {"4070": {"id": "4070", "name": "DUIL4807 M. Duilius (7)", "birthyear": -400, "deathyear": -325, "dprr_id": 4807, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

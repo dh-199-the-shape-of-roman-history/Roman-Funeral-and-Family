@@ -1,0 +1,1 @@
+data = {"start": "204", "persons": {"204": {"id": "204", "name": "FULC0233 C. Fulcinnius (1)", "birthyear": -475, "deathyear": -438, "dprr_id": 233, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

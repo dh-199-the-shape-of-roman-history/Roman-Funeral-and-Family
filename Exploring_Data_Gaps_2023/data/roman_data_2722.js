@@ -1,0 +1,1 @@
+data = {"start": "2722", "persons": {"2722": {"id": "2722", "name": "MANL3209 L. Manlius (Mallius 6) L. f. Men.", "birthyear": -175, "deathyear": -75, "dprr_id": 3209, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

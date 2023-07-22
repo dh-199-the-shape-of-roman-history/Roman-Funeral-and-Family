@@ -1,0 +1,1 @@
+data = {"start": "1009", "persons": {"1009": {"id": "1009", "name": "DIGI1138 Sex. Digitius (2)", "birthyear": -225, "deathyear": -100, "dprr_id": 1138, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

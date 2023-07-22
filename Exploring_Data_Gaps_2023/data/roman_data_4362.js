@@ -1,0 +1,1 @@
+data = {"start": "4362", "persons": {"4362": {"id": "4362", "name": "CORN5169 A. Cornelius (31, cf. 112) Cossus", "birthyear": -475, "deathyear": -375, "dprr_id": 5169, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

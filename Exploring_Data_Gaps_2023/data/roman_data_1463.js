@@ -1,0 +1,1 @@
+data = {"start": "1463", "persons": {"1463": {"id": "1463", "name": "MAEV1658 -. Maevius (Mevius 1)", "birthyear": -175, "deathyear": -50, "dprr_id": 1658, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

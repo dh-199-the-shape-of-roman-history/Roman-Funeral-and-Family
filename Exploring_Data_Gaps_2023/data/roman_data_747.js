@@ -1,0 +1,1 @@
+data = {"start": "747", "persons": {"747": {"id": "747", "name": "CLAU0837 Q. Claudius (29)", "birthyear": -250, "deathyear": -150, "dprr_id": 837, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

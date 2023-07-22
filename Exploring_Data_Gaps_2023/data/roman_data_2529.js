@@ -1,0 +1,1 @@
+data = {"start": "2529", "persons": {"2529": {"id": "2529", "name": "MIND2989 M. Mindius (1) L. f.", "birthyear": -350, "deathyear": -150, "dprr_id": 2989, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

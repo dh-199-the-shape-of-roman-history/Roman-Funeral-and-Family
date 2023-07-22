@@ -1,0 +1,1 @@
+data = {"start": "137", "persons": {"137": {"id": "137", "name": "ALIE0155 L. Alienus (2)", "birthyear": -500, "deathyear": -400, "dprr_id": 155, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

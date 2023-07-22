@@ -1,0 +1,1 @@
+data = {"start": "552", "persons": {"552": {"id": "552", "name": "FULV0629 Cn. Fulvius (88) Cn. f. Cn. n. Maximus Centumalus", "birthyear": -350, "deathyear": -200, "dprr_id": 629, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

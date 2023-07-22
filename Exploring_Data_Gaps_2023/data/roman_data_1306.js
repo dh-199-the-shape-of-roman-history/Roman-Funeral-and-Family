@@ -1,0 +1,1 @@
+data = {"start": "1306", "persons": {"1306": {"id": "1306", "name": "APUS1473 P. Apustius (3)", "birthyear": -200, "deathyear": -100, "dprr_id": 1473, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

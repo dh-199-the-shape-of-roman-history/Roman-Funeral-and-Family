@@ -1,0 +1,1 @@
+data = {"start": "93", "persons": {"93": {"id": "93", "name": "PINA0109 L. Pinarius (12) Mamercinus Rufus", "birthyear": -525, "deathyear": -400, "dprr_id": 109, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

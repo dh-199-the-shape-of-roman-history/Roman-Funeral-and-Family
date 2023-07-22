@@ -1,0 +1,1 @@
+data = {"start": "76", "persons": {"76": {"id": "76", "name": "PONT0089 Ti. Pontificius (Pontificius)", "birthyear": -525, "deathyear": -425, "dprr_id": 89, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "1058", "persons": {"1058": {"id": "1058", "name": "SEMP1195 P. Sempronius (49) Gracchus", "birthyear": -225, "deathyear": -125, "dprr_id": 1195, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "3032", "persons": {"3032": {"id": "3032", "name": "BAEB3597 M. Baebius (not in RE) Q. f. Tamphilus", "birthyear": -175, "deathyear": -75, "dprr_id": 3597, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

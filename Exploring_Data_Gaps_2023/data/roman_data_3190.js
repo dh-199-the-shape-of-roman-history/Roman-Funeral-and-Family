@@ -1,0 +1,1 @@
+data = {"start": "3190", "persons": {"3190": {"id": "3190", "name": "SEMP3818 C. Sempronius (6) C. f. Fal.", "birthyear": -175, "deathyear": -75, "dprr_id": 3818, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

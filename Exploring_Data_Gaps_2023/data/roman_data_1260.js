@@ -1,0 +1,1 @@
+data = {"start": "1260", "persons": {"1260": {"id": "1260", "name": "CORN1423 L. Cornelius (190, 191?) Lentulus", "birthyear": -200, "deathyear": -100, "dprr_id": 1423, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

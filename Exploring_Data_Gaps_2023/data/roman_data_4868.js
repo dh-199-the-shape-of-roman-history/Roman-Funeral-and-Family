@@ -1,0 +1,1 @@
+data = {"start": "4868", "persons": {"4868": {"id": "4868", "name": "ANON5676 -. - (not in RE) Vargula", "birthyear": -150, "deathyear": -25, "dprr_id": 5676, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

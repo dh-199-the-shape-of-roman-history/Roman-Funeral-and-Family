@@ -1,0 +1,1 @@
+data = {"start": "358", "persons": {"358": {"id": "358", "name": "PAPI0409 L. Papirius (66) Mugillanus", "birthyear": -425, "deathyear": -325, "dprr_id": 409, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

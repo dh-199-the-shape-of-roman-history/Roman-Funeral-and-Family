@@ -1,0 +1,1 @@
+data = {"start": "778", "persons": {"778": {"id": "778", "name": "BAEB0872 Q. Baebius (26) Herennius", "birthyear": -250, "deathyear": -150, "dprr_id": 872, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

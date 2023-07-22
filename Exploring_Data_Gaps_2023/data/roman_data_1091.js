@@ -1,0 +1,1 @@
+data = {"start": "1091", "persons": {"1091": {"id": "1091", "name": "SICI1234 Cn. Sicinius (8)", "birthyear": -225, "deathyear": -100, "dprr_id": 1234, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "1359", "persons": {"1359": {"id": "1359", "name": "PAPI1538 C. Papirius (12) (Carbo)", "birthyear": -200, "deathyear": -75, "dprr_id": 1538, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

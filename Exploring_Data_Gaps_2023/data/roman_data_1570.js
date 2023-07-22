@@ -1,0 +1,1 @@
+data = {"start": "1570", "persons": {"1570": {"id": "1570", "name": "GABI1790 A. Gabinius (8, cf. 7 and 9)", "birthyear": -150, "deathyear": -50, "dprr_id": 1790, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

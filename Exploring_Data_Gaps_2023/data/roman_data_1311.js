@@ -1,0 +1,1 @@
+data = {"start": "1311", "persons": {"1311": {"id": "1311", "name": "MANI1480 M'. Manilius (12) P. f. P. n.", "birthyear": -196, "deathyear": -75, "dprr_id": 1480, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

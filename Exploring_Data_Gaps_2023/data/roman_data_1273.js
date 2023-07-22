@@ -1,0 +1,1 @@
+data = {"start": "1273", "persons": {"1273": {"id": "1273", "name": "NAEV1437 L. Naevius (11) Balbus", "birthyear": -200, "deathyear": -100, "dprr_id": 1437, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

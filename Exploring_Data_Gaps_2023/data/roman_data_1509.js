@@ -1,0 +1,1 @@
+data = {"start": "1509", "persons": {"1509": {"id": "1509", "name": "SEXT1723 P. Sextius (1)", "birthyear": -150, "deathyear": -50, "dprr_id": 1723, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

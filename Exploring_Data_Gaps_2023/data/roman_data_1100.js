@@ -1,0 +1,1 @@
+data = {"start": "1100", "persons": {"1100": {"id": "1100", "name": "CAEL1243 M. Caelius (10)", "birthyear": -225, "deathyear": -125, "dprr_id": 1243, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

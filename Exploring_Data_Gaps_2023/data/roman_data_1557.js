@@ -1,0 +1,1 @@
+data = {"start": "1557", "persons": {"1557": {"id": "1557", "name": "NORB1777 C. Norbanus (5) (Balbus)", "birthyear": -150, "deathyear": -82, "dprr_id": 1777, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

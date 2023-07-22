@@ -1,0 +1,1 @@
+data = {"start": "950", "persons": {"950": {"id": "950", "name": "CORN1065 C. Cornelius (88) L. f. M. n. Cethegus", "birthyear": -243, "deathyear": -125, "dprr_id": 1065, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

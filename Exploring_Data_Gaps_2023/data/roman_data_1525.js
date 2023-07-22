@@ -1,0 +1,1 @@
+data = {"start": "1525", "persons": {"1525": {"id": "1525", "name": "FLAV1743 C. Flavius (87) C. f. Fimbria", "birthyear": -154, "deathyear": -75, "dprr_id": 1743, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

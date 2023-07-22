@@ -1,0 +1,1 @@
+data = {"start": "277", "persons": {"277": {"id": "277", "name": "AEMI0316 M'. Aemilius (98) Mam. f. M. n. Mamercinus", "birthyear": -450, "deathyear": -350, "dprr_id": 316, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

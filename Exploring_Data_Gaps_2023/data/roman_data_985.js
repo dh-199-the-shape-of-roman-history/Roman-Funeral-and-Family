@@ -1,0 +1,1 @@
+data = {"start": "985", "persons": {"985": {"id": "985", "name": "LIGU1107 Cn. Ligurius (2)", "birthyear": -250, "deathyear": -197, "dprr_id": 1107, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

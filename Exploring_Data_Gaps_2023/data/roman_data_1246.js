@@ -1,0 +1,1 @@
+data = {"start": "1246", "persons": {"1246": {"id": "1246", "name": "ANIC1408 L. Anicius (15) L. f. L. n. Gallus", "birthyear": -200, "deathyear": -100, "dprr_id": 1408, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

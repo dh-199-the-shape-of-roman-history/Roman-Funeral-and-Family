@@ -1,0 +1,1 @@
+data = {"start": "672", "persons": {"672": {"id": "672", "name": "FUND0755 C. Fundanius (5) C. f. Q. n. Fundulus", "birthyear": -273, "deathyear": -175, "dprr_id": 755, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

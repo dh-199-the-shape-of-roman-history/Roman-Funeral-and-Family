@@ -1,0 +1,1 @@
+data = {"start": "4824", "persons": {"4824": {"id": "4824", "name": "HELV5631 -. Helvius (15) Mancia", "birthyear": -200, "deathyear": -1, "dprr_id": 5631, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

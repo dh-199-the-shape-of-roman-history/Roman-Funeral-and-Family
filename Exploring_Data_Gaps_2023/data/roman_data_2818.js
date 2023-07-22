@@ -1,0 +1,1 @@
+data = {"start": "2818", "persons": {"2818": {"id": "2818", "name": "AUFI3313 Cn. Aufidius (not in RE) T. f.", "birthyear": -250, "deathyear": -50, "dprr_id": 3313, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

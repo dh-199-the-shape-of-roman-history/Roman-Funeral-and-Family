@@ -1,0 +1,1 @@
+data = {"start": "1532", "persons": {"1532": {"id": "1532", "name": "ALBU1750 T. Albucius (2)", "birthyear": -147, "deathyear": -50, "dprr_id": 1750, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

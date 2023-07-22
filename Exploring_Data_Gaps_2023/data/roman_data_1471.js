@@ -1,0 +1,1 @@
+data = {"start": "1471", "persons": {"1471": {"id": "1471", "name": "ATIL1669 L. Atilius (44, cf. Nomentanus 1) Cor. Nomentanus", "birthyear": -175, "deathyear": -50, "dprr_id": 1669, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

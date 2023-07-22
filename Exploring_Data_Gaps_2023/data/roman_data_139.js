@@ -1,0 +1,1 @@
+data = {"start": "139", "persons": {"139": {"id": "139", "name": "VETU0157 C. Veturius (10) P. f. - n. Cicurinus", "birthyear": -500, "deathyear": -400, "dprr_id": 157, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

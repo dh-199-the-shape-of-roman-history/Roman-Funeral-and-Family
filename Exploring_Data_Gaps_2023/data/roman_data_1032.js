@@ -1,0 +1,1 @@
+data = {"start": "1032", "persons": {"1032": {"id": "1032", "name": "TITI1168 M. Titinius (20, cf. 12, 13) Curvus", "birthyear": -218, "deathyear": -125, "dprr_id": 1168, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

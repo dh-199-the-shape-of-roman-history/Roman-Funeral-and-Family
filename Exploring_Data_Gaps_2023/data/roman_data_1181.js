@@ -1,0 +1,1 @@
+data = {"start": "1181", "persons": {"1181": {"id": "1181", "name": "CANU1334 L. Canuleius (6, 12) (Dives)", "birthyear": -225, "deathyear": -100, "dprr_id": 1334, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

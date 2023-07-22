@@ -1,0 +1,1 @@
+data = {"start": "85", "persons": {"85": {"id": "85", "name": "NAUT0101 C. Nautius (5) Sp. f. Sp. n. Rutilus", "birthyear": -525, "deathyear": -400, "dprr_id": 101, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "27", "persons": {"27": {"id": "27", "name": "CLOE0029 Q. Cloelius (10) Siculus", "birthyear": -550, "deathyear": -425, "dprr_id": 29, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "349", "persons": {"349": {"id": "349", "name": "FABI0396 Q. Fabius (48) M. f. Q. n. Ambustus", "birthyear": -425, "deathyear": -389, "dprr_id": 396, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

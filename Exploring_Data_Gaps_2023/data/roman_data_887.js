@@ -1,0 +1,1 @@
+data = {"start": "887", "persons": {"887": {"id": "887", "name": "CLAU0994 Q. Claudius (151, cf. 29) (Flamen)", "birthyear": -250, "deathyear": -150, "dprr_id": 994, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

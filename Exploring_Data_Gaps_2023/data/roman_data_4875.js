@@ -1,0 +1,1 @@
+data = {"start": "4875", "persons": {"4875": {"id": "4875", "name": "MARC5683 -. Marcilius (cf. 2)", "birthyear": -150, "deathyear": -25, "dprr_id": 5683, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

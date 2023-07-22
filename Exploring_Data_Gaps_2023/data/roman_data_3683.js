@@ -1,0 +1,1 @@
+data = {"start": "3683", "persons": {"3683": {"id": "3683", "name": "TITI4367 Sex. Titius (23)", "birthyear": -150, "deathyear": -25, "dprr_id": 4367, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "4870", "persons": {"4870": {"id": "4870", "name": "VERG5678 A. Verginius (6)", "birthyear": -200, "deathyear": -51, "dprr_id": 5678, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

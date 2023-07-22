@@ -1,0 +1,1 @@
+data = {"start": "3045", "persons": {"3045": {"id": "3045", "name": "VARG3611 M. Vargunteius (4)", "birthyear": -175, "deathyear": -75, "dprr_id": 3611, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

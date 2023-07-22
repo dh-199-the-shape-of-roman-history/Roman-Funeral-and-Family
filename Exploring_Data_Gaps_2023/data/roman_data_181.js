@@ -1,0 +1,1 @@
+data = {"start": "181", "persons": {"181": {"id": "181", "name": "GENU0205 M. Genucius (11) Augurinus", "birthyear": -500, "deathyear": -375, "dprr_id": 205, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

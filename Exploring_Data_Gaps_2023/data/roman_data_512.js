@@ -1,0 +1,1 @@
+data = {"start": "512", "persons": {"512": {"id": "512", "name": "FURI0586 L. Furius (14)", "birthyear": -350, "deathyear": -250, "dprr_id": 586, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

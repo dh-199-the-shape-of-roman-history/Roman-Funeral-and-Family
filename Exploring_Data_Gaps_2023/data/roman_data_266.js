@@ -1,0 +1,1 @@
+data = {"start": "266", "persons": {"266": {"id": "266", "name": "DECI0304 L. Decius (not in RE)", "birthyear": -450, "deathyear": -350, "dprr_id": 304, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

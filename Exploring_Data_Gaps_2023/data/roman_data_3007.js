@@ -1,0 +1,1 @@
+data = {"start": "3007", "persons": {"3007": {"id": "3007", "name": "MAMI3564 L. Mamilius (2) Pap.", "birthyear": -225, "deathyear": -125, "dprr_id": 3564, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

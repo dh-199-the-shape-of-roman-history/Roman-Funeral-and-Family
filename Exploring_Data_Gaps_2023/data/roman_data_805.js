@@ -1,0 +1,1 @@
+data = {"start": "805", "persons": {"805": {"id": "805", "name": "ATIL0900 L. Atilius (14)", "birthyear": -250, "deathyear": -150, "dprr_id": 900, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

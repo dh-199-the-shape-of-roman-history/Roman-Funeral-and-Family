@@ -1,0 +1,1 @@
+data = {"start": "155", "persons": {"155": {"id": "155", "name": "ANTO0176 T. Antonius (78) Merenda", "birthyear": -500, "deathyear": -375, "dprr_id": 176, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

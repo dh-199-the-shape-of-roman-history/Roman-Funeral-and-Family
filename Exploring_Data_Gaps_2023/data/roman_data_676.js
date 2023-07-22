@@ -1,0 +1,1 @@
+data = {"start": "676", "persons": {"676": {"id": "676", "name": "OTAC0759 M'. Otacilius (10) C. f. M'. n. Crassus", "birthyear": -300, "deathyear": -175, "dprr_id": 759, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

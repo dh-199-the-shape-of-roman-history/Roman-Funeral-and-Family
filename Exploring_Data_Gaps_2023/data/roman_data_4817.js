@@ -1,0 +1,1 @@
+data = {"start": "4817", "persons": {"4817": {"id": "4817", "name": "CLAU5624 Ti. Claudius (107) Centumalus", "birthyear": -200, "deathyear": -1, "dprr_id": 5624, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

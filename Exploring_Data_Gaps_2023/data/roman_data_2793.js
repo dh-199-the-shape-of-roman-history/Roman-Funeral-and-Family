@@ -1,0 +1,1 @@
+data = {"start": "2793", "persons": {"2793": {"id": "2793", "name": "VERG3285 Proc. Verginius (18a) Tricostus", "birthyear": -475, "deathyear": -375, "dprr_id": 3285, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

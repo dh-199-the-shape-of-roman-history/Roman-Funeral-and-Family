@@ -1,0 +1,1 @@
+data = {"start": "3029", "persons": {"3029": {"id": "3029", "name": "AUFI3594 M. Aufidius (35) (M.? f.) Rusticus", "birthyear": -175, "deathyear": -75, "dprr_id": 3594, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "4147", "persons": {"4147": {"id": "4147", "name": "SAUF4914  Saufeia (B)", "birthyear": -150, "deathyear": -50, "dprr_id": 4914, "own_unions": [], "is_certain": true, "gender": "Female", "icon": "Woman.png"}}, "unions": {}, "links": []}

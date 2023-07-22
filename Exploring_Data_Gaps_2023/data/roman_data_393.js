@@ -1,0 +1,1 @@
+data = {"start": "393", "persons": {"393": {"id": "393", "name": "SEMP0448 A. Sempronius (23) Atratinus", "birthyear": -425, "deathyear": -325, "dprr_id": 448, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

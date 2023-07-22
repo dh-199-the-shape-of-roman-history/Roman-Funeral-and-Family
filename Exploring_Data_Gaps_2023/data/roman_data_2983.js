@@ -1,0 +1,1 @@
+data = {"start": "2983", "persons": {"2983": {"id": "2983", "name": "DOMI3532 Cn. Domitius (cf. 20, Supb.3.349) (Calvinus?, Ahenobarbus?)", "birthyear": -175, "deathyear": -75, "dprr_id": 3532, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

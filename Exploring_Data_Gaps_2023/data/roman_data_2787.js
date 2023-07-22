@@ -1,0 +1,1 @@
+data = {"start": "2787", "persons": {"2787": {"id": "2787", "name": "VOLC3279 C. Volcacius (5) Gurges", "birthyear": -550, "deathyear": 25, "dprr_id": 3279, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

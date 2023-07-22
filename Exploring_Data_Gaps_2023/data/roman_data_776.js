@@ -1,0 +1,1 @@
+data = {"start": "776", "persons": {"776": {"id": "776", "name": "AURE0870 M. Aurelius (103) Cotta", "birthyear": -250, "deathyear": -200, "dprr_id": 870, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

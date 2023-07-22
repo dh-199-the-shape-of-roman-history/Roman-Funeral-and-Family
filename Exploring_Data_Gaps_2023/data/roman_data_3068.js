@@ -1,0 +1,1 @@
+data = {"start": "3068", "persons": {"3068": {"id": "3068", "name": "MAEN3639 P. Maenius (12)", "birthyear": -225, "deathyear": -125, "dprr_id": 3639, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

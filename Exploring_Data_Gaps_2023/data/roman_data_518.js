@@ -1,0 +1,1 @@
+data = {"start": "518", "persons": {"518": {"id": "518", "name": "FABI0592 C. Fabius (41) M. f. N. n. Ambustus", "birthyear": -350, "deathyear": -250, "dprr_id": 592, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "2893", "persons": {"2893": {"id": "2893", "name": "CLAU3429 Ti. Claudius (cf. 250, 251, 252) Ti. f. Clu. Nero or Asellus", "birthyear": -200, "deathyear": -100, "dprr_id": 3429, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

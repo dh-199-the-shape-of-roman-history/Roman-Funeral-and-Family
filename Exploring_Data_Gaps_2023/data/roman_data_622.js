@@ -1,0 +1,1 @@
+data = {"start": "622", "persons": {"622": {"id": "622", "name": "SEMP0701 P. Sempronius (86) P. f. P. n. Sophus", "birthyear": -300, "deathyear": -200, "dprr_id": 701, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

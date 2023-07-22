@@ -1,0 +1,1 @@
+data = {"start": "685", "persons": {"685": {"id": "685", "name": "LUTA0768 Q. Lutatius (13) C. f. C. n. Cerco", "birthyear": -274, "deathyear": -236, "dprr_id": 768, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "970", "persons": {"970": {"id": "970", "name": "CORN1091 L. Cornelius (270) L. f. Merula", "birthyear": -228, "deathyear": -125, "dprr_id": 1091, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

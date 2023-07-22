@@ -1,0 +1,1 @@
+data = {"start": "12", "persons": {"12": {"id": "12", "name": "LARC0012 Sp. Larcius (4) Rufus or Flavus", "birthyear": -550, "deathyear": -425, "dprr_id": 12, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

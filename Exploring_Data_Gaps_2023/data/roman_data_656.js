@@ -1,0 +1,1 @@
+data = {"start": "656", "persons": {"656": {"id": "656", "name": "FULV0738 Ser. Fulvius (97) M. f. M. n. Paetinus Nobilior", "birthyear": -300, "deathyear": -200, "dprr_id": 738, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

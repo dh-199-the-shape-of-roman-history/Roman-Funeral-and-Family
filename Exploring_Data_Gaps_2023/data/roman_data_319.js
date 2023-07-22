@@ -1,0 +1,1 @@
+data = {"start": "319", "persons": {"319": {"id": "319", "name": "ATIL0361 L. Atilius (46) L. f. L. n. Priscus", "birthyear": -450, "deathyear": -325, "dprr_id": 361, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

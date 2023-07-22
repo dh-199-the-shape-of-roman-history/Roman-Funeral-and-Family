@@ -1,0 +1,1 @@
+data = {"start": "193", "persons": {"193": {"id": "193", "name": "AEBU0218 M. Aebutius (12) Helva", "birthyear": -475, "deathyear": -375, "dprr_id": 218, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

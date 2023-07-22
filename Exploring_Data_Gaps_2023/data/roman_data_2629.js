@@ -1,0 +1,1 @@
+data = {"start": "2629", "persons": {"2629": {"id": "2629", "name": "LICI3102 P. Licinius (27)", "birthyear": -225, "deathyear": 25, "dprr_id": 3102, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

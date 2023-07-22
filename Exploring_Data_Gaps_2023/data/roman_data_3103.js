@@ -1,0 +1,1 @@
+data = {"start": "3103", "persons": {"3103": {"id": "3103", "name": "Q[UI3680 Ti. Q[uinctius] (18)", "birthyear": -150, "deathyear": -50, "dprr_id": 3680, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

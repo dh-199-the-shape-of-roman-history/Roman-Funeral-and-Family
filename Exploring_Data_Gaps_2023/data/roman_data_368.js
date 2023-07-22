@@ -1,0 +1,1 @@
+data = {"start": "368", "persons": {"368": {"id": "368", "name": "MENE0420 Licinus Menenius (15) T. f. T. n. Lanatus", "birthyear": -425, "deathyear": -325, "dprr_id": 420, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

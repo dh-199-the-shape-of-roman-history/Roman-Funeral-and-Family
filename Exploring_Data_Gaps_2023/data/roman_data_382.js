@@ -1,0 +1,1 @@
+data = {"start": "382", "persons": {"382": {"id": "382", "name": "PUBL0435 Q. Publilius (8)", "birthyear": -425, "deathyear": -325, "dprr_id": 435, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

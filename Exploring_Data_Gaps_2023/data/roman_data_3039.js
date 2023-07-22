@@ -1,0 +1,1 @@
+data = {"start": "3039", "persons": {"3039": {"id": "3039", "name": "LUCI3604 M. Lucilius (31) Rufus", "birthyear": -150, "deathyear": -50, "dprr_id": 3604, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

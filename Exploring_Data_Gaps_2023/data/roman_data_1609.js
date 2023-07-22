@@ -1,0 +1,1 @@
+data = {"start": "1609", "persons": {"1609": {"id": "1609", "name": "MANL1833 L. Manlius (78) Torquatus", "birthyear": -150, "deathyear": -25, "dprr_id": 1833, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "1066", "persons": {"1066": {"id": "1066", "name": "STER1206 C. Stertinius (4)", "birthyear": -225, "deathyear": -125, "dprr_id": 1206, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

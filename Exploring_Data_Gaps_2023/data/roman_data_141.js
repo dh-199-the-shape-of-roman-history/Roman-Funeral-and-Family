@@ -1,0 +1,1 @@
+data = {"start": "141", "persons": {"141": {"id": "141", "name": "ATER0159 A. Aternius (RE 2.1923) Varus Fontinalis", "birthyear": -500, "deathyear": -400, "dprr_id": 159, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

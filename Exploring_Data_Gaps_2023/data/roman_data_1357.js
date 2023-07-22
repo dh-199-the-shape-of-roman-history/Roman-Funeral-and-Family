@@ -1,0 +1,1 @@
+data = {"start": "1357", "persons": {"1357": {"id": "1357", "name": "PUBL1536 C. Publilius (6)", "birthyear": -200, "deathyear": -75, "dprr_id": 1536, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

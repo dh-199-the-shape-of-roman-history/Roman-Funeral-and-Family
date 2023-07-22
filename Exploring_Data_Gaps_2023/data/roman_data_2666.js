@@ -1,0 +1,1 @@
+data = {"start": "2666", "persons": {"2666": {"id": "2666", "name": "AUFI3148 Cn. Aufidius (not in RE) Vel.", "birthyear": -175, "deathyear": -75, "dprr_id": 3148, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

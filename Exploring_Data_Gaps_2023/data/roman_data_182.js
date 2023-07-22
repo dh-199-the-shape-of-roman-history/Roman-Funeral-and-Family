@@ -1,0 +1,1 @@
+data = {"start": "182", "persons": {"182": {"id": "182", "name": "CURT0206 C.? Curtius (15) Philo (or Chilo)", "birthyear": -500, "deathyear": -375, "dprr_id": 206, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

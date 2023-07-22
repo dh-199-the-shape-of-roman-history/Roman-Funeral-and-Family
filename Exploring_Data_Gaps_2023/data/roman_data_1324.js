@@ -1,0 +1,1 @@
+data = {"start": "1324", "persons": {"1324": {"id": "1324", "name": "FUFI1497 -. Fufius (1)", "birthyear": -200, "deathyear": -100, "dprr_id": 1497, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

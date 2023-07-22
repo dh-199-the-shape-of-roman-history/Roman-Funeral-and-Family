@@ -1,0 +1,1 @@
+data = {"start": "145", "persons": {"145": {"id": "145", "name": "CURI0164 P. Curiatius (6) Fistus Trigeminus", "birthyear": -500, "deathyear": -400, "dprr_id": 164, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "3201", "persons": {"3201": {"id": "3201", "name": "ROSC3830 L. R(oscius) (not in RE)", "birthyear": -150, "deathyear": -50, "dprr_id": 3830, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "1582", "persons": {"1582": {"id": "1582", "name": "EQUI1803 L. Equitius (3) Vel. 'Pseudogracchus'", "birthyear": -150, "deathyear": -100, "dprr_id": 1803, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

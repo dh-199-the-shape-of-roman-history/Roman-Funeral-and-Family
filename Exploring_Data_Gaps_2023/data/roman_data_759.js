@@ -1,0 +1,1 @@
+data = {"start": "759", "persons": {"759": {"id": "759", "name": "PAPI0849 C. Papirius (58, cf. 23) Maso", "birthyear": -250, "deathyear": -150, "dprr_id": 849, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

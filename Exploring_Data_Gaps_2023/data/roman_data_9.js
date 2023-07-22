@@ -1,0 +1,1 @@
+data = {"start": "9", "persons": {"9": {"id": "9", "name": "PAPI0009 M'. Papirius (20, cf. 1-5)", "birthyear": -550, "deathyear": -450, "dprr_id": 9, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "367", "persons": {"367": {"id": "367", "name": "SERG0419 Cn. Sergius (28) Fidenas Coxo", "birthyear": -425, "deathyear": -325, "dprr_id": 419, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

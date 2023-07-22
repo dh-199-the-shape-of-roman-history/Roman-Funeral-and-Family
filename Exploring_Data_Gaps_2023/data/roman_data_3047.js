@@ -1,0 +1,1 @@
+data = {"start": "3047", "persons": {"3047": {"id": "3047", "name": "MATI3613 -. Matienus (1)", "birthyear": -225, "deathyear": -100, "dprr_id": 3613, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

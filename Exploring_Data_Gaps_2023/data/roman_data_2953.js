@@ -1,0 +1,1 @@
+data = {"start": "2953", "persons": {"2953": {"id": "2953", "name": "FONT3500 C. Fonteius (6, ?2)", "birthyear": -150, "deathyear": -50, "dprr_id": 3500, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

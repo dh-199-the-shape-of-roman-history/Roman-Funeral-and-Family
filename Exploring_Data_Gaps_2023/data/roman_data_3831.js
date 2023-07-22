@@ -1,0 +1,1 @@
+data = {"start": "3831", "persons": {"3831": {"id": "3831", "name": "SAUF4527 L. Saufeius (5)", "birthyear": -150, "deathyear": -25, "dprr_id": 4527, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

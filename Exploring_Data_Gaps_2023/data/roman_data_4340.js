@@ -1,0 +1,1 @@
+data = {"start": "4340", "persons": {"4340": {"id": "4340", "name": "DECI5146 Cn. Decidius (1) 'the Samnite'", "birthyear": -150, "deathyear": -25, "dprr_id": 5146, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

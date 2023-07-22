@@ -1,0 +1,1 @@
+data = {"start": "952", "persons": {"952": {"id": "952", "name": "AMPI1069 C. Ampius (not in RE)", "birthyear": -250, "deathyear": -201, "dprr_id": 1069, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

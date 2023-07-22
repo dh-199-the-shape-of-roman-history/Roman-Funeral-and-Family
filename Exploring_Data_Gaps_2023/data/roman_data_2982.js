@@ -1,0 +1,1 @@
+data = {"start": "2982", "persons": {"2982": {"id": "2982", "name": "CORN3531 Cn. Cornelius (cf. 373) L. f. Sisenna", "birthyear": -150, "deathyear": -50, "dprr_id": 3531, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

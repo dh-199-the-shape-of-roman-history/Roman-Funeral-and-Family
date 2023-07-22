@@ -1,0 +1,1 @@
+data = {"start": "982", "persons": {"982": {"id": "982", "name": "FULV1104 Q. Fulvius (28)", "birthyear": -250, "deathyear": -125, "dprr_id": 1104, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

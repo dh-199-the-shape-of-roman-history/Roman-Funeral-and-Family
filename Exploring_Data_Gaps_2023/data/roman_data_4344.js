@@ -1,0 +1,1 @@
+data = {"start": "4344", "persons": {"4344": {"id": "4344", "name": "AURI5150 L. Aurius (4) (Melinus)", "birthyear": -150, "deathyear": -80, "dprr_id": 5150, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "598", "persons": {"598": {"id": "598", "name": "AEMI0676 Q. Aemilius (112) Cn. f. L. n. Papus", "birthyear": -325, "deathyear": -225, "dprr_id": 676, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

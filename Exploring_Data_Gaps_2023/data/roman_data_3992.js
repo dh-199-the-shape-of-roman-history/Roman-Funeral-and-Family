@@ -1,0 +1,1 @@
+data = {"start": "3992", "persons": {"3992": {"id": "3992", "name": "GAVI4717 -. Gavius (A)", "birthyear": -150, "deathyear": -50, "dprr_id": 4717, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

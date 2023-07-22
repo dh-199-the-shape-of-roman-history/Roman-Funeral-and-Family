@@ -1,0 +1,1 @@
+data = {"start": "3161", "persons": {"3161": {"id": "3161", "name": "ANON3786 C. F- (not in RE)", "birthyear": -150, "deathyear": -50, "dprr_id": 3786, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "61", "persons": {"61": {"id": "61", "name": "MUCI0065 P. Mucius (7) Scaevola", "birthyear": -525, "deathyear": -425, "dprr_id": 65, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

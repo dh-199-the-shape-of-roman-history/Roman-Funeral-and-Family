@@ -1,0 +1,1 @@
+data = {"start": "2847", "persons": {"2847": {"id": "2847", "name": "BAEB3351 C. (Baebius) (not in RE) Herennius", "birthyear": -250, "deathyear": -150, "dprr_id": 3351, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

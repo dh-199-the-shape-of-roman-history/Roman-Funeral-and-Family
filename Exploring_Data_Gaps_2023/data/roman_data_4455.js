@@ -1,0 +1,1 @@
+data = {"start": "4455", "persons": {"4455": {"id": "4455", "name": "IUVE5262 -. Iuventius (cf. 16) Pap.", "birthyear": -175, "deathyear": -50, "dprr_id": 5262, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "3948", "persons": {"3948": {"id": "3948", "name": "MANI4660 -. Manius (cf. Marcius 2)", "birthyear": -375, "deathyear": -250, "dprr_id": 4660, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

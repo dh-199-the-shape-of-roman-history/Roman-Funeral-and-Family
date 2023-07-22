@@ -1,0 +1,1 @@
+data = {"start": "601", "persons": {"601": {"id": "601", "name": "VALE0679 L. Valerius (59) (Flaccus)", "birthyear": -325, "deathyear": -282, "dprr_id": 679, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

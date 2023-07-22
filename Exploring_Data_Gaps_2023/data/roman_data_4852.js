@@ -1,0 +1,1 @@
+data = {"start": "4852", "persons": {"4852": {"id": "4852", "name": "RUSI5659 C. Rusius (Rusius)", "birthyear": -150, "deathyear": -25, "dprr_id": 5659, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

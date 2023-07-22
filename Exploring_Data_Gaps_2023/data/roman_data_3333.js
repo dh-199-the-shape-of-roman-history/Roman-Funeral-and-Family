@@ -1,0 +1,1 @@
+data = {"start": "3333", "persons": {"3333": {"id": "3333", "name": "HERE3972 Sex. Herennius (14)", "birthyear": -150, "deathyear": -25, "dprr_id": 3972, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

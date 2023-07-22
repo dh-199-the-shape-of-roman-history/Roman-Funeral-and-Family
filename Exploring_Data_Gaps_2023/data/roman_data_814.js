@@ -1,0 +1,1 @@
+data = {"start": "814", "persons": {"814": {"id": "814", "name": "LIVI0909 M. Livius (24) (Macatus)", "birthyear": -250, "deathyear": -150, "dprr_id": 909, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

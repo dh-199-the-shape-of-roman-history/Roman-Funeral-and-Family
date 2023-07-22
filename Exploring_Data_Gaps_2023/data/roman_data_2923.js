@@ -1,0 +1,1 @@
+data = {"start": "2923", "persons": {"2923": {"id": "2923", "name": "FANN3464 C. Fannius (7) C. f. C. n.", "birthyear": -164, "deathyear": -50, "dprr_id": 3464, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

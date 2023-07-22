@@ -1,0 +1,1 @@
+data = {"start": "2866", "persons": {"2866": {"id": "2866", "name": "SENT3384 L. Sentius (6) C. f. Ter. (Saturninus)", "birthyear": -150, "deathyear": -75, "dprr_id": 3384, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

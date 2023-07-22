@@ -1,0 +1,1 @@
+data = {"start": "856", "persons": {"856": {"id": "856", "name": "CATI0961 Q. Catius (3)", "birthyear": -250, "deathyear": -150, "dprr_id": 961, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

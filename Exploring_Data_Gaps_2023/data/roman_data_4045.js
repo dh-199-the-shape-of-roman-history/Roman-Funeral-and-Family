@@ -1,0 +1,1 @@
+data = {"start": "4045", "persons": {"4045": {"id": "4045", "name": "CORN4777 L. Cornelius (cf. 69) Balbus", "birthyear": -150, "deathyear": -50, "dprr_id": 4777, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

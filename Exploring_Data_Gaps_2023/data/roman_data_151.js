@@ -1,0 +1,1 @@
+data = {"start": "151", "persons": {"151": {"id": "151", "name": "SEST0172 P. Sestius (9) Q. f. V. n. Capito(linus) (Vaticanus)", "birthyear": -500, "deathyear": -400, "dprr_id": 172, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

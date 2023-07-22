@@ -1,0 +1,1 @@
+data = {"start": "1231", "persons": {"1231": {"id": "1231", "name": "MEMM1391 T. Memmius (19)", "birthyear": -225, "deathyear": -100, "dprr_id": 1391, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

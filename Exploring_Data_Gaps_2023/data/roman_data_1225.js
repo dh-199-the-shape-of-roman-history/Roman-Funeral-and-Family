@@ -1,0 +1,1 @@
+data = {"start": "1225", "persons": {"1225": {"id": "1225", "name": "RAEC1385 M. Raecius (3)", "birthyear": -225, "deathyear": -100, "dprr_id": 1385, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

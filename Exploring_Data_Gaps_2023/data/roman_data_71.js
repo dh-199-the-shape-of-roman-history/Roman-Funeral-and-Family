@@ -1,0 +1,1 @@
+data = {"start": "71", "persons": {"71": {"id": "71", "name": "OPPI0084  Oppia (36, cf. Opimia 13)", "birthyear": -500, "deathyear": -483, "dprr_id": 84, "own_unions": [], "is_certain": true, "gender": "Female", "icon": "Woman.png"}}, "unions": {}, "links": []}

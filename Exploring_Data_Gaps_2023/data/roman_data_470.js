@@ -1,0 +1,1 @@
+data = {"start": "470", "persons": {"470": {"id": "470", "name": "AEMI0538 Ti. (or T.) Aemilius (100) Mamercinus", "birthyear": -377, "deathyear": -275, "dprr_id": 538, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

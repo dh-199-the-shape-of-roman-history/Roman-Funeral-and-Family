@@ -1,0 +1,1 @@
+data = {"start": "4048", "persons": {"4048": {"id": "4048", "name": "CONS4780 -. Considius (1)", "birthyear": -175, "deathyear": -75, "dprr_id": 4780, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

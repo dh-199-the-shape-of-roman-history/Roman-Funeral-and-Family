@@ -1,0 +1,1 @@
+data = {"start": "1004", "persons": {"1004": {"id": "1004", "name": "IUNI1132 P. Iunius (54) Brutus", "birthyear": -220, "deathyear": -125, "dprr_id": 1132, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

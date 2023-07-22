@@ -1,0 +1,1 @@
+data = {"start": "2748", "persons": {"2748": {"id": "2748", "name": "PLAE3237 L. Plaetorius (6) L. f. Pap.", "birthyear": -175, "deathyear": -75, "dprr_id": 3237, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

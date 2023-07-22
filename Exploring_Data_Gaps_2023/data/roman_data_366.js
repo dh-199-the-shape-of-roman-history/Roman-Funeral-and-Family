@@ -1,0 +1,1 @@
+data = {"start": "366", "persons": {"366": {"id": "366", "name": "SULP0418 Ser. Sulpicius (94, cf. 31) Rufus", "birthyear": -425, "deathyear": -325, "dprr_id": 418, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

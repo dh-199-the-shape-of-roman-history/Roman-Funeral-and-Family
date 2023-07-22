@@ -1,0 +1,1 @@
+data = {"start": "700", "persons": {"700": {"id": "700", "name": "CLAU0784 M. Claudius (115) Clineas", "birthyear": -275, "deathyear": -236, "dprr_id": 784, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

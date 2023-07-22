@@ -1,0 +1,1 @@
+data = {"start": "120", "persons": {"120": {"id": "120", "name": "VOLU0137 P. Volumnius (10) M. f. M. n. Amintinus Gallus", "birthyear": -500, "deathyear": -400, "dprr_id": 137, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

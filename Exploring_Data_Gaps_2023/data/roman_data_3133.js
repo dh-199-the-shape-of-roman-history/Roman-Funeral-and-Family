@@ -1,0 +1,1 @@
+data = {"start": "3133", "persons": {"3133": {"id": "3133", "name": "CALP3756 M. Calpurnius (cf. Pupius 10) M. f. Piso Frugi", "birthyear": -550, "deathyear": 25, "dprr_id": 3756, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

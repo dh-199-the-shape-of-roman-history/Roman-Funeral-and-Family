@@ -1,0 +1,1 @@
+data = {"start": "592", "persons": {"592": {"id": "592", "name": "AELI0670 C. Aelius (5)", "birthyear": -325, "deathyear": -225, "dprr_id": 670, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

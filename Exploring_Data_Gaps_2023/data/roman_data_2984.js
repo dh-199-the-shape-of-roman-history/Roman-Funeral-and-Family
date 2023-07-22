@@ -1,0 +1,1 @@
+data = {"start": "2984", "persons": {"2984": {"id": "2984", "name": "GELL3533 Cn. Gellius (4)", "birthyear": -175, "deathyear": -75, "dprr_id": 3533, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

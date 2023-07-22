@@ -1,0 +1,1 @@
+data = {"start": "3028", "persons": {"3028": {"id": "3028", "name": "ATIL3593 M. Atilius (67, cf. 22) Saranus", "birthyear": -200, "deathyear": -75, "dprr_id": 3593, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "474", "persons": {"474": {"id": "474", "name": "AELI0542 P. Aelius (100) Paetus", "birthyear": -450, "deathyear": -250, "dprr_id": 542, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

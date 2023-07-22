@@ -1,0 +1,1 @@
+data = {"start": "3837", "persons": {"3837": {"id": "3837", "name": "PONT4536 M. Pontidius (3) Cor.", "birthyear": -175, "deathyear": 50, "dprr_id": 4536, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

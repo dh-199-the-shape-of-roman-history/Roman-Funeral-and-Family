@@ -1,0 +1,1 @@
+data = {"start": "568", "persons": {"568": {"id": "568", "name": "MANL0646 L. Manlius (77) Torquatus", "birthyear": -350, "deathyear": -225, "dprr_id": 646, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

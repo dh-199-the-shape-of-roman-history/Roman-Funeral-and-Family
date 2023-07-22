@@ -1,0 +1,1 @@
+data = {"start": "3774", "persons": {"3774": {"id": "3774", "name": "TULL4464 M. Tullius (14)", "birthyear": -150, "deathyear": 50, "dprr_id": 4464, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

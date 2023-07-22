@@ -1,0 +1,1 @@
+data = {"start": "728", "persons": {"728": {"id": "728", "name": "CORN0815 M. Cornelius (92) M. f. M. n. Cethegus", "birthyear": -250, "deathyear": -196, "dprr_id": 815, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "4815", "persons": {"4815": {"id": "4815", "name": "CAES5622 L. Caesulenus (1)", "birthyear": -200, "deathyear": -1, "dprr_id": 5622, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

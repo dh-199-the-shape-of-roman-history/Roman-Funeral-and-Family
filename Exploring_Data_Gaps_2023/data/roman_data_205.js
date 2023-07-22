@@ -1,0 +1,1 @@
+data = {"start": "205", "persons": {"205": {"id": "205", "name": "CLOE0234 -. Cloelius (6) Tullus", "birthyear": -475, "deathyear": -438, "dprr_id": 234, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

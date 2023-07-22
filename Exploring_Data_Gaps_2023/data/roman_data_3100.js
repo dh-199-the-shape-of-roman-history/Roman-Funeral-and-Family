@@ -1,0 +1,1 @@
+data = {"start": "3100", "persons": {"3100": {"id": "3100", "name": "CLOE3676 T. Cloelius (Cloulius) (5) Ouf.", "birthyear": -150, "deathyear": -75, "dprr_id": 3676, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "1378", "persons": {"1378": {"id": "1378", "name": "OCCI1559 Q. Occius (1) Achilles", "birthyear": -175, "deathyear": -75, "dprr_id": 1559, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

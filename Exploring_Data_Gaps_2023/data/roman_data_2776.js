@@ -1,0 +1,1 @@
+data = {"start": "2776", "persons": {"2776": {"id": "2776", "name": "VALG3265 Q. Valgius (8A.2.2390) M. f. Aem. Cor. Pob. Rom.", "birthyear": -175, "deathyear": -50, "dprr_id": 3265, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

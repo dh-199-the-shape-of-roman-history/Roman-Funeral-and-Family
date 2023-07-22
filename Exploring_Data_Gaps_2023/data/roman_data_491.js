@@ -1,0 +1,1 @@
+data = {"start": "491", "persons": {"491": {"id": "491", "name": "PLAU0561 C. Plautius (18) P. f. P. n. Decianus", "birthyear": -375, "deathyear": -275, "dprr_id": 561, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "3633", "persons": {"3633": {"id": "3633", "name": "AUFI4310 -. Aufidius (24) Lurco", "birthyear": -150, "deathyear": -50, "dprr_id": 4310, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

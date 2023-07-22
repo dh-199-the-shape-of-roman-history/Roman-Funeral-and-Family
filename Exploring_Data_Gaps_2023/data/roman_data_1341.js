@@ -1,0 +1,1 @@
+data = {"start": "1341", "persons": {"1341": {"id": "1341", "name": "PESC1516 C. Pescennius (19.1086)", "birthyear": -200, "deathyear": -100, "dprr_id": 1516, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

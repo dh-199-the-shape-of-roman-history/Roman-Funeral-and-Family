@@ -1,0 +1,1 @@
+data = {"start": "483", "persons": {"483": {"id": "483", "name": "ANTO0551 M. Antonius (26)", "birthyear": -375, "deathyear": -275, "dprr_id": 551, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

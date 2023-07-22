@@ -1,0 +1,1 @@
+data = {"start": "229", "persons": {"229": {"id": "229", "name": "LUCR0264 Hostus Lucretius (27) Tricipitinus", "birthyear": -475, "deathyear": -375, "dprr_id": 264, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

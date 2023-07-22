@@ -1,0 +1,1 @@
+data = {"start": "4515", "persons": {"4515": {"id": "4515", "name": "SEPT5322 L. Septimius (8)", "birthyear": -200, "deathyear": -75, "dprr_id": 5322, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

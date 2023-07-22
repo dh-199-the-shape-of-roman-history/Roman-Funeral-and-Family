@@ -1,0 +1,1 @@
+data = {"start": "1402", "persons": {"1402": {"id": "1402", "name": "RUTI1585 P. Rutilius (9) M. f.", "birthyear": -175, "deathyear": -75, "dprr_id": 1585, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

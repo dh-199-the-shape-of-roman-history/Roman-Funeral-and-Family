@@ -1,0 +1,1 @@
+data = {"start": "1265", "persons": {"1265": {"id": "1265", "name": "POMP1428 -. Pompeius (not in RE)", "birthyear": -200, "deathyear": -100, "dprr_id": 1428, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

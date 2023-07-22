@@ -1,0 +1,1 @@
+data = {"start": "4333", "persons": {"4333": {"id": "4333", "name": "MAMM5138 -. Mammius (Mamius 1, cf. Memmius 6, 13, 14)", "birthyear": -150, "deathyear": -80, "dprr_id": 5138, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

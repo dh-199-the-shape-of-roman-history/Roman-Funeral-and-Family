@@ -1,0 +1,1 @@
+data = {"start": "1483", "persons": {"1483": {"id": "1483", "name": "MINU1686 M. Minucius (54) Q. f. Rufus", "birthyear": -175, "deathyear": -50, "dprr_id": 1686, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

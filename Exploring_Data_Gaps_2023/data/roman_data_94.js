@@ -1,0 +1,1 @@
+data = {"start": "94", "persons": {"94": {"id": "94", "name": "FURI0110 P. Furius (69) Medullinus Fusus", "birthyear": -525, "deathyear": -464, "dprr_id": 110, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

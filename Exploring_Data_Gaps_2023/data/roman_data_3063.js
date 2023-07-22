@@ -1,0 +1,1 @@
+data = {"start": "3063", "persons": {"3063": {"id": "3063", "name": "CALP3632 P. Calpurnius (17)", "birthyear": -175, "deathyear": -75, "dprr_id": 3632, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

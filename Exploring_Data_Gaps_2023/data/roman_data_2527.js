@@ -1,0 +1,1 @@
+data = {"start": "2527", "persons": {"2527": {"id": "2527", "name": "COND2987 P. Condetius (1) Volus. f.", "birthyear": -350, "deathyear": -150, "dprr_id": 2987, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "20", "persons": {"20": {"id": "20", "name": "COMI0021 Post. Cominius (16) Auruncus", "birthyear": -550, "deathyear": -425, "dprr_id": 21, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

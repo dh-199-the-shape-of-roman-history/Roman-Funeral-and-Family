@@ -1,0 +1,1 @@
+data = {"start": "1507", "persons": {"1507": {"id": "1507", "name": "LICI1720 C. Licinius (134) Nerva", "birthyear": -149, "deathyear": -50, "dprr_id": 1720, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

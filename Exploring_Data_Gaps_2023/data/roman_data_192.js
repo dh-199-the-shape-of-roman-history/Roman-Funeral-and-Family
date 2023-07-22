@@ -1,0 +1,1 @@
+data = {"start": "192", "persons": {"192": {"id": "192", "name": "POET0216 -. Poetelius (1)", "birthyear": -475, "deathyear": -375, "dprr_id": 216, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

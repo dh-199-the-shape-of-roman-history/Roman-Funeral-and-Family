@@ -1,0 +1,1 @@
+data = {"start": "153", "persons": {"153": {"id": "153", "name": "SERG0174 M. Sergius (24) Esquilinus", "birthyear": -500, "deathyear": -375, "dprr_id": 174, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

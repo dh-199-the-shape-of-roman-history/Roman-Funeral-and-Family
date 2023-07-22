@@ -1,0 +1,1 @@
+data = {"start": "3183", "persons": {"3183": {"id": "3183", "name": "LUSI3809 N. Lusius (not in RE) N. f. Cor. Nomentanus", "birthyear": -150, "deathyear": 50, "dprr_id": 3809, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

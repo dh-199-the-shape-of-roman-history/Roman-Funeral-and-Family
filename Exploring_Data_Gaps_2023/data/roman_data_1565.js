@@ -1,0 +1,1 @@
+data = {"start": "1565", "persons": {"1565": {"id": "1565", "name": "LUCI1785 C. (Lucilius) (not in RE) Hirrus", "birthyear": -150, "deathyear": -50, "dprr_id": 1785, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

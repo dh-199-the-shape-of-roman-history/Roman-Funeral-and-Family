@@ -1,0 +1,1 @@
+data = {"start": "2978", "persons": {"2978": {"id": "2978", "name": "CORN3527 -. Cornelius (cf. 97) Cethegus", "birthyear": -150, "deathyear": -50, "dprr_id": 3527, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

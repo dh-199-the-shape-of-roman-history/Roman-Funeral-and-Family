@@ -1,0 +1,1 @@
+data = {"start": "480", "persons": {"480": {"id": "480", "name": "POST0548 Sp. Postumius (*17) Albinus (Caudinus)", "birthyear": -375, "deathyear": -300, "dprr_id": 548, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "1141", "persons": {"1141": {"id": "1141", "name": "CLOE1287 P. Cloelius (9) Siculus", "birthyear": -225, "deathyear": -125, "dprr_id": 1287, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "3061", "persons": {"3061": {"id": "3061", "name": "CORN3629 P. Cornelius (cf. 384) Sulla", "birthyear": -200, "deathyear": -100, "dprr_id": 3629, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

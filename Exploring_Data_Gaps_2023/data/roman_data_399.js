@@ -1,0 +1,1 @@
+data = {"start": "399", "persons": {"399": {"id": "399", "name": "ANTI0454 L. Antistius (11) -", "birthyear": -425, "deathyear": -325, "dprr_id": 454, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

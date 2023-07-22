@@ -1,0 +1,1 @@
+data = {"start": "2504", "persons": {"2504": {"id": "2504", "name": "GENU2956 -. Genucius (16) Cipus", "birthyear": -450, "deathyear": -150, "dprr_id": 2956, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

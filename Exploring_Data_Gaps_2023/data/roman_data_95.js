@@ -1,0 +1,1 @@
+data = {"start": "95", "persons": {"95": {"id": "95", "name": "PUBL0111 Voler. Publilius (10)", "birthyear": -525, "deathyear": -400, "dprr_id": 111, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "1619", "persons": {"1619": {"id": "1619", "name": "LUCI1847 L. Lucilius (8) L. f.", "birthyear": -150, "deathyear": -25, "dprr_id": 1847, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

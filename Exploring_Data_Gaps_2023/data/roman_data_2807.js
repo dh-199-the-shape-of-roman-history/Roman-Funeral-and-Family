@@ -1,0 +1,1 @@
+data = {"start": "2807", "persons": {"2807": {"id": "2807", "name": "AEFI3300 M. Aeficius (1.475) Calvinus", "birthyear": -150, "deathyear": 50, "dprr_id": 3300, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

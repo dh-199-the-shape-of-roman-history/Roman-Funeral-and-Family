@@ -1,0 +1,1 @@
+data = {"start": "790", "persons": {"790": {"id": "790", "name": "AURE0884 C. Aurelius (15)", "birthyear": -250, "deathyear": -150, "dprr_id": 884, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

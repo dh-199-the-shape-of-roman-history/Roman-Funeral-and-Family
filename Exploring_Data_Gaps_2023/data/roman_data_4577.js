@@ -1,0 +1,1 @@
+data = {"start": "4577", "persons": {"4577": {"id": "4577", "name": "AMAF5384 C. Amafinius (Amafinius)", "birthyear": -150, "deathyear": -50, "dprr_id": 5384, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

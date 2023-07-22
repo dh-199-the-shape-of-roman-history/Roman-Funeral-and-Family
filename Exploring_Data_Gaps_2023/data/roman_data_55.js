@@ -1,0 +1,1 @@
+data = {"start": "55", "persons": {"55": {"id": "55", "name": "FURI0059 Sex. Furius (26) (Medullinus) (Fusus)", "birthyear": -525, "deathyear": -425, "dprr_id": 59, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

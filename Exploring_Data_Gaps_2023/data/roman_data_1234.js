@@ -1,0 +1,1 @@
+data = {"start": "1234", "persons": {"1234": {"id": "1234", "name": "FONT1394 P. Fonteius (24) Capito", "birthyear": -200, "deathyear": -100, "dprr_id": 1394, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

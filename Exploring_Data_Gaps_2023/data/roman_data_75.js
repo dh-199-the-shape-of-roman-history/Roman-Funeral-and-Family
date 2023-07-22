@@ -1,0 +1,1 @@
+data = {"start": "75", "persons": {"75": {"id": "75", "name": "MANL0088 Cn. Manlius (19) P. f. - n. Cincinnatus", "birthyear": -525, "deathyear": -480, "dprr_id": 88, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

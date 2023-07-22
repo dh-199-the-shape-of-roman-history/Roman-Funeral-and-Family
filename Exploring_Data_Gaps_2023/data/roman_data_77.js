@@ -1,0 +1,1 @@
+data = {"start": "77", "persons": {"77": {"id": "77", "name": "SICC0090 T. Siccius (2, cf. Sicinius 13)", "birthyear": -525, "deathyear": -425, "dprr_id": 90, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

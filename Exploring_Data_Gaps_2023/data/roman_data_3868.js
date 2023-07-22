@@ -1,0 +1,1 @@
+data = {"start": "3868", "persons": {"3868": {"id": "3868", "name": "AURI4571 L. Aurifex (1)", "birthyear": -175, "deathyear": -25, "dprr_id": 4571, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

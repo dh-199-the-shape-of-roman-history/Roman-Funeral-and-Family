@@ -1,0 +1,1 @@
+data = {"start": "3925", "persons": {"3925": {"id": "3925", "name": "ANNI4632 T. Annius (20) T. f. Vel.", "birthyear": -200, "deathyear": -25, "dprr_id": 4632, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "1216", "persons": {"1216": {"id": "1216", "name": "ABUR1375 C. Aburius (1)", "birthyear": -225, "deathyear": -100, "dprr_id": 1375, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "555", "persons": {"555": {"id": "555", "name": "OGUL0632 Q. Ogulnius (5) L. f. A. n. Gallus", "birthyear": -325, "deathyear": -200, "dprr_id": 632, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

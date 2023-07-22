@@ -1,0 +1,1 @@
+data = {"start": "2", "persons": {"2": {"id": "2", "name": "TARQ0002 L. Tarquinius (8) Egeri f. Collatinus", "birthyear": -550, "deathyear": -450, "dprr_id": 2, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

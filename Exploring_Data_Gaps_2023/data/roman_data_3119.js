@@ -1,0 +1,1 @@
+data = {"start": "3119", "persons": {"3119": {"id": "3119", "name": "MINU3705 L. Minucius (not in RE) Thermus", "birthyear": -225, "deathyear": 25, "dprr_id": 3705, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

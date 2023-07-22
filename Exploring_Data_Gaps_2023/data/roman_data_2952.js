@@ -1,0 +1,1 @@
+data = {"start": "2952", "persons": {"2952": {"id": "2952", "name": "FABI3499 C. Fabius (15, cf. 82) C. f. Hadrianus", "birthyear": -150, "deathyear": -50, "dprr_id": 3499, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

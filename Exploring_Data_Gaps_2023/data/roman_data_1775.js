@@ -1,0 +1,1 @@
+data = {"start": "1775", "persons": {"1775": {"id": "1775", "name": "THOR2034 L. Thorius (4) Mae. Balbus", "birthyear": -150, "deathyear": -79, "dprr_id": 2034, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

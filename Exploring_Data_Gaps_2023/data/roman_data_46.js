@@ -1,0 +1,1 @@
+data = {"start": "46", "persons": {"46": {"id": "46", "name": "MINU0049 P. Minucius (33) Augurinus", "birthyear": -525, "deathyear": -425, "dprr_id": 49, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

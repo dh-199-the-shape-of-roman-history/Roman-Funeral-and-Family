@@ -1,0 +1,1 @@
+data = {"start": "2742", "persons": {"2742": {"id": "2742", "name": "PLAU3231 C. Plautius (25) Numida", "birthyear": -150, "deathyear": -50, "dprr_id": 3231, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

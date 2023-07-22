@@ -1,0 +1,1 @@
+data = {"start": "23", "persons": {"23": {"id": "23", "name": "TULL0024 M'. Tullius (41) Longus", "birthyear": -550, "deathyear": -450, "dprr_id": 24, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

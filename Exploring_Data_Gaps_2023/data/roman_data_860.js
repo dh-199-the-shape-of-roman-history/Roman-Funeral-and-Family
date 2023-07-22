@@ -1,0 +1,1 @@
+data = {"start": "860", "persons": {"860": {"id": "860", "name": "LUCR0965 M. Lucretius (6)", "birthyear": -250, "deathyear": -150, "dprr_id": 965, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

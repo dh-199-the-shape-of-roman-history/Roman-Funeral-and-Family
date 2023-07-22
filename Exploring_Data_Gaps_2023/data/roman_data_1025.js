@@ -1,0 +1,1 @@
+data = {"start": "1025", "persons": {"1025": {"id": "1025", "name": "MARC1161 M. Marcius (21)", "birthyear": -225, "deathyear": -193, "dprr_id": 1161, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

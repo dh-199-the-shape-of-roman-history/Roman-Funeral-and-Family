@@ -1,0 +1,1 @@
+data = {"start": "3556", "persons": {"3556": {"id": "3556", "name": "POST4224 M. Postumius (18) Pyrgensis", "birthyear": -250, "deathyear": -150, "dprr_id": 4224, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

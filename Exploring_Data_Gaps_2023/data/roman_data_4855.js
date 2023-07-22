@@ -1,0 +1,1 @@
+data = {"start": "4855", "persons": {"4855": {"id": "4855", "name": "SABE5662 L. Sabellius (1)", "birthyear": -150, "deathyear": -25, "dprr_id": 5662, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

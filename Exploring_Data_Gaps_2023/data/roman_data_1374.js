@@ -1,0 +1,1 @@
+data = {"start": "1374", "persons": {"1374": {"id": "1374", "name": "QUIN1555 -. Quinctius (2)", "birthyear": -175, "deathyear": -75, "dprr_id": 1555, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

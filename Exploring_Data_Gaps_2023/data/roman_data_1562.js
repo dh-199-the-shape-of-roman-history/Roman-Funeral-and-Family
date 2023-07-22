@@ -1,0 +1,1 @@
+data = {"start": "1562", "persons": {"1562": {"id": "1562", "name": "VETU1782 L. (Veturius) or (Publilius) (Veturius 21) Philo", "birthyear": -150, "deathyear": -50, "dprr_id": 1782, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

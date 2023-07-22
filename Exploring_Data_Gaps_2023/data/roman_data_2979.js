@@ -1,0 +1,1 @@
+data = {"start": "2979", "persons": {"2979": {"id": "2979", "name": "CORN3528 L.? (Cornelius) (103) Cinna", "birthyear": -200, "deathyear": -100, "dprr_id": 3528, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

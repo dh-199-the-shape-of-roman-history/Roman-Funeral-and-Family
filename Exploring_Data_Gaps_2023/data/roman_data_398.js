@@ -1,0 +1,1 @@
+data = {"start": "398", "persons": {"398": {"id": "398", "name": "ALBI0453 M. Albinius (3) -", "birthyear": -425, "deathyear": -325, "dprr_id": 453, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

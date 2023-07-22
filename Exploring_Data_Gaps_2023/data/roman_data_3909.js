@@ -1,0 +1,1 @@
+data = {"start": "3909", "persons": {"3909": {"id": "3909", "name": "NUNN4616 A. Nunnius (1)", "birthyear": -150, "deathyear": -25, "dprr_id": 4616, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

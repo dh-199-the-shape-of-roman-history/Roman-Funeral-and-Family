@@ -1,0 +1,1 @@
+data = {"start": "560", "persons": {"560": {"id": "560", "name": "MANL0637 T. Manlius (81) T. f. T. n. Torquatus", "birthyear": -350, "deathyear": -299, "dprr_id": 637, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

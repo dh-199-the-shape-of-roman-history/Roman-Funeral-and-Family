@@ -1,0 +1,1 @@
+data = {"start": "78", "persons": {"78": {"id": "78", "name": "VERG0091 T. Verginius (22) Opet. f. Opet. n. Tricostus Rutilus", "birthyear": -510, "deathyear": -463, "dprr_id": 91, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

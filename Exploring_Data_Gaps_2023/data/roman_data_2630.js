@@ -1,0 +1,1 @@
+data = {"start": "2630", "persons": {"2630": {"id": "2630", "name": "SCRI3103 L. (Scribonius) (20?) L.f. Libo", "birthyear": -250, "deathyear": 25, "dprr_id": 3103, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

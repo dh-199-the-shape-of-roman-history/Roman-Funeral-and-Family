@@ -1,0 +1,1 @@
+data = {"start": "881", "persons": {"881": {"id": "881", "name": "PUBL0988 C. Publicius (14 or 15) Bibulus", "birthyear": -250, "deathyear": -150, "dprr_id": 988, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

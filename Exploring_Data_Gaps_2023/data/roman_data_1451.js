@@ -1,0 +1,1 @@
+data = {"start": "1451", "persons": {"1451": {"id": "1451", "name": "AUFE1644 -. Aufeius (not in RE)", "birthyear": -175, "deathyear": -50, "dprr_id": 1644, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

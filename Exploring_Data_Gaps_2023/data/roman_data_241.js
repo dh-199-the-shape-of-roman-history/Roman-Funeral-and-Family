@@ -1,0 +1,1 @@
+data = {"start": "241", "persons": {"241": {"id": "241", "name": "TEMP0277 Sex. Tempanius (1)", "birthyear": -475, "deathyear": -350, "dprr_id": 277, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

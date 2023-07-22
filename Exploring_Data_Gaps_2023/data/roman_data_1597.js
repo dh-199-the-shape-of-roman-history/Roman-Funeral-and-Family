@@ -1,0 +1,1 @@
+data = {"start": "1597", "persons": {"1597": {"id": "1597", "name": "HERE1819 M. Herennius (10) M. f.", "birthyear": -136, "deathyear": -25, "dprr_id": 1819, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

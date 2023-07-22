@@ -1,0 +1,1 @@
+data = {"start": "2759", "persons": {"2759": {"id": "2759", "name": "RUBR3248 C. Rubrius (9) C. f. Pob. Pup.", "birthyear": -175, "deathyear": -75, "dprr_id": 3248, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "507", "persons": {"507": {"id": "507", "name": "MAEL0581 Q. Maelius (3)", "birthyear": -375, "deathyear": -250, "dprr_id": 581, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "1071", "persons": {"1071": {"id": "1071", "name": "FURI1213 M. Furius (63) Luscus", "birthyear": -225, "deathyear": -125, "dprr_id": 1213, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

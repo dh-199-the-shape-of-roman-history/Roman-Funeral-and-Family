@@ -1,0 +1,1 @@
+data = {"start": "1252", "persons": {"1252": {"id": "1252", "name": "STER1414 L. Stertinius (6)", "birthyear": -200, "deathyear": -100, "dprr_id": 1414, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

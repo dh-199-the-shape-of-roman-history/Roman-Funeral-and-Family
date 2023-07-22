@@ -1,0 +1,1 @@
+data = {"start": "630", "persons": {"630": {"id": "630", "name": "MAMI0710 L. Mamilius (14) (Q. f. M. n.) Vitulus", "birthyear": -297, "deathyear": -200, "dprr_id": 710, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

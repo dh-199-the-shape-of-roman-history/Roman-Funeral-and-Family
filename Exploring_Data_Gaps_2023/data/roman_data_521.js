@@ -1,0 +1,1 @@
+data = {"start": "521", "persons": {"521": {"id": "521", "name": "FULV0595 P. Fulvius (78) Longus", "birthyear": -350, "deathyear": -250, "dprr_id": 595, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

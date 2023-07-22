@@ -1,0 +1,1 @@
+data = {"start": "341", "persons": {"341": {"id": "341", "name": "LUCR0387 L. Lucretius (20) Tricipitinus Flavus", "birthyear": -425, "deathyear": -325, "dprr_id": 387, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

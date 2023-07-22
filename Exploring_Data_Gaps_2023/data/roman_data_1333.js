@@ -1,0 +1,1 @@
+data = {"start": "1333", "persons": {"1333": {"id": "1333", "name": "HOST1508 L. Hostilius (20) L. f. L. n. Mancinus", "birthyear": -200, "deathyear": -75, "dprr_id": 1508, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

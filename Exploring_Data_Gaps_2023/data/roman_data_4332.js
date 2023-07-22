@@ -1,0 +1,1 @@
+data = {"start": "4332", "persons": {"4332": {"id": "4332", "name": "LOLL5137 -. Lollius (2)", "birthyear": -150, "deathyear": -82, "dprr_id": 5137, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

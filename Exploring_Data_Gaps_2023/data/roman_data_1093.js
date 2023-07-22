@@ -1,0 +1,1 @@
+data = {"start": "1093", "persons": {"1093": {"id": "1093", "name": "IUVE1236 L. Iuventius (29) Thalna", "birthyear": -225, "deathyear": -125, "dprr_id": 1236, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

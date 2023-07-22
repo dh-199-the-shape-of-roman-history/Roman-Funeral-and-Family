@@ -1,0 +1,1 @@
+data = {"start": "3041", "persons": {"3041": {"id": "3041", "name": "PORC3607 M. Porcius (17) Pap. Laeca", "birthyear": -175, "deathyear": -75, "dprr_id": 3607, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "3927", "persons": {"3927": {"id": "3927", "name": "AEMI4634 -. Aemilius (not in RE) Potensis", "birthyear": -150, "deathyear": -50, "dprr_id": 4634, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

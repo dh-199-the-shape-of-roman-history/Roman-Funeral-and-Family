@@ -1,0 +1,1 @@
+data = {"start": "2674", "persons": {"2674": {"id": "2674", "name": "CARV3160 Sp. Carvilius (not in RE) L. f. Sab.", "birthyear": -175, "deathyear": -75, "dprr_id": 3160, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

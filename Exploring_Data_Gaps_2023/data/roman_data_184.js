@@ -1,0 +1,1 @@
+data = {"start": "184", "persons": {"184": {"id": "184", "name": "FURN0208 C. Furnius (2)", "birthyear": -500, "deathyear": -375, "dprr_id": 208, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

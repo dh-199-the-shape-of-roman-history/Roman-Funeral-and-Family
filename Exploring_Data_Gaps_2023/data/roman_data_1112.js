@@ -1,0 +1,1 @@
+data = {"start": "1112", "persons": {"1112": {"id": "1112", "name": "TERE1256 C. Terentius (51) Istra", "birthyear": -225, "deathyear": -125, "dprr_id": 1256, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

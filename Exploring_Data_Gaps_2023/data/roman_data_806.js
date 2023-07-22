@@ -1,0 +1,1 @@
+data = {"start": "806", "persons": {"806": {"id": "806", "name": "VALE0901 L. Valerius (99) Vot. Antias", "birthyear": -250, "deathyear": -150, "dprr_id": 901, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

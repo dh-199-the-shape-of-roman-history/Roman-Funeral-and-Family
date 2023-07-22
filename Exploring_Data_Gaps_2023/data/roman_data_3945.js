@@ -1,0 +1,1 @@
+data = {"start": "3945", "persons": {"3945": {"id": "3945", "name": "HERE4657 M. Herennius (46) Siculus", "birthyear": -200, "deathyear": -121, "dprr_id": 4657, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

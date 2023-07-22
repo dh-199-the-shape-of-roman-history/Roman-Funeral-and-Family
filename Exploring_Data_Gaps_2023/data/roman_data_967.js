@@ -1,0 +1,1 @@
+data = {"start": "967", "persons": {"967": {"id": "967", "name": "STER1086 L. Stertinius (5)", "birthyear": -250, "deathyear": -175, "dprr_id": 1086, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

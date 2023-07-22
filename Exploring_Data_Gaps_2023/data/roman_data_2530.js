@@ -1,0 +1,1 @@
+data = {"start": "2530", "persons": {"2530": {"id": "2530", "name": "OCTA2990 Cn.? Octavius (3) Cn. f.", "birthyear": -150, "deathyear": 50, "dprr_id": 2990, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

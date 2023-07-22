@@ -1,0 +1,1 @@
+data = {"start": "413", "persons": {"413": {"id": "413", "name": "VALE0471 C. Valerius (50) Potitus", "birthyear": -425, "deathyear": -300, "dprr_id": 471, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

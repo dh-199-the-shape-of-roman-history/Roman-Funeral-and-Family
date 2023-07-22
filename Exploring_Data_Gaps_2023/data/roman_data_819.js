@@ -1,0 +1,1 @@
+data = {"start": "819", "persons": {"819": {"id": "819", "name": "STAT0915 Q. Statorius (13)", "birthyear": -250, "deathyear": -150, "dprr_id": 915, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

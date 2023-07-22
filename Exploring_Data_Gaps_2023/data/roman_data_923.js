@@ -1,0 +1,1 @@
+data = {"start": "923", "persons": {"923": {"id": "923", "name": "MARC1033 M. Marcius (86) Ralla", "birthyear": -250, "deathyear": -150, "dprr_id": 1033, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

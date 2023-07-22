@@ -1,0 +1,1 @@
+data = {"start": "1203", "persons": {"1203": {"id": "1203", "name": "MARC1359 M. Marcius (102) Sermo", "birthyear": -225, "deathyear": -100, "dprr_id": 1359, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

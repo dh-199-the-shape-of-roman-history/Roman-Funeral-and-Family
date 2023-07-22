@@ -1,0 +1,1 @@
+data = {"start": "912", "persons": {"912": {"id": "912", "name": "TREM1021 Cn. Tremellius (4) Flaccus", "birthyear": -233, "deathyear": -150, "dprr_id": 1021, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

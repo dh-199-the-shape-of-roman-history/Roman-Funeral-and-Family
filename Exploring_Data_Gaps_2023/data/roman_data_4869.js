@@ -1,0 +1,1 @@
+data = {"start": "4869", "persons": {"4869": {"id": "4869", "name": "VARI5677 A. Varius (1)", "birthyear": -509, "deathyear": -45, "dprr_id": 5677, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

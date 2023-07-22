@@ -1,0 +1,1 @@
+data = {"start": "331", "persons": {"331": {"id": "331", "name": "CORN0375 P. Cornelius (120) P. f. A. n. Cossus", "birthyear": -450, "deathyear": -325, "dprr_id": 375, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

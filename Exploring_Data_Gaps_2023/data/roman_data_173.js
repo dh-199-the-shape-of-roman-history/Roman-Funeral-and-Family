@@ -1,0 +1,1 @@
+data = {"start": "173", "persons": {"173": {"id": "173", "name": "HERM0195 Lars (or Sp.) Herminius (1) Coritinesanus", "birthyear": -500, "deathyear": -375, "dprr_id": 195, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

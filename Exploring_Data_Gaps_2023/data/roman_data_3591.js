@@ -1,0 +1,1 @@
+data = {"start": "3591", "persons": {"3591": {"id": "3591", "name": "ATIL4263 -. Atilius (58) Serranus", "birthyear": -175, "deathyear": -75, "dprr_id": 4263, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

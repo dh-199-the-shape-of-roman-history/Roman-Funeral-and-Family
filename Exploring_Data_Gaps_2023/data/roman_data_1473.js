@@ -1,0 +1,1 @@
+data = {"start": "1473", "persons": {"1473": {"id": "1473", "name": "POST1671 -. Postumius (3)", "birthyear": -175, "deathyear": -50, "dprr_id": 1671, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

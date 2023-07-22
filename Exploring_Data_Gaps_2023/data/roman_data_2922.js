@@ -1,0 +1,1 @@
+data = {"start": "2922", "persons": {"2922": {"id": "2922", "name": "MANL3463 T. Manlius (cf. 10)", "birthyear": -150, "deathyear": -25, "dprr_id": 3463, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

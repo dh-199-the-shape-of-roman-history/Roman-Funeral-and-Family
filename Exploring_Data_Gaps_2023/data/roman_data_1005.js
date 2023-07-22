@@ -1,0 +1,1 @@
+data = {"start": "1005", "persons": {"1005": {"id": "1005", "name": "VALE1133 L. Valerius (350) C. f. Tappo", "birthyear": -250, "deathyear": -125, "dprr_id": 1133, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

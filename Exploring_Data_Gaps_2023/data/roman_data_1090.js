@@ -1,0 +1,1 @@
+data = {"start": "1090", "persons": {"1090": {"id": "1090", "name": "PUPI1233 L. Pupius (5)", "birthyear": -225, "deathyear": -100, "dprr_id": 1233, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

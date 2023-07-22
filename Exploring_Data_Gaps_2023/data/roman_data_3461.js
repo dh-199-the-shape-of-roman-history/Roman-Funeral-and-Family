@@ -1,0 +1,1 @@
+data = {"start": "3461", "persons": {"3461": {"id": "3461", "name": "NUMI4111 Q. Numitorius (5) Pullus", "birthyear": -175, "deathyear": -75, "dprr_id": 4111, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

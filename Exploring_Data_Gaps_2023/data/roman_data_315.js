@@ -1,0 +1,1 @@
+data = {"start": "315", "persons": {"315": {"id": "315", "name": "MAEL0357 P. Maelius (4) Sp. f. C. n. Capitolinus", "birthyear": -450, "deathyear": -325, "dprr_id": 357, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

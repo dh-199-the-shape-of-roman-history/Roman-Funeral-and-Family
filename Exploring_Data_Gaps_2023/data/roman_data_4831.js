@@ -1,0 +1,1 @@
+data = {"start": "4831", "persons": {"4831": {"id": "4831", "name": "MUMM5638 P. Mummius (10)", "birthyear": -300, "deathyear": -101, "dprr_id": 5638, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "130", "persons": {"130": {"id": "130", "name": "MINU0147 L. Minucius (40) P. f. M. n. Esquilinus Augurinus", "birthyear": -500, "deathyear": -375, "dprr_id": 147, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

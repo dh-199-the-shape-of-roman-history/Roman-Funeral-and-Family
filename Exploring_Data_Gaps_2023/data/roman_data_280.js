@@ -1,0 +1,1 @@
+data = {"start": "280", "persons": {"280": {"id": "280", "name": "ICIL0320 -. Icilius (RE 850f. and no. 3)", "birthyear": -450, "deathyear": -350, "dprr_id": 320, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

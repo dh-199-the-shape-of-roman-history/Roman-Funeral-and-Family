@@ -1,0 +1,1 @@
+data = {"start": "787", "persons": {"787": {"id": "787", "name": "PUBL0881 L. Publicius (16) Bibulus", "birthyear": -250, "deathyear": -150, "dprr_id": 881, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

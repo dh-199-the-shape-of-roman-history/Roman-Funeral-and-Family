@@ -1,0 +1,1 @@
+data = {"start": "4371", "persons": {"4371": {"id": "4371", "name": "ACCI5178 L. Accius (1, 20)", "birthyear": -170, "deathyear": -80, "dprr_id": 5178, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

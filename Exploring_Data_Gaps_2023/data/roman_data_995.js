@@ -1,0 +1,1 @@
+data = {"start": "995", "persons": {"995": {"id": "995", "name": "CLAU1119 P. Claudius (28)", "birthyear": -250, "deathyear": -196, "dprr_id": 1119, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

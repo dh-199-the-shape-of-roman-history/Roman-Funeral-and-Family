@@ -1,0 +1,1 @@
+data = {"start": "782", "persons": {"782": {"id": "782", "name": "FURI0876 L. Furius (35) Bibaculus", "birthyear": -250, "deathyear": -216, "dprr_id": 876, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

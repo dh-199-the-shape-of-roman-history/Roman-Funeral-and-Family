@@ -1,0 +1,1 @@
+data = {"start": "1529", "persons": {"1529": {"id": "1529", "name": "MANL1747 A. Manlius (12)", "birthyear": -150, "deathyear": -50, "dprr_id": 1747, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

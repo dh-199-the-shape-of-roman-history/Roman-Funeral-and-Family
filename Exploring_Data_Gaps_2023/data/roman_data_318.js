@@ -1,0 +1,1 @@
+data = {"start": "318", "persons": {"318": {"id": "318", "name": "GENU0360 Cn. Genucius (10) M. f. M. n. Augurinus", "birthyear": -450, "deathyear": -396, "dprr_id": 360, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

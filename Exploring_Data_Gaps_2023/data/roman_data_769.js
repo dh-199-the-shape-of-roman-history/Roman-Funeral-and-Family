@@ -1,0 +1,1 @@
+data = {"start": "769", "persons": {"769": {"id": "769", "name": "SEMP0860 Ti. Sempronius (32) Blaesus", "birthyear": -250, "deathyear": -217, "dprr_id": 860, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

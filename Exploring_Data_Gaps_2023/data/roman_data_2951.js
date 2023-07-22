@@ -1,0 +1,1 @@
+data = {"start": "2951", "persons": {"2951": {"id": "2951", "name": "CURI3498 C. Curiatius (11, cf. 3) Trigeminus", "birthyear": -175, "deathyear": -75, "dprr_id": 3498, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "272", "persons": {"272": {"id": "272", "name": "CORN0310 A. (or M.) Cornelius (113, cf. 112, 114) Cossus", "birthyear": -450, "deathyear": -350, "dprr_id": 310, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

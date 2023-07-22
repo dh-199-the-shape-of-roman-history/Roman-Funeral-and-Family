@@ -1,0 +1,1 @@
+data = {"start": "2734", "persons": {"2734": {"id": "2734", "name": "NEME3223 C. Nemetorius (or Numitorius) (1) C. f. Lem.", "birthyear": -175, "deathyear": -75, "dprr_id": 3223, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

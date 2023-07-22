@@ -1,0 +1,1 @@
+data = {"start": "3802", "persons": {"3802": {"id": "3802", "name": "LUTA4496 M. Lutatius (21) Pinthia", "birthyear": -150, "deathyear": -50, "dprr_id": 4496, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

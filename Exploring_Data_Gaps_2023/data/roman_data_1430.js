@@ -1,0 +1,1 @@
+data = {"start": "1430", "persons": {"1430": {"id": "1430", "name": "CORN1620 L. Cornelius (105) L. f. Cinna", "birthyear": -175, "deathyear": -75, "dprr_id": 1620, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

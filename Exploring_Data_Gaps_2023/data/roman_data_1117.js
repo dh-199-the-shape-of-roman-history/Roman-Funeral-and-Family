@@ -1,0 +1,1 @@
+data = {"start": "1117", "persons": {"1117": {"id": "1117", "name": "DURO1262 L. Duronius (2)", "birthyear": -225, "deathyear": -125, "dprr_id": 1262, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

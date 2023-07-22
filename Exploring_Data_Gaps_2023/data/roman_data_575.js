@@ -1,0 +1,1 @@
+data = {"start": "575", "persons": {"575": {"id": "575", "name": "MAEC0653 Oct. Maecius (1)", "birthyear": -325, "deathyear": -225, "dprr_id": 653, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

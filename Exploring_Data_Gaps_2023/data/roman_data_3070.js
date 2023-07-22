@@ -1,0 +1,1 @@
+data = {"start": "3070", "persons": {"3070": {"id": "3070", "name": "VETT3642 P. Vettius (15, Sabinus 30) Qui. Ser. Sabinus", "birthyear": -150, "deathyear": -25, "dprr_id": 3642, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "576", "persons": {"576": {"id": "576", "name": "NAUT0654 Sp. Nautius (4)", "birthyear": -325, "deathyear": -225, "dprr_id": 654, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

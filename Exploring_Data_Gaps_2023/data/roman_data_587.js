@@ -1,0 +1,1 @@
+data = {"start": "587", "persons": {"587": {"id": "587", "name": "VALE0665 M. Valerius (cf. 244) Maximus (Potitus)", "birthyear": -325, "deathyear": -225, "dprr_id": 665, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "41", "persons": {"41": {"id": "41", "name": "SICI0043 L. Sicinius (4) L. f. Vellutus (Bellutus)", "birthyear": -525, "deathyear": -425, "dprr_id": 43, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

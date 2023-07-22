@@ -1,0 +1,1 @@
+data = {"start": "4348", "persons": {"4348": {"id": "4348", "name": "AURE5154 Q. Aurelius (26)", "birthyear": -150, "deathyear": -80, "dprr_id": 5154, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

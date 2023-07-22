@@ -1,0 +1,1 @@
+data = {"start": "853", "persons": {"853": {"id": "853", "name": "MANL0958 L. Manlius (46) Acidinus", "birthyear": -250, "deathyear": -125, "dprr_id": 958, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

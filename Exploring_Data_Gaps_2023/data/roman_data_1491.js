@@ -1,0 +1,1 @@
+data = {"start": "1491", "persons": {"1491": {"id": "1491", "name": "AEMI1698  Aemilia (153)", "birthyear": -140, "deathyear": -114, "dprr_id": 1698, "own_unions": [], "is_certain": true, "gender": "Female", "icon": "Woman.png"}}, "unions": {}, "links": []}

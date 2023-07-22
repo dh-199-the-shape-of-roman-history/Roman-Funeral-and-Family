@@ -1,0 +1,1 @@
+data = {"start": "2719", "persons": {"2719": {"id": "2719", "name": "LICI3206 C. Licinius (14) C. f. Ter.", "birthyear": -175, "deathyear": -75, "dprr_id": 3206, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

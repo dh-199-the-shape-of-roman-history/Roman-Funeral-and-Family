@@ -1,0 +1,1 @@
+data = {"start": "1280", "persons": {"1280": {"id": "1280", "name": "POMP1444 M. Pomponius (9)", "birthyear": -200, "deathyear": -100, "dprr_id": 1444, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

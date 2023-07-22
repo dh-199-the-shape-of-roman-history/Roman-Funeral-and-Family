@@ -1,0 +1,1 @@
+data = {"start": "3811", "persons": {"3811": {"id": "3811", "name": "MAXI4505 M'. Maximus (not in RE)", "birthyear": -150, "deathyear": 50, "dprr_id": 4505, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

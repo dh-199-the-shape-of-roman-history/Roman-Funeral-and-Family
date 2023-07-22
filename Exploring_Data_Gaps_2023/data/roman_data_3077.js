@@ -1,0 +1,1 @@
+data = {"start": "3077", "persons": {"3077": {"id": "3077", "name": "FURI3651 -. (Furius) (not in RE) Purpurio", "birthyear": -200, "deathyear": -100, "dprr_id": 3651, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

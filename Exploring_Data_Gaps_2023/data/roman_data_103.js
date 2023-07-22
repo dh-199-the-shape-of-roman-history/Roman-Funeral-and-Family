@@ -1,0 +1,1 @@
+data = {"start": "103", "persons": {"103": {"id": "103", "name": "NUMI0119 L. Numitorius (3)", "birthyear": -525, "deathyear": -400, "dprr_id": 119, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

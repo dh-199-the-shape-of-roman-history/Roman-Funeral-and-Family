@@ -1,0 +1,1 @@
+data = {"start": "956", "persons": {"956": {"id": "956", "name": "SERG1073 C. Sergius (36) Plautus", "birthyear": -250, "deathyear": -125, "dprr_id": 1073, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

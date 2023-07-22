@@ -1,0 +1,1 @@
+data = {"start": "770", "persons": {"770": {"id": "770", "name": "CENT0861 C. Centenius (1)", "birthyear": -250, "deathyear": -217, "dprr_id": 861, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

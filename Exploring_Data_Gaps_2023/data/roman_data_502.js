@@ -1,0 +1,1 @@
+data = {"start": "502", "persons": {"502": {"id": "502", "name": "AEMI0576 M. Aemilius (110) Papus", "birthyear": -375, "deathyear": -250, "dprr_id": 576, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

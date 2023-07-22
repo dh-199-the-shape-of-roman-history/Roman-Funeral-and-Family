@@ -1,0 +1,1 @@
+data = {"start": "3099", "persons": {"3099": {"id": "3099", "name": "CLOE3675 T. Cloelius (cf. 5)", "birthyear": -175, "deathyear": -75, "dprr_id": 3675, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

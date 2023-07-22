@@ -1,0 +1,1 @@
+data = {"start": "434", "persons": {"434": {"id": "434", "name": "CORN0495 -. (Cornelius or Mucius) (not in RE) Sca.u.la (Scapula or Scaevola)", "birthyear": -400, "deathyear": -300, "dprr_id": 495, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

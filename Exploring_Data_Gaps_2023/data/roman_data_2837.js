@@ -1,0 +1,1 @@
+data = {"start": "2837", "persons": {"2837": {"id": "2837", "name": "CAEL3336 T. Caelius (not in RE)", "birthyear": -150, "deathyear": 0, "dprr_id": 3336, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

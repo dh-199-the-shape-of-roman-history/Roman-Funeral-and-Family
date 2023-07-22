@@ -1,0 +1,1 @@
+data = {"start": "2999", "persons": {"2999": {"id": "2999", "name": "CUPI3556 L. Cupiennius (3)", "birthyear": -200, "deathyear": -75, "dprr_id": 3556, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "926", "persons": {"926": {"id": "926", "name": "CINC1036 M. Cincius (6) Alimentus", "birthyear": -250, "deathyear": -125, "dprr_id": 1036, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

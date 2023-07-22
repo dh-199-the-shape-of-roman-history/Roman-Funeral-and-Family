@@ -1,0 +1,1 @@
+data = {"start": "1276", "persons": {"1276": {"id": "1276", "name": "CLAU1440 Ti. Claudius (252) Nero", "birthyear": -200, "deathyear": -100, "dprr_id": 1440, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "616", "persons": {"616": {"id": "616", "name": "PAPI0695 L. Papirius (72) L. f. M. n. Praetextatus", "birthyear": -325, "deathyear": -272, "dprr_id": 695, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Purpurea.png"}}, "unions": {}, "links": []}

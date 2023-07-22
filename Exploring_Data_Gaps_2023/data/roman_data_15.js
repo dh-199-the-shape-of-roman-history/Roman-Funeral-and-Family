@@ -1,0 +1,1 @@
+data = {"start": "15", "persons": {"15": {"id": "15", "name": "POST0015 P. Postumius (64) Q. f. - n. Tubertus", "birthyear": -550, "deathyear": -425, "dprr_id": 15, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

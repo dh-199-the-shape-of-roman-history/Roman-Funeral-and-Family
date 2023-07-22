@@ -1,0 +1,1 @@
+data = {"start": "615", "persons": {"615": {"id": "615", "name": "SEXT0693  Sextilia (31)", "birthyear": -300, "deathyear": -273, "dprr_id": 693, "own_unions": [], "is_certain": true, "gender": "Female", "icon": "Woman.png"}}, "unions": {}, "links": []}

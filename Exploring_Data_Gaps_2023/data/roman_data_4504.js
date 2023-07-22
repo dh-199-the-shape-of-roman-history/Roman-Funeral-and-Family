@@ -1,0 +1,1 @@
+data = {"start": "4504", "persons": {"4504": {"id": "4504", "name": "ROSC5311 Sex. Roscius (7) Sex. f.", "birthyear": -150, "deathyear": -25, "dprr_id": 5311, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

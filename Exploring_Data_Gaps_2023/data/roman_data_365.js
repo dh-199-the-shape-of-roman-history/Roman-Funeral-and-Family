@@ -1,0 +1,1 @@
+data = {"start": "365", "persons": {"365": {"id": "365", "name": "AQUI0417 L. Aquillius (15) Corvus", "birthyear": -425, "deathyear": -325, "dprr_id": 417, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

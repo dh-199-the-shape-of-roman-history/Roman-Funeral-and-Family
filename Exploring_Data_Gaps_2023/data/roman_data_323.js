@@ -1,0 +1,1 @@
+data = {"start": "323", "persons": {"323": {"id": "323", "name": "PUBL0365 Voler. Publilius (12) P. f. Voler. n. Philo", "birthyear": -450, "deathyear": -325, "dprr_id": 365, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

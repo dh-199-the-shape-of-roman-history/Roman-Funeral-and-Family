@@ -1,0 +1,1 @@
+data = {"start": "933", "persons": {"933": {"id": "933", "name": "COSC1045 M. Cosconius (7)", "birthyear": -250, "deathyear": -203, "dprr_id": 1045, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

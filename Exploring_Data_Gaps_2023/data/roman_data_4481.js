@@ -1,0 +1,1 @@
+data = {"start": "4481", "persons": {"4481": {"id": "4481", "name": "NAEV5288 Cn. Naevius (2 and suppl. VI)", "birthyear": -270, "deathyear": -201, "dprr_id": 5288, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

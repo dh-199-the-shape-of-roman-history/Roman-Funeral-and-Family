@@ -1,0 +1,1 @@
+data = {"start": "992", "persons": {"992": {"id": "992", "name": "AURE1116 L. Aurelius (18)", "birthyear": -250, "deathyear": -125, "dprr_id": 1116, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

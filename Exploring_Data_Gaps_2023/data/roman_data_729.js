@@ -1,0 +1,1 @@
+data = {"start": "729", "persons": {"729": {"id": "729", "name": "SULP0816 Q. Sulpicius (16)", "birthyear": -250, "deathyear": -150, "dprr_id": 816, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

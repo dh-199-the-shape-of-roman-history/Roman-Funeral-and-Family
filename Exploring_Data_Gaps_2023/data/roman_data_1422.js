@@ -1,0 +1,1 @@
+data = {"start": "1422", "persons": {"1422": {"id": "1422", "name": "SATU1609 P. Satureius (1)", "birthyear": -175, "deathyear": -75, "dprr_id": 1609, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

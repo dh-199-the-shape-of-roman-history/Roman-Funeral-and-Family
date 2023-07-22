@@ -1,0 +1,1 @@
+data = {"start": "4862", "persons": {"4862": {"id": "4862", "name": "SUFF5670 N. Suffustius (Suffustius)", "birthyear": -509, "deathyear": -31, "dprr_id": 5670, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

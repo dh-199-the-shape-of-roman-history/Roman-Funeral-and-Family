@@ -1,0 +1,1 @@
+data = {"start": "2526", "persons": {"2526": {"id": "2526", "name": "CINC2986 C. Cincius (1)", "birthyear": -250, "deathyear": -150, "dprr_id": 2986, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

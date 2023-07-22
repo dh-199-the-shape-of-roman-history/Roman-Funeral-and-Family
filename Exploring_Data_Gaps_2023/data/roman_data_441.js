@@ -1,0 +1,1 @@
+data = {"start": "441", "persons": {"441": {"id": "441", "name": "PLAU0502 C. Plautius (27) P. f. P. n. Proculus", "birthyear": -400, "deathyear": -300, "dprr_id": 502, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

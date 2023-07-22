@@ -1,0 +1,1 @@
+data = {"start": "937", "persons": {"937": {"id": "937", "name": "FABI1050 L. Fabius (21)", "birthyear": -250, "deathyear": -150, "dprr_id": 1050, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

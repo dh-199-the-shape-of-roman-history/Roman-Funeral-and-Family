@@ -1,0 +1,1 @@
+data = {"start": "1610", "persons": {"1610": {"id": "1610", "name": "SERG1834 M. Sergius (42) Silus", "birthyear": -150, "deathyear": -25, "dprr_id": 1834, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

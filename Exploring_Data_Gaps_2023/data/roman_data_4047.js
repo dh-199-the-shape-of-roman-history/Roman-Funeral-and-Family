@@ -1,0 +1,1 @@
+data = {"start": "4047", "persons": {"4047": {"id": "4047", "name": "CORN4779 Ser. Cornelius (cf. 385, 389) Sulla", "birthyear": -150, "deathyear": -50, "dprr_id": 4779, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

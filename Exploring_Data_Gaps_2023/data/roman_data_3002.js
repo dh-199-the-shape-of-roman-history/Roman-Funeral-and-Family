@@ -1,0 +1,1 @@
+data = {"start": "3002", "persons": {"3002": {"id": "3002", "name": "HOST3559 L. Hostilius (cf. 26) Tubulus", "birthyear": -150, "deathyear": -50, "dprr_id": 3559, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

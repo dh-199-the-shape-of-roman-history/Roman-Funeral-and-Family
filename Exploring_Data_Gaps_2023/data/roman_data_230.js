@@ -1,0 +1,1 @@
+data = {"start": "230", "persons": {"230": {"id": "230", "name": "SERV0266 C. Servilius (37) Structus Ahala", "birthyear": -475, "deathyear": -350, "dprr_id": 266, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

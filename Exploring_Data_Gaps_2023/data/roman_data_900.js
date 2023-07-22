@@ -1,0 +1,1 @@
+data = {"start": "900", "persons": {"900": {"id": "900", "name": "HOST1008 C. Hostilius (11) Cato", "birthyear": -250, "deathyear": -150, "dprr_id": 1008, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

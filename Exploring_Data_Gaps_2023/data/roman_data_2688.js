@@ -1,0 +1,1 @@
+data = {"start": "2688", "persons": {"2688": {"id": "2688", "name": "EGNA3174 Cn. Egnatius (not in RE) C. f. Ste.", "birthyear": -200, "deathyear": -100, "dprr_id": 3174, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

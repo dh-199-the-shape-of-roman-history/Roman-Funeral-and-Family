@@ -1,0 +1,1 @@
+data = {"start": "1540", "persons": {"1540": {"id": "1540", "name": "FLAM1758 T. Flaminius (5)", "birthyear": -150, "deathyear": -50, "dprr_id": 1758, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

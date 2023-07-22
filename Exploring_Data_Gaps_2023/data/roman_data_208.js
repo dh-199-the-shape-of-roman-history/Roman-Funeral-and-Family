@@ -1,0 +1,1 @@
+data = {"start": "208", "persons": {"208": {"id": "208", "name": "SERG0237 L. Sergius (25) C. f. C. n. Ser. Fidenas", "birthyear": -475, "deathyear": -350, "dprr_id": 237, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

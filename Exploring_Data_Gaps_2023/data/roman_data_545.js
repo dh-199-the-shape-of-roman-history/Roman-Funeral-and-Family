@@ -1,0 +1,1 @@
+data = {"start": "545", "persons": {"545": {"id": "545", "name": "CORN0621 Cn. Cornelius (71, cf. 316, 343) (Scipio) Barbatus Barbatus", "birthyear": -350, "deathyear": -250, "dprr_id": 621, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

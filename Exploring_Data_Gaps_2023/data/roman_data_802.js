@@ -1,0 +1,1 @@
+data = {"start": "802", "persons": {"802": {"id": "802", "name": "ANTI0897 L. Antistius (not in RE) Pol. Reginus", "birthyear": -150, "deathyear": -50, "dprr_id": 897, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

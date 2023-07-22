@@ -1,0 +1,1 @@
+data = {"start": "4737", "persons": {"4737": {"id": "4737", "name": "PROC5544 -. Procilius (2)", "birthyear": -150, "deathyear": -25, "dprr_id": 5544, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

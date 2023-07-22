@@ -1,0 +1,1 @@
+data = {"start": "116", "persons": {"116": {"id": "116", "name": "LUCR0133 L. Lucretius (28) T. f. T. n. Tricipitinus", "birthyear": -500, "deathyear": -400, "dprr_id": 133, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

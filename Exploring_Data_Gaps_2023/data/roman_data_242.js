@@ -1,0 +1,1 @@
+data = {"start": "242", "persons": {"242": {"id": "242", "name": "MANL0278 L. Manlius (49) Capitolinus", "birthyear": -475, "deathyear": -350, "dprr_id": 278, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

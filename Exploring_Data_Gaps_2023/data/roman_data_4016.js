@@ -1,0 +1,1 @@
+data = {"start": "4016", "persons": {"4016": {"id": "4016", "name": "ALFI4744 M. Alfidius (A)", "birthyear": -150, "deathyear": -50, "dprr_id": 4744, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

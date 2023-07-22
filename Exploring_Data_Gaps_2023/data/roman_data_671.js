@@ -1,0 +1,1 @@
+data = {"start": "671", "persons": {"671": {"id": "671", "name": "CLAU0754 M. Claudius (166) C. f. Glicia", "birthyear": -300, "deathyear": -175, "dprr_id": 754, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

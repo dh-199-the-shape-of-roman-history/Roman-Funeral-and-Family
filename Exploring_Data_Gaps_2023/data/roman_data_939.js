@@ -1,0 +1,1 @@
+data = {"start": "939", "persons": {"939": {"id": "939", "name": "BAEB1052 L. Baebius (14, 25) Dives", "birthyear": -250, "deathyear": -189, "dprr_id": 1052, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "663", "persons": {"663": {"id": "663", "name": "AURE0746 C. Aurelius (94) L. f. C. n. Cotta", "birthyear": -300, "deathyear": -175, "dprr_id": 746, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

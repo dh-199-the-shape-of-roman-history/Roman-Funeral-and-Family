@@ -1,0 +1,1 @@
+data = {"start": "408", "persons": {"408": {"id": "408", "name": "VETU0464 C. Veturius (11) (L. f. Sp. n.) (Crassus) (Cicurinus)", "birthyear": -425, "deathyear": -300, "dprr_id": 464, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

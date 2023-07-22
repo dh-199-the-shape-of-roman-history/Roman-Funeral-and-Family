@@ -1,0 +1,1 @@
+data = {"start": "4687", "persons": {"4687": {"id": "4687", "name": "MACC5494 T. Maccius (Maccius) Plautus", "birthyear": -254, "deathyear": -184, "dprr_id": 5494, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

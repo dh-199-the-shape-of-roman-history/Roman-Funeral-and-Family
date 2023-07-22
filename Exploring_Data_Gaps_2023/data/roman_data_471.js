@@ -1,0 +1,1 @@
+data = {"start": "471", "persons": {"471": {"id": "471", "name": "IUNI0539 D. Iunius (60) Brutus Scaeva", "birthyear": -363, "deathyear": -250, "dprr_id": 539, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

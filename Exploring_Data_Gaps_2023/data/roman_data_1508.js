@@ -1,0 +1,1 @@
+data = {"start": "1508", "persons": {"1508": {"id": "1508", "name": "THOR1722 Sp. Thorius (2)", "birthyear": -142, "deathyear": -50, "dprr_id": 1722, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

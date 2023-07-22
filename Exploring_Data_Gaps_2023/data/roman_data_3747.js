@@ -1,0 +1,1 @@
+data = {"start": "3747", "persons": {"3747": {"id": "3747", "name": "IUNI4433 -. Iunius (129) Pisciculus", "birthyear": -175, "deathyear": -25, "dprr_id": 4433, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

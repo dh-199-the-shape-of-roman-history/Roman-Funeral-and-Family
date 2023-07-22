@@ -1,0 +1,1 @@
+data = {"start": "4807", "persons": {"4807": {"id": "4807", "name": "ANON5614 -. - (Trabea 2) Trabea", "birthyear": -200, "deathyear": -101, "dprr_id": 5614, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

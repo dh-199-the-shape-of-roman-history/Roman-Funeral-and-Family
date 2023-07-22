@@ -1,0 +1,1 @@
+data = {"start": "4166", "persons": {"4166": {"id": "4166", "name": "SENT4939  Sentia (15)", "birthyear": -150, "deathyear": -50, "dprr_id": 4939, "own_unions": [], "is_certain": true, "gender": "Female", "icon": "Woman.png"}}, "unions": {}, "links": []}

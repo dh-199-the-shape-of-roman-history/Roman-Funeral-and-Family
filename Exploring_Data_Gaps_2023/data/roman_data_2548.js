@@ -1,0 +1,1 @@
+data = {"start": "2548", "persons": {"2548": {"id": "2548", "name": "HOST3011 -. Hostilius (not in RE)", "birthyear": -500, "deathyear": -50, "dprr_id": 3011, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

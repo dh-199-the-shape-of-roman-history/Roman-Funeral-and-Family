@@ -1,0 +1,1 @@
+data = {"start": "4813", "persons": {"4813": {"id": "4813", "name": "BLOS5620 C. Blossius (1) Cumanus", "birthyear": -200, "deathyear": -101, "dprr_id": 5620, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

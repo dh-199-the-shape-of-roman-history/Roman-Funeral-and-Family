@@ -1,0 +1,1 @@
+data = {"start": "305", "persons": {"305": {"id": "305", "name": "IULI0347 L. Iulius (298) L. f. Vopisci n. Iullus", "birthyear": -450, "deathyear": -325, "dprr_id": 347, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

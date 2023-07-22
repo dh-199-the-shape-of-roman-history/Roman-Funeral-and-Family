@@ -1,0 +1,1 @@
+data = {"start": "29", "persons": {"29": {"id": "29", "name": "VERG0031 T. Verginius (21) A. f.  Tricostus Caeliomontanus", "birthyear": -550, "deathyear": -425, "dprr_id": 31, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

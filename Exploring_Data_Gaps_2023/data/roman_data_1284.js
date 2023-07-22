@@ -1,0 +1,1 @@
+data = {"start": "1284", "persons": {"1284": {"id": "1284", "name": "IUNI1448 L. Iunius (19) (Brutus)", "birthyear": -200, "deathyear": -100, "dprr_id": 1448, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

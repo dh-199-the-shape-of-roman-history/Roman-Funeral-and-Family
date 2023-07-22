@@ -1,0 +1,1 @@
+data = {"start": "3937", "persons": {"3937": {"id": "3937", "name": "COEL4647 C. Coelius (12, 13) C. f. C. n. Caldus", "birthyear": -140, "deathyear": -25, "dprr_id": 4647, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

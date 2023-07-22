@@ -1,0 +1,1 @@
+data = {"start": "3048", "persons": {"3048": {"id": "3048", "name": "CAEC3614 -. (Caecilius) (not in RE) Metellus", "birthyear": -225, "deathyear": -125, "dprr_id": 3614, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

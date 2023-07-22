@@ -1,0 +1,1 @@
+data = {"start": "476", "persons": {"476": {"id": "476", "name": "CLAU0544 C. Claudius (180) Hortator", "birthyear": -375, "deathyear": -275, "dprr_id": 544, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

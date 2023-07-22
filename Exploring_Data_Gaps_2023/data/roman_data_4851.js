@@ -1,0 +1,1 @@
+data = {"start": "4851", "persons": {"4851": {"id": "4851", "name": "RUPI5658 -. Rupilius (1)", "birthyear": -200, "deathyear": -1, "dprr_id": 5658, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

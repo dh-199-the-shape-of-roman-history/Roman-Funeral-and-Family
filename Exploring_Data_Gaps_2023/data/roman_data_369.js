@@ -1,0 +1,1 @@
+data = {"start": "369", "persons": {"369": {"id": "369", "name": "QUIN0421 L. Quinctius (10)", "birthyear": -425, "deathyear": -325, "dprr_id": 421, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

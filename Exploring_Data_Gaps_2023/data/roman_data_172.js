@@ -1,0 +1,1 @@
+data = {"start": "172", "persons": {"172": {"id": "172", "name": "PAPI0194 M. Papirius (21, cf. 47) (Crassus)", "birthyear": -500, "deathyear": -375, "dprr_id": 194, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

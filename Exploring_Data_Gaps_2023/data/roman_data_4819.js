@@ -1,0 +1,1 @@
+data = {"start": "4819", "persons": {"4819": {"id": "4819", "name": "COEL5626 L. Coelius (7) L. f.  Antipater", "birthyear": -200, "deathyear": -1, "dprr_id": 5626, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

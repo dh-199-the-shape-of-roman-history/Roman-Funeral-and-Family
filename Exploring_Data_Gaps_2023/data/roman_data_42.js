@@ -1,0 +1,1 @@
+data = {"start": "42", "persons": {"42": {"id": "42", "name": "VISC0044 C. Viscellius (or Visellius) (Icilius 5) Ruga", "birthyear": -525, "deathyear": -425, "dprr_id": 44, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "1512", "persons": {"1512": {"id": "1512", "name": "FABI1726 Q. Fabius (cf. 92) Labeo", "birthyear": -150, "deathyear": -50, "dprr_id": 1726, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

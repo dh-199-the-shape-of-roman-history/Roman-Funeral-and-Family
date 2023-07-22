@@ -1,0 +1,1 @@
+data = {"start": "1417", "persons": {"1417": {"id": "1417", "name": "MUCI1604 Q. Mucius (1)", "birthyear": -175, "deathyear": -75, "dprr_id": 1604, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

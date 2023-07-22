@@ -1,0 +1,1 @@
+data = {"start": "3244", "persons": {"3244": {"id": "3244", "name": "AURE3879  Aurelia (261) Orestilla", "birthyear": -150, "deathyear": -50, "dprr_id": 3879, "own_unions": [], "is_certain": true, "gender": "Female", "icon": "Woman.png"}}, "unions": {}, "links": []}

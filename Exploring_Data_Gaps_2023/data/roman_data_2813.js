@@ -1,0 +1,1 @@
+data = {"start": "2813", "persons": {"2813": {"id": "2813", "name": "BARB3308 -. Barbarius (not in RE, cf. Barbatius 1) Philippus", "birthyear": -550, "deathyear": 25, "dprr_id": 3308, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

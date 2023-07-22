@@ -1,0 +1,1 @@
+data = {"start": "2560", "persons": {"2560": {"id": "2560", "name": "PLAE3023 -. Plaetorius (2)", "birthyear": -200, "deathyear": -100, "dprr_id": 3023, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

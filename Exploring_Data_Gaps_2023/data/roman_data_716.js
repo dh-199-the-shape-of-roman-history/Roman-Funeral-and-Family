@@ -1,0 +1,1 @@
+data = {"start": "716", "persons": {"716": {"id": "716", "name": "TUCC0802  Tuccia (or Luccia) (12)", "birthyear": -275, "deathyear": -175, "dprr_id": 802, "own_unions": [], "is_certain": true, "gender": "Female", "icon": "Woman.png"}}, "unions": {}, "links": []}

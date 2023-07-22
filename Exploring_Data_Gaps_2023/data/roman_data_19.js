@@ -1,0 +1,1 @@
+data = {"start": "19", "persons": {"19": {"id": "19", "name": "CASS0020 Sp. Cassius (91) Vecellinus", "birthyear": -550, "deathyear": -485, "dprr_id": 20, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "4836", "persons": {"4836": {"id": "4836", "name": "PERS5643 C. Persius (4)", "birthyear": -200, "deathyear": -101, "dprr_id": 5643, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

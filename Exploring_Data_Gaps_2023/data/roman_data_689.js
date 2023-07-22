@@ -1,0 +1,1 @@
+data = {"start": "689", "persons": {"689": {"id": "689", "name": "MULV0772 M. Mulvius (3)", "birthyear": -275, "deathyear": -175, "dprr_id": 772, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "2642", "persons": {"2642": {"id": "2642", "name": "LAEN3119 Q. Laenius (1) Q. f.", "birthyear": -550, "deathyear": 25, "dprr_id": 3119, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

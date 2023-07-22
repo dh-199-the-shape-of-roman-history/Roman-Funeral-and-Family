@@ -1,0 +1,1 @@
+data = {"start": "225", "persons": {"225": {"id": "225", "name": "PAPI0260 C. Papirius (see 10, 43) Crassus", "birthyear": -475, "deathyear": -375, "dprr_id": 260, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

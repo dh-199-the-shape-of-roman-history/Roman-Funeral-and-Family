@@ -1,0 +1,1 @@
+data = {"start": "3510", "persons": {"3510": {"id": "3510", "name": "AEMI4170 -. Aemilius (H)", "birthyear": -140, "deathyear": -50, "dprr_id": 4170, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

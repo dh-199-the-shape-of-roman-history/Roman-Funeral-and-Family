@@ -1,0 +1,1 @@
+data = {"start": "2762", "persons": {"2762": {"id": "2762", "name": "SEMP3251 C. Sempronius (not in RE) L. f.", "birthyear": -200, "deathyear": -100, "dprr_id": 3251, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

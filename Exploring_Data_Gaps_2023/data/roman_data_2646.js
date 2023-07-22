@@ -1,0 +1,1 @@
+data = {"start": "2646", "persons": {"2646": {"id": "2646", "name": "COSC3125 -. Cosconius (1, cf. Viocurus, 9A, 156)", "birthyear": -550, "deathyear": 25, "dprr_id": 3125, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

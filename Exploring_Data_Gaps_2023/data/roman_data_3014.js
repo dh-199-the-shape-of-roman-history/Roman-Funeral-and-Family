@@ -1,0 +1,1 @@
+data = {"start": "3014", "persons": {"3014": {"id": "3014", "name": "POMP3573 L. Pomponius (5) Cn. f.", "birthyear": -150, "deathyear": -50, "dprr_id": 3573, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

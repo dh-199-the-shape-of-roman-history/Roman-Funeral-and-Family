@@ -1,0 +1,1 @@
+data = {"start": "688", "persons": {"688": {"id": "688", "name": "PUBL0771 M. Publicius (22) L. f. L. n. Malleolus", "birthyear": -264, "deathyear": -175, "dprr_id": 771, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

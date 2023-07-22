@@ -1,0 +1,1 @@
+data = {"start": "843", "persons": {"843": {"id": "843", "name": "MARC0943 L. Marcius (101) Septimius", "birthyear": -250, "deathyear": -150, "dprr_id": 943, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

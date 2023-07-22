@@ -1,0 +1,1 @@
+data = {"start": "276", "persons": {"276": {"id": "276", "name": "PAPI0314 M. Papirius (30, 68) L. f.  Mugillanus (or Atratinus)", "birthyear": -450, "deathyear": -350, "dprr_id": 314, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

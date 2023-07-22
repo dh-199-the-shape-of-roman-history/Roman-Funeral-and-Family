@@ -1,0 +1,1 @@
+data = {"start": "3125", "persons": {"3125": {"id": "3125", "name": "DURM3746 -. D(urmius) or D(uillius) (not in RE)", "birthyear": -250, "deathyear": -100, "dprr_id": 3746, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "1292", "persons": {"1292": {"id": "1292", "name": "RUTI1456 P. Rutilius (12) Calvus", "birthyear": -200, "deathyear": -100, "dprr_id": 1456, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

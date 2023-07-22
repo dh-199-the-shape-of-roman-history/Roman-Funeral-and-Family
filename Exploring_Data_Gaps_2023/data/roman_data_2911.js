@@ -1,0 +1,1 @@
+data = {"start": "2911", "persons": {"2911": {"id": "2911", "name": "EGNA3449 C. Egnatuleius (1)", "birthyear": -150, "deathyear": -25, "dprr_id": 3449, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

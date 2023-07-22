@@ -1,0 +1,1 @@
+data = {"start": "750", "persons": {"750": {"id": "750", "name": "LICI0840 C. Licinius (12, cf. 174) (Varus)", "birthyear": -250, "deathyear": -150, "dprr_id": 840, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

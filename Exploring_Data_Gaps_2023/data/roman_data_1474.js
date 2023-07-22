@@ -1,0 +1,1 @@
+data = {"start": "1474", "persons": {"1474": {"id": "1474", "name": "LICI1674 C. Licinius (88) P. f. Geta", "birthyear": -175, "deathyear": -50, "dprr_id": 1674, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

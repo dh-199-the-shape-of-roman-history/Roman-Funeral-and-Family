@@ -1,0 +1,1 @@
+data = {"start": "3931", "persons": {"3931": {"id": "3931", "name": "ANON4638  - (Kalliphana) Calliphana", "birthyear": -150, "deathyear": -25, "dprr_id": 4638, "own_unions": [], "is_certain": true, "gender": "Female", "icon": "Woman.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "1196", "persons": {"1196": {"id": "1196", "name": "CLUV1352 Sp. Cluvius (8)", "birthyear": -225, "deathyear": -100, "dprr_id": 1352, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "2649", "persons": {"2649": {"id": "2649", "name": "PULL3128 -. Pullius (2)", "birthyear": -550, "deathyear": 25, "dprr_id": 3128, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

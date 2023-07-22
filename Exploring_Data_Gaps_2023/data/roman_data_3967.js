@@ -1,0 +1,1 @@
+data = {"start": "3967", "persons": {"3967": {"id": "3967", "name": "ANON4685 -. - (not in RE) [C]n. f. Rufus", "birthyear": -550, "deathyear": 25, "dprr_id": 4685, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

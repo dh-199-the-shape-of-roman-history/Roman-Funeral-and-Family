@@ -1,0 +1,1 @@
+data = {"start": "944", "persons": {"944": {"id": "944", "name": "AELI1057 P. Aelius (152) Tubero", "birthyear": -250, "deathyear": -125, "dprr_id": 1057, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

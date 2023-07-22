@@ -1,0 +1,1 @@
+data = {"start": "335", "persons": {"335": {"id": "335", "name": "AEMI0380 C. Aemilius (not in RE) Ti. f. Ti. n. Mamercinus", "birthyear": -425, "deathyear": -325, "dprr_id": 380, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

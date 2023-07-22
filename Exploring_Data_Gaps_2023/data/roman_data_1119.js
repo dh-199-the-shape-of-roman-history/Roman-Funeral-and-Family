@@ -1,0 +1,1 @@
+data = {"start": "1119", "persons": {"1119": {"id": "1119", "name": "PINA1264 M. Pinarius (4, 21?) Rusca (or Posca)", "birthyear": -225, "deathyear": -125, "dprr_id": 1264, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

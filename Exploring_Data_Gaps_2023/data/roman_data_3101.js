@@ -1,0 +1,1 @@
+data = {"start": "3101", "persons": {"3101": {"id": "3101", "name": "IUVE3678 -. (Iuventius) (25) Thalna", "birthyear": -225, "deathyear": -100, "dprr_id": 3678, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

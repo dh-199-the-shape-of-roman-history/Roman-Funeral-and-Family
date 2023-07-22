@@ -1,0 +1,1 @@
+data = {"start": "612", "persons": {"612": {"id": "612", "name": "POST0690 L. Postumius (39) L. f. Albinus", "birthyear": -325, "deathyear": -250, "dprr_id": 690, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "798", "persons": {"798": {"id": "798", "name": "CANT0892 L. Cantilius (1)", "birthyear": -250, "deathyear": -216, "dprr_id": 892, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

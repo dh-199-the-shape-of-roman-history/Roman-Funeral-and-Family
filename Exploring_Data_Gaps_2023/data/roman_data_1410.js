@@ -1,0 +1,1 @@
+data = {"start": "1410", "persons": {"1410": {"id": "1410", "name": "SEMP1597 -. Sempronius (16) Asellio", "birthyear": -175, "deathyear": -75, "dprr_id": 1597, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

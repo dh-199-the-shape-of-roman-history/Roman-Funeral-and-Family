@@ -1,0 +1,1 @@
+data = {"start": "63", "persons": {"63": {"id": "63", "name": "TULL0069 M'. Tullius (53, cf. 41) Tolerinus", "birthyear": -525, "deathyear": -425, "dprr_id": 69, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

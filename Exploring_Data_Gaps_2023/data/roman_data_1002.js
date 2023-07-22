@@ -1,0 +1,1 @@
+data = {"start": "1002", "persons": {"1002": {"id": "1002", "name": "FUND1130 M. Fundanius (3)", "birthyear": -250, "deathyear": -125, "dprr_id": 1130, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

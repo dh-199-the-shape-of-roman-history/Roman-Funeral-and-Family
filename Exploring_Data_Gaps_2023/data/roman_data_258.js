@@ -1,0 +1,1 @@
+data = {"start": "258", "persons": {"258": {"id": "258", "name": "PAPI0295 M. Papirius (68) L. f. - n. Mugillanus", "birthyear": -450, "deathyear": -350, "dprr_id": 295, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

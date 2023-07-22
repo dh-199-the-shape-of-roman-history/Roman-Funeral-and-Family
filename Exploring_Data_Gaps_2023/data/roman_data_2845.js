@@ -1,0 +1,1 @@
+data = {"start": "2845", "persons": {"2845": {"id": "2845", "name": "MINU3348 -. (Minucius) (2)", "birthyear": -325, "deathyear": -200, "dprr_id": 3348, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

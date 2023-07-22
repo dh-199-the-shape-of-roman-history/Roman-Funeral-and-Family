@@ -1,0 +1,1 @@
+data = {"start": "1506", "persons": {"1506": {"id": "1506", "name": "BAEB1719 C. Baebius (10)", "birthyear": -150, "deathyear": -50, "dprr_id": 1719, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

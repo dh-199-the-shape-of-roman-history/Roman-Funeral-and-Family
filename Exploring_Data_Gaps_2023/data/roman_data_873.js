@@ -1,0 +1,1 @@
+data = {"start": "873", "persons": {"873": {"id": "873", "name": "CORN0980 Cn. Cornelius (131) Dolabella", "birthyear": -250, "deathyear": -180, "dprr_id": 980, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

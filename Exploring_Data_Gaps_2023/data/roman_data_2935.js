@@ -1,0 +1,1 @@
+data = {"start": "2935", "persons": {"2935": {"id": "2935", "name": "SPUR3479 A. Spuri[us] or Spuri[lius] (Spurius 2)", "birthyear": -175, "deathyear": -75, "dprr_id": 3479, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

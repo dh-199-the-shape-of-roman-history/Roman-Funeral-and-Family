@@ -1,0 +1,1 @@
+data = {"start": "160", "persons": {"160": {"id": "160", "name": "HORA0181 M. Horatius (8) M. f. L. (or P.) n. (Tu)rrinus Barbatus", "birthyear": -500, "deathyear": -375, "dprr_id": 181, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

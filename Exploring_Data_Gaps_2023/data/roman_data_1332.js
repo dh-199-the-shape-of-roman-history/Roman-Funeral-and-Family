@@ -1,0 +1,1 @@
+data = {"start": "1332", "persons": {"1332": {"id": "1332", "name": "IUVE1507 P. Iuventius (31) Thalna", "birthyear": -200, "deathyear": -148, "dprr_id": 1507, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

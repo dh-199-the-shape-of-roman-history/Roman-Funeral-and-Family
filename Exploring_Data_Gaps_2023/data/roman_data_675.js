@@ -1,0 +1,1 @@
+data = {"start": "675", "persons": {"675": {"id": "675", "name": "MANL0758 A. Manlius (87) T. f. T. n. Torquatus Atticus", "birthyear": -299, "deathyear": -150, "dprr_id": 758, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

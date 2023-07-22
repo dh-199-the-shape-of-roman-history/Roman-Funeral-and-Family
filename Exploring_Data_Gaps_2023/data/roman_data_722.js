@@ -1,0 +1,1 @@
+data = {"start": "722", "persons": {"722": {"id": "722", "name": "APUS0809 L. Apustius (4) L. f. C. n. Fullo", "birthyear": -275, "deathyear": -175, "dprr_id": 809, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "1053", "persons": {"1053": {"id": "1053", "name": "PLAU1190 L. Plautius (19) Hypsaeus", "birthyear": -225, "deathyear": -125, "dprr_id": 1190, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

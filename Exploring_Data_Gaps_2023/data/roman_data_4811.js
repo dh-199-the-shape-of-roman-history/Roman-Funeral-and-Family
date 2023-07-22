@@ -1,0 +1,1 @@
+data = {"start": "4811", "persons": {"4811": {"id": "4811", "name": "ALLI5618 M. Alliennius (Alliennius) Paelignus", "birthyear": -200, "deathyear": -101, "dprr_id": 5618, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

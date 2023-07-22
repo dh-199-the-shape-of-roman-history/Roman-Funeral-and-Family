@@ -1,0 +1,1 @@
+data = {"start": "1643", "persons": {"1643": {"id": "1643", "name": "LUTA1878 Q. Lutatius (14) Cerco", "birthyear": -150, "deathyear": -50, "dprr_id": 1878, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

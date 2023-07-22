@@ -1,0 +1,1 @@
+data = {"start": "118", "persons": {"118": {"id": "118", "name": "TERE0135 C. Terentilius (RE 5A. 591f.) Harsa", "birthyear": -500, "deathyear": -400, "dprr_id": 135, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "4165", "persons": {"4165": {"id": "4165", "name": "ANNA4938 T. Annaeus (Brocchus 3) Broccus", "birthyear": -150, "deathyear": -50, "dprr_id": 4938, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

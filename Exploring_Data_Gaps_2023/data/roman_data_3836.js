@@ -1,0 +1,1 @@
+data = {"start": "3836", "persons": {"3836": {"id": "3836", "name": "CAUS4534 C. Causinius (Causinius) Clu. Schola", "birthyear": -175, "deathyear": 50, "dprr_id": 4534, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

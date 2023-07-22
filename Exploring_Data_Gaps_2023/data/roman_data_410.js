@@ -1,0 +1,1 @@
+data = {"start": "410", "persons": {"410": {"id": "410", "name": "QUIN0466 C. Quinctius (26) Cincinnatus", "birthyear": -425, "deathyear": -325, "dprr_id": 466, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

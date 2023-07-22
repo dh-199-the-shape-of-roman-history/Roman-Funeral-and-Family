@@ -1,0 +1,1 @@
+data = {"start": "4853", "persons": {"4853": {"id": "4853", "name": "RUST5660 C. Rusticelius (2) Bononiensis", "birthyear": -200, "deathyear": -1, "dprr_id": 5660, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "105", "persons": {"105": {"id": "105", "name": "NUMI0121 T. Numicius (4) Priscus", "birthyear": -500, "deathyear": -400, "dprr_id": 121, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

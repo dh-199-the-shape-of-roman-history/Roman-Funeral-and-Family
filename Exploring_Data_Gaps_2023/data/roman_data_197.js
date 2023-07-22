@@ -1,0 +1,1 @@
+data = {"start": "197", "persons": {"197": {"id": "197", "name": "MENE0223 L. Menenius (16, cf. 10 and 18) T. f. Agripp. n. Lanatus", "birthyear": -475, "deathyear": -375, "dprr_id": 223, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

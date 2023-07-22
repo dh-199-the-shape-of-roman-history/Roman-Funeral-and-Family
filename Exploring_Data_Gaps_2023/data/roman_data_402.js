@@ -1,0 +1,1 @@
+data = {"start": "402", "persons": {"402": {"id": "402", "name": "FURI0457 Sp. (or L.) Furius (29)", "birthyear": -425, "deathyear": -325, "dprr_id": 457, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

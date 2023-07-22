@@ -1,0 +1,1 @@
+data = {"start": "65", "persons": {"65": {"id": "65", "name": "FABI0077 Q. Fabius (164, cf. 159) K. f.  Vibulanus", "birthyear": -525, "deathyear": -480, "dprr_id": 77, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

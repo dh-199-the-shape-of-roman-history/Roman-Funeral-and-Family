@@ -1,0 +1,1 @@
+data = {"start": "1124", "persons": {"1124": {"id": "1124", "name": "SCRI1269 C. Scribonius (4)", "birthyear": -225, "deathyear": -100, "dprr_id": 1269, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

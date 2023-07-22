@@ -1,0 +1,1 @@
+data = {"start": "297", "persons": {"297": {"id": "297", "name": "FURI0338 M. Furius (60) Fusus", "birthyear": -450, "deathyear": -325, "dprr_id": 338, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Purpurea.png"}}, "unions": {}, "links": []}
