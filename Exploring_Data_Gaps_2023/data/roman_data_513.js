@@ -1,0 +1,1 @@
+data = {"start": "513", "persons": {"513": {"id": "513", "name": "IUNI0587 C. Iunius (62) C. f. C. n. Bubulcus Brutus", "birthyear": -350, "deathyear": -250, "dprr_id": 587, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

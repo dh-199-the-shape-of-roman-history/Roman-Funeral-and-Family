@@ -1,0 +1,1 @@
+data = {"start": "1221", "persons": {"1221": {"id": "1221", "name": "MINU1380 T. Minucius (58) Rufus", "birthyear": -225, "deathyear": -100, "dprr_id": 1380, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

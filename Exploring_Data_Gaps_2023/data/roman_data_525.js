@@ -1,0 +1,1 @@
+data = {"start": "525", "persons": {"525": {"id": "525", "name": "LAET0599 C. (or M.) Laetorius (11) Mergus", "birthyear": -350, "deathyear": -250, "dprr_id": 599, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

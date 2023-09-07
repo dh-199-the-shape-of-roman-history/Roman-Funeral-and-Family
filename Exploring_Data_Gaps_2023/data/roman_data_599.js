@@ -1,0 +1,1 @@
+data = {"start": "599", "persons": {"599": {"id": "599", "name": "VIBE0677 Decius Vibellius (1) Campanus", "birthyear": -325, "deathyear": -182, "dprr_id": 677, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

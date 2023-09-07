@@ -1,0 +1,1 @@
+data = {"start": "3929", "persons": {"3929": {"id": "3929", "name": "AQUI4636 L. Aquinius (1)", "birthyear": -450, "deathyear": -325, "dprr_id": 4636, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

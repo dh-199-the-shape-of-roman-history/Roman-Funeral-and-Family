@@ -1,0 +1,1 @@
+data = {"start": "1166", "persons": {"1166": {"id": "1166", "name": "AQUI1319 L. Aquillius (24) Gallus", "birthyear": -225, "deathyear": -125, "dprr_id": 1319, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

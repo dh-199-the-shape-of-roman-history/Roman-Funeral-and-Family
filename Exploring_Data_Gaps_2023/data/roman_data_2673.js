@@ -1,0 +1,1 @@
+data = {"start": "2673", "persons": {"2673": {"id": "2673", "name": "COEL3158 C. Coelius (6, Supb. 3.255) C. f. Aem.", "birthyear": -175, "deathyear": -75, "dprr_id": 3158, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

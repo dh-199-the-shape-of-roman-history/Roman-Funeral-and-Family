@@ -1,0 +1,1 @@
+data = {"start": "2920", "persons": {"2920": {"id": "2920", "name": "MAGI3461 -. Magius (1)", "birthyear": -150, "deathyear": -50, "dprr_id": 3461, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

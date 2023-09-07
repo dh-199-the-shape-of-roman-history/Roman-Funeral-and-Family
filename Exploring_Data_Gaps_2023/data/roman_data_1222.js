@@ -1,0 +1,1 @@
+data = {"start": "1222", "persons": {"1222": {"id": "1222", "name": "HORT1382 L. Hortensius (4)", "birthyear": -225, "deathyear": -100, "dprr_id": 1382, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

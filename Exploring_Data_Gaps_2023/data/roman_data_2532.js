@@ -1,0 +1,1 @@
+data = {"start": "2532", "persons": {"2532": {"id": "2532", "name": "POMP2992 -. Pompeius (?) Rufus", "birthyear": -550, "deathyear": 25, "dprr_id": 2992, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

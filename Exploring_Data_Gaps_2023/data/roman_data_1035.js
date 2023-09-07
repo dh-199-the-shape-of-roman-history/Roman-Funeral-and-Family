@@ -1,0 +1,1 @@
+data = {"start": "1035", "persons": {"1035": {"id": "1035", "name": "SEMP1171 P. Sempronius (31) Blaesus", "birthyear": -225, "deathyear": -125, "dprr_id": 1171, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

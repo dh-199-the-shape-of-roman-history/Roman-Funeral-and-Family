@@ -1,0 +1,1 @@
+data = {"start": "803", "persons": {"803": {"id": "803", "name": "APUS0898 L. Apustius (1)", "birthyear": -250, "deathyear": -150, "dprr_id": 898, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "275", "persons": {"275": {"id": "275", "name": "ICIL0313 L. Icilius (3)", "birthyear": -450, "deathyear": -350, "dprr_id": 313, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

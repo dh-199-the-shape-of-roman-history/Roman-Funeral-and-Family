@@ -1,0 +1,1 @@
+data = {"start": "1040", "persons": {"1040": {"id": "1040", "name": "ATIN1176 C. Atinius (9) Hor. Labeo", "birthyear": -225, "deathyear": -125, "dprr_id": 1176, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

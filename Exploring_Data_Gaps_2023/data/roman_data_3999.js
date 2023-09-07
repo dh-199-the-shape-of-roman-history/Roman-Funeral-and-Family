@@ -1,0 +1,1 @@
+data = {"start": "3999", "persons": {"3999": {"id": "3999", "name": "ASIN4724 -. Asinius (5)", "birthyear": -175, "deathyear": -50, "dprr_id": 4724, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

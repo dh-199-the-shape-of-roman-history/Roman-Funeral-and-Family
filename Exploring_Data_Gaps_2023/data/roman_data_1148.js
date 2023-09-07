@@ -1,0 +1,1 @@
+data = {"start": "1148", "persons": {"1148": {"id": "1148", "name": "CLUV1296 C. Cluvius (14) Saxula", "birthyear": -225, "deathyear": -100, "dprr_id": 1296, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "3560", "persons": {"3560": {"id": "3560", "name": "LUCI4230 C. Lucilius (4) Pom. Pup.", "birthyear": -200, "deathyear": -50, "dprr_id": 4230, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

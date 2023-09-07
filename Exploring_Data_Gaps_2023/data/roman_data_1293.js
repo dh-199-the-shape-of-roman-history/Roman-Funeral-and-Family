@@ -1,0 +1,1 @@
+data = {"start": "1293", "persons": {"1293": {"id": "1293", "name": "CORN1457 Cn. Cornelius (132) Cn. f. Cn. n. Dolabella", "birthyear": -200, "deathyear": -100, "dprr_id": 1457, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

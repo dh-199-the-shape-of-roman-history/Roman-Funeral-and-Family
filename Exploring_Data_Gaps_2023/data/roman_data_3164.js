@@ -1,0 +1,1 @@
+data = {"start": "3164", "persons": {"3164": {"id": "3164", "name": "POPI3789 M. Popillius (9) M. f.", "birthyear": -350, "deathyear": -50, "dprr_id": 3789, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

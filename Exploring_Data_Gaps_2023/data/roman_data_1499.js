@@ -1,0 +1,1 @@
+data = {"start": "1499", "persons": {"1499": {"id": "1499", "name": "DOMI1707 M. Domitius (not in RE) P. f.", "birthyear": -150, "deathyear": -50, "dprr_id": 1707, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

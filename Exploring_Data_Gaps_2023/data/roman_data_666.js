@@ -1,0 +1,1 @@
+data = {"start": "666", "persons": {"666": {"id": "666", "name": "CASS0749 Q. Cassius (20)", "birthyear": -300, "deathyear": -200, "dprr_id": 749, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

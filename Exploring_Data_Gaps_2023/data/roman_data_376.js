@@ -1,0 +1,1 @@
+data = {"start": "376", "persons": {"376": {"id": "376", "name": "HORA0428 L. Horatius (14) Pulvillus", "birthyear": -425, "deathyear": -325, "dprr_id": 428, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

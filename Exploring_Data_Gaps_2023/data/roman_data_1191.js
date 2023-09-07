@@ -1,0 +1,1 @@
+data = {"start": "1191", "persons": {"1191": {"id": "1191", "name": "TREM1345 C. Tremellius (1)", "birthyear": -225, "deathyear": -100, "dprr_id": 1345, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

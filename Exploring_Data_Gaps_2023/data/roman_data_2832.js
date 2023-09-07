@@ -1,0 +1,1 @@
+data = {"start": "2832", "persons": {"2832": {"id": "2832", "name": "AEMI3331 Q. Aemilius (78) Lepidus", "birthyear": -225, "deathyear": 50, "dprr_id": 3331, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

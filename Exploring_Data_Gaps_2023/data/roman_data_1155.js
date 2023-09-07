@@ -1,0 +1,1 @@
+data = {"start": "1155", "persons": {"1155": {"id": "1155", "name": "CASS1304 C. Cassius (55) C. f. C. n. Longinus", "birthyear": -225, "deathyear": -100, "dprr_id": 1304, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

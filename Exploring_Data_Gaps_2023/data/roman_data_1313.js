@@ -1,0 +1,1 @@
+data = {"start": "1313", "persons": {"1313": {"id": "1313", "name": "AURU1482 C. Aurunculeius (3)", "birthyear": -200, "deathyear": -100, "dprr_id": 1482, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

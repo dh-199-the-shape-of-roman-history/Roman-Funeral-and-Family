@@ -1,0 +1,1 @@
+data = {"start": "309", "persons": {"309": {"id": "309", "name": "METI0351 M. Metilius (8)", "birthyear": -450, "deathyear": -350, "dprr_id": 351, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

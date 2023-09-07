@@ -1,0 +1,1 @@
+data = {"start": "2806", "persons": {"2806": {"id": "2806", "name": "AEBU3299 -. (Aeb)utius or (Pla)utius (?)", "birthyear": -550, "deathyear": 25, "dprr_id": 3299, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

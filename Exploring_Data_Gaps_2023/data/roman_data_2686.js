@@ -1,0 +1,1 @@
+data = {"start": "2686", "persons": {"2686": {"id": "2686", "name": "DIDI3172 C. Didius (not in RE) C. f. Qui.", "birthyear": -175, "deathyear": -75, "dprr_id": 3172, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

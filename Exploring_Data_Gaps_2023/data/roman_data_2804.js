@@ -1,0 +1,1 @@
+data = {"start": "2804", "persons": {"2804": {"id": "2804", "name": "ACIL3297 M'. Acilius (1) M'. f. Vol. (Balbus)", "birthyear": -225, "deathyear": -100, "dprr_id": 3297, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

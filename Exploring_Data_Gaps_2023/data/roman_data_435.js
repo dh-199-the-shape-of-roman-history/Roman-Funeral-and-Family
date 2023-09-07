@@ -1,0 +1,1 @@
+data = {"start": "435", "persons": {"435": {"id": "435", "name": "POMP0496 M. Pomponius (8)", "birthyear": -400, "deathyear": -300, "dprr_id": 496, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

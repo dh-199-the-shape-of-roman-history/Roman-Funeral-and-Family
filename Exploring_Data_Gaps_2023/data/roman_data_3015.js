@@ -1,0 +1,1 @@
+data = {"start": "3015", "persons": {"3015": {"id": "3015", "name": "PORC3574 L. Porcius (25) Pap. Licinus", "birthyear": -150, "deathyear": -50, "dprr_id": 3574, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

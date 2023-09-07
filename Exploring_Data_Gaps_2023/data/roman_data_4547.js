@@ -1,0 +1,1 @@
+data = {"start": "4547", "persons": {"4547": {"id": "4547", "name": "VETT5354 P. Vettius (16) Scato", "birthyear": -150, "deathyear": -90, "dprr_id": 5354, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

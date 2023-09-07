@@ -1,0 +1,1 @@
+data = {"start": "1423", "persons": {"1423": {"id": "1423", "name": "TITI1612 C. Titius (6)", "birthyear": -175, "deathyear": -75, "dprr_id": 1612, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

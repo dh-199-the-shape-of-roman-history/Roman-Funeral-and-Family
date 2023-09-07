@@ -1,0 +1,1 @@
+data = {"start": "2861", "persons": {"2861": {"id": "2861", "name": "CAES3376 L. Caesius (cf. 4) C. f.", "birthyear": -150, "deathyear": -50, "dprr_id": 3376, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

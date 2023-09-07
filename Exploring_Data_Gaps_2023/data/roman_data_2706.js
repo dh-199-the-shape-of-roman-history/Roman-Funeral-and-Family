@@ -1,0 +1,1 @@
+data = {"start": "2706", "persons": {"2706": {"id": "2706", "name": "FALE3192 M. Falerius (1) M. f. Cla.", "birthyear": -175, "deathyear": -75, "dprr_id": 3192, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

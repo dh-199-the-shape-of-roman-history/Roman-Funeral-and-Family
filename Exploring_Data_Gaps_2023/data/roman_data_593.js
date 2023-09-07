@@ -1,0 +1,1 @@
+data = {"start": "593", "persons": {"593": {"id": "593", "name": "AEMI0671 M. Aemilius (32) Q. f. L. n. Barbula", "birthyear": -325, "deathyear": -225, "dprr_id": 671, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

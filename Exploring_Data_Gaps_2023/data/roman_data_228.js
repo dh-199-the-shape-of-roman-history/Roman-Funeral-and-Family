@@ -1,0 +1,1 @@
+data = {"start": "228", "persons": {"228": {"id": "228", "name": "PINA0263 P. Pinarius (5)", "birthyear": -475, "deathyear": -375, "dprr_id": 263, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Purpurea.png"}}, "unions": {}, "links": []}

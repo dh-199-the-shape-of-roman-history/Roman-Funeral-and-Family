@@ -1,0 +1,1 @@
+data = {"start": "175", "persons": {"175": {"id": "175", "name": "ATER0197 A. Aternius (1) (Varus) (Fontinalis)", "birthyear": -500, "deathyear": -375, "dprr_id": 197, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

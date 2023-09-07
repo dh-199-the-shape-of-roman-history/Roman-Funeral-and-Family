@@ -1,0 +1,1 @@
+data = {"start": "2994", "persons": {"2994": {"id": "2994", "name": "CASS3550 L. Cassius (32) Caecianus", "birthyear": -150, "deathyear": -50, "dprr_id": 3550, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

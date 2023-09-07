@@ -1,0 +1,1 @@
+data = {"start": "328", "persons": {"328": {"id": "328", "name": "POST0372 A. Postumius (57) Albinus Regillensis", "birthyear": -450, "deathyear": -325, "dprr_id": 372, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

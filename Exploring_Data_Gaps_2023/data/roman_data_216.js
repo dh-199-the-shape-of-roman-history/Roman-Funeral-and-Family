@@ -1,0 +1,1 @@
+data = {"start": "216", "persons": {"216": {"id": "216", "name": "MANL0245 M. Manlius (50) Capitolinus (Vulso)", "birthyear": -475, "deathyear": -375, "dprr_id": 245, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

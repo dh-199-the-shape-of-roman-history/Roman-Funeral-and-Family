@@ -1,0 +1,1 @@
+data = {"start": "4108", "persons": {"4108": {"id": "4108", "name": "SULP4871  Sulpicia (108)", "birthyear": -219, "deathyear": -125, "dprr_id": 4871, "own_unions": [], "is_certain": true, "gender": "Female", "icon": "Woman.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "3155", "persons": {"3155": {"id": "3155", "name": "CORN3779 L. Cornelius (30) M. f. Rom.", "birthyear": -175, "deathyear": -75, "dprr_id": 3779, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

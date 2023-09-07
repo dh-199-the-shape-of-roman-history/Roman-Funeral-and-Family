@@ -1,0 +1,1 @@
+data = {"start": "932", "persons": {"932": {"id": "932", "name": "SEXT1043 M. Sextius (35) Qui. Ser. Sabinus", "birthyear": -250, "deathyear": -150, "dprr_id": 1043, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

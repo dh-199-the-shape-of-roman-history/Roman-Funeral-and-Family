@@ -1,0 +1,1 @@
+data = {"start": "1511", "persons": {"1511": {"id": "1511", "name": "LICI1725 P. Licinius (111) Lucullus", "birthyear": -150, "deathyear": -50, "dprr_id": 1725, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

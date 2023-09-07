@@ -1,0 +1,1 @@
+data = {"start": "1478", "persons": {"1478": {"id": "1478", "name": "CORN1678 Cn. Cornelius (373) Sisenna", "birthyear": -150, "deathyear": -50, "dprr_id": 1678, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

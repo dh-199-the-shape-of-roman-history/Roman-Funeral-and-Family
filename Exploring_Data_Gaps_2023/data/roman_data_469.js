@@ -1,0 +1,1 @@
+data = {"start": "469", "persons": {"469": {"id": "469", "name": "VALE0537 M. Valerius (68)", "birthyear": -375, "deathyear": -275, "dprr_id": 537, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

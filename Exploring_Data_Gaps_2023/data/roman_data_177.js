@@ -1,0 +1,1 @@
+data = {"start": "177", "persons": {"177": {"id": "177", "name": "GEGA0199 M. Geganius (4) M. f.  Macerinus", "birthyear": -500, "deathyear": -375, "dprr_id": 199, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

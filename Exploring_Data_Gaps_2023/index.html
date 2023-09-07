@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Load third party stylesheets -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+        crossorigin="anonymous">
+</head>
+
+<body>
+    <p>Choose a person whose family tree you wish to view.  Only those born by 130 BCE will be included.</p>
+    <div id="filters" class="container">
+        <div class="row">
+            <div id="personFilter" class="col-6 row">
+                <div class="col-sm-3">
+                    <label for="searchPerson">Person:</label>
+                </div>
+                <div class="col-sm-7">
+                    <input name="searchPerson" id="searchPerson" type="text" maxlength="255" />
+                    <span id="searchedID" hidden></span>
+                </div>
+                <div class="col-sm-2">
+                    <button disabled id="submitSearch">View</button>
+                </div>
+            </div>
+        </div>
+        <span hidden id="startNodeID">3</span>
+    </div>
+</body>
+
+<footer>
+    <!-- load third party libraries for jQuery and Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script src="data/all_people.js"></script>
+    <script>
+        /**
+         * Sets up actions to trigger on person autocomplete.
+         *
+         * @param {object} personJSON All possibilities for person autocomplete.
+         */
+        function setupAutocomplete(personJSON) {
+            const renderItemFunction = function (ul, item) {
+                // In autocomplete options, highlight all text matches.
+                let newText = String(item.label).replace(
+                    // Since our labels have special regex characters, replace them.
+                    new RegExp(this.term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), "gi"),
+                    "<span class=\'ui-state-highlight\'>$&</span>"
+                );
+
+                return jQuery("<li></li>")
+                    .data("item.autocomplete", item)
+                    .append("<div>" + newText + "</div>")
+                    .appendTo(ul);
+            };
+
+            jQuery("#searchPerson").on('input',function(e){
+                jQuery("#submitSearch").attr('disabled', true);
+            });
+            let $personElem = jQuery("#searchPerson").autocomplete({
+                minLength: 3,
+                source: personJSON,
+                autoFocus: true,
+                select: function(event, ui) {
+                    jQuery("#startNodeID").html(ui.item.id);
+                    jQuery("#submitSearch").removeAttr('disabled');
+                    return true;
+                }
+            });
+
+            // Different versions of JQuery use different classes.  Ease updating by allowing all types.
+            personElemAutocomplete = $personElem.data("ui-autocomplete") || $personElem.data("autocomplete");
+            if (personElemAutocomplete) {
+                personElemAutocomplete._renderItem = renderItemFunction;
+            }
+        }
+
+        /**
+         * Adds autocomplete functionality and submit button functionality
+         * on page load.
+         */
+        jQuery(document).ready(function($) {
+            setupAutocomplete(peopleJSON);
+            $('#submitSearch').on('click', function() {
+                window.open('./familytree.html?start_node=' + $('#startNodeID').text(), '_blank')
+            });
+        });
+    </script>
+</footer>

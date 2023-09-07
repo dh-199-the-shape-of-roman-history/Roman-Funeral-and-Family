@@ -1,0 +1,1 @@
+data = {"start": "2633", "persons": {"2633": {"id": "2633", "name": "RABI3106 C. Rabirius (cf. 6) C. f.", "birthyear": -250, "deathyear": -50, "dprr_id": 3106, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

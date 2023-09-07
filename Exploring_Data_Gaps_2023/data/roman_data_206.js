@@ -1,0 +1,1 @@
+data = {"start": "206", "persons": {"206": {"id": "206", "name": "ANTI0235 Sp. Antius (6)", "birthyear": -475, "deathyear": -438, "dprr_id": 235, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

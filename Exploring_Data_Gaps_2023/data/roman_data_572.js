@@ -1,0 +1,1 @@
+data = {"start": "572", "persons": {"572": {"id": "572", "name": "SCAN0650 M. Scantius (1)", "birthyear": -325, "deathyear": -225, "dprr_id": 650, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

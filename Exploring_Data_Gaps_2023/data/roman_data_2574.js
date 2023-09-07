@@ -1,0 +1,1 @@
+data = {"start": "2574", "persons": {"2574": {"id": "2574", "name": "VALL3038 -. Vallius (not in RE)", "birthyear": -250, "deathyear": -50, "dprr_id": 3038, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

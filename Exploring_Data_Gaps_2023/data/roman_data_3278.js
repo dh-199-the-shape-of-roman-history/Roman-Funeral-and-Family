@@ -1,0 +1,1 @@
+data = {"start": "3278", "persons": {"3278": {"id": "3278", "name": "FABI3916 Q. Fabius (52) Buteo", "birthyear": -175, "deathyear": -75, "dprr_id": 3916, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

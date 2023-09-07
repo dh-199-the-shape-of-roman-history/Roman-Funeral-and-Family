@@ -1,0 +1,1 @@
+data = {"start": "317", "persons": {"317": {"id": "317", "name": "PUBL0359 L. Publilius (13) L. f. Voler. n. Philo Vulscus", "birthyear": -450, "deathyear": -350, "dprr_id": 359, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

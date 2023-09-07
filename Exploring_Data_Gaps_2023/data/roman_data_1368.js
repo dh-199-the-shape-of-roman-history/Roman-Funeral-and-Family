@@ -1,0 +1,1 @@
+data = {"start": "1368", "persons": {"1368": {"id": "1368", "name": "PETR1549 M. Petronius (89)", "birthyear": -200, "deathyear": -75, "dprr_id": 1549, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "1208", "persons": {"1208": {"id": "1208", "name": "PLAE1365 C. Plaetorius (4)", "birthyear": -225, "deathyear": -100, "dprr_id": 1365, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

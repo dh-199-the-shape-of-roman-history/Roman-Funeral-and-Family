@@ -1,0 +1,1 @@
+data = {"start": "3910", "persons": {"3910": {"id": "3910", "name": "POET4617 C. Poetelius (2)", "birthyear": -350, "deathyear": -250, "dprr_id": 4617, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

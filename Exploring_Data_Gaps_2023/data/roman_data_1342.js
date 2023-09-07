@@ -1,0 +1,1 @@
+data = {"start": "1342", "persons": {"1342": {"id": "1342", "name": "FULC1518 L. Fulcinnius (2)", "birthyear": -200, "deathyear": -75, "dprr_id": 1518, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

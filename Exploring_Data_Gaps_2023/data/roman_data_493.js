@@ -1,0 +1,1 @@
+data = {"start": "493", "persons": {"493": {"id": "493", "name": "CORN0563 P. Cornelius (316, cf. 315) P. f. Scapula", "birthyear": -375, "deathyear": -301, "dprr_id": 563, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

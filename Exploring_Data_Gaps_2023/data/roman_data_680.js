@@ -1,0 +1,1 @@
+data = {"start": "680", "persons": {"680": {"id": "680", "name": "ATIL0763 C. Atilius (33) A. f. A. n. Bulbus", "birthyear": -275, "deathyear": -175, "dprr_id": 763, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

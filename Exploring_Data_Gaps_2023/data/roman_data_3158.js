@@ -1,0 +1,1 @@
+data = {"start": "3158", "persons": {"3158": {"id": "3158", "name": "CORN3782 P. Cornelius (not in RE) P. f. Scapula", "birthyear": -400, "deathyear": -301, "dprr_id": 3782, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "226", "persons": {"226": {"id": "226", "name": "IULI0261 L. (or C.) Iulius (296, cf. 14) Vop. f. C. n. Iullus", "birthyear": -475, "deathyear": -375, "dprr_id": 261, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

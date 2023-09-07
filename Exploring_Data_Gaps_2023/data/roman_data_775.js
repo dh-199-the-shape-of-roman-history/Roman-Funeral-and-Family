@@ -1,0 +1,1 @@
+data = {"start": "775", "persons": {"775": {"id": "775", "name": "LAET0869 C. Laetorius (2)", "birthyear": -250, "deathyear": -125, "dprr_id": 869, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

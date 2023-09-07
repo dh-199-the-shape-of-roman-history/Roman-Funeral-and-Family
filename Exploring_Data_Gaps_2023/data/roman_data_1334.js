@@ -1,0 +1,1 @@
+data = {"start": "1334", "persons": {"1334": {"id": "1334", "name": "ATIN1509 -. Atinius (not in RE)", "birthyear": -200, "deathyear": -75, "dprr_id": 1509, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

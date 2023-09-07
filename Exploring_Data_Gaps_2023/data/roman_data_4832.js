@@ -1,0 +1,1 @@
+data = {"start": "4832", "persons": {"4832": {"id": "4832", "name": "NOVI5639 -. Novius (5)", "birthyear": -200, "deathyear": -1, "dprr_id": 5639, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

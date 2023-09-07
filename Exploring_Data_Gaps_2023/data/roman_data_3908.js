@@ -1,0 +1,1 @@
+data = {"start": "3908", "persons": {"3908": {"id": "3908", "name": "POMP4615 -.? Pompilius (cf. 2)", "birthyear": -475, "deathyear": -350, "dprr_id": 4615, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

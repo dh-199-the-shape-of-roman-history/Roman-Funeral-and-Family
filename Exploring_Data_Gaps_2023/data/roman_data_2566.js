@@ -1,0 +1,1 @@
+data = {"start": "2566", "persons": {"2566": {"id": "2566", "name": "PORC3029 -. Porcius (cf. 16) (Laeca)", "birthyear": -150, "deathyear": -25, "dprr_id": 3029, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

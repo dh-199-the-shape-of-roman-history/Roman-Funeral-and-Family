@@ -1,0 +1,1 @@
+data = {"start": "4841", "persons": {"4841": {"id": "4841", "name": "PONT5648 -. Pontius (not in RE)", "birthyear": -200, "deathyear": -101, "dprr_id": 5648, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

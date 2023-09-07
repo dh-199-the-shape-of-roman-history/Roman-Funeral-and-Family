@@ -1,0 +1,1 @@
+data = {"start": "2655", "persons": {"2655": {"id": "2655", "name": "ANNI3136 C. Annius (not in RE) C. f. Cam.", "birthyear": -175, "deathyear": -75, "dprr_id": 3136, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

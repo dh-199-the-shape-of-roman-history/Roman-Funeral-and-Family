@@ -1,0 +1,1 @@
+data = {"start": "2833", "persons": {"2833": {"id": "2833", "name": "ATIL3332 Sex.? (At)ilius (not in RE) Sex. f. Cam.", "birthyear": -175, "deathyear": -75, "dprr_id": 3332, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

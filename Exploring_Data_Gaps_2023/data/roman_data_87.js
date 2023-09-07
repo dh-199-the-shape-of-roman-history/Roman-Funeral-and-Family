@@ -1,0 +1,1 @@
+data = {"start": "87", "persons": {"87": {"id": "87", "name": "STAT0103 T. Statius (4)", "birthyear": -525, "deathyear": -425, "dprr_id": 103, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "285", "persons": {"285": {"id": "285", "name": "IULI0325 C. Iulius (295) Sp. f. Vopisci n. Iullus", "birthyear": -450, "deathyear": -393, "dprr_id": 325, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Purpurea.png"}}, "unions": {}, "links": []}

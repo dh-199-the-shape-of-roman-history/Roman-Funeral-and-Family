@@ -1,0 +1,1 @@
+data = {"start": "665", "persons": {"665": {"id": "665", "name": "AURE0748 P. Aurelius (187) Pecuniola", "birthyear": -300, "deathyear": -200, "dprr_id": 748, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

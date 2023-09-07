@@ -1,0 +1,1 @@
+data = {"start": "1195", "persons": {"1195": {"id": "1195", "name": "MUNA1350 C. Munatius (5)", "birthyear": -225, "deathyear": -100, "dprr_id": 1350, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

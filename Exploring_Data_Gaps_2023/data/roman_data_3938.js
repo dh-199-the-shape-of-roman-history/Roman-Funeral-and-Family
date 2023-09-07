@@ -1,0 +1,1 @@
+data = {"start": "3938", "persons": {"3938": {"id": "3938", "name": "CORN4649 P. Cornelius (22) P. f. P. n. Scipio", "birthyear": -195, "deathyear": -170, "dprr_id": 4649, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

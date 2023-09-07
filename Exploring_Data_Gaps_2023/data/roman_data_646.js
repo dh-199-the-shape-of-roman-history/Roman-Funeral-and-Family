@@ -1,0 +1,1 @@
+data = {"start": "646", "persons": {"646": {"id": "646", "name": "SULP0728 C. Sulpicius (81) Q. f. Q. n. Paterculus", "birthyear": -300, "deathyear": -200, "dprr_id": 728, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

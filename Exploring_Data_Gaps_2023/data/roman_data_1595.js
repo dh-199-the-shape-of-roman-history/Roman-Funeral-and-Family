@@ -1,0 +1,1 @@
+data = {"start": "1595", "persons": {"1595": {"id": "1595", "name": "DURO1817 M. Duronius (3)", "birthyear": -150, "deathyear": -25, "dprr_id": 1817, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

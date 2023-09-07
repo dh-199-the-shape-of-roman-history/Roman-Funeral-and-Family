@@ -1,0 +1,1 @@
+data = {"start": "1482", "persons": {"1482": {"id": "1482", "name": "AURE1683 M. Aurelius (215) Scaurus", "birthyear": -150, "deathyear": -105, "dprr_id": 1683, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

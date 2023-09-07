@@ -1,0 +1,1 @@
+data = {"start": "2492", "persons": {"2492": {"id": "2492", "name": "AELI2943 C. (or L.) Aelius (103, cf. 148, 149) Tubero", "birthyear": -250, "deathyear": -216, "dprr_id": 2943, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

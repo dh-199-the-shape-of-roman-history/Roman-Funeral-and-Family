@@ -1,0 +1,1 @@
+data = {"start": "1415", "persons": {"1415": {"id": "1415", "name": "RUPI1602 L. Rupilius (4)", "birthyear": -175, "deathyear": -75, "dprr_id": 1602, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "477", "persons": {"477": {"id": "477", "name": "MINU0545  Minucia (68)", "birthyear": -350, "deathyear": -337, "dprr_id": 545, "own_unions": [], "is_certain": true, "gender": "Female", "icon": "Woman.png"}}, "unions": {}, "links": []}

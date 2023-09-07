@@ -1,0 +1,1 @@
+data = {"start": "3625", "persons": {"3625": {"id": "3625", "name": "OCTA4299 C. Octavius (14) Sca.", "birthyear": -175, "deathyear": -50, "dprr_id": 4299, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

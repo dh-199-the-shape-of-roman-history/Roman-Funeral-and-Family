@@ -1,0 +1,1 @@
+data = {"start": "1302", "persons": {"1302": {"id": "1302", "name": "CORN1469 Cn. Cornelius (269) Merula", "birthyear": -200, "deathyear": -100, "dprr_id": 1469, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

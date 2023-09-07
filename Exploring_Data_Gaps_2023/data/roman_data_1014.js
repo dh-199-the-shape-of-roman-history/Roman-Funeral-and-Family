@@ -1,0 +1,1 @@
+data = {"start": "1014", "persons": {"1014": {"id": "1014", "name": "ATIN1145 M. Atinius (5)", "birthyear": -225, "deathyear": -194, "dprr_id": 1145, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

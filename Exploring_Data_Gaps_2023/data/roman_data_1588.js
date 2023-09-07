@@ -1,0 +1,1 @@
+data = {"start": "1588", "persons": {"1588": {"id": "1588", "name": "SAUF1809 C. Saufeius (3)", "birthyear": -150, "deathyear": -100, "dprr_id": 1809, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

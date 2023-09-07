@@ -1,0 +1,1 @@
+data = {"start": "312", "persons": {"312": {"id": "312", "name": "LICI0354 P. Licinius (43) P. f. P. n. Calvus Esquilinus", "birthyear": -450, "deathyear": -325, "dprr_id": 354, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

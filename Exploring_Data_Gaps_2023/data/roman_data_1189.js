@@ -1,0 +1,1 @@
+data = {"start": "1189", "persons": {"1189": {"id": "1189", "name": "CORN1343 M. Cornelius (259) Mammula", "birthyear": -225, "deathyear": -100, "dprr_id": 1343, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

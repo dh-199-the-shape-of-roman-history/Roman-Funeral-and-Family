@@ -1,0 +1,1 @@
+data = {"start": "596", "persons": {"596": {"id": "596", "name": "CORN0674 P. Cornelius (139) Dolabella", "birthyear": -325, "deathyear": -282, "dprr_id": 674, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

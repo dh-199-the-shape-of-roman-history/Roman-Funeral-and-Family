@@ -1,0 +1,1 @@
+data = {"start": "320", "persons": {"320": {"id": "320", "name": "POMP0362 M. Pomponius (7) L. f. L. n. Rufus", "birthyear": -450, "deathyear": -325, "dprr_id": 362, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "4037", "persons": {"4037": {"id": "4037", "name": "CORN4768 P. Cornelius (cf. 238) Lentulus", "birthyear": -150, "deathyear": -50, "dprr_id": 4768, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

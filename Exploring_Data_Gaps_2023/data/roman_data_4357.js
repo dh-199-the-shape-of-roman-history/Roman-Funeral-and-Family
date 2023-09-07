@@ -1,0 +1,1 @@
+data = {"start": "4357", "persons": {"4357": {"id": "4357", "name": "AEBU5164  Aebutius (1)", "birthyear": -175, "deathyear": -75, "dprr_id": 5164, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

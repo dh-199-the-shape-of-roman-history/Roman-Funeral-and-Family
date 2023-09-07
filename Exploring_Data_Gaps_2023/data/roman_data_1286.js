@@ -1,0 +1,1 @@
+data = {"start": "1286", "persons": {"1286": {"id": "1286", "name": "BAEB1450 A. Baebius (8)", "birthyear": -200, "deathyear": -100, "dprr_id": 1450, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

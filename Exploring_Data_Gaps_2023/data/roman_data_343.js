@@ -1,0 +1,1 @@
+data = {"start": "343", "persons": {"343": {"id": "343", "name": "PAPI0389 L. Papirius (51) Cursor", "birthyear": -425, "deathyear": -325, "dprr_id": 389, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "3080", "persons": {"3080": {"id": "3080", "name": "MARC3655 Q. Marcius (30) C. f.", "birthyear": -150, "deathyear": -50, "dprr_id": 3655, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

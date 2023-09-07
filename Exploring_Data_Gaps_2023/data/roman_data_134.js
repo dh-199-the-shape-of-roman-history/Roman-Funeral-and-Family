@@ -1,0 +1,1 @@
+data = {"start": "134", "persons": {"134": {"id": "134", "name": "FABI0152 M. Fabius (161) Vibulanus", "birthyear": -500, "deathyear": -400, "dprr_id": 152, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

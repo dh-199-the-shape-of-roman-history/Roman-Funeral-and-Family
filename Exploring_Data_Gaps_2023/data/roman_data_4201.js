@@ -1,0 +1,1 @@
+data = {"start": "4201", "persons": {"4201": {"id": "4201", "name": "SULP4979 Ser. Sulpicius (31, 94)", "birthyear": -475, "deathyear": -375, "dprr_id": 4979, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

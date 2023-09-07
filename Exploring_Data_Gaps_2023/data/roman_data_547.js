@@ -1,0 +1,1 @@
+data = {"start": "547", "persons": {"547": {"id": "547", "name": "GENU0623 L. Genucius (15) Aventinensis", "birthyear": -350, "deathyear": -250, "dprr_id": 623, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

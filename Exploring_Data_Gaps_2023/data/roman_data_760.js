@@ -1,0 +1,1 @@
+data = {"start": "760", "persons": {"760": {"id": "760", "name": "CORN0851 Cn. Cornelius (not in RE) Scipio", "birthyear": -250, "deathyear": -150, "dprr_id": 851, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

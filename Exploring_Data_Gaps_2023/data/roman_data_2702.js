@@ -1,0 +1,1 @@
+data = {"start": "2702", "persons": {"2702": {"id": "2702", "name": "GESS3188 P. Gessius (not in RE) P. f. Arn.", "birthyear": -175, "deathyear": -75, "dprr_id": 3188, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

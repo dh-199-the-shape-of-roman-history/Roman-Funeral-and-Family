@@ -1,0 +1,1 @@
+data = {"start": "1186", "persons": {"1186": {"id": "1186", "name": "CICE1340 C. Cicereius (1)", "birthyear": -225, "deathyear": -100, "dprr_id": 1340, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

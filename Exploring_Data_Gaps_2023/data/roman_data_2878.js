@@ -1,0 +1,1 @@
+data = {"start": "2878", "persons": {"2878": {"id": "2878", "name": "CORN3412 -. (Cornelius) (not in RE) Sulla", "birthyear": -250, "deathyear": -50, "dprr_id": 3412, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

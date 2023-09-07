@@ -1,0 +1,1 @@
+data = {"start": "17", "persons": {"17": {"id": "17", "name": "MENE0018  Menenius (12) C. f. - n. Lanatus", "birthyear": -550, "deathyear": -493, "dprr_id": 18, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

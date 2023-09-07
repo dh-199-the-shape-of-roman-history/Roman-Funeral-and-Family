@@ -1,0 +1,1 @@
+data = {"start": "3932", "persons": {"3932": {"id": "3932", "name": "CAPA4639  Caparronia (not in RE)", "birthyear": -275, "deathyear": -266, "dprr_id": 4639, "own_unions": [], "is_certain": true, "gender": "Female", "icon": "Woman.png"}}, "unions": {}, "links": []}

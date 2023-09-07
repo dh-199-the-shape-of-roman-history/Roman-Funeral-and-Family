@@ -1,0 +1,1 @@
+data = {"start": "3102", "persons": {"3102": {"id": "3102", "name": "BAEB3679 -. (Baebius) (cf. 41) Tamphilus", "birthyear": -225, "deathyear": -125, "dprr_id": 3679, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

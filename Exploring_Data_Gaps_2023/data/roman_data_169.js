@@ -1,0 +1,1 @@
+data = {"start": "169", "persons": {"169": {"id": "169", "name": "MANI0191 Sex. Manilius (15)", "birthyear": -500, "deathyear": -375, "dprr_id": 191, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

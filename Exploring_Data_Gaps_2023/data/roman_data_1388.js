@@ -1,0 +1,1 @@
+data = {"start": "1388", "persons": {"1388": {"id": "1388", "name": "CLAU1570 Ti. Claudius (63) Asellus", "birthyear": -175, "deathyear": -75, "dprr_id": 1570, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

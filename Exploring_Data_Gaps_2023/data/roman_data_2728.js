@@ -1,0 +1,1 @@
+data = {"start": "2728", "persons": {"2728": {"id": "2728", "name": "MUNI3215 M. Munius (not in RE) M. f. Lem.", "birthyear": -175, "deathyear": -75, "dprr_id": 3215, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

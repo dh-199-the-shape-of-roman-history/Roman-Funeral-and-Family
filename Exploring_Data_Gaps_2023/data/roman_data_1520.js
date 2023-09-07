@@ -1,0 +1,1 @@
+data = {"start": "1520", "persons": {"1520": {"id": "1520", "name": "TURP1735 T. Turpilius (10) Silanus", "birthyear": -150, "deathyear": -109, "dprr_id": 1735, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

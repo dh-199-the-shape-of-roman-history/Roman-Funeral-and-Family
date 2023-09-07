@@ -1,0 +1,1 @@
+data = {"start": "3824", "persons": {"3824": {"id": "3824", "name": "VETT4519 T. Vettius (Minucius 29?)", "birthyear": -150, "deathyear": -50, "dprr_id": 4519, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

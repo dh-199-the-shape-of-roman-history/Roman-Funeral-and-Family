@@ -1,0 +1,1 @@
+data = {"start": "2684", "persons": {"2684": {"id": "2684", "name": "COPO3170 L. Coponius (4) L. f. Col.", "birthyear": -175, "deathyear": -75, "dprr_id": 3170, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "817", "persons": {"817": {"id": "817", "name": "FUND0913 M. Fundanius (6) Fundulus", "birthyear": -250, "deathyear": -150, "dprr_id": 913, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

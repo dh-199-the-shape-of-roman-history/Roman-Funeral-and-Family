@@ -1,0 +1,1 @@
+data = {"start": "748", "persons": {"748": {"id": "748", "name": "FULV0838 C. Fulvius (10, cf. 52)", "birthyear": -250, "deathyear": -150, "dprr_id": 838, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

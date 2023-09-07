@@ -1,0 +1,1 @@
+data = {"start": "3104", "persons": {"3104": {"id": "3104", "name": "MINU3681 Ti. Minucius (35) C. f. Augurinus", "birthyear": -175, "deathyear": -75, "dprr_id": 3681, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

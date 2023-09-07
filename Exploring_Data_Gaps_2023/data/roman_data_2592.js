@@ -1,0 +1,1 @@
+data = {"start": "2592", "persons": {"2592": {"id": "2592", "name": "SERG3060 M. Sergius (18) M'. f.", "birthyear": -275, "deathyear": -175, "dprr_id": 3060, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

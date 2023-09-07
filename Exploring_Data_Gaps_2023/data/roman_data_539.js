@@ -1,0 +1,1 @@
+data = {"start": "539", "persons": {"539": {"id": "539", "name": "IUVE0613 -. Iuventius (1) Pap.", "birthyear": -350, "deathyear": -250, "dprr_id": 613, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

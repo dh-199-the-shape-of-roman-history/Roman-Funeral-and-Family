@@ -1,0 +1,1 @@
+data = {"start": "2528", "persons": {"2528": {"id": "2528", "name": "MENA2988 P. Menates (1) P. f.", "birthyear": -200, "deathyear": -50, "dprr_id": 2988, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

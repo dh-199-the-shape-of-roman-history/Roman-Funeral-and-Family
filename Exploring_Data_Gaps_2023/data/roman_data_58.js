@@ -1,0 +1,1 @@
+data = {"start": "58", "persons": {"58": {"id": "58", "name": "AQUI0062 C. Aquillius (8) (Tuscus)", "birthyear": -525, "deathyear": -425, "dprr_id": 62, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "4249", "persons": {"4249": {"id": "4249", "name": "CARV5044 M. Carvilius (2) Spoletinus", "birthyear": -200, "deathyear": -100, "dprr_id": 5044, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "867", "persons": {"867": {"id": "867", "name": "AQUI0972 P. Aquillius (12, cf. 13)", "birthyear": -250, "deathyear": -150, "dprr_id": 972, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

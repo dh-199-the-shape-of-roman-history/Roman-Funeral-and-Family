@@ -1,0 +1,1 @@
+data = {"start": "945", "persons": {"945": {"id": "945", "name": "LAET1058 L. Laetorius (7)", "birthyear": -250, "deathyear": -150, "dprr_id": 1058, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "4866", "persons": {"4866": {"id": "4866", "name": "TING5674 T. Tinga or Tinca (Tinca)", "birthyear": -200, "deathyear": -1, "dprr_id": 5674, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

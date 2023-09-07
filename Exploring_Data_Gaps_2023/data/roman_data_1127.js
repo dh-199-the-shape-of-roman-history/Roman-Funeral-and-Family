@@ -1,0 +1,1 @@
+data = {"start": "1127", "persons": {"1127": {"id": "1127", "name": "LUCR1272 C. Lucretius (23) Gallus", "birthyear": -225, "deathyear": -100, "dprr_id": 1272, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

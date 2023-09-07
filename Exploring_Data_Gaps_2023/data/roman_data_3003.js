@@ -1,0 +1,1 @@
+data = {"start": "3003", "persons": {"3003": {"id": "3003", "name": "ITIU3560 L. Itius or Iteius or Iteilius (Itius 1)", "birthyear": -200, "deathyear": -75, "dprr_id": 3560, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

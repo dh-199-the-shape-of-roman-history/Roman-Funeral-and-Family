@@ -1,0 +1,1 @@
+data = {"start": "2912", "persons": {"2912": {"id": "2912", "name": "ANNI3451 C. Annius (8)", "birthyear": -350, "deathyear": -150, "dprr_id": 3451, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

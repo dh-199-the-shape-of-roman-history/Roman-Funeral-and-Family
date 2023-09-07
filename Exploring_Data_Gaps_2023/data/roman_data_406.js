@@ -1,0 +1,1 @@
+data = {"start": "406", "persons": {"406": {"id": "406", "name": "SERV0461 Sp. Servilius (74) Priscus", "birthyear": -425, "deathyear": -325, "dprr_id": 461, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Purpurea.png"}}, "unions": {}, "links": []}

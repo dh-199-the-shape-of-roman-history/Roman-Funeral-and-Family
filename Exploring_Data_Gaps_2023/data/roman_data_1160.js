@@ -1,0 +1,1 @@
+data = {"start": "1160", "persons": {"1160": {"id": "1160", "name": "NUMI1310 C. Numisius (2)", "birthyear": -225, "deathyear": -125, "dprr_id": 1310, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

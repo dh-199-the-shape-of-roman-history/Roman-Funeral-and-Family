@@ -1,0 +1,1 @@
+data = {"start": "2636", "persons": {"2636": {"id": "2636", "name": "COPO3112 Q. Coponius (7, Cosconius 10) Q. f.", "birthyear": -200, "deathyear": -100, "dprr_id": 3112, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

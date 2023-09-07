@@ -1,0 +1,1 @@
+data = {"start": "2876", "persons": {"2876": {"id": "2876", "name": "MARC3408 M. Marcius (cf. 23)", "birthyear": -250, "deathyear": -50, "dprr_id": 3408, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

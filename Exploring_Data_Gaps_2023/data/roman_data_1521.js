@@ -1,0 +1,1 @@
+data = {"start": "1521", "persons": {"1521": {"id": "1521", "name": "MALL1739 Cn. Mallius (13) Cn. f. Maximus", "birthyear": -150, "deathyear": -100, "dprr_id": 1739, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

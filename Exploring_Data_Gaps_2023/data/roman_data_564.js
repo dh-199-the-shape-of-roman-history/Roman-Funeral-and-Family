@@ -1,0 +1,1 @@
+data = {"start": "564", "persons": {"564": {"id": "564", "name": "CURI0641 M'. Curius (9) M'. f. M'. n. Cor. Dentatus", "birthyear": -324, "deathyear": -270, "dprr_id": 641, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

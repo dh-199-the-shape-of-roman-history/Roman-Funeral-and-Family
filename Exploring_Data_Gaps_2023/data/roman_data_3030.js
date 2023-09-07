@@ -1,0 +1,1 @@
+data = {"start": "3030", "persons": {"3030": {"id": "3030", "name": "AURE3595 M. Aurelius (105) Cotta", "birthyear": -175, "deathyear": -75, "dprr_id": 3595, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

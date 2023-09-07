@@ -1,0 +1,1 @@
+data = {"start": "792", "persons": {"792": {"id": "792", "name": "STAT0886 Marius Statilius (7)", "birthyear": -250, "deathyear": -150, "dprr_id": 886, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

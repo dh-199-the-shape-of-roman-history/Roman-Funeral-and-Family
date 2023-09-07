@@ -1,0 +1,1 @@
+data = {"start": "1233", "persons": {"1233": {"id": "1233", "name": "COEL1393 L. Coelius (1) Antipater", "birthyear": -225, "deathyear": -100, "dprr_id": 1393, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

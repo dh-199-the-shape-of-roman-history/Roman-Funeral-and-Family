@@ -1,0 +1,1 @@
+data = {"start": "609", "persons": {"609": {"id": "609", "name": "GENU0687 C. Genucius (17) L. f. L. n. Clepsina", "birthyear": -325, "deathyear": -200, "dprr_id": 687, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "1476", "persons": {"1476": {"id": "1476", "name": "ANNI1676 M. Annius (not in RE)", "birthyear": -150, "deathyear": -50, "dprr_id": 1676, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

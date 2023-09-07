@@ -1,0 +1,1 @@
+data = {"start": "1048", "persons": {"1048": {"id": "1048", "name": "CLAU1184 M. Claudius (204) Lepidus", "birthyear": -225, "deathyear": -125, "dprr_id": 1184, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

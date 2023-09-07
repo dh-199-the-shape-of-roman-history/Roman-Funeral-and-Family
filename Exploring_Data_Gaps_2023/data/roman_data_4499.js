@@ -1,0 +1,1 @@
+data = {"start": "4499", "persons": {"4499": {"id": "4499", "name": "PUBL5306 L. Publicius (10)", "birthyear": -150, "deathyear": -25, "dprr_id": 5306, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

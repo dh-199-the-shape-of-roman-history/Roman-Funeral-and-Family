@@ -1,0 +1,1 @@
+data = {"start": "1600", "persons": {"1600": {"id": "1600", "name": "GELL1822 L. Gellius (17) L. f. L. n. Tro. Poplicola", "birthyear": -135, "deathyear": -50, "dprr_id": 1822, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

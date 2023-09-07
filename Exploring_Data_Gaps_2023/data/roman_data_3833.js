@@ -1,0 +1,1 @@
+data = {"start": "3833", "persons": {"3833": {"id": "3833", "name": "AELI4530 L. Aelius (144) Mae. Stilo Praeconinus", "birthyear": -154, "deathyear": -74, "dprr_id": 4530, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

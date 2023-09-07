@@ -1,0 +1,1 @@
+data = {"start": "3294", "persons": {"3294": {"id": "3294", "name": "FLAM3933  Flaminia (10)", "birthyear": -150, "deathyear": -50, "dprr_id": 3933, "own_unions": [], "is_certain": true, "gender": "Female", "icon": "Woman.png"}}, "unions": {}, "links": []}

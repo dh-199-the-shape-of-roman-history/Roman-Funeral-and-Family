@@ -1,0 +1,1 @@
+data = {"start": "1193", "persons": {"1193": {"id": "1193", "name": "APPU1347 Q. Appuleius (16)", "birthyear": -225, "deathyear": -100, "dprr_id": 1347, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

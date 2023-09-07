@@ -1,0 +1,1 @@
+data = {"start": "3465", "persons": {"3465": {"id": "3465", "name": "PLAN4116 Cn. Plancius (3) Ter.", "birthyear": -150, "deathyear": -25, "dprr_id": 4116, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

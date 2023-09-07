@@ -1,0 +1,1 @@
+data = {"start": "24", "persons": {"24": {"id": "24", "name": "AEBU0025 T. Aebutius (15) T. f. - n. Helva", "birthyear": -550, "deathyear": -425, "dprr_id": 25, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

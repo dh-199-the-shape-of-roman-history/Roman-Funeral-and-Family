@@ -1,0 +1,1 @@
+data = {"start": "1219", "persons": {"1219": {"id": "1219", "name": "FULV1378 M. Fulvius (92) (Nobilior)", "birthyear": -225, "deathyear": -100, "dprr_id": 1378, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

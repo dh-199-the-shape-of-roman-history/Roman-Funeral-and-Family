@@ -1,0 +1,1 @@
+data = {"start": "1103", "persons": {"1103": {"id": "1103", "name": "NAEV1246 M. Naevius (3)", "birthyear": -225, "deathyear": -125, "dprr_id": 1246, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

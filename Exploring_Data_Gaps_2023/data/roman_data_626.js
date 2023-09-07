@@ -1,0 +1,1 @@
+data = {"start": "626", "persons": {"626": {"id": "626", "name": "FABI0705 Q. Fabius (30, cf. 116)", "birthyear": -300, "deathyear": -250, "dprr_id": 705, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

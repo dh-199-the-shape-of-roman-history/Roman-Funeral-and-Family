@@ -1,0 +1,1 @@
+data = {"start": "1365", "persons": {"1365": {"id": "1365", "name": "NIGI1546 C. Nigidius (1)", "birthyear": -200, "deathyear": -75, "dprr_id": 1546, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

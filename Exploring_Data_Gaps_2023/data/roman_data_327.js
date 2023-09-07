@@ -1,0 +1,1 @@
+data = {"start": "327", "persons": {"327": {"id": "327", "name": "SERG0371 L. Sergius (26) M'. f. L. n. Fidenas", "birthyear": -450, "deathyear": -325, "dprr_id": 371, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

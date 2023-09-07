@@ -1,0 +1,1 @@
+data = {"start": "2938", "persons": {"2938": {"id": "2938", "name": "ACIL3483 -. Acilius or Naevius (not in RE) Balbus", "birthyear": -200, "deathyear": -100, "dprr_id": 3483, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

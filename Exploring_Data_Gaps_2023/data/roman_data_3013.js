@@ -1,0 +1,1 @@
+data = {"start": "3013", "persons": {"3013": {"id": "3013", "name": "POMP3572 L. Pomponius (4, 22) Molo", "birthyear": -150, "deathyear": -25, "dprr_id": 3572, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

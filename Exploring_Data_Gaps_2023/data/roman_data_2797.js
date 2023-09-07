@@ -1,0 +1,1 @@
+data = {"start": "2797", "persons": {"2797": {"id": "2797", "name": "AFIN3289 L. Afinius (not in RE) L. f. Ouf.", "birthyear": -175, "deathyear": -75, "dprr_id": 3289, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

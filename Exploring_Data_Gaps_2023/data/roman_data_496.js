@@ -1,0 +1,1 @@
+data = {"start": "496", "persons": {"496": {"id": "496", "name": "FLAV0566 M. Flavius (19) Pol.", "birthyear": -375, "deathyear": -250, "dprr_id": 566, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

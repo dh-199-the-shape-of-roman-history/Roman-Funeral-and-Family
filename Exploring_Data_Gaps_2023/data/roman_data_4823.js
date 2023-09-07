@@ -1,0 +1,1 @@
+data = {"start": "4823", "persons": {"4823": {"id": "4823", "name": "FURI5630 A. Furius (34) Antias", "birthyear": -200, "deathyear": -1, "dprr_id": 5630, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

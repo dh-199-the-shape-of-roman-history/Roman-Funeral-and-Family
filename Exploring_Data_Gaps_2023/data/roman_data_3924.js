@@ -1,0 +1,1 @@
+data = {"start": "3924", "persons": {"3924": {"id": "3924", "name": "TEID4631 P. Teidius (1) P. f. Pom.", "birthyear": -250, "deathyear": -50, "dprr_id": 4631, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "412", "persons": {"412": {"id": "412", "name": "SEXT0469 L. Sextius (36) Sex. f. N. n. Sextinus Lateranus", "birthyear": -400, "deathyear": -300, "dprr_id": 469, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

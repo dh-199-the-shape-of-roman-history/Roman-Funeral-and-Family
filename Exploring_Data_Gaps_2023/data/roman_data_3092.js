@@ -1,0 +1,1 @@
+data = {"start": "3092", "persons": {"3092": {"id": "3092", "name": "ATIL3668 -. (Atilius) (57) Saranus", "birthyear": -200, "deathyear": -100, "dprr_id": 3668, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

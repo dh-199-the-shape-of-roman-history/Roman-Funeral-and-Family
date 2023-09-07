@@ -1,0 +1,1 @@
+data = {"start": "1590", "persons": {"1590": {"id": "1590", "name": "CALI1812 Q. Calidius (5)", "birthyear": -150, "deathyear": -25, "dprr_id": 1812, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

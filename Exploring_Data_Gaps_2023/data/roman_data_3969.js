@@ -1,0 +1,1 @@
+data = {"start": "3969", "persons": {"3969": {"id": "3969", "name": "OTAC4689 L. Otacilius (not in RE) P. f. Rufus", "birthyear": -150, "deathyear": -25, "dprr_id": 4689, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

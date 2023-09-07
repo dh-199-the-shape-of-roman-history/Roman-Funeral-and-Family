@@ -1,0 +1,1 @@
+data = {"start": "252", "persons": {"252": {"id": "252", "name": "CANU0289 M. Canuleius (9)", "birthyear": -475, "deathyear": -350, "dprr_id": 289, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

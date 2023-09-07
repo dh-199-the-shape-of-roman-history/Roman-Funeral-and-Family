@@ -1,0 +1,1 @@
+data = {"start": "1395", "persons": {"1395": {"id": "1395", "name": "CURI1577 C. Curiatius (3, cf. 10, 11)", "birthyear": -175, "deathyear": -75, "dprr_id": 1577, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

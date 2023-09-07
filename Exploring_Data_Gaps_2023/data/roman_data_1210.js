@@ -1,0 +1,1 @@
+data = {"start": "1210", "persons": {"1210": {"id": "1210", "name": "CANI1367 C. Caninius (8) Rebilus", "birthyear": -225, "deathyear": -100, "dprr_id": 1367, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

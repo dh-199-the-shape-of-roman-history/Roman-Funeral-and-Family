@@ -1,0 +1,1 @@
+data = {"start": "2631", "persons": {"2631": {"id": "2631", "name": "SEMP3104 M. (Sempronius) (not in RE) (Rutilus)", "birthyear": -150, "deathyear": 50, "dprr_id": 3104, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

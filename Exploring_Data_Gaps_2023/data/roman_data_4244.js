@@ -1,0 +1,1 @@
+data = {"start": "4244", "persons": {"4244": {"id": "4244", "name": "DECI5039 N. Decimius (6)", "birthyear": -250, "deathyear": -150, "dprr_id": 5039, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

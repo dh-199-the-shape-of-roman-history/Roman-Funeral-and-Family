@@ -1,0 +1,1 @@
+data = {"start": "1041", "persons": {"1041": {"id": "1041", "name": "AURU1177 L. Aurunculeius (4)", "birthyear": -225, "deathyear": -175, "dprr_id": 1177, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "963", "persons": {"963": {"id": "963", "name": "FURI1081 M. Furius (56) Crassipes", "birthyear": -250, "deathyear": -100, "dprr_id": 1081, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

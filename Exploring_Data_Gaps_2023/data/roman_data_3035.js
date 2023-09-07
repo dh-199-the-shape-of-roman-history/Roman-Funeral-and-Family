@@ -1,0 +1,1 @@
+data = {"start": "3035", "persons": {"3035": {"id": "3035", "name": "CIPI3600 M. Cipius (2) M. f.", "birthyear": -150, "deathyear": -50, "dprr_id": 3600, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

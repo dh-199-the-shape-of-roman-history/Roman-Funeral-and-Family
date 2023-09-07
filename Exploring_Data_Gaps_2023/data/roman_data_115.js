@@ -1,0 +1,1 @@
+data = {"start": "115", "persons": {"115": {"id": "115", "name": "VALE0132 M'. Valerius (67, cf. 243) (Maximus)", "birthyear": -500, "deathyear": -463, "dprr_id": 132, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

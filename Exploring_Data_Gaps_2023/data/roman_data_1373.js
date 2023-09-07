@@ -1,0 +1,1 @@
+data = {"start": "1373", "persons": {"1373": {"id": "1373", "name": "LICI1554 -. Licinius (130) Nerva", "birthyear": -175, "deathyear": -75, "dprr_id": 1554, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

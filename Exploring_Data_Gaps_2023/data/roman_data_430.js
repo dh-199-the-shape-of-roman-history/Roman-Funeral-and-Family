@@ -1,0 +1,1 @@
+data = {"start": "430", "persons": {"430": {"id": "430", "name": "POPI0491 M. Popillius (20) M. f. C. n. Laenas", "birthyear": -392, "deathyear": -275, "dprr_id": 491, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "353", "persons": {"353": {"id": "353", "name": "FABI0403 C. (or K.) Fabius (68) Dorsuo", "birthyear": -425, "deathyear": -325, "dprr_id": 403, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

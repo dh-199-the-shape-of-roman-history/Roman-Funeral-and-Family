@@ -1,0 +1,1 @@
+data = {"start": "4248", "persons": {"4248": {"id": "4248", "name": "AFRA5043 C. Afranius (4)", "birthyear": -200, "deathyear": -100, "dprr_id": 5043, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

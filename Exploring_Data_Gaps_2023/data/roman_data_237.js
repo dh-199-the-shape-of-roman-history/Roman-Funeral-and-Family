@@ -1,0 +1,1 @@
+data = {"start": "237", "persons": {"237": {"id": "237", "name": "IULI0273 Sex. Iulius (300) Iullus", "birthyear": -475, "deathyear": -350, "dprr_id": 273, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

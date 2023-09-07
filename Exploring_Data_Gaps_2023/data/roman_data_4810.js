@@ -1,0 +1,1 @@
+data = {"start": "4810", "persons": {"4810": {"id": "4810", "name": "ALEN5617 L. Alenus (not in RE)", "birthyear": -200, "deathyear": -45, "dprr_id": 5617, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

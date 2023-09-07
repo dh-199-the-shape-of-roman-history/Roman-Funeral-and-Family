@@ -1,0 +1,1 @@
+data = {"start": "1179", "persons": {"1179": {"id": "1179", "name": "FURI1332 P. Furius (82) Philus", "birthyear": -225, "deathyear": -150, "dprr_id": 1332, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

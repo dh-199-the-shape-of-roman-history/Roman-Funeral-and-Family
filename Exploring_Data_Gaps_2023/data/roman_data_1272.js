@@ -1,0 +1,1 @@
+data = {"start": "1272", "persons": {"1272": {"id": "1272", "name": "SEMP1436 T. Sempronius (72) Musca", "birthyear": -200, "deathyear": -100, "dprr_id": 1436, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

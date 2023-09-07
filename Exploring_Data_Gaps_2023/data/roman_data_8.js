@@ -1,0 +1,1 @@
+data = {"start": "8", "persons": {"8": {"id": "8", "name": "PAPI0008 C. Papirius (10)", "birthyear": -550, "deathyear": -450, "dprr_id": 8, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

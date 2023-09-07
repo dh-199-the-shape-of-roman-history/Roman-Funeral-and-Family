@@ -1,0 +1,1 @@
+data = {"start": "170", "persons": {"170": {"id": "170", "name": "OPPI0192 M. Oppius (13)", "birthyear": -500, "deathyear": -375, "dprr_id": 192, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

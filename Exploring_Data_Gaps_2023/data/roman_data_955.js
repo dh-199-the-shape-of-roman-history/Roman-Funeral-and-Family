@@ -1,0 +1,1 @@
+data = {"start": "955", "persons": {"955": {"id": "955", "name": "FULV1072 M. Fulvius (56) Flaccus", "birthyear": -250, "deathyear": -125, "dprr_id": 1072, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

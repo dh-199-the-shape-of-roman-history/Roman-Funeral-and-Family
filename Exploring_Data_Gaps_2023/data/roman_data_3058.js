@@ -1,0 +1,1 @@
+data = {"start": "3058", "persons": {"3058": {"id": "3058", "name": "OPEI3626 -. Opei[mius] (1, cf. Opimius 10)", "birthyear": -200, "deathyear": -100, "dprr_id": 3626, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

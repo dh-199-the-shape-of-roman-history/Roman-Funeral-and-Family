@@ -1,0 +1,1 @@
+data = {"start": "670", "persons": {"670": {"id": "670", "name": "IUNI0753 L. Iunius (133) C. f. L. n. Pullus", "birthyear": -300, "deathyear": -249, "dprr_id": 753, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

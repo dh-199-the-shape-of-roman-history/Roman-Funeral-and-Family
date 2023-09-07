@@ -1,0 +1,1 @@
+data = {"start": "321", "persons": {"321": {"id": "321", "name": "DUIL0363 C. Duillius (8) K. f. K. n. Longus", "birthyear": -450, "deathyear": -325, "dprr_id": 363, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

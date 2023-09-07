@@ -1,0 +1,1 @@
+data = {"start": "157", "persons": {"157": {"id": "157", "name": "OPPI0178 Sp. Oppius (27) Cornicen", "birthyear": -500, "deathyear": -449, "dprr_id": 178, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

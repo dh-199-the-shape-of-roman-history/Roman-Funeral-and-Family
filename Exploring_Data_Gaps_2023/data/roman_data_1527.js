@@ -1,0 +1,1 @@
+data = {"start": "1527", "persons": {"1527": {"id": "1527", "name": "MANL1745 T. Manlius (61, cf. 16) Mancinus", "birthyear": -150, "deathyear": -50, "dprr_id": 1745, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

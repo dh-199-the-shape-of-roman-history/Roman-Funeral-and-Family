@@ -1,0 +1,1 @@
+data = {"start": "32", "persons": {"32": {"id": "32", "name": "LAET0034 M. Laetorius (8)", "birthyear": -550, "deathyear": -425, "dprr_id": 34, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "306", "persons": {"306": {"id": "306", "name": "ACUT0348 M. Acutius (1)", "birthyear": -450, "deathyear": -350, "dprr_id": 348, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

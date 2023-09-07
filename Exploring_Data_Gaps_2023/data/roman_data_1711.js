@@ -1,0 +1,1 @@
+data = {"start": "1711", "persons": {"1711": {"id": "1711", "name": "FABI1964 C. Fabius (82) C. f. Q. n. Mae. Hadrianus", "birthyear": -150, "deathyear": -83, "dprr_id": 1964, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

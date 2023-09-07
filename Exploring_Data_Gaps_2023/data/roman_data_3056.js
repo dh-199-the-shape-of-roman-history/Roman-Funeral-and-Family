@@ -1,0 +1,1 @@
+data = {"start": "3056", "persons": {"3056": {"id": "3056", "name": "PINA3623 -. Pinarius (14) Natta", "birthyear": -200, "deathyear": -75, "dprr_id": 3623, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

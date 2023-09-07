@@ -1,0 +1,1 @@
+data = {"start": "771", "persons": {"771": {"id": "771", "name": "CINC0862 P. Cincius (not in RE)", "birthyear": -250, "deathyear": -150, "dprr_id": 862, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

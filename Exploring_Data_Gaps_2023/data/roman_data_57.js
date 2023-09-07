@@ -1,0 +1,1 @@
+data = {"start": "57", "persons": {"57": {"id": "57", "name": "SICI0061 T. Sicinius (13, cf. Siccius 2) (Sabinus)", "birthyear": -525, "deathyear": -425, "dprr_id": 61, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

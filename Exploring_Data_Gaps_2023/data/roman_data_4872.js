@@ -1,0 +1,1 @@
+data = {"start": "4872", "persons": {"4872": {"id": "4872", "name": "VIGE5680 M. Vigellius (1)", "birthyear": -200, "deathyear": -101, "dprr_id": 5680, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

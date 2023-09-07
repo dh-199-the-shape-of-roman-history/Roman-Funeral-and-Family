@@ -1,0 +1,1 @@
+data = {"start": "1498", "persons": {"1498": {"id": "1498", "name": "PLOT1706 Q. Plotius (12) A. f.", "birthyear": -150, "deathyear": -50, "dprr_id": 1706, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

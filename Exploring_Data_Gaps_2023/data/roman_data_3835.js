@@ -1,0 +1,1 @@
+data = {"start": "3835", "persons": {"3835": {"id": "3835", "name": "AXIU4532 L. Axius (3) Qui. (Naso)", "birthyear": -175, "deathyear": 50, "dprr_id": 4532, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

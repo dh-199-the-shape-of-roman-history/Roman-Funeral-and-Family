@@ -1,0 +1,1 @@
+data = {"start": "662", "persons": {"662": {"id": "662", "name": "FURI0745 C. Furius (75) C. f. C. n. Pacilus", "birthyear": -300, "deathyear": -200, "dprr_id": 745, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

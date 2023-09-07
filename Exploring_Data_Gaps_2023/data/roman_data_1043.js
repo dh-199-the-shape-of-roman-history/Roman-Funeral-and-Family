@@ -1,0 +1,1 @@
+data = {"start": "1043", "persons": {"1043": {"id": "1043", "name": "FURI1179 C. Furius (31) Aculeo", "birthyear": -225, "deathyear": -125, "dprr_id": 1179, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

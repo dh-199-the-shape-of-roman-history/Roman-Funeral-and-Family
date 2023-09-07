@@ -1,0 +1,1 @@
+data = {"start": "158", "persons": {"158": {"id": "158", "name": "RABU0179 M'. Rabuleius (2)", "birthyear": -500, "deathyear": -375, "dprr_id": 179, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

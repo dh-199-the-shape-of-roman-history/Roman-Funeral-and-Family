@@ -1,0 +1,1 @@
+data = {"start": "899", "persons": {"899": {"id": "899", "name": "HOST1007 A. Hostilius (10) (Cato)", "birthyear": -250, "deathyear": -125, "dprr_id": 1007, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

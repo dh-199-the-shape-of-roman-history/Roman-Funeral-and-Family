@@ -1,0 +1,1 @@
+data = {"start": "2825", "persons": {"2825": {"id": "2825", "name": "ANNI3323 L. Annius (not in RE)", "birthyear": -350, "deathyear": -250, "dprr_id": 3323, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

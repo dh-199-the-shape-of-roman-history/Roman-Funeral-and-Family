@@ -1,0 +1,1 @@
+data = {"start": "6", "persons": {"6": {"id": "6", "name": "MINU0006 M. Minucius (17, cf. 32) (Augurinus)", "birthyear": -550, "deathyear": -450, "dprr_id": 6, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

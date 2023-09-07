@@ -1,0 +1,1 @@
+data = {"start": "2505", "persons": {"2505": {"id": "2505", "name": "DOMI2957 -. Domitius (40) Calvinus", "birthyear": -350, "deathyear": -50, "dprr_id": 2957, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

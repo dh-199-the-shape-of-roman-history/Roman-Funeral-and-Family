@@ -1,0 +1,1 @@
+data = {"start": "2986", "persons": {"2986": {"id": "2986", "name": "FULV3536 Cn. Fulvius (14)", "birthyear": -150, "deathyear": -50, "dprr_id": 3536, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "1076", "persons": {"1076": {"id": "1076", "name": "PETI1218 Q. Petillius (4)", "birthyear": -225, "deathyear": -125, "dprr_id": 1218, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "3939", "persons": {"3939": {"id": "3939", "name": "FABI4650 Ser. Fabius (128) Q. f. Q. n. Pictor", "birthyear": -190, "deathyear": -75, "dprr_id": 4650, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

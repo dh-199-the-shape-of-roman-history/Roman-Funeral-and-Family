@@ -1,0 +1,1 @@
+data = {"start": "3031", "persons": {"3031": {"id": "3031", "name": "AURE3596 M. Aurelius (cf. 215, 216) Scaurus", "birthyear": -150, "deathyear": -50, "dprr_id": 3596, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

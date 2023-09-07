@@ -1,0 +1,1 @@
+data = {"start": "221", "persons": {"221": {"id": "221", "name": "FURI0252 L. Furius (65) Sp. f. - n. Medullinus", "birthyear": -475, "deathyear": -325, "dprr_id": 252, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

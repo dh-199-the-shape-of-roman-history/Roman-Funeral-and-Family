@@ -1,0 +1,1 @@
+data = {"start": "405", "persons": {"405": {"id": "405", "name": "GEGA0460 L. Geganius (2) (Macerinus)", "birthyear": -425, "deathyear": -325, "dprr_id": 460, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

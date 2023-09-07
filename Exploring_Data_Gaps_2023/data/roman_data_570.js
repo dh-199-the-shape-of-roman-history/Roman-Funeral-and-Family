@@ -1,0 +1,1 @@
+data = {"start": "570", "persons": {"570": {"id": "570", "name": "OPIM0648 L. Opimius (12) Pansa", "birthyear": -325, "deathyear": -294, "dprr_id": 648, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

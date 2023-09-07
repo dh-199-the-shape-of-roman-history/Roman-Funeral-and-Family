@@ -1,0 +1,1 @@
+data = {"start": "4", "persons": {"4": {"id": "4", "name": "LUCR0004 Sp. Lucretius (30) T. ? f. - n. Tricipitinus", "birthyear": -550, "deathyear": -509, "dprr_id": 4, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

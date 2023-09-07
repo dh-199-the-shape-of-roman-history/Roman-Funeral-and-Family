@@ -1,0 +1,1 @@
+data = {"start": "3286", "persons": {"3286": {"id": "3286", "name": "CORN3924  Cornelia (418)", "birthyear": -150, "deathyear": -25, "dprr_id": 3924, "own_unions": [], "is_certain": true, "gender": "Female", "icon": "Woman.png"}}, "unions": {}, "links": []}

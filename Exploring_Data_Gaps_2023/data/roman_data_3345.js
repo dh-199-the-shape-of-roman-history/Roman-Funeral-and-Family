@@ -1,0 +1,1 @@
+data = {"start": "3345", "persons": {"3345": {"id": "3345", "name": "POMP3985 Cn. Pompeius (47) Theophanes", "birthyear": -150, "deathyear": -50, "dprr_id": 3985, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "372", "persons": {"372": {"id": "372", "name": "FABI0424 -. Fabius (not in RE)", "birthyear": -425, "deathyear": -325, "dprr_id": 424, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

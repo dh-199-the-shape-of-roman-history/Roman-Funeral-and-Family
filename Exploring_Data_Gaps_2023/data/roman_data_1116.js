@@ -1,0 +1,1 @@
+data = {"start": "1116", "persons": {"1116": {"id": "1116", "name": "AURE1260 L. Aurelius (97) Cotta", "birthyear": -225, "deathyear": -125, "dprr_id": 1260, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

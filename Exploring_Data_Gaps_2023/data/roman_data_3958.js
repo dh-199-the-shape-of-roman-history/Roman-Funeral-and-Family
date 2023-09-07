@@ -1,0 +1,1 @@
+data = {"start": "3958", "persons": {"3958": {"id": "3958", "name": "SULP4674 T. Sulpicius (not in RE) T. f.", "birthyear": -150, "deathyear": 25, "dprr_id": 4674, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

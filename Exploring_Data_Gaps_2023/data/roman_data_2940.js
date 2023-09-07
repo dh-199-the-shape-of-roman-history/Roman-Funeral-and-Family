@@ -1,0 +1,1 @@
+data = {"start": "2940", "persons": {"2940": {"id": "2940", "name": "TERE3485 C. (Terentius) (76) Varro", "birthyear": -250, "deathyear": -150, "dprr_id": 3485, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

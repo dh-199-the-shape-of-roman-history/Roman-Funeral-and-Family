@@ -1,0 +1,1 @@
+data = {"start": "500", "persons": {"500": {"id": "500", "name": "AULI0571 Q. Aulius (2) Q. f. Q. n. Cerretanus", "birthyear": -375, "deathyear": -315, "dprr_id": 571, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

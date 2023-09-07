@@ -1,0 +1,1 @@
+data = {"start": "941", "persons": {"941": {"id": "941", "name": "AURE1054 C. Aurelius (95) C. f. C. n. Cotta", "birthyear": -250, "deathyear": -150, "dprr_id": 1054, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

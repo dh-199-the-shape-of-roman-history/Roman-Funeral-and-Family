@@ -1,0 +1,1 @@
+data = {"start": "3212", "persons": {"3212": {"id": "3212", "name": "VERG3843 L. Verginius (cf. 15) Tricostus Esquilinus", "birthyear": -425, "deathyear": -325, "dprr_id": 3843, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

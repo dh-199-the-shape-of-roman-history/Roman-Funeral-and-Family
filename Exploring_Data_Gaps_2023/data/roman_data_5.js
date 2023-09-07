@@ -1,0 +1,1 @@
+data = {"start": "5", "persons": {"5": {"id": "5", "name": "HORA0005 M. Horatius (15) M. f. - n. Pulvillus", "birthyear": -550, "deathyear": -450, "dprr_id": 5, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

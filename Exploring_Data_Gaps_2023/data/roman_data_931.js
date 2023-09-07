@@ -1,0 +1,1 @@
+data = {"start": "931", "persons": {"931": {"id": "931", "name": "FABI1042 M. Fabius (54) Buteo", "birthyear": -250, "deathyear": -150, "dprr_id": 1042, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "186", "persons": {"186": {"id": "186", "name": "ATIL0210 L. Atilius (41) Luscus", "birthyear": -475, "deathyear": -375, "dprr_id": 210, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "1017", "persons": {"1017": {"id": "1017", "name": "SALO1148 C. Salonius (*2)", "birthyear": -225, "deathyear": -100, "dprr_id": 1148, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

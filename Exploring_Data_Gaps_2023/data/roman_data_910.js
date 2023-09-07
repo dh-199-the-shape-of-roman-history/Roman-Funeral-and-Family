@@ -1,0 +1,1 @@
+data = {"start": "910", "persons": {"910": {"id": "910", "name": "CLAU1019 Ti. Claudius (62, cf. 61) Asellus", "birthyear": -250, "deathyear": -150, "dprr_id": 1019, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

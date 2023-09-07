@@ -1,0 +1,1 @@
+data = {"start": "45", "persons": {"45": {"id": "45", "name": "GEGA0048 T. Geganius (7) Macerinus", "birthyear": -525, "deathyear": -425, "dprr_id": 48, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "411", "persons": {"411": {"id": "411", "name": "LICI0468 C. Licinius (161) C. f. P. n. Stolo", "birthyear": -400, "deathyear": -300, "dprr_id": 468, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

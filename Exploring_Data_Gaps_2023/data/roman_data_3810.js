@@ -1,0 +1,1 @@
+data = {"start": "3810", "persons": {"3810": {"id": "3810", "name": "HELV4504 L. Helvius (2)", "birthyear": -150, "deathyear": -50, "dprr_id": 4504, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

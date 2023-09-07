@@ -1,0 +1,1 @@
+data = {"start": "49", "persons": {"49": {"id": "49", "name": "GEGA0052 L. Geganius (1)", "birthyear": -525, "deathyear": -425, "dprr_id": 52, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

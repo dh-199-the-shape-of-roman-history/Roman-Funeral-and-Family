@@ -1,0 +1,1 @@
+data = {"start": "3717", "persons": {"3717": {"id": "3717", "name": "CLUV4401 N. Cluvius (7) Fal.", "birthyear": -150, "deathyear": 50, "dprr_id": 4401, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

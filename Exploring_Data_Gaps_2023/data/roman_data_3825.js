@@ -1,0 +1,1 @@
+data = {"start": "3825", "persons": {"3825": {"id": "3825", "name": "VETU4520 L. Veturius (not in RE) Barrus (or Varrus)", "birthyear": -150, "deathyear": -50, "dprr_id": 4520, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

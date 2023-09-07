@@ -1,0 +1,1 @@
+data = {"start": "62", "persons": {"62": {"id": "62", "name": "VALE0067 M. (Valerius) (cf. 65) Laevinus", "birthyear": -525, "deathyear": -425, "dprr_id": 67, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "1020", "persons": {"1020": {"id": "1020", "name": "AELI1152 Q. Aelius (153) Tubero", "birthyear": -225, "deathyear": -125, "dprr_id": 1152, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

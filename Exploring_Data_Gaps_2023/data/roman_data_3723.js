@@ -1,0 +1,1 @@
+data = {"start": "3723", "persons": {"3723": {"id": "3723", "name": "COSS4407 L. Cossinius (1) Lem.", "birthyear": -175, "deathyear": -25, "dprr_id": 4407, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

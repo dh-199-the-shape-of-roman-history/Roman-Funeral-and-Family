@@ -1,0 +1,1 @@
+data = {"start": "3986", "persons": {"3986": {"id": "3986", "name": "AUFI4711 L. Aufidius (181) Orestes", "birthyear": -175, "deathyear": -75, "dprr_id": 4711, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

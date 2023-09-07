@@ -1,0 +1,1 @@
+data = {"start": "140", "persons": {"140": {"id": "140", "name": "TARP0158 Sp. Tarpeius (4) M. f. M. n. Montanus Capitolinus", "birthyear": -500, "deathyear": -375, "dprr_id": 158, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

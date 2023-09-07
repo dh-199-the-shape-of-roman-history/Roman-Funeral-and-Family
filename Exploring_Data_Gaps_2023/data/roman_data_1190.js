@@ -1,0 +1,1 @@
+data = {"start": "1190", "persons": {"1190": {"id": "1190", "name": "CAEC1344 M. Caecilius (50) Denter", "birthyear": -225, "deathyear": -100, "dprr_id": 1344, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

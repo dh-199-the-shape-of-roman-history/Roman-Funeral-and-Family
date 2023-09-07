@@ -1,0 +1,1 @@
+data = {"start": "444", "persons": {"444": {"id": "444", "name": "DUIL0506 M. Duillius (7)", "birthyear": -400, "deathyear": -300, "dprr_id": 506, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

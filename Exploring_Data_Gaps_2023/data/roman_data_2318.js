@@ -1,0 +1,1 @@
+data = {"start": "2318", "persons": {"2318": {"id": "2318", "name": "FLAM2687 L. Flaminius (7) Chilo", "birthyear": -150, "deathyear": 25, "dprr_id": 2687, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "1591", "persons": {"1591": {"id": "1591", "name": "CANU1813 C. Canuleius (3)", "birthyear": -150, "deathyear": -25, "dprr_id": 1813, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

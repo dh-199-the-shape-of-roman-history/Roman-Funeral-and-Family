@@ -1,0 +1,1 @@
+data = {"start": "4829", "persons": {"4829": {"id": "4829", "name": "LARG5636 -. Largus or Largius (Largus 1)", "birthyear": -150, "deathyear": -50, "dprr_id": 5636, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

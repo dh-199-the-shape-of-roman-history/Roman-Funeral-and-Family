@@ -1,0 +1,1 @@
+data = {"start": "2957", "persons": {"2957": {"id": "2957", "name": "PUBL3504 C. Publicius (18) Malleolus", "birthyear": -150, "deathyear": -25, "dprr_id": 3504, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "4843", "persons": {"4843": {"id": "4843", "name": "PORC5650 L. Porcius (cf. Cornelius 359, Nasica 1) Nasica", "birthyear": -250, "deathyear": -125, "dprr_id": 5650, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "3187", "persons": {"3187": {"id": "3187", "name": "LUCI3814 -. Lucilius (cf. 18) (Balbus?)", "birthyear": -200, "deathyear": -75, "dprr_id": 3814, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

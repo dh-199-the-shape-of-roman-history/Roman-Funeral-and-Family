@@ -1,0 +1,1 @@
+data = {"start": "18", "persons": {"18": {"id": "18", "name": "VERG0019 Opet. Verginius (17) Opit. f.  Tricostus", "birthyear": -550, "deathyear": -425, "dprr_id": 19, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

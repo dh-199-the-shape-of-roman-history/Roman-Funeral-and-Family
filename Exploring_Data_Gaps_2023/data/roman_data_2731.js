@@ -1,0 +1,1 @@
+data = {"start": "2731", "persons": {"2731": {"id": "2731", "name": "OCTA3220 Cn. Octavius (19) L. f. Aem.", "birthyear": -175, "deathyear": -75, "dprr_id": 3220, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

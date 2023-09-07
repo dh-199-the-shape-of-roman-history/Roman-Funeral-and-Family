@@ -1,0 +1,1 @@
+data = {"start": "2512", "persons": {"2512": {"id": "2512", "name": "MANL2967 A. (Manlius) (cf. 74) Torquatus", "birthyear": -250, "deathyear": -50, "dprr_id": 2967, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

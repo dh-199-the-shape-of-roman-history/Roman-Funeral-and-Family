@@ -1,0 +1,1 @@
+data = {"start": "3970", "persons": {"3970": {"id": "3970", "name": "GRAN4690 Cn. Granius (4)", "birthyear": -150, "deathyear": -25, "dprr_id": 4690, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

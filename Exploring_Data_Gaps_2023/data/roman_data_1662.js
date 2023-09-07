@@ -1,0 +1,1 @@
+data = {"start": "1662", "persons": {"1662": {"id": "1662", "name": "MINU1901 Q. Minucius (66) M. f. Ter. Thermus", "birthyear": -150, "deathyear": -25, "dprr_id": 1901, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "232", "persons": {"232": {"id": "232", "name": "POST0268 M. Postumius (17) (A. f. A. n.) (Albinus) (Regillensis)", "birthyear": -475, "deathyear": -375, "dprr_id": 268, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "1123", "persons": {"1123": {"id": "1123", "name": "ACIL1268 L. Acilius (6)", "birthyear": -225, "deathyear": -125, "dprr_id": 1268, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

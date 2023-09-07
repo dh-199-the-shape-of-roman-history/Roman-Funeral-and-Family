@@ -1,0 +1,1 @@
+data = {"start": "667", "persons": {"667": {"id": "667", "name": "VALE0750 -. Valerius (3)", "birthyear": -300, "deathyear": -200, "dprr_id": 750, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

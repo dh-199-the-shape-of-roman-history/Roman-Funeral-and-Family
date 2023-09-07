@@ -1,0 +1,1 @@
+data = {"start": "431", "persons": {"431": {"id": "431", "name": "GENU0492 Cn. Genucius (13) M. f. M. n. Aventinensis", "birthyear": -400, "deathyear": -300, "dprr_id": 492, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

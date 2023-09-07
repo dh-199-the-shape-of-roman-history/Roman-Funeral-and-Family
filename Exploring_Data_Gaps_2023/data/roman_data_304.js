@@ -1,0 +1,1 @@
+data = {"start": "304", "persons": {"304": {"id": "304", "name": "ANCU0346 M. Ancus (not in RE)", "birthyear": -450, "deathyear": -350, "dprr_id": 346, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

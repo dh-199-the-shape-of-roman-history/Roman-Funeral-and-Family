@@ -1,0 +1,1 @@
+data = {"start": "895", "persons": {"895": {"id": "895", "name": "LICI1002 L. Licinius (143) Pollio", "birthyear": -250, "deathyear": -150, "dprr_id": 1002, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

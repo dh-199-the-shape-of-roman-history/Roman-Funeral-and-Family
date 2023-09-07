@@ -1,0 +1,1 @@
+data = {"start": "1555", "persons": {"1555": {"id": "1555", "name": "BAEB1775 M.? Baebius (17?) (Tamphilus)", "birthyear": -150, "deathyear": -50, "dprr_id": 1775, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

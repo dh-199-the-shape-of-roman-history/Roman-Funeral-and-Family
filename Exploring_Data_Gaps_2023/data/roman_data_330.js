@@ -1,0 +1,1 @@
+data = {"start": "330", "persons": {"330": {"id": "330", "name": "MANL0374 Q. Manlius (99) A. f. Cn. n. Vulso (Capitolinus)", "birthyear": -450, "deathyear": -325, "dprr_id": 374, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

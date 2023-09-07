@@ -1,0 +1,1 @@
+data = {"start": "3809", "persons": {"3809": {"id": "3809", "name": "GARG4503 C. Gargonius (1)", "birthyear": -150, "deathyear": -25, "dprr_id": 4503, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

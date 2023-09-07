@@ -1,0 +1,1 @@
+data = {"start": "2727", "persons": {"2727": {"id": "2727", "name": "NAUT3214 C. Nautius (Nutius 1) Q. f. Vot.", "birthyear": -175, "deathyear": -75, "dprr_id": 3214, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

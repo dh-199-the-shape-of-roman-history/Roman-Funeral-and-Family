@@ -1,0 +1,1 @@
+data = {"start": "2554", "persons": {"2554": {"id": "2554", "name": "PAPI3017 Q. Papirius (24)", "birthyear": -225, "deathyear": -100, "dprr_id": 3017, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

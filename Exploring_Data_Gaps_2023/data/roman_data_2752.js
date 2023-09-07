@@ -1,0 +1,1 @@
+data = {"start": "2752", "persons": {"2752": {"id": "2752", "name": "PUPI3241 M. Pupius (7) M. f. Sca.", "birthyear": -175, "deathyear": -50, "dprr_id": 3241, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

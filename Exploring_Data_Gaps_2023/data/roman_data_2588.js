@@ -1,0 +1,1 @@
+data = {"start": "2588", "persons": {"2588": {"id": "2588", "name": "PAVU3055 P. Tubitanus (Pavus) Pavus", "birthyear": -150, "deathyear": 25, "dprr_id": 3055, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

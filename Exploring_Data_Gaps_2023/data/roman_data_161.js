@@ -1,0 +1,1 @@
+data = {"start": "161", "persons": {"161": {"id": "161", "name": "APRO0182 C. Apronius (1)", "birthyear": -500, "deathyear": -375, "dprr_id": 182, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

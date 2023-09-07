@@ -1,0 +1,1 @@
+data = {"start": "1564", "persons": {"1564": {"id": "1564", "name": "CLAU1784 M. Claudius (226) Marcellus", "birthyear": -150, "deathyear": -25, "dprr_id": 1784, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

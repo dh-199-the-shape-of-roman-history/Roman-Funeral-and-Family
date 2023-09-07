@@ -1,0 +1,1 @@
+data = {"start": "835", "persons": {"835": {"id": "835", "name": "ACCA0934 V. Accaus (Vibius 8)", "birthyear": -250, "deathyear": -150, "dprr_id": 934, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

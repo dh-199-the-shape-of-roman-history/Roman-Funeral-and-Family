@@ -1,0 +1,1 @@
+data = {"start": "96", "persons": {"96": {"id": "96", "name": "ORBI0112  Orbinia (RE 18.1.877)", "birthyear": -500, "deathyear": -472, "dprr_id": 112, "own_unions": [], "is_certain": true, "gender": "Female", "icon": "Woman.png"}}, "unions": {}, "links": []}

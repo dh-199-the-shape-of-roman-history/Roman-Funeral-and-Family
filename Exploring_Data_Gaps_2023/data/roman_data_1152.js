@@ -1,0 +1,1 @@
+data = {"start": "1152", "persons": {"1152": {"id": "1152", "name": "AELI1301 C. Aelius (6, cf. Caelius 1) (or Caelius)", "birthyear": -225, "deathyear": -125, "dprr_id": 1301, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "549", "persons": {"549": {"id": "549", "name": "AEMI0625 M. Aemilius (116) L. f. L. n. Paullus", "birthyear": -350, "deathyear": -250, "dprr_id": 625, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

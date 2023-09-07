@@ -1,0 +1,1 @@
+data = {"start": "1248", "persons": {"1248": {"id": "1248", "name": "FONT1410 P. Fonteius (17) Balbus", "birthyear": -200, "deathyear": -100, "dprr_id": 1410, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

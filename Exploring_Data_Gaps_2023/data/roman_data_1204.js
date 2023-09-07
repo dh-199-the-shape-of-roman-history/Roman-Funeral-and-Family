@@ -1,0 +1,1 @@
+data = {"start": "1204", "persons": {"1204": {"id": "1204", "name": "DECI1360 M. Decimius (4)", "birthyear": -225, "deathyear": -100, "dprr_id": 1360, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

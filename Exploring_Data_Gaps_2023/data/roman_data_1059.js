@@ -1,0 +1,1 @@
+data = {"start": "1059", "persons": {"1059": {"id": "1059", "name": "SEMP1196 C. Sempronius (81) Rutilus", "birthyear": -225, "deathyear": -125, "dprr_id": 1196, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "3106", "persons": {"3106": {"id": "3106", "name": "PAPI3683 -. (Papirius) (75) Turdus", "birthyear": -200, "deathyear": -100, "dprr_id": 3683, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

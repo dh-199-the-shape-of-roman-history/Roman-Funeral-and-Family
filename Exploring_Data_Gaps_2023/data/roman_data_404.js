@@ -1,0 +1,1 @@
+data = {"start": "404", "persons": {"404": {"id": "404", "name": "HORA0459 M. Horatius (5) - f. - n. - - -", "birthyear": -425, "deathyear": -325, "dprr_id": 459, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "2508", "persons": {"2508": {"id": "2508", "name": "FABI2960 -. Fabius (144) Senator", "birthyear": -150, "deathyear": 50, "dprr_id": 2960, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

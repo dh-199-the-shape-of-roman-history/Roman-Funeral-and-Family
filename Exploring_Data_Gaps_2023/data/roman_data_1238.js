@@ -1,0 +1,1 @@
+data = {"start": "1238", "persons": {"1238": {"id": "1238", "name": "VOCO1398 Q. Voconius (4) Hor. Saxa", "birthyear": -200, "deathyear": -100, "dprr_id": 1398, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

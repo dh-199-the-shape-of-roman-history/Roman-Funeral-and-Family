@@ -1,0 +1,1 @@
+data = {"start": "2519", "persons": {"2519": {"id": "2519", "name": "SEXT2976 P. Sextilius (not in RE)", "birthyear": -250, "deathyear": -100, "dprr_id": 2976, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "3336", "persons": {"3336": {"id": "3336", "name": "CLOD3976 Ser. Clodius (11)", "birthyear": -150, "deathyear": 0, "dprr_id": 3976, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

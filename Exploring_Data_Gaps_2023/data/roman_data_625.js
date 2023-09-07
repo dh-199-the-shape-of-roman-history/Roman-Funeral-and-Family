@@ -1,0 +1,1 @@
+data = {"start": "625", "persons": {"625": {"id": "625", "name": "IULI0704 L. Iulius (318) L. f. L. n. Libo", "birthyear": -300, "deathyear": -200, "dprr_id": 704, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "3083", "persons": {"3083": {"id": "3083", "name": "MARC3659 Q. (Marcius) (82) Philippus", "birthyear": -175, "deathyear": -100, "dprr_id": 3659, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

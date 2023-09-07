@@ -1,0 +1,1 @@
+data = {"start": "1097", "persons": {"1097": {"id": "1097", "name": "NAEV1240 Q. Naevius (4, 16) Matho", "birthyear": -218, "deathyear": -125, "dprr_id": 1240, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

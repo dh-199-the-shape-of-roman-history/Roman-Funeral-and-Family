@@ -1,0 +1,1 @@
+data = {"start": "4251", "persons": {"4251": {"id": "4251", "name": "LICI5046 -. Licinius (13.372) Lucullus", "birthyear": -150, "deathyear": -50, "dprr_id": 5046, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

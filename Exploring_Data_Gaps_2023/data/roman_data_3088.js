@@ -1,0 +1,1 @@
+data = {"start": "3088", "persons": {"3088": {"id": "3088", "name": "URBI3664 Q. Urbinius (not in RE)", "birthyear": -150, "deathyear": -50, "dprr_id": 3664, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

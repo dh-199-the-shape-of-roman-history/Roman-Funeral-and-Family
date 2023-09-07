@@ -1,0 +1,1 @@
+data = {"start": "1625", "persons": {"1625": {"id": "1625", "name": "SEST1854 L. Sestius (2)", "birthyear": -150, "deathyear": -56, "dprr_id": 1854, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

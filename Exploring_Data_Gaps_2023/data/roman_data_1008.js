@@ -1,0 +1,1 @@
+data = {"start": "1008", "persons": {"1008": {"id": "1008", "name": "CORN1137 Cn. Cornelius (265) Merenda", "birthyear": -225, "deathyear": -175, "dprr_id": 1137, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

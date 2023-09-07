@@ -1,0 +1,1 @@
+data = {"start": "31", "persons": {"31": {"id": "31", "name": "SERV0033 P. Servilius (76) P. f. - n. Priscus Structus", "birthyear": -550, "deathyear": -425, "dprr_id": 33, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

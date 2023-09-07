@@ -1,0 +1,1 @@
+data = {"start": "417", "persons": {"417": {"id": "417", "name": "QUIN0476 T. Quinctius (33) Cincinnatus Capitolinus", "birthyear": -400, "deathyear": -300, "dprr_id": 476, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "583", "persons": {"583": {"id": "583", "name": "CORN0661 P. Cornelius (56) A. f. P. n. Arvina", "birthyear": -325, "deathyear": -225, "dprr_id": 661, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

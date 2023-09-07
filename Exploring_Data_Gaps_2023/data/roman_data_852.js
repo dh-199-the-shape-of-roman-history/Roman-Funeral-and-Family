@@ -1,0 +1,1 @@
+data = {"start": "852", "persons": {"852": {"id": "852", "name": "CINC0957 L. Cincius (5) Alimentus", "birthyear": -250, "deathyear": -150, "dprr_id": 957, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

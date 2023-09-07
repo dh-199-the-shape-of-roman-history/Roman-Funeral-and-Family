@@ -1,0 +1,1 @@
+data = {"start": "4336", "persons": {"4336": {"id": "4336", "name": "NANN5141 -. Nanneius (Nanneius)", "birthyear": -150, "deathyear": -80, "dprr_id": 5141, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

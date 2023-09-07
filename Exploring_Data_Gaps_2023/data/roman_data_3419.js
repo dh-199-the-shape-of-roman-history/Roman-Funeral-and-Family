@@ -1,0 +1,1 @@
+data = {"start": "3419", "persons": {"3419": {"id": "3419", "name": "EPPU4064  Eppuleia (2)", "birthyear": -150, "deathyear": -50, "dprr_id": 4064, "own_unions": [], "is_certain": true, "gender": "Female", "icon": "Woman.png"}}, "unions": {}, "links": []}

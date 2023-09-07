@@ -1,0 +1,1 @@
+data = {"start": "3189", "persons": {"3189": {"id": "3189", "name": "TERE3817 -. Teresius (or Terentius?) (not in RE)", "birthyear": -150, "deathyear": -50, "dprr_id": 3817, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

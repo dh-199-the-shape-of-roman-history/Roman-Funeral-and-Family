@@ -1,0 +1,1 @@
+data = {"start": "1078", "persons": {"1078": {"id": "1078", "name": "ATIN1220 C. Atinius (1, 2)", "birthyear": -225, "deathyear": -186, "dprr_id": 1220, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

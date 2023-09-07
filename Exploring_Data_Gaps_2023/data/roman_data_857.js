@@ -1,0 +1,1 @@
+data = {"start": "857", "persons": {"857": {"id": "857", "name": "ARRE0962 C. Arrenius (1)", "birthyear": -250, "deathyear": -150, "dprr_id": 962, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

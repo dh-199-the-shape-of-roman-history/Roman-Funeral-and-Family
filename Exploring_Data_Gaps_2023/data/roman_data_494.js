@@ -1,0 +1,1 @@
+data = {"start": "494", "persons": {"494": {"id": "494", "name": "POST0564 A. Postumius (9)", "birthyear": -375, "deathyear": -275, "dprr_id": 564, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

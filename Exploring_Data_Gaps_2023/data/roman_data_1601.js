@@ -1,0 +1,1 @@
+data = {"start": "1601", "persons": {"1601": {"id": "1601", "name": "SEMP1824 C. Sempronius (64) Longus", "birthyear": -150, "deathyear": -25, "dprr_id": 1824, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

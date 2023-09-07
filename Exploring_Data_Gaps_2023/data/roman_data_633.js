@@ -1,0 +1,1 @@
+data = {"start": "633", "persons": {"633": {"id": "633", "name": "CLAU0714 C. Claudius (18)", "birthyear": -300, "deathyear": -200, "dprr_id": 714, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

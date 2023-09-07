@@ -1,0 +1,1 @@
+data = {"start": "2944", "persons": {"2944": {"id": "2944", "name": "ANTE3489 C. Antestius  (Antistius 10)", "birthyear": -200, "deathyear": -75, "dprr_id": 3489, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

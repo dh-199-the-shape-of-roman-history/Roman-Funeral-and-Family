@@ -1,0 +1,1 @@
+data = {"start": "1050", "persons": {"1050": {"id": "1050", "name": "AEMI1186 L. Aemilius (138) Scaurus", "birthyear": -225, "deathyear": -125, "dprr_id": 1186, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

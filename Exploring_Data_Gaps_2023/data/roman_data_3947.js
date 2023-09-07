@@ -1,0 +1,1 @@
+data = {"start": "3947", "persons": {"3947": {"id": "3947", "name": "LICI4659 C. Licinius (153) Ste. Sacerdos", "birthyear": -200, "deathyear": -125, "dprr_id": 4659, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

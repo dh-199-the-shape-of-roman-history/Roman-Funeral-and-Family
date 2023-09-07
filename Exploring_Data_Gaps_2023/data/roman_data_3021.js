@@ -1,0 +1,1 @@
+data = {"start": "3021", "persons": {"3021": {"id": "3021", "name": "TREB3582 L. Trebanius (1)", "birthyear": -175, "deathyear": -75, "dprr_id": 3582, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

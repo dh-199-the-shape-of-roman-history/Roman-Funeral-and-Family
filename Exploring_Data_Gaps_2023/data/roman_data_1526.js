@@ -1,0 +1,1 @@
+data = {"start": "1526", "persons": {"1526": {"id": "1526", "name": "COEL1744 C. Coelius (12) C. f. C. n. Caldus", "birthyear": -140, "deathyear": -25, "dprr_id": 1744, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "3481", "persons": {"3481": {"id": "3481", "name": "AELI4136 L. Aelius (74) Lamia", "birthyear": -150, "deathyear": -50, "dprr_id": 4136, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

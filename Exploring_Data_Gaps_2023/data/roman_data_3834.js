@@ -1,0 +1,1 @@
+data = {"start": "3834", "persons": {"3834": {"id": "3834", "name": "AGRI4531 C. Agrius (1)", "birthyear": -175, "deathyear": 50, "dprr_id": 4531, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

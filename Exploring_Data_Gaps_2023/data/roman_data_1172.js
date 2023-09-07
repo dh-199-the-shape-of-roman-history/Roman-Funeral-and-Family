@@ -1,0 +1,1 @@
+data = {"start": "1172", "persons": {"1172": {"id": "1172", "name": "BAEB1325 Q. Baebius (40) Sulca", "birthyear": -225, "deathyear": -100, "dprr_id": 1325, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

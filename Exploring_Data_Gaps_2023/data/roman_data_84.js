@@ -1,0 +1,1 @@
+data = {"start": "84", "persons": {"84": {"id": "84", "name": "GENU0100 T. Genucius (8)", "birthyear": -525, "deathyear": -425, "dprr_id": 100, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

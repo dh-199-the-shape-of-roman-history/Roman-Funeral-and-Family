@@ -1,0 +1,1 @@
+data = {"start": "171", "persons": {"171": {"id": "171", "name": "FURI0193 Q. Furius (24, cf. 76) (Pacilus) (Fusus)", "birthyear": -500, "deathyear": -375, "dprr_id": 193, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

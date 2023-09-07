@@ -1,0 +1,1 @@
+data = {"start": "3144", "persons": {"3144": {"id": "3144", "name": "PACU3768 Sex. Pacuius (Pacuvius?) (cf. 76) Taurus", "birthyear": -150, "deathyear": 50, "dprr_id": 3768, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

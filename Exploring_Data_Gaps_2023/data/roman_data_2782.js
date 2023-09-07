@@ -1,0 +1,1 @@
+data = {"start": "2782", "persons": {"2782": {"id": "2782", "name": "SILI3272 P. Silius (7) L. f. Gal.", "birthyear": -175, "deathyear": -75, "dprr_id": 3272, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

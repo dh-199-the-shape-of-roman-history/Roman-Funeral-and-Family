@@ -1,0 +1,1 @@
+data = {"start": "544", "persons": {"544": {"id": "544", "name": "ANIC0619 Q. Anicius (5) Praenestinus", "birthyear": -350, "deathyear": -250, "dprr_id": 619, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

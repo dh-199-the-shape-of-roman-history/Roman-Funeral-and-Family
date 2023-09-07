@@ -1,0 +1,1 @@
+data = {"start": "459", "persons": {"459": {"id": "459", "name": "FABI0524 M. Fabius (69, cf. 24) Dorsuo", "birthyear": -400, "deathyear": -275, "dprr_id": 524, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

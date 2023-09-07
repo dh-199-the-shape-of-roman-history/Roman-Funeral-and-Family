@@ -1,0 +1,1 @@
+data = {"start": "4363", "persons": {"4363": {"id": "4363", "name": "PAPI5170 P. Papirius (58, 23, 64) Maso", "birthyear": -250, "deathyear": -150, "dprr_id": 5170, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

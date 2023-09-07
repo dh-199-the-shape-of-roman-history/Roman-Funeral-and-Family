@@ -1,0 +1,1 @@
+data = {"start": "1401", "persons": {"1401": {"id": "1401", "name": "MANL1584 -. Manlius (2, cf. 74)", "birthyear": -175, "deathyear": -75, "dprr_id": 1584, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

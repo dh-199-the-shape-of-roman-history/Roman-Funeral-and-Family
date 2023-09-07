@@ -1,0 +1,1 @@
+data = {"start": "2985", "persons": {"2985": {"id": "2985", "name": "LUCR3534 Cn. Lucretius (32) Trio", "birthyear": -175, "deathyear": -75, "dprr_id": 3534, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

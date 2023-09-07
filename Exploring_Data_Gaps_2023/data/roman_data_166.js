@@ -1,0 +1,1 @@
+data = {"start": "166", "persons": {"166": {"id": "166", "name": "TITI0187 M. Titinius (10)", "birthyear": -500, "deathyear": -375, "dprr_id": 187, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

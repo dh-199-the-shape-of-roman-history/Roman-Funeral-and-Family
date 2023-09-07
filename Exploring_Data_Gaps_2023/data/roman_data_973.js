@@ -1,0 +1,1 @@
+data = {"start": "973", "persons": {"973": {"id": "973", "name": "CURI1094 M'. Curius (4)", "birthyear": -250, "deathyear": -125, "dprr_id": 1094, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

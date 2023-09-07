@@ -1,0 +1,1 @@
+data = {"start": "3082", "persons": {"3082": {"id": "3082", "name": "MARI3657 Q. Marius (26)", "birthyear": -225, "deathyear": -125, "dprr_id": 3657, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

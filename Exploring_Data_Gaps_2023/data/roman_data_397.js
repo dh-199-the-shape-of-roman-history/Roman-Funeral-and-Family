@@ -1,0 +1,1 @@
+data = {"start": "397", "persons": {"397": {"id": "397", "name": "SEXT0452 C. Sextilius (6)", "birthyear": -425, "deathyear": -325, "dprr_id": 452, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

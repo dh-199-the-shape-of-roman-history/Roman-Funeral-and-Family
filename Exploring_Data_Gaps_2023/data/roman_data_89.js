@@ -1,0 +1,1 @@
+data = {"start": "89", "persons": {"89": {"id": "89", "name": "MANL0105 A. Manlius (89) (Cn. f. P. n.) Vulso", "birthyear": -525, "deathyear": -400, "dprr_id": 105, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Picta.png"}}, "unions": {}, "links": []}

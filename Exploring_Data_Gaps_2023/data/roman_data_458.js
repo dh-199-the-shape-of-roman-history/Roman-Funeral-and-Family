@@ -1,0 +1,1 @@
+data = {"start": "458", "persons": {"458": {"id": "458", "name": "PLAU0523 C. Plautius (31) Venox or Venno", "birthyear": -400, "deathyear": -275, "dprr_id": 523, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

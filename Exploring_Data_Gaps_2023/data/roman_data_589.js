@@ -1,0 +1,1 @@
+data = {"start": "589", "persons": {"589": {"id": "589", "name": "AQUI0667 -. Aquillius (not in RE)", "birthyear": -350, "deathyear": -150, "dprr_id": 667, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

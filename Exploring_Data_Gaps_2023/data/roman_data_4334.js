@@ -1,0 +1,1 @@
+data = {"start": "4334", "persons": {"4334": {"id": "4334", "name": "MARI5139 -. Marius (2)", "birthyear": -150, "deathyear": -80, "dprr_id": 5139, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

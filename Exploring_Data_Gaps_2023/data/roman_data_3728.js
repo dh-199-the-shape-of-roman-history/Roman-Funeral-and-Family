@@ -1,0 +1,1 @@
+data = {"start": "3728", "persons": {"3728": {"id": "3728", "name": "CURT4412 C. Curtius (1)", "birthyear": -150, "deathyear": -80, "dprr_id": 4412, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

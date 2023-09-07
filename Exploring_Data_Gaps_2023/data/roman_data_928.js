@@ -1,0 +1,1 @@
+data = {"start": "928", "persons": {"928": {"id": "928", "name": "SILI1038 M. Silius (5)", "birthyear": -250, "deathyear": -150, "dprr_id": 1038, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

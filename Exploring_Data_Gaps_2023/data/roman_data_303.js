@@ -1,0 +1,1 @@
+data = {"start": "303", "persons": {"303": {"id": "303", "name": "CLOD0345 Capitos Clodius (not in RE)", "birthyear": -450, "deathyear": -350, "dprr_id": 345, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

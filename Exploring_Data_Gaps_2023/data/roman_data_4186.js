@@ -1,0 +1,1 @@
+data = {"start": "4186", "persons": {"4186": {"id": "4186", "name": "PLAU4962 L. Plautius (A)", "birthyear": -150, "deathyear": -50, "dprr_id": 4962, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

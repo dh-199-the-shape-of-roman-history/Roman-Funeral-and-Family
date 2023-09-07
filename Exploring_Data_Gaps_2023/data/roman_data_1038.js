@@ -1,0 +1,1 @@
+data = {"start": "1038", "persons": {"1038": {"id": "1038", "name": "ORFI1174 Sex. Orfidienus (col. 1019)", "birthyear": -225, "deathyear": -125, "dprr_id": 1174, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

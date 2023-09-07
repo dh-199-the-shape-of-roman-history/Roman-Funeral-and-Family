@@ -1,0 +1,1 @@
+data = {"start": "3990", "persons": {"3990": {"id": "3990", "name": "AFRA4715 A. Afranius (2)", "birthyear": -175, "deathyear": -75, "dprr_id": 4715, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

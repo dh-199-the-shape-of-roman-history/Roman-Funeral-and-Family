@@ -1,0 +1,1 @@
+data = {"start": "445", "persons": {"445": {"id": "445", "name": "MENE0507 L. Menenius (1)", "birthyear": -400, "deathyear": -300, "dprr_id": 507, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "352", "persons": {"352": {"id": "352", "name": "FOLI0402 M. Folius (1, 2) M. f. (Flaccinator)", "birthyear": -450, "deathyear": -390, "dprr_id": 402, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

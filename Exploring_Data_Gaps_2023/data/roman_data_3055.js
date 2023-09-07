@@ -1,0 +1,1 @@
+data = {"start": "3055", "persons": {"3055": {"id": "3055", "name": "FABI3622 N. Fabius (125) Pictor", "birthyear": -175, "deathyear": -75, "dprr_id": 3622, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "1111", "persons": {"1111": {"id": "1111", "name": "OGUL1255 M. Ogulnius (4) Gallus", "birthyear": -238, "deathyear": -125, "dprr_id": 1255, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

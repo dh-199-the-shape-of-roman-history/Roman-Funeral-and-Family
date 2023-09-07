@@ -1,0 +1,1 @@
+data = {"start": "2980", "persons": {"2980": {"id": "2980", "name": "CORN3529 Cn. Cornelius (75) Cn. f. Blasio", "birthyear": -150, "deathyear": -50, "dprr_id": 3529, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

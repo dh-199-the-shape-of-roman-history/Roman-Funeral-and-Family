@@ -1,0 +1,1 @@
+data = {"start": "129", "persons": {"129": {"id": "129", "name": "FURI0146 -. (Furius?) (3.1968) Carve(tus)", "birthyear": -500, "deathyear": -458, "dprr_id": 146, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

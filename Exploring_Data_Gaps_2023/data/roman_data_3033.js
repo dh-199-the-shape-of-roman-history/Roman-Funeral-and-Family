@@ -1,0 +1,1 @@
+data = {"start": "3033", "persons": {"3033": {"id": "3033", "name": "CALI3598 M. Calidius (3)", "birthyear": -150, "deathyear": -50, "dprr_id": 3598, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

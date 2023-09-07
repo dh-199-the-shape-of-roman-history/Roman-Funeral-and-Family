@@ -1,0 +1,1 @@
+data = {"start": "244", "persons": {"244": {"id": "244", "name": "ANTI0280 Ti. Antistius (21)", "birthyear": -475, "deathyear": -350, "dprr_id": 280, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

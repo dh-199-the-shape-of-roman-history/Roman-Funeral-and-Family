@@ -1,0 +1,1 @@
+data = {"start": "1150", "persons": {"1150": {"id": "1150", "name": "TITI1298 M. Titinius (13, cf. 20)", "birthyear": -225, "deathyear": -125, "dprr_id": 1298, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

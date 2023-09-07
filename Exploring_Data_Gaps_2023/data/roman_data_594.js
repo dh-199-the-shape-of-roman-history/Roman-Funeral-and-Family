@@ -1,0 +1,1 @@
+data = {"start": "594", "persons": {"594": {"id": "594", "name": "SERV0672 C. Servilius (88) Tucca", "birthyear": -325, "deathyear": -225, "dprr_id": 672, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "Praetexta.png"}}, "unions": {}, "links": []}

@@ -1,0 +1,1 @@
+data = {"start": "418", "persons": {"418": {"id": "418", "name": "SERV0477 Sp. Servilius (86) C. f. C. n. Structus", "birthyear": -400, "deathyear": -300, "dprr_id": 477, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}

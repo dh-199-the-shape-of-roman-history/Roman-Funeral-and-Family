@@ -1,0 +1,1 @@
+data = {"start": "868", "persons": {"868": {"id": "868", "name": "OGUL0973 M. Ogulnius (3)", "birthyear": -250, "deathyear": -196, "dprr_id": 973, "own_unions": [], "is_certain": true, "gender": "Male", "icon": "NoPosition.png"}}, "unions": {}, "links": []}
